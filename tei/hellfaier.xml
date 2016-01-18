@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <!--ToDO: Weitere Abbildung von Fürst Leopold IV. einfügen-->
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Leopolds Löwen und Hermanns Bären</title>
+            <title type="sub"><q>Offizielles Lipperband</q> zum Besten der Hinterbliebenen</title>
+            <author>
+               <name><forename>Detlev</forename> <surname>Hellfaier</surname></name>
+               <email/>
+               <affiliation><!--geb. 1948 in Quedlinburg, Ltd. Bibliotheksdirektor a.&#8239;D. Studium-->studierte Geschichte, Geographie und Historische Hilfswissenschaften in Gießen und Göttingen. Nach dem Magisterexamen Assistent am Institut für Historische Landesforschung der Universität Göttingen, Bibliotheksreferendar in Münster und Köln, Staatsprüfung für den Höheren (Wissenschaftlichen) Bibliotheksdienst, Referent und Direktionsassistent an der UB der FU Berlin, von 1983 bis 2013 Direktor der Lippischen Landesbibliothek Detmold. Seither im Ruhestand, lebt in Detmold. <!--&#x2013;--> Zahlr. Veröffentlichungen zum Buch- und Bibliothekswesen, zur nordwestdeutschen Landesgeschichte, zur Kulturgeschichte und zur deutschen Literaturgeschichte des 19.&#8239;Jahrhunderts. Mitglied der Historischen Kommission für Niedersachsen und Bremen.</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="hellfaier-pers001">
+                  <p>Leopold IV., Fürst zur Lippe-Detmold</p>
+               </person>
+               <person xml:id="hellfaier-pers003">
+                  <p>Bergmann, Kuno</p>
+               </person>
+               <person xml:id="hellfaier-pers004">
+                  <p>Eppstein, Georg von</p>
+               </person>
+               <person xml:id="hellfaier-pers007">
+                  <p>Ernst, Graf zur Lippe-Biesterfeld</p>
+               </person>
+               <person xml:id="hellfaier-pers009">
+                  <p>Kastner, Hermann</p>
+               </person>
+               <person xml:id="hellfaier-pers014">
+                  <p>Armin Prinz zur Lippe</p>
+               </person>
+               <person xml:id="hellfaier-pers015">
+                  <p>Rehbein, Arthur</p>
+               </person>
+               <person xml:id="hellfaier-pers018">
+                  <p>Schulze, Hans Rudolf</p>
+               </person>
+               <person xml:id="hellfaier-pers021">
+                  <p>Wilhelm II., deutscher Kaiser</p>
+               </person>
+               <person xml:id="hellfaier-pers022">
+                  <p>Winkel, Gustav G.</p>
+               </person>
+               <person xml:id="hellfaier-pers023">
+                  <p>Pickardt, Ernst</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-hellfaier-width05">width=0.5\textwidth</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-09-18T17:46:24.396+02:00"
+            who="https://github.com/peterstadler">Kurztitel, Anhang und Abbildungen eingefügt</change>
+         <change when="2015-08-05T20:29:24.396+02:00"
+            who="https://github.com/peterstadler">Text ausgezeichnet mitsamt Personen und Literatur. Anhang mit Bildern fehlt noch!</change>
+         <change when="2015-06-05T23:26:24.396+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="hellfaier-abstract"><p>Während des 1.&#8239;Weltkriegs wurde in Lippe ein Vivatband zu Ehren des Fürsten Leopold IV. und des Infanterie-Regiments Nr.&#8239;55 aufgelegt, dessen Verkaufserlös den Hinterbliebenen der gefallenen lippischen Soldaten zu Gute kommen sollte. Unter Vivatbändern sind bedruckte farbige Halbseidenbänder zu verstehen, die an erfolgreiche Schlachten oder andere militärische Leistungen erinnern sollten. Das <q>Offizielle Lipperband</q> war bisher nicht Gegenstand der Forschung. Das orangefarbene Band zeigt unter dem namengebenden <q>VIVAT</q> das Kopfporträt des Fürsten, darunter gereimte Verse, Schwert und Wappenschild mit den Schlachtenorten, an denen das Regiment im Westen gekämpft hat, es folgen Kriegsverdienstkreuz und Spendenzweck. Das bisher aktenmäßig nicht dokumentierte Kriegwahrzeichen kann in den Herbst 1916 datierte werden und geht wohl auf fürstliche Initiative zurück. Beziehungen des gestaltenden Berliner Künstlers Hans Rudolf Schulze (Grafik) und des Publizisten Arthur Rehbein (Text) zum Detmolder Hof sind nachgewiesen. Gemeinsam hatten beide zwischen 1915 und 1916 weitere neun Vivatbänder entworfen; diese werden zum Vergleich herangezogen. Als regionales Beispiel und Zeugnis der Erinnerungskultur kann das Lipperband in eine fächerübergreifende Auswertung der Kriegsdevotionalien miteinbezogen werden.</p></div>
+      </front>
+      <body>
+         <p>Der Erste Weltkrieg hat auch in Lippe seine Spuren hinterlassen. Die Ausstellung <q>1914–1918, Krieg und Erinnerung</q> im Lippischen Landesmuseum und die vom Kreisarchiv erarbeitete Wanderausstellung <q>Vorwärts auf den Feind, koste es, was es wolle!&#x00A0;– Lipper im Ersten Weltkrieg</q> haben mit Exponaten, Fotomaterial und Begleittexten nicht nur die Beteiligung lippischer Einheiten an den Kämpfen in Belgien und in Frankreich nachgezeichnet, sondern auch den Alltag der Zivilbevölkerung und die Situation der Hinterbliebenen vor Augen geführt.<note xml:id="hellfaier-ftn1" n="1">Vgl. <ref target="#Krull2013" type="bibl"/>; <ref target="#Riechert2014" type="bibl"/>.</note>  Mehr als 4.200 Gefallene hatte allein das weitgehend aus Lippern bestehende Infanterie-Regiment Nr.&#8239;55 (6.&#x00A0;Westfälisches), dessen drei Bataillone in Höxter (I.), Bielefeld (II.) und Detmold (III.) stationiert waren, zu beklagen. Kaum eine Familie blieb von Kriegstoten, Vermissten oder Verwundeten verschont. Landesweit künden noch heute in nahezu jedem lippischen Ort Kriegerdenkmäler und Totentafeln in den Kirchen in uns eher fremder Ikonographie und Rhetorik von <q>Heldenmut</q> und <q>Heldentod für das Vaterland.</q> Wie man auch dazu steht: sie alle eint die schier endlose Reihe der Gefallenen, oft unter Angabe von Sterbeort und Sterbedatum; Namensgleichheit legt nahe, dass viele Familien mehrfach betroffen waren. Was sie verschweigen, sind die Folgen für die Hinterbliebenen und deren bedrückende soziale Situation. Angesichts der hohen Verlustzahlen und oft nur bescheidener staatlicher Alimentation der Witwen, Waisen und Versehrten begann man auch in Lippe recht bald nach Kriegsausbruch damit, zu deren Gunsten Spenden zu sammeln, Ausschüsse der Kriegsfürsorge zu bilden, Benefizveranstaltungen durchzuführen und Kriegsdevotionalien zu verkaufen. Zahlreiche Aktivitäten verdankten ihr Entstehen privater Initiative. </p>
+         <p>In diesen Zusammenhang gehört im Fürstentum Lippe die Auflage eines sogenannten Vivatbandes, das als <q>Offizielles Lipperband</q> den Spendenzweck <q>Eine Mark zum Besten der Hinterbliebenen der im Felde gefallnen lippischen Helden</q> aufführt. Unter den Vivatbändern, so ist in Erinnerung zu rufen, versteht man bedruckte farbige Halbseidenbänder, die angesichts einer erfolgreichen Schlacht, einer herausragenden militärischen Leistung oder zum Ruhme einer kämpfenden Einheit herausgegeben wurden. Sie beginnen stets mit dem Wort <q>Vivat</q>, es folgen in der Regel das Porträt des erfolgreichen Kommandeurs, eine Grafik in freier Gestaltung und ein literarisches Zitat, Sprichwort oder Gedicht. Den Abschluss bildet ein Hinweis auf den verfolgten Spendenzweck. Von 1914 bis etwa 1917 erschienen in einschlägigen Kunstverlagen in Deutschland und in Österreich ganze Serien von Vivatbändern. Oft von namhaften Künstlern, u.&#8239;a. der Münchner und Berliner Secession, gestaltet, avancierten die Bänder als Andenken, Propagandamittel, Schmucktextilien und Spendenbelege schnell zu pittoresken Sammlerobjekten der Erinnerungskultur.<note xml:id="hellfaier-ftn2" n="2"><ref target="#Vanja1985" type="bibl"/>; <ref target="#Loidl2004" type="bibl"/>; <ref target="#Pust2008" type="bibl"/>; <ref target="#Gross2014" type="bibl"/>.</note>  
+            In den ehemaligen Kriegssammlungen der Archive, Bibliotheken, Museen und anderen Institutionen in Deutschland, in denen der Erste Weltkrieg als <q>große Zeitenwende</q> in Bild-, Text- und Sachzeugnissen akribisch dokumentiert wurde, gehörten Vivatbänder von vornherein zum Sammelauftrag.<note xml:id="hellfaier-ftn3" n="3"><ref target="#Buddecke1917" type="bibl"/>; zuletzt <ref target="#Gaertringen2014" type="bibl"/>; ein interaktives Webportal zu den Kriegssammlungen wurde Anfang 2014 unter <ptr target="http://www.Kriegssammlungen.de"/>; eingerichtet, vgl. <ref target="#Gaertringen2014b" type="bibl"/>.</note>  
+            Da das siegreiche Ende mit zunehmender Dauer des Krieges in weite Ferne rückte, erlahmte das Interesse am Sammeln und Erschließen bald, und die Überlieferung weist heute z.&#8239;T. erhebliche Lücken auf.<note xml:id="hellfaier-ftn4" n="4">In der Kriegssammlung der Lippischen Landesbibliothek Detmold sind neben Feldzeitungen, Plakaten, Maueranschlägen, Notgeld und Extrablättern der regionalen Tageszeitungen auch an die 50&#x00A0;Vivatbänder erhalten geblieben, das <q>Lipperband</q> befindet sich nicht darunter, vgl. <ref target="#Hellfaier2014" type="bibl"/>; zur Detmolder Sammlung kurz <ref target="#EberhardtHellfaier2014" type="bibl"/>.</note>  
+            Die Länder der Entente kannten im Übrigen diese Form der Kriegswahrzeichen nicht.</p>
+         <p><q>Das [Offizielle Lipper-]Band ist etwas massig, wirkt aber trotzdem nicht schlecht</q>, urteilte <name ref="#hellfaier-pers022">Gustav G. Winkel</name>, der Initiator und Sammler von Vivatbändern im Jahre 1920 etwas gönnerhaft.<ref type="bibl" target="#Winkel1920" xml:id="hellfaier-ftn100">S.&#8239;117</ref>  
+            Der aus Königsberg stammende Verwaltungsjurist hatte die im 19.&#8239;Jahrhundert ins Hintertreffen geratene Tradition der Vivatbänder im Zuge der Vorbereitungen zum hundertsten Jubiläum der Völkerschlacht bei Leipzig 1913 wieder ins Leben gerufen und mit dem Verkauf erhebliche Erfolge zu Gunsten karitativer Einrichtungen erzielt.<note xml:id="hellfaier-ftn6" n="6">Vgl. <ref target="#Vanja1985" type="bibl">S.&#8239;32–36</ref>; Beispiel aus Detmolder Sammlungen: <ref target="#Hellfaier2013" type="bibl"/>.</note>  
+            Daran knüpfte man nach Ausbruch des Krieges nahtlos an und machte sich die erwachte Beliebtheit der Bänder für eben solche Zwecke zu Nutze. Das Lipperband steht für eine überschaubare Zahl regionaler Vivatbänder, die hier und da als Einzelstücke aufgelegt worden sind. Im Lippischen Landesmuseum in Detmold sind etliche Exemplare dieses Bandes überliefert. Das meist hellorange-gelbe atlasbindige Band, von dem es auch Varianten in anderen Farben gibt, besteht aus einem Mischgewebe mit Seidenkette und Baumwollschuss, die Ränder sind umgelegt und geprägt. Das Band in den Maßen von 6,4&#8239;x&#8239;39,4&#8239;cm ist schwarz bedruckt und fünffach unterteilt. Es zeigt unter der namengebenden Überschrift <q>VIVAT</q> im Blütenrahmen das Kopfporträt des <name ref="#hellfaier-pers001">Fürsten Leopold IV. zur Lippe (1871–1949)</name>. Der Fürst trägt den hochgeschlossenen Uniformrock mit Offizierskragenspiegel, -epauletten und -schirmmütze. Darunter liest man in einer ziselierten Plakette die Verse:</p>
+         <floatingText>
+            <body>
+               <lg>
+                  <l>Wisst ihr von [!] | Teutoburger Mut? |</l> 
+                  <l>Wie glänzt er neu aus Glut und Blut! |</l> 
+                  <l>Noch lebt der alte Cheruskerzorn |</l> 
+                  <l>und die Lippische Rose hat | scharfen Dorn |</l> 
+                  <l>und Leopolds Leuen han | scharfen Zahn |</l> 
+                  <l>und beissen wie’s | Hermanns Bären getan. |</l>
+                  <l>A. Rehbein.</l>
+               </lg>
+            </body>
+         </floatingText> 
+         
+         <figure xml:id="hellfaier-fig01">
+            <graphic url="figures/hellfaier-fig01.png" width="831px" height="4685px"/>
+            <head type="legend">Vivat Leopold zur Lippe, Offizielles Lipperband, 1916. Entwurf: Hans Rudolf Schulze, <lb/>Text: Arthur Rehbein. &#x2013; Privatbesitz. Foto: Detmold, Lipp. Landesbibliothek</head>
+         </figure>
+         
+         <p>Mit Eichenlaub umkränzt folgen zentral Schwert und Schild mit lippischer Rose. Über und unter dem Wappenbild gruppiert sind die Schlachtenorte, an denen die Bataillone des Infanterie-Regiments Nr.&#8239;55 an der Westfront im Einsatz gewesen sind: <hi rend="italic">Lüttich, Namur / Maubeuge / Reims, Arras / Neuve-Chapelle / Richebourg L’Avoué / La Basse[é] / vor Verdun</hi>. Mit <q><name ref="#hellfaier-pers018">Hans R. Schulze</name></q> folgt darunter der Name des entwerfenden Künstlers. Die grafische Gestaltung endet mit einer Nachzeichnung des Lippischen Kriegsverdienstkreuzes. Das Ehrenzeichen trägt in der Mitte die von einem Lorbeerkranz umgebene lippische Rose. Auf dem oberen Kreuzarm befinden sich die Initiale <q>L[eopold]</q> und die Fürstenkrone, auf dem unteren die Jahreszahl <q>1914</q>. Den Abschluss bildet der oben zitierte Spendenzweck <q>zum Besten der Hinterbliebenen</q>.<note xml:id="hellfaier-ftn7" n="7"><ref type="bibl" target="#Winkel1920">S.&#8239;117</ref>; <ref type="bibl" target="#Vanja1985">S.&#8239;73, Nr.&#8239;31</ref>; <ref type="bibl" target="#Eckhardt1992">S.&#8239;46, Nr.&#8239;199</ref>.</note>
+         </p>
+         
+         <figure xml:id="hellfaier-fig02" rendition="#latex-hellfaier-width05">
+            <graphic url="figures/hellfaier-fig02.png" width="2305px" height="2480px"/>
+            <head type="legend">Lippisches Kriegsverdienstkreuz, 1914. &#x2013; Detmold, Lipp. Landesmuseum, Inv.-Nr.&#8239;1638a/95. Foto: LLM</head>
+         </figure>
+         
+         <p>Angesichts des Fehlens einer eindeutigen aktenmäßigen Überlieferung und des Verzichts auf die Nennung eines verantwortlichen Urhebers muss wohl davon ausgegangen werden, dass die Herausgabe des lippischen Vivatbandes auf unmittelbare Veranlassung <name ref="#hellfaier-pers001">Leopolds IV.</name> oder dessen nahes Umfeld erfolgt ist. Der Fürst hatte anlässlich seines Geburtstages am 30.&#8239;Mai&#x00A0;1916 eine eigene <q>Fürst Leopold IV. Stiftung für Invaliden und unversorgte Familien im Weltkriege 1914/16 gefallener Helden</q> ins Leben gerufen und mit 100.000 Mark zu 5&#8239;% verzinslicher Kriegsanleihe ausgestattet;<note xml:id="hellfaier-ftn8" n="8"><ref type="bibl" target="#Amtsblatt1916">S.&#8239;589&#8239;f.</ref>; vgl. <ref target="#LLZ1916" type="bibl">S.&#8239;1</ref>.</note>  
+            später wurde die Kapitalausstattung um die gleiche Summe erhöht. Bereits zuvor hatte er für die <q>Nationalstiftung für die Hinterbliebenen der im Kriege Gefallenen</q> 10.000 Mark gezeichnet. Am 27.&#8239;Januar&#x00A0;1910 war <name ref="#hellfaier-pers001">Leopold</name> zum Chef des III.&#8239;Bataillons des I.R.&#8239;55 ernannt worden und hatte am 8.&#8239;August&#x00A0;1914 in dieser Eigenschaft das auf dem Kaiser-Wilhelm-Platz in Detmold angetretene Bataillon ins Feld verabschiedet.<ref type="bibl" target="#Schulz1928" xml:id="hellfaier-ftn101">S.&#8239;35</ref>  
+            Das Vivatband zeigt ihn in der Ausgehuniform der Offiziere des Regiments, wie sie anlässlich eines Frontbesuches am 19.&#8239;Oktober&#x00A0;1915 im Bilde festgehalten worden ist.<ref type="bibl" target="#Schulz1928" rend="ibid" xml:id="hellfaier-ftn102">S.&#8239;133, Abb. nach S.&#8239;128, Abb.&#8239;47</ref>  
+            Das <q>Offizielle</q> des vorliegenden Vivatbandes unterstreicht zudem die Verwendung des Kriegsverdienstkreuzes, eine Auszeichnung, die Leopold am 8.&#8239;Dezember&#x00A0;1914 gestiftet hatte. Im Original war das Verdienstkreuz aus vergoldeter Geschützbronze hergestellt und wurde als Umhänge- (mit Öse) oder als Steckkreuz (mit Nadel) u.&#8239;a. bei Frontbesuchen verliehen.<ref target="#Schwark2005" type="bibl" xml:id="hellfaier-ftn103">S.&#8239;128, Nr.&#8239;17</ref> 
+         </p>
+         
+         <figure xml:id="hellfaier-fig03" rendition="#latex-hellfaier-width05" place="here">
+            <graphic url="figures/hellfaier-fig06.png" width="2030px" height="2213px"/>
+            <head type="legend">Fürst Leopold IV. zur Lippe, Porträtfoto, um 1915. &#x2013; Privatbesitz. &#x2013; Foto: Detmold, Lippische Landesbibliothek</head>
+         </figure>
+         
+         <p>Die gereimten Verse stammen von <name ref="#hellfaier-pers015">Arthur Rehbein</name> (1867&#x2013;1952), einem aus Remscheid gebürtigen Berliner Journalisten und Schriftsteller, der sich &#x2013; oft unter dem Pseudonym Atz vom Rhyn (Rheyn) oder Rehlauf &#x2013; mit Reiseberichten, Erzählungen, Gedichten und Hörspielen einen Namen gemacht hat. 
+            Bereits seit den 1920er Jahren zeigte er starke Sympathie für den Nationalsozialismus und hatte Mühe, sich später davon zu distanzieren.<note xml:id="hellfaier-ftn12" n="12">Über ihn <ref type="bibl" target="#LiteraturLexikon">S.&#8239;747</ref>; <ref target="#Rehbein2014" type="bibl"/>; sein Nachlass befindet sich im Historischen Zentrum/Stadtarchiv der Stadt Remscheid, Sign. N&#8239;14, Arthur Rehbein (1867&#x2013;1952), online abrufbar unter <ptr target="http://www.rheinische-literaturnachlaesse.de/"/>; biographische Notizen und ausgewählte Texte in dem Gedenkbuch von <ref target="#Dietert1952" type="bibl"/>; in seinen Lebenserinnerungen finden sich keine Angaben zu den Arbeiten während des 1.&#8239;Weltkriegs, vgl. <ref target="#Rehbein1978" type="bibl"/>. &#x2013; Porträt-Lithografie aus dem Jahre 1917 von <name ref="#hellfaier-pers023">Ernst Pickardt</name> (1876–1931), Maler, Grafiker und Illustrator, als Frontispiz in: <ref target="#Rehbein1917" type="bibl"/>.</note>  
+            Das eigens für das Lipperband verfasste Gedicht ist zeittypisch und reiht sich zwanglos in die Vielzahl der national-propagandistischen, das heldenhafte Germanentum auf die Gegenwart projizierenden lyrischen Elogen ein. Die künstlerische Gestaltung der Textilie lag in den Händen von <name ref="#hellfaier-pers018">Hans Rudolf Schulze</name> (1870–1951), einem Landschaftsmaler und Illustrator, Kunstprofessor an der Königlichen Kunstakademie am Kunstgewerbemuseum Berlin. 
+            Er illustrierte u.&#8239;a. Kriegsbücher (<q>Vater ist im Kriege</q>,  <q>Unser Seekriegsbuch</q>, beide 1915) und Postkarten von der Front; besonders Fliegereinsätze zählten zu seinen bevorzugten Motiven (z.&#8239;B. <q>Unsere Luftflotte im Weltkriege 1914/1915</q>). Beide waren darüber hinaus für den Entwurf und den Text eines Vivatbandes verantwortlich, das anlässlich der Einnahme der Festung Nowogeorgiewsk nördlich von Warschau am 19.&#8239;August 1915 herausgegeben wurde.<ref target="#Vanja1985" type="bibl" xml:id="hellfaier-ftn104">S.&#8239;69, Nr.&#8239;28,66</ref>  
+            Auch ein Vivatband zur Besetzung der lettischen Hafenstadt Libau am 8.&#8239;Mai 1915 wurde von <name ref="#hellfaier-pers018">Schulze</name> gestaltet, blieb aber ohne textliche Beigabe.<ref type="bibl" target="#Vanja1985" rend="ibid" xml:id="hellfaier-ftn105">S.&#8239;68, Nr.&#8239;28,63</ref>  
+            Beide Vivatbänder waren von der Berliner Kunsthandlung Amsler &amp; Ruthardt verlegt worden; diese hatte eine Serie von 101&#x00A0;Vivatbändern <q>zum Besten des Roten Kreuzes</q> auf den Markt gebracht und damit einen ungeheuren Absatz erzielt.<note xml:id="hellfaier-ftn15" n="15"><ref type="bibl" target="#Vanja1985" rend="ibid">S.&#8239;39–41</ref>; <ref target="#Eckhardt1992" type="bibl">S.&#8239;39&#8239;f.</ref>; <ref type="bibl" target="#Hellfaier2014">S.&#8239;126–128</ref>.</note> 
+         </p>
+         
+         <figure xml:id="hellfaier-fig04" rendition="#latex-hellfaier-width05" place="here">
+            <graphic url="figures/hellfaier-fig04.png" width="1425px" height="1876px"/>
+            <head type="legend">Arthur Rehbein, Lithografie von Ernst Pickardt, 1917. – Wuppertal, Stadtbibliothek, <lb/>721 Lr 1½. Foto: LLB</head>
+         </figure>
+         <pb/>
+         <p>Zeitgleich arbeiteten <name ref="#hellfaier-pers018">Schulze</name> und <name ref="#hellfaier-pers015">Rehbein</name> gemeinsam und intensiv für den Kunstdruck-Verlag Kuno Bergmann in Berlin, der bereits zuvor Vivatbänder zur Hundertjahrfeier der Völkerschlacht bei Leipzig und zum silbernen Thronjubiläum <name ref="#hellfaier-pers021">Kaiser Wilhelms&#x00A0;II.</name> im Jahre 1913 herausgebracht hatte. Neben Amsler &amp; Ruthardt sowie den Verlagen Louis Pernitzsch (Th. Gruhl) in Leipzig und Albert Berger in Wien gilt <name ref="#hellfaier-pers003">Bergmann</name> als bedeutendster Herausgeber von Vivatbändern des Ersten Weltkriegs. Anfangs bezüglich Design und Material als eher <q>einfallslos</q> und <q>nachlässig</q> qualifiziert, gewannen die 66&#x00A0;Vivatbänder, die der Verlag zu verantworten hat, alsbald an Format. Diese Qualitätsverbesserung war u.&#8239;a. der Tatsache zu verdanken, dass man bekannte Künstler für die Gestaltung der Bänder gewinnen konnte;<note xml:id="hellfaier-ftn16" n="16"><ref target="#Winkel1920" type="bibl">S.&#8239;109–111</ref>; <ref type="bibl" target="#Vanja1985">S.&#8239;38&#8239;f.</ref>; <ref type="bibl" target="#Eckhardt1992">S.&#8239;44–46</ref>; <ref type="bibl" target="#Hellfaier2014">S.&#8239;125&#8239;f.</ref></note>  
+            unter diesen befand sich auch <name ref="#hellfaier-pers018">Hans Rudolf Schulze</name>. Für den Verlag Bergmann entwarf er in den Jahren 1915/16 sieben Vivatbänder, von denen zwei dem Weltkrieg allgemein, zwei der Marine, zwei den Kämpfen an der Ost- und Westfront sowie eines dem Luftkrieg gewidmet sind.<ref type="bibl" target="#Eckhardt1992" xml:id="hellfaier-ftn106">S.&#8239;55–57</ref>
+            Mithin lassen sich bisher einschließlich der im Verlag <name ref="#hellfaier-pers003">Kuno Bergmann</name> erschienenen Bänder, den beiden bei Amsler &amp; Ruthardt herausgegeben und dem <q>Offiziellen Lipperband</q> zehn Vivatbänder auf Entwürfe <name ref="#hellfaier-pers018">Hans Rudolf Schulzes</name> zurückführen. Im Anhang sind diese zum Vergleich im Einzelnen beschrieben.<note xml:id="hellfaier-ftn18" n="18">Mit Ausnahme des <q>Offiziellen Lipperbandes</q> folgen die Beschreibungen den im Museum Schloss Neu-Augustusburg, Weißenfels, vorhandenen Exemplaren. Das Museum hatte im Jahre 1919 die umfangreiche Sammlung <name ref="#hellfaier-pers022">Gustav G. Winkels</name> übernommen und verfügt heute über den wohl größten Fundus an Vivatbändern überhaupt, vgl. <ref type="bibl" target="#Eckhardt1992">S.&#8239;3&#8239;f.</ref>; <ref target="#Wylegalla2013" type="bibl"/>; die Sammlung ist digitalisiert und recherchierbar unter  <ptr target="http://www.museum-digital.de"/>.</note>
+         </p>
+         <p>Ein durchgängiges Motivrepertoire und eine eindeutige Handschrift des Künstlers lassen sich in den Vivatbändern nur mit viel Phantasie ausmachen. Allenfalls die Schrifttype, eine dekorative, Einflüsse des Jugendstils verratende, serifenlose Versalie, zeigt sich durchgängig auf allen Entwürfen, so auch auf dem Lipperband. Nur die Hälfte der von <name ref="#hellfaier-pers018">Schulze</name> gestalteten Bänder folgt dem üblichen Schema mit dem Incipit <q>Vivat</q> und dem Porträt des/der siegreichen Heerführer/s an der Spitze. Die zentralen bildlichen Darstellungen weisen die bei den Vivatbändern des Ersten Weltkriegs übliche große Bandbreite auf. Sie reicht von realistischen Kampfesszenen (eroberte Festung, stürmende Infanterie, Kriegsschiff, Bomben abwerfender Zeppelin), über allegorisch-mythologische Figuren (Haupt der Medusa) und heraldische wie staatssymbolische Elemente (Adler, Wappen, Orden) hin zu schlichten Beispielen der Schlachtenemblematik (eiserne Faust, Schwert, Schild, Feuer).<ref type="bibl" target="#Hellfaier2014" xml:id="hellfaier-ftn107">S.&#8239;133&#8239;f.</ref>  
+            Das Lipperband fügt sich mit dem Porträt <name ref="#hellfaier-pers001">Leopolds</name>, dem Schwert und Schild sowie der lippischen Rose und dem Kriegsverdienstorden zwanglos in dieses Spektrum ein. <name ref="#hellfaier-pers018">Schulze</name> kann in seiner Malerei wohl dem Naturalismus zugewiesen werden; bisweilen lassen seine Burgen-, Tempel- und Landschaftsbilder auch symbolistische und frühe expressionistische Einflüsse erkennen. Da er in einer Zeit des künstlerischen Experimentierens sozialisiert wurde, fällt es schwer, sein Oeuvre verbindlich einer Stilrichtung zuzuordnen.<note xml:id="hellfaier-ftn20" n="20">Die Recherche im World-wide-web gibt einen Einblick in sein Schaffen in dieser Zeit. Die Vorlagen entstammen den Offerten einschlägiger Kunstauktionshäuser; auf Einzelnachweise wird verzichtet. Vgl. etwa die Werke <q>Landschaft mit Tempel</q> (1905), <q>Kloster an der Küste Dalmatiens</q> (1910), <q>Markt in Kairo</q> (1907), <q>Burgruine auf einer Anhöhe am Flusslauf</q> (1913), <q>Alte Bäume</q> (1917), <q>Gartenszene</q> (ohne Dat.), <q>Villa d’Este, Tivoli</q> (ohne Dat.), <q>Das Berliner Stadtschloß von der Spree aus gesehen</q> (1918) u.&#8239;a.</note>  
+            Bei der figürlichen Gestaltung der Vivatbänder wandte er sich einem eher historisierenden Motiv- und Formenschatz zu, wie er – schon des Formats wegen – in der Buch- und Einbandillustration um die Jahrhundertwende und in der Plakatkunst zum Ausdruck kommt. </p>
+         <p>Dazu textete <name ref="#hellfaier-pers015">Arthur Rehbein</name> alias Atz vom Rhyn patriotische, den Krieg verherrlichende Gelegenheitsgedichte, die nicht ohne eine Portion Zynismus chauvinistisch von Deutsch- und Heldentum, Blut und Waffengewalt künden. Nimmt man seine 1917 in dritter Auflage erschienene Sammlung <q>Gedichte</q> zum Maßstab, so lag der Schwerpunkt seiner Lyrik auf romantischen Landschafts- und Naturschilderungen, Szenen regionalen Kulturlebens sowie nationalheroischen Themen vor historischer Kulisse; besonders letztere erinnern in ihrer Diktion an die Versepen der <q>Butzenscheibendichter</q> des ausgehenden 19. und beginnenden 20.&#8239;Jahrhunderts. Neben den Versen von vier Vivatbändern ließ er in die Anthologie die Gedichte <q>1914</q>, <q>Den gefallenen Farbenbrüdern</q> und <q>Feldgrau</q> einrücken; die beiden Letztgenannten waren einem gefallenen Bundesbruder und einem ebenfalls gefallenen Neffen gewidmet.<note xml:id="hellfaier-ftn21" n="21"><ref type="bibl" target="#Rehbein1917">S.&#8239;81–84</ref>; das dort abgedruckte, für ein Vivatband verfasste Gedicht <q>Heldenfriedhof</q> lässt sich bisher keinem Objekt zuordnen.</note>
+         </p>
+         <p>Mit dem Maler <name ref="#hellfaier-pers018">Schulze</name> und dem Publizisten <name ref="#hellfaier-pers015">Rehbein</name> hatte man also für die ikonographische und textliche Gestaltung des <q>Offiziellen Lipperbandes</q> zwei  ausgewiesene Fachleute gewinnen können. Für die Initiative zur Herausgabe des Lipperbandes durch <name ref="#hellfaier-pers001">Leopold&#x00A0;IV.</name> spricht, dass er sowohl mit <name ref="#hellfaier-pers018">Hans Rudolf Schulze</name> als auch mit <name ref="#hellfaier-pers015">Arthur Rehbein</name> in Verbindung gestanden hat. Vielleicht hatte <name ref="#hellfaier-pers018">Schulze</name> den Schriftsteller sogar empfohlen, sofern der Kontakt nicht erst durch den fürstlichen Berater <name ref="#hellfaier-pers004">Georg von Eppstein</name>, Verwaltungswissenschaftler und Schriftsteller, der ebenfalls aus Berlin kam, hergestellt worden ist. Der Künstler war gelegentlich in Detmold zu Gast und hatte im Jahre 1914 den Auftrag erhalten, Gemälde des Residenzschlosses Detmold und des Schlosses Varenholz in den Maßen 1,20&#8239;x&#8239;1,50&#8239;m anzufertigen; 1915 sollte er zudem alte Bilder im Schloss restaurieren.<note xml:id="hellfaier-ftn22" n="22">Fürstl. Lipp. Archiv, Schloss Detmold, Nr.&#8239;6285, Fasz. Maler Hans Rudolf Schulze, unpag. – SD <name ref="#hellfaier-pers014">Dr. Armin Prinz zur Lippe</name> (&#8224;) ermöglichte dankenswerterweise die Benutzung der Archivalien.</note> 
+            Spätestens Ende 1913/Anfang 1914 wurde er mit der <q>Lippischen Rose für Kunst und Wissenschaften 2.&#8239;Klasse mit Eichenlaub</q>, einem 1898 vom <name ref="#hellfaier-pers007">Grafregenten Ernst</name> gestifteten Orden, ausgezeichnet.<note xml:id="hellfaier-ftn23" n="23"><ref type="bibl" target="#Degener1912">S.&#8239;1467</ref>;  VII.&#8239;Ausg., 1914, S.&#8239;1548 (hier Hinweis auf die Ordensverleihung); VIII.&#8239;Ausg., 1922, S.&#8239;1426; zum Orden <q>Lippische Rose für Kunst und Wissenschaft 2.&#8239;Klasse mit Eichenlaub</q> vgl. <ref target="#Schwark2005" type="bibl">S.&#8239;88, Nr.&#8239;4b</ref>.</note>  
+            Auch zu <name ref="#hellfaier-pers015">Rehbein</name> bestand nahe Verbindung, deren Anfänge bisher nicht auszumachen sind. So hatte der Schriftsteller z.&#8239;B. bereits im Jahre 1916 seine Anthologie mit Humoresken <q>Aus dem Sennelager</q> in zweiter Auflage bei der Meyerschen Hofbuchhandlung in Detmold publiziert und darin als Widmungsspruch unter dem Titel <q>Lippe-Detmold im Weltkriege</q> sein Gedicht <q>Wißt Ihr vom Teutoburger Mut? Wie glänzt er neu aus Glut <pb/>und Blut! […]</q> vorangestellt.<note xml:id="hellfaier-ftn24" n="24"><ref target="#Rehbein1916" type="bibl"/>; der Verf. begründet das Erscheinen der 2.&#8239;Aufl. damit, dass <q>der Neudruck zu Gunsten der Kriegswohlfahrtspflege gewünscht</q> wurde. Die 1.&#8239;Aufl. erschien bereits 1902 in Köln<!-- (Kölner Verlagsanst., 148 S.) --></note>  
+            Im Frühjahr&#x00A0;1917 wurde ihm die Fürstlich-Lippische Kriegsehrenmedaille verliehen; mit der Auszeichnung dürfte die Anerkennung für den lyrischen Beitrag zum Vivatband zum Ausdruck gebracht worden sein. In seinem Dankesschreiben an von Eppstein vom 23.&#8239;Mai&#x00A0;1917 teilt er diesem u.&#8239;a. mit, dass er im Kriegs-Presseamt die <q>Ehrentafeln</q> für die <q>Heldentaten einzelner Mannschaften und Patrouillen</q> bearbeite und es ihm eine Freude wäre, wenn er auch von <q>lippischen Landeskindern</q> berichten könne. 
+            Und er fährt fort, <q>ist es mir dann doch [so], als ob immer wieder mein Vivatbandspruch bestätigt wird</q>; diesen zitiert er im Anschluss vollständig.<note xml:id="hellfaier-ftn25" n="25"><name ref="#hellfaier-pers015">Rehbein</name> an <name ref="#hellfaier-pers004">v. Eppstein</name>, Berlin, 23.&#8239;5.&#8239;1917, Fürstl. Lipp. Archiv, Schloss Detmold, Nr.&#8239;3111, unpag.; zur Fürstlich-Lippischen Kriegsehrenmedaille in der Ausgabe von 1915 vgl. <ref type="bibl" target="#Schwark2005">S.&#8239;133, Nr.&#8239;19</ref>. </note>  
+            Sein Angebot, für die Neueröffnung des Fürstlichen Hoftheaters den Prolog zu schreiben, blieb ungehört, denn <name ref="#hellfaier-pers004">von Eppstein</name> dichtete den sechsstrophigen Festprolog für die Einweihung am 29.&#8239;September&#x00A0;1919 selbst.<note xml:id="hellfaier-ftn26" n="26"><name ref="#hellfaier-pers015">Rehbein</name> an <name ref="#hellfaier-pers004">v. Eppstein</name>, Berlin, 5.&#8239;6.&#8239;1918, Fürstl. Lipp. Archiv, Schloss Detmold, Nr.&#8239;3111, unpag.; Lippische Landeszeitung&#x00A0;153 (1919), Nr.&#8239;264, S.&#8239;1; dazu auch <ref type="bibl" target="#HansGeorgPeters1972">S.&#8239;173&#8239;f.</ref></note>  
+            Noch am 12.&#8239;November&#x00A0;1918 ernannte der Fürst <name ref="#hellfaier-pers015">Rehbein</name> zum Geheimen Hofrat.<note xml:id="hellfaier-ftn27" n="27">Der <q>Ausweis</q> über die Verleihung  der Urkunde datiert vom 26.&#8239;10.&#8239;1918, das Patent selbst vom 12.&#8239;11.&#8239;1918, Fürstl. Lipp. Archiv, Schloss Detmold, Nrr.&#8239;2043 und 3111, Abschrift, unpag.</note> 
+            Dem Kabinettschef <name ref="#hellfaier-pers004">von Eppstein</name> hatte der Schriftsteller wohl auch den Kontakt zu <name ref="#hellfaier-pers009">Prof. Dr. Hermann Kastner</name>, dem Studiendirektor der Fürst-Leopold-Akademie, zu verdanken, denn auf sein Anerbieten hin hielt er im Sommersemester&#x00A0;1920 unter der Rubrik <q>Allgemeinbildende Vorlesungen</q> ein Gastkolleg zum Thema <q>Die Kunst der öffentlichen Rede</q>.<note xml:id="hellfaier-ftn28" n="28">Senatsbeschluss vom 28.&#8239;1.&#8239;1920 sowie <name ref="#hellfaier-pers009">Hermann Kastner</name> an <name ref="#hellfaier-pers015">Rehbein</name>, Detmold, 31.&#8239;1.&#8239;1920, Landesarchiv&#x00A0;NRW, Abt. Ostwestfalen-Lippe, Detmold, L&#8239;106&#8239;C, Nr.&#8239;147, unpag.; die Vorlesung fand zwischen dem 27.&#8239;7. und 7.&#8239;8.&#8239;1920 statt; Fürst-Leopold-Akademie, Hochschule für Verwaltungswissenschaften in Detmold, [Vorlesungsverzeichnis] Sommersemester&#x00A0;1920, S.&#8239;13, 17.</note>  
+            Danach scheint die Verbindung nach Lippe nicht weiter gepflegt worden zu sein</p>
+         <p>Da ein Stiftungsvorgang für das <q>Offizielle Lipperband</q> nicht dokumentiert und das Band selbst undatiert ist, lässt sich seine Entstehungszeit nur grob eingrenzen. Durch den Gefechtskalender des I.&#8239;R.&#8239;55 sind die Kämpfe an den aufgeführten Orten recht präzise zu bestimmen:<ref type="bibl" target="#Schulz1928" xml:id="hellfaier-ftn108">S.&#8239;299</ref>  Eroberung von Lüttich (12.–16.&#8239;Aug.&#x00A0;1914), Schlacht bei Namur (23./24.&#8239;Aug.&#x00A0;1914), Belagerung und Einnahme von Maubeuge (25.&#8239;Aug.–7.&#8239;Sept.&#x00A0;1914), Kämpfe bei Reims (12.&#8239;Sept.–4.&#8239;Okt.&#x00A0;1914), Schlacht bei Arras (8.–12.&#8239;Okt.&#x00A0;1914), Schlacht bei Neuve Chapelle (10.–14.&#8239;März&#x00A0;1915), Stellungskämpfe bei Richebourg-l’Avoué (20.&#8239;März–8.&#8239;Mai., 4.&#8239;Aug.–12.&#8239;Okt.&#x00A0;1915; 14.&#8239;Okt.&#x00A0;1915– 28.&#8239;März&#x00A0;1916), zwei Schlachten bei La Basseé (9.–18.&#8239;Mai, 13.&#8239;Okt.&#x00A0;1915) und Schlacht bei Verdun (8.&#8239;Juni–6.&#8239;Sept.&#x00A0;1916). Da die Beteiligung des Regiments in der Schlacht an der Somme (10.–22.&#8239;Sept.&#x00A0;1916) und an anderen markanten Schauplätzen etwa bei Malancourt, an der Aisne und am Chemin des Dames nicht mehr aufgeführt wird, mag man wohl schließen, dass das Vivatband vermutlich im Herbst&#x00A0;1916 noch vor der Schlacht an der Somme aufgelegt und über die restliche Zeit des Krieges für den karitativen Zweck angeboten worden ist. Diese Datierung korrespondiert mit dem ersten Erscheinen seines Gedichts in der Anthologie <q>Aus dem Sennelager</q>. Auf jeden Fall lag das Band im Mai&#x00A0;1917 vor, als <name ref="#hellfaier-pers015">Rehbein</name> seine eingebrachten Verse brieflich zitiert hat.<note xml:id="hellfaier-ftn30" n="30"><name ref="#hellfaier-pers015">Rehbein</name> an <name ref="#hellfaier-pers004">v. Eppstein</name>, Berlin, 23.&#8239;5.&#8239;1917, Fürstl. Lipp. Archiv, Schloss Detmold, Nr.&#8239;3111, unpag.</note>  
+            Über Hersteller, Auflagenhöhe, Vermarktung und Erlös liegen keine Nachrichten vor. Mit dem vergleichweise hohen Preis von einer Mark sollten vermutlich die geringe Auflage und die überschaubaren Absatzmöglichkeiten ausgeglichen werden, denn üblicherweise kosteten die Bänder nur bis zu 50&#8239;Pfennig, spielten aber dennoch dank immenser Stückzahlen binnen kurzer Zeit fünfstellige Spendensummen ein.</p>
+         <p>Eine Auswertung der Vivatbänder des Ersten Weltkriegs, die auch das <q>Offizielle Lipperband</q> in die Argumentation mit einbezieht, steht derzeit noch aus. Unter kunst-, literatur-, medien- und mentalitätsgeschichtlichen Gesichtpunkten verspricht eine kritische Durchsicht dieser Zeugnisse der Erinnerungskultur weiterführende Erkenntnisse.</p>
+         
+      </body>
+      <back>
+         <div type="appendix">
+            <head>Anhang: Von Hans Rudolf Schulze (Grafik) und Arthur Rehbein [Pseud.: Atz vom Rhyn] (Text) gestaltete Vivatbänder (1915&#x2013;1916)</head>
+            <!--<div>
+               <head></head>
+               
+            </div>-->
+            <div>
+               <head>1.	Vivat General der Infanterie Otto von Below, Libau 8.&#8239;Mai 1915. </head>
+               <p rend="spaced">Vivatband zur Einnahme der russischen Festung Libau (lett. Liep&#257;ja) am 8.&#8239;Mai 1915 durch General Otto von Below (1857–1944), Oberbefehlshaber der 8.&#8239;Armee.</p>  
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi></p>
+               <p rend="spaced">Im oberen Drittel Porträt Otto von Belows, mittig in Rahmen aus Eichenlaub und Blüten Schwert mit Spruchband, darauf die Inschrift: <hi rend="italic">Libau 8.&#8239;Mai 1915</hi>, im unteren Drittel natürlicher Adler mit ausgebreiteten Schwingen.
+                  <lb/><hi rend="italic">Zum Besten des Roten Kreuzes. Amsler &amp; Ruthardt, Berlin W 8
+                     <lb/>Hans Rud. Schulze.</hi>
+               </p>
+               <p rend="spaced">6,3&#8239;x&#8239;39,0&#8239;cm, rostrot mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Leipzig, Stadtgeschichtl. Museum, Inv.-Nr.&#8239;V 7930/2007; Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 668 M.</p>
+               <p rend="spaced">Lit.: Vanja, Vivat, S.&#8239;68, Nr.&#8239;28,63.  </p>
+            </div>
+            <div>
+               <head>2.	Vivat General von Hindenburg und von Beseler, Nowo-Georgiewsk 19.&#8239;August 1915.</head>
+               <p rend="spaced">Vivatband zur Eroberung der Festung Nowogeorgiewsk (dt. Modlin) nordwestlich von Warschau am 19.&#8239;August 1915 durch die Armeegruppe Hans von Beselers (1850–1921).</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Obere Hälfte Kopfporträts der Generäle Paul von Hindenburg und Hans von Beseler, untere Hälfte geharnischte Faust, die eine Festung zerschlägt, lodernde Flammen.
+                  <lb/>Text:<hi rend="italic">War auch aus Stahl und Stein das Tor / nicht lang hat’s uns gekümmert / mit deutscher Faust ein Schlag davor – / zertrümmert! Zertrümmert! /
+                     <lb/>Arthur Rehbein. 
+                     <lb/>Zum Besten des Roten Kreuzes. Verlag Amsler &amp; Ruthardt, Berlin W 8.</hi>
+               </p>
+               <p rend="spaced">6,4&#8239;x&#8239;41,0&#8239;cm, violett mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Berlin, Deutsches Historisches Museum, Inv.-Nr.&#8239;Kte 81/26.75; Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 671 M.</p>
+               <p rend="spaced">Lit.: Winkel, Vivatbänder, S.&#8239;113; Vanja, Vivat, S.&#8239;69, Nr.&#8239;28,66.</p>
+            </div>
+            <div>
+               <head>3.	Weltkrieg 1914–1916</head>
+               <p rend="spaced">Vivatband zum Ruhme des Weltkriegs und des deutschen Heldentums.</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Haupt der Medusa im Sternenhimmel, darunter die in Flammen stehende östliche Weltkugel, Grabkreuz mit der Inschrift <hi rend="italic">Deutschem Heldentum</hi>.
+                  <lb/>Text: <hi rend="italic">O Herr der Welten / füg&#x2019; es gut: / was faul vertilg’ in / Brand und Blut. / Geläutert lass aus / Blut und Brand / ersteh’n das / deutsche / Vaterland / A. Rehbein.
+                     <lb/>H. R. Schulze
+                     <lb/>Vivatband I, Kuno Bergmann, Berlin SW 68.</hi>
+               </p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,2&#8239;cm, dunkelblau mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 43 M.</p>
+               <p rend="spaced">Druck: Rehbein, Gedichte, S.&#8239;83. – Lit.: Eckhardt, Vivatbänder, S.&#8239;55.</p>
+            </div>
+            <div>
+               <head>4. Deutschland, Österreich-Ungarn, Bulgarien, Türkei, 1914–1915–1916</head>
+               <p rend="spaced">Vivatband zum Bündnis der vier Mittelmächte, sog. <q>Bundesband</q>.</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Atz vom Rhyn</hi> [Pseud.]</p>
+               <p rend="spaced">Unter einem natürlichen Adler ein Schwert mit vier Klingen, die in züngelnde Flammen tauchen; hinter der Parierstange ein Lorbeerkranz.
+                  <lb/>Text: <hi rend="italic">Notung, glutgebornes / Schwert, / sei durch Trutz der / Treue wert! / Waffe ohne gleichen / Segen deinen / Streichen! / Atz vom Rhyn.
+                     <lb/>Hans Rud. Schulze.
+                     <lb/>Vivatband III, Kuno Bergmann, Berlin SW 68.</hi></p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,5&#8239;cm, gelb mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 40 M.</p>
+               <p rend="spaced">Lit.: Winkel, Vivatbänder, S.&#8239;110; Eckhardt, Vivatbänder, S.&#8239;55.</p>
+            </div>
+            <div>
+               <head>5. Unser Kaiser – von Tirpitz</head>
+               <p rend="spaced">Vivatband zu Ehren der Schöpfer der deutschen Hochseeflotte, sog. <q>Marineband</q>.</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Atz vom Rhyn</hi> [Pseud.]</p>
+               <p rend="spaced">Untereinander die Kopfporträts Kaiser Wilhelms II. und des Admirals Alfred von Tirpitz, darunter Panzerkreuzer mit 4 rauchenden Schornsteinen.
+                  <lb/>Text: <hi rend="italic">Weingetaufte / Panzerplanke / heldenblutgeweiht, / wehrgewordener  / Gedanke / deutscher / Herrlichkeit! / Atz vom Rhyn.
+                     <lb/>Hans Rud. Schulze.
+                     <lb/>Vivatband IV, Kuno Bergmann, Berlin SW 68.</hi></p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,2&#8239;cm, weiß mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 42 M.</p>
+               <p rend="spaced">Lit.: Eckhardt, Vivatbänder, S.&#8239;55.</p>
+            </div>
+            <div>
+               <head>6.	Otto Weddigen Kapitänleutnant</head>
+               <p rend="spaced">Vivatband zum Gedenken an den erfolgreichen U-Boot-Kommandanten Otto Weddigen (1882–1915), der am 26.&#8239;März [richtig: 18.&#8239;März] 1915 vor Schottland mit U&#8239;29 versenkt wurde.</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Atz vom Rhyn</hi> [Pseud.]</p>
+               <p rend="spaced">Porträt Otto Weddigens mit dem Orden Pour le Mérite und dem faksimilierten handschriftlichen Namenszug, darunter in einem Gebinde aus zwei Eichenlaubkränzen auf schwarzem Grund ein Stern, der auf den Schriftzug <q>U&#8239;29</q> strahlt.
+                  <lb/>Text: <hi rend="italic">Dir fiel auf dunkelen Pfad / die leuchtende  / Schicksalsstunde / hinfort in der / Heldenkunde / unsterblich / lebt deine Tat. / Atz vom Rhyn.
+                     <lb/>Hans Rud. Schulze.
+                     <lb/>Vivatband 24, Kuno Bergmann, Berlin SW 68.</hi></p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,6&#8239;cm, weiß mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Schloss Museum Neu-Augustusburg, Inv.-Nr.&#8239;V 183 M.</p>
+               <p rend="spaced">Druck: Rehbein, Gedichte, S.&#8239;83. – Lit.: Eckhardt, Vivatbänder, S.&#8239;56.</p>
+            </div>
+            <div>
+               <head>7.	Vivat 22.&#8239;April 1915 Schlacht bei Steenstraate, Het Sas, Langemark[!]</head>
+               <p rend="spaced">Vivatband zum erfolgreichen Vorstoß in der 2. Flandernschlacht durch Truppen der 4.&#8239;Armee unter Herzog Albrecht von Württemberg (1865–1939).</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Oben das Wappen Baden-Württembergs (3 Hirschstangen, 3 rechtsschreitende Löwen) in einem Kranz aus Eichenlaub, mittig stürmende Infanterie, unten württembergischer Friedrichs-Orden 1.&#8239;Klasse mit Schwertern.
+                  <lb/>Text: <hi rend="italic">Hochberühmt im / Deutschen Reiche / waren stets die / Schwabenstreiche / wurden nun auf / welschem Grund / aller Welt als / sieghaft kund / Arthur Rehbein.
+                     <lb/>Hans R. Schulze.
+                     <lb/>Vivatband 27, Kuno Bergmann, Berlin SW 68.</hi></p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,5&#8239;cm, gelb mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 16 M.</p>
+               <p rend="spaced">Lit.: Winkel, Vivatbänder, S.&#8239;110; Eckhardt, Vivatbänder, S.&#8239;56.</p>
+            </div>
+            <div>
+               <head>8.	Deutsche Luftkreuzer beschiesen[!] London und die Themsemündung 11.&#8239;Aug. 1915</head>
+               <p rend="spaced">Vivatband zum Bombenangriff eines deutschen Luftschiffes auf London und die Themsemündung am 11.&#8239;August 1915.</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Ein Zeppelin wirft Bomben und Brandsätze über London ab, Scheinwerfer tasten durch die Nacht, in der Stadt lodern Brände, auf der Themse legt ein Schiff ab. 
+                  <lb/>Text: <hi rend="italic">Mene tekel / upharsin – / so glomm’s an der / Mauer von Babel. / Nachts nun am / Firmament, / London, / flammt dir / der Fluch. / A. Rehbein.</hi><note>Vgl. Buch Daniel, 5, 25–28.</note>
+                  <lb/><hi rend="italic">Hans R. Schulze.</hi>
+                  <lb/><hi rend="italic">Vivatband 29, Kuno Bergmann, Berlin SW 68.</hi>
+               </p>
+               <p rend="spaced">5,3&#8239;x&#8239;32,5&#8239;cm, blau mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 8 M.</p>
+               <p rend="spaced">Druck: Rehbein, Gedichte, S.&#8239;83. – Lit.: Eckhardt, Vivatbänder, S.&#8239;57.</p>
+            </div>
+            <div>
+               <head>9.	Vivat 10.&#8239;September 1915 – Festung Dubno von der Armee Böhm Ermolli erobert</head>
+               <p rend="spaced">Vivatband zur Einnahme der Festung Dubno in Galizien durch die Truppen der 2.&#8239;k.u.k.-Armee unter Eduard von Böhm-Ermolli (1856–1941).</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Über der von deutschen und österreichischen Truppen besetzten Festung weht die deutsche schwarz-weiß-rote Fahne.
+                  <lb/>Text: <hi rend="italic">Dubno – Deutsch / wie Sichelschlag / schrillt’s in den / Septembertag, / der die Flur du / blutig färbst, / Dank für diese / Ernte, Herbst! / Arthur Rehbein. 
+                     <lb/>Hans R. Schulze.
+                     <lb/>Vivatband 29, Kuno Bergmann, Berlin SW 68.</hi></p>
+               <p rend="spaced">5,2&#8239;x&#8239;32,5&#8239;cm, gelb mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 26 M.</p>
+               <p rend="spaced">Lit.: Eckhardt, Vivatbänder, S.&#8239;57.</p>
+            </div>
+            <div>
+               <head>10. Vivat Fürst Leopold zur Lippe</head>
+               <p rend="spaced">Vivatband (<q>Offizielles Lipperband</q>) für Fürst Leopold IV. zur Lippe (1871–1949) und das an der Westfront kämpfende Infanterie-Regiment Nr.&#8239;55 (6.&#8239;Westf.)</p>
+               <p rend="spaced">Entwurf: <hi rend="smallcaps">Hans Rudolf Schulze</hi>; Text: <hi rend="smallcaps">Arthur Rehbein</hi></p>
+               <p rend="spaced">Oben Porträt des Fürsten Leopold, mittig in einem Rahmen aus Eichenlaub Schwert mit an die Parierstange gehängtem Wappenschild, darauf die lippische Rose sowie die Namen der Schlachtenorte, an denen das lippische Regiment gekämpft hat: <hi rend="italic">Lüttich, Namur / Maubeuge / Reims, Arras / Neuve-Chapelle / Richebourg L’Avoié / La Bassé</hi>[!] <hi rend="italic">/ vor Verdun,</hi>  unten das lippische Kriegsverdienstkreuz mit Lorbeerkranz und lippischer Rose.
+                  <lb/>Text: <hi rend="italic">Wisst ihr von / Teutoburger Mut? / Wie glänzt er neu aus Glut und Blut! / Noch lebt der alte Cheruskerzorn / und die lippische Rose hat  / scharfen Dorn / und Leopolds Leuen han /  scharfen Zahn / und beissen wie’s /  Hermanns Bären getan. / A. Rehbein.  
+                     <lb/>Hans R. Schulze.
+                     <lb/>Eine Mark / zum Besten der /  Hinterbliebenen der im Felde gefallnen / lippischen Helden / Offizielles Lipperband.</hi></p>
+               <floatingText>
+               <body><p rend="spaced">6,4&#8239;x&#8239;39,4&#8239;cm, orange-gelb mit schwarzem Aufdruck, Halbseide in Atlasbindung.</p>
+               <p rend="spaced">Nachweis: Detmold, Lippisches Landesmuseum, Inv.-Nr.&#8239;41/2010; Minden, Mindener Museum, Inv.-Nr.&#8239;21 E 6.3; Weißenfels, Museum Schloss Neu-Augustusburg, Inv.-Nr.&#8239;V 573 M.</p>
+               <p rend="spaced">Druck: Rehbein, Aus dem Sennelager, Rückseite d. Titelbl. – Lit.: Winkel, Vivatbänder, S.&#8239;117; Vanja, Vivat, S.&#8239;73, Nr.&#8239;31; Eckhardt, Vivatbänder, S.&#8239;46, Nr.&#8239;199.</p></body>
+               </floatingText>
+            </div>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Krull2013">Lena Krull (u.&#8239;a.), <title level="a">Lippe und der Erste Weltkrieg. Aspekte einer regionalen Erinnerungskultur</title>, in: <title level="j">Lippische Mitteilungen aus Geschichte und Landeskunde</title>&#x00A0;82 (2013), S.&#8239;13–51</bibl>
+               <bibl xml:id="Riechert2014">Hansjörg Riechert, <title level="a">Lipper im Ersten Weltkrieg. <q>Vorwärts auf den Feind koste es, was es wolle</q></title>, Lage 2014</bibl>
+               <bibl xml:id="Vanja1985">Konrad Vanja, <title level="a">Vivat-Vivat-Vivat! Widmungs- und Gedenkbänder aus drei Jahrhunderten</title>, Berlin 1985 (Schriften des Museums für Deutsche Volkskunde Berlin&#x00A0;12), S.&#8239;37–42, 63–78<bibl type="short">Vanja, <title level="a">Vivat-Vivat-Vivat!</title></bibl></bibl>
+               <bibl xml:id="Loidl2004">Tristan Loidl, <title level="a">Andenken aus Eiserner Zeit. Patriotische Abzeichen der österreichisch-ungarischen Monarchie von 1914 bis 1918</title>, Wien 2004, S.&#8239;172–199</bibl>
+               <bibl xml:id="Pust2008">Hans-Christian Pust, <title level="a">Vivatbänder</title>, in:  <title level="m">1914–1918. In Papiergewittern. Die Kriegssammlungen der Bibliotheken</title>, hg. von Christophe Didier u.&#8239;a., Paris 2008, S.&#8239;204–209</bibl>
+               <bibl xml:id="Gross2014">Gerhard P. Gross, <title level="a">Vivat-Bänder</title>, in: <title level="m">Enzyklopädie Erster Weltkrieg</title>, aktualisierte und erw. Studienausg., hg. von Gerhard Hirschfeld u.&#8239;a., Paderborn 2014, S.&#8239;951</bibl>
+               <bibl xml:id="Buddecke1917">Albert Buddecke, <title level="a">Die Kriegssammlungen. Ein Nachweis ihrer Einrichtung und ihres Bestandes</title>, Oldenburg 1917, S.&#8239;4</bibl>
+               <bibl xml:id="Gaertringen2014">Julia Hiller von Gaertringen (Hg.), <title level="a">Kriegssammlungen 1914–1918</title>, Frankfurt am Main 2014 (Zeitschrift für Bibliothekswesen und Bibliographie, Sonderband&#x00A0;114)</bibl>
+               <bibl xml:id="Gaertringen2014b">Julia Hiller von Gaertringen, <title level="a">Landkarten, Maueranschläge und Fliegerabwürfe. Kriegssammlungen in Deutschland 1914 bis 1918. Das Webportal</title>, in: <title level="j">Buch und Bibliothek</title>&#x00A0;66 (2014), S.&#8239;195–199</bibl>
+               <bibl xml:id="Hellfaier2014">Detlev Hellfaier, <title level="a">Vivatbänder als Umzugsfunde. Das allmähliche Comeback der Detmolder Kriegssammlung</title>, in: <title level="m">Kriegssammlungen</title>, hg. von Julia Hiller von Gaertringen, Frankfurt am Main 2014, S.&#8239;119–138<bibl type="short">Hellfaier, <title level="a">Vivatbänder</title></bibl></bibl>
+               <bibl xml:id="EberhardtHellfaier2014">Joachim Eberhardt, Detlev Hellfaier (Hrsg.), <title level="a">1614–2014. 400&#x00A0;Jahre Lippische Landesbibliothek</title>, Detmold 2014 (Auswahl- und Ausstellungskataloge der Lippischen Landesbibliothek Detmold&#x00A0;38), S.&#8239;134–137</bibl>
+               <bibl xml:id="Winkel1920">Gustav G. Winkel, <title level="a">Vivatbänder</title>, in: <title level="j">Mitteilungen des Verbandes deutscher Kriegssammlungen</title>&#x00A0;2 (1920), Nr.&#8239;4, S.&#8239;101–118<bibl type="short">Winkel, <title level="a">Vivatbänder</title></bibl></bibl>
+               <bibl xml:id="Hellfaier2013">Detlev Hellfaier, <title level="a">Vivat! Vivat! Völkerschlacht und Thronjubiläum</title>, in: <title level="j">Heimatland Lippe</title>&#x00A0;106 (2013), S.&#8239;306–308, online abrufbar unter <ptr target="http://www.llb-detmold.de/wir-ueber-uns/aus-unserer-arbeit/texte/2013-8.html"/></bibl>
+               <bibl xml:id="Eckhardt1992">Wilhelm A. Eckhardt, <title level="a">Vivatbänder aus dem Museum Weißenfels</title>, Marburg 1992 (Schriften des Hessischen Staatsarchivs Marburg&#x00A0;8)<bibl type="short">Eckhardt, <title level="a">Vivatbänder</title></bibl></bibl>
+               <bibl xml:id="LLZ1916"><title level="a">Lippische Landeszeitung</title>&#x00A0;149 (30.&#8239;Mai 1916), Nr.&#8239;126</bibl>
+               <bibl xml:id="Amtsblatt1916"><title level="a">Amtsblatt für das Fürstentum Lippe</title>, Sonder-Ausg., 39 (1916), Nr.&#8239;66</bibl>
+               <bibl xml:id="Schulz1928">Schulz (Hrsg.), <title level="a">Infanterie-Regiment Graf Bülow von Dennewitz (6.&#x00A0;Westfälisches) Nr.&#8239;55 im Weltkriege</title>, Detmold 1928<bibl type="short">Schulz, <title level="a">Infanterie-Regiment Graf Bülow von Dennewitz</title></bibl></bibl>
+               <bibl xml:id="Schwark2005">Reiner Schwark, <title level="a">Orden und Ehrenzeichen des Fürstentums Lippe-Detmold und des Freistaats – Land Lippe – 1778–1933</title>, Detmold 2005 (Schriften des Lippischen Landesmuseums&#x00A0;6)<bibl type="short">Schwark, <title level="a">Orden und Ehrenzeichen</title></bibl></bibl>
+               <bibl xml:id="LiteraturLexikon"><title level="a">Deutsches Literatur-Lexikon</title>, Bd.&#8239;12, 3.&#x00A0;Aufl., Bern, Stuttgart 1990</bibl>
+               <bibl xml:id="Rehbein2014">Arthur Rehbein, <title level="a">Ein Schreiber mit Makel</title>, in: <title level="j">Remscheider Generalanzeiger</title> (rga-online), aktualisiert 18.&#8239;12.&#8239;2014. <!--Zugriff am 13. Mai 2015 -->Online unter <ptr target="http://www.rga.de/lokales/bergische-kultur/arthur-rehbein-schreiber-makel-4139220.html"/></bibl>
+               <bibl xml:id="Dietert1952">Friedrich Dietert (Hrsg.), <title level="a">Unser wandernder, lachender Lebensfreund Atz vom Rhyn. Ein deutscher Dichter und Wandersmann</title>, Berlin-Zehlendorf 1952</bibl>
+               <bibl xml:id="Rehbein1978">Arthur Rehbein, <title level="a">Kaleidoskop meiner Zeit</title>, T.&#8239;1–2, Remscheid 1978–1979</bibl>
+               <bibl xml:id="Rehbein1917">Arthur Rehbein, <title level="a">Gedichte</title>, 3.&#8239;Aufl., Berlin 1917<bibl type="short">Rehbein, <title level="a">Gedichte</title></bibl></bibl>
+               <bibl xml:id="Wylegalla2013">Reinhard Wylegalla, <title level="a">Vivatbänder im Städtischen Museum Weißenfels: Textile Widmungen und Huldigungen</title>, in: <title level="j">Textilkunst international</title>&#x00A0;41 (2013), H.&#8239;2, S.&#8239;98–102</bibl>
+               <bibl xml:id="Degener1912">Hermann A.&#8239;L. Degener (Hrsg.), <title level="a">Wer ist’s? Unsere Zeitgenossen</title>. VI.&#8239;Ausg., Leipzig 1912</bibl>
+               <bibl xml:id="Rehbein1916">Arthur Rehbein, <title level="a">Aus dem Sennelager und andere Humoresken</title>, 2.&#8239;Aufl., Detmold 1916<!--, 157 S., Ill.--></bibl>
+               <bibl xml:id="HansGeorgPeters1972">Hans Georg Peters, <title level="a">Vom Hoftheater zum Landestheater. Die Detmolder Bühne von 1825 bis 1969</title>, Detmold 1972 (Lippische Studien&#x00A0;1)</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

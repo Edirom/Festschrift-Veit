@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Heinrich Schenker als Herausgeber</title>
+                <author>
+                    <name><forename>Werner</forename> <surname>Keil</surname></name>
+                    <email></email>
+                    <affiliation><!--geboren 1952 in Moers. Studium der-->studierte Schulmusik, Mathematik und Musikwissenschaft in Frankfurt am Main. Nach Erstem und Zweitem Staatsexamen (1981), Promotion (1982) und Habilitation (1986) seit&#x00A0;1990 Professor für Musikwissenschaft an der Universität Hildesheim. Seit 1997 Inhaber des Lehrstuhls für Historische Musikwissenschaft am Musikwissenschaftlichen Seminar Detmold/Paderborn. Forschungsgebiet: 19. und frühes 20. Jahrhundert. <!--Zuletzt erschien: <hi rend="italic">Dissonanz und Harmonie in Romantik und Moderne</hi>, München&#x00A0;2012 und <hi rend="italic">Musikgeschichte im Überblick</hi>, Paderborn&#x00A0;<hi rend="sup">2</hi>2014.--></affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="wernerkeil-pers001">
+                        <p>Adler, Guido</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers002">
+                        <p>Adorno, Theodor W.</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers003">
+                        <p>Antheil, George</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers005">
+                        <p>Bach, Carl Philipp Emanuel</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers006">
+                        <p>Bahr, Hermann</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers007">
+                        <p>Baillot, Pierre Marie</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers008">
+                        <p>Bartók, Béla</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers009">
+                        <p>Beethoven, Ludwig van</p>
+                        <p n="work" xml:id="wernerkeil-work001"><hi rend="italic">Klaviersonate</hi> f-Moll op.&#8239;57</p>
+                        <p n="work" xml:id="wernerkeil-work006"><hi rend="italic">Klaviersonate</hi> A-Dur op.&#8239;101</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers010">
+                        <p>Bach, Johann Sebastian</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers014">
+                        <p>Bent, Ian</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers015">
+                        <p>Brahms, Johannes</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers017">
+                        <p>Bruckner, Anton</p>
+                        <p n="work" xml:id="wernerkeil-work003"><hi rend="italic">Sinfonie</hi> Nr.&#8239;5 B-Dur (WAB&#8239;105)</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers021">
+                        <p>Bülow, Hans von</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers024">
+                        <p>Cadwallader, Allen</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers026">
+                        <p>Chopin, Frédéric</p>
+                        <p n="work" xml:id="wernerkeil-work004"><hi rend="italic">Klavieretüde</hi> Ges-Dur op.&#8239;10 Nr.&#8239;5</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers027">
+                        <p>Clementi, Muzio</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers028">
+                        <p>Cook, Nicholas</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers030">
+                        <p>Eybl, Martin</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers031">
+                        <p>Federhofer, Hellmut</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers032">
+                        <p>Forte, Allen</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers033">
+                        <p>Gagné, David</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers034">
+                        <p>Gilbert, Steven E.</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers035">
+                        <p>Harden, Maximilian</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers036">
+                        <p>Hauschild, Peter</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers037">
+                        <p>Haydn, Joseph</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers038">
+                        <p>Hertzka, Emil</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers040">
+                        <p>Hitler, Adolf</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers041">
+                        <p>Hoboken, Anthony van</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers042">
+                        <p>Händel, Georg Friedrich</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers043">
+                        <p>Janáček, Leoš</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers044">
+                        <p>Schenker, Jenny</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers045">
+                        <p>Jonas, Oswald</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers046">
+                        <p>Desprez, Josquin</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers047">
+                        <p>Mahler, Gustav</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers049">
+                        <p>Martienssen, Carl Adolf</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers051">
+                        <p>Marx, Karl</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers052">
+                        <p>Mendelssohn Bartholdy, Felix</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers053">
+                        <p>Milhaud, Darius</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers054">
+                        <p>Mozart, Wolfgang Amadeus</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers056">
+                        <p>Nietzsche, Friedrich</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers057">
+                        <p>Nottebohm, Gustav</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers059">
+                        <p>Paganini, Niccolò</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers060">
+                        <p>Pankhurst, Tom</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers061">
+                        <p>Pauen, Michael</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers064">
+                        <p>Pauer, Max</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers058">
+                        <p>Ratz, Erwin</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers065">
+                        <p>Respighi, Ottorino</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers066">
+                        <p>Rosé</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers067">
+                        <p>Rothstein, William</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers069">
+                        <p>Réti, Rudolph</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers070">
+                        <p>Salzer, Felix</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers071">
+                        <p>Scarlatti, Domenico</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers072">
+                        <p>Schachter, Carl</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers073">
+                        <p>Schenker, Heinrich</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers077">
+                        <p>Schopenhauer, Arthur</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers079">
+                        <p>Schreker, Franz</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers080">
+                        <p>Schubert, Franz</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers081">
+                        <p>Schumann, Robert</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers082">
+                        <p>Schönberg, Arnold</p>
+                        <p n="work" xml:id="wernerkeil-work005"><hi rend="italic">Streichquartett</hi> d-Moll op.&#8239;7</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers086">
+                        <p>Smith, Charles J.</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers087">
+                        <p>Smyth, Ethel</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers088">
+                        <p>Szymanowski, Karol</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers089">
+                        <p>Terrigno, Loretta</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers090">
+                        <p>Tscherepnin, Nikolaij</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers092">
+                        <p>Urchueguía, Cristina</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers094">
+                        <p>Weber, Carl Maria von</p>
+                    </person>
+                    <person xml:id="wernerkeil-pers095">
+                        <p>Weill, Kurt</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-11-18T16:29:00"
+                who="https://github.com/peterstadler">Korrekturen des Autors eingearbeitet.</change>
+            <change when="2015-11-17T22:41:00"
+                who="https://github.com/peterstadler">Layout angepasst.</change>
+            <change when="2015-11-15T22:11:00"
+                who="https://github.com/peterstadler">Werktitel ergänzt und interne Korrekturen eingearbeitet.</change>
+            <change when="2015-10-24T16:58:00"
+                who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+            <change when="2015-07-01T17:09:42.271+02:00"
+                who="https://github.com/peterstadler">Textstruktur, Motto, Personen und Literatur ausgezeichnet.</change>
+            <change when="2015-06-30T13:14:42.271+02:00"
+                who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="wernerkeil-abstract">
+                <p>Dem Musiktheoretiker Heinrich Schenker, der 1923 die Klaviersonaten Beethovens erstmals nach den Autographen edierte (vier Bände, Universal Edition Wien), kommt ein wesentliches Verdienst an der Entwicklung des Herausgeberwesens zu. Es ging ihm um die Rettung der <soCalled>Meisterwerke</soCalled> im Kampf gegen die im 19.&#8239;Jahrhundert üblich gewordene (angebliche) Besserwisserei der Herausgeber. Doch sind Schenkers Intentionen ihrerseits nicht frei von Vorurteilen. Ihm lag mehr ein elitär-genialer Akt des Verstehens der <soCalled>Meisterwerke</soCalled> als editorische Wissenschaftlichkeit oder Transparenz am Herzen. Dies wird am Beispiel der Beethovenschen Klaviersonate op.&#8239;57 in <hi rend="italic">f</hi>-Moll gezeigt.</p>
+            </div>
+        </front>
+        <body>
+            <div type="motto" xml:id="wernerkeil-motto">
+                <cit>
+                    <quote source="#wernerkeil-ftn1">[G]esetzt, es gelänge, eine vollkommen richtige, vollständige <lb rend="latex"/>und in das einzelne gehende Erklärung der Musik, also eine ausführliche Wiederholung dessen, 
+                        was sie ausdrückt, in Begriffen zu geben, [würde sie] sofort auch eine genügende Wiederholung und Erklärung der Welt in Begriffen oder einer solchen ganz gleichlautend, 
+                        also die wahre Philosophie sein&#x00A0;[…]</quote><ref type="bibl" target="#Schopenhauer1986" xml:id="wernerkeil-ftn1">S.&#8239;369</ref>
+                </cit>
+            </div>
+            <div xml:id="wernerkeil-div1">
+                <head>I.</head>
+                <p>Die Wiener <hi rend="italic">Universal Edition</hi> &#x2013; 1901 gegründet, um der Dominanz deutscher Musikverlage entgegenzutreten &#x2013; begann seit 1907 unter ihrem leitenden Direktor <name ref="#wernerkeil-pers038">Emil Hertzka</name> zunehmend zum Verlag für zeitgenössische Komponisten zu werden; schon 1920, nach dem Ersten Weltkrieg, standen bei ihr neben <name ref="#wernerkeil-pers047">Gustav Mahler</name>, <name ref="#wernerkeil-pers079">Franz Schreker</name> und <name ref="#wernerkeil-pers082">Arnold Schönberg</name>, Komponisten der ersten Stunde sozusagen, zahlreiche jüngere Musiker aus den meisten europäischen Ländern unter Vertrag, darunter etwa <name ref="#wernerkeil-pers008">Béla Bartók</name> aus Ungarn, <name ref="#wernerkeil-pers043">Leoš Janáček</name> aus der Tschechoslowakei, <name ref="#wernerkeil-pers087">Ethel Smyth</name> aus England, <name ref="#wernerkeil-pers088">Karol Szymanowski</name> aus Polen, <name ref="#wernerkeil-pers053">Darius Milhaud</name> aus Frankreich, <name ref="#wernerkeil-pers065">Ottorino Respighi</name> aus Italien, <name ref="#wernerkeil-pers090">Nikolaij Tscherepnin</name> aus der Sowjetunion, <name ref="#wernerkeil-pers003">George Antheil</name> aus den USA und <name ref="#wernerkeil-pers095">Kurt Weill</name> aus Deutschland.<ref target="#Hailey2006" type="bibl"/> 
+                    Gleichzeitig hatte der Verlag auch von Anfang an Herausgeber mit der Publikation älterer Musikwerke angeworben; in der <hi rend="italic">Universal Edition</hi> erschienen beispielsweise die <hi rend="italic">Denkmäler der Tonkunst in Österreich</hi>, herausgegeben von 1919 bis 1938 von <name ref="#wernerkeil-pers001">Guido Adler</name>. Ferner publizierte der Verlag Bücher und Zeitschriften: So erschienen hier beispielsweise 1911 <name ref="#wernerkeil-pers082">Arnold Schönbergs</name> <hi rend="italic">Harmonielehre</hi> und 1935 <name ref="#wernerkeil-pers073">Heinrich Schenkers</name> <hi rend="italic">Der freie Satz</hi> sowie von 1919&#x2013;1937 als progressives Organ die <hi rend="italic">Musikblätter des Anbruch</hi>, denen als reichlich reaktionäre Zeitschrift von 1921&#x2013;1924 <name ref="#wernerkeil-pers073">Schenkers</name> <hi rend="italic">Der Tonwille</hi> gegenüberstand.<note xml:id="wernerkeil-ftn3" n="3"><ref target="#Schoenberg1911" type="bibl"></ref>; <ref target="#Schenker1956" type="bibl"/>.</note> 
+                    <name ref="#wernerkeil-pers038">Hertzka</name> betraute den promovierten Juristen <name ref="#wernerkeil-pers073">Schenker</name> mit einer Neuausgabe der 32 Klaviersonaten Beethovens, die 1923 in vier Bänden erschien.<note xml:id="wernerkeil-ftn4" n="4">Zunächst Einzelausgaben: <hi rend="italic">Beethoven Klaviersonaten. Nach den Autographen und Erstdrucken rekonstruiert von Heinrich Schenker</hi>, Wien 1920&#x2013;23 (UE 4010&#x2013;4041); danach vier Bände: Wien 1923 (UE 8a, 8b, 9a, 9b); eine zweite, von <name ref="#wernerkeil-pers058">Erwin Ratz</name> überarbeitete Ausgabe erschien 1946&#x2013;47 unter dem Titel: <hi rend="italic">Beethoven Klaviersonaten. Nach den Autographen und Erstdrucken revidiert von Heinrich Schenker. Neue Ausgabe revidiert von Erwin Ratz. Fingersätze von Heinrich Schenker</hi>; eine dritte, die der ersten folgte, mit Anmerkungen und Vorwort von <name ref="#wernerkeil-pers072">Carl Schachter</name>, kam 1975 bei Dover in New York heraus. Alle drei Ausgaben wurden mehrfach nachgedruckt, wobei die zweite Ausgabe jahrelang als <q>Wiener Urtext Ausgabe</q> beworben wurde, während die dritte, amerikanische, bis heute (2015) im Handel erhältlich ist.</note> 
+                    <name ref="#wernerkeil-pers073">Schenker</name>, der den von ihm bewunderten <name ref="#wernerkeil-pers015">Johannes Brahms</name> noch persönlich gekannt und diesem seine eigenen Kompositionen vorgelegt hatte,<ref target="#Jonas1963" type="bibl" xml:id="wernerkeil-ftn5"/>
+                    kämpfte seit seinen frühesten Rezensionen und Artikeln gegen das damals übliche Herausgeberwesen, das im Prinzip darin bestand, eine bestimmte, dem Herausgeber vorschwebende Interpretation durch entsprechende Vorschriften zur Phrasierung, Dynamik, Fingersatz etc., nötigenfalls auch unter Veränderung der überlieferten Handschriften oder älteren Druckausgaben, durchzusetzen, was in <name ref="#wernerkeil-pers073">Schenkers</name> Augen auf ein ungerechtfertigtes Besser-Wissen-Wollen gegenüber dem Komponisten hinauslief. Davon zeugt beispielsweise sein 1925 erschienener  Text <q>Weg mit dem Phrasierungsbogen</q> aus seinem Jahrbuch <hi rend="italic">Das Meisterwerk in der Musik</hi>. Hier ist unmittelbar von <quote source="#wernerkeil-ftn6">Verfälschung der Texte</quote><ref target="#Schenker1925" type="bibl" xml:id="wernerkeil-ftn6">S.&#8239;43</ref>
+                    durch moderne Phrasierung die Rede, und nach der Besprechung von etwa einem Dutzend Beispielen heißt es:
+                    <quote source="#wernerkeil-ftn07">Wir sahen, wie der Phrasierungsbogen die Form verletzt, das Stimmengefüge verändert und verunstaltet, das Motiv im einzelnen und in seinen Zusammenhängen schädigt, wie er also gerade das auslöscht, was den Wert einer meisterlichen Synthese ausmacht.</quote><ref type="bibl" target="#Schenker1925" xml:id="wernerkeil-ftn07" rend="ibid">S.&#8239;59</ref>
+                </p>
+                
+                <p>Anstelle der zu seiner Zeit ganz selbstverständlich vorgenommenen Herausgeber-Ergänzungen und -Bearbeitungen plädierte <name ref="#wernerkeil-pers073">Schenker</name> kompromisslos für das Schriftbild der Autographen von Kompositionen, namentlich wenn es um <soCalled>Meisterwerke</soCalled> ging. Diese waren ihm, wie noch im Einzelnen zu zeigen sein wird, geradezu heilig, und er versuchte als Herausgeber, sie möglichst unverändert ins gedruckte Notenbild zu übertragen. Er war, wie die heutigen Vertreter einer textgenetischen Editionsphilologie, davon überzeugt, dass die Handschriften der <soCalled>Meister</soCalled> die eigentliche Essenz ihrer Hinterlassenschaft bildeten. 
+                    Zu den bleibenden Leistungen <name ref="#wernerkeil-pers073">Schenkers</name> zählt die Ermunterung seines Schülers <name ref="#wernerkeil-pers041">Anthony van Hoboken</name>, 1927 das legendäre <hi rend="italic">Archiv für Photogramme musikalischer Meister-Handschriften</hi> anzulegen, eine Sammlung fotografierter Handschriften von Musikwerken, die dieser 1957 mit etwa 60.000 Blatt der Österreichischen Nationalbibliothek vermachte. </p>
+                
+                <p>Heute kennt man <name ref="#wernerkeil-pers073">Heinrich Schenker</name> in erster Linie als einen der wichtigsten Theoretiker tonaler Musik, zumal sein Erbe als <hi rend="italic">Schenkerism</hi> in den USA und England intensiv gepflegt wird und dort in den musiktheoretischen und musikanalytischen Disziplinen, anders als in Deutschland, sogar vorherrschend ist. Demgegenüber ist <name ref="#wernerkeil-pers073">Schenker</name> als Herausgeber deutlich in den Hintergrund getreten und seine aller Orts anzutreffenden kulturkritischen und reaktionären politischen Äußerungen sind seinen Anhängern nichts als peinlich. Es sollte aber doch erlaubt sein zu fragen, ob man die unterschiedlichen Tätigkeits- und Interessensbereiche Schenkers wirklich so fein säuberlich auseinander halten darf. Die ersten Herausgeber Schenkerscher Schriften nach dem Zweiten Weltkrieg, insbesondere <name ref="#wernerkeil-pers045">Oswald Jonas</name> 1956 in seiner Neuauflage des Schenkerschen Hauptwerkes <hi rend="italic">Der freie Satz</hi> für die Wiener Universal Edition,<ref target="#Schenker1956" type="bibl"/>
+                    hatten (aus verständlichen Gründen) die in seine Texte eingebetteten politisch-reaktionären Bemerkungen eliminiert, um gewissermaßen den musiktheoretischen Gehalt seines Denkens zu retten. Erst seit den 1980er Jahren ist diese Scheu vor <name ref="#wernerkeil-pers073">Schenkers</name> Schimpflust in der einschlägigen Forschung weitgehend geschwunden; <name ref="#wernerkeil-pers031">Hellmut Federhofer</name> beispielsweise gab aus dem in der <hi rend="italic">Oswald Jonas Memorial Collection</hi> befindlichen Nachlass Tagebuch-Einträge und Briefstellen wieder, ohne das Bild <name ref="#wernerkeil-pers073">Schenkers</name> zu retuschieren,<ref target="#Federhofer1985" type="bibl" xml:id="wernerkeil-ftn9"/>
+                    und <name ref="#wernerkeil-pers030">Martin Eybl</name>, mehrere Jahre lang Leiter des Schenker-Instituts an der Wiener Musikhochschule, hat in seiner Dissertation zum ideengeschichtlichen Kontext der Schenkerschen Musiktheorie Zitate, die dessen reaktionäre politische Gesinnung dokumentieren, mit der Frage nach der Entstehung des musiktheoretischen Gedankengebäudes verknüpft.<ref xml:id="wernerkeil-ftn10" target="#Eybl1995" type="bibl"/> 
+                    Inzwischen entsteht, verantwortet von <name ref="#wernerkeil-pers014">Ian Bent</name>, in Zusammenarbeit mit dem <hi rend="italic">Department of Digital Humanities</hi> des <hi rend="italic ">King’s College London</hi>, in einem digitalen Großprojekt eine Webseite mit sämtlichen Dokumenten <name ref="#wernerkeil-pers073">Schenkers</name> aus dessen Nachlass;<note xml:id="wernerkeil-ftn11" n="11"><ref target="#schenkerdocumentsonline" type="bibl"/>; ebenfalls verfügbar unter <ptr target="http://mt.ccnmtl.columbia.edu/schenker/index.html"/><!--; auch an der Columbia University in New York wird eine Schenker-Webseite betrieben: <ptr target="http://mt.ccnmtl.columbia.edu/schenker/index.html"/>-->.</note> 
+                    man kann hier inzwischen beispielsweise in <name ref="#wernerkeil-pers073">Schenkers</name> Tagebuch vom 5.&#8239;Februar 1907 nachlesen, wie eine Aufführung von <name ref="#wernerkeil-pers082">Schönbergs</name> erstem <title rend="normal" ref="#wernerkeil-work005">Streichquartett in <hi rend="italic">d</hi>-Moll (op.&#8239;7)</title> auf ihn gewirkt hat: <quote source="#wernerkeil-ftn12"><hi rend="italic">Quartett</hi> d<hi rend="sup">m</hi> v. <hi rend="italic"><name ref="#wernerkeil-pers082">Schönberg</name></hi> 
+                        bei <hi rend="italic">Rosé</hi>: Ein einziger langgezogener Frevel ! Wenn es Verbrecher auch in der Welt der Kunst gäbe, man müßte zu ihnen auch den Autor rechnen, als einen geborenen oder vielleicht erst gewordenen. Ohne Gefühl für Tonart, Motiv, Maß, nur so einfach lumpig vor sich hin, ohne jegliche Technik, u. dennoch zugleich eine größte, nicht dagewesene immerzu simulierend.</quote><note xml:id="wernerkeil-ftn12" type="bibl"><ref target="#schenkerdocumentsonline02" type="bibl"/> &#x2013; Die Internet-Darstellung erlaubt sogar, anders als es hier wiedergegeben ist, durch unterschiedliche Farben, Schriftgrößen und Durchstreichungen den handschriftlichen Duktus des Geschriebenen relativ getreu wiederzugeben.</note>
+                    In dieser Deutlichkeit waren die von Anfang an bestehenden Differenzen zwischen <name ref="#wernerkeil-pers082">Schönberg</name> und <name ref="#wernerkeil-pers073">Schenker</name> vielleicht nicht jedem bewusst; die freundliche Sichtweise, die <name ref="#wernerkeil-pers032">Allen Forte</name> angesichts des Zwistes zwischen den beiden einzunehmen versucht hat, wird zumindest dank der Veröffentlichung derartiger Äußerungen erheblich problematisiert.<ref xml:id="wernerkeil-ftn13" type="bibl" target="#Forte2006"/>
+                </p>
+            </div>
+            
+            <div xml:id="wernerkeil-div2">
+                <head>II.</head>
+                <p><name ref="#wernerkeil-pers073">Heinrich Schenker</name>, am 19.&#8239;Juni 1868 in Vyshnivchyk, einem Dorf in der Provinz Ternopil der heutigen Ukraine (damals Teil des zu Österreich gehörenden Galiziens) geboren, am 14.&#8239;Januar 1935 in Wien gestorben, war 1884 in die österreichische Hauptstadt gekommen, wo er an der Universität Jura studiert hatte und promoviert worden war; er erhielt danach am Wiener Konservatorium Musikunterricht (u.&#8239;a. bei <name ref="#wernerkeil-pers017">Anton Bruckner</name>) und schlug sich fortan zunächst als Komponist, Klavierbegleiter und Kritiker, später als Privatlehrer durchs Leben, ohne je ein öffentliches Amt bekleidet oder eine offizielle Stelle angenommen zu haben. Er publizierte schon zu Lebzeiten in bemerkenswerter Fülle musiktheoretische Werke &#x2013; darunter als wichtigstes seine <hi rend="italic">Neuen musikalischen Theorien und Phantasien</hi> &#x2013; und hinterließ bei seinem Tod über 130.000 Blatt handschriftlicher bzw. maschinenschriftlicher unveröffentlichter Papiere, mit deren Edition, ebenso wie mit der seiner äußerst umfangreichen Korrespondenz, die Schenkerforschung bis heute zu tun hat.<note xml:id="wernerkeil-ftn14" n="14"><q><name ref="#wernerkeil-pers073">Schenker</name> left behind approximately 130,000 manuscript and typescript leaves comprising unpublished works</q> (<ref target="#schenkerdocumentsonline" type="bibl"/>).</note> 
+                    Er polarisierte von Anfang an die Musikwelt, vor allem wegen seines starrsinnigen Antimodernismus und seiner bei jeder Gelegenheit zur Schau gestellten reaktionären, deutschnationalen Gesinnung, die ihn, den galizischen Juden, dessen Ehefrau <name ref="#wernerkeil-pers044">Jenny</name> die Nazis 1945 im Konzentrationslager Theresienstadt ermordeten, zu einem Parteigänger <name ref="#wernerkeil-pers040">Hitlers</name> (!) werden ließ, der sich als <q>Hakenkreuzler</q> unter die Wiener <quote source="#wernerkeil-ftn15">jüdischen Neutöner</quote><ref target="#Federhofer1985" xml:id="wernerkeil-ftn15" type="bibl">S.&#8239;316&#8239;f.</ref>
+                    verschlagen sah und der nach dem Ersten Weltkrieg, im ersten Heft seiner Zeitschrift <hi rend="italic">Der Tonwille</hi>, und zwar gleich im allerersten Beitrag <hi rend="italic">Von der Sendung des deutschen Genies</hi>, seiner Wut über den verlorenen Krieg ungehemmtesten Ausdruck gab. Da liest man mehrere Seiten lang eine wahre Stammtisch-Schmährede, die davon handelt, wie am <q>Genie des Deutschtums</q> <q>schnöder Verrat</q> geübt worden sei <q>von einem geistig und moralisch feilen Hinterland&#x00A0;[…]</q>, <q>von der naseweisen, größenwahnsinnigen Lohnkirche <name ref="#wernerkeil-pers051">Karl Marxens</name>&#x00A0;[…]</q>, <q>von gewissen sogenannten Pazifisten und Professoren&#x00A0;[…]</q>, <q>von gewissen Litfaßkreaturen&#x00A0;[…]</q>, <q>von gewissen Bänkelsängern des Intellektualismus&#x00A0;[…]</q> usw.<ref target="#Schenker1921" type="bibl"/>
+                    In seinem Testament verfügte <name ref="#wernerkeil-pers073">Schenker</name>, man möge sein Grab mit folgendem Spruch schmücken (was dann auch geschah): <quote source="#wernerkeil-ftn17">Hier ruht, der die Seele der Musik vernommen, ihre Gesetze im Sinne der Großen verkündet wie Keiner vor ihm.</quote><ref target="#ccnmtl01" type="bibl" xml:id="wernerkeil-ftn17"/>
+                </p>
+                
+                <p><quote source="#wernerkeil-ftn18">Für <soCalled>Kleinmeister</soCalled> hatte <name ref="#wernerkeil-pers073">Schenker</name> schlichtweg kein Herz. […] Als Herausgeber pickte er sich treffsicher die schönsten Rosinen aus dem Kuchen.</quote><ref target="#Urchueguia2012" type="bibl" xml:id="wernerkeil-ftn18">S.&#8239;238</ref>
+                    Was <name ref="#wernerkeil-pers092">Cristina Urchueguía</name> knapp auf den Punkt bringt, lässt sich anhand zahlloser Zitate und Äußerungen <name ref="#wernerkeil-pers073">Schenkers</name> belegen. Es mag hier ausreichen, sein Verhältnis zu <name ref="#wernerkeil-pers017">Anton Bruckner</name>, seinem eigenen Lehrer, zu skizzieren. In der von <name ref="#wernerkeil-pers035">Maximilian Harden</name> gegründeten Zeitschrift <hi rend="italic">Die Zukunft</hi> und der u.&#8239;a. von <name ref="#wernerkeil-pers006">Hermann Bahr</name> geleiteten <hi rend="italic">Zeit</hi> publizierte <name ref="#wernerkeil-pers073">Schenker</name> 1893 und 1896 zwei Aufsätze zu <name ref="#wernerkeil-pers017">Bruckner</name>, in denen er sich als dessen Schüler bekannte, der <q>ihm gegenüber immer die unwandelbar aufrichtige Dankbarkeit eines Schülers</q> hege, in denen er jedoch gleichwohl <name ref="#wernerkeil-pers017">Bruckners</name> <q>einfache Natur</q> herausstellte, seine mangelnde Bildung betonte und ihm einen <q>sich selbst still erschließenden Kunstinstinkt</q> absprach &#x2013; er habe eben nur <quote source="#wernerkeil-ftn19">eine kleine Welt von Gedanken in sich</quote>.<ref target="#Federhofer1990" type="bibl" xml:id="wernerkeil-ftn19">S.&#8239;59 und S.&#8239;197</ref>
+                    Erheblich drastischer formuliert es das Tagebuch nach einem Konzert mit <name ref="#wernerkeil-pers017">Bruckners</name> 5.&#8239;Symphonie am 22.&#8239;Januar 1907:
+                    <quote source="#wernerkeil-ftn20">Konzert Verein bringt <title rend="normal" ref="#wernerkeil-work003"><hi rend="italic"><name ref="#wernerkeil-pers017">Bruckner</name></hi>&#x2019;s <hi rend="italic">V Symph</hi></title>: Abscheuliche Indolenz des <hi rend="italic">Autors</hi>. Bei den Haaren herbeigezogener Choralschluß imponiert dem Publik. wie der Presse gewaltig. Wie fern ist doch alle Welt noch von den Vermächtnissen u. Lösungen der Großen!</quote><ref target="#schenkerdocumentsonline01" type="bibl" xml:id="wernerkeil-ftn20"/>
+                    Schon 1896 fallen im Kontext eines dieser <name ref="#wernerkeil-pers017">Bruckner</name>-Aufsätze die Namen jener Komponisten, die für <name ref="#wernerkeil-pers073">Schenker</name> den Status <soCalled>echter</soCalled> Meister haben: <q>Es ist</q>, heißt es dort, <quote source="#wernerkeil-ftn21">ein ganz großer Abstand zwischen der Gedankenwelt eines <name ref="#wernerkeil-pers042">Händel</name>, <name ref="#wernerkeil-pers010">Bach</name>, <name ref="#wernerkeil-pers037">Haydn</name>, <name ref="#wernerkeil-pers054">Mozart</name>, <name ref="#wernerkeil-pers009">Beethoven</name>, geschweige denn eines <name ref="#wernerkeil-pers080">Schubert</name>, <name ref="#wernerkeil-pers052">Mendelssohn</name>, <name ref="#wernerkeil-pers094">Weber</name>, <name ref="#wernerkeil-pers081">Schumann</name> oder <name ref="#wernerkeil-pers015">Brahms</name> und der <name ref="#wernerkeil-pers017">Bruckners</name>.</quote><ref target="#Federhofer1990" type="bibl" xml:id="wernerkeil-ftn21">S.&#8239;197</ref>
+                    Zu den genannten <hi rend="italic">deutschen</hi> Komponisten treten im Hauptwerk <hi rend="italic">Der freie Satz</hi>, in dem sie (außer <name ref="#wernerkeil-pers094">Weber</name>) mit rund 230 Beispielen vertreten sind, als einzige nicht-deutsche Komponisten noch <name ref="#wernerkeil-pers026">Chopin</name> mit 47 Beispielen sowie <name ref="#wernerkeil-pers071">Scarlatti</name> mit zweien, <name ref="#wernerkeil-pers027">Clementi</name>, <name ref="#wernerkeil-pers046">Josquin</name> und <name ref="#wernerkeil-pers059">Paganini</name> mit je einem Beispiel hinzu.<ref target="#Schenker1956" type="bibl">S.&#8239;221&#x2013;228</ref>
+                </p>
+            </div>
+            <div xml:id="wernerkeil-div3">
+                <head>III.</head>
+                <p><name ref="#wernerkeil-pers073">Schenkers</name> Eigenheiten als Herausgeber lassen sich an einer der von ihm edierten Beethovenschen Klaviersonaten exemplifizieren, der <title rend="normal" ref="#wernerkeil-work001">23.&#8239;Sonate in <hi rend="italic">f</hi>-Moll</title>, bekannt unter dem (nicht von <name ref="#wernerkeil-pers009">Beethoven</name> stammenden) Namen <hi rend="italic">Appassionata</hi>. Im Folgenden werden einzelne Stellen im Autograph sowie in mehreren Editionen mit <name ref="#wernerkeil-pers073">Schenkers</name> Ausgabe verglichen. <name ref="#wernerkeil-pers073">Schenker</name> schrieb 1934 im Vorwort (zu einem Nachdruck) seiner Beethovenausgabe, der Komponist sei bekanntlich mit den <q>Drucken seiner Werke durchaus unzufrieden gewesen</q>; nur das Schriftbild seiner Handschrift, seine <q>Schreibart</q>, könne <q>zu seinem Inhalt führen</q>. Er zitiert in dem Vorwort eigene Äußerungen, die er erstmals in der Erläuterungsausgabe von <title rend="normal" ref="#wernerkeil-work006">op.&#8239;101</title> (Wien 1920) gemacht hatte: <quote source="#wernerkeil-ftn23">Beethovens kräftiges, unmittelbares, sozusagen ton-körperliches Denken bringt ihm eine auch das Auge des Lesers sinnlich überzeugende Schreibart heran: das Steigen und Fallen der Linien: hier sieht man sie aus dem unteren ins obere Notensystem ziehen, dort vom oberen ins untere sinken; das tiefsinnige Spiel der Balken: sie künden dem Auge den Willen zur Zusammengehörigkeit hier, Trennungszwang dort; die geheimnisvolle Beredsamkeit der Bogen&#x00A0;[…]; das Auf- und Abwärtsstreichen der Notenhälse&#x00A0;[…]; das Register der Pausen&#x00A0;[…] usw.</quote><ref target="#Ratz1962" type="bibl" xml:id="wernerkeil-ftn23"/>
+                <!--</p>
+                <p>--> Vergleicht man den Anfang des ersten Satzes im Autograph, im Erstdruck, in einer der von <name ref="#wernerkeil-pers073">Schenker</name> so verhassten Editionen des 19.&#8239;Jahrhunderts (derjenigen <name ref="#wernerkeil-pers021">Hans von Bülows</name> von 1872), in der lange als Standard geltenden Peters-Ausgabe von <name ref="#wernerkeil-pers064">Pauer</name>/<name ref="#wernerkeil-pers049">Martienssen</name> (1920) und in <name ref="#wernerkeil-pers073">Schenkers</name> eigener Ausgabe, fallen in der Tat bemerkenswerte Unterschiede auf. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig01" rend="no"/> gibt den Beginn im Autograph wieder, das im Besitz des französischen Geigers <name ref="#wernerkeil-pers007">Pierre Marie Baillot</name> war, der es 1889 dem Pariser Konservatorium vermacht hatte.
+                    <figure xml:id="wernerkeil-fig01">
+                        <graphic url="figures/wernerkeil-fig01.png" width="4680px" height="1758px"/>
+                        <head type="legend">Beethoven, Beginn von op.&#8239;57 im Autograph</head>
+                    </figure>
+                    <!-- Sollte in die Bildunterschrift?! -->
+                    <!-- http://gallicalabs.bnf.fr/ark:/12148/btv1b72003116/f5.item.zoom -->
+                </p>
+                <p>Man sieht in der Tat das <q>Steigen und Fallen der Linien</q>, insbesondere wird gleich nach den beiden ersten Tönen die rechte Hand ins System der linken geführt, aus dem sie einen Takt später wieder auftaucht. Ebenso deutlich sind die zwei Takte weit reichenden Bögen rechts (oberhalb des Systems) und links (unterhalb des Systems) zu erkennen. Der Erstdruck (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig02" rend="no"/>),
+                    <figure xml:id="wernerkeil-fig02">
+                        <graphic url="figures/wernerkeil-fig02.png" width="2094px" height="654px"/>
+                        <head type="legend">Beethoven, Beginn von op.&#8239;57 im Erstdruck</head>
+                    </figure><!-- Sollte in die Bildunterschrift?! 
+                    http://www.beethoven-haus-bonn.de/sixcms/detail.php?id=15123&template=dokseite_digitales_archiv_de&_dokid=T00011787&_seite=1-2
+                    --> erschienen 1807 im Wiener <hi rend="italic">Bureau des Arts et d’Industrie</hi> (Druckplatte Nr.&#8239;521), wahrt nicht jedes dieser Details; zwar sinkt auch hier die rechte Hand nach zwei Tönen ins System der linken herab, doch ist die Halsung der Noten im zweiten Takt anders gehandhabt und insbesondere die Bögen werden unterschiedlich weit geführt: der obere reicht einen ganzen Takt weiter als in Beethovens Handschrift.</p>
+                <p>Die Editionen aus dem 19. und 20.&#8239;Jahrhundert (<name ref="#wernerkeil-pers021">Hans von Bülows</name> Ausgabe bei Cotta von 1872 und die Peters-Ausgabe von <name ref="#wernerkeil-pers064">Max Pauer</name>, revidiert von <name ref="#wernerkeil-pers049">Carl Adolf Martienssen</name> (1920) in Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig03" rend="no"/> und <ref type="crossref" target="#wernerkeil-fig04" rend="no"/>) notieren von Anfang an rechte und linke Hand getrennt im Violin- bzw. Baßschlüssel &#x2013; das findet man, entgegen dem Autographen, auch bei <name ref="#wernerkeil-pers073">Schenker</name>, der keinen Hinweis darauf gibt, hier <name ref="#wernerkeil-pers009">Beethovens</name> <q>Schreibart</q> gegenüber der Handschrift verändert zu haben.<note xml:id="wernerkeil-ftn26" n="26">Dieser Umstand scheint <name ref="#wernerkeil-pers036">Peter Hauschild</name> entgangen zu sein, der sich 1977 einlässlich mit <name ref="#wernerkeil-pers009">Beethovens</name> Notationsgepflogenheiten am Beispiel der <title ref="#wernerkeil-work001">Appassionata</title> befasst und auch <name ref="#wernerkeil-pers073">Schenkers</name> Ausgabe umfassend berücksichtigt hat (<ref target="#Hauschild1977" type="bibl"/>).</note> 
+                    Was seine Edition etwa von derjenigen der Peters-Ausgabe unterscheidet, ist die Länge der Bögen: Die Peters-Ausgabe (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig04" rend="no"/>) folgt hier dem Erstdruck, <name ref="#wernerkeil-pers073">Schenker</name> (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig05" rend="no"/>) dem Autographen. Vom unterschiedlichen Fingersatz, der in beiden Fällen eine Zutat der Herausgeber darstellt, sowie von den verschiedenen, aber dasselbe aussagenden Bögen in Takt 9 abgesehen, unterscheiden sich beide Ausgaben nicht. Anders dagegen die <name ref="#wernerkeil-pers021">Bülow</name>-Ausgabe aus dem 19.&#8239;Jahrhundert (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig03" rend="no"/>).<!-- 
+                    --><figure xml:id="wernerkeil-fig03">
+                        <graphic url="figures/wernerkeil-fig03.jpg" width="3055px" height="2117px"/>
+                        <head type="legend">Beethoven, Beginn von op.&#8239;57 in der <name ref="#wernerkeil-pers021">Bülow</name>-Ausgabe</head>
+                    </figure><!-- Sollte in die Bildunterschrift?! -->
+                    <!--<note xml:id="wernerkeil-ftn27" n="27">
+                    <p> 
+                        <ref target="http://petrucci.mus.auth.gr/imglnks/usimg/d/d6/IMSLP03184-Beethoven-PianoSonataNo23Bulow.pdf">http://petrucci.mus.auth.gr/imglnks/usimg/d/d6/IMSLP03184-Beethoven-PianoSonataNo23Bulow.pdf</ref> &lt;Zugriff am 9.6.2015&gt;.</p>
+                </note>--><figure xml:id="wernerkeil-fig04">
+                        <graphic url="figures/wernerkeil-fig04.jpg" width="2192px" height="963px"/>
+                        <head type="legend">Beethoven, Beginn von op.&#8239;57 in der Peters-Ausgabe (<name ref="#wernerkeil-pers064">Pauer</name>/<name ref="#wernerkeil-pers049">Martienssen</name>)</head>
+                    </figure><!-- 
+                    --><figure xml:id="wernerkeil-fig05">
+                        <graphic url="figures/wernerkeil-fig05.jpg" width="2307px" height="997px"/>
+                        <head type="legend">Beethoven, Beginn von op.&#8239;57 in der <name ref="#wernerkeil-pers073">Schenker</name>-Ausgabe</head>
+                    </figure> Sie verlängert nicht nur die Phrasierungsbögen, sondern fügt zusätzlich nach dem Triller im dritten und siebten Takt kleine crescendo- und decrescendo-Gabeln hinzu.</p>
+                <p>In Skizzen zu der Sonate hatte <name ref="#wernerkeil-pers009">Beethoven</name> den 12/8-Takt noch als 4/4-Takt notiert.<ref type="bibl" target="#Uhde1986">S.&#8239;192</ref>
+                    Es ist sehr aufschlussreich zu verfolgen, wie die geänderte Taktart zu eigenartigen rhythmisch-metrischen Verläufen führt, die von den Herausgebern größtenteils wieder beseitigt oder doch zumindest umgeändert worden sind. Der 12/8-Takt ermöglicht ohne weiteres eine Aufteilung in vier mal drei Achtel (das würde einem triolisch gedachten 4/4-Takt entsprechen) oder in sechs mal zwei Achtel (das ließe sich im 4/4-Takt nicht so leicht darstellen). Gleich die Brachial-Stelle in Takt 16&#8239;ff. lebt davon: Konnte man bis dahin das Thema selbst und seine weitere Fortführung als triolisch gedachten 4/4-Takt auffassen, werden hier synkopisch wirkende sechs mal zwei Achtelgruppen zwischen den beiden Händen, noch dazu im Fortissimo, vorgeschrieben. 
+                    <figure xml:id="wernerkeil-fig06">
+                        <graphic url="figures/wernerkeil-fig06.jpg" width="2312px" height="545px"/>
+                        <head type="legend">Beethoven, op.&#8239;57, Takte 17&#x2013;20 des ersten Satzes in der <name ref="#wernerkeil-pers073">Schenker</name>-Ausgabe</head>
+                    </figure>
+                    Das wird im Autograph und im Erstdruck ebenso deutlich wie in <name ref="#wernerkeil-pers073">Schenkers</name> (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig06" rend="no"/>) und <name ref="#wernerkeil-pers064">Pauer</name>/<name ref="#wernerkeil-pers049">Martienssens</name> Ausgabe. <name ref="#wernerkeil-pers021">Hans von Bülow</name> jedoch machte durch entsprechende Akzente sowie durch eine textliche Anmerkung deutlich, dass er hier, anders als <name ref="#wernerkeil-pers009">Beethoven</name> es gemeint zu haben schien, den (gedachten) triolischen 4/4-Takt fortgesetzt wissen wollte; obendrein wird der höchste Akkord noch mit einem <q><hi rend="italic">ffz</hi></q> versehen (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig07" rend="no"/>).
+                    <figure xml:id="wernerkeil-fig07">
+                        <graphic url="figures/wernerkeil-fig07.png" width="2313px" height="643px"/>
+                        <head type="legend">Beethoven, op.&#8239;57, Takte 16&#x2013;19 des ersten Satzes in der <name ref="#wernerkeil-pers021">Bülow</name>-Ausgabe</head>
+                    </figure>
+                </p>
+                <p>Besonders aufschlussreich werden diese rhythmisch-metrischen Unterschiede in der Coda des ersten Satzes (Takte 249&#x2013;256). Im Autograph, im Erstdruck und in der <name ref="#wernerkeil-pers073">Schenker</name>-Ausgabe werden hier bei durchlaufenden Achteln in vier Takten (Takt 251 und Takte 254&#x2013;256) Triolen notiert, im Autograph sogar überdeutlich über und unter dem System (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig08" rend="no"/>). 
+                    <figure xml:id="wernerkeil-fig08">
+                        <graphic url="figures/wernerkeil-fig08.png" width="3560px" height="1482px"/>
+                        <!-- http://gallicalabs.bnf.fr/ark:/12148/btv1b72003116/f23.item.zoom -->
+                        <head type="legend">Beethoven, op.&#8239;57, Takte 252&#x2013;259 des ersten Satzes im Autograph</head>
+                    </figure>
+                </p>
+                <p>Es befinden sich aber in jedem dieser Takte, ob mit oder ohne Triolenbogen, gleichviel, nämlich zwölf Achtel &#x2013; die Notierung von Triolen bewirkt hier keinen anderen rhythmischen Ablauf. Es scheint, als habe <name ref="#wernerkeil-pers009">Beethoven</name> mit der Verwendung des Triolenbogens und der Ziffer <q>3</q> auf eine Gruppierung der Achtel in vier mal drei hinweisen wollen und nicht, wie in den Fortissimo-Takten 17 und 20, auf eine in sechs mal zwei. 
+                    <figure xml:id="wernerkeil-fig09">
+                        <graphic url="figures/wernerkeil-fig09.jpg" width="2184px" height="823px"/>
+                        <head type="legend">Beethoven, op.&#8239;57, Takte 250&#x2013;255 des ersten Satzes in der Peters-Ausgabe</head>
+                    </figure>
+                    Die Peters-Ausgabe lässt an dieser Stelle einfach die (eigentlich entbehrlichen) Triolenbögen aus (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig09" rend="no"/>), während <name ref="#wernerkeil-pers021">Hans von Bülow</name> die ganze Notation umschreibt, die Pausen eliminiert und zusätzliche Akzente einträgt, um die von ihm bevorzugte triolische Metrik unmissverständlich klarzustellen (vgl. Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig10" rend="no"/>).
+                    <figure xml:id="wernerkeil-fig10">
+                        <graphic url="figures/wernerkeil-fig10.jpg" width="2305px" height="994px"/>
+                        <head type="legend">Beethoven, op.&#8239;57, Takte 250–255 des ersten Satzes in der <name ref="#wernerkeil-pers021">Bülow</name>-Ausgabe</head>
+                    </figure>
+                </p>
+                <p>Sowohl die von <name ref="#wernerkeil-pers021">Bülowsche</name> Ausgabe wie die Peters-Ausgabe nehmen in klavieristischer Hinsicht Rücksicht auf den Interpreten: Sie geben neben Fingersätzen auch Hinweise zu abweichender Ausführung einzelner Stellen, etwa durch die Verteilung des Sechzehntellaufes der rechten Hand im 14.&#8239;Takt auf beide Hände (<name ref="#wernerkeil-pers021">Bülow</name>) oder durch andere Gruppierung der Sechzehntel in Takt 15 (Peters). Auch die Fingersätze unterscheiden sich: 
+                    
+                    So sieht man in Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig04" rend="no"/>, dass die Peters-Ausgabe das Thema des ersten Satzes in der rechten Hand mit den Fingern 4&#x2013;2&#x2013;1, in der linken mit 1&#x2013;3&#x2013;5 spielen lässt, was einem <soCalled>natürlichen</soCalled> Griffgefühl für einen <hi rend="italic">f</hi>-Moll-Dreiklang entspricht. <name ref="#wernerkeil-pers073">Schenkers</name> Fingersätze dagegen stehen, wie jüngst <name ref="#wernerkeil-pers089">Loretta Terrigno</name> gezeigt hat, eher im Dienst eines künstlerischen Interpretationskonzeptes und berücksichtigen dabei die schwächeren oder stärkeren Finger zur Hervorhebung bestimmter Noten.<ref target="#Terrigno2009" type="bibl" xml:id="wernerkeil-ftn333"/>
+                    
+                    Man sieht dies gleich zu Beginn, wenn (vgl.  Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig05" rend="no"/>) der Anfangston in der rechten Hand mit dem dritten, in der linken mit dem zweiten Finger gespielt werden soll: Dies erzwingt eine stärkere Spannung der Hand beim Spielen des <hi rend="italic">f</hi>-Moll-Dreiklangs. Ähnlich wird, worauf Terrigno explizit hinweist, die Baßfigur <hi rend="italic">as-ges-f-es-des</hi> im vierten Takt des zweiten Satzes (linke Hand) nicht 1&#x2013;2&#x2013;3&#x2013;4&#x2013;5 gespielt, sondern 2&#x2013;3&#x2013;4/3&#x2013;4&#x2013;5/2, mit stummen Fingerwechseln 4/3 auf dem <hi rend="italic">f</hi> und 5/2 auf dem <hi rend="italic">des</hi>, womit die <soCalled>Seele</soCalled> des Themas besser herauskommen soll.<ref target="#Terrigno2009" type="bibl" rend="ibid">S.&#8239;9</ref>
+                    Man kann also nicht ohne weiteres behaupten, <name ref="#wernerkeil-pers073">Schenker</name> <q>did not set out to leave his own interpretive imprint on the resulting text</q>, wie es <name ref="#wernerkeil-pers086">Charles J. Smith</name> 1978 tat<ref type="bibl" target="#Smith1978">S.&#8239;37</ref>
+                    &#x2013; seine Fingersetzung impliziert sehr wohl eine bestimmte Art der Interpretation.</p>
+            </div>
+            
+            <div xml:id="wernerkeil-div4">
+                <head>IV.</head>
+                <p>Und nicht nur sie. Man wird dem Herausgeber <name ref="#wernerkeil-pers073">Schenker</name> nämlich nicht gerecht, wenn man angesichts seiner Edition der Beethovenschen Klaviersonaten die gleichzeitig erfolgten musiktheoretischen Leistungen unbeachtet lässt.</p>
+                <p><name ref="#wernerkeil-pers073">Schenker</name> entwickelte sein musiktheoretisches Denken nach und nach innerhalb von rund 30 Jahren, ohne darauf zu achten, es in einen systematisch durchdachten Zusammenhang zu bringen: Er veröffentlichte zunächst eine <hi rend="italic">Harmonielehre</hi> (1906), dann zwei Bände <hi rend="italic">Kontrapunkt</hi> (1910 und 1922) und schließlich 1935 sein Hauptwerk <hi rend="italic">Der freie Satz</hi>, alle drei unter dem gemeinsamen Titel <hi rend="italic">Neue musikalische Theorien und Phantasien</hi>. Dazu traten zahlreiche einzelne Analysen beispielsweise <name ref="#wernerkeil-pers054">Mozartscher</name> und <name ref="#wernerkeil-pers009">Beethovenscher</name> Werke, niedergelegt etwa in seinem Jahrbuch <hi rend="italic">Das Meisterwerk in der Musik</hi> oder in den <hi rend="italic">Tonwille</hi>-Heften. Er sprach selbst von einer neuen Lehre, die das Geheimnis der Entstehung der Werke der großen Meister offenlege, indem sie eine <q>Lehre vom organischen Zusammenhang</q> bilde.<ref target="#Schenker1956" type="bibl">S.&#8239;15</ref>
+                    Denn alles Organische gehöre Gott und sei sein Geschenk an uns: <quote source="#wernerkeil-ftn33">Die Summe allen Vordergrundes, von den Menschen Chaos benannt, leitet Gott von seinem Kosmos als Hintergrund ab: in diesem Zusammenhang ruht die unendliche Harmonie seines unendlichen Wesens.</quote><ref target="#Schenker1956" type="bibl" xml:id="wernerkeil-ftn33" rend="ibid">S.&#8239;18</ref>
+                    <name ref="#wernerkeil-pers073">Schenker</name> stellte sich Musik in einem mehrdimensionalen Raum vor: Er unterschied einen <hi rend="italic">Vordergrund</hi> von einem <hi rend="italic">Mittelgrund</hi> (unter dem mehrere zunehmend abstraktere Ebenen zu verstehen sind), der auf einem quasi göttlich-kosmischen <hi rend="italic">Hintergrund</hi> beruhe. Ausgangspunkt und einziger für die Musik relevanter Klang in der Natur sei der reine Durdreiklang, gewissermaßen der Uranfang aller Musik. Er ermögliche drei archetypische Melodiebewegungen: die stufenweise Abwärtsbewegung von der Terz zum Grundton (<hi rend="italic">Terzzug</hi>), von der Quinte zum Grundton (<hi rend="italic">Quintzug</hi>) sowie von der Oktave zum Grundton (<hi rend="italic">Oktavzug</hi>). Hinzu tritt für <name ref="#wernerkeil-pers073">Schenker</name> eine fundamentale kontrapunktische Baßstimmenbewegung, die sogenannte <hi rend="italic">Baßbrechung</hi>, die von der ersten Stufe, dem Grundton, über die fünfte zurück zur ersten reiche, wie in Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig11" rend="no"/> zu sehen ist. 
+                    <figure xml:id="wernerkeil-fig11">
+                        <graphic url="figures/wernerkeil-fig11.png" width="2100px" height="400px"/>
+                        <head type="legend">Drei Ursätze (Terz-, Quint- und Oktavzug) aus Schenker, <hi rend="italic">Der freie Satz</hi>, Figurentafeln Nr.&#8239;9&#x2013;11</head>
+                    </figure>
+                </p>
+                <p>Einen solchen zweistimmigen Fundamentalsatz nannte <name ref="#wernerkeil-pers073">Schenker</name> einen Ursatz, die Ursatz-Oberstimme <q>Urlinie</q>.<ref target="#Schenker1956" type="bibl" xml:id="wernerkeil-ftn34">S.&#8239;40&#8239;f.</ref>
+                    Alle tonale Musik besteht nach seinem System aus melodisch-harmonischen Ausfaltungen, den sogenannten Prolongationen eines solchen Ursatzes. Die grundsätzliche Idee dabei ist die einer Hierarchie des musikalischen Gefüges in mehreren Ebenen: Jedes Musikstück besteht aus strukturell mehr oder weniger wichtigen Tönen sowie deren Prolongationen. Jede tonale Komposition &#x2013; zumindest, wenn sie aus dem von <name ref="#wernerkeil-pers073">Schenker</name> bevorzugten Zeitraum des späten 18. und 19.&#8239;Jahrhunderts und aus der Feder eines <soCalled>Meisters</soCalled> stammt &#x2013; kann prinzipiell auf einen Ursatz zurückgeführt werden. Namentlich hat ihn dabei die Urlinie zu weitreichenden Spekulationen verleitet; von ihr heißt es etwa in dem kurzen Aufsatz <hi rend="italic">Die Urlinie. Eine Vorbemerkung</hi> im ersten <hi rend="italic">Tonwille</hi>-Heft, sie berge <q>in sich die Keime aller das Tonleben gestaltenden Kräfte</q>, erst mit ihr habe die <q>Kunstwerdung der Musik</q> stattgefunden, in ihr vollziehe sich <q>das Schöpfungswunder</q> und, vor allem, sei sie <q>Besitz des Genies allein</q>.<ref type="bibl" target="#Schenker-Urlinie-Tonwille" xml:id="wernerkeil-ftn35" n="35">S.&#8239;22&#8239;f.</ref> 
+                </p>
+                <p><name ref="#wernerkeil-pers073">Schenkers</name> musikalische Analysen, festgehalten in Diagrammen, den sogenannten Figurentafeln, sollen die Zusammensetzung eines Stückes aus Vorder-, Mittel- und Hintergrund nachvollziehbar und sichtbar machen, indem sie in einzelnen Schritten das Notenbild eines Stückes Schicht für Schicht reduzieren, (Vordergrunds-)Phänomene wie Rhythmus, Dynamik, Artikulation, Besetzung, formalen Aufbau, Modulationen etc. <hi rend="italic">peu à peu</hi> ausblenden, um auf diese Weise mehrere Ebenen des Mittelgrunds zu durchlaufen, bis sie schließlich in immer weiteren Abstraktionsschritten zum Ursatz gelangen: <name ref="#wernerkeil-pers073">Schenkers</name> Analysen sind prinzipiell Reduktionsanalysen. Für dieses schrittweise Vorgehen entwickelte er eine modifizierte Notationsweise, bei der am auffälligsten das Absehen von Rhythmus und Tonwiederholungen ist; rhythmische Notenwerte dienen stattdessen der Veranschaulichung struktureller Hierarchien. So werden beispielsweise die strukturell wichtigsten Noten in Halben oder Ganzen geschrieben, Prolongationen je nach Hierarchiestufe in Vierteln mit und ohne Hals bzw. in Achteln. Zusammengehörende Tongruppen können mit einem Balken verbunden werden, für bestimmte Wendungen gibt es durchgezogene oder punktierte Bögen etc. Die wichtigsten Töne, die einen Terz-, Quint- oder Oktavzug, also eine Urlinie bilden, werden mit Ziffern und Caret-Zeichen markiert; unter der Baßstimme notierte Schenker traditionelle römische Ziffern zur Angabe der jeweiligen harmonischen Stufe, ggf. auch herkömmliche Generalbaßziffern.</p>
+                <p>Sein System basiert auf vier historischen Voraussetzungen: Der seit der Renaissance geübten Kunst der Diminution, der Variationskunst namentlich des 18.&#8239;Jahrhunderts, dem improvisierten Generalbaßspiel sowie dem Kontrapunkt. Von zentraler Bedeutung waren dabei vor allem die Kunst des Generalbaßspielens und das Erlernen des Kontrapunkts. <name ref="#wernerkeil-pers073">Schenker</name> verwies wiederholt auf <name ref="#wernerkeil-pers005">Carl Philipp Emanuel Bachs</name> <hi rend="italic">Versuch über die wahre Art das Clavier zu spielen</hi> von 1753, ein Lehrbuch, das die Kunst des Continuospiels zu einer Zeit ihres Niedergangs darzustellen suchte. Ein Continuospieler improvisiert über einer mit Ziffern versehenen Baßstimme einen mehrstimmigen Klaviersatz und vermag sich dabei den jeweiligen Erfordernissen der Situation, etwa einer solistischen Gesangsstimme oder einer Gruppe Holzbläser, geschickt anzupassen. Für seine Darstellung harmonischer Aspekte übernahm <name ref="#wernerkeil-pers073">Schenker</name> die Notationsweise des Generalbasses. Beim Kontrapunkt ging er davon aus, dass die Prinzipien des in früheren Jahrhunderten entwickelten mehrstimmigen (vokalen) Kontrapunkts auch in der homophonen und überwiegend auf harmonischen Bildungen beruhenden Instrumentalmusik des 18. und 19.&#8239;Jahrhunderts wirksam geblieben seien. <name ref="#wernerkeil-pers054">Mozart</name> etwa oder <name ref="#wernerkeil-pers009">Beethoven</name> hätten Jahre mit intensiven Kontrapunktstudien verbracht und dabei u.&#8239;a. ein sicheres Gespür für Melodiebildung, für den Aufbau eines melodischen Höhepunkts, für Abwechslung, für ein harmonisch ausgewogenes Interagieren mit anderen Stimmen erworben, eine Art antrainierter Fähigkeit, instinktiv musikalisch <soCalled>richtig</soCalled> zu handeln. Für den Verfall der Kompositionskunst im ausgehenden 19.&#8239;Jahrhundert machte <name ref="#wernerkeil-pers073">Schenker</name> die Vernachlässigung von Kontrapunkt und Generalbaß verantwortlich (im Falle seines kontrapunktisch zweifellos geschulten Lehrers <name ref="#wernerkeil-pers017">Bruckner</name> dessen mangelnde Fähigkeit zum Transfer kontrapunktischen Könnens in den freien Satz). In Abbildung&#x00A0;<ref type="crossref" target="#wernerkeil-fig12" rend="no"/> ist eine <name ref="#wernerkeil-pers073">Schenkersche</name> Figurentafel wiedergegeben, die einen ganzen Sonatensatz, und zwar den langsamen Satz aus <name ref="#wernerkeil-pers009">Beethovens</name> Klaviersonate op.&#8239;10 Nr.&#8239;3, zusammenfasst: Neben Taktzahlen zur Orientierung erkennt man eine zweiteilige Großform mit einem unterbrochenen Terzzug, im Baß eine Brechung zur V.&#8239;Stufe, in den Mittelstimmen ein durch vorhandene oder fehlende Halsung, gestrichelte oder durchgezogene Bögen sowie Worterklärungen verdeutlichtes harmonisch-kontrapunktisches Geflecht. Im oberen System ist eine weitere Reduktion des gesamten Satzes wiedergegeben.
+                    <figure xml:id="wernerkeil-fig12">
+                        <graphic url="figures/wernerkeil-fig12.jpg" width="2745px" height="826px"/>
+                        <head type="legend">Beethoven, op.&#8239;10 Nr.&#8239;3, Largo; nach Schenker, <hi rend="italic">Der freie Satz</hi>, Bd.&#8239;2, Figurentafel 39</head>
+                    </figure>
+                </p>
+            </div>
+            
+            <div xml:id="wernerkeil-div5">
+                <head>V.</head>
+                <p>Schenkers musiktheoretisches System ist von seinen Schülern <name ref="#wernerkeil-pers045">Oswald Jonas</name> und <name ref="#wernerkeil-pers070">Felix Salzer</name> bereits vor Jahrzehnten detailliert beschrieben worden;<note xml:id="wernerkeil-ftn36" n="36"><ref target="#Jonas1934" type="bibl"/>; <ref target="#Salzer1952" type="bibl"/></note> 
+                    jüngere Darstellungen englischsprachiger Autoren, insbesondere mit Blick auf Studierende, stammen u.&#8239;a. von <name ref="#wernerkeil-pers032">Allen Forte</name> und <name ref="#wernerkeil-pers034">Steven E. Gilbert</name>, <name ref="#wernerkeil-pers024">Allen Cadwallader</name> und <name ref="#wernerkeil-pers033">David Gagné</name> sowie von <name ref="#wernerkeil-pers060">Tom Pankhurst</name>.<note xml:id="wernerkeil-ftn37" n="37"><ref target="#Forte1982" type="bibl"/>; <ref target="#Cadwallader1998" type="bibl"/>; <ref target="#Pankhurst2008" type="bibl"/>.</note> 
+                    Daher mag es sich hier erübrigen, noch eingehender auf <name ref="#wernerkeil-pers073">Schenkers</name> System einzugehen. Es bleibt jedoch zu klären, wie seine Herausgebertätigkeit mit der Entwicklung seines Musiksystems zusammenhängt und ob es zwischen diesen Bereichen Querverbindungen gibt. In ihrem bereits erwähnten Aufsatz <hi rend="italic">Wie kam die <soCalled>Urlinie</soCalled> in den <soCalled>Urtext</soCalled>?</hi> geht <name ref="#wernerkeil-pers092">Cristina Urchueguía</name> eben dieser Frage nach; schon zuvor hatte <name ref="#wernerkeil-pers028">Nicholas Cook</name> sich mit der Auseinandersetzung zwischen <name ref="#wernerkeil-pers073">Schenker</name> und <name ref="#wernerkeil-pers021">Bülow</name> sowie mit dem Konzept des sogenannten Urtextes bei <name ref="#wernerkeil-pers073">Schenker</name> befasst.<note xml:id="wernerkeil-ftn38" n="38"><ref target="#Cook2011" type="bibl"/>; <ref target="#Cook1991" type="bibl"/>.</note> 
+                    <name ref="#wernerkeil-pers092">Urchueguía</name> und <name ref="#wernerkeil-pers028">Cook</name> stellen dem Herausgeber <name ref="#wernerkeil-pers073">Schenker</name> kein gutes Zeugnis aus; zwar habe er heftig gegen Herausgeberzutaten nach der Art <name ref="#wernerkeil-pers021">Hans von Bülows</name> in dessen der musikalischen Praxis zugedachten Ausgaben gewettert und auf der Unantastbarkeit und besonderen Aura der Autographen bestanden, im Ernstfall jedoch einen stimmigen, sozusagen zwingend überzeugenden Sachverhalt gemäß seinem Musiksystem der Notierungsweise des jeweiligen Autographen vorgezogen. Bereits in seiner <hi rend="italic">Harmonielehre</hi> (1906) habe er den Gedanken vertreten, ein Meisterwerk könne durchaus gegen den bewussten Willen des Komponisten entstehen. Die von <name ref="#wernerkeil-pers028">Cook</name> verkürzt zitierte Stelle lautet im deutschen Original: <quote source="#wernerkeil-ftn39">Großen Talenten und Genies nämlich ist es oft eigen, Nachtwandlern gleich den rechten Weg zu gehen, auch wenn sie durch dieses oder jenes, […] sogar durch die volle Absicht auf Falsches, verhindert sind, auf ihren Instinkt zu horchen. Es ist, als komponierte geheimnisvoll hinter ihrem Bewußtsein und in ihrem Namen die weit höhere Macht einer Wahrheit&#x00A0;[…]</quote>.<ref xml:id="wernerkeil-ftn39" type="bibl" target="#Schenker1906">S.&#8239;76&#8239;f.</ref>
+                </p>
+                <p>Im Konfliktfall komme daher, nach <name ref="#wernerkeil-pers028">Cook</name>, dem objektiven Befund höhere Beweiskraft zu als einer <quote source="#wernerkeil-ftn40">purely personal, subjective creation</quote>.<ref target="#Cook2011" type="bibl" xml:id="wernerkeil-ftn40">S.&#8239;93</ref> 
+                    Dies wird beispielhaft gezeigt an einer Stelle aus <name ref="#wernerkeil-pers026">Frédéric Chopins</name> <title rend="normal" ref="#wernerkeil-work004">Klavieretüde op.&#8239;10 Nr.&#8239;5 (<hi rend="italic">Ges</hi>-Dur)</title>: <quote source="#wernerkeil-ftn41">In bars 24&#x2013;6, the sources all have e<hi rend="sup">b</hi>’&#x200A;’&#x200A;’ but modern editors unanimously change this to g<hi rend="sup">b</hi>’&#x200A;’&#x200A;’&#x00A0;[…]</quote>.<ref target="#Cook2011" type="bibl" xml:id="wernerkeil-ftn41" rend="ibid"/>  
+                    <name ref="#wernerkeil-pers073">Schenker</name> folge hier nicht den Autographen, die an dieser Stelle eben sämtlich <hi rend="italic">es</hi>’&#x200A;’&#x200A;’ notieren, sondern halte mit den modernen Herausgebern an der Konjektur <hi rend="italic">ges</hi>’&#x200A;’&#x200A;’ fest, denn <quote source="#wernerkeil-ftn42">voice leading stands above <name ref="#wernerkeil-pers026">Chopin</name>.</quote><ref target="#Cook2011" type="bibl" xml:id="wernerkeil-ftn42" rend="ibid"/> 
+                    In seinem kleinen Aufsatz zum Urtext betont <name ref="#wernerkeil-pers028">Cook</name>, <name ref="#wernerkeil-pers073">Schenker</name> habe etwa im Sinne <name ref="#wernerkeil-pers069">Rudolph Rétis</name> an einem Begriff von Kohärenz festgehalten, der wie eine Grundidee <soCalled>hinter</soCalled> jeder <name ref="#wernerkeil-pers009">Beethovenschen</name> Komposition stünde; deshalb sei er ganz selbstverständlich davon ausgegangen, er müsse zum Beispiel, auch wenn es im Autograph anders notiert sei, analoge Abschnitte eines Werkes einander mit gleicher Bogensetzung anpassen: 
+                    <quote source="#wernerkeil-ftn43">Both as editor and as analyst, <name ref="#wernerkeil-pers073">Schenker</name> upheld the <soCalled>paradigm of consistency</soCalled>. He was prepared, on occasion, to regularize slur-markings in analogous passages &#x2013; even when they were marked dinstinctly in the composer’s autograph&#x00A0;[…]</quote>.<ref target="#Cook1991" type="bibl" xml:id="wernerkeil-ftn43">S.&#8239;29</ref>
+                </p>
+                <p>Am heftigsten verfährt indes <name ref="#wernerkeil-pers092">Urchueguía</name> mit dem Herausgeber <name ref="#wernerkeil-pers073">Schenker</name>. Sie setzt sich ausführlich mit seinen Erläuterungsausgaben zu den letzten <name ref="#wernerkeil-pers009">Beethovenschen</name> Klaviersonaten auseinander und konstatiert, <name ref="#wernerkeil-pers073">Schenker</name> resümierend: 
+                    <quote source="#wernerkeil-ftn44">Der Editor muss dem Genie zur Seite stehen, um es vor dem Ungemach der Überlieferung und vor dem, was <name ref="#wernerkeil-pers073">Schenker</name> <soCalled>mangelhafte Erkenntnis</soCalled>, vulgo Dummheit der Herausgeber, nennt, zu schützen. Gerechtfertigt und begründet werden darin nicht die textkritischen Entscheidungen <name ref="#wernerkeil-pers073">Schenkers</name>, sondern die textgenetischen Entscheidungen <name ref="#wernerkeil-pers009">Beethovens</name>, weshalb er <q>so und nicht anders den Text abfaßte und notierte</q>.</quote><ref type="bibl" target="#Urchueguia2012" xml:id="wernerkeil-ftn44">S.&#8239;240</ref>
+                </p>
+                <p>Ausführlich behandelt sie dann die Erläuterungsausgabe zu <title rend="normal" ref="#wernerkeil-work006">op.&#8239;101</title>, die als letzte dieser Ausgaben im Jahre 1920 erschienen war. <name ref="#wernerkeil-pers073">Schenker</name> konnte hier auf das von <name ref="#wernerkeil-pers057">Gustav Nottebohm</name> bereits 1876 herausgegebene <name ref="#wernerkeil-pers009">Beethovensche</name> Skizzenbuch <hi rend="italic">Scheide</hi> zurückgreifen mit seinen zahlreichen Skizzen zu eben dieser Sonate. Es zeigt sich jedoch, dass <name ref="#wernerkeil-pers073">Schenker</name>, dem <quote source="#wernerkeil-ftn45">bekennenden Autographen-Fetischisten</quote>,<ref type="bibl" target="#Urchueguia2012" xml:id="wernerkeil-ftn45" rend="ibid">S.&#8239;248</ref> die Darstellung der Genese der Sonate aus den Skizzen relativ gleichgültig war; stattdessen brachte er zur Erläuterung des Anfangs des zweiten Satzes eine <soCalled>Skizze</soCalled> &#x2013; bei der es sich jedoch nicht um eine authentische <name ref="#wernerkeil-pers009">Beethovensche</name>, sondern um seine eigene, die Urlinie verdeutlichende Analyse handelt: <quote source="#wernerkeil-ftn46">Die Zeugnisse des Schaffensprozesses, die tatsächlich von <name ref="#wernerkeil-pers009">Beethoven</name> verfassten und von <name ref="#wernerkeil-pers057">Nottebohm</name> edierten Skizzen, werden in dieser Besprechung nicht erwähnt. Sie erscheinen zwar in <name ref="#wernerkeil-pers073">Schenkers</name> Ausgabe, aber lediglich im Anhang</quote>.<ref type="bibl" target="#Urchueguia2012" xml:id="wernerkeil-ftn46" rend="ibid">S.&#8239;247</ref>
+                    Für <name ref="#wernerkeil-pers073">Schenker</name> war eben eine Komposition von Anfang an fertig, eine schreibend-skizzierende Auseinandersetzung innerhalb des Kompositionsprozesses scheint er nicht in Erwägung gezogen zu haben: <quote source="#wernerkeil-ftn47">Ob und warum ein Autor skizzierte, warum dieses oder jenes Element der Komposition schriftlich ausprobiert wurde, gehört zu den großen Rätseln der Skizzenforschung</quote><ref type="bibl" target="#Urchueguia2012" xml:id="wernerkeil-ftn47" rend="ibid">S.&#8239;249</ref>
+                    &#x2013; für die <name ref="#wernerkeil-pers073">Schenker</name> sich aber nicht interessierte.</p>
+            </div>
+            <div xml:id="wernerkeil-div6">
+                <head>VI.</head>
+                <p>Es scheint nach den bisherigen Ausführungen klar geworden zu sein, dass es <name ref="#wernerkeil-pers073">Schenker</name> nicht darum gehen konnte, eine <soCalled>praktische</soCalled> Ausgabe der <name ref="#wernerkeil-pers009">Beethovenschen</name> Klaviersonaten vorzulegen, in dem Sinn, wie <name ref="#wernerkeil-pers021"
+                    >Hans von Bülow</name> in erster Linie ein bestimmtes Werk für musikalisch Interessierte <soCalled>spielbar</soCalled> machen wollte &#x2013; gegebenenfalls sogar mit Vorschlägen, wie eine bestimmte, schwierig auszuführende Stelle, etwa der Sechzehntellauf der rechten Hand in den Takten 14/15 der <title ref="#wernerkeil-work001">Appassionata</title>, für weniger geübte Hände leichter gemacht werden könnte (etwa indem die Passage auf beide Hände verteilt wird). Andererseits, auch das dürfte sich gezeigt haben, ging es <name ref="#wernerkeil-pers073">Schenker</name>, obwohl er unerbittlich auf der Autorität der Autographen bestand, auch nicht um eine <soCalled>wissenschaftliche</soCalled> Ausgabe in dem Sinn, dass der Nachwelt das Ringen eines Komponisten um die Fassung eines Werkes einerseits genetisch, andererseits in seiner womöglich inkohärenten Vielfalt und Offenheit möglichst objektiv übermittelt werde. Seine oft nicht einmal transparent gemachten Abweichungen von den Autographen (in der <title ref="#wernerkeil-work001">Appassionata</title> etwa gleich zu Beginn die Notation des Anfangs der rechten Hand im Violinschlüssel), seine Entscheidungen gegen die Autographe, wenn <soCalled>höhere</soCalled> Rücksichten im Spiel sind (in dem von <name ref="#wernerkeil-pers028">Cook</name> behandelten <name ref="#wernerkeil-pers026">Chopin</name>-Beispiel) oder sein Verzicht auf Berücksichtigung der Skizzen, wie es <name ref="#wernerkeil-pers092">Urchueguía</name> beschrieben hat, lassen hieran keinen Zweifel. </p>
+                <p>Tatsächlich ergibt sich aber aus den heutzutage befremdlich wirkenden ästhetischen Ansichten <name ref="#wernerkeil-pers073">Schenkers</name>, aus seiner grandiosen Selbsteinschätzung, wie sie sich im testamentarisch verfügten Grabspruch offenbart, aus seiner Vorstellung von Urlinie und Ursatz sowie aus seinem Vorgehen als Herausgeber ein durchaus stimmiges Gesamtbild, das nun noch etwas genauer untersucht werden soll.</p>
+                <p>Wer davon überzeugt ist, nur er selbst verstünde als einziger etwas von seinem Fach, während alle Kolleginnen und Kollegen mehr oder minder große Trottel seien, ist, wenn man jüngsten Umfrageergebnissen vertrauen will, ein Angehöriger des deutschen Professorenstandes. Außerhalb dieser Berufsgruppe (und dieser nicht ganz ernst gemeinten Aussage) kennzeichnet die Haltung, es ginge mit der Welt bergab, man sei der letzte und einzige, der noch etwas von vergangener Größe verstünde, die Zeitgenossen seien, wenn nicht einfach dumm, so von falschen Ansichten verblendet etc. einen Typus, wie er um die Wende vom 19. auf das 20.&#8239;Jahrhundert relativ oft aufgetreten ist und für den <name ref="#wernerkeil-pers061">Michael Pauen</name> den Begriff eines <q>Dithyrambikers des Untergangs</q> vorgeschlagen hat, eines modernen Gnostikers, als den er beispielsweise Philosophen wie <name ref="#wernerkeil-pers077">Arthur Schopenhauer</name>, <name ref="#wernerkeil-pers056">Friedrich Nietzsche</name> oder <name ref="#wernerkeil-pers002">Theodor W. Adorno</name> angesehen hat.<ref target="#Pauen1994" type="bibl"/>
+                    Im Sinne <name ref="#wernerkeil-pers061">Pauens</name> kann man auch <name ref="#wernerkeil-pers073">Schenker</name> für einen gnostisch veranlagten Monisten halten: In seinem Tagebuch vermerkte er, <q>alles Lebendige</q> sei <q>vom Göttlichen buchstäblich durchwoben</q>, Gott sei gewissermaßen <q>in Allem</q><note xml:id="wernerkeil-ftn49" n="49">Zitiert nach <ref type="bibl" target="#Federhofer1985">S.&#8239;337</ref>.</note> 
+                    gegenwärtig; man erinnert sich an seine Bemerkung zum Vorder- und Hintergrund in der Musik, worin sich <q>die unendliche Harmonie</q> von Gottes unendlichem Wesen offenbare oder an die auch über <name ref="#wernerkeil-pers026">Chopin</name> stehende Wahrheit der Urlinie, diesem <q>Schöpfungswunder</q> etc. Man könnte daraus folgern, <name ref="#wernerkeil-pers073">Schenker</name> sei in der Rolle eines <soCalled>Erwählten</soCalled> aufgetreten, dem als einzigem die <soCalled>Wahrheit</soCalled> offenbart wurde, der aber um sich herum nur Niedergang und Ahnungslosigkeit beobachten müsse, vielleicht auch absichtsvolle Bosheit, das Wahre und Richtige zu verzerren. Aus einer solchen elitären Haltung heraus wäre es nur zu verständlich, dass <name ref="#wernerkeil-pers073">Schenker</name> in <hi rend="italic">dieser</hi> Welt kein offizielles Amt angenommen hat. </p>
+                <p>Andererseits schart ein <soCalled>Erwählter</soCalled> seit jeher Anhänger und Jünger um sich, um das, was er bislang als einziger weiß, an <soCalled>Würdige</soCalled> weiterzugeben. Genauso verhielt sich <name ref="#wernerkeil-pers073">Schenker</name>: Bis heute besteht die Schenkerforschung größtenteils aus ehemaligen Schülern bzw. Schülern von Schülern, aus einem relativ kleinen Kreis <soCalled>Eingeweihter</soCalled>, und einen erheblichen Teil seines umfangreichen Nachlasses bilden Tausende regelmäßig von ihm gemachter Notizen seiner privat gegebenen Unterrichtsstunden. Auf dieses Material hat sich bereits 1984 <name ref="#wernerkeil-pers067">William Rothstein</name> gestützt, als er <q><name ref="#wernerkeil-pers073">Schenker</name> as an Interpreter of <name ref="#wernerkeil-pers009">Beethoven</name>’s Piano Sonatas</q> untersuchte und dabei auf handgeschriebene Seiten zu einem <q>Entwurf einer <soCalled>Lehre vom Vortrag</soCalled></q> stieß, in der es ums <q>Klavier</q>, um <q>Üben</q>, <q>Legato</q>, <q>Fingersatz</q> und <q>Oktavenspiel</q> geht.<ref target="#Rothstein1984" type="bibl">S.&#8239;5</ref>
+                    <name ref="#wernerkeil-pers073">Schenker</name> erweist sich darin, so kann es <name ref="#wernerkeil-pers067">Rothstein</name> überzeugend herausarbeiten, als kundiger Pianist, der etwa kleine Modifikationen der Tempogestaltung in den Dienst einer kunstvollen Interpretation stellen konnte oder um <name ref="#wernerkeil-pers009">Beethovens</name> seinerzeit neuartige Kunst eines möglichst <hi rend="italic">legato</hi> ausgeführten Klavierspiels wusste (was die Fingersetzung in seinen Ausgaben wesentlich beeinflusst hat). Wenn man, wie es viele Äußerungen Schenkers nahelegen, den <hi rend="italic">Künstler</hi> als eine Art Hohepriester der Musik versteht, der, in den Worten <name ref="#wernerkeil-pers077">Arthur Schopenhauers</name>, in der Sprache der Kunst ausdrücke, was sonst nur höchste Philosophie zu leisten vermöge &#x2013; siehe das diesem Aufsatz vorangestellte Motto &#x2013;, dann zielte <name ref="#wernerkeil-pers073">Schenker</name> als Herausgeber weder auf eine praktische, noch eine wissenschaftliche, sondern vielmehr auf eine <hi rend="italic">künstlerische</hi> Edition: Eine sozusagen um das Göttliche in der Musik wissende Ausgabe der <name ref="#wernerkeil-pers009">Beethovenschen</name> Klaviersonaten musste sich am Beginn des 20.&#8239;Jahrhunderts von den bis dahin üblichen Herausgebergepflogenheiten abwenden, weshalb die Autographe für <name ref="#wernerkeil-pers073">Schenker</name> zwangsläufig außerordentlich wichtig wurden. Doch sind auch sie nicht das letzte Wort: Es bleibt dem wissenden Künstler vorbehalten. Bereits&#x00A0;1906, in seiner <hi rend="italic">Harmonielehre</hi>, sah <name ref="#wernerkeil-pers073">Schenker</name> sich selbst in dieser Rolle: Auf dem Titelblatt steht unter der Überschrift <hi rend="italic">Neue musikalische Theorien und Phantasien</hi> statt seines eigenen Namens die Formulierung <q>Von einem Künstler</q>.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="Schopenhauer1986">Arthur Schopenhauer, <title level="m">Die Welt als Wille und Vorstellung</title>&#x00A0;I, hg. von Wolfgang Freiherr von Löhneysen, Stuttgart u.&#8239;a. 1968</bibl>
+                    <bibl xml:id="Hailey2006">Christopher Hailey, <title level="a">Anbruch and Tonwille: The Verlagspolitik of Universal Edition</title>, in: <title level="m">Schenker-Traditionen. Eine Wiener Schule der Musiktheorie und ihre internationale Verbreitung</title>, hg. von Martin Eybl und Evelyn Fink-Mennel, Wien 2006, S.&#8239;59&#x2013;67</bibl>
+                    <bibl xml:id="Schoenberg1911">Arnold Schönberg, <title level="m">Harmonielehre</title>, Wien 1911 (7.&#8239;Aufl. Wien 2001)</bibl>
+                    <bibl xml:id="Schenker1956">Heinrich Schenker, <title level="m">Der freie Satz (Neue musikalische Theorien und Phantasien&#x00A0;III)</title>, 2&#x00A0;Bde. (Text und Notenbeispiele) Wien 1935 (2.&#8239;Aufl., hg. von Oswald Jonas, Wien 1956)<bibl type="short">Schenker, <title level="m">Der freie Satz</title></bibl></bibl>
+                    <bibl xml:id="Jonas1963">Oswald Jonas, Art. <title level="a">Schenker</title>, in: <title level="m">Die Musik in Geschichte und Gegenwart</title>, hg. von Friedrich Blume, Bd.&#8239;11 (1963), Sp.&#8239;1670&#8239;ff.</bibl>
+                    <bibl xml:id="Schenker1925">Heinrich Schenker, <title level="a">Weg mit dem Phrasierungsbogen</title>, in: <title level="m">Das Meisterwerk in der Musik. Ein Jahrbuch</title>, Teil&#x00A0;I, hg. von Heinrich Schenker, München 1925, S.&#8239;41&#x2013;60<bibl type="short">Schenker, <title level="a">Weg mit dem Phrasierungsbogen</title></bibl></bibl>
+                    <bibl xml:id="Federhofer1985">Hellmut Federhofer, <title level="m">Heinrich Schenker. Nach Tagebüchern und Briefen in der Oswald Jonas Memorial Collection, University of California, Riverside</title>, Hildesheim 1985<bibl type="short">Federhofer, <title level="m">Heinrich Schenker</title></bibl></bibl>
+                    <bibl xml:id="Eybl1995">Martin Eybl, <title level="m">Ideologie und Methode. Zum ideengeschichtlichen Kontext von Schenkers Musiktheorie</title>, Tutzing 1995</bibl>
+                    <bibl xml:id="Forte2006">Allen Forte, <title level="a">Schenkerians and Schoenbergians in America</title>, in: <title level="m">Schenker-Traditionen. Eine Wiener Schule der Musiktheorie und ihre internationale Verbreitung</title>, hg. von Martin Eybl und Evelyn Fink-Mennel, Wien 2006, S.&#8239;83&#x2013;88</bibl>
+                    <bibl xml:id="Schenker1921">Heinrich Schenker, <title level="a">Von der Sendung des deutschen Genies</title>, in: <title level="m">Der Tonwille. Flugblätter zum Zeugnis unwandelbarer Gesetze der Tonkunst einer neuen Jugend dargebracht</title>&#x00A0;1 (1921), S.&#8239;3&#x2013;6</bibl>
+                    <bibl xml:id="ccnmtl01">Heinrich Schenker, <title level="m">Testament</title>, in: <ref target="#schenkerdocumentsonline" type="bibl"/>, URL: <ptr target="http://www.schenkerdocumentsonline.org/documents/other/OJ-35-6_1.html"/></bibl>
+                    <bibl xml:id="Urchueguia2012">Cristina Urchueguía, <title level="a">Wie kam die <soCalled>Urlinie</soCalled> in den <soCalled>Urtext</soCalled>? Aporien musikalischer Schrift im Denken Heinrich Schenkers</title>, in: <title level="m">Schweizer Jahrbuch für Musikwissenschaft</title>&#x00A0;32 (2012), S.&#8239;237&#x2013;253<bibl type="short">Urchueguía, <title level="a">Aporien</title></bibl></bibl>
+                    <bibl xml:id="Federhofer1990"><title level="m">Heinrich Schenker als Essayist und Kritiker. Gesammelte Aufsätze, Rezensionen und kleinere Berichte aus den Jahren 1891&#x2013;1901</title>, hg. von Hellmut Federhofer, Hildesheim 1990, S.&#8239;57&#x2013;61 und S.&#8239;197&#x2013;205<bibl type="short">Federhofer, <title level="m">Heinrich Schenker als Essayist und Kritiker</title></bibl></bibl>
+                    <bibl xml:id="schenkerdocumentsonline01">Heinrich Schenker, <title level="m">Tagebucheintrag vom 22.&#8239;Januar 1907</title>, in: <ref target="#schenkerdocumentsonline" type="bibl"/>, URL: <ptr target="http://www.schenkerdocumentsonline.org/documents/diaries/OJ-01-06_1907-01/r0015.html"/></bibl>
+                    <bibl xml:id="schenkerdocumentsonline02">Heinrich Schenker, <title level="m">Tagebucheintrag vom 5.&#8239;Februar 1907</title>, in: <ref target="#schenkerdocumentsonline" type="bibl"/>, URL: <ptr target="http://www.schenkerdocumentsonline.org/documents/diaries/OJ-01-06_1907-02/r0003.html"/></bibl>
+                    <bibl xml:id="Ratz1962"><title level="m">Beethoven Klaviersonaten. Nach den Autographen und Erstdrucken revidiert von Heinrich Schenker. Neue Ausgabe revidiert von Erwin Ratz</title>, UE&#x00A0;8a, Wien 1962, <title level="a">Vorwort</title> (Wiener Urtext Ausgabe, hg. von Karl Heinz Füssl und H.&#8239;C. Robbins Landon)</bibl>
+                    <bibl xml:id="Hauschild1977">Peter Hauschild, <title level="a">Bemerkungen zu Beethovens Klaviernotation</title>, in: <title level="m">Beethoven-Jahrbuch</title> 9 (1973/77), S.&#8239;147&#x2013;165</bibl>
+                    <bibl xml:id="Uhde1986">Jürgen Uhde, <title level="m">Beethovens Klaviermusik</title>, Bd.&#8239;III: Sonaten 16&#x2013;32, Stuttgart 1986</bibl>
+                    <bibl xml:id="Terrigno2009">Loretta Terrigno, <title level="a">Schenker’s Interpretative Fingerings: A Comparison of Two Beethoven Piano Sonatas</title>, in: <title level="j">Music research forum</title>&#x00A0;24 (2009), S.&#8239;1&#x2013;24<bibl type="short">Terrigno, <title level="a">Schenker’s Interpretative Fingerings</title></bibl></bibl>
+                    <bibl xml:id="Smith1978">Charles J. Smith, <title level="a">Beethoven via Schenker: A Review</title>, in: <title level="j">In Theory Only</title>&#x00A0;4 (1978), S.&#8239;37&#x2013;47</bibl>
+                    <bibl xml:id="Jonas1934">Oswald Jonas, <title level="m">Das Wesen des musikalischen Kunstwerks: Eine Einführung in die Lehre Heinrich Schenkers</title>, Wien 1934</bibl>
+                    <bibl xml:id="Salzer1952">Felix Salzer, <title level="m">Structural Hearing. Tonal Coherence in Music</title>, New York 1952, dt. als: <title level="m">Strukturelles Hören. Der tonale Zusammenhang in der Musik</title>, 2&#x00A0;Bde., Wilhelmshaven 1960</bibl>
+                    <bibl xml:id="Forte1982">Allen Forte und Steven E. Gilbert, <title level="m">Introduction to Schenkerian Analysis</title>, New York 1982</bibl>
+                    <bibl xml:id="Cadwallader1998">Allen Cadwallader und David Gagné, <title level="m">Analysis of Tonal Music: A Schenkerian Approach</title>, New York 1998</bibl>
+                    <bibl xml:id="Pankhurst2008">Tom Pankhurst, <title level="m">SchenkerGUIDE. A Brief Handbook and Website for Schenkerian Analysis</title>, New York 2008</bibl>
+                    <bibl xml:id="Cook2011">Nicholas Cook, <title level="a">The Editor and the Virtuoso, or Schenker versus Bülow</title>, in: <title level="m">Music, performance, meaning. Selected essays</title>, hg. von dems., Aldershot 2011, S.&#8239;83&#x2013;100<bibl type="short">Cook, <title level="a">The Editor and the Virtuoso</title></bibl></bibl>
+                    <bibl xml:id="Cook1991">Nicholas Cook, <title level="a">Heinrich Schenker and the authority of the Urtext</title>, in: <title level="m">Tradition and its future in music</title>, hg. von Yosihiko Tokumaru, Tokio 1991, S.&#8239;27&#x2013;33<bibl type="short">Cook, <title level="a">Heinrich Schenker and the authority of the Urtext</title></bibl></bibl>
+                    <bibl xml:id="Schenker1906">Heinrich Schenker, <title level="m">Harmonielehre</title>, Stuttgart u.&#8239;a. 1906 (Neue musikalische Theorien und Phantasien&#x00A0;I)</bibl>
+                    <bibl xml:id="Pauen1994">Michael Pauen, <title level="m">Dithyrambiker des Untergangs. Gnostizismus in Ästhetik und Philosophie der Moderne</title>, Berlin 1994</bibl>
+                    <bibl xml:id="Rothstein1984">William Rothstein, <title level="a">Heinrich Schenker as an Interpreter of Beethoven’s Piano Sonatas</title>, in: <title level="j">19th-Century Music</title>&#x00A0;8 (1984), S.&#8239;3&#x2013;28</bibl>
+                    <bibl xml:id="schenkerdocumentsonline"><title level="m">Schenker Documents Online</title>, URL: <ptr target="http://www.schenkerdocumentsonline.org"/><bibl type="short"><title level="m">Schenker Documents Online</title></bibl></bibl>
+                    <bibl xml:id="Schenker-Urlinie-Tonwille">Heinrich Schenker, <title>Die Urlinie. Eine Vorbemerkung</title>, in: <title level="m">Der Tonwille. Flugblätter zum Zeugnis unwandelbarer Gesetze der Tonkunst einer neuen Jugend dargebracht</title>&#x00A0;1 (1921), S.&#8239;22–26</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

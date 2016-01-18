@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Neue Entwicklungen im wissenschaftlichen Publikationswesen, oder
+                    warum brauchen geisteswissenschaftliche Bibliotheken Open
+                        Access?</title>
+                <title type="short">Neue Entwicklungen im wissenschaftlichen Publikationswesen</title>
+                <author>
+                    <name><forename>Thomas</forename> <surname>Stäcker</surname></name>
+                    <email/>
+                    <affiliation>studierte Philosophie, Latinistik und deutsche Literaturwissenschft an der TU Braunschweig, der University of Essex und der Universität Osnabrück und wurde 1994 über das Thema <hi rend="italic">Die Stellung der Theurgie in der Lehre Jamblichs</hi> promoviert. Nach dem Bibliotheksreferendariat war er ein Jahr an der Johannes a Lasco Bibliothek Emden tätig. Seit 1998 wirkt er an der Herzog August Bibliothek Wolfenbüttel, bis 2009 als Leiter der Abteilung <hi rend="italic">Alte Drucke, Digitalisierung</hi> und seitdem als Leiter der Abteilung <hi rend="italic">Neuere Medien, Digitale Bibliothek</hi>. Seit 2009 ist er Stellvertretender Direktor und seit 2015 Kommissarischer Direktor der Herzog August Bibliothek.</affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                        Attribution 3.0 Unported License (CC BY 3.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="staecker-pers001">
+                        <p>Binfilet, Peter</p>
+                    </person>
+                    <person xml:id="staecker-pers002">
+                        <p>Bourdieu, Pierre</p>
+                    </person>
+                    <person xml:id="staecker-pers003">
+                        <p>Eve, Paul Martin</p>
+                    </person>
+                    <person xml:id="staecker-pers004">
+                        <p>Garfield, Eugene</p>
+                    </person>
+                    <person xml:id="staecker-pers005">
+                        <p>Kant, Immanuel</p>
+                    </person>
+                    <person xml:id="staecker-pers006">
+                        <p>O&#x2019;Reilly, Tim</p>
+                    </person>
+                    <person xml:id="staecker-pers007">
+                        <p>Shakespeare, William</p>
+                    </person>
+                    <person xml:id="staecker-pers008">
+                        <p>Vanhoutte, Edward</p>
+                    </person>
+                    <person xml:id="staecker-pers011">
+                        <p>Wegmann, Nikolaus</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="latex-staecker-vspace-1mm">\vspace{-1mm}</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2015-11-05T11:44:00" who="KR">Korrekturen eingearbeitet.</change>
+            <change when="2015-10-31T15:03:00" who="https://github.com/peterstadler"
+                >Für erste Durchsicht vorbereitet.</change>
+            <change when="2015-07-01T11:26:33.74+02:00" who="https://github.com/peterstadler"
+                >Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="staecker-abstract"><p>Vor dem Hindergrund des <hi rend="italic">digital turn</hi> gewinnt Open Access im wissenschaftlichen Publikationswesen zunehmend an Bedeutung.  Doch es herrscht nach wie vor Unklarheit, was darunter zu verstehen ist und welche Konsequenzen die Publikation von Forschungsliteratur und Quellenwerken im Open Access eigentlich hat. Auch gibt es nach wie vor  in Kreisen der Wissenschaft, von Bibliothken, ja selbst der <hi rend="italic">Digital Humanities</hi> immer noch  Widerstand gegen die Einführung von Open Access. Der Beitrag geht der Frage nach, welche Rolle geisteswissenschaftlich ausgerichtete Bibliotheken in dieser Frage spielen können. Es geht um die Definition von Open Access, um die Rolle, die Open Access in einer zunehmend vernetzten und digital arbeitenden Wissenschaft spielt und darum, wie Bibliotheken als Institutionen die elektronische Publikation von Literatur und Quellenwerken veranlassen, durchführen oder befördern können. Zu bedenken sind rechtliche, technische, organisatorische, aber auch Aspekte der Qualitätssicherung, Reputation und Verbreitung, die eng mit dem Begriff Open Access verbunden und nach Maßgabe der Anforderungen, die sich aus der digitalen Konversion des kulurellen Erbes und wissenschaftlichen Publikationswesen ergeben, in den Blick zu nehmen sind.</p></div>
+        </front>
+        <body>
+           <!-- <p>
+                <hi rend="bold" xml:space="preserve">Neue Entwicklungen im wissenschaftlichen Publikationswesen, oder warum brauchen geisteswissenschaftliche Bibliotheken </hi>
+                <hi rend="italic bold">Open Access</hi>
+                <hi rend="bold">?</hi>
+                <note xml:id="staecker-ftn1" n="1">
+                    <p> Dieser Beitrag steht unter einer Creative Commons Lizenz (CC-BY-SA).</p>
+                </note>
+            </p>-->
+            <div xml:id="staecker-div1">
+                <head/>
+                <p><name ref="#staecker-pers008">Edward Vanhoutte</name>, der Hauptherausgeber des Journals der Alliance of Digital
+                    Humanities Organization (ADHO), vormals <title level="m">Literary and Linguistic Computing</title> (LLC)
+                    nun <title level="m">Digital Scholarship in the Humanities</title> (DSH), sah sich in der Ausgabe vom
+                    1.&#8239;April 2014<ref target="#Vanhoutte2014" type="bibl" xml:id="staecker-ftn1"/> 
+                    veranlasst, auf den wachsenden Druck in Richtung <hi rend="italic">Open
+                        Access</hi> zu reagieren und in einem Vorwort das subskriptionsbasierte
+                    Erscheinen bei Oxford University Press zu verteidigen. Er trägt im Wesentlichen
+                    drei Argumente vor. Erstens sei LLC nicht im Besitz der Presse, sondern der <hi
+                        rend="italic">European Association for Digital Humanities</hi> (EADH). Der
+                    Autor oder die Autorin gebe nicht ihr Recht an die Presse, sondern <quote source="#staecker-ftn3">you
+                        retain all copyrights. You sign an exclusive licence which gives EADH the
+                        right to have your work published on behalf by the Press</quote><ref target="#Vanhoutte2014" type="bibl"
+                        xml:id="staecker-ftn3" n="3" rend="ibid">S.&#8239;1</ref>. Man habe das Recht, einen Preprint zu veröffentlichen, allerdings nicht
+                    in derselben Form (meint das PDF des Verlages) und ein Postprint auch erst nach
+                    24 Monaten. Es folgt eine lange Liste von Vorteilen, die von einem etablierten
+                        <hi rend="italic">peer review</hi>-Prozess bis zu dem Umstand reichen, dass
+                    das Journal erschlossen ist <quote source="#staecker-ftn4">by the most important indexing/abstracting
+                        services in the humanities, including MLA, ISI, Web of Science […]</quote><ref target="#Vanhoutte2014" type="bibl" xml:id="staecker-ftn4" n="4" rend="ibid">S.&#8239;2</ref> etc. Das zweite Argument für die subskriptionsbasierte Zeitschrift ist,
+                    dass 70&#8239;% der Einnahmen an ADHO gehe: <q>The profit which is at stake here is your
+                    very own association’s income</q>. Die dritte Argumentation ist, dass LLC auf diese
+                    Weise auch Open Access querfinanziere, z.&#8239;B. durch Subventionen an DHQ,
+                    Digital Studies oder DHcommons. </p>
+            </div>
+            <div xml:id="staecker-div2">
+                <head/>
+                <p>Die Frage, die sich hier aufdrängt, ist: Wenn schon die explizit der digitalen
+                    geisteswissenschaftlichen Forschung verpflichteten <hi rend="italic">Digital
+                        Humanities</hi> sich nicht oder nur halbherzig mit Open Access verbinden können,
+                    warum sollte dann eine geisteswissenschaftliche Infrastruktureinrichtung wie
+                    eine Bibliothek sich dem Open Access Prinzip verpflichtet fühlen? Die Argumente
+                    <name ref="#staecker-pers008">Vanhouttes</name> scheinen denn auch auf den ersten Blick einleuchtend. Die Einnahmen
+                    aus der Zusammenarbeit mit einem kommerziell arbeitenden Verlag kommen dem
+                    Verband zugute und helfen dessen Arbeit zu finanzieren. Der Verlag selbst hat
+                    davon nur einen geringen Profit: Der Verband macht ein gutes Geschäft. Bei
+                    näherer Betrachtung zeigen sich aber Risse in der Argumentation und das Bild,
+                    das die Digital Humanities hier bieten, ist keineswegs so schlüssig, wie der
+                    Herausgeber des zentralen Fachorgans des Europäischen Verbandes hier glauben
+                    machen will. Da ist zum einen die Behauptung, dass Mitglieder ihre Rechte nicht
+                    dem Verlag, sondern dem Verband übertragen und erst der Verband diese Rechte
+                    exklusiv an den Verlag gebe. Welchen Unterschied das für den Autor oder die
+                    Autorin macht, ist offen gestanden nicht zu erkennen. Weder ist es erlaubt, den
+                    Beitrag anderweitig zu publizieren, noch auch, nach Ablauf der zweijährigen
+                        Embargofrist,<note xml:id="staecker-ftn5" n="5">Die Frist von zwei Jahren ist ungewöhnlich lang und widerspricht weitgehend allen
+                            Empfehlungen für Zeitschriften, die auf ein Jahr lauten.</note> das Verlags-PDF zu nutzen, weil es angeblich ein Urheberrecht begründe
+                    (ein Umstand der angesichts des kaum originell zu nennenden Layouts von LLC/DSH
+                    zumindest strittig ist). Dass ein <hi rend="italic">pre-print</hi> erlaubt ist,
+                    scheint großzügig, ist aber mittlerweile in allen wichtigen
+                    naturwissenschaftlichen und technischen Zeitschriften ohne Embargofrist
+                    üblich.<note n="6" xml:id="staecker-ftn6"><ref target="#Eve2014" type="bibl">S.&#8239;69</ref>; <ref target="#Suber2013" type="bibl">S.&#8239;56</ref>.</note> 
+                    Eigenartig ist auch die Argumentation, dass die Zeitschrift in allen
+                    wichtigen Indizes <q>in the humanities</q> nachgewiesen werde. Die gelisteten
+                    kommerziellen Indexdienste richten sich aber nahezu ausschließlich an die <hi rend="italic">sciences</hi>. Web of Science z.&#8239;B. spielt in
+                    geisteswissenschaftlich ausgerichteten Einrichtungen und Fakultäten kaum eine
+                    Rolle. Der Vorteil ist also keiner. Im Gegenteil, das Abonnement dieser
+                    Indexdienste ist für Individuen unerschwinglich und beschränkt sich auf meist
+                    große wissenschaftliche Institutionen oder Organisationen, die es sich leisten
+                    können. Liest man im Kleingedruckten von LLC/DSH genauer nach, verfinstert sich
+                    dies Bild weiter. Im Impressum heißt es: <q>©&#x00A0;European Association for Digital
+                        Humanities&#x00A0;2014. All rights reserved; no part of this publication may be
+                    reproduced, stored in a retrieval system, or transmitted in any form or by any
+                    means, electronic, mechanical, photocopying, recording etc.</q> Theoretisch wird
+                    hier sogar Google untersagt, Artikel des Journals zu indexieren. Man kann nur
+                    froh sein, dass dies im Sinne des <hi rend="italic">fair use</hi> eine
+                    unzulässige Forderung ist. Die Intention ist aber klar. Auch der Index, die
+                    Findbarkeit soll noch zu Geld gemacht werden. Als Tüpfelchen auf dem i wird dann
+                    dem vielleicht nur gelegentlich interessierten Leser eine horrende Artikelgebühr
+                    von 39&#8239;USD abverlangt, allerdings nur <q>for 1&#x00A0;day.</q> Was all dies noch mit
+                    Förderung der Wissenschaft und DH zu tun hat, gerade auch einer DH, deren Ziel
+                    es ist, Dokumente im Wege des Textmining nutzen zu wollen, bleibt schleierhaft.
+                    Wenn daher Autoren, die über Textmining schreiben, sich dieser Praxis
+                    verweigern, ist das keine Abkehr von <q>ihrem eigenen Journal</q> (<q>Hey, its your
+                        journal</q>, wie <name ref="#staecker-pers008">Vanhoutte</name> beteuert), sondern das Ernstnehmen ihrer eigenen
+                    Wissenschaft, die unter solchen Subskriptionsbedingungen nicht mehr arbeiten
+                    kann und sich von den Zwängen eines veralteten Publikationssystems zurecht
+                    emanzipieren will. DH ist keine abstrakte Theorie, sondern auch konkret die
+                    eigene wissenschaftliche Praxis. Nicht von ungefähr hat daher der Verband
+                    Digital Humanities im deutschsprachigen Raum <hi rend="italic">Open Access</hi>
+                    in seiner Satzung verankert.<ref xml:id="staecker-ftn7" n="7" target="#DigHumSatzung" type="bibl">§&#8239;2,&#8239;3</ref> 
+                    Wie steht es aber mit der Behauptung, man würde <hi rend="italic">Open
+                        Access</hi> querfinanzieren? Darin steckt eine verunglückte Dialektik, denn
+                    warum sollte eine Verbandszeitschrift, die mit dem Anspruch antritt, die besten
+                    Autorinnen und Autoren des Faches zu rekrutieren, ihre Autorinnen und Autoren
+                    den gleichsam <q>besseren</q> <hi rend="italic">Open Access</hi> Zeitschriften in die
+                    Arme treiben? Letztlich hält auch die Argumentation, man würde den größten Teil
+                    der Einnahmen selbst behalten, nicht Stich, wenn man nicht zugleich die Rechnung
+                    aufmacht, was unter Verzicht dieser Einnahmen an Mitgliederbeiträgen tatsächlich
+                    vereinnahmt wird, um gegenzurechnen, ob diese Gebühren nicht ausreichen, ein
+                    modernen DH Methoden adäquates Verbandsorgan ohne Restriktionen im <hi rend="italic">Open Access</hi> zu finanzieren. Es wird noch nicht einmal der
+                    Versuch unternommen, eine Alternative zu entwickeln. Umgekehrt sind die hier
+                    sichtbar werdenden Abhängigkeiten beängstigend, und noch beängstigender ist,
+                    dass selbst aus den engeren Kreisen von DH Argumente kommen, die kaum ihre
+                    Herkunft aus den Lobbyabteilungen der einschlägigen Verlagswirtschaft verbergen
+                    können. Anders als <name ref="#staecker-pers008">Vanhoutte</name> glauben machen will, sind bei näherer Betrachtung
+                    die Publikationsbedingungen bei Oxford University Press (OUP) für Autorinnen und Autoren, die sich den DH
+                    Prinzipien verschrieben haben und innovativen Publikationsformen verpflichtet
+                    fühlen, schlecht. Die Nachnutzung der Texte ist für die DH praktisch unmöglich,
+                    die Nachweissituation ist für die Geisteswissenschaften unterentwickelt &#x2013; die
+                    Zeitung ist in einschlägigen, selbst interessierten geisteswissenschaftlichen
+                    Kreisen gar nicht bekannt &#x2013; und das Finanzierungsmodell wirft insgesamt
+                    mehr Fragen auf, als es beantwortet. Dennoch muss man sich aus dieser
+                    unglücklich vorgetragenen Selbstbehauptung eines aus Sicht gegenwärtiger DH
+                    Anforderungen unzulänglichen Publikationsmodells fragen, was angesichts der doch
+                    überwiegend positiven Open Access Bekundungen aus dem Lager der DH einen wichtigen
+                    Protagonisten der DH antreibt, wo nicht im Prinzip, so doch im Falle der eigenen
+                    Verbandszeitschrift gegen Open Access zu argumentieren. Verfährt hier einer nach dem
+                    Prinzip <q>Wasch mich, aber mach mich nicht nass</q> oder steckt mehr dahinter?
+                    Zugleich sollten sich wissenschaftliche Bibliotheken, die sich neuen Strömungen
+                    wie Open Access öffnen wollen, sehr genau fragen, in welchen Bereichen sie aktiv werden
+                    wollen und mit welchen Konsequenzen sie zu rechnen haben, wenn sie sich <hi rend="italic">Open Access</hi> öffnen, kurz, warum brauchen
+                    wissenschaftliche Biblioheken <hi rend="italic">Open Access</hi>?</p>
+            </div>
+            <div xml:id="staecker-div3">
+                <head/>
+                <p>Open Access ist spätestens seit der Berliner Erklärung, der viele große
+                    Forschungseinrichtungen beigetreten sind,<note xml:id="staecker-ftn8" n="8"><ref target="#BerlinDeclaration2003" type="bibl"/>.
+                            Vgl. auch die vorausgehende Budapest Open Access Initative (2002) und das
+                            Bethesda Statement on Open Access Publishing (2003).</note> 
+                    ein wissenschaftspolitischer Kampfbegriff geworden. Erst unlängst wurde
+                    das Prinzip des Open Access durch das Europäische Förderprogramm Horizon&#x00A0;2020
+                    erneut bestärkt.<ref type="bibl" target="#Horizon2020" xml:id="staecker-ftn9" n="9"/> 
+                    Die Vertreter des Open Access fordern, mit der durch das Internet
+                    gewonnenen Unabhängigkeit und den daraus erwachsenen Möglichkeiten digitalen
+                    Publizierens endlich ernst zu machen, die Verteidiger des traditionellen
+                    Publikationsmodells fürchten um angemessene Bezahlung der Leistung von Künstlern
+                    und Wissenschaftlern, machen aber auch Qualitätsgründe geltend. Die Kombattanten
+                    scheinen auf den ersten Blick klar. Auf der einen Seite die Traditionalisten,
+                    die die ökonomischen, sozialen, wissenschaftspolitischen und juristischen
+                    Konzepte des Druckzeitalters auf das digitale Zeitalter übertragen wollen, auf
+                    der anderen Seite diejenigen, die einen klaren Schnitt wünschen und über einen
+                    Prozess der Vergemeinschaftung der intellektuellen und kulturellen Güter und
+                    freien Zugänglichkeit aller Informationen für jedermann einen Prozess der
+                    Beförderung der freien Bildung und Wissenschaft einleiten wollen. Tatsächlich
+                    sind aber die Demarkationslinen dieser Auseinandersetzung nicht so klar zu
+                    ziehen, wie es den Anschein hat. Die Forderung und Ablehnung von Open Access
+                    zeigt auf den zweiten Blick eine schillernde Vielfalt von Aspekten, die ein Pro
+                    oder Contra für die eine oder andere Seite von jeweils verschiedenen
+                    Rahmenbedingungen und Voraussetzungen abhängig macht und dazu führt, dass sogar
+                    unter <hi rend="italic">Open Access</hi> Befürwortern oft Uneinigkeit herrscht,
+                    welche Richtung zu verfolgen sei. Ein Grund dafür ist das Fehlen einer
+                    eindeutigen und von allen geteilten Definition von Open Access.<note xml:id="staecker-ftn10" n="10">Die Definition der Berliner 
+                        Deklaration kann man dabei als
+                            Maximalforderung sehen, da sie dem Nutzer weitgehend alle Rechte am Werk
+                            einräumt. Vgl. <ref target="#Schindler2006" type="bibl">S.&#8239;6</ref>.</note> 
+                    Als kleinster gemeinsamer Nenner bedeutet Open Access gewöhnlich, dass
+                    Inhalte ohne Nutzungskosten und nennenswerte Zugangsbeschränkungen zur Verfügung
+                    stehen.<note>Ebd., S.&#8239;1&#8239;f.</note> 
+                    Allerdings gibt es auch Stimmen, die Open Access auf akademische
+                    Schriften beschränken und auch das <hi rend="italic">Reviewing</hi> in die
+                    Definition einbeziehen.<note xml:id="staecker-ftn12" n="12"><ref target="#Eve2014" type="bibl">S.&#8239;1</ref>: <q>Open access means
+                            peer-reviewed academic research work that is free to read online and
+                            that anybody may redistribute and reuse, with some restrictions.</q></note> Ob Inhalte auch uneingeschränkt nachgenutzt werden können oder ob es
+                    nicht doch Einschränkungen im Sinne von z.&#8239;B. Embargofristen (<emph>green way</emph>) oder einer nicht zitierfähigen
+                    Parallelveröffentlichung bzw. Zweitveröffentlichung (<hi rend="italic">preprint,
+                        postprint</hi>) gibt, ist damit noch nicht gesagt. Es macht daher Sinn, das
+                    Feld zunächst grob zu kartieren und sich dann die Frage zu stellen, inwieweit
+                    die klassischen Gedächtniseinrichtungen, vor allem wissenschaftliche
+                    Bibliotheken, von diesem Prozess berührt sind.</p>
+            </div>
+            <milestone rendition="#latex-staecker-vspace-1mm"/>
+            <div xml:id="staecker-div4">
+                <head/>
+                <p><hi rend="italic">Open Access</hi> ist ein Begriff, der vor allem aus dem
+                    Bereich der Wissenschaftspublikation kommt. So spricht auch der einschlägige
+                    Wikipedia Artikel in seiner Definition von freiem <quote source="#staecker-ftn13">Zugang zu wissenschaftlicher
+                    Literatur und anderen Materialien im Internet.</quote><ref target="#OpenAccess2015" type="bibl" xml:id="staecker-ftn13" n="13"/>
+                    Was unter <q>anderen Materialien</q> zu verstehen ist, kann man nur
+                    vermuten. Belletristische Literatur z.&#8239;B. scheint jedoch nicht im direkten
+                    Fokus dieser Definition zu liegen. Das hat einen triftigen Grund, denn
+                    wissenschaftliche und sonstige Literatur unterscheidet ein wichtiges Merkmal.
+                    Während Autoren wissenschaftlicher Literatur in der Regel mit der Publikation
+                    ihrer Werke keine Gewinnerzielungsabsichten verbinden, sondern vor allem auf
+                    wissenschaftliche Reputation und Verbreitung ihrer Werke Wert legen, ist der
+                        Krimiautor<note xml:id="staecker-ftn14" n="14">Hier und im Folgenden wird aus sprachlichen Gründen die männliche Form
+                            verwendet. Selbstverständlich sind darunter auch weibliche Personen
+                            gemeint.</note> darauf angewiesen, dass sich sein Buch verkauft, weil er seinen
+                    Lebensunterhalt damit bestreitet. Auch wenn die weite Verbreitung seines Buches
+                    für ihn gut ist, ist sie doch kein Selbstzweck. Es nützt diesem Autor nichts,
+                    allseits bekannt zu sein, wenn er aus seinen Büchern kein Kapital schlägt.
+                    Umgekehrt sind Wissenschaftler in der Regel<note xml:id="staecker-ftn15" n="15"><name ref="#staecker-pers003">Eve</name> macht allerdings darauf aufmerksam, dass die
+                            zunehmende Zahl befristeter bzw. prekärer akademischer
+                            Beschäftigungsverhältnisse dieses Argument <q>that all academics are paid
+                            to write and so can afford to give material away</q> (<ref type="bibl" target="#Eve2014">S.&#8239;57</ref>)
+                            entkräftet.</note> nicht vom Verkauf ihrer Bücher oder Artikel abhängig und zumindest in
+                    Deutschland vom Staat finanziert. Einnahmen über die VG&#x00A0;Wort sind allenfalls ein
+                    Zubrot. Schon vor diesem Hintergrund ist eine undifferenzierte Open Access
+                    Forderung problematisch. Denn was dem einen eine strategische Erwägung scheinen
+                    mag zur Verbesserung der Zugangsbedingungen zu seinen Werken und deren
+                    Verbreitung, ist für den anderen von existentieller Bedeutung. In
+                    <hi rend="italic">ökonomischer</hi> Hinsicht sind also
+                    Publikationen zu unterscheiden, die zu gewerbsmäßigen und zu
+                    nicht-gewerbsmäßigen Zwecken erfolgen. Diese Unterscheidung war früher nicht von
+                    Bedeutung, weil im Prinzip jede Publikation einen gewerbsmäßigen Charakter
+                    hatte, allerdings nicht unbedingt für den Autor als vielmehr für die Verlage,
+                    die mit der Herstellung und Vermarktung Geld verdienten. Vor dem Hintergrund
+                    nahezu kostenfreier Publikationsmöglichkeiten im Internet hat zumindest von der
+                    technischen Seite die Relevanz der Verlage deutlich abgenommen und theoretisch
+                    könnte jeder Autor, zumindest der, der kein kommerzielles Interesse hat, sein
+                    Werk selbst ohne Hilfe eines Verlages publizieren, so dass nicht mehr alle
+                    Publikationen automatisch gewerbsmäßig erfolgen. Warum also ergreifen Autoren
+                    diese Möglichkeit nicht oder nur zögerlich? Grund scheint vor allem das
+                    <hi rend="italic">Prestige</hi>, das sich mit einem
+                    Publikationsort verbindet. Es verhält sich wie eine handelsfähige Ware, wie
+                    <name ref="#staecker-pers003">Eve</name>, <name ref="#staecker-pers002">Bourdieu</name> folgend,<note xml:id="staecker-ftn16" n="16"><ref target="#Eve2014" type="bibl">S.&#8239;45</ref>; vgl. auch <ref type="bibl" target="#Thompson2012">S.&#8239;6</ref>.</note> ausführt, so dass auch bei <q>nicht kommerziellen</q>
+                    Publikationsverhältnissen ein ökonomischer Aspekt im Sinne eines <q>kulturellen
+                    Kapitals</q> in Anschlag gebracht werden muss, z.&#8239;B. darin, dass ein Autor
+                    oder eine Institution bereit ist, sich Prestige <q>einzuhandeln</q>, ohne direkt vom
+                    Verkauf der Ware zu profitieren.</p>
+                <p>Dennoch scheint es sinnvoll, diesen prinzipiellen Unterschied von <q>kommerziellem</q>
+                    und <q>nicht-kommerziellem</q> Publizieren festzuhalten und als Charakteristikum des,
+                    wie Thompson formuliert, <q>wissenschaftlichen Feldes</q><note>Ebd., S.&#8239;7</note> zu deuten, das von anderen Feldern der Publikation zu unterscheiden ist.
+                    Im <q>nicht-kommerziellen</q> akademischen Feld ist vor allem der Begriff der
+                    Qualität einer Publikation und ihres Prestiges entscheidend, wobei Prestige, wie
+                    Eve ausführt, ein Stellvertreterbegriff für Qualität ist.<note xml:id="staecker-ftn18"
+                        n="18"><ref target="#Eve2014" type="bibl" rend="ibid">S.&#8239;48</ref>: <q>prestige as a proxy measure for
+                            quality.</q></note> Wer Qualität liefert, gewinnt Prestige bzw. Reputation. Wenn ein
+                    Publikationsort Prestige hat und angesehen ist &#x2013; so die Funktion des
+                    Stellvertreterprinzips &#x2013;, gewinnt auch der Autor, der dort publiziert, Prestige
+                    und Reputation. So übersetzt sich über die Mitte des Publikationsorts Qualität
+                    in Prestige und Reputation, was die Rolle von eingeführten Verlagen stärkt, die
+                    für sich beanspruchen, dass sie z.&#8239;B. mit dem Mittel der <hi rend="italic"
+                        >peer review</hi> für Qualität sorgen. Natürlich ist dies an sich nicht
+                    falsch. Prestige ist nützlich, da es angesichts der Begrenztheit von
+                    akademischen Ressourcen bzw. der akademischen Arbeit hilft, Relevantes zu
+                    filtern. Die Knappheit an Aufmerksamkeit führt zu dem Wunsch, sich nur mit dem
+                    Wichtigen befassen zu müssen, oder, negativ mit <name ref="#staecker-pers011">Wegmann</name> formuliert, den <q>Müll</q>
+                    zu entsorgen.<ref target="#Wegmann2000" type="bibl" xml:id="staecker-ftn19" n="19">S.&#8239;78&#8239;ff.</ref> 
+                    Im Sinne akademischer Arbeitsteilung sollen <hi rend="italic">peers</hi>
+                    durch einen <hi rend="italic">reviewing</hi> Prozess dafür sorgen, dass nur das
+                    Beste zur Publikation gelangt. Journale oder Verlage, die diesen Prozess
+                    erfolgreich umsetzen, haben folglich Prestige. Aus Prestige wiederum wird <hi
+                        rend="italic">Impact</hi> abgeleitet, der als das wesentliche Maß für
+                    wissenschaftliche Qualität gilt. Forscher müssen sich nicht mehr alles, was
+                    erscheint, ansehen, sondern brauchen nur das wenige, was als relevant und
+                    wertvoll für ein Fach erachtet wird, was <hi rend="italic">Impact</hi> hat, zu
+                    rezipieren, um auf dem Laufenden und der Höhe der Forschung zu bleiben.
+                    Allerdings hat sich gerade unter dem hohen Publikationsdruck des akademischen
+                    Systems herausgestellt, dass dieser <hi rend="italic">review process</hi> selbst
+                    hinterfragt werden,<ref target="#Shatz2004" type="bibl" xml:id="staecker-ftn20" n="20"/>
+                     dass Qualität nicht unbedingt mit Prestige übereinstimmen muss oder
+                    dass die Qualität eines Artikels sich automatisch aus der Qualität eines
+                    Journals ableitet. Selbst der Erfinder des Impact-Faktors, <name ref="#staecker-pers004">Garfield</name>, bezweifelt
+                    mittlerweile, dass man den Impact-Faktor ohne weiteres an eine bestimmte
+                    Zeitschrift koppeln kann<note xml:id="staecker-ftn21" n="21"><ref target="#Garfield2005" type="bibl">S.&#8239;18</ref>; vgl. auch <ref target="#Shatz2004" type="bibl">S.&#8239;129</ref>.</note> und weist darauf hin, dass es schlüssiger wäre, ihn mit dem einzelnen
+                    Artikel zu verbinden. Des weiteren kann Prestige auf veralteter Information
+                    beruhen, zudem <q>Prestige hinders the development of new (economic) models for
+                    publishing</q> und begünstigt <quote source="#staecker-ftn22">re-enforcement of existing systems</quote>.<ref target="#Eve2014" type="bibl" xml:id="staecker-ftn22">S.&#8239;55</ref>
+                     So kann die frühere Kategorie <q>Müll</q> mit einem geänderten
+                    Paradigmenwechsel auf einmal relevant sein. Gerade in geisteswissenschaftlichen
+                    Zusammenhängen finden sich immer wieder Umstände, wo ein vormals wenig
+                    beachteter Autor auf einmal an Bedeutung gewinnt.</p>
+            </div>
+            <div xml:id="staecker-div5">
+                <head/>
+                <p>Diese Aspekte sind für die Umsetzung von <hi rend="italic">Open Access</hi>
+                    deswegen wichtig, weil das wissenschaftliche Publikationswesen zunächst einmal
+                    gegen eine Änderung der Publikationsbedingungen widerständig ist und
+                    überlieferte Publikationsformen, die Prestige genießen, gegenüber Newcomern
+                    privilegiert, gleichviel, ob diese Newcomer qualitätsvoll sind oder nicht. <hi
+                        rend="italic">Open Access</hi> Publikationsmodelle haben es <hi
+                        rend="italic">eo ipso</hi> schwer, in der Wissenschaft so ernst genommen zu
+                    werden wie die traditionellen subskriptionsbasierten Produkte, wobei heutzutage
+                    weniger das Misstrauen in die elektronische Publikation als solcher den
+                    Ausschlag gibt<ref target="#Shatz2004" type="bibl" xml:id="staecker-ftn23" n="23">S.&#8239;139&#8239;f.</ref> als die Kontinuität von <q>Verlagslabeln</q>.</p>
+                <p>An dieser Stelle könnten bibliothekarische Infrastruktureinrichtungen in
+                    Zusammenarbeit mit der Forschung eine wichtige Rolle übernehmen, weil sie
+                    z.&#8239;B. in der Frage des Bestandsaufbaus ähnliche Selektionsmechanismen wie
+                    Verlage entwickelt und für ihr Forschungsfeld die relevante Literatur erworben
+                    haben. Fachreferenten, die Titel erwerben, agieren in gewissem Sinne nicht
+                    anders als <hi rend="italic">peers</hi> und selektieren Bücher und
+                    Zeitschriften, die zur Sammlung passen. Jede Kaufentscheidung ist auch eine
+                    Aufnahmeentscheidung unter dem Gesichtspunkt einer Güteabwägung. Das will nicht
+                    heißen, dass das Fachreferentensystem mit dem Reviewingsystem identisch ist.
+                    Letzterem eignet ein ganz anderer Grad der Spezialisierung. Trotzdem zeichnen
+                    sich Konvergenzen ab, die vor allem darin sichtbar werden, dass Sammlungen wie
+                    Verlagen Prestige eigen sein kann, das dazu führt, dass Wissenschaftler Wert
+                    darauf legen, dass ihre Bücher in bestimmte Sammlungen aufgenommen und dort
+                    nachgewiesen werden. Wenn diese Sammlungen dazu übergehen, Bücher und
+                    Zeitschriften nicht nur zu <q>erwerben</q>, sondern unter digitalen Vorzeichen auch
+                    zu publizieren, kann sich dieser Effekt noch verstärken. Allerdings gibt es auch
+                    bei Bibliotheken das Phänomen der durch Prestige veranlassten Erwerbung. Wieder
+                    spielen Verlage die Schlüsselrolle. Für Autoren attraktive Verlage mit hohen
+                    Prestigewerten, gelten auch bei Bibliotheken als attraktiv, so attraktiv, dass
+                    man meinte, sogar auf Auswahlprozesse verzichten zu können. Das Modell der <hi
+                        rend="italic">standing order</hi><ref type="bibl" target="#Corsten1987" xml:id="staecker-ftn24" n="24">s.&#8239;v. <hi rend="italic">Blanket Order</hi>, S.&#8239;455&#8239;f.</ref> etwa, das in den mit ausreichend Mitteln ausgestatteten
+                    Sondersammelgebieten der DFG gern genutzt wurde, überlässt es weitgehend dem
+                    Verlag, für die Bibliothek relevante Titel auszuwählen. So kam es zu sich
+                    gegenseitig verstärkenden Effekten. Verlage galten als prestigeträchtig,
+                    deswegen publizierten Autoren in ihnen und deswegen kauften die Bibliotheken
+                    Bücher des Verlages. Eine eingehende Prüfung fand nicht mehr statt.</p>
+            </div>
+            <div xml:id="staecker-div6">
+                <head/>
+                <p>Auch wenn Publikationen des akademischen Feldes <q>nicht-kommerziell</q> sind und
+                    durch Fragen von Qualität und Prestige bestimmt, sind sie natürlich trotzdem
+                    nicht kostenfrei, d.&#8239;h. auch <hi rend="italic">Open Access</hi>
+                    Publikationen kosten Geld, selbst wenn viele Kosten der traditionellen
+                    Buchherstellung wegfallen. Grundlage der Kostenersparnis ist dabei weniger der
+                    Herstellungsprozess des Textes, das Schreiben, die Redaktion und das Layouten,
+                    als der Vervielfältigungsprozess bzw. Kopiervorgang, der weitgehend kostenfrei
+                    möglich ist. So spart ein Verlag bei einem rein elektronischen Buch zunächst die
+                    rund 10&#8239;% jeder Auflage,<note n="25" xml:id="staecker-ftn25">Diese und die folgenden Angaben aus <ref target="#Roehring2003" type="bibl">S.&#8239;103&#x2013;113</ref></note> die an Autoren, Rezensenten, die Presse, die Nationalbibliothek etc.
+                    kostenfrei abgegeben werden. Ob noch Händlerrabatte nötig sind, kommt darauf an,
+                    wie das E-Book vermarktet wird. Nötig ist dieser Zwischenschritt im Grunde nicht
+                    mehr, so dass auch der Händlerrabat von rund 45&#8239;% auf den Buchpreis entfallen
+                    kann. Die Herstellungskosten von durchschnittlich 35&#8239;% werden deutlich reduziert.
+                    Man mag, wie gesagt, auch im Digitalen Kosten für Layout, Satz und die
+                    Beschaffung von Abbildungen sowie Korrekturkosten in Anschlag bringen, Papier,
+                    Druck, Einband, Schutzumschlag oder Schrumpffolie entfallen jedoch komplett.
+                    Zusammen mit dem Phänomen, dass Verlage zunehmend Kosten für Layout- und
+                    Korrekturarbeiten auf den Autor abgewälzt haben, kommt man sicher auf 20&#8239;%
+                    Ersparnis. Gleiches gilt für das Autorenhonorar, das bei wissenschaftlichen
+                    Publikationen so gut wie keine Rolle spielt. Eingespart werden ebenfalls die
+                    Auslieferungskosten von ca.&#8239;10&#8239;% und die Vertreterprovision von 5&#8239;%. Ob und
+                    inwieweit die Werbungskosten von 5&#x2013;10&#8239;% erhalten bleiben, ist schwer zu
+                    beurteilen. Marketing gibt es natürlich auch im Internet. Rechnet man aber nur
+                    die beiden Hauptpositionen, Händlerrabatt und Herstellungskosten, zusammen und
+                    geht von einem Stückpreis von 100&#8239;Euro netto für die Druckauflage aus, so würde
+                    der Verlag mit dem eingesparten Händlerrabatt (55&#8239;Euro) und den meisten der
+                    Herstellungskosten (20&#8239;Euro) 75&#8239;Euro und nicht 25&#8239;Euro für die restlichen Kosten
+                    und den Gewinn zurückbehalten. </p>
+                <p>Angesichts dessen ist der Umstand, dass
+                    wissenschaftliche Bücher in der Form von E-Books nicht wahrnehmbar günstiger
+                    geworden sind, bemerkenswert und zeigt deutlich das Versagen klassischer
+                    Marktinstrumente bzw. die hier wirksamen Monopolstrukturen nicht nur auf der
+                    Makroebene der Verlagskonglomerate, sondern auch auf der Mikroebene einzelner
+                    Werke, die kein anderer anbieten kann.<note n="26" xml:id="staecker-ftn26"><ref target="#Staecker2013" type="bibl"/>. 
+                        Vgl. auch <ref target="#Suber2013" type="bibl">S.&#8239;39.</ref></note> Natürlich entstehen neue Kosten im Aufbau entsprechender
+                    Angebotsinfrastrukturen, doch ließen sich diese reduzieren, wenn man das E-Book
+                    wirklich als <hi rend="italic">file</hi> an Bibliotheken oder über <hi
+                        rend="italic">marketing places</hi> den Endverbraucher verkaufen und nicht
+                    nur lizenzieren würde, so dass es dann Sache der Bibliotheken oder des
+                    Endverbrauchers wäre, das E-Book anzuzeigen. Stattdessen bieten die meisten
+                    Verlage ihre Produkte auf eigenen, nicht selten kostspieligen Plattformen an,
+                    auch wenn natürlich die Kosten deutlich unter denen für ein gedrucktes Buch
+                    liegen. In gewissem Sinne verstärkt sich damit ein Moment, das vorher in der so
+                    genannten Zeitschriftenkrise schon zu bemerken war, dass bei sinkenden Kosten
+                    von E-Medien und sich verstärkenden Konglomeratbildungen immer stärker
+                    kommerzielle Aspekte das eigentlich <soCalled>nicht-kommerzielle</soCalled>
+                    akademische Feld zu beherrschen begannen.</p>
+                <p>Erst mit dem Aufkommen des <hi rend="italic">Open Access</hi> Prinzips zeichnet
+                    sich ab, dass die ökonomischen Rahmenbedingungen sich ändern. Wenn man vom
+                    Subskriptions- zum <hi rend="italic">Open Access</hi>-Modell wechselt,
+                    allerdings nur im <hi rend="italic">golden way</hi>, denn die Auswirkungen des
+                        <hi rend="italic">green way</hi> sind auf das klassische
+                    Subskriptionsmodell, wenn überhaupt, nur marginal,<note xml:id="staecker-ftn27" n="27"><ref target="#Eve2014" type="bibl">S.&#8239;76</ref>: <q>currently available research shows
+                        that the green route poses no immediate danger to subscriptions for
+                        journals but allows open access.</q></note> dann müssen aus Sicht eines Verlages oder allgemeiner des Dienstleisters
+                    die Kosten plus Gewinn gewissermaßen mit einem Exemplar erwirtschaftet werden.
+                    Aus der Position der Stärke (<q>Prestige</q>) haben Verlage diese Kosten, die so
+                    genannten <hi rend="italic">article oder book processing charges</hi> (APC/BPC)
+                    auf den Autor übertragen (<hi rend="italic">author pays</hi>) oder auf
+                    Institutionen, an denen der Autor beschäftigt ist. Doch ist das keineswegs das
+                    einzige und für die Geisteswissenschaften vermutlich nicht einmal attraktivste
+                    Modell. Alternativen sind z.&#8239;B. Förderinstitutionen, wissenschaftliche
+                    oder kulturelle öffentliche Institutionen, Fachgesellschaften oder Verbände,<note
+                        xml:id="staecker-ftn28" n="28">Vgl. das im Bibliotheksbereich unlängst gegründete Journal o-bib: <ptr target="https://www.o-bib.de/"/>.</note> 
+                    die die Finanzierung übernehmen können.<note xml:id="staecker-ftn29" n="29">Vgl. <ptr target="http://open-access.net/informationen-zu-open-access/geschaeftsmodelle/"/>.</note> 
+                    Eve nennt zudem Modelle, in denen Open Access querfinanziert wird durch eine
+                    parallele Druckausgabe<note xml:id="staecker-ftn30" n="30"><ref target="#Eve2014" type="bibl">S.&#8239;131&#8239;f.</ref> 
+                        Mutatis mutandis ein Modell, das
+                        auch <name ref="#staecker-pers008">Vanhoutte</name> verfolgt, allerdings bezieht sich <name ref="#staecker-pers003">Eve</name> hier nicht auf
+                        Zeitschriften, sondern auf Monographien.</note> oder zusätzliche Services, das sogenannte Freemium-Model<ref target="#Eve2014" type="bibl" xml:id="staecker-ftn31" rend="ibid">S.&#8239;133</ref> (vgl. z.&#8239;B. OpenEdition Books).<ref target="#OpenEditionBooks" type="bibl" xml:id="staecker-ftn32"/> 
+                    Zu nennen ist darüber hinaus der konsortiale Erwerb bzw. Freikauf<ref target="#Eve2014" type="bibl" xml:id="staecker-ftn33">S.&#8239;134&#8239;f.</ref> 
+                    oder die konsortiale Kostenübernahme (vgl. z.&#8239;B. <hi rend="italic"
+                        >Knowledge Unlatched</hi><note xml:id="staecker-ftn34" n="34"><hi rend="italic"
+                            >Knowledge Unlatched</hi>, URL: <ptr target="http://www.knowledgeunlatched.org/"/>.</note> 
+                    oder <hi rend="italic">Open Library of Humanities).</hi><ref target="#OpenLibraryOfHumanities" type="bibl" xml:id="staecker-ftn35" n="35"/></p>
+            </div>
+            <div xml:id="staecker-div7">
+                <head/>
+                <p>Zu den Anbietern von Open Access Publikationen gehören auch wissenschaftliche
+                        Bibliotheken.<note xml:id="staecker-ftn36" n="36">Siehe die Bibliotheken im Directory of Open Access Journals: <ptr target="https://doaj.org"/>.</note> Die Motivation ist dabei vielschichtig, meist spielt die enge Verbindung
+                    zu einer speziellen Fachklientel eine wichtige Rolle.<note xml:id="staecker-ftn37" n="37">Vgl. z.&#8239;B. die <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>
+                            (ZfdG): <ptr target="http://www.zfdg.de/"/>.</note> Angetrieben werden sie aber auch von ideellen Motiven und aus der
+                    Einsicht, dass die Finanzierung von <hi rend="italic">Open Access</hi> oder der
+                    Betrieb von <hi rend="italic">Open Access</hi> Publikationsservern die
+                    Wissenschaft befördert und auch ein Ausweg aus der Zeitschriftenkrise sein
+                    kann.<ref target="#Woll2005" type="bibl" xml:id="staecker-ftn38" n="38"/> 
+                    Sicher spielt auch die Archivierungsproblematik ein Rolle, die entsteht,
+                    wenn Bibliotheken nicht im Besitz der <hi rend="italic">files</hi> sind und sich
+                    auf Verlagsangebote verlassen müssen.<ref target="#Oehlmann2012" type="bibl"/> In jüngerer Zeit schält sich heraus, dass auch neue Nutzungsmethoden,
+                    vor allem aus dem Bereich der Digital Humanities, <!--die elektronische Medien mit
+                    sich bringen,--> für die Forschung zunehmend relevant werden. </p>
+                <p>Es liegt auf der Hand, dass die Archivierung und die Handhabung digitaler Medien
+                    weniger kostenintensiv und aufwändig ist, wenn keine diese Prozesse
+                    einschränkenden Rechte auf den Materialien liegen. Wenn daher eine Verpflichtung
+                    zur Langzeitarchivierung elektronischer Medien gegeben ist und damit die
+                    Vorhaltung geeigneter technischer Infrastruktur, fallen für diesen Bereich keine
+                    Zusatzkosten an. Trotz dieser deutlichen Vorteile ist die Zahl der Anbieter noch
+                        überschaubar<ref target="#Lawson2013" type="bibl"/> und viele, gerade deutsche wissenschaftliche Bibliotheken, vor allem die
+                    Fachhochschulbibliotheken, aber auch zahlreiche Universitätsbibliotheken, sehen
+                    sich (noch) nicht in dieser Rolle und stehen einer lokalen Archivierung und dem
+                    Betrieb von Publikationsservern skeptisch gegenüber, &#x2013; selbst wenn sich
+                    in letzter Zeit die Einsicht durchgesetzt hat, dass man zumindest ein
+                    Repositorium für <hi rend="italic">pre-publications</hi> oder <hi rend="italic"
+                        >post-publications</hi> betreiben sollte.<note xml:id="staecker-ftn41" n="41">Vgl. OpenDOAR: <ptr target="http://www.opendoar.org/"/>.</note> Meist besteht kein explizites Archivierungsinteresse und allenfalls ein
+                    Interesse, Materialien leicht zugänglich zu machen. Dieser Trend wird dadurch
+                    verstärkt, dass anders als bei den Geisteswissenschaften gerade bei den teuren
+                    STM bzw. MINT -Fächern<note xml:id="staecker-ftn42" n="42">STM: Science, Technology, Medicine. MINT: Mathematik, Ingenieurwesen,
+                            Naturwissenschaften und Technik.</note> längere Vorhaltezeiten wegen der relativ hohen
+                    Veralterungsgeschwindigkeit von Publikationen nicht sinnvoll scheinen, so dass
+                    die Archivierung als unnötige Belastung empfunden wird. Doch bei näherer
+                    Betrachtung macht es auch hier Sinn, die Materialien selbst zu speichern und
+                    über entsprechende Online-Angebote <hi rend="italic">Open Access</hi> zur
+                    Verfügung zu stellen, denn auf der Basis eines durchsuchbaren, meint:
+                    prozessierbaren Textes,<note xml:id="staecker-ftn43" n="43"><ref target="#Buzetti2009" type="bibl">S.&#8239;46</ref>: <q>A digital representation is data and data is
+                            processable […] into a form that can be processed by a machine.</q></note> lassen sich auch neue, für die Forschung attraktive Angebote
+                    generieren. Wenn man diesen Text nicht hat, stehen solche Möglichkeiten nicht zur
+                    Verfügung und man muss sich auf vorkonfektionierte Angebote der Verlage
+                    verlassen. Nicht nur die verlagsübergreifende Suche, sondern auch avancierte
+                    Techniken wie Textmining,<ref target="#Heyer2006" type="bibl"/> die in den Digital Humanities eine große Rolle spielen, ließen sich so
+                    kaum realisieren. Digitale Forschung ist auf Texte und Daten angewiesen,
+                    Bibliotheken fällt die Aufgabe zu, diese Texte und Daten bereitzustellen und auch
+                    langfristig zu archivieren. Insofern gibt es hier einen stimmigen
+                    Zusammenhang.</p>
+            </div>
+            <div xml:id="staecker-div8">
+                <head/>
+                <p>Vor diesem Hintergrund spricht vieles dafür, dass wissenschaftliche Bibliotheken
+                    nicht nur Repositorien schaffen, sondern als zentrale Institutionen der
+                    wissenschaftlichen Infrastruktur sich auch aktiv in den Publikationsprozess
+                    einschalten und auch die Finanzierung von <hi rend="italic">Open Access</hi>
+                    übernehmen. Dies kann aber nur funktionieren, wenn gleichzeitig der Anteil an
+                    subskriptionsbasierten Erwerbungen sinkt und damit Mittel freigesetzt
+                    werden.<ref type="bibl" target="#OpenAccessStrategien2012" xml:id="staecker-ftn45" n="45">S.&#8239;21</ref> 
+                    Um welche Kosten aber geht es? Anders als im klassischen Buch- und 
+                    Zeitschriftenmarkt<note xml:id="staecker-ftn46" n="46">Vgl. zu den Kosten des Zeitschriftenmarktes <ref target="#Houghton2012" type="bibl"/>.</note> 
+                    herrschen hier divergierende Meinungen. Die aus dem Jahre 2011 stammende
+                    Übersichtsliste der University of Berkeley<note xml:id="staecker-ftn47" n="47"><ptr target="http://www.lib.berkeley.edu/scholarlycommunication/oa_fees.html"/>.</note> 
+                    z.&#8239;B. zeigt eine beträchtliche Bandbreite für Zeitschriften von
+                    ca.&#8239;20 bis zu 5000&#8239;USD für <hi rend="italic">article processing charges</hi>. In
+                    Großbritannien liegt er bei den größeren Anbietern meist deutlich über 1500&#8239;GBP.<ref target="#Lawson2015" type="bibl"/></p>
+                <p>Durch tatsächliche Kosten kann die große Spanne der APCs kaum erklärt werden.
+                    Auffällig ist, dass geisteswissenschaftliche Journale in den verfügbaren Listen
+                    so gut wie keine Rolle spielen, was entweder auf deren Nachholbedarf oder aber
+                    auch eine andere Publikationskultur hindeutet. Dass die meisten Preise überzogen
+                    scheinen, darf man den Verlagen nicht verübeln. Sie verlangen, was der Markt zu
+                    zahlen bereit ist, zumal die früher geltende Doktrin eines angemessenen Gewinns
+                    schon längst der Maximierung des Share-Holder Value gewichen ist. Romantizismen
+                    von Autoren und Bibliotheken, die den Verlag als Partner und Förderer von
+                    Wissenschaft und Kultur begreifen, sind angesichts hochprofitabler und auf
+                    Gewinnmaximierung orientierter Verlagskonzerne völlig fehl am Platz (auch wenn
+                    es natürlich noch Verlage gibt, die dem alten Selbstverständnis folgen). Im
+                    Gegenteil, es ist an der Zeit, dass sich Autoren und Bibliotheken tatsächlich
+                    wie Kunden verhalten und preisorientiert denken. Preisorientiert denken heißt in
+                    diesem Zusammenhang abzuwägen, ob es für die wissenschaftliche Einrichtung und
+                    ihre Autoren nicht günstiger ist, die Publikation entweder selbst zu
+                    veranstalten oder aber deren Publikation frei auszuschreiben. Dabei gilt
+                    uneingeschränkt das Diktum von <name ref="#staecker-pers001">Peter Binfilet</name>, einem der Mitbegründer des
+                    neuesten <hi rend="italic">Open Access</hi> Journals PeerJ:<note xml:id="staecker-ftn49"
+                        n="49"><ptr target="https://peerj.com/"/></note> <quote source="#staecker-ftn50">The costs of research publishing can be much lower than people think.</quote><note type="bibl" xml:id="staecker-ftn50" n="50">Zitiert nach <ref target="#Noorden2013" type="bibl"/>.</note> 
+                    Vorher muss sich aber die Forschung als Gemeinschaft aus der, mit <name ref="#staecker-pers005">Kant</name>
+                    formuliert, selbst verschuldeten Unmündigkeit befreien, die sie an bestimmte
+                    Verlage kettet, und ihre Kundenrolle annehmen. Dass Reputation bisher fast
+                    ausschließlich durch Publikation in teuren und mit hohen Subskriptionsgebühren
+                    arbeitenden Verlagen erreicht wird, ist eine Fehlentwicklung, die mittelfristig
+                    korrigiert werden muss. </p>
+                <p>Was bei der Bewertung von Open Access grundsätzlich nicht übersehen werden darf
+                    und auch immer wieder als Argument ins Feld geführt wird, ist, dass
+                    wissenschaftliche Publikationen, deren Entstehung wesentlich durch die
+                    öffentliche Hand finanziert wird,<note xml:id="staecker-ftn51" n="51">Vgl. dazu den <ref target="#Houghton2012" type="bibl"/>.</note> <!--Der Text in der Anmerkung passt irgendwie nicht, wirklich Anm. 14 gemeint?--> auch der Öffentlichkeit, die sie bezahlt hat, unentgeltlich wieder zur
+                    Verfügung gestellt werden sollten und eine teure Doppelfinanzierung (Herstellung
+                    und Ankauf) angesichts der neuen Möglichkeiten des Internet nicht mehr
+                    gerechtfertigt erscheint.<note xml:id="staecker-ftn52" n="52">Zu diesem Themenkomplex siehe <ref target="#Fitzpatrick2011" type="bibl"/>.</note> Diese Argumentation ist als deutlicher Trend auch in Teilen der Politik
+                    erkennbar und bricht sich auch in jüngeren Gesetzesvorhaben Bahn.<note xml:id="staecker-ftn53" n="53">Vgl. z.&#8239;B. <ref target="#Koalitionsvertrag2011" type="bibl"/>.</note> 
+                    Mit dieser Entwicklung einher gehen <hi rend="italic">juristische</hi>
+                    Auseinandersetzungen um die Änderung des Urheberrechts, das für die neuen
+                    Möglichkeiten digitalen Publizierens nur unzureichend gerüstet ist. Gerade für
+                    Bibliotheken, die seit alters her für die Archivierung und Bereitstellung von
+                    Publikationen zuständig waren und die sicherstellten, dass auch jenseits des
+                    Marktes jedermann freien Zugang zu Wissen und Bildung erhielt, hatte der
+                    Medienwandel im juristischen Sinn enorme Konsequenzen. Da elektronische Werke
+                    nicht länger als Sache betrachtet wurden, fiel das über Jahrzehnte, wo nicht
+                    Jahrhunderte entwickelte filigrane juristische Gebäude, das dafür gesorgt hatte,
+                    dass die Interessen des Marktes mit denen der Öffentlichkeit in Balance blieben,
+                    in sich zusammen. Unversehens war es Bibliotheken verwehrt, ohne ausdrückliche
+                    Einwilligung der Verlage Medien zu archivieren. Die Einführung einer allgemeinen
+                    Wissenschaftsschranke im Urheberrecht<note xml:id="staecker-ftn54" n="54">Vgl. <ref target="#Pressemitteilung0610" type="bibl"/>.</note> wird dank massiver Lobbyarbeit des Börsenvereins<note xml:id="staecker-ftn55"
+                        n="55">Die rückwärtsgewandte Politik des Börsenvereins muss überraschen, denn
+                            hier werden auch verlegerische Chancen verspielt: <q>This variety
+                                reminds us (to paraphrase <name ref="#staecker-pers006">Tim O&#x2019;Reilly</name>) that Open Access doesn&#x2019;t threaten
+                                publishing; it only threatens existing publishers who do not
+                                adapt.</q> (<ref target="#Suber2013" type="bibl">S.&#8239;18</ref>)</note> und einer wenig stringent agierenden Wissenschaftspolitik nach wie vor
+                    verschleppt. Und selbst wenn die jetzige Bundesregierung in ihrer
+                    Koalitionsvereinbarung eine Wissenschaftsschranke auf der Agenda hat, so ist
+                    doch zu befürchten, dass das grundliegende Anliegen, wie mehrfach zu beobachten,
+                    verwässert wird, mit der Folge, dass bereits heute der Verlust vieler
+                    elektronischer Dokumente zu befürchten ist, die nicht durch
+                    Gedächtniseinrichtungen archiviert werden dürfen. Auch hier setzt das <hi
+                        rend="italic">Open Access</hi> Modell an. Allerdings reicht in diesem Fall
+                    eine unbestimmte Open Access Stellung nicht aus, sondern
+                    es muss, wie mittlerweile durchaus üblich, eine so genannte <hi rend="italic"
+                        >Creative Commons</hi> Lizenz<ref xml:id="staecker-ftn56" n="56" target="#CreativeCommonsLizenz" type="bibl"/> 
+                    hinzutreten, die dem Nutzer, in diesem Fall der sammelnden Bibliothek,
+                    mindestens ein Archivrecht und ein Migrationsrecht einräumt. Typischerweise sind
+                    dies CC&#x00A0;Lizenzen der Form CC&#x00A0;BY, CC&#x00A0;BY-SA, CC&#x00A0;BY-SA-NC oder weitere
+                        Kombinationen.<note xml:id="staecker-ftn57" n="57">SA und ND sind nicht kombinierbar, vgl. <ref target="#Eve2014" type="bibl">S.&#8239;90</ref></note> 
+                    Fraglich ist die gelegentlich vergebene ND Lizenz, wo unklar bleibt, ob
+                    z.&#8239;B. zur Langzeitsicherung nötige Migrationen in ein neues Datenformat
+                    gedeckt sind. Man sollte bei der Diskussion der rechtlichen Rahmenbedingungen
+                    nicht aus dem Auge verlieren, dass neben den lizenzrechtlichen Aspekten, der
+                    akademische Kontext nicht außer Kraft gesetzt wird. Die Tatsache, dass ein
+                    Artikel CC&#x00A0;0 gesetzt wird, würde zwar juristisch möglich machen, dass der Text
+                    unter dem Namen eines anderen publiziert wird, dieser bliebe nach akademischen
+                    Maßstäben trotzdem ein Plagiator.<ref xml:id="staecker-ftn58" n="58" target="#Eve2014" type="bibl">S.&#8239;104</ref> 
+                    Gleiches gilt für sonstige gemeinfreie Texte. Die Werke von <name ref="#staecker-pers007">Shakespeare</name>
+                    sind gemeinfrei, trotzdem würde niemand auf die Idee kommen, sich als deren
+                    Autor auszugeben.</p>
+                <p>Open Access hat aber nicht nur eine rechtliche und ökonomische Seite, auch wenn
+                    diese derzeit in der öffentlichen Diskussion das Feld beherrschen. Mit dem
+                    Übergang zu einer Online Publikation stellen sich neue <hi rend="italic"
+                        >technische</hi> und <hi rend="italic">informationstechnische</hi>
+                    Anforderungen an die Publikation und Bibliotheken können, sofern sie in den
+                    Publikationsprozess involviert sind, auf die Gestaltung, z.&#8239;B. unter dem
+                    Gesichtspunkt der Langzeitarchivfähigkeit, Einfluss nehmen. Besonders
+                    problematisch ist die Entwicklung der letzten Jahre, in denen sich die
+                    Verlagswirtschaft auf PDF als meistgenutztes digitales Format konzentriert hat.
+                    PDF ist unter Langzeitarchiv- und Nachnutzungsgesichtspunkten schwer zu
+                    handhaben. Selbst wenn der Standard PDF/A suggeriert, dass man es mit einem
+                    Langzeitformat zu tun hat, gilt das doch nur bedingt, weil z.&#8239;B. unklar
+                    ist, wie PDF/A in neue Formate migriert werden kann, wenn dies erforderlich sein
+                    sollte. Eines der Probleme ist, dass PDF in der Regel keine Struktur-, sondern
+                    nur Layoutinformationen enthält. Wichtige Informationen, welche Textteile wie
+                    das Inhaltsverzeichnis, die Fußnote oder das Register enthalten, sind für
+                    Retrievalsysteme weitgehend unzugänglich und könnten bei einer Formatmigration
+                    nicht ohne weiteres bewahrt werden. Digitale Texte lassen sich durch explizites
+                    Markup beschreiben, was früher nur durch das Layout möglich war. Gerade vor dem
+                    Hintergrund, dass sich auch die Präsentationsformen digitaler Texte ändern, dass
+                    also möglicherweise ein- und derselbe Text auf verschiedene Bildschirmgrößen
+                    skaliert werden muss oder auch in verschiedenen Formaten erscheinen soll (HTML,
+                    epub, TIFF, PDF, …) erfordert ein Archivformat, das textkonstitutive Strukturen
+                    explizit zu beschreiben erlaubt. Das ist heutzutage vor allem XML. Sofern es auf
+                    die Langzeitarchivierung des Layouts ankommt (z.&#8239;B. in der
+                    Retrokonversion), hat sich vor allem TIFF eingebürgert. PDF ist dagegen ein
+                    Format, das den Druck im digitalen Medium simuliert und sich daher als
+                    Druckvorstufe gut eignet. Für anspruchsvollere digitale Archiv- und
+                    Nutzungsfunktionen ist es weniger gut gerüstet. Hier stehen auch Bibliotheken
+                    vor einem entscheidenden Paradigmenwechsel, der mit den althergebrachten Usancen
+                    der Sichtbarkeit brechen muss. Denn die Oberfläche eines Textes im digitalen
+                    Medium ist nicht mehr stabil, wie es einst die Oberfläche des Papiers und die in
+                    es eingeprägte Druckerschwärze war. Die sichtbare Oberfläche ist Produkt eines
+                    Algorithmus, stabil können nur der Text und seine &#x2013; durch Markup
+                    charakterisierte &#x2013; Struktur sein.</p>
+                <p>Doch es sind nicht nur unzweckmäßige Formate, auch die wenig ausgeprägte
+                    Normativität und mangelnde digitale Umsetzung von elektronischen Texten können
+                    Anlass zu Kritik an Open Access sein. Z.&#8239;B. hat der deGruyter-Verlag auf
+                    meinen Wunsch eine Publikation<ref target="#Staecker2013" type="bibl" xml:id="staecker-ftn59"/>
+                    zwar erfreulicherweise Open Access gestellt,
+                    aber z.&#8239;B. die Links nicht klickbar gemacht. So entsteht scheinbar eine
+                    offene Publikation, der aber wesentliche Elemente, die man in diesem Medium
+                    erwarten würde, fehlen, so dass ich sie noch einmal überarbeiten musste.<note
+                        xml:id="staecker-ftn60" n="60">Vgl. <ptr target="http://diglib.hab.de/ebooks/ed000149/id/ebooks_ed000149_001/start.htm"/>;
+                            vgl. zur Frage der mangelhaften Gestaltung <ptr target="http://dhd-blog.org/?p=1370"/>.</note> 
+                    Es liegt auf der Hand, dass es in Zukunft einer stärkeren
+                    Standardisierung bedarf, in der die für das digitale Medium wesentlichen
+                    Elemente herausgearbeitet werden müssen. Wenn Bibliotheken den
+                    Publikationsprozess entweder in die eigene Hand nehmen oder in Zusammenarbeit
+                    mit Open Access Verlagen auf Produkte Einfluss nehmen,
+                    indem sie eine medienadaequate Darstellung <soCalled>bestellen</soCalled>,
+                    lassen sich solche Mängel verringern und zugleich die Vorteile von <hi
+                        rend="italic">Open Access</hi> Publikationen besser verdeutlichen.</p>
+                <p>
+                    Open Access in Bibliotheken hat aber nicht nur die Seite
+                    der Verwaltung oder Veröffentlichung von E-Books oder E-Journals, also von <hi
+                        rend="italic">digital born</hi>-Publikationen, sondern auch die der <hi
+                        rend="italic">Retrodigitalisierung</hi>. Retrodigitalisierung erstreckt sich
+                    auf Werke, die bereits gedruckt<note xml:id="staecker-ftn61" n="61">Handschriften und Archivmaterialien, deren Urheberrechtsschutz
+                            abgelaufen ist, sind hier einzubeziehen.</note> vorliegen und die in eine elektronische Form überführt werden sollen.
+                    Dabei sind Werke zu unterscheiden, die noch dem Urheberrecht unterliegen oder
+                    urheberrechtsfrei sind. Als urheberrechtsfrei gelten Werke, deren Autor seit 70
+                    Jahren verstorben ist. In diesen Fällen scheint eine Digitalisierung und
+                    Publikation im Open Access unproblematisch. Auf den
+                    zweiten Blick existieren aber auch hier beträchtliche Hürden, was mit
+                    gewachsenen Usancen der die Materialien besitzenden Gedächtniseinrichtungen zu
+                    tun hat. Schon im Druckzeitalter war es üblich, so genannte Reprogebühren zu
+                    erheben. Diese wurden in Landesgesetzen und von diesen abgeleiteten Ordnungen
+                    verankert, so dass Archive, Museen und Bibliotheken gehalten sind, bei einem
+                    Reproduktionswunsch durch einen Nutzer nicht nur die Herstellungskosten, sondern
+                    eben auch Reproduktionsgebühren zu verlangen. Den immer klammen öffentlichen
+                    Kassen galt dies als eine willkommene Zusatzeinnahme und für viele
+                    Einrichtungen, vor allem Museen, war es die einzige Möglichkeit, überhaupt
+                    Einnahmen zu erzielen und finanzielle Bewegungsfreiheit zu bekommen. Die
+                    dahinter stehende Argumentation, dass die öffentliche Hand angemessen an den
+                    Gewinnen der Verlagswirtschaft partizipieren müsse, war in Zeiten der
+                    Druckwirtschaft weitgehend plausibel, auch wenn Verlage in vielen Fällen diese
+                    Kosten auf die Autoren abgewälzt haben, denen die Beschaffung des Bildmaterials
+                    überlassen wurde. Im Zeitalter der Digitalisierung werden aber diese Gesetze und
+                    Ordnungen mehr und mehr zur Belastung. Zwar gibt es noch immer Verlage, die
+                    digitales Bildmaterial anfordern, doch der Regelfall ist mittlerweile die
+                    Selbstpublikation einer digitalen Faksimileversion durch die besitzende
+                        Einrichtung.<note xml:id="staecker-ftn62" n="62">Eine Spielart ist die Digitalisierung durch die Privatwirtschaft (insb.
+                            Google, früher auch Microsoft), wobei öffentliche Einrichtungen das
+                            Recht erhalten, auch über eigene Server zu publizieren.</note> Da die alten Reproduktionsgebührenordnungen fortbestanden, trat der
+                    merkwürdige Umstand ein, dass Bibliotheken einerseits urheberrechtsfreies
+                    Material publizierten, andererseits aber auf der Grundlage der bestehenden
+                    Verwaltungsvorschriften sich das Recht vorbehalten mussten, Reprogebühren zu
+                    verlangen, was die Nutzung der eigentlich öffentlich zugänglichen Materialien
+                    wieder einschränkte. Wer solche Digitalisate auf seinem Server publizieren oder
+                    auch nur im Frame nutzen wollte, war gezwungen, teilweise recht hohe
+                    Reprogebühren zu bezahlen. Die eigentlich gemeinfreien Dokumente standen so zwar
+                    der Öffentlichkeit frei zur Verfügung, aber die Nachnutzung war begrenzt. Dass
+                    diese Einschränkung zunächst kaum Anstoß erregte, lag daran, dass die
+                    Möglichkeiten der Nachnutzung begrenzt waren. Viele Wissenschaftler oder die
+                    interessierte Öffentlichkeit begnügten sich mit dem online verfügbaren Material
+                    bzw. begrüßte deren Bereitstellung. Doch bald kamen neue digitale Anwendungen
+                    hinzu, z.&#8239;B. die Nutzung von Digitalisaten in digitalen Editionen oder
+                    Publikationen, wo sich die hohen Reprogebühren als hinderlich erwiesen. Eine
+                    Spielart dieses Prozesses, die nicht auf öffentliche Einrichtungen beschränkt
+                    ist, ist die Beanspruchung eines eigenen Urheberrechtes am digitalen Bild. Dies
+                    wird in Rechtskreisen kontrovers diskutiert und hängt an der Gestaltungshöhe der
+                    Reproduktion. Im so genannten Apfel-Madonna-Urteil aus den 60er Jahren, wo es um
+                    Urheberechte an einer Replik ging, wurde ein Urheberrecht verneint. Andererseits
+                    werden im Fall von Fotographien <q>Lichtbildwerke</q> geschützt, wobei sichergestellt
+                    sein muss, dass sie eine persönliche geistige Schöpfung darstellen.<ref target="#WanckelNitschke2004" type="bibl" xml:id="staecker-ftn164">Nr.&#8239;364
+                            (S.&#8239;178&#8239;f.)</ref> Selbst wenn man bei Reproaufnahmen in den allermeisten Fällen davon
+                    ausgehen kann, dass sie die erforderliche Gestaltungshöhe nicht erreichen, so
+                    besteht doch unabhängig davon ein Schutzrecht <quote source="#staecker-ftn64">auf alle Fotos, die das Kriterium
+                    der geistigen Schöpfung nicht erfüllen.</quote><ref target="#WanckelNitschke2004" type="bibl" xml:id="staecker-ftn64" n="64">S.&#8239;179</ref> 
+                    D.&#8239;h. auch Bilder, bei denen es lediglich darum geht, etwas
+                    originalgetreu zu reproduzieren, genießen ein Schutzrecht. Juristisch wird hier
+                    zwischen Lichtbildwerken und Lichtbildern unterschieden. Hintergrund ist, dass
+                    auch diese Bilder mit einem technischen und finanziellen Aufwand erstellt
+                    werden, der Anspruch auf Schutz hat. Aber auch hier gilt, dass Bilder von einer
+                    fotographierenden Person erstellt werden müssen, um in den Genuss des Rechtes zu
+                    kommen. Digitalisate eines Scanroboters würden demzufolge nicht darunter fallen,
+                    obwohl man auch hier natürlich einen technischen und finanziellen Aufwand
+                    geltend machen könnte. Allerdings erhalten solche Bilder nur eine Schutzfrist
+                    von 50 statt wie sonst 70&#x00A0;Jahren (§&#8239;72, Abs.&#x00A0;3&#x00A0;UrhG). Gerichtlich
+                    sind diese Fragen jedoch bis heute nicht geklärt. Beteuerungen, wie die von
+                    Kreutzer, ändern daran nichts: <quote source="#staecker-ftn65">M.&#8239;E. ist ein Rechtsschutz von Digitalisaten
+                    gemeinfreier Werke aus verschiedenen Gründen weder gegeben noch &#x2013; aus
+                    Wertungsgründen &#x2013; geboten.</quote><ref target="#Kreutzer2011" type="bibl" xml:id="staecker-ftn65" n="65">S.&#8239;35</ref> 
+                    Diese Auffassung ist ideell und nicht juristisch motiviert. Sie trägt
+                    daher in der Sache nicht weit, denn natürlich gibt es bei der Reproduktion (die
+                    Scanroboter seien einmal dahingestellt) einen minimalen persönlichen Aufwand,
+                    der in der Praxis sogar deutlich über dem für ein gelegentlich erstelltes
+                    <q>Knipsbild</q> liegt. Von <hi rend="italic">copyfraud</hi> zu reden, ist daher aus
+                    juristischen Gründen unangemessen. In dieser Lage scheint es ratsam, sich nicht
+                    auf Rechtsansprüche zu kaprizieren, sondern die Interessen zu vergegenwärtigen,
+                    die beide Seiten, Nutzer wie öffentliche Einrichtung haben, denn sie lassen sich
+                    selbst bei unklaren Rechtverhältnissen ohne weiteres in Einklang bringen, sofern
+                    nur die Bibliothek und die Trägereinrichtungen der Bibliotheken <hi
+                        rend="italic">Open Access</hi> als ihren gesellschaftlichen Auftrag
+                    verstehen. Bibliotheken sollten ihre Digitalisate explizit unter eine freie, in
+                    der Regel <hi rend="italic">Creative Commons</hi> Lizenz stellen. Wenn sich
+                    herausstellen sollte, dass sie sich dieses Recht nicht hätten anmaßen dürfen, es sich aber um gemeinfreie Materialien handelt, ist diese Rechtsanmaßung nicht
+                    strafbewehrt. Sollte, was nicht unwahrscheinlich ist, doch für die meisten
+                    Digitalisate ein Rechtsanspruch bestehen, haben die Bibliotheken durch den
+                    weitgehenden Verzicht auf dieses Recht für den Nutzer schon jetzt
+                    Rechtssicherheit hergestellt. In beiden Fällen kann der Nutzer das Werk frei
+                    nutzen. Allerdings wäre er im ersteren Fall nicht verpflichtet, die von der
+                    Bibliothek in der Regel verlangten <soCalled>Namensnennung</soCalled>
+                    vorzunehmen. Doch es ist zu erwarten, dass der Nutzer nach Maßgabe der üblichen
+                    akademischen Standards (siehe oben) auch freiwillig die Quelle zitiert, der er das
+                    Digitalisat entnommen hat. </p>
+                <p>In einem digitalen Umfeld wird sich zudem das
+                    Bewusstsein dafür schärfen, dass man auch Persistent Identifier (PURL, DOI, URN,
+                    etc.) zitiert, die es wiederum erlauben, auf den Hersteller und Lieferanten des
+                    Digitalisats eindeutig zu verweisen. So ist von beiden Seiten, der des Nutzers
+                    und der der Bibliothek, durch Freiwilligkeit das Ziel erreicht, dass einerseits
+                    der Nutzer unbeschränkten Zugriff auf Digitalisate hat und andererseits das
+                    Engagement der Bibliothek angemessen durch Namensnennung gewürdigt wird. Sofern
+                    es die Landesgesetze erlauben, sollte daher in jedem Fall eine CC&#x00A0;Deklaration
+                    durch die Bibliothek erfolgen, weil sie ein definiertes Nutzungsszenario
+                    darstellt, indem eine Ressource als weitgehend rechtefrei deklariert wird und
+                    der Nutzer sicher weiß, dass er das Digitalisat frei nutzen darf und auch keine
+                    Reprogebühren zahlen muss. Welche CC Lizenz gewählt wird, ist dabei eher eine
+                    nachrangige Frage, allerdings schält sich auch hier heraus, dass CC-BY oder CC&#x00A0;BY-SA die beste Variante darstellen. 
+                    Grundsätzlich muss man sich hierbei vor
+                    Augen halten, dass CC&#x00A0;Lizenzen natürlich nicht das Urheberrecht der jeweiligen
+                    Jurisdiktion ersetzen, sondern nur im Sinne einer formalisierten
+                    Rechteeinräumung genutzt werden können. Sofern CC&#x00A0;Lizenzen dem deutschen
+                    Urheberrecht widersprechen sollten, gilt das deutsche Urheberrecht. Da hier
+                    unterstellt wird, dass CC dies nicht tut und Vertragsfreiheit herrscht, kann man
+                    Rechte entsprechend abtreten. Welchen Vertrag man dann aber genau geschlossen
+                    hat, ist im Streitfall wiederum Sache der Gerichte. Im einfachen Fall der
+                    Namensnennung sollte man z.&#8239;B. irgendwo formulieren, wie man sich die
+                    Nennung der Bibliothek vorstellt, wo und wie sie zitiert werden soll. Gleiches
+                    könnte man ggf. bei SA tun, wobei man darauf achten muss, nicht den Vorgaben in
+                    der CC&#x00A0;Lizenz zu widersprechen. Denn auch wenn es theoretisch möglich ist,
+                    Rechte frei einzuräumen und CC&#x00A0;Lizenzen mit anderen Sonderrechten zu mischen,
+                    wird dies im <q>Vertrag</q> zu Inkonsistenzen führen und die Verständlichkeit von CC&#x00A0;Lizenzen für Nutzer unterhöhlen. 
+                    Die Lizenzen NC und ND sind in vielen Fällen
+                    schwer zu interpretieren und sollten möglichst sparsam eingesetzt werden.
+                    Z.&#8239;B. übernimmt Wikipedia mit NC bewehrte Digitalisate nicht. So könnte
+                    auch ein typischer Open Access Verlag das Digitalisat nicht nutzen, wenn er
+                    privatwirtschaftlich getragen wird. Beides liegt möglicherweise nicht in der
+                    Intention der Bibliothek und sie sollte daher sehr sorgfältig abwägen, ob sie
+                    die Nutzung so weit einengt. ND wiederum hat, wie oben bereits dargelegt, die
+                    Schwierigkeit, dass ungeklärt ist, ob man auch Formate ändern darf. Wenn das
+                    nicht der Fall ist, könnte eine Archiveinrichtung das Image nicht von
+                    z.&#8239;B. JPEG in TIFF wandeln, um es langzeitarchivfähig zu machen.</p>
+                <p>Zusammenfassend lässt sich festhalten, dass sich Open Access
+                    für Bibliotheken sowohl mit Blick auf die Bereitstellung und Erwerbung
+                    elektronischer wie mit der Digitalisierung bereits gedruckter Literatur zu einem
+                    zentralen Thema entwickelt hat, das einen prägenden Einfluss auf die weitere
+                    Entwicklung der Medienbereitstellung und -erhaltung bzw. das Konzept der
+                    Bibliothek überhaupt hat. Open Access in der ganzen
+                    Bandbreite der Nutzung von Quellen und Literatur umzusetzen und zu fördern, wird
+                    ein Merkmal sein, an dem sich die Zukunftsfähigkeit einer wissenschaftlichen
+                    Bibliothek messen lassen wird. Nur so wird die Bibliothek zu einem Partner der
+                    mit freien Ressourcen wesentlich digital arbeitenden Wissenschaft und
+                    insbesondere den Digital Humanities, die in diesem Feld, auch gegen die seltsame
+                    Selbstpositionierung von DSH, eine Vorreiterrolle übernehmen. In diesem
+                    Zusammenspiel wird sich entwickeln, was der Wissenschaftsrat in seinen 2011
+                    erschienenen Empfehlungen zu Forschungsinfrastrukturen in den Geistes- und
+                    Sozialwissenschaften  formuliert hat: <quote source="#staecker-ftn66">Speziell in den Geistes- und Sozialwissenschaften
+                        lässt sich seit gut einer Dekade beobachten, dass deren
+                        Forschungsinfrastrukturen eine Transformation durchlaufen: sie wandeln sich
+                        von tradierenden und Fachinformationen bevorratenden Hilfseinrichtungen zu
+                        Inkubatoren für neue und innovative wissenschaftliche Fragestellungen
+                        aufgrund von Forschungsdaten, die durch diese Infrastrukturen selbst erst
+                        erzeugt werden.</quote><ref target="#EmpfehlungenForschungsinfrastrukturen2011" xml:id="staecker-ftn66" n="66" type="bibl">S.&#8239;7</ref></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="Vanhoutte2014">Edward Vanhoutte, <title level="a">Editorial: Hey, this is your journal</title>, in: <title level="j">Literary and Linguistic Computing</title> 29 (2014), S.&#8239;1–5, DOI: <ref target="http://doi.org/10.1093/llc/fqu003">10.1093/llc/fqu003</ref><bibl type="short">Vanhoutte, <title level="a">Editorial</title></bibl></bibl>
+                    <bibl xml:id="Eve2014">Martin Paul Eve, <title level="m">Open Access and the Humanities</title>, Cambridge 2014, online abrufbar unter <ptr
+                        target="http://www.cambridge.org/do/titles/open-access-and-humanities-contexts-controversies-and-future/"/><bibl type="short">Eve, <title level="m">Open Access and the Humanities</title></bibl></bibl>
+                    <bibl xml:id="OpenAccess2015">Artikel <title level="a">Open Access</title>, in: <title level="j">Wikipedia.  Die freie Enzyklopädie</title>, URL: <ptr target="http://de.wikipedia.org/wiki/Open_access"/><!--, Zugriff am 1.7.2015--></bibl>
+                    <bibl xml:id="Thompson2012">John B. Thompson, <title level="m">Books in the Digital Age</title>, Cambridge <edition>2</edition>2012<bibl type="short">Thompson, <title level="m">Books in the Digital Age</title></bibl></bibl>
+                    <bibl xml:id="Wegmann2000">Nikolaus Wegmann, <title level="m">Bücherlabyrinthe. Suchen und Finden im alexandrinischen Zeitalter</title>, Köln u.&#8239;a. 2000</bibl>
+                    <bibl xml:id="Shatz2004">David Shatz, <title level="m">Peer review: a critical inquiry</title>, Lanham u.&#8239;a. 2004<bibl type="short">Shatz, <title level="m">Peer review</title></bibl></bibl>
+                    <bibl xml:id="Roehring2003">Hans-Helmut Röhring, <title level="m">Wie ein Buch entsteht. Einführung in den modernen Buchverlag</title>. Vollst. überarbeitet und aktualisiert von Klaus-W. Bramann, Darmstadt 2003</bibl>
+                    <bibl xml:id="OpenEditionBooks"><title level="m">OpenEdition Books</title>, online abrufbar unter <ptr target="http://books.openedition.org/"/></bibl>
+                    <bibl xml:id="Staecker2013">Thomas Stäcker, <title level="a">Wie schreibt man Digital Humanities richtig? &#x2013; Überlegungen zum wissenschaftlichen Publizieren im digitalen Zeitalter</title>, in: <title level="j">Bibliotheksdienst</title> 47 (2013), S.&#8239;24&#x2013;50, DOI: <ref target="http://dx.doi.org/10.1515/bd-2013-0005">10.1515/bd&#x2013;2013&#x2013;0005</ref><bibl type="short">Stäcker, <title level="a">Wie schreibt man Digital Humanities richtig?</title></bibl></bibl>
+                    <bibl xml:id="Suber2013">Peter Suber, <title level="m">Open Access</title>, Cambridge Mass., 2013, online abrufbar unter <ptr target="https://mitpress.mit.edu/sites/default/files/9780262517638_Open_Access_PDF_Version.pdf"/><bibl type="short">Suber, <title level="m">Open Access</title></bibl></bibl>
+                    <bibl xml:id="OpenLibraryOfHumanities"><title level="m">Open Library of Humanities</title>, online abrufbar unter <ptr target="https://www.openlibhums.org/"/></bibl>
+                    <bibl xml:id="Buzetti2009">Dino Buzetti, <title level="a">Digital Editions and Text Processing</title>, in: <title level="j">Text Editing, Print and the Digital World</title>, hg. von Marilyn Deegan, Farnham 2009</bibl>
+                    <bibl xml:id="Heyer2006">Gerhard Heyer, Uwe Quasthoff und Thomas Wittig, <title level="m">Text Mining: Wissensrohstoff Text: Konzepte, Algorithmen, Ergebnisse</title>, Herdecke u.&#8239;a. 2006</bibl>
+                    <bibl xml:id="WanckelNitschke2004">Endress Wanckel und Kai Nitschke, <title level="m">Foto- und Bildrecht</title>, München 2004<bibl type="short">Wanckel/Nitschke, <title level="m">Foto- und Bildrecht</title></bibl></bibl>
+                    <bibl xml:id="Kreutzer2011">Till Kreutzer, <title level="m">Digitalisierung gemeinfreier Werke durch Bibliotheken. Ein Leitfaden</title>, hg. vom Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen Köln 2011, online abrufbar unter <ptr
+                            target="http://www.hbz-nrw.de/dokumentencenter/veroeffentlichungen/Digitalisierungsleitfaden.pdf"/></bibl>
+                    <bibl xml:id="Fitzpatrick2011">Kathleen Fitzpatrick, <title level="m">Planned obsolescence: publishing, technology, and the future of the academy</title>, New York u.&#8239;a. 2011</bibl>
+                    <bibl xml:id="Lawson2013">Stuart Lawson, <title level="m">Library publishing services: An investigation into open access publishing in academic libraries</title>, MA thesis, Brighton 2013, online abrufbar unter <ptr target="http://eprints.rclis.org/25156/"/></bibl>
+                    <bibl xml:id="DigHumSatzung"><title level="m">DHd-Satzung</title>, online abrufbar unter <ptr target="http://dig-hum.de/dhd-satzung"/></bibl>
+                    <bibl xml:id="CreativeCommonsLizenz"><title level="m">Creative Commons</title>, online abrufbar unter <ptr target="http://de.creativecommons.org/"/></bibl>
+                    <bibl xml:id="Schindler2006">Gerald Schindler (Hg.), <title level="m">Rechtliche Rahmenbedingungen von Open Access-Publikationen</title>, Göttingen 2006 (Göttinger Schriften zur Internetforschung&#x00A0;2)<bibl type="short">Schindler (Hg.), <title level="m">Rechtliche Rahmenbedingungen</title></bibl></bibl>
+                    <bibl xml:id="Oehlmann2012">Doina Oehlmann, <title level="a">Lizenzen oder Texte, Nutzung oder Hosting?</title>, in: <title level="j">Zeitschrift für Bibliothekswesen und Bibliographie</title> 59 (2012), S.&#8239;231&#x2013;235</bibl>
+                    <bibl xml:id="Lawson2015">Stuart Lawson, <title level="a"><soCalled>Total cost of ownership</soCalled> of scholarly communication: managing subscription and APC payments together</title>, in: <title level="j">Learned Publishing</title> 28 (2015), S.&#8239;11, online abrufbar unter <ptr target="http://eprints.rclis.org/25062/"/></bibl>
+                    <bibl xml:id="BerlinDeclaration2003"><title level="m">Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities</title>, 22.&#8239;Oktober 2003, URL: <ptr target="http://openaccess.mpg.de/Berliner-Erklaerung"/></bibl>
+                    <bibl xml:id="Horizon2020">European Commission, <title level="m">Guidelines on Open Access to Scientific Publications and Research Data in Horizon 2020</title>, Version 16.&#8239;Dezember 2013, online abrufbar unter <ptr target="http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-pilot-guide_en.pdf"/></bibl>
+                    <bibl xml:id="Garfield2005">Eugene Garfield, <title level="a">The Agony and the Ecstasy. The History and Meaning of the Journal Impact Factor</title>, presented at: <title level="m">International Congress on Peer Review And Biomedical Publication Chicago, September 16, 2005</title>, online abrufbar unter <ptr
+                            target="http://www.garfield.library.upenn.edu/papers/jifchicago2005.pdf"/></bibl>
+                    <bibl xml:id="Corsten1987"><title level="m">Lexikon des gesamten Buchwesens</title>, hg. von Severin Corsten u.&#8239;a., Bd.&#8239;1, Stuttgart <edition>2</edition>1987</bibl>
+                    <bibl xml:id="Woll2005">Christian Woll, <title level="m">Wissenschaftliches Publizieren im digitalen Zeitalter und die Rolle der Bibliotheken</title>, Köln 2005 (Kölner Arbeitspapiere zur Bibliotheks- und Informationswissenschaft&#x00A0;46), online abrufbar unter <ptr target="http://www.fbi.fh-koeln.de/institut/papers/kabi/volltexte/Band046.pdf"/></bibl>
+                    <bibl xml:id="OpenAccessStrategien2012"><title level="m">Open-Access-Strategien für wissenschaftliche Einrichtungen. Bausteine und Beispiele</title>, hg. von der Arbeitsgruppe <hi rend="italic">Open Access</hi> der Schwerpunktinitiative <hi rend="italic">Digitale Information</hi> der Allianz der deutschen Wissenschaftsorganisationen 2012, DOI: <ref target="http://doi.org/10.2312/allianzoa.005">10.2312/allianzoa.005</ref></bibl>
+                    <bibl xml:id="Houghton2012">John W. Houghton, Berndt Dugall, Steffen Bernius, Julia Krönung und Wolfgang König, <title level="a">General cost analysis for scholarly communication in Germany</title>, Frankfurt am Main 2012, URN: <ref target="http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:hebis:30:3-275309">urn:nbn:de:hebis:30:3-275309</ref><bibl type="short"><title level="a">Houghton-Report</title></bibl></bibl>
+                    <bibl xml:id="Noorden2013">Richard Van Noorden, <title level="a">Open access: The true cost of science publishing</title>, in: <title level="j">Nature</title>&#x00A0;495 (28&#8239;March 2013), p.&#8239;426–429, DOI: <ref target="http://doi.org/10.1038/495426a">10.1038/495426a</ref></bibl>
+                    <bibl xml:id="Koalitionsvertrag2011"><title level="a">Der Wechsel beginnt. Koalitionsvertrag zwischen BÜNDNIS 90/DIE GRÜNEN und der SPD Baden-Württemberg</title>, 27.&#8239;April 2011, online abrufbar unter <ptr target="https://www.gruene-bw.de/regierung/koalitionsvertrag/"/></bibl>
+                    <bibl xml:id="Pressemitteilung0610"><title level="a">Ein großer Schritt für Bildung und Wissenschaft — in Richtung einer allgemeinen Wissenschaftsschranke im Urheberrecht</title> (Pressemitteilung 06/10), hg. vom Aktionsbündnis <q>Urheberrecht für Bildung und Wissenschaft</q>, 6.&#8239;Juli 2010, online abrufbar unter <ptr target="http://www.urheberrechtsbuendnis.de/pressemitteilung0610.html"/></bibl>
+                    <bibl xml:id="EmpfehlungenForschungsinfrastrukturen2011">Wissenschaftsrat, <title level="m">Empfehlungen zu Forschungsinfrastrukturen in den Geistes- und Sozialwissenschaften</title>, Berlin 28.&#8239;Januar 2011, online abrufbar unter <ptr target="http://www.wissenschaftsrat.de/download/archiv/10465-11.pdf"/></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

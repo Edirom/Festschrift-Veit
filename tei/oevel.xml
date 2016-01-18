@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Ton macht die Musik</title>
+            <title type="sub">Digitalisierung von Forschungsprozessen nicht nur in der Musikwissenschaft</title>
+            <author>
+               <name><forename>Gudrun</forename> <surname>Oevel</surname></name>
+               <affiliation>ist promovierte Mathematikerin, leitet als apl. Professorin das Zentrum für Informations- und Medientechnologien an der Universität Paderborn und hat dort zusätzlich die Position des CIO inne. Als Mitglied des Ausschusses für Wissenschaftliche Bibliotheken und Informationssysteme (AWBI) der DFG und Teilprojektleiterin in verschiedenen Digital Humanities Projekten interessiert sie sich vor allem für die technisch-organisatorische Umsetzung und nachhaltige Verankerung von E-Science in Hinblick auf Personal- und Organisationsentwicklung an Infrastruktureinrichtungen.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="oevel-pers006">
+                  <p>Brennecke, Andreas</p>
+               </person>
+               <person xml:id="oevel-pers001">
+                  <p>Buddenbohm, Stefan</p>
+               </person>
+               <person xml:id="oevel-pers004">
+                  <p>Enke, Harry</p>
+               </person>
+               <person xml:id="oevel-pers005">
+                  <p>Ludwig, Jens</p>
+               </person>
+               <person xml:id="oevel-pers002">
+                  <p>Nentwich, Michael</p>
+               </person>
+               <person xml:id="oevel-pers007">
+                  <p>Oevel, Gudrun</p>
+               </person>
+               <person xml:id="oevel-pers008">
+                  <p>Strauch, Thomas</p>
+               </person>
+               <person xml:id="oevel-pers003">
+                  <p>Veit, Joachim</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="width_oevel-fig03">width=0.5\textwidth</rendition>
+            <rendition xml:id="oevel-latex-vspace-1mm">\vspace{-1mm}</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-30T17:37:00" who="https://github.com/peterstadler">Layout angepasst.</change>
+         <change when="2015-10-19T16:43:00" who="KR">Korrekturen eingepflegt</change>
+         <change when="2015-10-15T17:00:52.749+02:00" who="https://github.com/peterstadler">Literaturangaben angeglichen.</change>
+         <change when="2015-07-30T21:47:52.749+02:00" who="https://github.com/peterstadler">Personenliste erstellt und kleine Ergänzungen angefügt.</change>
+         <change when="2015-07-28T10:39:52.749+02:00" who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="oevel-abstract">
+            <p>Der Beitrag reflektiert die Herausforderungen, die sich durch die zunehmende Digitalisierung der Forschung, insbesondere für Infrastruktureinrichtungen wie eine Bibliothek oder ein Rechenzentrum, ergeben. Im Mittelpunkt stehen dabei die Nachhaltigkeit und Erfolgsfaktoren für Projekte u.&#8239;a. im Bereich der Digital Humanities sowie die Kompetenzentwicklung, die für E-Science notwendig ist. Am Wirken von Joachim Veit wird exemplarisch gezeigt, dass neben fachlichen Kriterien stets auch das gegenseitige Vertrauen der Kooperationspartner, im Sinne von <q>Der Ton macht die Musik</q> eine notwendige Bedingung für erfolgreiche Projekte ist.</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="oevel-div1">
+              <head/>
+            <p><q>Der Ton macht die Musik</q> ist ein klassischer deutscher Ausspruch mit folgender Bedeutung: <quote source="#oevel-ftn1">Dieses Sprichwort nimmt auf die Tatsache Bezug, dass der Tonfall beim Sprechen und die Freundlichkeit bzw. Unfreundlichkeit des Auftretens wichtiger für die Wirkung einer Person sind als der eigentliche Inhalt des Gesagten.</quote><ref type="bibl" target="#Redensarten" xml:id="oevel-ftn1"/></p>
+            <p>In meiner persönlichen Sicht auf <name ref="#oevel-pers003">Joachim Veit</name>, sein Werk und sein Wirken ist dieses Sprichwort mit seiner Bedeutung eine Art Motto: Eine direkte Verknüpfung ergibt sich sofort aus den Erfolgen von <name ref="#oevel-pers003">Joachim Veit</name> hinsichtlich der <q>Digitalen Musikwissenschaft</q>, speziell der <q>Digitalen Musikedition</q>. Auch wenn hier natürlich die Töne akustisch die Musik machen, entfaltet sich die Wirkung der Edition in der Gesamtschau aus der Vielfalt der zugrunde liegenden Quellen in der persönlich geprägten Zusammenstellung des Editors. Einzelne Text-, Noten-, Bild- und Tondokumente werden zu einer Edition verknüpft, die wie Noten im Verhältnis zum Gesamtwerk mehr sind als die Summe ihrer Einzelteile. <name ref="#oevel-pers003">Joachim Veit</name> hat das Feld der Digitalen Musikedition geprägt wie kaum ein anderer Forscher im deutschsprachigen Raum. Eine Google-basierte Suchanfrage am 31.&#8239;Juli 2015 ergab unter den ersten zehn Treffern nur eine Referenz auf ein Projekt, was nicht direkt mit <name ref="#oevel-pers003">Joachim Veit</name> in Verbindung gebracht werden kann (siehe Abbildung&#x00A0;<ref target="#oevel_fig01" type="crossref" rend="no"/>).</p>
+            <p>
+               <figure xml:id="oevel_fig01">
+                  <graphic url="figures/oevel_fig01.png" width="1584px" height="2308px"/>
+                  <head type="legend">Google-Suchergebnis zu <q>digitale musikedition</q> vom 31.&#8239;Juli 2015</head>
+               </figure>
+            </p>
+         </div>
+         <div xml:id="oevel-div2">
+               <head>Digital Humanities an der Universität Paderborn</head>
+               <p>Auch an der Universität Paderborn gehört <name ref="#oevel-pers003">Joachim Veit</name> zu denjenigen, die Projekte im Bereich der sogenannten Digital Humanities (DH) etabliert haben. Beispielhaft zu nennen sind das bereits ab 2003 verfolgte Projekt <hi rend="italic">Edirom</hi>,<ref target="#Edirom" type="bibl" xml:id="oevel-ftn2"/> das Akademie-Projekt <hi rend="italic">Beethovens Werkstatt</hi><ref target="#BeethovensWerkstatt" type="bibl" xml:id="oevel-ftn3"/> oder auch das Projekt <hi rend="italic">Freischütz Digital</hi>.<ref target="#FreischuetzDigital" type="bibl" xml:id="oevel-ftn4"/> Parallel entwickelten sich an der Universität Paderborn auch andere Projekte, beispielsweise in der Digitalen Kunstgeschichte seit 2006 das Paderborner Bildarchiv,<ref target="#Bildarchiv" type="bibl" xml:id="oevel-ftn5"/> das Projekt <hi rend="italic">studiolo communis</hi><ref target="#Studiolo" type="bibl" xml:id="oevel-ftn6"/> oder auch das Projekt <hi rend="italic">WeSa &#x2013; Wesersandstein als globales Kulturgut</hi>,<ref target="#WeSa" type="bibl" xml:id="oevel-ftn7"/> um nur einige zu nennen. Aufbauend auf diesen Erfolgen, gelang es, auf Initiative von <name ref="#oevel-pers003">Joachim Veit</name> 2014 auch das <hi rend="italic">Zentrum Musik&#8239;–&#8239;Edition&#8239;–&#8239;Medien</hi> (ZenMEM)<ref target="#ZenMEM" type="bibl" xml:id="oevel-ftn8"/> gemeinsam zwischen der Universität Paderborn, der Hochschule für Musik Detmold und der Hochschule Ostwestfalen-Lippe zu etablieren. Insgesamt ist damit der Bereich Digital Humanities an der Universität Paderborn auf dem Weg, sich zu einem weiteren Profilbereich in Kooperation insbesondere zwischen Kulturwissenschaft und Informatik zu entwickeln. Alle genannten Projekte und Entwicklungen sind nicht nur politisch und inhaltlich spannend, sondern benötigen auch ein interdisziplinäres Engagement und Verständnis aller Beteiligten sowie neue Formen von Werkzeugen und der Zusammenarbeit. Die damit verbundenen Herausforderungen sollen im Weiteren genauer beleuchtet werden.</p>
+            </div>
+         <div xml:id="oevel-div3">
+               <head>Herausforderungen bei der digital gestützten Forschung</head>
+               <p>In der aktuellen Diskussion um Digitale Transformation, Digital Humanities, E-Science, Forschungsdatenmanagement, Data Driven Science, Digitale Editionen usw. steht als Treiber meist die technologische Entwicklung bei der standardisierten Erfassung und digitalen Bearbeitung von Objekten im Vordergrund. Zusätzlich werden auch die Implikationen rechtlicher Fragestellungen hinsichtlich Urheber-, Verwertungs- und Datenschutzrechten sowie die Auswirkungen auf Forschungs- und Publikationsprozesse breit diskutiert. Die Herausforderungen und die damit verbundenen Fragestellungen sind vielfältig und reichen von Fragen zur Objektgranularität über Standards bis hin zur Langzeitarchivierung von Daten und Softwareprodukten. Allen beteiligten Akteuren ist klar, dass viele Fragestellungen interdisziplinär angegangen und damit auch Rollen und Zuständigkeiten neu austariert werden müssen. Diese Neujustierung betrifft nicht nur die wissenschaftlichen Fachrichtungen, sondern auch die sogenannten Infrastruktureinrichtungen an Hochschulen und Forschungseinrichtungen. Gemeint sind hier die Einrichtungen, die unter den Labeln Bibliothek und Rechenzentrum firmieren.</p>
+            <p>Auf der Seite der Werkzeuge spricht man in diesem Zusammenhang verallgemeinernd oft von virtuellen Forschungsumgebungen, als einer <quote source="#oevel-ftn9">kontextspezifische[n] Umgebung, die es Wissenschaftlerinnen und Wissenschaftlern ermöglicht, über organisatorische und geografische Grenzen hinweg kollaborativ zunehmend komplexere Forschungsfragen zu bearbeiten.</quote><ref target="#VirtuelleForschungsumgebung" type="bibl" xml:id="oevel-ftn9"/> Der Begriff wird im Folgenden in Analogie zu den Empfehlungen der Kommission <hi rend="italic">Zukunft der Informationsinfrastruktur</hi><!--KII (2011)--><ref target="#KII2011" type="bibl" xml:id="oevel-ftn10"/> als Oberbegriff für <q>flexible Infrastrukturen verwendet, die es Forschern erlauben, die Potenziale elektronischer Medien und Technologien für das kollaborative Arbeiten zu nutzen und daraus auch neue Forschungsmethoden und -gegenstände zu entwickeln</q>. Projektbezogen wurden bisher viele unterschiedliche Forschungsumgebungen, beispielsweise <hi rend="italic">TextGrid</hi> für die Geisteswissenschaften,<ref target="#TextGrid" type="bibl" xml:id="oevel-ftn11"/> nicht nur in Deutschland aufgebaut. Deren Erfolgsfaktoren und Nachhaltigkeit sind in den letzten Jahren, bedingt u.&#8239;a. durch den Ablauf der Projektförderungen und durch die Empfehlungen der Kommission <hi rend="italic">Zukunft der Informationsinfrastruktur</hi><!--KII (2011)-->, stärker in den Fokus gelangt.<ref target="#KII2011" type="bibl"/></p>
+               <p>Auf der Ebene der Zusammenarbeit wird insbesondere auch das Verhältnis von Fachwissenschaft und Infrastruktureinrichtungen wie Medien- und Rechenzentren sowie Bibliotheken diskutiert.</p>
+            </div>
+         <div xml:id="oevel-div4">
+               <head>Erfolgskriterien virtueller Forschungsumgebungen</head>
+            <p><name ref="#oevel-pers001">Buddenbohm</name> u.&#8239;a.<!-- (2014) --> haben sich im Rahmen eines DFG-geförderten Projekts mit Erfolgskriterien für den Aufbau und nachhaltigen Betrieb Virtueller Forschungsumgebungen (VREs) befasst.<ref target="#Buddenbohm2014" type="bibl" xml:id="oevel-ftn12"/> 
+               Sie schlagen im Ergebnis ein Lebensphasen-Modell vor und entwickeln erfolgskritische Faktoren für den Übergang in einen nachhaltigen Betrieb einer VRE. Die Erfolgskriterien werden aus Sicht der beteiligten Gruppen <q>Nutzer, Betreiber und Förderer</q> priorisiert und enthalten folgende Elemente: Nutzung (Intensität, Umfang), Relevanz/Community-Aspekt (Verbreitung), Wissenstransfer (Austausch, Transparenz), Kollaboration (unterstützte Formen), Publikation/Ergebnisse (Wertschöpfung), Kompetenzvermittlung (Unterstützung von Qualifikationsprozessen, Integration in die Lehre), Nachnutzung von Infrastruktur, Außenwirkung/Öffentlichkeitsarbeit, Interoperabilität, Skalierbarkeit/Modularität, Einbindung in wissenschaftliche Workflows, Performance/Usability. Diese Erfolgskriterien versuchen zusammengefasst die Unterstützungsfunktionen von VREs zu klassifizieren und zu bewerten. Die dahinterstehende Logik beleuchtet das Dilemma der Förderer von Infrastruktur, nämlich die Schwierigkeit der Beantwortung der allgemeinen Frage, wann eine Infrastruktur für den Wissenschaftsbereich erfolgreich ist. In der derzeitigen Spezifikation des Kerndatensatzes Forschung<!--(Wissenschaftsrat (2013) und (2015))-->,<note xml:id="oevel-ftn13"><ref target="#WR_Empfehlung_KerndatensatzForschung2013" type="bibl"/>; <ref target="#WR_Spezifikation_KerndatensatzForschung2015" type="bibl"/></note> mit dem die Forschungsberichterstattung in Deutschland vergleichbarer gemacht werden soll, wird dazu insbesondere eingefordert, Ergebnisse immer zusammen mit Angaben zur genutzten Forschungsinfrastruktur zu veröffentlichen.</p>
+               <p>Die kurze Diskussion der beiden Aspekte Erfolgskriterien und Kerndatensatz Forschung zeigt, dass die Entwicklung von Instrumenten zur Analyse des Fortschritts in der digitalen Forschung längst noch nicht abgeschlossen ist. Sie erinnert an die Genese beim E-Learning, wo breit gefördert im ersten Schritt zunächst auch Inhalte und Werkzeuge entwickelt wurden, anschließend Nachhaltigkeitsstrategien diskutiert und gefördert wurden sowie bis heute Anstrengungen zur Etablierung qualitativer Erfolgskriterien für die Verbesserung der Lehre notwendig sind.</p>
+            <p>Es kommt ein weiterer Punkt bei der digitalen Transformation hinzu: In vielen Projekten werden Software-Bausteine entwickelt, um die Forschungsdaten im Forschungsprozess zu analysieren, zusammenzuführen, zu vergleichen und zu bewerten. Diese Software-Bausteine als Teile einer virtuellen Forschungsumgebung erreichen in Projekten jedoch maximal den Status eines Prototyps, dessen dauerhafter Betrieb und dessen Weiterentwicklung typischerweise nicht gewährleistet sind<note>Vgl. auch <ref target="#Buddenbohm2014" type="bibl"/>.</note> <!--(vgl. auch Buddenbohm u.&#8239;a. (2014))--> und der zusätzlich auf Grund der schnellen technologischen Entwicklungszyklen im Bereich der Informationstechnologien auch grundsätzlich in Frage gestellt werden muss.</p>
+            <p>Gern wird hier die Rolle der Infrastruktureinrichtungen für einen nachhaltigen Betrieb betont. Es stellt sich aber heraus, dass die Entwicklungsphasen von einem Prototyp hin zu einem nachhaltigen Produkt eine Infrastruktureinrichtung allein überfordern. Hier verschieben sich die klassischen Grenzen zwischen Forschung und Infrastruktureinrichtungen. Letztere sind als reine Betreiber am Ende der Prozesskette nicht mehr gefragt bzw. können diese Aufgabe in der heutigen Komplexität nicht mehr leisten. Damit stellt sich die Frage nach der Neuausrichtung der Aufgaben einer möglichst zukunftsfähigen Infrastruktureinrichtung im digitalen Wissenschaftsbetrieb.<milestone rendition="#oevel-latex-vspace-1mm"/></p>
+            </div>
+         <div xml:id="oevel-div5">
+               <head>Neue Form der Zusammenarbeit zwischen Wissenschaft und Infrastruktur</head>
+            <p><milestone rendition="#oevel-latex-vspace-1mm"/><name ref="#oevel-pers002">Nentwich</name> hat dazu bereits 1999 für Bibliotheken drei mögliche Modelle zur Weiterentwicklung der Zusammenarbeit zwischen Wissenschaft und Bibliotheken zur Diskussion gestellt. Das erste Modell beinhaltet die Aneignung von intensiven Kenntnissen im Bereich <hi rend="italic">Cyberscience</hi>, wie er die zukünftige digitale Wissenschaftswelt nennt, durch die Wissenschaftlerinnen und Wissenschaftler selbst. Im zweiten Modell übernehmen sogenannte <hi rend="italic">Information Broker</hi> als Zuarbeiterinnen und Zuarbeiter die Recherche und Aufarbeitung der wissenschaftlichen Informationsvielfalt für die kreativen, wissenschaftlich tätigen Personen. Als am wahrscheinlichsten schätzt er das dritte Modell ein, in dem zukünftig Bibliothekarinnen und Bibliothekare mit Wissenschaftlerinnen und Wissenschaftlern verstärkt zusammenarbeiten.<ref target="#Nentwich1999" type="bibl"/> Die Entwicklung zeigt, dass sich Information Broker bisher eher an den im Aufbau befindlichen sogenannten nationalen Datenzentren als an jeder einzelnen Universität etablieren.</p>
+               <p>In der aktuellen Diskussion um das Forschungsdatenmanagement hat sich hier nämlich die Verschiebung der Zuständigkeiten bereits manifestiert. Nicht erst seit den Publikationen der Kommission <hi rend="italic">Zukunft der Informationsinfrastruktur</hi><!-- (KII 2011)-->,<ref target="#KII2011" type="bibl"/> der DFG<!-- (2012)--><ref target="#DFG2012" type="bibl"/> und der EU<!-- (2010)--><ref target="#RidingTheWave2010" type="bibl"/> wird die Verwaltung von Forschungsdaten als eines der wichtigsten Themen bei der Digitalisierung der Wissenschaft angesehen. Bei diesen sogenannten Forschungsprimärdaten liegt die große Herausforderung in deren einfacher Nachnutzung. Hier sind neben rechtlichen Fragen des Urheberschutzes und des Verwertungsrechts insbesondere auch Fragen zur Auffindbarkeit von Daten, zur Reproduzierbarkeit, zur Zitierbarkeit und zur dauerhaften Langzeitarchivierung zu klären.<note>Vgl. beispielsweise das Wiki Forschungsdaten.org, URL: <ptr target="http://www.forschungsdaten.org"/>.</note> Bei den Forschungsprimärdaten handelt es sich typischerweise um nicht-textuelle Daten wie beispielsweise Messreihen, Video- oder Audiomaterial, Bilddaten, Umfrage-Ergebnisse, die einer breiten (Nach-)Nutzung zugeführt werden sollen. Dazu gehören im aktuellen Zusammenhang natürlich auch Musikstücke in digitaler Repräsentation.
+                  Bezüglich der privaten, kooperativen oder öffentlichen Bereitstellung unterscheidet man nach <name ref="#oevel-pers004">Ludwig</name>/<name ref="#oevel-pers005">Enke</name><!-- (2013)--><ref target="#Ludwig2013" type="bibl" xml:id="ftn-oevel-700"/> in Anlehnung an Treloar/Harboe-Ree<!-- (2008)--><ref target="#Treloar2008" type="bibl"/> unterschiedliche Domänen der Datenhaltung mit strukturierten Übergängen.</p>
+            <p>
+               <figure xml:id="oevel_fig02" place="here">
+                  <graphic url="figures/oevel_fig02.png" width="442px" height="157px"/>
+                  <head type="legend">Domänenmodell mit strukturierten Übergängen<note xml:id="oevel-ftn29">Die Abbildung ist folgender Publikation entnommen: <ref target="#Ludwig2013" type="bibl"/></note></head>
+               </figure>
+            </p>
+               <p>Früher lagen die Daten im Forschungsprozess lediglich auf den Arbeitsplatzrechnern der Wissenschaftlerinnen und Wissenschaftler. Eine Nachnutzung wurde auf persönlicher Ebene organisiert und hatte meist den kompletten Austausch von Daten zur Folge. Der Bereich <q>Zugang und Nachnutzung</q> bezog sich lediglich auf gedruckte Publikationen. Seit vielen Jahren fördert u.&#8239;a. die Deutsche Forschungsgemeinschaft <!--(DFG)--> im Zuge ihrer Programme im Rahmen der Wissenschaftlichen Literaturversorgungs- und Informationssysteme<ref target="#DFG" type="bibl"/> den Aufbau von dauerhaften Repositorien für unterschiedliche Materialien in der dauerhaften Domäne sowie den Übergang von der dauerhaften Domäne in die Nachnutzung. Viele Wissenschaftsbereiche haben begonnen, ihre Daten fachspezifisch zusammenzuführen und gegenseitig zu nutzen. So wird beispielsweise im Projekt <hi rend="italic">Humanities Data Centre</hi><ref target="#HumanitiesDataCentre" type="bibl"/> ein Forschungsdatenzentrum für die Geisteswissenschaften konzipiert. Andere Beispiele sind das Projekt <hi rend="italic">German Federation for Biological Data</hi> (GFBio)<ref target="#GFBio" type="bibl"/> für eine nationale Dateninfrastruktur für biologische und umweltbezogene Daten oder das Projekt <hi rend="italic">Forschungsdatenzentrum Archäologie und Altertumswissenschaften</hi> (IANUS).<ref target="#IANUS" type="bibl"/></p>
+               <p>Das Rechenzentrum ist in dem schematischen Domänenmodell (Abbildung&#x00A0;<ref target="#oevel_fig02" type="crossref" rend="no"/>) klassisch als Bereitsteller von physikalischen Speicherressourcen bekannt, die Bibliothek kümmert sich um das Management der Metadaten. Auch hier stellt sich die Frage nach der Neujustierung von Aufgaben, denn bereits für das Datenmanagement in der privaten und in der Gruppendomäne braucht es heute Know-how in Bezug auf Daten- und Metadaten-Management, so dass die oben charakterisierten Übergänge in der Praxis heute fließend sind.</p>
+            <p>In <name ref="#oevel-pers006">Brennecke</name>/<name ref="#oevel-pers007">Oevel</name>/<name ref="#oevel-pers008">Strauch</name><ref target="#Brennecke2015" type="bibl" xml:id="oevel-ftn28"/> haben wir die These aufgestellt, dass nicht nur das erste von <name ref="#oevel-pers002">Nentwich</name> diskutierte Modell, sondern auch die beiden anderen Modelle ihre Berechtigung haben. Dazu haben wir eine Verfeinerung des sogenannten <pb/>Wissenskreislaufes<note xml:id="oevel-ftn25">Vgl. auch <ref target="#Clarin2007" type="bibl"/> und <ref target="#Strauch2008" type="bibl"/>.</note> mit den Dimensionen <q>Strukturieren</q> und <q>Organisieren</q> (siehe Abbildung <ref target="#oevel_fig03" type="crossref" rend="no"/>) eingeführt.</p>
+               <list>
+                  <item>
+                     <hi rend="bold">Strukturieren</hi> steht für eine flexible Anordnung und Verknüpfung gemäß dem mit den jeweiligen Objekten und Artefakten verbundenen Wissen. Metadaten können dabei eine Rolle spielen. Der Zwang, für jedes Objekt beim Hochladen zuerst einen formal vollständigen Metadatensatz zu erzeugen, ist hier kontraproduktiv und behindert die Kreativität.</item>
+                  <item>
+                     <hi rend="bold">Ordnen</hi> hingegen erzeugt eine langfristig verfügbare und archivierbare, für eine Community oder sogar fachübergreifend durchsuchbare Anordnung und Verschlagwortung, wobei der Fokus u.&#8239;a. auf definierten Metadaten liegen kann.</item>
+               </list>
+            <!--<pb/>-->
+               <p>
+                  <figure xml:id="oevel_fig03" rendition="#width_oevel-fig03" place="here">
+                     <graphic url="figures/oevel_fig03.png" width="442px" height="157px"/>
+                     <head type="legend">Idealisierter Wissenskreislauf unter Berücksichtigung der Domänen nach Brennecke/Oevel/Strauch, <title level="m">Unterstützung des Forschungsprozesses</title> (wie Anm. <ref target="#oevel-ftn28" type="crossref" rend="no"></ref>)</head>
+                  </figure>
+               </p>
+               <p>Die klassischen Domänen von Infrastrukturdienstleitern wie Rechenzentren und Bibliotheken befinden sich auf der Ebene <q>Organisieren</q>, wo Nachweissysteme und lange Lebensdauer im Sinne von Nachhaltigkeit und breite Zugänge im Mittelpunkt stehen. Hier sind im digitalen Zeitalter die Information Broker unterwegs. Auf der Ebene <q>Strukturieren</q> findet Forschung statt; hier benötigen und entwickeln Wissenschaftlerinnen und Wissenschaftler selbstverständlich intensive digitale Kenntnisse. An den Grenzflächen vermischen sich die Zuständigkeiten und Anforderungen zwischen Wissenschaft und Infrastruktur und müssen in jedem Projekt neu ausgehandelt werden. Mit dieser Erweiterung greifen wir auch eine Forderung von Locher/Warnke<!-- (2013)--> auf, die feststellen: <quote source="#oevel-ftn26">Es ist bisher aber nur unzureichend gelungen, die digital verfügbaren kunsthistorisch relevanten und oft in Datenbanken organisierten Ressourcen mit den konkreten Arbeitsformen der Forschung und ihrer Veröffentlichungspraxis zu verknüpfen.</quote><ref target="#Locher2013" type="bibl" xml:id="oevel-ftn26"/> Aus unserer Sicht ist die Einbettung von Personal aus den Infrastruktureinrichtungen in konkrete wissenschaftliche Projekte ein Schlüsselfaktor für erfolgreiche Zusammenarbeit.</p>
+         </div>
+         <pb rend="clear"/>
+         <div xml:id="oevel-div6">
+               <head>Erfolgreiche Zusammenarbeit</head>
+               <p>Die bisherigen Ausführungen bezogen sich auf inhaltliche, technische und organisatorische Aspekte der Zusammenarbeit in interdisziplinären Forschungsprojekten. Zurückkommend auf das Sprichwort <q>Der Ton macht die Musik</q>, wird dieses von <name ref="#oevel-pers003">Joachim Veit</name> selbst benutzt, um die Beteiligung seiner Forschungsgruppe am Projekt <hi rend="italic">TextGrid</hi> zu beschreiben: <quote source="#oevel-ftn27">Dies ist vielleicht das wichtigste Ergebnis unserer Beteiligung an <hi rend="italic">TextGrid</hi>, denn gemäß dem Spruch <soCalled>Der Ton macht die Musik</soCalled> hängt sehr viel von der Atmosphäre des Umgangs miteinander ab, in der erst lebendige Forschung gedeihen kann. Und eine virtuelle Forschungsumgebung wächst vor allem mit dem Vertrauen, das die Nutzer im Umgang mit daran beteiligten Personen &#x2013; und nicht anonymen Techniken &#x2013; aufbauen.</quote><ref target="#Veit2015" type="bibl" xml:id="oevel-ftn27"/></p>
+               <p>Wer <name ref="#oevel-pers003">Joachim Veit</name> kennt und ihn vor Augen hat, weiß, dass er in seiner liebenswürdigen und klaren Art hier bewusst inhaltliche Projektarbeit mit dem Vertrauen in Personen und Institutionen verknüpft.</p>
+               <p>Indirekt charakterisiert damit <q>Der Ton macht die Musik</q> für mich daher nicht nur das Arbeitsfeld der Digitalen Musikwissenschaft, sondern auch die Persönlichkeit von <name ref="#oevel-pers003">Joachim Veit</name>. Seine Tonlage ist stets freundlich und respektvoll, die durch die Töne transportierten Inhalte sind klar und deutlich in der Ausrichtung und Zielsetzung. Der Umgang miteinander ist für <name ref="#oevel-pers003">Joachim Veit</name> ebenso wichtig wie die semantische Bedeutung der gesprochenen Sätze.</p>
+               <p>Auch in vielen Projekten der Verfasserin hat sich der Ausspruch von <name ref="#oevel-pers003">Joachim Veit</name> bestätigt. Neben der inhaltlichen Nähe bei den Zielen und Aufgaben, den Prozessen und Verfahren, der Organisation und der verwendeten Technik gehören die Etablierung von gemeinsamen Governance-Strukturen und Vertrauen in den Kooperationspartner zu den kaum messbaren, aber trotzdem nicht zu unterschätzenden Erfolgsfaktoren.</p>
+            </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Redensarten">Redensarten-Index, <title level="m">Der Ton macht die Musik</title>, online abrufbar unter <ref target="http://www.redensarten-index.de/suche.php?suchbegriff=der+ton+macht+die+musik&amp;bool=relevanz&amp;gawoe=an&amp;suchspalte%5b%5d=rart_ou&amp;suchspalte%5b%5d=rart_varianten_ou"/></bibl>
+               <bibl xml:id="VirtuelleForschungsumgebung">Art. <title level="a">Virtuelle Forschungsumgebung</title>, in: <title level="m">Wikipedia. Die freie Enzyclopädie</title>, online abrufbar unter <ptr target="https://de.wikipedia.org/wiki/Virtuelle_Forschungsumgebung"/></bibl>
+               <bibl xml:id="DFG">Deutsche Forschungsgemeinschaft, Förderprogramm Wissenschaftliche Literatur- und Informationssysteme (LIS), online abrufbar unter <ptr target="http://www.dfg.de/foerderung/programme/infrastruktur/lis/"/></bibl>
+               <bibl xml:id="BeethovensWerkstatt"><title level="m">Beethovens Werkstatt &#x2013; Genetische Textkritik und digitale Musikedition</title>, URL: <lb/><ptr target="http://beethovens-werkstatt.de"/></bibl>
+               <bibl xml:id="FreischuetzDigital"><title level="m">Freischütz Digital &#x2013; Paradigmatische Umsetzung eines genuin digitalen Editionskonzepts</title>, URL: <lb/><ptr target="http://www.freischuetz-digital.de"/></bibl>
+               <bibl xml:id="Edirom"><title level="m">Entwicklung von Werkzeugen für digitale Formen wissenschaftlich-kritischer Musikeditionen</title>, kurz <title level="m">Edirom</title>, URL: <ptr target="http://www.edirom.de"/></bibl>
+               <bibl xml:id="Bildarchiv">Paderborner Bildarchiv &#x2013; die Datenbank des Kompetenzzentrums für Kulturerbe: materiell &#x2013; immateriell &#x2013; digital, URL: <ptr target="http://kw1.uni-paderborn.de/institute-einrichtungen/historisches-institut/kompetenzzentrum-kulturerbe/bildarchiv/paderborner-bildarchiv"/></bibl>
+               <bibl xml:id="TextGrid"><title level="m">TextGrid &#x2013; Virtuelle Forschungsumgebung für die Geisteswissenschaften</title>, URL: <ptr target="http://www.textgrid.de"/></bibl>
+               <bibl xml:id="GFBio"><title level="m">German Federation for Biological Data (GFBio)</title>, URL: <ptr target="http://www.gfbio.de"/></bibl>
+               <bibl xml:id="IANUS"><title level="m">IANUS &#x2013; Forschungsdatenzentrum Archäologie &amp; Altertumswissenschaften</title>, URL: <ptr target="http://www.ianus-fdz.de"/></bibl>
+               <bibl xml:id="WeSa"><title level="m">Wesersandstein als globales Kulturgut (WeSa)</title>, URL: <ptr target="http://pt-dlr-gsk.de/de/1174.php"/></bibl>
+               <bibl xml:id="HumanitiesDataCentre"><title level="m">Humanities Data Centre (HDC)</title>, URL: <ptr target="http://humanities-data-centre.org"/></bibl>
+               <bibl xml:id="Studiolo"><title level="m">studiolo communis</title>, URL: <ptr target="http://imt.uni-paderborn.de/projekte/studiolo-communis"/></bibl>
+               <bibl xml:id="ZenMEM">Zentrum Musik &#x2013; Edition &#x2013; Medien, URL: <ptr target="http://zenmem.de"/></bibl>
+               <bibl xml:id="KII2011">Kommission Zukunft der Informationsinfrastruktur (KII), <title level="m">Gesamtkonzept für die Informationsinfrastruktur in Deutschland. Empfehlungen der Kommission Zukunft der Informationsinfrastruktur im Auftrag der Gemeinsamen Wissenschaftskonferenz des Bundes und der Länder</title>, April 2011, online abrufbar unter <ptr target="http://www.leibniz-gemeinschaft.de/fileadmin/user_upload/downloads/Infrastruktur/KII_Gesamtkonzept.pdf"/><bibl type="short">KII, <title level="m">Gesamtkonzept für die Informationsinfrastruktur</title></bibl></bibl>
+               <bibl xml:id="Brennecke2015">Andreas Brennecke, Gudrun Oevel und Thomas Strauch, <title level="m">Unterstützung des Forschungsprozesses aus infrastruktureller Sicht</title>, in: <title level="m">studiolo. Kooperative Forschungsumgebungen in den Digital Humanities</title>, Paderborn 2015 (Tagungsband zur gleichnamigen Tagung am 22.&#8239;Juli 2013 in Paderborn), Druck in Vorbereitung<bibl type="short">Brennecke/Oevel/Strauch, <title level="a">Unterstützung des Forschungsprozesses</title></bibl></bibl>
+               <bibl xml:id="Buddenbohm2014">Stefan Buddenbohm, Harry Enke, Matthias Hofmann, Jochen Klar, Heike Neuroth und Uwe Schwiegelshohn, <title level="m">Erfolgskriterien für den Aufbau und nachhaltigen Betrieb Virtueller Forschungsumgebungen</title>, Göttingen 2014 (DARIAH-DE Working Papers Nr.&#8239;7), URN: <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:gbv:7-dariah-2014-5-4">urn:nbn:de:gbv:7-dariah-2014-5-4</ref><bibl type="short">Buddenbohm u.&#8239;a., <title level="m">Erfolgskriterien für den Aufbau und nachhaltigen Betrieb Virtueller Forschungsumgebungen</title></bibl></bibl>
+               <bibl xml:id="Clarin2007"><title level="m">CLARIN, DARIAH, AHD 2020. Agenda 2020 für eHumanities in Deutschland. Fahrplan für die Etablierung einer virtuellen Forschungsumgebung für die Humanities</title>, 2007, online abrufbar unter <ptr target="https://kitwiki.csc.fi/twiki/pub/Nealt/SigInfra/Agenda_eHumanities-v4.pdf"/></bibl>
+               <bibl xml:id="Strauch2008">Thomas Strauch, <title level="m">E-Kompetenzentwicklung im öffentlichen Hochschulraum &#x2013; Herausforderung für zentrale Einrichtungen</title>, in: <title level="j">Bibliothek: Forschung und Praxis</title> 32 (2008), S.&#8239;160&#x2013;167</bibl>
+               <bibl xml:id="Locher2013">Hubert Locher und Martin Warnke, <title level="m">Ergebnisse des Round Table <q>Kritische Massen &#x2013; Zur Anschlussfähigkeit digitaler Bildbestände an die aktuelle Kunsthistorische Forschung, Marburg, 18.&#8239;Oktober 2013</q></title>, 2013, URN: <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:355-kuge-348-2">urn:nbn:de:bvb:355-kuge-348-2</ref></bibl>
+               <bibl xml:id="Veit2015">Joachim Veit, <title level="a">TextGrid lernt Noten</title>, in: <title level="m">Textgrid: Von der Community &#x2013; für die Community</title>, hg. von Heike Neuroth, Andreas Rapp und Sibylle Söring, Glücksstadt 2015, S.&#8239;139&#x2013;151, DOI: <ref target="http://dx.doi.org/10.3249/webdoc-3947">10.3249/webdoc-3947</ref></bibl>
+               <bibl xml:id="Ludwig2013"><title level="m">Leitfaden zum Forschungsdaten-Management. Handreichungen aus dem WissGrid-Projekt</title>, hg. von Jens Ludwig und Harry Enke, Glücksstadt 2013<bibl type="short"><title level="m">Leitfaden zum Forschungsdaten-Management</title></bibl></bibl>
+               <bibl xml:id="Treloar2008">Andrew Treloar und Catherine Harboe-Ree, <title level="m">Data management and the curation continuum: how the Monash experience is informing repository relationships</title>, 2008, online abrufbar unter <ptr target="http://arrow.monash.edu.au/hdl/1959.1/43940"/></bibl>
+               <bibl xml:id="Nentwich1999">Michael Nentwich, <title level="m">Cyberscience: Die Zukunft der Wissenschaft im Zeitalter der Informations- und Kommunikationstechnologien</title>, 1999 (MPIfG Working Paper 99/6).</bibl>           
+               <bibl xml:id="DFG2012">Deutsche Forschungsgemeinschaft, <title level="m">Die digitale Transformation weiter gestalten &#x2013; Der Beitrag der Deutschen Forschungsgemeinschaft zu einer innovativen Informationsinfrastruktur für die Forschung</title>, 2012 (Positionspapier der Deutschen Forschungsgemeinschaft, Ausschuss für Wissenschaftliche Bibliotheken und Informationssysteme)</bibl>
+               <bibl xml:id="RidingTheWave2010">Europäische Union, <title level="m">Riding the wave. How Europe can gain from the rising tide of scientific data. Final Report of the High Level expert Group on Scientific Data</title>, 2010, online abrufbar unter <!--Zugriff am 10.&#8239;Mai 2015--> <ptr target="http://ec.europa.eu/information_society/newsroom/cf/dae/document.cfm?doc_id=707"/></bibl>
+               <bibl xml:id="WR_Empfehlung_KerndatensatzForschung2013">Wissenschaftsrat, <title level="m">Empfehlung zu einem Kerndatensatz Forschung</title>, 25.&#8239;Januar 2013 (Drs. 2855&#x2013;13), online abrufbar unter <ptr target="http://www.wissenschaftsrat.de/download/archiv/2855-13.pdf"/></bibl>
+               <bibl xml:id="WR_Spezifikation_KerndatensatzForschung2015">Wissenschaftsrat, <title level="m">Spezifikation des Kerndatensatzes Forschung (Beta-Version)</title>, 2015, online abrufbar unter <ptr target="http://kdsf.fit.fraunhofer.de/beta/"/></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Neumierte Hoheliedverse in Willirams von Ebersberg Hoheliedkommentar in der Lambacher Handschrift <!--(Berlin, Staatsbibl., Ms. theol. Lat. qu. 140, früher Lambach, Stiftsbibl., Cod. Membr. 93)--></title>
+            <title type="short">Neumierte Hoheliedverse</title>
+            <author>
+               <name><forename>Kurt</forename> <surname>Gärtner</surname></name>
+               <email/>
+               <affiliation>ist seit 1979 Professor für für Deutsche Philologie (Sprachgeschichte) an der Universität Trier. Er gründete 1998 das <hi rend="italic">Kompetenzzentrum für elektronische Erschließungs- und Publikationsverfahren in den Geisteswissenschaften</hi> an der Universität Trier und leitete mehrere Projekte des Zentrums im Bereich der Digital Humanities, darunter die Digitalisierung  des <hi rend="italic">Deutschen Wörterbuchs</hi> der Brüder Grimm. Er ist Mitherausgeber des Akademievorhabens <hi rend="italic">Mittelhochdeutsches Wörterbuch</hi>. Seit&#x00A0;1990 ist er Mitglied der Akademie der Wissenschaften und der Literatur Mainz und leitete bis&#x00A0;2014 die Akademie-Kommission für Informationstechnologie; von&#x00A0;2003 bis&#x00A0;2011 war er Vorsitzender der <hi rend="italic">Arbeitsgruppe Elektronisches Publizieren</hi> der Union der deutschen Akademien der Wissenschaften. </affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="gaertner-pers001">
+                  <p>Bartelmez, Erminnie H.</p>
+               </person>
+               <person xml:id="gaertner-pers002">
+                  <p>Davis, Lisa Fagin</p>
+               </person>
+               <person xml:id="gaertner-pers004">
+                  <p>Deutz, Rupert von</p>
+               </person>
+               <person xml:id="gaertner-pers005">
+                  <p>Fingernagel, Andreas</p>
+               </person>
+               <!--<person xml:id="gaertner-pers006">
+                  <p>Gallus</p>
+               </person>-->
+               <person xml:id="gaertner-pers008">
+                  <p>Hagen, Friedrich Heinrich von der</p>
+               </person>
+               <person xml:id="gaertner-pers009">
+                  <p>Haimo von Halberstadt</p>
+               </person>
+               <!--<person xml:id="gaertner-pers010">
+                  <p>Hieronymus</p>
+               </person>-->
+               <person xml:id="gaertner-pers011">
+                  <p>Gottschalk von Lambach</p>
+               </person>
+               <!--<person xml:id="gaertner-pers012">
+                  <p>Lambert von Lüttich</p>
+               </person>-->
+               <!--<person xml:id="gaertner-pers013">
+                  <p>Nikolaus von Myra</p>
+               </person>-->
+               <!--<person xml:id="gaertner-pers014">
+                  <p>Otmar von St.&#8239;Gallen</p>
+               </person>-->
+               <person xml:id="gaertner-pers018">
+                  <p>Konrad von Heimesfurt</p>
+               </person>
+               <person xml:id="gaertner-pers015">
+                  <p>Stenzl, Jürg</p>
+               </person>
+               <person xml:id="gaertner-pers016">
+                  <p>Hugo von St.&#8239;Viktor</p>
+               </person>
+               <person xml:id="gaertner-pers017">
+                  <p>Williram von Ebersberg</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-11-12T21:01:00"
+            who="https://github.com/peterstadler">Korrekturen der ersten Durchsicht eingearbeitet.</change>
+         <change when="2015-11-10T20:54:00"
+            who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+         <change when="2015-11-10T17:42:00"
+            who="https://github.com/peterstadler">Text überarbeitet.</change>
+         <change when="2015-09-28T08:23:49.184+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="gaertner-abstract"><p>Die aus dem Benediktinerabtei Lambach stammende Handschrift, die heute in der Berliner Staatsbibliothek unter der Signatur Ms.&#8239;theol.&#8239;lat.&#8239;qu.&#8239;140 aufbewahrt wird, gehört zu den Hauptwerken aus der Blütezeit des Lambacher Skriptoriums, die von der zweiten Hälfte des 12.&#8239;Jahrhunderts bis in das beginnende 13.&#8239;Jahrhundert reichte. Die Handschrift enthält u.&#8239;a. den um 1060 verfassten Hohelied-Kommentar Willirams von Ebersberg (†&#8239;1085). Der sogen. <q>Lambacher Williram</q> wurde um 1180 sehr wahrscheinlich von <name ref="#gaertner-pers011">Gottschalk von Lambach</name> geschrieben, dessen Hand in mehreren anderen Lambacher Handschriften zu finden ist und der nicht nur als Schreiber, sondern auch als Miniator, Historiker und Musiktheoretiker in Lambach tätig war. Für die Musikwissenschaft ist von herausragendem Interesse das ihm zugeschriebene Antiphonar, das leider nur in Fragmenten erhalten ist, die in verschiedenen Bibliotheken aufbewahrt werden. Der einschlägigen musikwissenschaftlichen Forschung ist bisher allerdings entgangen, dass der <q>Lambacher Williram</q> zahlreiche neumierte Hohelied-Verse überliefert. In meinem Beitrag werden alle mit Neumen versehenen Verse abgedruckt, und es wird gezeigt, dass die Neumierung mit der Verwendung der Hohelied-Verse als Antiphonen in der Liturgie der Marienfeste zusammenhängt. Die neumierten Hohelied-Verse haben damit eine Art Kommentarfunktion: Sie schließen die Deutung der Braut des Hohenliedes auf Maria mit ein und geben zu erkennen, dass der gelehrte Schreiber Gottschalk von Lambach mit der im 12.&#8239;Jahrhundert einsetzenden mariologischen Ausrichtung der Hohelied-Exegese vertraut gewesen sein muss. Die musikwissenschaftliche Analyse dieses Befundes steht nun noch aus.</p></div>
+      </front>
+      <body>
+         <div xml:id="div-gaertner01">
+         <head>I.</head>
+            <p>Die aus dem Benediktinerabtei Lambach stammende Handschrift von <name ref="#gaertner-pers017">Willirams</name> Hohelied-Kommentar,<note xml:id="gaertner-ftn99">Berlin, Staatsbibl., Ms.&#8239;theol. lat.&#8239;qu.&#8239;140; früher Lambach, Stiftsbibl., Cod.&#8239;Membr.&#8239;93</note> geschrieben um&#x00A0;1180, gehört zu den Hauptwerken aus der Blütezeit des Lambacher Skriptoriums, die von der zweiten Hälfte des 12.&#8239;Jahrhunderts bis in das beginnende 13.&#8239;Jahrhundert reichte.<note xml:id="gaertner-ftn1" n="1">Vgl. <ref target="#Fingernagel1991" type="bibl">S.&#8239;28</ref>; <ref target="#Gaertner1988" type="bibl">S.&#8239;23 (Nr.&#8239;14)</ref>.</note> Der erste Teil der Handschrift enthält die Viten der Heiligen <name>Nikolaus</name>, <name>Gallus</name>, <name>Othmar</name>, <name>Lambert</name>, <name>Hieronymus</name> und kleinere Werke <name ref="#gaertner-pers016">Hugos von St.&#8239;Viktor</name> (†&#8239;1140); der zweite Teil enthält Bl.&#8239;124r&#x2013;177r den Hoheliedkommentar <name ref="#gaertner-pers017">Willirams von Ebersberg</name> (†&#8239;1085).<note xml:id="gaertner-ftn2" n="2">Vgl. <ref target="#Gaertner1999" type="bibl">Sp.&#8239;1159&#x2013;1164</ref>.</note> Um den von Kunsthistorikern auch als <q>Lambacher Williram</q> bezeichneten Kodex wird es im Folgenden gehen. Der um&#x00A0;1060 verfasste Kommentar <name ref="#gaertner-pers017">Willirams</name> besteht aus einem in Hexametern verfassten lateinischen Teil, der durch eine Paraphrase des Bibeltextes eingeleitet ist, und einem in Prosa verfassten deutschen Teil, der durch eine genaue Übersetzumg des Bibeltextes eingeleitet ist, an den sich der allegorische Kommentar anschließt. Der Inhalt ist in beiden Kommentarteilen der gleiche, doch wird er mit verschiedenen sprachlichen Mitteln ausgedrückt. Der lateinisch-deutsche Doppelkommentar ist für die deutsche Sprachgeschichte von großem Interesse, weil hier ein Bibelbuch vollständig ins Deutsche übersetzt und zugleich das Deutsche als theologische Fachsprache gebraucht wurde. Unter den 30&#x00A0;Textzeugen mit dem deutschen Kommentarteil spielt die Lambacher Handschrift eine besondere Rolle wegen ihrer Autornähe und wegen der Neumierung zahlreicher Verse des Hoheliedtextes.</p>
+            <p><name ref="#gaertner-pers017">Williram</name> hat den Bibeltext in 149&#x00A0;Kommentareinheiten eingeteilt, mit dem Prolog ergeben sich damit 150&#x00A0;Abschnitte. Für die Einteilung war möglicherweise der Psalter das Vorbild, das für das monastische Offizium zentrale Bibelbuch also, das den klösterlichen Alltag bestimmte. Die Struktur einer Kommentareinheit beschreibt <name ref="#gaertner-pers017">Williram</name> im Prolog folgendermaßen: <quote source="#gaertner-ftn3">Ich habe beschlossen, das Hohe Lied, dessen große Bedeutung schon durch seinen Namen angezeigt wird, mit Gottes Zustimmung sowohl in lateinischen Versen als auch in deutscher Prosa zu erklären, und zwar so, dass der Bibeltext in die Mitte gestellt von den beiden Kommentaren umgeben wird und so mühelos das gefunden wird, was man zum Verständnis braucht.</quote><note type="bibl" xml:id="gaertner-ftn3" n="3"><hi rend="italic">cantica canticorum quę sui magnitudinem ipso nomine testantur. statui si deus annuerit et uersibus et teutonica planiora reddere: ut corpus in medio positum. his utrimque cingatur. et ita facilius intellectui occurrat quod inuestigatur.</hi> Zitiert nach der Ausgabe von <ref target="#Bartelmez1967" type="bibl" xml:id="gaertner-ftn100"/>.</note> Die dreispaltige synoptische Anlage ist in der Lambacher Handschrift in ein Nacheinander aufgelöst: Zuerst steht, durch eine rubrizierte Trennlinie von der vorausgehenden Kommentareinheit abgeteilt, der lateinische Kommentarteil; diesem folgt als Rubrik besonders hervorgehoben der Bibeltext, der z.&#8239;T. mit Neumen versehen ist, und schließlich der deutsche Kommentarteil.</p>
+            <p>Die Lambacher Handschrift weist auf Bl.&#8239;3r einen Besitzvermerk auf: <hi rend="italic">Hic liber est Gotscalci de Lambach</hi>. Dies gibt zu der begründeten Vermutung Anlass, dass es sich bei dem Schreiber um den Mönch <name ref="#gaertner-pers011">Gottschalk von Lambach</name> handelt, dessen Hand in mehreren anderen Lambacher Handschriften zu finden ist und der nicht nur als Schreiber, sondern auch als Miniator, Historiker und Musiktheoretiker in Lambach tätig war.<note xml:id="gaertner-ftn4" n="4">Vgl. <ref target="#Davis2000" type="bibl">S.&#8239;17&#x2013;26</ref>.</note> Für die Musikwissenschaft ist von herausragendem Interesse das ihm zugeschriebene Antiphonar, das nur in Fragmenten erhalten ist, die in verschiedenen Bibliotheken aufbewahrt werden. Die ursprüngliche Anlage des Kodex hat die Musikwissenschaftlerin <name ref="#gaertner-pers002">Lisa Fagin Davis</name> in einer umfassenden Studie rekonstruiert.<ref type="bibl" target="#Davis2000" xml:id="gaertner-ftn5" n="5" rend="ibid"/> Der Autorin ist allerdings entgangen, dass der <q>Lambacher Williram</q> auch für die Musikwissenschaft von besonderer Bedeutung ist, denn im Hoheliedkommentar sind, wie bereits erwähnt, zahlreiche Verse des kommentierten Bibeltextes neumiert. Auf die Neumierung wird allerdings auch in den beiden jüngsten Handschriftenkatalogen<note xml:id="gaertner-ftn6" n="6">Weder von <ref target="#Fingernagel1991" type="bibl"/> noch von <ref target="#Rose1903" type="bibl">S.&#8239;842&#x2013;845, 794</ref>.</note> nicht eigens hingewiesen. In dem diplomatischen Abdruck des <q>Lambacher Williram</q> aus der Frühzeit der Germanistik durch <name ref="#gaertner-pers008">Friedrich Heinrich von der Hagen</name><note xml:id="gaertner-ftn7" n="7"><ref target="#Hagen1841" type="bibl"/> und <ref target="#Williram1843" type="bibl"/>.</note> wird die Neumierung jedoch in den Anmerkungen sorgfältig verzeichnet, ebenso wird in der späteren germanistischen Fachliteratur auf die Neumierung hingewiesen.<note xml:id="gaertner-ftn8" n="8"><ref target="#Gaertner1988" type="bibl">S.&#8239;23</ref>; <ref target="#Hellgardt2011" type="bibl">S.&#8239;167 (Nr.&#8239;4)</ref>.</note></p>
+         </div>
+         <div xml:id="div-gaertner02">
+         <head>II.</head>
+            <p>Im Folgenden gebe ich einen diplomatischen Abdruck der mit Neumen versehenen Hoheliedverse, welche die Mitte einer Kommentareinheit bilden, aus der Lambacher Handschrift. In denjenigen Fällen, in denen der Bibeltext nur teilweise neumiert ist, sind die neumierten Teile durch Fettdruck hervorgehoben. Die neumierten Stellen sind durchnummeriert; der laufenden Nummer folgt die Folienangabe in der Handschrift, weiter die Identifikation des Hoheliedverses in der Verszählung der Vulgata (Halbverse bzw. Teilverse werden mit a, b bzw. a, b, c usw. angegeben) sowie die Referenz auf die Ausgabe von <name ref="#gaertner-pers001">Bartelmez</name> (s.&#8239;Anm.&#8239;<ref target="#gaertner-ftn3" type="crossref" rend="no"/>). Nach diesen Angaben folgt abgesetzt der transkribierte Hoheliedtext; in diesem sind die Abkürzungen in runden Klammern aufgelöst; das tironische <hi rend="italic">et</hi> ist durch <hi rend="italic">(et)</hi>, die <hi rend="italic">&amp;-</hi>Ligatur durch <hi rend="italic">et</hi> wiedergegeben. Mit Präpositionen zusammengeschriebene Substantive werden durch einen Bindestrich getrennt. Die Interpunktion der Handschrift, der <hi rend="italic">punctus</hi>, meist auf der Zeile, gelegentlich auch auf der Zeilenmitte, ist durch einen Punkt wiedergegeben, der <hi rend="italic">punctus elevatus</hi> durch ein Ausrufezeichen. Jeder Transkription folgen abgesetzt die Nachweise in der wichtigsten liturgischen Fachliteratur sowie Verweise auf weitere Literatur. Abgekürzt werden zitiert: </p>
+            <!--<table xml:id="gaertner-table01">
+               <row>
+                  <cell>CAO</cell>
+                  <cell><ref target="#Hesbert1963" type="bibl"  xml:id="gaertner-ftn101"/>; Angabe der Nr. der Antiphon.</cell>
+               </row>
+               <row>
+                  <cell>Stenzl</cell>
+                  <cell><ref target="#Stenzl2008" type="bibl"  xml:id="gaertner-ftn102"/>; Angabe der Nr. des alphabetischen Verzeichnisses der einstimmigen Hoheliedantiphonen; mit <q>S.</q> sind ausgewählte Verweise auf den Darstellungsteil gekennzeichnet.</cell>
+               </row>
+               <row>
+                  <cell>CANTUS</cell>
+                  <cell><ref target="#cantus" type="bibl"  xml:id="gaertner-ftn103"/>. In der Regel wird die CANTUS ID nur angegeben, wenn die Antiphon nicht im CAO verzeichnet ist.<note xml:id="gaertner-ftn9" n="9">Ergänzend herangezogen wurde die Datenbank der Académie de Chant grégorien (Brüssel): <ptr target="http://www.gregorien.info"/>, die ein Verzeichnis der Gesänge umfasst, deren Ausgabe im Internet zu finden ist; das Verzeichnis enthält Verweise auf die CANTUS Database.</note></cell>
+               </row>
+               <row>
+                  <cell>Davis</cell>
+                  <cell><ref target="#Davis2000" type="bibl" xml:id="gaertner-ftn104">S.&#8239;176&#x2013;201</ref>; Angabe der Blattzahl des rekonstruierten Antiphonars; Beschreibung von ihr für CANTUS unter <ptr target="http://cantusdatabase.org/source/374032/gottschalk"/>. Varianten im Antiphonentext werden mit <q>Gottschalk</q> gekennzeichnet.</cell>
+               </row>
+               <row>
+                  <cell>Bohnert</cell>
+                  <cell><ref target="#Bohnert2006" type="bibl" xml:id="gaertner-ftn105"/>.</cell>
+               </row>
+            </table>-->
+            <list type="gloss">
+               <label>CAO</label>
+               <item><ref target="#Hesbert1963" type="bibl" xml:id="gaertner-ftn101" rend="inline"/>; Angabe der Nr. der Antiphon.</item>
+               <label>Stenzl</label>
+               <item><ref target="#Stenzl2008" type="bibl" xml:id="gaertner-ftn102" rend="inline full"/>; Angabe der Nr. des alphabetischen Verzeichnisses der einstimmigen Hoheliedantiphonen; mit <q>S.</q> sind ausgewählte Verweise auf den Darstellungsteil gekennzeichnet.</item>
+               <label>CANTUS</label>
+               <item><ref target="#cantus" type="bibl" xml:id="gaertner-ftn103" rend="inline"/>. In der Regel wird die CANTUS ID nur angegeben, wenn die Antiphon nicht im CAO verzeichnet ist.<note xml:id="gaertner-ftn9" n="9">Ergänzend herangezogen wurde die Datenbank der Académie de Chant grégorien (Brüssel): <ptr target="http://www.gregorien.info"/>, die ein Verzeichnis der Gesänge umfasst, deren Ausgabe im Internet zu finden ist; das Verzeichnis enthält Verweise auf die CANTUS Database.</note></item>
+               <label>Davis</label>
+               <item><ref target="#Davis2000" type="bibl" xml:id="gaertner-ftn104" rend="inline">S.&#8239;176&#x2013;201</ref>; Angabe der Blattzahl des rekonstruierten Antiphonars; Beschreibung von ihr für CANTUS unter <ptr target="http://cantusdatabase.org/source/374032/gottschalk"/>. Varianten im Antiphonentext werden mit <q>Gottschalk</q> gekennzeichnet.</item>
+               <label>Bohnert</label>
+               <item><ref target="#Bohnert2006" type="bibl" xml:id="gaertner-ftn105" rend="inline"/>.</item>
+            </list>
+           <p>	
+         </p>
+            <p>Gelegentlich wird der Überlieferungsbefund dargestellt, vor allem wenn er für die liturgische Verwendung der neumierten Verse von Belang ist. Der Primärtext ist recte gesetzt, der editorische Sekundärtext kursiv. Die Antiphonen weisen unterschiedliche Textzusammensetzungen auf: den <hi rend="italic">linearen</hi> Antiphonentexten liegt ein Vers oder eine Versfolge des Bibeltextes teilweise oder vollständig zu Grunde; in den <hi rend="italic">kombinierten</hi> Antiphonen werden nur Ausschnitte oder charakteristische Wendungen aus verschiedenen Stellen des Bibeltextes zu einem Antiphonentext verbunden.<note xml:id="gaertner-ftn10" n="10">Zur Textzusammensetzung vgl. <ref target="#Stenzl2008" type="bibl">S.&#8239;28f</ref>.</note> 
+               Auf die Textzusammensetzung wird im Kommentar zur Neumierung mehrmals hingewiesen.</p>
+            <list rend="ordered">
+               <item><p><hi rend="italic">Ms.&#8239;theol.&#8239;lat.&#8239;qu.&#8239;140, 128r; Ct&#8239;1,8a; Bartelmez 15V</hi></p>
+                  <p>Equitatui meo in-currib(us) pharaonis. assimilaui te. amica mea.</p>
+                  <p><hi rend="italic">Kein Nachweis in CAO und CANTUS; nach Stenzl&#x00A0;37 in dieser Form nur in einer Hs. nachgewiesen: Stuttgart, Landesbibl., cod.&#8239;HB&#8239;I&#8239;95, Bl.&#8239;51r, einem Cantionarium des 13.&#8239;Jhs. aus Weingarten, das noch einige andere Hoheliedantiphonen überliefert, vgl. Stenzl S.&#8239;84</hi>.</p></item>
+               <item><p><hi rend="italic">128v; Ct&#8239;1,11; 19V</hi></p> 
+                  <p>Cum esset Rex in accubitu suo! nard(us) mea ded(it) odore(m) suv(m)*.</p>
+                  <p><hi rend="italic">CAO&#8239;2450; Stenzl&#x00A0;28; Davis 131v. Gehört zu den neuen <q>großen</q> Hoheliedantiphonen, die in der <q>Renaissance des 12.&#8239;Jahrhunderts</q> entstanden; Stenzl S.&#8239;63</hi>. &#x2013; *suum] suauitatis <hi rend="italic">Gottschalk</hi>.</p></item>
+            
+         <item><p><hi rend="italic">129r; Ct&#8239;1,14; 22V</hi>
+         </p>
+         <p>Ecce tu pulchra es amica m(ea)! ecce tu pulch(ra)! oc(u)li tui colu(m)bar(um).</p>
+         <p>
+            <hi rend="italic">CAO&#8239;2547; Stenzl&#x00A0;31.</hi>
+         </p></item>
+               
+         <item><p><hi rend="italic">130r; Ct&#8239;2,2; 27V</hi>
+         </p>
+         <p>Sicut lilium inter spinas. sic amica mea inter* filias.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;4937; Stenzl&#x00A0;94.</hi> *in ter <hi rend="italic">mit großem Spatium zwischen den beiden Silben aus Rücksicht auf die Neumierung.</hi>
+         </p></item>
+               
+         <item><p><!--<hi rend="bold">5.</hi>--><hi rend="italic">130r; Ct&#8239;2,3; 28V</hi>
+         </p>
+         <p>Sicut malum inter ligna siluaru(m). sic dilectvs m(eu)s int(er) filios. <hi rend="smallcaps">aevia.</hi>
+         </p>
+         <p><hi rend="italic">CAO&#8239;4940; Stenzl&#x00A0;95. Der Zusatz</hi> aevia (= alleluia), der nur <hi rend="italic">zum Text der Antiphon gehört, ist ein expliziter Hinweis auf den liturgischen Zusammenhang, der dem Schreiber präsent war. </hi>
+         </p></item>
+         <item><p><hi rend="italic">131r; Ct&#8239;2,6 (= Ct 8,3); 32V (=133V)</hi>
+         </p>
+         <p>Leua eius sub capite meo. et dextera illius amplexabitur me.</p>
+         <p><hi rend="italic">CAO&#8239;3574; Stenzl&#x00A0;59; Davis 131r.</hi>
+         </p></item>
+         <item><p><hi rend="italic">132v; Ct&#8239;2,10; 38V</hi>
+         </p>
+         <p>Et dilect(us) m(eu)s loq(ui)t(ur) m(ihi). <hi rend="bold">Surge p(ro)p(er)a amica mea. </hi>colu(m)ba mea. formosa mea. (et) ueni.</p>
+         <p><hi rend="italic">Vgl. CAO zur folgenden Nr.&#8239;8; vgl. Stenzl&#x00A0;23 und 58; CANTUS ID&#8239;602287 mit zahlreichen Belegen des neumierten Versteils.</hi></p></item>
+         <item><p><hi rend="italic">132v; Ct 2,11&#x2013;12; 39V</hi>
+         </p>
+         <p><hi rend="bold">Iam eni(m) hiemps transiit. ymber abiit et recessit. flores apparuer(un)t!*</hi> temp(us) putationis aduenit.</p>
+         <p><hi rend="italic">CAO&#8239;3470:</hi> Jam hiems transit, imber abiit; surge, amica mea, et veni<hi rend="italic">; Stenzl&#x00A0;58; Davis 131v. Die neumierten Verseteile aus Ct&#8239;2,11 und 2,12a sind Teil einer Antiphon, die aus Ct&#8239;2,11&#x2013;12a und Ct&#8239;2,13b besteht. &#x2013; * Nur in der Lambacher Hs. und ihrer durch die Hs. aus Kremsmünster (Stiftsbibl. CC&#8239;32) repräsentierten Vorstufe fehlt wie in der Antiphon nach </hi>flores apparuerunt<hi rend="italic"> der Versteil </hi>in terra nostra<hi rend="italic"> des Bibeltextes, der in allen übrigen <name ref="#gaertner-pers017">Williram</name>-Hss. erhalten ist, vgl. Bohnert S.&#8239;178.</hi>
+         </p></item>
+         <item><p><hi rend="italic">143r; Ct&#8239;4,5 und 4,6a (= 2,17a); 59V</hi>
+         </p>
+         <p>Duo ubera tua. sicut duo hinuli capreę gemelli. q(ui) pascunt(ur) in-liliis <hi rend="bold">donec aspiret dies. (et) inclinent(ur) umbrę.</hi>
+         </p>
+         <p><hi rend="italic">CAO&#8239;2227b; Stenzl&#x00A0;25: Der neumierte Versteil bildet den zweiten Teil einer linearen Antiphon aus Ct&#8239;2,16 und 17a. Ct&#8239;4,6a und 2,17a mit demselben Wortlaut.</hi>
+         </p></item>
+         <item><p><hi rend="italic">143r; Ct.&#8239;4,6b; 60V</hi>
+         </p>
+         <p>Uadam <hi rend="bold">ad </hi>
+            <hi rend="bold smallcaps">montem myrre</hi>
+            <hi rend="bold">! et ad colle(m)</hi> thuris. <hi rend="italic">a.r.Rd.</hi> 
+            <hi rend="bold">Ibo m(ihi). </hi>
+         </p>
+            <p>
+               <hi rend="italic">CAO&#8239;3160; Stenzl&#x00A0;48; Text der Antiphon bei Stenzl S.&#8239;63: </hi>Ibo michi ad montem myrrhae et ad colles Libani [. . .]. <hi rend="italic">Am rechten Rand ist die im Text der Antiphon gebrauchte und auch neumierte Variante</hi> Ibo michi <hi rend="italic">als Ersatz der Lesart des Kommentartextes </hi>Uadam<hi rend="italic"> eingetragen; </hi>thuris<hi rend="italic"> ist nicht neumiert, denn der Text der Antiphon hat </hi>Libani <hi rend="italic">für </hi>thuris. <hi rend="italic">Der neumierte Text bildet den Anfang der ältesten und dann am weitesten verbreiteten <q>großen</q> Hoheliedantiphon, Stenzl S.&#8239;63&#8239;f.</hi>
+            </p>
+         </item>
+            
+         <item><p><!--<hi rend="bold">11.</hi>--><hi rend="italic">144r; Ct&#8239;4,9; 63V</hi>
+         </p>
+         <p>
+            <hi rend="bold">Uulnerasti cor meu(m) soror mea sponsa. uulnerasti cor meu(m).</hi> in uno oculor(um) tuor(um). (et) in uno crine colli tui.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;5511; Stenzl&#x00A0;129.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">12.</hi>--><hi rend="italic">145r; Ct&#8239;4,11; 66V</hi>
+         </p>
+         <p>
+            <hi rend="bold">Fauus distillans labia tua sponsa!</hi> mel et lac sub-lingua tua! <hi rend="bold">et odor uestim(en)tor(um) tuor(um) sicut odor thuris.</hi>
+         </p>
+         <p>
+            <hi rend="italic">CAO&#8239;2855; Stenzl&#x00A0;39. Die neumierten Versteile entsprechen dem als Antiphon gebrauchten Text. &#x2013; Vgl. Abb. <ref target="#gaertner-fig01" type="crossref" rend="no"/></hi>
+            <figure xml:id="gaertner-fig01">
+               <graphic url="figures/gaertner-fig01.jpg" width="578px" height="449px"/>
+               <head type="legend">Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz, Handschriftenabteilung,  <lb/>Ms. theol. lat. qu.&#8239;140, Bl.&#8239;145r.</head>
+            </figure>
+         </p></item>
+               <item><p><!--<hi rend="bold">12.</hi>--><hi rend="italic">145v; Ct&#8239;4,12; 67V</hi>
+         </p>
+         <p>
+            <hi rend="bold">Ortus conclusus. soror mea sponsa!</hi> ort(us) conclusus. fons <hi rend="bold">SIGNATUS</hi>.*</p>
+         <p>
+            <hi rend="italic">CAO&#8239;3138 (vgl. 3135&#x2013;37); Stenzl&#x00A0;43: statt </hi>soror mea sponsa <hi rend="italic">hat die Antiphon die Variante </hi>Dei genitrix; <hi rend="italic">vgl. den Wortlaut ohne diese Ersetzung im Faksimile CANTUS&#8239;003138: </hi>
+            <ptr target="http://gallica.bnf.fr/ark:/12148/btv1b60007359/f563.item"/>. Der Antiphontext mit seiner allegorischen Variante dei genitrix<hi rend="italic"> (Stenzl S.&#8239;29) gehört zu den <q>großen</q> Hoheliedantiphonen, Stenzl S.&#8239;140. &#x2013; *</hi>SIGNATUS<hi rend="italic"> mit Akuten nur über den Vokalen.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">13.</hi>--><hi rend="italic">146r; Ct&#8239;4,13; 68V</hi>
+         </p>
+         <p>Emissiones tuę paradysvs malor(um) punicor(um)! cu(m) pomor(um) <hi rend="smallcaps">frvctibvs</hi>. </p>
+         <p>
+            <hi rend="italic">CAO&#8239;2641; Stenzl&#x00A0;35.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">14.</hi>--><hi rend="italic">148r; Ct&#8239;4,15; 71V</hi>
+         </p>
+         <p>Fons ortoru(m). puteus aquaru(m) uiuentiv(m). q(ue)* fluunt impetu de lybano.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;2887; Stenzl&#x00A0;41. &#x2013; *</hi> qͤ <hi rend="italic">Hs.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">15.</hi>--><hi rend="italic">148v; Ct&#8239;4,16; 72V</hi>
+         </p>
+         <p>Surge aquilo. (et) ueni auster. p(er)fla ortu(m) meu(m). (et) flue<hi rend="smallcaps">nt</hi> aromata illivs.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;5070; Stenzl&#x00A0;107. &#x2013; Auf dem oberen Rand von 148v vor Zeile 1 beginnend mit 72L3 </hi>O uos in festę<hi rend="italic"> steht eine Neumensequenz ohne Text. </hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">16.</hi>--><hi rend="italic">149r; Ct&#8239;5,1a; 73V</hi>
+         </p>
+         <p>Ueniat dilect(us) m(eu)s in-ortu(m) suu(m)! ut comedat fructu(m) pomor(um) suor(um).</p>
+         <p>
+            <hi rend="italic">CAO&#8239;5329; Stenzl&#x00A0;121.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">17.</hi>--><hi rend="italic">149r; Ct&#8239;5,1b&#x2013;d; 74V</hi>
+         </p>
+         <p>
+            <hi rend="italic"><hi rend="sup">b</hi></hi><hi rend="smallcaps">Ueni</hi> in-ortu(m) meu(m) soror mea sponsa. <hi rend="italic"><hi rend="sup">c</hi></hi>messui myrra(m) mea(m) cu(m) aromatib(us) meis. <hi rend="italic"><hi rend="sup">d</hi></hi>Comedi fauu(m) cv(m) melle meo! bibi uinv(m) *meum cu(m) lacte meo.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;5352 und Stenzl&#x00A0;119 für Ct 5,1b&#x2013;c sowie CAO&#8239;1856 und Stenzl&#x00A0;10 für Ct&#8239;5,1d.</hi> &#x2013; *meum cum lacte meo<hi rend="italic"> am Zeilenende interlinear eingefügt; ein Hinweis auf die nachträgliche Einfügung des rubrizierten Bibeltextes.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">18.</hi>--><hi rend="italic">152v; Ct&#8239;5,6b; 82V</hi>
+         </p>
+         <p>Anima mea liquefacta est. ut dilectus locutus est.</p></item>
+               <item><p><!--<hi rend="bold">19.</hi>--><hi rend="italic">152v; Ct&#8239;5,6c; 83V</hi>
+         </p>
+         <p>Quesiui illum. (et) n(on) inueni! *uocaui. (et) n(on) respondit mihi.</p></item>
+               <item><p><!--<hi rend="bold">20.</hi>--><hi rend="italic">153r; Ct&#8239;5,7; 84V</hi>
+         </p>
+         <p>
+            <hi rend="bold">Inuener(un)t me custodes **ciuitatis.</hi> q(ui) circu(m)eunt ciuitate(m). <lb/><hi rend="bold">p(er)cusser(un)t me. (et) uulnerauer(unt) me! tuler(unt) palliv(m) <lb/>m(eum) c(ustodes) muror(um).</hi>
+         </p>
+         <p>
+            <hi rend="italic">Zu 19.&#x2013;21.: Ct&#8239;5,6b &#x2013; Ct&#8239;5,7 sind Teile einer linearen Antiphon, die auch noch Ct&#8239;5,8 umfasst: CAO&#8239;1418; Stenzl&#x00A0;1. </hi>Anima mea liquefacta est <hi rend="italic">gehört zu den <q>großen</q> Antiphonen, vgl. zu Melodie und Text Stenzl S.&#8239;49&#x2013;52. &#x2013; *</hi>illum vocavi<hi rend="italic"> im Text der Antiphon bei Stenzl S.&#8239;46;</hi> uocaui illum <hi rend="italic">im Text von <name ref="#gaertner-pers001">Bartelmez</name>, </hi>illum <hi rend="italic">fehlt in der Lambacher Hs. (vgl. Apparat bei <name ref="#gaertner-pers001">Bartelmez</name>).&#x2013; **</hi>ciuitatis<hi rend="italic"> nur in der Lambacher Hs., die hier den Text der Antiphon bezeugt. Die deutsche Übersetzung gibt den Bibeltext wieder, in dem das pleonastische </hi>ciuitatis<hi rend="italic"> der Lambacher Hs. nicht berücksichtigt ist: </hi>In den sorgen. uundon míh die wahtáre. die dîe burg umbe gênt. &#x2013; Vgl. Abb.&#8239;<ref target="#gaertner-fig02" type="crossref" rend="no"/> und <ref target="#gaertner-fig03" type="crossref" rend="no"/>.</p></item>
+               <item><p><!--<hi rend="bold">21.</hi>--><hi rend="italic">157v; Ct&#8239;5,16; 97V</hi>
+         </p>
+                  <figure xml:id="gaertner-fig02">
+                     <graphic url="figures/gaertner-fig02.jpg" width="578px" height="449px"/>
+                     <head type="legend">Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz, Handschriftenabteilung, <lb/> Ms. theol. lat. qu.&#8239;140, Bl.&#8239;152v.</head>
+                  </figure>
+                  <figure xml:id="gaertner-fig03">
+                     <graphic url="figures/gaertner-fig03.jpg" width="578px" height="449px"/>
+                     <head type="legend">Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz, Handschriftenabteilung, <lb/> Ms. theol. lat. qu.&#8239;140, Bl.&#8239;153r.</head>
+                  </figure>
+         <p>
+            <hi rend="bold">Talis est dilectvs</hi> m(eu)s. et ipse est amicvs m(eu)s. filię hier(usa)l(em).</p>
+         <p>
+            <hi rend="italic">CAO&#8239;5098; Stenzl&#x00A0;108. &#x2013; Nur der Anfang der Antiphon ist neumiert.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">22.</hi>--><hi rend="italic">160r; Ct&#8239;6,7; 103V</hi>
+         </p>
+         <p>
+            <hi rend="bold smallcaps">sexaginta</hi> 
+            <hi rend="smallcaps">s(</hi>unt<hi rend="smallcaps">) r</hi>eginę et octoginta concubinę! et adoloscentularum non est <hi rend="smallcaps">nvmervs</hi>.</p>
+         <p>
+            <hi rend="italic">CANTUS ID&#8239;204603; Stenzl&#x00A0;93. &#x2013; Nur der Anfang der Antiphon ist mit schwarzer Tinte neumiert. Der Text gehört zu den <q>großen</q> Hoheliedantiphonen, Stenzl S.&#8239;141.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">23.</hi>--><hi rend="italic">162r; Ct&#8239;6,10; 107V</hi>
+         </p>
+         <p>Descendi in-ortum nucum. ut uiderem poma conuallium. et inspicerem si floruissent *uineęͣ. et germinassent <hi rend="smallcaps">mala punica</hi>.</p></item>
+               <item><p><!--<hi rend="bold">24.</hi>--><hi rend="italic">162v; Ct&#8239;6,12; 109V</hi>
+         </p>
+         <p>Reuertere. reuertere sunamitis! reuertere. reuertere. ut intueam(ur) te.</p>
+         <p>
+            <hi rend="italic">Zu 24.&#x2013;25.: Ct&#8239;6,10 und Ct&#8239;6,12 sind Teile einer kombinierten Antiphon: CAO&#8239;2155; Stenzl&#x00A0;11. &#x2013; </hi>*uineęͣ: a <hi rend="italic">über </hi>e, <hi rend="italic">Besserung des Plurals</hi> uineę <hi rend="italic">in den Singular</hi> uinea [<hi rend="italic"><name ref="#gaertner-pers017">Willirams</name> Text:</hi> floruisset uinea], <hi rend="italic">doch das Verbum im Plural </hi>floruissent<hi rend="italic"> wird nicht verändert; zur Varianz vgl. Bohnert S.&#8239;183.</hi>
+         </p></item>
+               <item><p><!--<hi rend="bold">25.</hi>--><hi rend="italic">171v; Ct&#8239;8,3 (= Ct 2,6); 133V (= 32V)</hi>
+         </p>
+         <p>Leua eius sub capite meo! et dext(er)a illius amplexabit(ur) me.</p>
+         <p>
+            <hi rend="italic">CAO&#8239;3574; Stenzl&#x00A0;59; Davies&#x00A0;131v.. &#x2013; Vgl oben zu 131r, Ct&#8239;2,6.</hi>
+         </p></item>
+            </list>
+         </div>
+         
+         <div xml:id="div-gaertner03">
+         <head>III.</head>
+            <p>Die neumierten Hoheliedantiphonen im Lambacher Williram wurden im 12.&#8239;Jahrhundert überwiegend im Offizium der beiden ältesten Marienfeste verwendet, der <hi rend="italic">Assumptio Mariae</hi> (15.&#8239;August) und der <hi rend="italic">Nativitas Mariae</hi> (8.&#8239;September). In dem von <name ref="#gaertner-pers002">Lisa Fagin Davis</name> rekonstruierten <name ref="#gaertner-pers011">Gottschalk</name>-Antiphonar sind auf dem letzten erhaltenen Bl.&#8239;131r/v mehrere der auch im Lambacher Williram bezeugten neumierten Hoheliedantiphonen überliefert, die alle dem <hi rend="italic">Commune Virginum</hi> zugewiesen werden;<ref target="#Davis2000" type="bibl" xml:id="gaertner-ftn146">S.&#8239;200&#8239;f.</ref> Bl.&#8239;131v, Zeile&#x00A0;17 enthält jedoch den mit einem Paragraphenzeichen versehenen Hinweis <hi rend="italic">assumptione .s.</hi> <hi rend="italic smallcaps">marie</hi>, der möglicherweise auf das entsprechende Marienfest verweist. Im alphabetischen Verzeichnis der einstimmigen Hoheliedantiphonen von <name ref="#gaertner-pers015">Jürg Stenzl</name><ref xml:id="gaertner-ftn11" target="#Stenzl2008" type="bibl" n="11">Anhang 1, S.&#8239;103&#x2013;131</ref> ist die Zuordnung der Antiphonen zu einem bestimmten Fest verzeichnet, wenn das aus der Überlieferung hervorgeht, ebenso in der CANTUS Database. In den ältesten Quellen werden die Hoheliedantiphonen weit überwiegend den Festen <hi rend="italic">Assumptio Mariae</hi> und <hi rend="italic">Nativitas Mariae</hi> zugeordnet, noch selten auch dem <hi rend="italic">Commune Virginum</hi>.</p>
+         <p>Der Bezug der neumierten Hoheliedverse des Kommentars auf den hauptsächlichen Gebrauch als Antiphonen im Offizium der beiden Marienfeste ist jedenfalls nicht auszuschließen. Die Himmelfahrt Marie und die Geburt Marie waren im Hochmittelalter populär, ebenso die apokryphen Quellen, die mit den beiden Festen eng verbunden sind. Über die Geburt Marias berichtet ausführlich das Pseudo-Matthäus-Evangelium,<ref target="#LibriMariae" type="bibl" xml:id="gaertner-ftn12" n="12"/> über die Himmelfahrt Marias der <hi rend="italic">Transitus Mariae</hi> des Pseudo-Melito.<ref xml:id="gaertner-ftn13" target="#HaibachReinisch1962" type="bibl" n="13"/> Beide erfuhren schon früh volkssprachige Bearbeitungen im oberdeutschen Sprachgebiet: der Pseudo-Matthäus in Priester Wernhers <hi rend="italic">Driu liet von der maget</hi><ref target="#Wernher1969" type="bibl" xml:id="gaertner-ftn14" n="14"/> (um&#x00A0;1170 in Augsburg), 
+            der <hi rend="italic">Transitus</hi> durch <name ref="#gaertner-pers018">Konrads von Heimesfurt</name> <hi rend="italic">Unser vrouwen hinvart</hi><ref target="#Heimesfurt1989" type="bibl" xml:id="gaertner-ftn15" n="15"/> (bald nach&#x00A0;1200 am Hof des <name>Bischofs von Eichstätt</name>).</p>
+            <pb/>
+            <p>Der Einfluss der Marienfeste auf die Exegese des Hohenliedes ist im Lambacher Williram wohl nur durch die Neumierung der als Antiphonen gebrauchten Hoheliedverse erkennbar, die Deutung der Braut als Maria ist darin jedoch impliziert. Die mariologischen Hoheliedkommentare setzen mit <name ref="#gaertner-pers004">Rupert von Deutz</name> (1075/80&#x2013;1129/30) zu Beginn des 12.&#8239;Jahrhunderts ein; sie könnten nach <name ref="#gaertner-pers015">Jürg Stenzl</name> als <q>ein theologisches Reagieren auf die HL-Texte in der Liturgie der Marienfeste</q> verstanden werden.<ref target="#Stenzl2008" type="bibl" xml:id="gaertner-ftn16" n="16">S.&#8239;57</ref> Von einer mariologischen Deutung der Braut findet sich bei <name ref="#gaertner-pers017">Williram</name> um 1060 allerdings noch keine Spur; er legt die Braut des Hoheliedes traditionell auf die Kirche aus und folgt damit <name ref="#gaertner-pers009">Haimo von Halberstadt</name>, seiner maßgeblichen Quelle.<note xml:id="gaertner-ftn17" n="17">Vgl. <ref target="#Gaertner1999" type="bibl">Sp.&#8239;1164</ref>.</note>
+         </p>
+            <p>Die neumierten Hoheliedverse in der Lambacher Handschrift mit ihrem direkten Bezug auf die Marienfeste haben damit eine Art Kommentarfunktion: Sie schließen die Deutung der <hi rend="italic">sponsa</hi> auf Maria mit ein. Der gelehrte <name ref="#gaertner-pers011">Gottschalk von Lambach</name>, wenn er nicht nur der Besitzer, sondern &#x2013; wie der paläographische Befund ergibt &#x2013; auch der Schreiber der Handschrift war, dürfte mit der im 12.&#8239;Jahrhundert einsetzenden Neuausrichtung der Hohelied-Exegese vertraut gewesen sein. Die weitere Frage, wie sich <name ref="#gaertner-pers011">Gottschalks</name> Antiphonar und die Neumierung der Hoheliedverse in seiner Kopie des Williram-Kommentars aus musikwissenschaftlicher Perspektive zueinander verhalten, bleibt noch zu klären, denn ich habe mich im vorliegenden Beitrag einseitig mit dem Antiphonentext, aber nicht mit der zugehörigen Melodie beschäftigt. Von den zehn Hoheliedantiphonen in dem von <name ref="#gaertner-pers002">Lisa Fagin Davis</name> rekonstruierten <name ref="#gaertner-pers011">Gottschalk</name>-Antiphonar (Bl.&#8239;131r/v)<note xml:id="gaertner-ftn18" n="18"><ref target="#Davis2000" type="bibl">S.&#8239;315&#8239;f.</ref>, Faksimiles von 131r/v</note> sind vier auch durch die neumierten Hoheliedverse im Lambacher Williram bezeugt. Ich gebe zum Abschluss die zehn Antiphonentexte nach dem Faksimile bei <name ref="#gaertner-pers002">Davis</name><note xml:id="gaertner-ftn19" n="19"><ref target="#Davis2000" type="bibl" rend="ibid">S.&#8239;200&#8239;f.</ref>, normalisierte Incipits im Index <q>Chants in manuscript order</q> mit Nachweisen im CAO.</note> diplomatisch wieder; in Klammern füge ich den Verweis auf das CAO sowie auf die Nr. in <name ref="#gaertner-pers015">Jürg Stenzls</name> alphabetischem Verzeichnis (s.&#8239;o.), das auch die Referenzen auf den Text des Hohen Liedes enthält, hinzu. Der Abdruck folgt den gleichen Prizipien wie oben der Abdruck der Verse aus dem Lambacher Williram.</p>
+         <list rend="ordered">
+            <item>Unguentum effusum nomen tuum ideo adolescentule dilexerunt te nimis <lb/>(<hi rend="italic">CAO&#8239;5273; Stenzl&#x00A0;115</hi>).</item>
+            <item>Leua eivs sub-capite meo et dextera illivs amplexibatur me (<hi rend="italic">3574;&#8239;6</hi>).</item>
+            <item>Cum esset rex in-accubitu suo nardvs mea dedit odorem suauitatis (<hi rend="italic">2450;&#8239;2</hi>).</item>
+            <item>Pulchra es et decora filia ierusalem terribilis ut castrorum acies ordinata <lb/>(<hi rend="italic">4418;&#8239;76</hi>).</item>
+            <item>Iam hiemps transiit ymber abiit et recessit surge amica mea et ueni (<hi rend="italic">3470;&#8239;58</hi>).</item>
+            <item>Surge aquilo et ueni auster p(er)fla ortum meum et fluent aromata illius <lb/>(<hi rend="italic">5070;&#8239;107</hi>).</item>
+            <item>Nigra sum sed formosa filia hierusalem ideo dilexit me rex et introduxit me in-cubiculum suum (<hi rend="italic">3878;&#8239; 63</hi>).</item>
+            <item>Aque multe non potuerunt extinguere caritatem (<hi rend="italic">1470;&#8239;6</hi>).</item>
+            <item>Ista est speciosa inter filias hierusalem (<hi rend="italic">3415;&#8239;54a</hi>).</item>
+            <item>Ista est speciosa inter filias hierusalem sicut uidistis eam plenam caritate et dilectione in-cubilibus et in-ortis aromatum (<hi rend="italic">3416;&#8239;54b</hi>).<note xml:id="gaertner-ftn20" n="20">Nr.&#8239;10 ist als Responsorium gebraucht.</note>
+            </item>
+         </list>
+            <p>Von diesen zehn Texten weisen die Nr.&#8239;2, 3, 5 und 6 im Abdruck aus dem Lambacher Williram (s.&#8239;o. die Nr.&#8239;2, 6, 8 und 15) Neumen auf. Die Melodien habe ich in meinem Beitrag jedoch außer Acht gelassen, weil ich davon nicht genug verstehe. Diese Aufgabe muss ich daher an die Musikwissenschaftler weitergeben.<note xml:id="gaertner-ftn21">Vgl. die Abb.&#8239;<ref target="#gaertner-fig01" type="crossref" rend="no"/>&#x2013;<ref target="#gaertner-fig03" type="crossref" rend="no"/> aus dem <q>Lambacher Williram</q>; die Abbildungen sind leicht verkleinert gegenüber der Blattgröße von 22,5&#8239;x&#8239;15,5&#8239;cm. Für die Herstellung von Digitalfaksimiles und die Erlaubnis zur Veröffentlichung habe ich der Handschriftenabteilung der Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz zu danken. Sehr herzlich danken möchte ich auch Anne-Beate Riecke von der Handschriftenabteilung für Auskünfte und Beratung.</note> </p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Fingernagel1991">Andreas Fingernagel, <title level="m">Die illuminierten lateinischen Handschriften deutscher Provenienz der Staatsbibliothek Preußischer Kulturbesitz Berlin, 2.&#x2013;12. Jahrhundert</title>, Teil 1: Text, beschrieben von Andreas Fingernagel, Wiesbaden 1991<bibl type="short">Fingernagel, <title level="m">Die illuminierten lateinischen Handschriften</title></bibl></bibl>
+               <bibl xml:id="Gaertner1988">Kurt Gärtner, <title level="a">Zu den Handschriften mit dem deutschen Kommentarteil des Hoheliedkommentars Willirams von Ebersberg</title>, in: <title level="m">Deutsche Handschriften 1100&#x2013;1400. Oxforder Kolloquium 1985</title>, hg. von Volker Honemann und Nigel F. Palmer, Tübingen 1988, S.&#8239;1&#x2013;34<bibl type="short">Gärtner, <title level="m">Handschriften Willirams</title></bibl></bibl>
+               <bibl xml:id="Gaertner1999">Kurt Gärtner, <title level="a">Williram von Ebersberg</title>, in: <title level="m">Die deutsche Literatur des Mittelalters. Verfasserlexikon</title>, Bd.&#8239;10, hg. von Burghart Wachinger, Berlin u.&#8239;a. 1999, Sp.&#8239;1156&#x2013;1170<bibl type="short">Gärtner, <title level="m">Williram von Ebersberg</title></bibl></bibl>
+               <bibl xml:id="Bartelmez1967">Erminnie H. Bartelmez, <title level="m">The <soCalled>Expositio in Cantica canticorum</soCalled> of Williram Abbot of Ebersberg 1048&#x2013;1085. A critical edition</title>, Philadelphia 1967 (Memoirs of the American Philosophical Society&#x00A0;69), P27&#x2013;32<bibl type="short">Bartelmez, <title level="m">Expositio in Cantica canticorum</title></bibl></bibl>
+               <bibl xml:id="Davis2000">Lisa Fagin Davis, <title level="m">The Gottschalk Antiphonary. Music and Liturgy in Twelfth–Century Lambach</title>, Cambridge 2000 (Cambridge Studies in Paleography and Codicology&#x00A0;8)<bibl type="short">Davis, <title level="m">The Gottschalk Antiphonary</title></bibl></bibl>
+               <bibl xml:id="Rose1903">Valentin Rose, <title level="m">Verzeichnis der lateinischen Handschriften der Königlichen Bibliothek zu Berlin</title>, Bd.&#8239;2,2: <title level="m">Die Handschriften der Kurfürstlichen Bibliothek und der Kurfürstlichen Lande</title>, Berlin 1903 (Die Handschriften-Verzeichnisse der Königlichen Bibliothek zu Berlin&#x00A0;13)</bibl>
+               <bibl xml:id="Hagen1841">Friedrich Heinrich von der Hagen, <title level="a">Willirams Verdeutschung des Hohen Liedes. Berliner Handschrift (I)</title>, in: <title level="m">Von der Hagens Germania&#x00A0;4 (1841)</title>, S.&#8239;153&#x2013;173</bibl>
+               <bibl xml:id="Williram1843">Friedrich Heinrich von der Hagen, <title level="a">Willirams Verdeutschung des Hohen Liedes. Berliner Handschrift (II)</title>, in: <title level="m">Von der Hagens Germania 5 (1843)</title>, S.&#8239;143&#x2013;190</bibl>
+               <bibl xml:id="Hellgardt2011">Ernst Hellgardt, <title level="a">Neumen in Handschriften mit deutschen Texten. Ein Katalog</title>, in: <title level="m"><q>Ieglicher sang sein eigen ticht</q>. Germanistische und musikwissenschaftliche Beiträge zum deutschen Lied im Spätmittelalter</title>, hg. von Christoph März (†), Lorenz Welker und Nicola Zotz, Wiesbaden 2011 (Elementa Musicae&#x00A0;4), S.&#8239;163&#x2013;207</bibl>
+               <bibl xml:id="Hesbert1963">Renatus Johannes Hesbert, <title level="m">Corpus antiphonalium officii</title>, Bd.&#8239;1&#x2013;6, Rom 1963&#x2013;79 (Rerum ecclesiasticarum documenta, Series maior, Fontes&#x00A0;7&#x2013;12)</bibl>
+               <bibl xml:id="Stenzl2008">Jürg Stenzl, <title level="m">Der Klang des Hohen Liedes. Vertonungen des <q>Canticum canticorum</q> vom 9. bis zum Ende des 15.&#8239;Jahrhunderts</title>, Textband, Würzburg 2008 (Salzburger Stier&#x00A0;1)<bibl type="short">Stenzl, <title level="m">Der Klang des Hohen Liedes</title></bibl></bibl>
+               <bibl xml:id="cantus"><title level="m">CANTUS: A Database for Latin Ecclesiastical Chant. Indices of chants in selected manuscripts and early printed sources of the liturgical Office</title>, online unter <ptr target="http://cantusdatabase.org/"/></bibl>
+               <bibl xml:id="Bohnert2006">Niels Bohnert, <title level="m">Zur Textkritik von Willirams Kommentar des Hohen Liedes. Mit besonderer Berücksichtigung der Autorvarianten</title>, Tübingen 2006 (Texte und Textgeschichte&#x00A0;56)<bibl type="short">Bohnert, <title level="m">Zur Textkritik von Willirams Kommentar des Hohen Liedes</title></bibl></bibl>
+               <bibl xml:id="HaibachReinisch1962">Monika Haibach-Reinisch, <title level="m">Ein neuer <soCalled>Transitus Mariae</soCalled> des Pseudo-Melito. Textkritische Ausgabe und Darlegung der Bedeutung dieser ursprünglicheren Fassung für Apokryphenforschung und lateinische und deutsche Dichtung des Mittelalters</title>, Rom 1962 (Bibliotheca Assumptionis B. Virginis Mariae&#x00A0;5)</bibl>
+               <bibl xml:id="LibriMariae"><title level="m">Libri de nativitate Mariae: Pseudo-Matthaei Evangelivm, textus et commentarius</title>, hg. von Jan Gijsel; <title level="m">Libellus de nativitate sanctae Mariae, textus et commentarius</title>, hg. von Rita Beyers, Turnhout 1997 (Corpus Christianorum, Series Apocryphorvm&#x00A0;9.10)</bibl>
+               <bibl xml:id="Wernher1969">Priester Wernher, <title level="m">Maria. Bruchstücke und Umarbeitungen</title>, hg. von Carl Wesle. Zweite Auflage besorgt durch Hans Fromm, Tübingen 1969 (Altdeutsche Textbibliothek&#x00A0;26)</bibl>
+               <bibl xml:id="Heimesfurt1989">Konrad von Heimesfurt, <title level="m"><hi rend="italic">Unser vrouwen hinvart</hi> und <hi rend="italic">Diu urstende</hi></title>. Mit Verwendung der Vorarbeiten von Werner Fechter hg. von Kurt Gärtner und Werner J. Hoffmann, Tübingen 1989 (Altdeutsche Textbibliothek&#x00A0;99)</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

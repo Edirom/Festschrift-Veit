@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title type="main"><q>Ei, dem alten Herrn <lb/>zoll' ich Achtung gern'</q></title>
+           <title type="sub">Festschrift für Joachim Veit zum 60.&#8239;Geburtstag</title>
+           <editor>Herausgegeben von Kristina Richts und Peter Stadler für den Virtuellen Forschungsverbund Edirom</editor>
+        </titleStmt>
+        <publicationStmt>
+           <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+           <availability>
+              <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+           </availability>
+        </publicationStmt>
+        <sourceDesc>
+           <p>born digital</p>
+        </sourceDesc>
+     </fileDesc>
+     <revisionDesc>
+        <change who="https://github.com/peterstadler" when="2015-12-07">final order.</change>
+        <change who="https://github.com/peterstadler" when="2015-06-06">Initial creation.</change>
+     </revisionDesc>
+  </teiHeader>
+   <!-- front -->
+   <xi:include href="allroggen-vorwort.xml" parse="xml"/>
+   <xi:include href="eleanor-grusswort.xml" parse="xml"/>
+   <xi:include href="vorwort.xml" parse="xml"/>
+   <!-- main -->
+   <xi:include href="acquavella-rauch.xml" parse="xml"/>
+   <xi:include href="allroggen.xml" parse="xml"/>
+   <xi:include href="appel.xml" parse="xml"/>
+   <xi:include href="arndt.xml" parse="xml"/>
+   <xi:include href="bandur.xml" parse="xml"/>
+   <xi:include href="bartlitz.xml" parse="xml"/>
+   <xi:include href="beck.xml" parse="xml"/>
+   <xi:include href="betzwieser.xml" parse="xml"/>
+   <xi:include href="bohl.xml" parse="xml"/>
+   <xi:include href="borchard.xml" parse="xml"/>
+   <xi:include href="capelle.xml" parse="xml"/>
+   <xi:include href="eberhardt.xml" parse="xml"/>
+   <xi:include href="eke.xml" parse="xml"/>
+   <xi:include href="emans.xml" parse="xml"/>
+   <xi:include href="gaertner.xml" parse="xml"/>
+   <xi:include href="geertinger.xml" parse="xml"/>
+   <xi:include href="grafschmidt_koenig.xml" parse="xml"/>
+   <xi:include href="grotjahn.xml" parse="xml"/>
+   <xi:include href="beethoven.xml" parse="xml"/>
+   <xi:include href="heidlberger.xml" parse="xml"/>
+   <xi:include href="hellfaier.xml" parse="xml"/>
+   <xi:include href="holtstraeter.xml" parse="xml"/>
+   <xi:include href="huck.xml" parse="xml"/>
+   <xi:include href="kamzelak.xml" parse="xml"/>
+   <xi:include href="reinhardkeil.xml" parse="xml"/>
+   <xi:include href="wernerkeil.xml" parse="xml"/>
+   <xi:include href="kleinertz.xml" parse="xml"/>
+   <xi:include href="zenmem.xml" parse="xml"/>
+   <xi:include href="leopold.xml" parse="xml"/>
+   <xi:include href="morent.xml" parse="xml"/>
+   <xi:include href="praetzlich.xml" parse="xml"/>
+   <xi:include href="nuttkofoth.xml" parse="xml"/>
+   <xi:include href="oevel.xml" parse="xml"/>
+   <xi:include href="plachta.xml" parse="xml"/>
+   <xi:include href="pugin.xml" parse="xml"/>
+   <xi:include href="rehbein.xml" parse="xml"/>
+   <xi:include href="schreiter.xml" parse="xml"/>
+   <xi:include href="siegert_herold.xml" parse="xml"/>
+   <xi:include href="staecker.xml" parse="xml"/>
+   <xi:include href="struck.xml" parse="xml"/>
+   <xi:include href="viglianti.xml" parse="xml"/>
+   <xi:include href="warrack.xml" parse="xml"/>
+   <xi:include href="ziegler.xml" parse="xml"/>
+</teiCorpus>

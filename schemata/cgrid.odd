@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" 
+   xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" 
+  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+  xmlns:eg="http://www.tei-c.org/ns/Examples"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD customization for the "Veit Festschrift"</title>
+         <author>Peter Stadler</author>
+      </titleStmt>
+       <publicationStmt>
+          <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+          <availability>
+             <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License (CC BY 3.0)</licence>
+          </availability>
+       </publicationStmt>
+      <sourceDesc>
+        <p>born digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+        <schemaSpec ident="cgrid" start="TEI" source="tei_jtei.odd.xml" prefix="cgrid_">
+           <moduleRef key="header"/>
+           <moduleRef key="core"/>
+           <moduleRef key="tei"/>
+           <moduleRef key="textstructure"/>
+           <moduleRef key="namesdates"/>
+           <moduleRef key="figures"/>
+           <moduleRef key="corpus"/>
+           <moduleRef key="tagdocs"/>
+           
+           <elementSpec ident="publicationStmt" module="header" mode="change">
+              <content>
+                 <rng:ref name="publisher"/>
+                 <rng:ref name="availability"/>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="availability" module="header" mode="change">
+              <content>
+                 <rng:ref name="licence"/>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="licence" mode="add">
+              <content>
+                 <rng:text/>
+              </content>
+              <attList>
+                 <attRef name="target" class="att.pointing"/>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="list" module="core" mode="change">
+              <attList>
+                 <attDef ident="rend" mode="change">
+                    <valList mode="change" type="closed">
+                       <valItem ident="alpha" mode="add">
+                          <gloss>an alphabetically numbered list</gloss>
+                          <desc>Items in this list will be ordered by latin characters</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="text" module="textstructure" mode="change">
+              <constraintSpec ident="jtei.sch-article-keywords" scheme="isoschematron" mode="delete"/>
+           </elementSpec>
+           
+           <elementSpec mode="change" module="core" ident="head">
+              <constraintSpec ident="jtei.sch-head-number" scheme="isoschematron" mode="delete"/>
+           </elementSpec>
+           
+           <elementSpec ident="language" module="header" mode="change">
+              <constraintSpec ident="cgrid.article-language" scheme="isoschematron">
+                 <constraint>
+                    <sch:assert test="@ident=('de', 'en')">The primary language of the article should be given</sch:assert>
+                 </constraint>
+              </constraintSpec>
+           </elementSpec>
+           
+           <elementSpec ident="title" module="core" mode="change">
+              <constraintSpec ident="cgrid.article-title" scheme="isoschematron">
+                 <constraint>
+                    <sch:rule context="tei:title[parent::tei:titleStmt]">
+                       <sch:assert test="@type">The type (main or sub) of the title should be given</sch:assert>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <attList>
+                 <attDef ident="ref" mode="add">
+                    <rng:ref name="data.pointer"/>
+                 </attDef>
+                 <attDef ident="type" mode="change">
+                    <valList mode="change" type="closed">
+                       <valItem ident="short" mode="add">
+                          <gloss>Kurztitel</gloss>
+                          <desc>sollte bei langen Titeln für den Kolumnentitel angegeben werden</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+                 <attDef ident="rend" mode="change">
+                    <valList mode="replace" type="closed">
+                       <valItem ident="normal">
+                          <desc>Overwrites the default italic shape of titles and typesets it \textnormal</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="name" module="core" mode="change">
+              <attList>
+                 <attDef ident="ref" mode="add">
+                    <rng:ref name="data.pointer"/>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="floatingText" mode="add">
+              <classes>
+                 <memberOf key="att.global"/>
+                 <memberOf key="att.typed"/>
+                 <memberOf key="model.qLike"/>
+              </classes>
+              <content>
+                 <rng:ref name="body"/>
+              </content>
+              <attList>
+                 <attDef ident="rend" mode="change">
+                    <valList type="closed" mode="replace">
+                       <valItem ident="twocolumns">
+                          <desc>prints the content of the floating text in two columns.</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="milestone" mode="add">
+              <classes>
+                 <!--<memberOf key="att.global"/>-->
+                 <memberOf key="model.milestoneLike"/>
+              </classes>
+              <content>
+                 <rng:empty/>
+              </content>
+              <attList>
+                 <attRef name="rendition" class="att.global.rendition"/>
+              </attList>
+           </elementSpec>
+           
+           <constraintSpec ident="jtei.sch-head-number" scheme="isoschematron" mode="delete"/>
+           
+           <elementSpec ident="hi" module="core" mode="change">
+              <attList>
+                 <attDef ident="rend" mode="change">
+                    <datatype minOccurs="1" maxOccurs="unbounded">
+                       <rng:ref name="text"/>
+                    </datatype>
+                    <valList mode="replace" type="closed">
+                       <valItem ident="underline">
+                          <desc>Einfach unterstrichener Text</desc>
+                       </valItem>
+                       <valItem ident="doubleunderline">
+                          <desc>Doppelt unterstrichener Text</desc>
+                       </valItem>
+                       <valItem ident="italic">
+                          <desc>Kursiver Text</desc>
+                       </valItem>
+                       <valItem ident="sup">
+                          <desc>Hochgestellter Text</desc>
+                       </valItem>
+                       <valItem ident="music">
+                          <desc>Musikalische Notation. Der Inhalt des hi-Elements sollte lediglich Zeichenreferenzen nach dem SMuFL-Standard enthalten.</desc>
+                       </valItem>
+                       <valItem ident="spaced">
+                          <desc>Gesperrter Text</desc>
+                       </valItem>
+                       <valItem ident="add">
+                          <desc>Hinzugefügter Text</desc>
+                       </valItem>
+                       <valItem ident="strikethrough">
+                          <desc>Durchstrichener Text</desc>
+                       </valItem>
+                       <valItem ident="typewriter">
+                          <desc>Code-Beispiele</desc>
+                       </valItem>
+                       <valItem ident="bold">
+                          <desc>Fetter Text</desc>
+                       </valItem>
+                       <valItem ident="smallcaps">
+                          <desc>Kapitälchen</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="ref" mode="change" module="core">
+              <constraintSpec ident="cgrid.ref-rend" scheme="isoschematron" mode="add">
+                 <constraint>
+                    <sch:report test="(@type='crossref' and @rend='ibid') or (@type='bibl' and @rend=('page', 'no'))">
+                       @rend='ibid' can only be used for bibliogrpahic references while 'page' or 'no' may only apply to crossreferences.
+                    </sch:report>
+                 </constraint>
+              </constraintSpec>
+              <attList>
+                 <attDef ident="rend" mode="change">
+                    <valList type="closed" mode="replace">
+                       <valItem ident="ibid">
+                          <desc>supresses the complete reference for the LaTeX PDF output and prints a simple "Ibid."</desc>
+                       </valItem>
+                       <valItem ident="no">
+                          <desc>use for crossreferences: displays the label number (e.g. footnote number)</desc>
+                       </valItem>
+                       <valItem ident="page">
+                          <desc>use for crossreferences: displays the page number (e.g. of the start of a section)</desc>
+                       </valItem>
+                       <valItem ident="full">
+                          <desc>force the complete reference to be printed for the LaTeX PDF output</desc>
+                       </valItem>
+                       <valItem ident="inline">
+                          <desc>forces the bibliographic reference to be printed inline, rather than as a footnote</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="bibl" mode="change" module="core">
+              <content>
+                 <zeroOrMore xmlns="http://relaxng.org/ns/structure/1.0">
+                    <choice>
+                       <text/>
+                       <ref name="model.gLike"/>
+                       <ref name="model.highlighted"/>
+                       <ref name="model.pPart.data"/>
+                       <ref name="model.pPart.edit"/>
+                       <ref name="model.segLike"/>
+                       <ref name="model.ptrLike"/>
+                       <ref name="model.biblPart"/>
+                       <ref name="model.global"/>
+                       <ref name="q"/>
+                    </choice>
+                 </zeroOrMore>
+              </content>
+              <constraintSpec ident="jtei.sch-bibl-id" scheme="isoschematron" mode="change">
+                 <constraint>
+                    <sch:rule context="tei:back/tei:div[@type eq 'bibliography']//tei:bibl[not(@type='short')]" role="warning">
+                       <sch:assert test="@xml:id">
+                          A bibliographic entry should have a unique value for @xml:id.
+                       </sch:assert>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <constraintSpec ident="jtei.sch-bibl-orphan" scheme="isoschematron" mode="change">
+                 <constraint>
+                    <sch:rule context="tei:back/tei:div[@type eq 'bibliography']//tei:bibl[not(@type='short')]" role="warning">
+                       <sch:let name="currId" value="@xml:id"/>
+                       <sch:assert test="some $i in //tei:ref[@type='bibl'] satisfies tokenize($i/@target, '\s+')[replace(., '#', '') = $currId]">
+                          This bibliographic entry is an orphan: no ref[@type="bibl"] references to it occur in the text.
+                       </sch:assert>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <constraintSpec ident="cgrid.bibl-title-tags" scheme="isoschematron">
+                 <constraint>
+                    <sch:rule context="tei:back/tei:div[@type eq 'bibliography']//tei:bibl[not(@type='short')]" role="warning">
+                       <!--<sch:let name="currId" value="@xml:id"/>-->
+                       <sch:report test="tei:hi[@rend]">
+                          Titles within bibliographic entries should not be encoded with their intended typographic appearance, but rather with tei:title and the appropriate level-attribute.
+                       </sch:report>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <constraintSpec ident="cgrid.shortTitle" scheme="isoschematron" mode="add">
+                 <constraint>
+                    <sch:rule context="tei:back/tei:div[@type eq 'bibliography']//tei:bibl[not(@type='short')]">
+                       <sch:let name="currId" value="@xml:id"/>
+                       <sch:report test="count(//tei:ref[@target = concat('#', $currId)]) gt 1 and not(tei:bibl[@type='short'])">
+                          This bibliographic entry is cited several times, thus needs a short title.
+                       </sch:report>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <constraintSpec ident="cgrid.ed-by" scheme="isoschematron">
+                 <constraint>
+                    <sch:rule context="tei:back/tei:div[@type eq 'bibliography']//tei:bibl" role="warning">
+                       <sch:report test="matches(., '(hrsg\.\s+von)|(edited\s+by)')">
+                          Please use "hg. von" (German) or "ed. by" (English) for reference to editors
+                       </sch:report>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <attList>
+                 <attDef ident="type" mode="replace">
+                    <valList type="closed">
+                       <valItem ident="short">
+                          <desc>Kurztitel</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="quote" mode="change">
+              <constraintSpec ident="jtei.sch-core" scheme="isoschematron" mode="change">
+                 <constraint>
+                    <sch:rule context="tei:name[parent::tei:author][ancestor::tei:fileDesc]">
+                       <sch:assert test="tei:surname">
+                          The authors surname must be encoded properly with the 'surname' element. 
+                       </sch:assert>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+           </elementSpec>
+           
+           <elementSpec ident="note" mode="change">
+              <attList>
+                 <attDef ident="type" mode="replace" usage="opt">
+                    <valList mode="add" type="closed">
+                       <valItem ident="bibl"/>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="div" mode="change" module="textstructure">
+              <classes mode="replace">
+                 <memberOf key="model.divLike"/>
+              </classes>
+              <constraintSpec ident="jtei.sch-div-head" scheme="isoschematron" mode="change">
+                 <constraint>
+                    <sch:rule context="tei:div[not(@type = ('editorialIntroduction', 'bibliography', 'abstract', 'acknowledgements', 'motto'))]">
+                       <sch:assert test="tei:head">
+                          A <sch:name/> must contain a head.
+                       </sch:assert>
+                    </sch:rule>
+                 </constraint>
+              </constraintSpec>
+              <attList>
+                 <attRef name="xmlid" class="att.global"/>
+                 <attRef name="rendition" class="att.global.rendition"/>
+                 <attDef ident="type" mode="add">
+                    <valList mode="change" type="closed">
+                       <valItem ident="motto"/>
+                       <valItem ident="abstract"/>
+                       <valItem ident="bibliography"/>
+                       <valItem ident="appendix"/>
+                    </valList>
+                 </attDef>
+                 <attDef ident="rend" mode="add">
+                    <valList type="closed">
+                       <valItem ident="suppress-alinea">
+                          <desc>Suppress the alinea sign "***" at the end of text divisions</desc>
+                       </valItem>
+                       <valItem ident="landscape">
+                          <desc>rotates the text divisions into landscape</desc>
+                       </valItem>
+                       <valItem ident="numbered-heading">
+                          <desc>adds a section number to the heading of the text division</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="row" module="figures" mode="change">
+              <attList>
+                 <attDef ident="role" mode="replace">
+                    <valList mode="replace" type="closed">
+                       <valItem ident="label"/>
+                       <valItem ident="midlabel"/>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="sp" mode="add">
+              <gloss versionDate="2015-10-21" xml:lang="en">speech</gloss>
+              <desc versionDate="2015-10-21" xml:lang="en">contains an individual speech in a performance text, or a passage presented as such in a prose or verse text.</desc>
+              <classes>
+                 <memberOf key="model.divPart"/>
+              </classes>
+              <content>
+                 <rng:group>
+                    <rng:zeroOrMore>
+                       <rng:ref name="model.global"/>
+                    </rng:zeroOrMore>
+                    <rng:optional>
+                       <rng:ref name="speaker"/>
+                       <rng:zeroOrMore>
+                          <rng:ref name="model.global"/>
+                       </rng:zeroOrMore>
+                    </rng:optional>
+                    <rng:oneOrMore>
+                       <rng:choice>
+                          <rng:ref name="lg"/>
+                          <rng:ref name="model.lLike"/>
+                          <rng:ref name="model.pLike"/>
+                          <rng:ref name="model.listLike"/>
+                          <rng:ref name="model.stageLike"/>
+                          <rng:ref name="model.qLike"/>
+                       </rng:choice>
+                       <rng:zeroOrMore>
+                          <rng:ref name="model.global"/>
+                       </rng:zeroOrMore>
+                    </rng:oneOrMore>
+                 </rng:group>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="stage" mode="add">
+              <gloss versionDate="2015-10-21" xml:lang="en">stage direction</gloss>
+              <desc versionDate="2015-10-21" xml:lang="en">contains any kind of stage direction within a dramatic text or fragment.</desc>
+              <classes>
+                 <memberOf key="model.stageLike"/>
+              </classes>
+              <content>
+                 <rng:ref name="macro.specialPara"/>
+              </content>
+              <attList>
+                 <attDef ident="rend" mode="add">
+                    <datatype minOccurs="1" maxOccurs="unbounded">
+                       <rng:ref name="text"/>
+                    </datatype>
+                    <valList mode="add" type="closed">
+                       <valItem ident="supplied">
+                          <desc>Vom Herausgeber hinzugefügt</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="speaker" mode="add">
+              <desc versionDate="2015-10-21" xml:lang="en">contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment.</desc>
+              <content>
+                 <rng:ref name="macro.phraseSeq"/>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="lg" mode="add">
+              <gloss versionDate="2015-10-21" xml:lang="en">line group</gloss>
+              <desc versionDate="2015-10-21" xml:lang="en">contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc.</desc>
+              <classes>
+                 <memberOf key="model.divPart"/>
+                 <memberOf key="macro.paraContent"/>
+              </classes>
+              <content>
+                 <rng:oneOrMore>
+                    <rng:ref name="l"/>
+                 </rng:oneOrMore>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="l" mode="add">
+              <gloss versionDate="2015-10-21" xml:lang="en">verse line</gloss>
+              <desc versionDate="2015-10-21" xml:lang="en">contains a single, possibly incomplete, line of verse.</desc>
+              <classes>
+                 <memberOf key="model.lLike"/>
+              </classes>
+              <content>
+                 <rng:zeroOrMore>
+                    <rng:choice>
+                       <rng:text/>
+                       <rng:ref name="model.gLike"/>
+                       <rng:ref name="model.phrase"/>
+                       <rng:ref name="model.inter"/>
+                       <rng:ref name="model.global"/>
+                    </rng:choice>
+                 </rng:zeroOrMore>
+              </content>
+           </elementSpec>
+           
+           <elementSpec ident="pb" mode="add">
+              <gloss versionDate="2015-10-21" xml:lang="en">page break</gloss>
+              <desc versionDate="2015-10-21" xml:lang="en">marks the start of a new page in the LaTeX PDF output.</desc>
+              <classes>
+                 <memberOf key="model.milestoneLike"/>
+              </classes>
+              <content>
+                 <rng:empty/>
+              </content>
+              <attList>
+                 <attDef ident="rend" mode="add">
+                    <valList mode="add" type="closed">
+                       <valItem ident="clear">
+                          <desc>Forces LaTeX to use \clearpage instead of \newpage</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <elementSpec ident="figure" module="figures" mode="change">
+              <attList>
+                 <attDef ident="rend" mode="change">
+                    <valList mode="replace" type="closed">
+                       <valItem ident="notenbeispiel">
+                          <desc>Markiert die Abbildung als Notenbeispiel</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+                 <attDef ident="place" mode="replace">
+                    <desc>Allows for positioning figures</desc>
+                    <valList type="closed" mode="replace">
+                       <valItem ident="bottom">
+                          <desc>indicates that the figure is allowed to go into a bottom area</desc>
+                       </valItem>
+                       <valItem ident="here">
+                          <desc>indicates that the figure is allowed to be placed inline</desc>
+                       </valItem>
+                       <valItem ident="page">
+                          <desc>indicates the the figure is allowed to go on a float page or column area</desc>
+                       </valItem>
+                       <valItem ident="top">
+                          <desc>indicates that the figure is allowed to go into a top area; this is the default value</desc>
+                       </valItem>
+                    </valList>
+                 </attDef>
+              </attList>
+           </elementSpec>
+           
+           <constraintSpec ident="cgrid.ellipsis" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]">
+                    <sch:report test="contains(., '...')">
+                       Ellipsis dots "…" should be encoded as one character (U+2026), not three single periods.
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           
+           <constraintSpec ident="cgrid.urls" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]">
+                    <sch:report test="matches(., '(http:)|(www)|(ftp:)')">
+                       References to websites etc should be encoded with ptr or ref
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           
+           <constraintSpec ident="cgrid.thin-space-before-digit" scheme="isoschematron">
+              <desc versionDate="2015-10-21" xml:lang="en">checks for various combinations of abbreviations and digit and issues a warning if there is no thin space between</desc>
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]" role="warning">
+                    <sch:report test="matches(., '((Nr\.)|([oO]p\.)|(Sp?\.)|(Bd\.)|(T\.)|(Anm\.)|([vV]ol\.)|(p\.)|(Bl\.)|(fol\.))[\s&#x00A0;&#x8239;]*[0-9IXVLC]')">
+                       A thin space (U+202F; decimal: 8239) should be used between an abbreviation and a digit
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           
+           <constraintSpec ident="cgrid.thin-space-after-digit" scheme="isoschematron">
+              <desc versionDate="2015-10-21" xml:lang="en">checks for various combinations of digit and following text (e.g. measure) and issues a warning if there is no thin space between</desc>
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|parent::tei:rendition)]" role="warning">
+                    <sch:report test="matches(., '\d\s*((ff?\.)|([cm]m)|(%)|(Jh)|(Jahrhundert))')">
+                       A thin space (U+8239) should be used between a digit and a measure
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           
+           <constraintSpec ident="cgrid.thin-space-within-abbr" scheme="isoschematron">
+              <desc versionDate="2015-10-21" xml:lang="en">checks for various abbreviations and issues a warning if there is no thin space between</desc>
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]" role="warning">
+                    <sch:report test="matches(., '[azediuos]\.\s*[gäeaouhöBTOJ]\.')">
+                       A thin space (U+8239) should be used within an abbreviation
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           
+           <constraintSpec ident="jtei.sch-ns" scheme="isoschematron">
+              <constraint>
+                 <sch:ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+                 <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+                 <sch:ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+                 <sch:ns prefix="xsl" uri="http://www.w3.org/1999/XSL/Transform"/>
+                 <sch:ns prefix="eg" uri="http://www.tei-c.org/ns/Examples"/>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-variables" scheme="isoschematron">
+              <constraint>
+                 <sch:pattern>
+                    <sch:let name="double.quotes" value="'[&#34;“”]'"/>
+                    <sch:let name="apos.typographic" value="'[‘’]'"/>
+                    <sch:let name="apos.straight" value="''''"/>
+                    <sch:let name="quotes" value="concat('[', $apos.straight, '&#34;]')"/>
+                 </sch:pattern>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-straightApos" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]">
+                    <sch:report test="matches(., $apos.straight)">
+                       "Straight apostrophe" characters are not permitted. Please use the
+                       Right Single Quotation Mark (U+2019 or ’) character instead. On the other hand, if the straight 
+                       apostrophe characters function as quotation marks, please replace them with appropriate mark-up 
+                       that will ensure the appropriate quotation marks will be generated consistently.
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-LRquotes" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)][matches(., $apos.typographic)]">
+                    <sch:report test="matches(., '\W[’]\D') or matches(., '[‘](\W|$)') or matches(., '\w[‘]\w')">
+                       Left and Right Single Quotation Marks should be used in the right place.
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-quotationMarks" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]">
+                    <sch:report test="matches(., $double.quotes) or matches(., '(^|\W)[‘][^‘’]+[’](\W|$)')">
+                       Quotation marks are not permitted in plain text. Please use appropriate mark-up that will ensure the appropriate quotation marks will be generated consistently.
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-doubleHyphens" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:ref)]">
+                    <sch:assert test="not(contains(., '--'))">
+                       Double hyphens should not be used for dashes. Please use 
+                       the EM Dash (U+2014 or —) instead.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-rangeHyphen" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:idno)][not(. = parent::*/@*)][not(parent::tei:ref and starts-with(., 'urn'))]">
+                    <sch:assert test="not(matches(., '\d-\d'))">
+                       Numeric ranges should not be indicated with a hyphen. Please use 
+                       the EN Dash (U+2013 or –) character instead.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-ieEg" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag)]">
+                    <sch:report test="matches(., '(i\.e\.|e\.g\.)[^,]', 'i')">
+                       You should put a comma after "i.e." and "e.g.". 
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-localLinkTarget" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="@*[not(ancestor::eg:egXML)][name() = ('corresp', 'target', 'from', 'to', 'ref', 'rendition', 'resp', 'source')][some $i in tokenize(., '\s+') satisfies starts-with($i, '#')]">
+                    <sch:assert test="every $i in tokenize(., '\s+')[starts-with(., '#')] satisfies id( substring-after($i, '#'))">
+                       There's no local target for this link. Please make sure you use an existing @xml:id value.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-quoteDelim" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="tei:title[@level eq 'a']|tei:mentioned|tei:soCalled|tei:quote|tei:q">
+                    <sch:assert test="not(matches(., concat('^', $double.quotes, '|', $double.quotes, '$')))">
+                       Quotation mark delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-crossref-id" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="tei:body//tei:div[not(@type='editorialIntroduction')]|tei:figure|tei:table" role="warning">
+                    <sch:assert test="@xml:id">
+                       You're strongly advised to add an @xml:id attribute to <sch:name/> to ease formal cross-referencing 
+                       with (ptr|ref)[@type='crossref']
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-formalCrossref" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:eg|ancestor::eg:egXML|ancestor::tei:code|ancestor::tei:tag|ancestor::tei:ref[not(@type='crossref')])]" role="warning">
+                    <sch:assert test="not(matches(., '(table|figure|example|section) \d+([.,]\d+)* ((above)|(below))', 'i'))">
+                       Please replace literal references to tables, figures, examples, and sections with a formal crosslink:
+                       (ptr|ref)[@type="crossref"]
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-crossrefTargetType" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="tei:ptr[@type='crossref']|tei:ref[@type='crossref']">
+                    <sch:assert test="id(substring-after(@target, '#'))/(self::tei:div|self::tei:figure|self::tei:table|self::tei:floatingText|self::tei:note|self::tei:ref[not(ancestor::tei:note)])">
+                       Cross-links (<sch:name/>[@type="crossref"]) should be targeted at div, figure, floatingText, notes or table elements.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-crossrefType" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="tei:ptr[not(@type='crossref')]|tei:ref[not(@type='crossref')]">
+                    <sch:report test="id(substring-after(@target, '#'))/(self::tei:div|self::tei:figure|self::tei:table)">
+                       Please type internal cross-references as 'crossref' (<sch:name/>[@type="crossref"]).
+                    </sch:report>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-centuries" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="text()[not(ancestor::tei:quote or ancestor::tei:title)]">
+                    <sch:assert test="not(matches(., '\d\d?((th)|(st)|(rd)|(nd))[- ]centur((y)|(ies))', 'i'))">
+                       Centuries such as "the nineteenth century" should be spelled out, not written with digits.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+           <constraintSpec ident="jtei.sch-teiVersion" scheme="isoschematron">
+              <constraint>
+                 <sch:rule context="@target[contains(., 'http://www.tei-c.org/release/doc/tei-p5-doc')]">
+                    <sch:assert test="false()">
+                       Please refer to the exact version of the TEI Guidelines, and link to the version that can be found in the Vault section. For an overview of all archived versions, see http://www.tei-c.org/Vault/P5/.
+                       
+                       If you're referring to the English version, the correct URL will likely take the form of http://www.tei-c.org/Vault/P5/{$version-number}/doc/tei-p5-doc/en/html/.
+                    </sch:assert>
+                 </sch:rule>
+              </constraint>
+           </constraintSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

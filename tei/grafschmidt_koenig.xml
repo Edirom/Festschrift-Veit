@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Würdige Werke für festliche Anlässe, <q>compostiert von Max Reger, genannt Grobian</q></title>
+                <title type="short">Würdige Werke für festliche Anlässe</title>
+                <author>
+                    <name><forename>Christopher</forename> <surname>Grafschmidt</surname></name>
+                    <affiliation><!--geboren 1964 in Offenburg/Baden, Studium der -->studierte Musikwissenschaft, englische Sprachwissenschaft und Philosophie an der Ruprecht-Karls-Universität in Heidelberg, Promotion 1995 mit einer Dissertation über die <hi rend="italic">Variable Metrik</hi> Boris Blachers. Bis&#x00A0;2002 außermusikalisch beim Kresse &amp; Discher Medienverlag, Offenburg, u.&#8239;a. zuständig für Imprimatur. Ab&#x00A0;2004 wissenschaftlicher Mitarbeiter am DFG-Projekt <hi rend="italic">Reger-Werk-Verzeichnis</hi> im Max-Reger-Institut, Karlsruhe; seit Anfang&#x00A0;2008 Mitarbeiter an der <hi rend="italic">Reger-Werkausgabe</hi>. Seit&#x00A0;1989 Instrumentallehrer (Gitarre) und Dozent für Theorie und Musikgeschichte auf Lehrgängen des Bundes Deutscher Zupfmusiker (BDZ), Landesverband Baden-Württemberg, seit 2009 Dirigent der <hi rend="italic">Mandolinata Karlsruhe</hi>. Eigene Kompositionen erscheinen seit 1996 u.&#8239;a. beim Joachim-Trekel-Verlag, Hamburg.</affiliation>
+                    <email/>
+                </author>
+                <author>
+                    <name><forename>Stefan</forename> <surname>König</surname></name>
+                    <affiliation><!--geboren 1977 in München, Studium der-->studierte Musikwissenschaft und Neuere Deutsche Literatur und Medien an der Philipps-Universität Marburg und der Università degli Studi di Padova. Promotion 2006 in Marburg mit der Dissertation <hi rend="italic">Die italienische Sinfonie 1900–1945</hi><!-- (erschienen im Verlag Katzbichler, Wiesenfelden)-->. Stipendiat am Deutschen Historischen Institut in Rom (2002/3) und am Deutschen Studienzentrum in Venedig (2004). Von 1999 bis 2007 Mitarbeiter im Musikverlag/Antiquariat Katzbichler, <!--in München bzw. Wiesenfelden--> ab&#x00A0;2006 freier Mitarbeiter bei der <hi rend="italic">Süddeutschen Zeitung</hi> (Lokalredaktion Ebersberg). Seit Januar&#x00A0;2008 wissenschaftlicher Mitarbeiter im <hi rend="italic">Max-Reger-Institut</hi>, Karlsruhe, zunächst im DFG-Projekt <hi rend="italic">Reger-Briefe-Verzeichnis</hi> (RBV), ab Mai 2009 im Akademieprojekt <hi rend="italic">Reger-Werkausgabe</hi> (RWA). Von April 2008 bis Juli 2009 ferner Geschäftsführer der Fördergemeinschaft Kunst e.&#8239;V. in Karlsruhe (zusammen mit Agnes Michalak). Lehraufträge für Musikedition an der Philipps-Universität Marburg. </affiliation>
+                    <email/>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="grafschmidt_koenig-pers001">
+                        <p>Friedrich, Fürst zu Waldeck und Pyrmont</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers002">
+                        <p>Friedrich II., Großherzog von Baden</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers003">
+                        <p>Baron</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers004">
+                        <p>Baumann, Hermann</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers005">
+                        <p>Bach, Johann Sebastian</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers006">
+                        <p>Berthel</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers007">
+                        <p>Brahms, Johannes</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers008">
+                        <p>Braun, Gottlieb</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers009">
+                        <p>Braun</p>
+                    </person>-->
+                    <!--<person xml:id="grafschmidt_koenig-pers010">
+                        <p>Brauns</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers011">
+                        <p>Bülow, Hans von</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers012">
+                        <p>Czerny, Vincenz</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers013">
+                        <p>Ernst Ludwig, Großherzog von Hessen und bei Rhein</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers014">
+                        <p>Friedrich II., Herzog von Anhalt</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers015">
+                        <p>Elsa</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers016">
+                        <p>Elster, Alexander</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers017">
+                        <p>Fischer, Walter</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers018">
+                        <p>Fischer, Theodor</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers019">
+                        <p>Gemünd, Karl</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers020">
+                        <p>Gemünd, Willy</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers021">
+                        <p>Gille, Karl</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers022">
+                        <p>Carl Eduard, Herzog von Sachsen-Coburg und Gotha</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers023">
+                        <p>Grobian</p>
+                    </person>-->
+                    <!--<person xml:id="grafschmidt_koenig-pers024">
+                        <p>Großherzog, hessischen</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers025">
+                        <p>Hebbel, Friedrich</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work013"><hi rend="italic">Requiem</hi></p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers026">
+                        <p>Hinrichsen, Henri</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers027">
+                        <p>Holtschneider, Carl</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers028">
+                        <p>Hüttner, Georg</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers029">
+                        <p>Josef</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers030">
+                        <p>Kernich, Heinrich</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers031">
+                        <p>Koch, Friedrich Ernst</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers032">
+                        <p>Lassen, Eduard</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers033">
+                        <p>Liebmann, Otto</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers034">
+                        <p>Lindner, Adalbert</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers035">
+                        <p>Lindner</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers036">
+                        <p>Leopold IV., Fürst zur Lippe-Detmold</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers037">
+                        <p>Marteau, Henri</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers038">
+                        <p>Max</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers039">
+                        <p>Methfessel, Albert</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers040">
+                        <p>Meyerbeer, Giacomo</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers041">
+                        <p>Neunecker, Marie Luise</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers042">
+                        <p>Philippi, Maria</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers043">
+                        <p>Popp, Susanne</p>
+                    </person>
+                    <!--<person xml:id="grafschmidt_koenig-pers044">
+                        <p>Reger</p>
+                    </person>-->
+                    <person xml:id="grafschmidt_koenig-pers045">
+                        <p>Reger, Max</p>
+                        <!--<p>Grobian</p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work001"><hi rend="italic">Der 100. Psalm</hi> für gemischten Chor, Orchester und Orgel op.&#8239;106</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work002"><hi rend="italic">Zehn Gesänge</hi> für Männerchor op.&#8239;83</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work003"><hi rend="italic">Befiehl dem Herrn deine Wege (Trauungslied)</hi> für Sopran, Alt und Orgel WoO&#x00A0;VII/34</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work004"><hi rend="italic">Hoch lebe dies Haus</hi> für Männerchor WoO&#x00A0;VIII/7</p>
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work005"><hi rend="italic">Hoch soll er leben</hi></p>-->
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work006"><hi rend="italic">Hymne</hi></p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work007"><hi rend="italic">Hymne an den Gesang</hi> für Männerchor mit großem Orchester op.&#8239;21</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work008"><hi rend="italic">Klaviertrio</hi> e-Moll op.&#8239;102</p>
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work009"><hi rend="italic">Leipziger Tageblatt</hi></p>-->
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work010"><hi rend="italic">Liebestraum</hi></p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work011"><hi rend="italic">Eine Lustspielouvertüre</hi> für Orchester op.&#8239;120</p>
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work012"><hi rend="italic">Musik und Fortschritt</hi></p>-->
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work014"><hi rend="italic">Scherzino</hi></p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work015"><hi rend="italic">Scherzino</hi> für Horn und Streichorchester WoO&#x00A0;I/6</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work017"><hi rend="italic">Sieben Männerchöre</hi> op.&#8239;38</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work018"><hi rend="italic">Sylvester-Canonen <q>op.&#8239;1913</q></hi> WoO&#x00A0;VIII/13</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work019"><hi rend="italic">Eine Vaterländische Ouvertüre</hi> für Orchester op.&#8239;140</p>
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work020"><hi rend="italic">Weihegesang</hi></p>-->
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work021"><hi rend="italic">Weihegesangs</hi></p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work022"><hi rend="italic">Weihegesang</hi> für Altsolo, gemischten Chor und Bläser WoO&#x00A0;V/6</p>
+                        <!--<p n="work" xml:id="grafschmidt_koenig-work023"><hi rend="italic">Wohl Denen</hi></p>-->
+                        <p n="work" xml:id="grafschmidt_koenig-work024"><hi rend="italic">Zwei zweistimmige Kanons F-Dur über <q>Du bist verrückt, mein Kind</q></hi> WoO&#x00A0;VIII/4</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work025"><hi rend="italic">Geistliches Lied <q>Wohl denen</q></hi> für mittlere Singstimme und Orgel bzw. Harmonium WoO&#x00A0;VII/36</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers046">
+                        <p>Reger, Josef</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers047">
+                        <p>Reger, Elsa</p>
+                        <p>Bercken, Elsa von</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers048">
+                        <p>Saint-Saëns, Camille</p>
+                        <p n="work" xml:id="grafschmidt_koenig-work016"><hi rend="italic">Septett</hi> für Trompete, zwei Violinen, Viola, Violoncello, Kontrabass und Klavier op. 65</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers049">
+                        <p>Roll, Theodor</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers050">
+                        <p>Ruben, Martha</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers051">
+                        <p>Georg II., Herzog von Sachsen-Meiningen</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers052">
+                        <p>Schneider, Karl-Heinz</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers053">
+                        <p>Schumann, Robert</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers054">
+                        <p>Seckendorff, Bertha von</p>
+                        <!--<p>Berthel</p>-->
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers055">
+                        <p>Sensburg, Oskar</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers056">
+                        <p>Rikoff, Sophie</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers062">
+                        <p>Rikoff, Theodor</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers057">
+                        <p>Stade, Wilhelm</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers058">
+                        <p>Stein, Fritz</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers060">
+                        <p>Stein, Horst</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers059">
+                        <p>Stein, Max Martin</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers061">
+                        <p>Suter, Hermann</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers063">
+                        <p>Töpfer, Gottlob</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers064">
+                        <p>Veit, Joachim</p>
+                    </person>
+                    <person xml:id="grafschmidt_koenig-pers065">
+                        <p>Voorberg, Marinus</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="grafschmidt-latex-width07">width=.7\textwidth</rendition>
+                <rendition xml:id="grafschmidt-latex-width06">width=.6\textwidth</rendition>
+                <!--<rendition xml:id="grafschmidt-latex-width05">width=.5\textwidth</rendition>-->
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2015-11-24T17:23:00"
+                who="https://github.com/peterstadler">Weitere Korrekturen der Autoren und abstract eingearbeitet.</change>
+            <change when="2015-11-20T15:24:00"
+                who="https://github.com/peterstadler">Korrekturen der Autoren eingearbeitet.</change>
+            <change when="2015-11-16T13:04:00"
+                who="https://github.com/peterstadler">Erste Korrekturen (u.&#8239;a. von Irmlind) eingearbeitet.</change>
+            <change when="2015-11-09T12:02:00"
+                who="https://github.com/peterstadler">Kleinere Anpassungen.</change>
+            <change when="2015-11-06"
+                who="https://github.com/nikobeer">Names, footnotes, works, corrections</change>
+            <change when="2015-11-05"
+                who="https://github.com/nikobeer">Names</change>
+            <change when="2015-11-04"
+                who="https://github.com/nikobeer">Text structure footnotes and names</change>
+            <change when="2015-11-03T22:57:33.573+01:00"
+                who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="grafschmidt-abstract">
+                <p>Festakte – große wie kleine, offizielle wie private – bieten (zumeist) ein hohes Maß an Aufmerksamkeit einer erlesenen Zuhörerschaft. Auch Max Reger nahm solch erhabene Gelegenheiten gerne wahr, und so schmücken sein Werkverzeichnis ebenso unvergleichliche wie dem Anschein nach unvereinbare Kompositionen, als da wären etwa ein groß besetzter <hi rend="italic">Weihegesang</hi> zur Eröffnung des neuen Hauptgebäudes der Universität Jena, ein <hi rend="italic">Scherzino</hi> für Horn und Streichorchester zum Stiftungsfest der Weidener <q>Musiklust</q>, ein <hi rend="italic">Liebestraum</hi> zur Hochzeit eines alten Freundes sowie die hochformatigen <hi rend="italic">Sylvester-Canonen <q>op.&#8239;1913</q></hi> – disparat, gewiss, aber alle, selbstverständlich, dem jeweiligen Anlass angemessen.</p>
+            </div>
+        </front>
+        <body>
+<!--            <p>Christopher Grafschmidt/Stefan König (Max-Reger-Institut, Karlsruhe)</p>
+            <p>Würdige Werke für festliche Anlässe, <q>compostiert von Max Reger, genannt Grobian</q></p>-->
+            <div xml:id="grafschmidt_koenig-div1">
+            <head>I. Einleitung</head>
+                <p>Damit es ihm auf Dauer nicht so gehen sollte, wie er einmal gegenüber dem befreundeten Organisten <name ref="#grafschmidt_koenig-pers017">Walter Fischer</name> geklagt hatte – <quote source="#grafschmidt_koenig-ftn1">Künstler und Schwein werden erst <hi rend="underline">nach</hi> dem Tode geschätzt!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn1" n="1">Brief vom 6.&#8239;Oktober 1903, in: <ref type="bibl" target="#schreiber1956">S.&#8239;131</ref>.</note> –, entwickelte sich <name ref="#grafschmidt_koenig-pers045">Max Reger</name> zu einem ebenso bestaunten wie gefürchteten Promoter in eigener Sache. Die Krönung seines öffentlichen Wirkens und Werkens waren sicherlich die mehrtägigen Reger-Feste, deren erstes im Mai 1910 in Dortmund stattfand. Der Geiger <name ref="#grafschmidt_koenig-pers037">Henri Marteau</name> hatte dieses angeregt, die beiden Musikdirektoren <name ref="#grafschmidt_koenig-pers027">Carl Holtschneider</name> und <name ref="#grafschmidt_koenig-pers028">Georg Hüttner</name> wurden entflammt – und der Komponist plante kräftig mit: Am Ende hatten sie ein Festkomitee beisammen, das 132&#x00A0;Mitglieder umfasste, darunter zahlreiche <q>Leute bestklingendsten Namens in Deutschland</q>.<note xml:id="grafschmidt_koenig-ftn2" n="2">Brief <name ref="#grafschmidt_koenig-pers045">Regers</name> vom 27.&#8239;Juni 1909 an Bote &amp; Bock, in: <ref type="bibl" target="#mueller2011">S.&#8239;98</ref>.</note> Weitere Feste sollten folgen, nach <name ref="#grafschmidt_koenig-pers045">Regers</name> Tod setzte seine Witwe die Reihe fort. Aber auch bei fremdveranstalteten Festlichkeiten gehörte <name ref="#grafschmidt_koenig-pers045">Reger</name> irgendwann dann doch zum Kreis derjenigen, die man guten Gewissens (und mit guter Aussicht auf ein Werk, das die Kritik beschäftigen würde) mit einer Festkomposition beauftragen konnte. Denn <quote source="#grafschmidt_koenig-ftn3">eines Tages zeigte es sich, daß der Mann […] berühmt geworden war. Man riß sich um seine Werke, die man vorher nicht geschenkt genommen hätte, und fand, daß er ein großer Künstler sei.</quote><ref xml:id="grafschmidt_koenig-ftn3" type="bibl" target="#hehemann1910">S.&#8239;27</ref>
+            </p>
+                <p>Der die öffentliche Anerkennung suchende <name ref="#grafschmidt_koenig-pers045">Reger</name> genoss zweifelsohne die glanzvollen Festlichkeiten zu seinen Ehren – nicht zuletzt, weil sie auch seinen Kompositionen Aufführungsmöglichkeiten boten. Doch erfüllte ihn zugleich eine starke Sehnsucht nach Privatheit, umgeben von ihm Wohlwollenden, die er, aller gesellschaftlichen Frackzwänge ledig, mit den ihm eigenen kleinen Späßen ergötzen konnte. Und so schrieb er am 29.&#8239;Mai 1908, gerade vom 1.&#8239;Darmstädter Kammermusikfest heimgekehrt, bei dem er vom <name ref="#grafschmidt_koenig-pers013">hessischen Großherzog</name> die Silberne Medaille für Kunst und Wissenschaft erhalten hatte, an seine zur Kur weilende Frau <name ref="#grafschmidt_koenig-pers047">Elsa</name>: <quote source="#grafschmidt_koenig-ftn4">Ich bin froh, daß ich wieder zu Hause bin – u. meine Ruhe habe; denn diese ewigen Festivitäten sind doch schließlich herzlich fad. Es ist langweilig, wenn man immer und immer so angefeiert wird! […] Ich bin so froh, jetzt mal ohne Festlichkeiten zu Hause sein zu können; aber schön war’s doch in Darmstadt! Nur ist man zu <hi rend="underline">viel</hi> eingeladen! Jeder Mensch glaubt mit unsereinem ein Glas Wein trinken zu <hi rend="underline">müssen</hi>! Ich hab’ mich aber sehr zurückgehalten!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn4" n="4">Brief vom 29.&#8239;Mai 1908 an Elsa Reger, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;1956.</note> Dieser Zwiespalt hatte ihm schon im Jahr zuvor während einer Konzertreise in den Niederlanden zu schaffen gemacht: <quote source="#grafschmidt_koenig-ftn5">Gestern abend war Diner beim <name>Baron</name>, der mit <hi rend="underline"><name ref="#grafschmidt_koenig-pers007">Brahms</name></hi> intim befreundet war […] Ich sehne mich nach Ruhe; denn das Leben, das ich führe, ist nicht zum Aushalten! Ein Diner nach dem andern; man wird krank!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn5" n="5">Brief vom 15.&#8239;Februar 1907 an <name ref="#grafschmidt_koenig-pers047">Elsa Reger</name>, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;1910.</note>
+            </p>
+                <p>Zwei Seelen wohnten, ach! also auch in <name ref="#grafschmidt_koenig-pers045">Regers</name> Brust.
+            </p>
+                <figure xml:id="grafschmidt_koenig-fig01" rendition="#grafschmidt-latex-width07">
+                    <graphic url="figures/grafschmidt_koenig-fig01.jpg" width="4362px" height="3336px"/>
+                    <head type="legend">Festgesellschaft anlässlich der Taufe von <name ref="#grafschmidt_koenig-pers057">Fritz Steins</name> Sohn <name ref="#grafschmidt_koenig-pers059">Max Martin</name>, <lb/>Jena, 25.&#8239;Dezember 1911, Original: Nachlass <name ref="#grafschmidt_koenig-pers059">Max Martin Stein</name>, Düsseldorf</head>
+                </figure>
+                <!--<p>[Abbildung 1: Festgesellschaft anlässlich der Taufe von <name ref="#grafschmidt_koenig-pers057">Fritz Steins</name> Sohn <name ref="#grafschmidt_koenig-pers059">Max Martin</name>, Jena, 25. Dezember 1911, %Original Nachlass <name ref="#grafschmidt_koenig-pers059">Max Martin Stein</name>, Düsseldorf.]  </p>-->
+            </div>
+            
+            <div xml:id="grafschmidt_koenig-div2">
+                <head>II. <name ref="#grafschmidt_koenig-pers045">Reger</name> im Glanz der Öffentlichkeit</head>
+                <p><q>Hofrat, Professor Dr.&#8239;phil. et med. | <name ref="#grafschmidt_koenig-pers045">Max Reger</name> | Herzogl. Sachsen-Meiningischer Hofkapellmeister</q> konnten die geneigten Gesprächspartner lesen, bekamen sie vom Komponisten seine um&#x00A0;1912 in Umlauf gebrachte Visitenkarte in die Hand gedrückt. Dabei hatte sich <name ref="#grafschmidt_koenig-pers045">Reger</name> auf dieser bereits auf das Wesentliche beschränkt, denn alle seine Auszeichnungen hätten nicht Platz gehabt: Neben seinen beiden Funktionstiteln – Kompositionsprofessor (seit&#x00A0;1907 in Leipzig) und Hofkapellmeister (seit&#x00A0;1911 in Meiningen, ab 1913&#x00A0;Generalmusikdirektor) – sowie den beiden Ehrendoktoraten, verliehen im Juli&#x00A0;1908 von der Philosophischen Fakultät der Universität in Jena sowie im Oktober&#x00A0;1910 von der Medizinischen Fakultät der Universität Berlin, war der Komponist stolzes Ehrenmitglied der niederländischen Maatschappij tot Bevordering der Toonkunst (Juni&#x00A0;1907) und der Königlich Schwedischen Akademie der Musik (Ende März&#x00A0;1908). Ferner besaß er auch den Hofratstitel (erhalten im März&#x00A0;1911 vom <name ref="#grafschmidt_koenig-pers022">Herzog von Sachsen-Coburg und Gotha</name>)<note xml:id="grafschmidt_koenig-ftn6" n="6">Auf eine Aufnahme in die Berliner Akademie wartete <name ref="#grafschmidt_koenig-pers045">Reger</name> hingegen vergeblich: Eine solche war vom Komponisten <name ref="#grafschmidt_koenig-pers031">Friedrich Ernst Koch</name> ab&#x00A0;1911 mehrfach zur Diskussion gestellt worden, blieb aber bis zuletzt nicht mehrheitsfähig (vgl. <ref type="bibl" target="#popp2015">S.&#8239;303</ref>).</note> und hatte bis Januar&#x00A0;1912 bereits <q>5&#x00A0;Orden (<hi rend="doubleunderline">2</hi>&#x00A0;um den Hals, <hi rend="underline">3</hi> auf der linken Brust)</q> angesammelt.<note xml:id="grafschmidt_koenig-ftn7" n="7">Postkarte vom 21.&#8239;Januar 1912 an <name ref="#grafschmidt_koenig-pers049">Theodor Roll</name>, Privatbesitz (Kopie im Max-Reger-Institut, Karlsruhe). Belegt sind im Mai&#x00A0;1908 die Silberne Medaille für Kunst und Wissenschaft, verliehen vom <name ref="#grafschmidt_koenig-pers013">Großherzog Ernst Ludwig von Hessen und bei Rhein</name> in Darmstadt, der im Mai&#x00A0;1911 die <q>Goldene</q> folgte; der Orden 1. Klasse für Kunst und Wissenschaft, verliehen durch den <name ref="#grafschmidt_koenig-pers036">Fürsten zur Lippe-Detmold</name> (März&#x00A0;1911) sowie der Orden 1.&#8239;Klasse, verliehen durch den <name ref="#grafschmidt_koenig-pers014">Herzog von Anhalt</name> in Dessau (November 1911) und die Große goldene Medaille vom <name ref="#grafschmidt_koenig-pers001">Fürsten von Waldeck-Pyrmont</name> in Bad Arolsen (Januar&#x00A0;1912). – Im Juni&#x00A0;1913 kam das <q>Ritterkreuz vom Bernhard Orden</q> hinzu, das <name ref="#grafschmidt_koenig-pers045">Reger</name> vom <name ref="#grafschmidt_koenig-pers002">Großherzog von Baden</name> verliehen wurde (vgl. Brief <name ref="#grafschmidt_koenig-pers047">Elsa Regers</name> vom 25.&#8239;Juni 1913 an Hans von Ohlendorff, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;1239).</note> Solche Orden – für sich und auch andere – insbesondere in kleineren Fürstenstaaten als blinkende Gegenleistung für Konzertauftritte einzuhandeln, getraute sich <name ref="#grafschmidt_koenig-pers045">Reger</name> unverblümt und legte dabei eine durchaus sportsmäßige Hartnäckigkeit an den Tag. Hatte er sein Ziel erreicht, ließ er die ehrenvollen Informationen eilends in die Zeitungen setzen, denn die Vorstellung, dass seine künstlerischen Feinde ausgerechnet ihn, das <q><hi rend="italic">enfant terrible </hi>der deutschen Musik</q>, unter die Honoratioren rechnen mussten, bereitete ihm eine diebische Freude. Um 1914 jedoch hatte die Jagd nach Auszeichnungen ihre Relevanz verloren und <name ref="#grafschmidt_koenig-pers045">Reger</name> trug nur noch den Generalmusikdirektor-Titel als Andenken an seinen verstorbenen Arbeitgeber, <name ref="#grafschmidt_koenig-pers051">Herzog Georg II. von Sachsen-Meiningen</name>. </p>
+                <figure xml:id="grafschmidt_koenig-fig02" rendition="#grafschmidt-latex-width06">
+                    <graphic url="figures/grafschmidt_koenig-fig02.jpg" width="2562px" height="2233px"/>
+                    <head type="legend">Visitenkarten <name ref="#grafschmidt_koenig-pers045">Regers</name>, längere und kürzere Fassung, <lb/>Max-Reger-Institut, Karlsruhe, Signaturen: D.&#8239;Ms.&#8239;21c und&#x00A0;e</head>
+                </figure>
+                
+                <!--<p>[Abbildungen 2a und b: Visitenkarten <name ref="#grafschmidt_koenig-pers045">Regers</name>, längere und kürzere Fassung, Max-Reger-Institut, Karlsruhe, Signaturen: D.&#8239;Ms.&#8239;21c und e.]</p>-->
+                <p>Von allen Titeln, die er für sich gewinnen konnte, erfüllte ihn der Ehrendoktor der Philosophischen Fakultät der Jenaer Universität mit besonderem Stolz; gegenüber <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name>, dem dortigen Universitätsdirektor und Freund, den er als <q>treibende Kraft</q> hinter der Verleihung erkannte, nannte er den <q>Dr <soCalled>humoris</soCalled></q> die <quote source="#grafschmidt_koenig-ftn8"><hi rend="doubleunderline">größte</hi> Auszeichnung meines <hi rend="underline">ganzen</hi> Lebens</quote>.<note type="bibl" xml:id="grafschmidt_koenig-ftn8" n="8">Brief vom 2.&#8239;August 1908 an Fritz Stein, in: <ref type="bibl" target="#popp1982">S.&#8239;38</ref>. – Gleichlautend äußerte er sich auch gegenüber dem Verleger <name ref="#grafschmidt_koenig-pers026">Henri Hinrichsen</name>: <q>Der Dr.&#8239;<hi rend="underline">honoris causa</hi> ist der einzige Titel, auf den ich <soCalled>stolz</soCalled> bin; damit erachte ich meine <soCalled>weltliche</soCalled> Laufbahn für <hi rend="underline">abgeschlossen</hi>!</q> (Brief vom 17.&#8239;September 1908, in: <ref type="bibl" target="#popp1995">S.&#8239;249</ref>).</note> Das Prestige eben dieses Doktorats der altehrwürdigen Fakultät war enorm: <name ref="#grafschmidt_koenig-pers053">Robert Schumann</name> hatte es 1840 erhalten, <name ref="#grafschmidt_koenig-pers011">Hans von Bülow</name> 1864.<note xml:id="grafschmidt_koenig-ftn9" n="9">Insgesamt war <name ref="#grafschmidt_koenig-pers045">Reger</name> freilich der neunte Musiker, dem diese Ehre zuteil wurde – denn neben den o.&#8239;a. waren auch <name ref="#grafschmidt_koenig-pers040">Giacomo Meyerbeer</name> (1850), <name ref="#grafschmidt_koenig-pers057">Wilhelm Stade</name> (1860), <name ref="#grafschmidt_koenig-pers039">Albert Methfessel</name> (1864), <name ref="#grafschmidt_koenig-pers063">Gottlob Töpfer</name> (1867), <name ref="#grafschmidt_koenig-pers021">Karl Gille</name> (1870) und <name ref="#grafschmidt_koenig-pers032">Eduard Lassen</name> (1883) bereits bedacht worden; vgl. <ref type="bibl" target="#stier1955"></ref>.</note> 
+                    Musikgeschichtlich folgenreich war <name ref="#grafschmidt_koenig-pers045">Regers</name> Ehrung zudem, hatte er als Dank für den <q>Dr.&#8239;h.c.</q> doch den <title ref="#grafschmidt_koenig-work001">100.&#8239;Psalm</title> op.&#8239;106 geschrieben, der zugleich für die Feierlichkeiten zum 350-jährigen Bestehen der Universität bestimmt war.
+                    So erklang am 31.&#8239;Juli 1908 um 11&#x00A0;Uhr beim Festakt in der Stadtkirche unter der Leitung von <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name>, der dem Akademischen Chor Jena, der Sängerschaft zu St.&#8239;Pauli und der Kapelle des 71.&#8239;Infanterieregiments Erfurt verstärkt durch Mitglieder der Weimarer Hofkapelle vorstand, der erste, aus dem Manuskript aufgeführte Teil des Psalms (<q>Jauchzet dem Herrn alle Welt</q>); eine komplette Psalmvertonung hätte den zeitlichen und logistischen Rahmen gesprengt (sie wurde von <name ref="#grafschmidt_koenig-pers045">Reger</name> auch erst im folgenden Jahr zu Ende geführt und konnte im Februar&#x00A0;1910 in Chemnitz uraufgeführt werden). Mittags durfte <name ref="#grafschmidt_koenig-pers045">Reger</name> dann seine Urkunde in Empfang nehmen. Dass die Festivitäten damit aber mitnichten beendet waren und <name ref="#grafschmidt_koenig-pers045">Reger</name> neben dem <title ref="#grafschmidt_koenig-work001">100.&#8239;Psalm</title> noch eine zweite Novität mit nach Jena brachte, ist weniger bekannt. Denn am selben Tag wurde das neue Universitätshauptgebäude, errichtet vom Architekten <name ref="#grafschmidt_koenig-pers018">Theodor Fischer</name>, der zusammen mit <name ref="#grafschmidt_koenig-pers045">Reger</name> ehrenpromoviert wurde, feierlich eröffnet, und zwar zu den Klängen des <title ref="#grafschmidt_koenig-work022">Weihegesangs</title> WoO&#x00A0;V/6 für Altsolo, gemischten Chor und Bläser.</p>
+                <p>Diese zweite Jenaer Auftragskomposition musste – wie bei <name ref="#grafschmidt_koenig-pers045">Reger</name> üblich – unter Hochdruck bewältigt werden. Am 15.&#8239;Juni 1908 klagte das <q>arm geplagt Menschenkind</q> seiner Frau, die in der Wehrawaldklinik im Südschwarzwald kurte: <quote source="#grafschmidt_koenig-ftn11">Aber ich sitze sehr, sehr tief in Arbeit! […] Bitte, sei mir um Himmels willen <hi rend="doubleunderline">nicht</hi> böse; aber ich <hi rend="underline">kann</hi> <hi rend="doubleunderline">nicht</hi> kommen! Außerdem <hi rend="underline">muß</hi> ich für Jena noch einen 2. Chor komponieren; wenn ich denselben <hi rend="underline">nicht</hi> komponiere, so entgeht mir der <soCalled>Dr</soCalled> u. ich habe an dem 2.&#8239;Chor noch bis 2.&#8239;July zu thun!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn11" n="11">Brief vom 15.&#8239;Juni 1908 an Elsa Reger, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;1958.</note> Kopfzerbrechen bereitete <name ref="#grafschmidt_koenig-pers045">Reger</name> der Umfang der Textvorlage, die aus dem Jenaer Professorenkollegium stammte. Geheimrat <name ref="#grafschmidt_koenig-pers033">Otto Liebmann</name> (1840–1912), Philosoph und Kant-Spezialist sowie von 1882 bis 1911 ordentlicher Professor an der Jenaer Universität, hatte das <q>Hochgieblig Haus, umragt von Baumeskronen</q> in immerhin fünf Strophen besungen und <name ref="#grafschmidt_koenig-pers045">Reger</name> befürchtete Stoff für <q><hi rend="doubleunderline">mindestens</hi> 30&#x00A0;Minuten</q>.<note xml:id="grafschmidt_koenig-ftn12" n="12">Brief vom 6.&#8239;Mai 1908 an <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name>, in: <ref type="bibl" target="#popp1982">S.&#8239;24</ref>.</note> Da <name ref="#grafschmidt_koenig-pers045">Regers</name> an <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name> übermittelter Bitte nach einem kürzeren Text offenbar nicht entsprochen wurde und weiteres Nachhaken aus diplomatischen Gründen ausgeschlossen war, stellte er sich der Herausforderung, das Gedicht in <q><hi rend="underline">10</hi> Minuten</q><note xml:id="grafschmidt_koenig-ftn13" n="13">Brief vom 9.&#8239;Mai 1908 an <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name>, in: <ref target="#popp1982" type="bibl" rend="ibid">S.&#8239;26</ref>.</note> musikalisch zu bezwingen. Beschränkungen waren auch im Orchesterapparat unausweichlich: <name ref="#grafschmidt_koenig-pers045">Reger</name> schreibt lediglich je zwei Flöten, Oboen und Klarinetten, vier Hörner und zwei Pauken vor – mehr Personal war neben der Solistin und dem Chor auf der Empore der Universitätsaula nicht unterzubringen. Bereits am 24.&#8239;Juni konnte <name ref="#grafschmidt_koenig-pers045">Reger</name> – in Übererfüllung des ursprünglichen Zeitplans – erleichtert verkünden: <q>der Geheimraths-Chor ist fertig! Gott sei Dank!</q><note xml:id="grafschmidt_koenig-ftn14" n="14">Postkarte an <name ref="#grafschmidt_koenig-pers050">Martha Ruben</name>, in: <ref type="bibl" target="#schreiber1956">S.&#8239;188</ref></note> Geschwind wurden die Aufführungsmaterialien hergestellt,<note xml:id="grafschmidt_koenig-ftn15" n="15">Zu den Quellen dieses und aller anderen Werke siehe <ref type="bibl" target="#popp2010"/>.</note> so dass <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name> <q>17 Tage Zeit zum Proben</q> gewährt werden konnten – was laut <name ref="#grafschmidt_koenig-pers045">Reger</name> mehr als ausreichend sein musste: <q>das Orchester ist sehr einfach gehalten, <soCalled>begleitet</soCalled> den Chor!&#x200A;!</q><note xml:id="grafschmidt_koenig-ftn16" n="16">Brief vom 7.&#8239;Juli 1908 an Fritz Stein, in: <ref type="bibl" target="#popp1982">S.&#8239;33</ref>.</note>
+            </p>
+                <p>Ende Januar&#x00A0;1911 erlebte der <title ref="#grafschmidt_koenig-work022">Weihegesang</title> in Jena mit der Schweizer Altistin <name ref="#grafschmidt_koenig-pers042">Maria Philippi</name>, die bereits bei der Premiere gesungen hatte, eine Folgeaufführung.<note xml:id="grafschmidt_koenig-ftn17" n="17">Vgl. <ref type="bibl" target="#loew1990">S.&#8239;127</ref>.</note> Ebenso wie dann im Februar zweimal der <title ref="#grafschmidt_koenig-work001">100.&#8239;Psalm</title> op.&#8239;106 wurde er von <name ref="#grafschmidt_koenig-pers059">Stein</name> in den vom ihm geleiteten <q>Akademischen Konzerten</q> untergebracht, erschien jedoch, glaubt man dem Kritiker der Zeitschrift <hi rend="italic">Die Musik</hi>, <q>matter als damals</q>.<note xml:id="grafschmidt_koenig-ftn18" n="18">Rezension von <name ref="#grafschmidt_koenig-pers016">Alexander Elster</name>, in: <ref  type="bibl" target="#elster1911">S.&#8239;323</ref>.</note> Während sich <title ref="#grafschmidt_koenig-work001" rend="normal">Opus&#x00A0;106</title> mühelos aus dem ursprünglichen Festkontext lösen ließ und schon bald als ein Hauptwerk <name ref="#grafschmidt_koenig-pers045">Regers</name> galt, war der Text des <title ref="#grafschmidt_koenig-work022">Weihegesangs</title> so konkret auf einen einmaligen Anlass gemünzt, dass der Komponist von seinem Werk <q>keine eigentlich recht grosse Verbreitung</q> erwarten konnte. Eine Veröffentlichung der Gelegenheitskomposition, die sich <q>verschiedene Herren der Universität</q><note xml:id="grafschmidt_koenig-ftn19" n="19">Brief <name ref="#grafschmidt_koenig-pers045">Regers</name> vom 19.&#8239;Februar 1909 an den Verlag Bote &amp; Bock, in: <ref type="bibl" target="#mueller2011">S.&#8239;44</ref> (ebenso vorhergehendes Zitat).</note> in Jena gewünscht hatten, leitete <name ref="#grafschmidt_koenig-pers045">Reger</name> dennoch in die Wege. Im Juli&#x00A0;1909 lag bei Bote &amp; Bock in Berlin der Erstdruck vor; ein Freiexemplar davon ließ <name ref="#grafschmidt_koenig-pers045">Reger</name> umgehend Textdichter und Widmungsträger <name ref="#grafschmidt_koenig-pers033">Otto Liebmann</name> zugehen, dem er nach der Premiere auch ein Partitur-Autograph geschenkt hatte. Die Dankesreplik des Philosophen ist ein schönes Beispiel für das hohe Ansehen, das <name ref="#grafschmidt_koenig-pers045">Reger</name> insbesondere in akademischen Kreisen genoss: 
+                    <quote source="#grafschmidt_koenig-ftn20">Sie haben die besondere Güte gehabt, Ihre ausgezeichnete Komposition des <q><title ref="#grafschmidt_koenig-work022">Weihegesang’s</title></q>, durch deren Aufführung vor einem Jahre unser hiesiges Universitätsjubiläum nach allgemeinem Urtheil so wesentlich erhöht und verschönert wurde, und deren Originalmanuscript ich mit Stolz als mein Eigenthum aufbewahren darf, beim Abdruck ausdrücklich <q>dem Dichter</q> zu widmen. Empfangen Sie für diese Ehre, die meinen Namen öffentlich mit dem Ihrigen in Verbindung bringt, den wärmsten, ergebensten Dank! Schon seit Jahren habe ich, wie so mancher andre, in Ihnen den genialen Komponisten, den eminenten Nachfolger <name ref="#grafschmidt_koenig-pers005">Joh. Seb. Bach’s</name> verehrt und bewundert, und nun freue ich mich ungemein, mit Ihnen in persönlicher Beziehung zu stehen. Möge die musikalische Welt durch Ihre fruchtbare schöpferische Künstlerthätigkeit mit immer neuen hervorragenden Werken beschenkt werden, – auf lange Zeit hinaus!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn20" n="20">Brief vom 12.&#8239;Juli 1909, Meininger Museen, Sammlung Musikgeschichte/Max-Reger-Archiv, Signatur: Br.&#8239;268/2.</note></p>
+                <p>Im März&#x00A0;1915, als <name ref="#grafschmidt_koenig-pers045">Reger</name> mit seiner Familie in Jena die Villa in der Beethovenstraße 2 beziehen konnte, sollten viele Universitäts-Professoren seine Nachbarn werden. <name ref="#grafschmidt_koenig-pers033">Otto Liebmann</name> war jedoch bereits am 15.&#8239;Januar 1912 im Alter von 72&#x00A0;Jahren verstorben.</p>
+                <p>Besaß der Glanz der gehobenen akademischen Gesellschaft unweigerlich eine starke Anziehungskraft auf <name ref="#grafschmidt_koenig-pers045">Reger</name>, so spielten auf der anderen Seite bürgerliche Musikvereine eine nicht unerhebliche Rolle als Multiplikatoren seiner Werke, die auf Sänger- und Stiftungsfesten eine große Bühne bekommen konnten. Und so verteilte der Komponist die Widmungen seiner <title ref="#grafschmidt_koenig-work017">Sieben Männerchöre</title> op.&#8239;38 auf Chorvereinigungen und deren Dirigenten von München bis Zwickau, um eine auch geografisch weit reichende Verbreitung zu erwirken. Je mehr sich <name ref="#grafschmidt_koenig-pers045">Reger</name> als Komponist etabliert hatte, desto häufiger traten die Vereine selbst mit ihren Wünschen an ihn heran: Die erste Vertonung von <name ref="#grafschmidt_koenig-pers025">Friedrich Hebbels</name> <title ref="#grafschmidt_koenig-work013">Requiem</title>-Text etwa entstand auf Anfrage des Schweizer Dirigenten <name ref="#grafschmidt_koenig-pers061">Hermann Suter</name>, der in Basel auch die <q>Liedertafel</q> leitete. Diese Komposition für Männerchor, die <name ref="#grafschmidt_koenig-pers045">Reger</name> nachträglich in das <title ref="#grafschmidt_koenig-work002" rend="normal">Opus&#x00A0;83</title> eingliederte, wurde am 18.&#8239;Mai 1912 im Rahmen des 60-jährigen Vereinsjubiläums inoffiziell und dann beim Eidgenössischen Sängerfest am 22.&#8239;Juli 1912 in Neuchâtel offiziell aus der Taufe gehoben. </p>
+                <p>Rufe nach Festkompositionen hatten <name ref="#grafschmidt_koenig-pers045">Reger</name> bereits viele Jahre zuvor aus der Weidener Vereinslandschaft ereilt, als er sich nach den Wiesbadener Krisenjahren gerade wieder in den Ort seiner Kindheit zurückgezogen hatte, wo er noch keineswegs als berühmt, sondern allenfalls als berüchtigt galt. Gleich zwei Ehrendienste wurden ihm dabei von <name ref="#grafschmidt_koenig-pers034">Adalbert Lindner</name> abverlangt, der sich für die anstehenden Stiftungsfeste des <q>Liederkranzes</q>, in dem er im Bass sang, und des Orchesters <q>Musiklust</q>, das er leitete, Novitäten aus der Feder seines einstigen Schülers  erbat. <name ref="#grafschmidt_koenig-pers045">Reger</name> ließ sich überreden und bereicherte sein Œuvre um die <title ref="#grafschmidt_koenig-work007">Hymne an den Gesang</title> für Männerchor mit großem Orchester op.&#8239;21 und das <title ref="#grafschmidt_koenig-work015">Scherzino</title> C-Dur für Horn und Streichorchester WoO&#x00A0;I/6. Während die <title ref="#grafschmidt_koenig-work007">Hymne</title> programmgemäß zum 60.&#8239;Jubiläum des <q>Liederkranzes</q> am 19.&#8239;November 1898 unter <name ref="#grafschmidt_koenig-pers045">Regers</name> Leitung und Beteiligung der Kapelle des 7.&#8239;Infanterieregiments Bayreuth ihre Premiere erlebte,<note xml:id="grafschmidt_koenig-ftn21" n="21">Zu dieser Komposition siehe: <ref type="bibl" target="#steiner2004">S.&#8239;77–90</ref>.</note> musste die für den 9.&#8239;Dezember 1899 angesetzte <q>Musiklust</q>-Aufführung des <title ref="#grafschmidt_koenig-work015">Scherzino</title> <q>wegen Versetzung des Hornbläsers, des H.&#x00A0;Adjunkten Schmidt</q><note xml:id="grafschmidt_koenig-ftn22" n="22">Anmerkung <name ref="#grafschmidt_koenig-pers034">Lindners</name> auf blauer Schutzmappe um die autographe Partitur, Stadtmuseum Weiden, Max-Reger-Sammlung, Signatur: A&#8239;10.</note> abgeblasen werden. Das somit funktionslos gewordene Werk landete auf einem Stapel mit Manuskripten, die <name ref="#grafschmidt_koenig-pers045">Reger</name> 1901, als er Weiden gen München verließ, <name ref="#grafschmidt_koenig-pers034">Lindner</name> vermachte. Dieser wiederum machte sich die Pflege seines Weidener Reger-Archivs und die posthume Verbreitung zahlreicher Jugendwerke seines Eleven zur Lebensaufgabe, arrangierte das Stück gleich dreimal (für Klavier, für Harmonium und Klavier sowie für Horn und kleines Orchester) und realisierte den 1943 bei Breitkopf &amp; Härtel erschienenen Erstdruck als Veröffentlichung der Max-Reger-Gesellschaft. Zwei Jahre zuvor, am 26.&#8239;Juni 1941, war es im VIII.&#8239;Konzert der Max Reger-Feier, die anlässlich des 25-jährigen Todestags des Komponisten an mehreren Abenden in der Hochschule für Musik Berlin stattfand, auf Betreiben <name ref="#grafschmidt_koenig-pers034">Lindners</name> auch zur Erstaufführung des <title ref="#grafschmidt_koenig-work015">Scherzino</title> gekommen.</p>
+                <figure xml:id="grafschmidt_koenig-fig04">
+                    <graphic url="figures/grafschmidt_koenig-fig04.jpg" width="2037px" height="3240px"/>
+                    <head type="legend"><hi rend="italic">Scherzino</hi> für Horn und Streichorchester WoO I/6, Titelblatt der autographen Partitur, Stadtmuseum Weiden (Max-Reger-Sammlung), Signatur: A&#8239;10. Abbildung mit freundlicher Genehmigung</head>
+                </figure>
+                <p>In der Korrespondenz mit <name ref="#grafschmidt_koenig-pers059">Fritz Stein</name>, inzwischen Leiter der Berliner Hochschule,<note xml:id="grafschmidt_koenig-ftn23" n="23">Bei der posthumen Erstaufführung in Berlin wurde das hochschuleigene Kammerorchester allerdings nicht von <name ref="#grafschmidt_koenig-pers059">Stein</name> dirigiert, dem <name ref="#grafschmidt_koenig-pers034">Lindner</name> das Stück offeriert hatte, sondern stand lt. erhaltenem Programm unter der Leitung von <name ref="#grafschmidt_koenig-pers052">Karl-Heinz Schneider</name> oder <name ref="#grafschmidt_koenig-pers030">Heinrich Kernich</name>.</note> hatte <name ref="#grafschmidt_koenig-pers034">Lindner</name> das <title ref="#grafschmidt_koenig-work015">Scherzino</title> <quote source="#grafschmidt_koenig-ftn24">mit seinem artigen Canon im Alternativsatz ein putziges Ding</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn24" n="24">Brief vom 19.&#8239;März 1941, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;3783.</note> genannt – und es damit sicherlich harmloser gemacht, als es ist. Denn schon ein Blick auf das Titelblatt des Autographs lässt erahnen, dass <name ref="#grafschmidt_koenig-pers045">Reger</name> bei der Komposition der berüchtigte Schalk im Nacken saß: <quote><title ref="#grafschmidt_koenig-work015"><hi rend="underline">Scherzino</hi></title> […] <hi rend="underline">für die Musiklust Weiden</hi> | <hi rend="underline">zum 9.&#8239;Dezember</hi> <hi rend="underline">1899</hi> | <hi rend="underline">compostiert</hi> | <hi rend="underline">von</hi> <hi rend="doubleunderline"><name  ref="#grafschmidt_koenig-pers045">Max Reger</name></hi>. | <hi rend="underline">genannt <name ref="#grafschmidt_koenig-pers045">Grobian</name></hi></quote> – und darunter: <quote>Eigenthum des Vereins | für alle Länder | und angrenzende Raubstaaten. | <hi rend="underline">Luxusausgabe</hi>!</quote> Dieser <q><name ref="#grafschmidt_koenig-pers045">Grobian</name></q> dachte natürlich nicht im Mindesten daran, die engagierten Feierabendmusiker der <q>Musiklust</q>, die sich oftmals aus dem Lehrerstand rekrutierten,<note xml:id="grafschmidt_koenig-ftn25" n="25">Vgl. das Mitgliederverzeichnis (ab fol.&#8239;83r) des von <name ref="#grafschmidt_koenig-pers034">Lindner</name> handschriftlich geführten Vereinsbuchs (Stadtmuseum Weiden, Nachlass <name ref="#grafschmidt_koenig-pers034">Adalbert Lindner</name>), das jedoch den Stand vom 14.&#8239;Oktober 1896 wiedergibt. – Als einziger Eintritt des Jahres&#x00A0;1893 ist <name ref="#grafschmidt_koenig-pers045">Regers</name> Vater <name ref="#grafschmidt_koenig-pers046">Josef</name> verzeichnet, allerdings währte die Mitgliedschaft des Präparandenlehrers nur dreieinhalb Wochen (vom 1. bis 25.&#8239;März 1893). Ob <name ref="#grafschmidt_koenig-pers046">Josef Reger</name> nach 1896 nochmals in den Verein eingetreten ist, ist nicht bekannt.</note> zu schonen. Durch die verhinderte Aufführung des in knapp zweieinhalb Minuten vorbeihuschenden Stücks, das <name ref="#grafschmidt_koenig-pers043">Susanne Popp</name> als kleines Paradestück von <name ref="#grafschmidt_koenig-pers045">Regers</name> <q><hi rend="italic">stile affrontoso</hi></q> in seiner gemäßigten Form charakterisiert, ist der Adjunkt Schmidt einigen musikalischen Stolpersteinen aus dem Weg gegangen: <quote source="#grafschmidt_koenig-ftn26">Hier wird die Fähigkeit des Hornisten erprobt in sehr schnellem Tempo, mit bewegter, oft chromatischer Melodieführung, mit innerhalb des Taktgefüges verschobener Wiederholung, die wie ein verspäteter Einsatz wirkt</quote>.<note type="bibl" xml:id="grafschmidt_koenig-ftn26" n="26"><ref type="bibl" target="#popp1998">S.&#8239;108</ref>.</note> Unter die <hi rend="italic">Da capo</hi>-Angabe setzt <name ref="#grafschmidt_koenig-pers045">Reger</name> im Manuskript die Aufforderung: <quote source="#grafschmidt_koenig-ftn27">So <hi rend="underline">schnell</hi> als möglich | den I.&#8239;Teil. | Den  Mittelteil | <hi rend="underline">eher</hi> langsamer | u sehr ausdrucksvoll!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn27" n="27">Diese Angabe wurde weder in die von <name ref="#grafschmidt_koenig-pers034">Lindner</name> kuratierte Ausgabe von 1943 noch in die Publikation des Stücks innerhalb der <ref type="bibl" target="#rga1968"/> übernommen.</note> 
+                    Der Gefahr des Umwerfens, der das Liebhaberorchester ausgeliefert hätte sein können, hatte <name ref="#grafschmidt_koenig-pers045">Reger</name> sicherlich lachenden Auges entgegengesehen – ebenso wie er sich in seinen Klavierstücken durch (nicht zuletzt metrische) Untiefen den Spaß von den vielgeschmähten, nur schwer ertragenen Privatschülern und -schülerinnen zurückholte. Der Balanceakt zwischen heiterer Serenade und situationskomischer Groteske ist, in all seiner Kürze, bereits physiognomisch typisch für <name ref="#grafschmidt_koenig-pers045">Regers</name> rasenden Scherzo-Stil, der sich später auch in den groß angelegten Werken, etwa im <hi rend="italic">Allegretto</hi> des <title ref="#grafschmidt_koenig-work008">Klaviertrios e-Moll</title> op.&#8239;102 oder der <title ref="#grafschmidt_koenig-work011">Lustspielouvertüre</title> op.&#8239;120, ausbreitet. Dass sein einst verlassenes Stück &#x2013; ermöglicht durch <name ref="#grafschmidt_koenig-pers034">Lindners</name> Veröffentlichung – einmal in der Obhut professioneller Interpreten wie <name ref="#grafschmidt_koenig-pers004">Hermann Baumann</name> (mit den Münchner Philharmonikern unter <name ref="#grafschmidt_koenig-pers065">Marinus Voorberg</name>) und <name ref="#grafschmidt_koenig-pers041">Marie Luise Neunecker</name> (mit den Bamberger Symphonikern unter <name ref="#grafschmidt_koenig-pers060">Horst Stein</name>) aufleben sollte, hätte sich <name ref="#grafschmidt_koenig-pers045">Reger</name> aber wohl doch nicht träumen lassen. </p>
+            </div>
+            <div xml:id="grafschmidt_koenig-div3">
+                <head>III. <name ref="#grafschmidt_koenig-pers045">Reger</name> in privatem Rahmen</head>
+                <p>Musikalische Freundschaftsbeweise erbrachte <name ref="#grafschmidt_koenig-pers045">Reger</name> bisweilen auch ganz privat: Allein drei Kompositionen für geschlossene Hochzeitsgesellschaften hat er geschrieben, die zu den Kleinodien seines Œuvres zählen. Zunächst entstand im Mai 1898 anlässlich der Vermählung von <name ref="#grafschmidt_koenig-pers020">Willy Gemünd</name>, dem Bruder von <name ref="#grafschmidt_koenig-pers045">Regers</name> nach eigenem Bekunden bestem Freund während der Spätphase seiner turbulenten Wiesbadener Zeit,<note xml:id="grafschmidt_koenig-ftn28" n="28">Siehe Widmung auf einer Fotografie von 1896: <q>Seinem besten Freunde <name ref="#grafschmidt_koenig-pers019">Karl Gemünd</name> zur freundlichen Erinnerung</q>, abgebildet in: <ref target="#popp2000" type="bibl">S.&#8239;274</ref>.</note> der <title>Liebestraum</title> – kein pompöser Hochzeitsmarsch, sondern ein zartes, gleichsam intimes, lyrisches Tonstück, verbunden mit <q>dem Wunsche, dass das ganze Leben des jungen Paares ein <hi rend="underline">ewiger</hi> <q><hi rend="underline">Liebestraum</hi></q> bleiben möchte</q>.<note xml:id="grafschmidt_koenig-ftn29" n="29">Schlussvermerk auf S.&#8239;4 des autographen Widmungsexemplars, Privatbesitz.</note> Die überkommenen Fassungen für Klavier (oder Orgel?) sowie für Streichquintett bzw. -orchester zeigen <name ref="#grafschmidt_koenig-pers045">Regers</name> Einfühlungsvermögen in die Erfordernisse sämtlicher Facetten einer solchermaßen vielfältigen Festivität. Und so zeichnet der dankbare Widmungsträger in seinen gefühlvollen Erinnerungen einen Menschen, der <quote source="#grafschmidt_koenig-ftn30">mit einem bajuwarischen urwüchsigen Humor eine ungewöhnliche Zartheit des Empfindens [verband], die auf ein reiches Innenleben schließen ließ</quote>.<ref xml:id="grafschmidt_koenig-ftn30" type="bibl" target="#gemuend1934">S.&#8239;13</ref> 
+                    Wenn <name ref="#grafschmidt_koenig-pers045">Reger</name>, nachdem das berufliche Schicksal <name ref="#grafschmidt_koenig-pers019">Gemünd</name> 1896 nach Köln verschlagen hatte, später auf einer seiner Konzertreisen in der Domstadt weilte – zuletzt wenige Wochen vor seinem Tode –, brachte er wiederholt <quote source="#grafschmidt_koenig-ftn31">meiner Frau und mir in unserem Heim den <q>Liebestraum</q> in seiner meisterhaften Weise zu Gehör</quote>.<ref xml:id="grafschmidt_koenig-ftn31" target="#gemuend1934" type="bibl" rend="ibid">S.&#8239;15</ref>
+            </p>
+                <p>Der kirchlich gesegnete Eintritt in den heiligen Bund der Ehe inspirierte <name ref="#grafschmidt_koenig-pers045">Reger</name> noch zwei weitere Male zu Tonschöpfungen, welche diesem festlichen Akt jeweils die besondere Note geben sollten. Das erste Werk, ein Duett mit Orgelbegleitung, gab im März 1902 die seinerzeit von ihm angebetete <name ref="#grafschmidt_koenig-pers047">Elsa von Bercken</name>, mit der er ein starkes halbes Jahr später selbst das Treuegelübde ablegen sollte, in Auftrag: <quote source="#grafschmidt_koenig-ftn32">Pfingsten ist die Hochzeit eines reizenden jungen Mädchens, auf einer Nachbarbesitzung, <name ref="#grafschmidt_koenig-pers054">Berthel</name> u. ich möchten ihr zur Überraschung in der Kirche etwas singen in der Trauung. Mir würde es große Freude machen, könnten wir ein Duett von <hi rend="underline"><name ref="#grafschmidt_koenig-pers045">Reger</name></hi> singen. Die Begleitung muß aber leicht sein, da der Lehrer kein Held auf der Orgel ist. Und auch die Singstimme nicht zu schwer, sonst wagt sich <name ref="#grafschmidt_koenig-pers054">Berthel</name> nicht daran. <name ref="#grafschmidt_koenig-pers054">Berthel</name> hat <hi rend="doubleunderline">Alt</hi><hi rend="underline">sti</hi>mme. Meine Stimme kennen Sie ja […] Suchen Sie bitte irgend einen <hi rend="underline">schönen</hi>, zur Trauung passenden Spruch, <hi rend="doubleunderline">Bibel</hi><hi rend="underline">spruch</hi> aus. Es ist eine völlige Liebesheirat.</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn32" n="32">Brief vom 21.&#8239;März 1902, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;3033.</note> Die auch durch lesefreundliche Hervorhebung der jeweiligen Stimme auf die Interpretinnen zugeschnittenen Partituren des Trauungsliedes <title ref="#grafschmidt_koenig-work003">Befiehl dem Herrn deine Wege</title> (WoO&#x00A0;VII/34) versah <name ref="#grafschmidt_koenig-pers045">Reger</name> zudem mit zündenden Mottos: <q><hi rend="underline">Im Anfange war der Rhythmus!</hi></q> gab er <name ref="#grafschmidt_koenig-pers047">Elsa</name> mit auf den Weg, <q><hi rend="underline">Von der Stirne heiss rinnen muss der Schweiss</hi></q> lautete der Sinnspruch für ihre Pflegeschwester <name ref="#grafschmidt_koenig-pers054">Bertha Baronesse von Seckendorff</name>. <name ref="#grafschmidt_koenig-pers047">Elsa</name> versprach, ihr Motto zu beherzigen, aber <quote source="#grafschmidt_koenig-ftn33"><name ref="#grafschmidt_koenig-pers054">Berthel</name> zappelt vor Angst über das viele <hi rend="underline">Gehüpfe</hi> ihrer Stimme, d.&#8239;h. über die Läufe etc., meint das lernt sie nie</quote>.<note type="bibl" xml:id="grafschmidt_koenig-ftn33" n="33">Brief vom 10.&#8239;April 1902, Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;Ms.&#8239;3037.</note> Und doch fügte sich wohl alles zum Guten, die Hochzeit fand statt, besondere Vorkommnisse sind nicht überliefert. </p>
+                <p>Die nächste Gelegenheit für eine kleine geistliche Festmusik ergab sich anderthalb Jahre später, als am 19.&#8239;September 1903 in Berchtesgaden <name ref="#grafschmidt_koenig-pers054">Berthel</name> selbst vor den Traualtar trat. <quote source="#grafschmidt_koenig-ftn34">Reger hatte ihr ein Trauungslied <title>Wohl Denen</title> komponiert, das sang ich [<name ref="#grafschmidt_koenig-pers047">Elsa</name>] mit seiner Begleitung, als meine geliebte Pflegeschwester die Kirche am Arm ihres jungen Gatten <name ref="#grafschmidt_koenig-pers055">Oskar Sensburg</name>, unseres Vetters (unsere Großmütter waren Schwestern) durchschritt.</quote><ref xml:id="grafschmidt_koenig-ftn34" type="bibl" target="#elsa1930">S.&#8239;40</ref> 
+                    Das Manuskript des <title ref="#grafschmidt_koenig-work025">Geistlichen Liedes</title> (WoO&#x00A0;VII/36), aus welchem das nunmehrige Ehepaar Reger <name ref="#grafschmidt_koenig-pers054">Berthel</name> musikalisch in den Hafen der Ehe geleitete, ist bar jeglicher Vortragsbezeichnungen. Mit feinem Gespür dürfte <name ref="#grafschmidt_koenig-pers045">Reger</name> während der Aufführung – die Atmosphäre der kleinen Bergkirche in diesem besonderen Moment mit allen Sinnen aufsaugend – die Gestaltung improvisiert haben. Ohne Zweifel strahlte der über ihn gekommene Geist in einem Maße auf seine Partnerin aus, dass <name ref="#grafschmidt_koenig-pers054">Berthel</name> wie von Engeln getragen in eine glückliche Zukunft entschwebte. Als Honorar für den Druck erhielt <name ref="#grafschmidt_koenig-pers045">Reger</name> 20&#x00A0;Mark.</p>
+            </div>
+            <div xml:id="grafschmidt_koenig-div4">
+                <head>IV. <q>Hoch soll er leben!</q><note xml:id="grafschmidt_koenig-ftn35" n="35">Oder: <q>Du bist verrückt mein Kind</q>.</note>
+            </head>
+                <figure xml:id="grafschmidt_koenig-fig05">
+                    <graphic url="figures/grafschmidt_koenig-fig05.jpg" width="2395px" height="3309px"/>
+                    <head type="legend"><title ref="#grafschmidt_koenig-work018">Sylvester-Canonen <q>op.&#8239;1913</q></title> (WoO VIII/13), Erstdruck als Faksimile, N.&#8239;G. Elwert’sche Verlagsbuchhandlung, Marburg/Lahn, zunächst als Beilage zum Programmbuch der Meininger Musiktage in Marburg am 8. und 9.&#8239;Februar 1913 erschienen</head>
+                </figure>
+                <p>Nicht ganz zehn Jahre später setzte sich <name ref="#grafschmidt_koenig-pers045">Reger</name> in bewährt revolutionärer Manier – ritt er doch nach eigenem Bekunden <quote source="#grafschmidt_koenig-ftn36">unentwegt nach links</quote><ref xml:id="grafschmidt_koenig-ftn36"  target="#max1907" type="bibl">S.&#8239;51</ref> 
+                    – für das Recht auf Freude auch der noch nicht arrivierten, sittlich und familiär noch nicht gefestigten Vertreter des akademischen Standes ein. Das Pikante daran: Dies geschah in Verbindung mit einem geplanten Gastspiel der von ihm geleiteten, gleichsam adeligen Meininger Hofkapelle. Und so sandte er also am 31.&#8239;Dezember 1912 dem Besitzer der Elwert’schen Verlagsbuchhandlung in Marburg, <name ref="#grafschmidt_koenig-pers008">Gottlieb Braun</name>, der für das Programmbuch verantwortlich zeichnete, eine ganz besondere Beilage: <quote source="#grafschmidt_koenig-ftn37">Beiliegende Komposition ist das schöne Lied <title>Hoch soll er leben</title> in 17stimmiger canonischer Führung. Da wo ich [als Trennlinie] x&#x00A0;–&#8239;–&#8239;–&#8239;–&#x00A0;x roth gemacht habe, ist das schöne Lied <soCalled>Du bist verrückt mein Kind</soCalled> als Kontrapunkt 3&#8239;x gebracht dazu</quote>.<ref target="#RegerBegleitbrief" xml:id="grafschmidt_koenig-ftn37" type="bibl"/> 
+                    Hier gelang dem gewieften Kontrapunktiker <name ref="#grafschmidt_koenig-pers045">Reger</name>, der seine Kunst in zahllosen Kanons glänzend unter Beweis gestellt hatte, ein weiteres satztechnisches Kabinettstück, dem hinlänglich bekannten Beispiel aus der später entstandenen <title ref="#grafschmidt_koenig-work019">Vaterländischen Ouvertüre</title> op.&#8239;140 nahezu ebenbürtig. Zugleich barg diese Kombination offenbar ein gerüttelt Maß sozialen Sprengstoffs, weshalb er <name>Braun</name> ein Hintertürchen offenbarte, durch das sich dieser notfalls elegant aus der Affäre ziehen konnte: <quote source="#grafschmidt_koenig-ftn38">[…] wenn Sie meinen, daß das <soCalled>böses Blut</soCalled> machen wird, dann schneiden Sie das weg u. lassen es <hi rend="underline">nicht</hi> drucken</quote>.<ref target="#RegerBegleitbrief" xml:id="grafschmidt_koenig-ftn38" type="bibl"/> 
+                    <name>Braun</name> jedoch erachtete die <title ref="#grafschmidt_koenig-work018">Sylvester-Canonen <q>op.&#8239;1913</q></title> (WoO&#x00A0;VIII/13) so, wie sie waren, als trefflich geeignet für Feiern in standesbewusstem Rahmen: <quote source="#grafschmidt_koenig-ftn39">Sicher wird die Sache bei den hiesigen Studenten einen ungeheuren Erfolg haben; es wird schon fortwährend danach gefragt.</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn39" n="39">Brief vom 10.&#8239;Januar 1913 an <name ref="#grafschmidt_koenig-pers045">Reger</name>, Privatbesitz, zitiert nach einer Abschrift im Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;As.&#8239;1698.</note> Der Hintergrund dieser musikalisch so volksnahen wie pfiffigen Melange war laut <name>Braun</name> eine Begebenheit, die ein schönes Beispiel gibt für <name ref="#grafschmidt_koenig-pers045">Regers</name> berühmt-berüchtigten Humor, der sich bei einem Leben <q>in der Eisenbahn</q><note xml:id="grafschmidt_koenig-ftn40" n="40">Brief <name ref="#grafschmidt_koenig-pers045">Regers</name> vom 17.&#8239;Juni 1904 an <name ref="#grafschmidt_koenig-pers026">Henri Hinrichsen</name>, in: <ref target="#popp1995" type="bibl">S.&#8239;91</ref>.</note> auch nicht von seriösen Ritualen in den heiligen Hallen der Kunst bremsen ließ: <quote source="#grafschmidt_koenig-ftn41">Das 3&#8239;st. Thema im Bass ist eine Erinnerung an die Kammermusik-Matinée der Meininger in Marburg im Febr&#x00A0;1912. Der Trompeter war im <title ref="#grafschmidt_koenig-work016">Septett</title> [op.&#8239;65] von <name ref="#grafschmidt_koenig-pers048">Saint-Saëns</name> herausgekommen u. <name  ref="#grafschmidt_koenig-pers045">Reger</name> gab ihm andauernd Rippenstöße und improvisierte auf dem Klavier <q>Du bist verrückt mein Kind</q>.</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn41" n="41">Notiz <name>Brauns</name> in einem Exemplar der Faksimileausgabe, Staatsbibliothek zu Berlin, Preußischer Kulturbesitz, Zugangsnummer: M.&#8239;1923.576.</note> Wenn man bedenkt, dass <name ref="#grafschmidt_koenig-pers045">Regers</name> bis dahin letzte kompositorische Auseinandersetzung mit dieser schmissigen Melodie im Sommer&#x00A0;1896 in Gestalt von <title ref="#grafschmidt_koenig-work024">Zwei zweistimmigen Kanons</title> (WoO&#x00A0;VIII/4) stattgefunden hatte, drängt sich der Gedanke auf, selbige könnte sich vielleicht ebenso durch sein Werk ziehen wie der Choral <hi rend="italic"><q>Wenn ich einmal soll scheiden</q></hi> – ein echtes Desideratum der Reger-Forschung.</p>
+                
+            <!--<p>[Abbildung 4: <hi rend="italic">Sylvester-Canonen <q>op.&#8239;1913</q> </hi>(WoO VIII/13), Erstdruck als Faksimile, N.G. Elwert’sche Verlagsbuchhandlung, Marburg/Lahn, zunächst als Beilage zum Programmbuch der Meininger Musiktage in Marburg am 8. und 9. Februar 1913 erschienen.]</p>-->
+                <p>Doch längst nicht alle seine musikalischen Grüße hat <name ref="#grafschmidt_koenig-pers045">Reger</name> in Druckgestalt und in die Öffentlichkeit gebracht. So manches Poesiealbum nämlich zierten kompositorische Miniaturen aus seiner Feder, die bisweilen unentdeckt blieben – Festkompositionen wohl auch diese, geschrieben im kleinstmöglichen Rahmen als Dankeschön etwa für einen geselligen Abend. Unter diesen findet sich auch <title ref="#grafschmidt_koenig-work004">Hoch lebe dies Haus</title> WoO&#x00A0;VIII/7, eine veritable Hymne. Im vollmundigen Abgang dieses kleinen Beitrags haben wir der Edition dieses Werks nun ihren Platz gegeben. Gewidmet ist diese  <name ref="#grafschmidt_koenig-pers064">Joachim Veit</name> zum 60.&#8239;Geburtstag – mit herzlichem Gruß der Reger-Werkausgabe.</p>
+                <p><name ref="#grafschmidt_koenig-pers045">Reger</name> entwarf dieses in seiner Bedeutung gar nicht hoch genug einzuschätzende Werk mit kühner Hand am 7.&#8239;Juni 1903 während eines gemeinsamen Besuchs mit seiner Gattin bei dem befreundeten Ehepaar <name ref="#grafschmidt_koenig-pers056 #grafschmidt_koenig-pers062">Rikoff</name> (Sängerin <name ref="#grafschmidt_koenig-pers056">Sophie</name> und Kunstmaler <name ref="#grafschmidt_koenig-pers062">Theodor</name>) in Berg am Starnberger See; in eben diesem Haus sollten <name ref="#grafschmidt_koenig-pers045">Max</name> und <name ref="#grafschmidt_koenig-pers047">Elsa Reger</name> ein Jahr später ihren Sommerurlaub verbringen. Das Albumblatt trägt, neben einer Unterschrift <name ref="#grafschmidt_koenig-pers047">Elsas</name>, einen ebenso süffisanten wie kulturkritischen Vermerk des Komponisten, ein Bonmot, das zugleich <name ref="#grafschmidt_koenig-pers045">Regers</name> ausgeprägte soziale Ader deutlich zu Tage treten lässt: <quote source="#grafschmidt_koenig-ftn42">Professoren an Akademien u. Hochschulen <q>gegen</q> Musik werden dringendst ersucht im Interesse ihrer eigenen Gesundheit, dies Blatt mit Abscheu zu betrachten u. schleunigst weiter zu blättern</quote>.<note type="bibl" xml:id="grafschmidt_koenig-ftn42" n="42">J.&#8239;A. Stargardt, Katalog Nr.&#8239;565, 3./4.&#8239;Dezember 1963, Los&#x00A0;628, S.&#8239;113; Notenbeispiel auf S.&#8239;127.</note></p>
+                <figure xml:id="grafschmidt_koenig-fig06" place="here" rendition="#grafschmidt-latex-width06">
+                    <graphic url="figures/grafschmidt-koenig-fig06.pdf" width="1891px" height="1657px"/>
+                    <head type="legend">Max Reger, <title ref="#grafschmidt_koenig-work004">Hoch lebe dies Haus</title> WoO VIII/7, Edition</head>
+                </figure>
+                <p>Neben der Angst um den Fortgang der öffentlichen Lehre führte ihm hier auch die Sorge um die soziale Unversehrtheit seiner privaten Freunde die Hand. Musikalisch gibt <name ref="#grafschmidt_koenig-pers045">Reger</name> deren Heimstätte mit dem ersten und letzten F-Dur-Akkord einen stabilen Rahmen, mit jedem <q>hoch</q> hebt er ab in immer entferntere harmonische Sphären, bevor er abkadenzierend (F-Dur bereits mit <q>dies</q> wieder erreichend) zu den Grundfesten zurückkehrt. In den privaten vier Wänden herrscht also der freie Geist, den <name ref="#grafschmidt_koenig-pers045">Reger</name> in öffentlichen Gebäuden offensichtlich nur bedingt präsent wähnte. Die geweitete Lage des Schlussakkords ist dabei als Beleg dafür zu werten, dass durch den Gebrauch des Geistes der Schutz gegen die aus <name ref="#grafschmidt_koenig-pers045">Regers</name> Sicht rückwärts gewandten Versuche akademischer Würdenträger, den Fortschritt aufzuhalten,<note xml:id="grafschmidt_koenig-ftn43" n="43">So sah sich <name ref="#grafschmidt_koenig-pers045">Reger</name> etwa in Gefahr, <q>ernstlichen Zweifel in die Intelligenz dieser Herren setzen zu müssen, wenn man nicht genauer wüßte, daß da lediglich fette Bequemlichkeit, Denkfaulheit, Neid, Verbitterung ob erlittener Mißerfolge, Alterschwäche usw. die Triebfeder solch modernfeindlicher, damit auch kulturwidriger Denkungsart über uns ††† Moderne sind</q> (<title level="a">Musik und Fortschritt</title>, in: <title level="j">Leipziger Tageblatt</title>, Nr.&#8239;165 vom 14.&#8239;Juni 1907).</note> wogegen <name ref="#grafschmidt_koenig-pers045">Reger</name> immer wieder auch mit feinsinnigen Essays ankämpfte, größer wird. Ein gewaltiger sozialmoralphilosophischer Entwurf, doch <name ref="#grafschmidt_koenig-pers045">Reger</name> genügen dafür drei Takte – die Welt in einer Nussschale. </p>
+            </div>
+            <div xml:id="grafschmidt_koenig-div5">
+            <head>V. Ausleitung</head>
+                <p>Als die Medizinische Fakultät Berlin am 12.&#8239;Oktober 1910 ihr 100-jähriges Bestehen feierte, garnierte auch sie dieses Ereignis mit der Verleihung mehrerer Ehrendoktorwürden. Dass auch <name ref="#grafschmidt_koenig-pers045">Reger</name> zu den Bedachten gehörte, begründete sie damit, <quote source="#grafschmidt_koenig-ftn44">daß nichts so sehr geeignet ist, das Gemüt des bedrückten und kranken Menschen zu erheben und aufzuheitern, als die wahre Kunst, und daß insbesondere <name ref="#grafschmidt_koenig-pers045">Max Reger</name>, auf der Kunst der alten Meister fußend, mit reicher Erfindungsgabe sich der Musica sacra e profana gewidmet und sie dem Volke zugänglich gemacht hat.</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn44" n="44">Zitiert nach <ref type="bibl" target="#popp1995">S.&#8239;423, Fußnote&#x00A0;1</ref>.</note> 
+                    Diese Verleihung konnte in der von <name ref="#grafschmidt_koenig-pers045">Reger</name> polarisierten Welt nicht unwidersprochen bleiben. So sah sich etwa der Inhaber des Dresdner Musik- und Literatur-Salons Ludwig zu einem <q>Offenen Brief</q> genötigt: <quote source="#grafschmidt_koenig-ftn45">Wenn Universitäten bei ihren Jubelfeiern <q>in Kunst machen</q>, erleben die Fachleute stets böseste Überraschungen. Sie ernennen den Komponisten <hi rend="underline">Reger</hi> zum Ehrendoktor indem sie orakeln: <q>er, der durch seine süssen (?) Melodien (?) die Kranken ergötzt, heilt (?) und aufrichtet</q>. Richtiger ist jedenfalls, wenn man behauptet, dass er durch seine sauren Themen den Gesunden erschöpft, verscheucht und niederwirft!</quote><note type="bibl" xml:id="grafschmidt_koenig-ftn45" n="45">Zitiert nach einer Kopie im Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;X.&#8239;4580.</note> Eine Reaktion <name ref="#grafschmidt_koenig-pers045">Regers</name> auf diese Ungeheuerlichkeiten ist nicht überliefert. Sehr wohl überliefert ist jedoch seine Antwort auf die Glückwünsche von <name ref="#grafschmidt_koenig-pers059">Fritz Steins</name> Schwiegervater <name ref="#grafschmidt_koenig-pers012">Vincenz Czerny</name>: <quote source="#grafschmidt_koenig-ftn46">Eine ärztliche Praxis werde ich nicht eröffnen – lieber für die Unsterblichkeit als für die Sterblichkeit arbeiten</quote>.<note type="bibl" xml:id="grafschmidt_koenig-ftn46" n="46">Brief vom 17.&#8239;Oktober 1910, zitiert nach einer Kopie im Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;X.&#8239;1954.</note> Dem ist nichts hinzuzufügen.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="schreiber1956"><title level="m"><emph>Max Reger</emph>. Briefe zwischen der Arbeit</title>, hg. von Ottmar Schreiber, Bonn 1956 (Veröffentlichungen des Max-Reger-Institutes/Elsa-Reger-Stiftung Bonn&#x00A0;3)<bibl type="short"><title level="m">Arbeitsbriefe</title></bibl></bibl>
+                    <bibl xml:id="mueller2011"><title level="m"><emph>Max Reger</emph>. Briefe an den Verlag Ed. Bote &amp; G. Bock</title>, hg. von Herta Müller und Jürgen Schaarwächter, Stuttgart 2011 (Schriftenreihe des Max-Reger-Instituts Karlsruhe&#x00A0;22)<bibl type="short"><title level="m">Bote &amp; Bock-Briefe</title></bibl></bibl>
+                    <bibl xml:id="hehemann1910">Max Hehemann, <title level="a">Max Reger und sein Schaffen. Skizzenblätter</title>, in: <title level="m">Max-Reger-Fest Dortmund 7., 8., 9.&#8239;Mai 1910. Festbuch</title>, Dortmund 1910</bibl>
+                    <bibl xml:id="popp2015">Susanne Popp, <title level="m">Werk statt Leben. Max Reger. Eine Biographie</title>, Wiesbaden 2015</bibl>
+                    <bibl xml:id="popp1982"><title level="m"><emph>Max Reger</emph>. Briefe an Fritz Stein, </title>hg. von Susanne Popp, Bonn 1982 (Veröffentlichungen des Max-Reger-Institutes/Elsa-Reger-Stiftung Bonn&#x00A0;8)<bibl type="short"><title level="m">Stein-Briefe</title></bibl></bibl>
+                    <bibl xml:id="popp1995"><title level="m"><emph>Max Reger</emph>. Briefwechsel mit dem Verlag C.&#8239;F. Peters</title>, hg. von Susanne Popp und Susanne Shigihara, Bonn 1995 (Veröffentlichungen des Max-Reger-Institutes/Elsa-Reger-Stiftung Bonn&#x00A0;13)<bibl type="short"><title level="m">Peters-Briefe</title></bibl></bibl>
+                    <bibl xml:id="stier1955">Friedrich Stier, <title level="m">Ehrung deutscher Musiker durch die Universität Jena</title>, Weimar 1955 (Darstellungen zur Geschichte der Universität Jena&#x00A0;2)</bibl>
+                    <bibl xml:id="popp2010"><title level="m">Thematisch-chronologisches Verzeichnis der Werke Max Regers und ihrer Quellen. Reger-Werk-Verzeichnis</title> (RWV), im Auftrag des Max-Reger-Instituts hg. von Susanne Popp, in Zusammenarbeit mit Alexander Becker, Christopher Grafschmidt, Jürgen Schaarwächter und Stefanie Steiner, 2&#x00A0;Bde., München 2010</bibl>
+                    <bibl xml:id="loew1990">Otto Löw, <title level="a">Der <q>Weihegesang</q> von Max Reger</title>, in: <title level="m">Reichtümer und Raritäten. Denkmale, Sammlungen, Akten und Handschriften</title>, Jena 1990, S.&#8239;127–130</bibl>
+                    <bibl xml:id="elster1911"><title level="a">Die Musik</title>, Jg.&#8239;10, Heft&#x00A0;17 (Juli&#x00A0;1911)</bibl>
+                    <bibl xml:id="steiner2004">Stefanie Steiner, <title level="a"><q>… an manchen Stellen eine ganz neue Art der Stimmenbehandlung …</q>? Max Regers </title>Hymne an den Gesang op.&#8239;21, in: <title level="m">Reger-Studien 7. Festschrift für Susanne Popp</title>, hg. von Siegfried Schmalzriedt und Jürgen Schaarwächter, Stuttgart 2004 (Schriftenreihe des Max-Reger-Instituts Karlsruhe&#x00A0;17)</bibl>
+                    <bibl xml:id="popp1998">Susanne Popp, <title level="a"><q>Sein Ernst ist schon bizarr genug.</q> Regers musikalischer Humor</title>, in: <title level="m">Reger-Studien 6. Musikalische Moderne und Tradition. Internationaler Reger-Kongress Karlsruhe 1998</title>, hg. von Alexander Becker, Gabriele Gefäller und Susanne Popp, Wiesbaden u.&#8239;a. 2000 (Schriftenreihe des Max-Reger-Instituts Karlsruhe&#x00A0;13)</bibl>
+                    <bibl xml:id="rga1968"><title level="m">Reger-Gesamtausgabe</title> (Bd.&#8239;8, revidiert von Ulrich Haverkampf, Wiesbaden 1968)</bibl>
+                    <bibl xml:id="popp2000"><title level="m">Der junge Reger. Briefe und Dokumente vor 1900</title>, hg. von Susanne Popp, Wiesbaden u.&#8239;a. 2000 (Schriftenreihe des Max-Reger-Instituts Karlsruhe&#x00A0;15)</bibl>
+                    <bibl xml:id="gemuend1934">Willy Gemünd, <title level="a">Aus Max Regers Wiesbadener Zeit</title>, in: <title level="m">Mitteilungen der Max Reger-Gesellschaft</title>, 12.&#8239;Heft (Juli&#x00A0;1934)<bibl type="short">Gemünd, <title level="a">Wiesbadener Zeit</title></bibl></bibl>
+                    <bibl xml:id="elsa1930">Elsa Reger, <title level="m">Mein Leben mit und für Max Reger. Erinnerungen</title>, Leipzig 1930</bibl>
+                    <bibl xml:id="max1907">Max Reger, <title level="a">Degeneration und Regeneration in der Musik</title>, in: <title level="m">Neue Musik-Zeitung</title>, 29 (1907/08), Heft&#x00A0;3 (31.&#8239;Oktober&#8239;1907), S.&#8239;49–51</bibl>
+                    <bibl xml:id="RegerBegleitbrief">Begleitbrief, Privatbesitz, zitiert nach einer Kopie im Max-Reger-Institut, Karlsruhe, Signatur: Ep.&#8239;X.&#8239;1873<bibl type="short">Begleitbrief</bibl></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

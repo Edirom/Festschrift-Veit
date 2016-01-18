@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Digitale Editionen im <hi rend="italic">semantic web</hi></title>
+            <title type="sub">Chancen und Grenzen von Normdaten, FRBR und RDF</title>
+            <author>
+               <name><forename>Roland</forename> <forename>S.</forename> <surname>Kamzelak</surname></name>
+               <affiliation><!--Leiter Entwicklung, Stellv. Direktor, Deutsches Literaturarchiv Marbach, Postfach 1162, 71666 Marbach am Neckar--><!--wurde 1961 in Subiaco (Perth), Australien, geboren. -->erhielt seine Schulbildung in Tettnang, Rockville, Maryland, USA (Highschool Diploma) und Friedrichshafen und studierte Politikwissenschaften, Anglistik und Germanistik an der Eberhard-Karls-Universität und an der University of Queensland, Brisbane, Australien. Er ist Stellv. Direktor des Deutschen Literaturarchivs Marbach und leitet dort die Abteilung Entwicklung mit Schwerpunkt Digital Humanities, das er an der Universität Würzburg lehrt. Er ist Herausgeber des Tagebuches von Harry Graf Kessler.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="kamzelak-pers001">
+                  <p>Adorno, Theodor W.</p>
+               </person>
+               <!--<person xml:id="kamzelak-pers002">
+                  <p>Baucis</p>
+               </person>-->
+               <person xml:id="kamzelak-pers003">
+                  <p>Goethe, Johann Wolfgang von</p>
+                  <p n="work" xml:id="kamzelak-work002"><hi rend="italic">Faust&#x00A0;I</hi></p>
+                  <p n="work" xml:id="kamzelak-work003"><hi rend="italic">Faust&#x00A0;II</hi></p>
+                  <p n="work" xml:id="kamzelak-work006"><hi rend="italic">Urfaust</hi></p>
+               </person>
+               <person xml:id="kamzelak-pers005">
+                  <p>Grice, H. Paul</p>
+               </person>
+               <person xml:id="kamzelak-pers006">
+                  <p>Inhauser, Rolf</p>
+               </person>
+               <person xml:id="kamzelak-pers007">
+                  <p>Jeram, Anita</p>
+               </person>
+               <person xml:id="kamzelak-pers008">
+                  <p>Veit, Joachim</p>
+               </person>
+               <person xml:id="kamzelak-pers009">
+                  <p>Kessler, Harry Graf von</p>
+               </person>
+               <person xml:id="kamzelak-pers011">
+                  <p>Mann, Thomas</p>
+                  <p n="work" xml:id="kamzelak-work001"><hi rend="italic">Joseph</hi></p>
+                  <p n="work" xml:id="kamzelak-work004"><hi rend="italic">Dr. Faustus</hi></p>
+                  <p n="work" xml:id="kamzelak-work031"><hi rend="italic">Buddenbrooks</hi></p>
+               </person>
+               <person xml:id="kamzelak-pers013">
+                  <p>Marlowe, Christopher</p>
+                  <p n="work" xml:id="kamzelak-work005"><hi rend="italic">Doctor Faustus</hi></p>
+               </person>
+               <person xml:id="kamzelak-pers015">
+                  <p>Ovid</p>
+               </person>
+              <!-- <person xml:id="kamzelak-pers016">
+                  <p>Philemon</p>
+               </person>-->
+               <person xml:id="kamzelak-pers017">
+                  <p>Shakespeare, William</p>
+               </person>
+               <person xml:id="kamzelak-pers018">
+                  <p>Wickham, Lucy</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-kamzelak-width06">width=0.6\textwidth</rendition>
+            <!--<rendition xml:id="latex-kamzelak-width07">width=0.7\textwidth</rendition>-->
+            <rendition xml:id="latex-kamzelak-width08">width=0.8\textwidth</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-18T08:43:00"
+            who="https://github.com/peterstadler">Korrekturen des Autors eingearbeitet und Layout angepasst.</change>
+         <change when="2015-11-17T20:51:00"
+            who="https://github.com/peterstadler">Interne Korrekturen eingearbeitet und Layout angepasst.</change>
+         <change when="2015-11-01T20:50:00"
+            who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+         <change when="2015-10-25T00:43:00"
+            who="https://github.com/peterstadler">Textstruktur überarbeitet.</change>
+         <change when="2015-10-02T11:31:35.439+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="kamzelak-abstract">
+            <p>Der Beitrag geht der Frage nach, wie sich ein semantic web herstellen lässt, wo sich doch die Bedeutung der gesprochenen und geschriebenen Sprache kaum eindeutig fixieren lässt. Digital muss man sich auf Normdaten stützen, die Referenzen eindeutig zu machen versuchen (GND, GIS). Neue Ansätze, Werk-Autor-Relationen zu beschreiben (FRBR), werden ebenfalls diskutiert. Bei allen Versuchen, eindeutige Relationen herzustellen, spielt die historische Dimension eine wesentliche Rolle, die jedoch in technischen Lösungen (RDF) noch zu wenig berücksichtigt ist.</p>
+         </div>
+      </front>
+      <body>
+         <p>Alle Editionen sind digital; das ist inzwischen eine Binsenweisheit. Die Erarbeitung und Verarbeitung der Daten, die für eine Edition gesammelt und hinzugefügt werden, als Transkription, als Kommentar und als Metadaten auch technischer Art, geschieht digital, mit Computern im weitesten Sinne. Das Produkt oder die Produkte sind zunächst digitale Daten, später bedruckte Seiten oder eine digitale Publikation auf E-Readern oder im <hi rend="italic">World Wide Web</hi> (W3). Ebenso eine Binsenweisheit ist es, dass Editionsdaten sehr hochwertige Daten sind. So scheint es im Zeitalter von <quote source="#kamzelak-kamzelak-ftn1">Mashups, der intelligenten Wiederverwendung von Webressourcen</quote><note type="bibl" xml:id="kamzelak-kamzelak-ftn1" n="1">Siehe <ref target="#Endres-Niggemeyer2013" type="bibl"/>.</note> sinnvoll zu sein, die digitalen Daten von Editionsprojekten für solche Mashups zur Verfügung zu stellen.</p>
+            <p>Als Beispiel soll &#x2013; nicht ganz zufällig &#x2013; die Edition der Tagebücher von <name ref="#kamzelak-pers009">Harry Graf Kessler</name> dienen.<ref xml:id="kamzelak-kamzelak-ftn2" target="#Kessler" type="bibl"/>
+               Es sind seit 1994 neun von acht Bänden erschienen. Die Arbeit daran dauerte insgesamt 16&#8239;Jahre. Bei der Edition sind hochqualifizierte Daten gesammelt worden, die als erläuterte Register in jedem Band zu finden sind. Dabei sind relevante Mengen zusammengekommen, bedenkt man, dass alle Einträge gut recherchiert und mit IDs der <hi rend="italic">Gemeinsamen Normdatei</hi> (GND) angereichert sind. Über 4.000&#8239;Werke der europäischen Literatur, über 4.000&#8239;Körperschaften zumeist aus Europa, aber auch aus den USA, über 5.000 Orte auf der ganzen Welt, teilweise mit historischen Hintergrunddaten und über 12.000&#8239;Namen der wichtigsten Kulturschaffenden Europas um die Jahrhundertwende mit Verflechtungen in die ganze Welt.<note xml:id="kamzelak-kamzelak-ftn3" n="3">Für eine ausführliche Darlegung der materiellen Seite dieser Edition siehe <ref target="#Kamzelak2009" type="bibl"/>.</note> Auch die Weltreise <name ref="#kamzelak-pers009">Kesslers</name> hat die Register erweitert.<note xml:id="kamzelak-kamzelak-ftn4" n="4">Siehe <ref target="#Kamzelak2013" type="bibl"/>.</note> Diese Arbeit wurde zumeist mit öffentlichen Geldern im Umfang von mehr als 2,3&#8239;Millionen Euro finanziert. Zwar ist die Ausgabe erfolgreich und verkauft sich im Vergleich mit anderen, qualitativ nicht im Mindesten dieser Edition nachstehenden Ausgaben sehr gut. Dennoch ist es angesichts der Fördersumme, der Arbeitszeit und vor allem der weiteren Möglichkeiten, diese Daten in weiteren Zusammenhängen zu nutzen, absolut geboten, weiterzudenken, wie diese Daten tatsächlich nachgenutzt werden können.</p>
+         <p>Bei qualitativ hochwertigen Daten zur Kultur der Jahrhundertwende um 1900, die digital vorliegen, denkt man an das <hi rend="italic">semantic web</hi>. Also einer automatischen Verknüpfung semantischer Entitäten im W3. Das <hi rend="italic">World Wide Web Consortium</hi> (W3C) definiert das <hi rend="italic">semantic web</hi> kurz so:
+               <quote source="#kamzelak-ftn5">The term <q>Semantic Web</q> refers to W3C’s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.</quote><ref target="#W3C" type="bibl" xml:id="kamzelak-ftn5" n="5"/>
+         </p>
+         <p><!--Hier wird jedoch nicht so von Semantik gehandelt, wie dies  ein Geisteswissenschaftler versteht,--> Das hier zugrundeliegende Verständnis von <q>Semantik</q> dürfte sich allerdings nicht mit dem eines Geisteswissenschaftlers decken, der eher eine Definition wie die folgende erwarten dürfte:
+            <quote source="#kamzelak-ftn6">Semantik (Semasiologie, vom griech. sema, <q>Zeichen</q>; Signifikant, vom lat. signum, <q>Zeichen</q>), Teildisziplin der Semiotik, deren Forschungsgegenstand die Beziehung zwischen dem Zeichen und dem durch dieses bedeutetem oder bezeichnetem Objekt ist. Allgemein ist die S. auch die Wissenschaft von den Bedeutungen sprachlicher Zeichen, die Theorie der Bedeutungen.</quote><ref target="#Schmidt1982" type="bibl" xml:id="kamzelak-ftn6" n="6">S.&#8239;631</ref>
+         </p>
+         <p>Was in der Linguistik eher als die Bedeutung von Zeichen und von Verbindungen von Zeichen (Wörtern, Sätzen, ganzen Büchern oder Bibliotheken) verstanden wird, versteht die Technik als Verknüpfung von <q>Gleichem</q> und konzentriert sich auf die Verknüpfungsregeln (RDF, OWL),<note xml:id="kamzelak-ftn7" n="7">RDF = Reference Description Framework. Siehe <ptr target="https://www.w3.org/RDF/"/>. <lb/>OWL = Web Ontology Language. Siehe <ptr target="http://www.w3.org/TR/owl2-overview/"/>.</note> um dieses Gleiche, das an verschiedenen Orten abgelegt ist, über eine Abfragesprache (SPARQL)<note xml:id="kamzelak-ftn8" n="8">SPARQL = SPARQL Protocol And RDF Query Language.</note> sichtbar zu machen.<!--</p>
+         <pb/>
+         <p>--> Und hier beginnen die Schwierigkeiten, denn ein einfacher Satz wie <q><q>Ich hab dich lieb bis zum Mond</q>, sagte der kleine Hase und machte die Augen zu.</q><note xml:id="kamzelak-ftn9" n="9">Aus dem Kinderbilderbuch: <ref target="#McBratney2015" type="bibl"/><!--, 24&#x00A0;Seiten.--></note> ist an sich unverständlich bzw. im Wortsinne unverständlich. Bei <q>bis zum Mond</q> fehlt der Vergleichspunkt. Nimmt man den Standpunkt des Sprechers (den eine Maschine ja nicht hat), so könnte sich eine Distanz ergeben, die man messen kann und als Vergleich zum <q>Liebhaben</q> nehmen könnte, doch misst man <q>Liebhaben</q> ja kaum mit Distanzen. Auch der Halbsatz <q>und machte die Augen zu</q> ist mehrdeutig. Entweder der Hase schläft einfach ein oder er entschläft. Dem Wort <q>einschlafen</q> ist das nicht abzulesen, wohl aber dem Kontext des ganzen Buches, wo es ja ums Einschlafen, oder das nicht Einschlafen können/wollen, um das zu Bett gehen, geht. Dieses metaphorische Sprechen ist selbst für geübte Leser und Sprecher eine Herausforderung. In diesem Falle noch mehr durch die Multimodalität und Mehrsprachigkeit, da die Geschichte nicht nur aus Text, sondern auch aus Illustrationen<note xml:id="kamzelak-ftn10" n="10">Illustrationen von <name ref="#kamzelak-pers007">Anita Jeram</name>.</note> besteht, und der Text eine Übersetzung aus dem Englischen ist.<note xml:id="kamzelak-ftn11" n="11">Übersetzung von <name ref="#kamzelak-pers006">Rolf Inhauser</name>. Im Englischen ist <q>I love you to the moon and back</q> inzwischen eine sehr populäre Redeweise geworden.</note> Bedeutung ist also kontextabhängig und mehrdeutig.</p>
+            <p>Dass dies kein konstruiertes Beispiel ist, beweist ein Blog-Beitrag von <name ref="#kamzelak-pers018">Lucy Wickham</name>:
+               <quote source="#kamzelak-ftn12">[…] I guess I just do not understand why it is that specific distance. The moon is, on average, 238.855&#8239;miles away. So technically people are saying they love you 477.710&#8239;miles (the distance to the moon and back).<lb/>
+               You think that&#x2019;s a lot, but in terms of a car, it&#x2019;s not really. A car gets an average of 12.000&#8239;miles a year. Saying someone loves you 477.710 miles is like saying someone loves you for 40 years. That is not a very strong guarantee.&#x00A0;[…]</quote><ref target="#Wickham" type="bibl" xml:id="kamzelak-ftn12" n="12"/>
+         </p>
+            <p>Was <name ref="#kamzelak-pers018">Wickham</name> versucht, ist eine Explikation dieser Metapher. Linguistisch gesehen stellt sie Implikaturen her, um das Unverständliche in Verständliches aufzulösen.<note xml:id="kamzelak-ftn13" n="13">Siehe <ref target="#Grice1975" type="bibl"/>.</note> Sie expliziert das Metaphorische. <name ref="#kamzelak-pers005">Grice</name> gibt als Grundmaxime aus, dass Verständigung auf Kooperation beruht. Diese Grundbedingung muss man auch unterstellen, wenn man die Bemühungen um ein <hi rend="italic">semantic web</hi> beurteilt. Doch die vier Maximen, die dann folgen, sind schwer zu greifen: 1.&#8239;Qualität zielt darauf ab, nur wahre Dinge zu sagen, Dinge, für die man Beweise besitzt, 2.&#8239;Quantität spricht von der Menge der Informationsvergabe, die weder zu ausladend, noch zu verkürzt sein darf, 3.&#8239;Relation und 4.&#8239;Art und Weise: Hier soll man Mehrdeutigkeit vermeiden oder obskure Ausdrücke. Am schwersten zu greifen ist allerdings die dritte Maxime, die erläutert wird mit dem Satz <q>Be relevant.</q> Diese dritte Maxime erinnert aber am meisten an die Sprache des W3C, wo es eben um Verknüpfungen von Daten geht, um Relationen, und zwar um relevante, um semantisch zugehörige Daten.</p>
+            <p>Da Maschinen noch keine Implikaturen herstellen können, müssen die Relationen eindeutig sein. Das gelingt am zielsichersten durch die Verwendung von Normdaten. Ist eine Person durch eine GND-Nummer<note xml:id="kamzelak-ftn14" n="14">Siehe die Informationsseite der Deutschen Nationalbibliothek, die die GND pflegt: <ptr target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html"/>.</note> identifiziert, lassen sich leicht Verknüpfungen zu anderen Angeboten herstellen, die diese Nummer ebenfalls führen. Das sehr beliebte und stetig qualitativ verbesserte Wikipedia<note xml:id="kamzelak-ftn15" n="15"><hi rend="italic">Wikipedia. Die freie Enzyklopädie</hi>, URL: <ptr target="https://www.wikipedia.de/"/>.</note> führt diese GND-Nummer zum Beispiel mit. Es wäre also möglich &#x2013; und wird auch praktiziert &#x2013; statt selbst Personenerläuterungen zu recherchieren und zu schreiben, über die GND-Nummer auf Angebote wie die Deutsche Biographie<note xml:id="kamzelak-ftn16" n="16"><ref target="http://www.deutsche-biographie.de/"/>. Die Deutsche Biographie hat gegenüber der Wikipedia den Nachteil, dass die Artikel <soCalled>veralten</soCalled>, während die Wikipedia <soCalled>lebt</soCalled> und stetig verbessert werden kann. Dafür lässt sich die Deutsche Biographie eindeutiger referenzieren, weil sie stabiler ist.</note> 
+               oder den Wikipedia-Eintrag zu verlinken oder diesen Link alternativ zur eigenen Erläuterung anzubieten. Das wird von der <hi rend="italic">academic community</hi> aber nur angenommen, wenn die Verbindungen auch eindeutig sind und nicht durch falsche Verknüpfungen auf andere Personen zeigen, als die, die man gemeint hat. Trotz sorgfältiger Redaktion an der Deutschen Nationalbibliothek (DNB) gibt es doch oft uneindeutige Individualisierungen. Das rührt daher, dass die Personen durch Croudsourcing in der Bibliotheksgemeinde über die Katalogverbünde in die DNB eingespeist werden. Zweck der Eingabe ist durchaus die eindeutige Identifizierung eines Autors, um ihn mit einem Werktitel zu verknüpfen, doch bleibt dafür im Zusammenhang mit der Erschließung wenig Zeit. So ist es doch oft einfacher, einen neuen GND-Satz anzulegen.<note xml:id="kamzelak-ftn17" n="17">Es gibt 29.675 Müller, 80.282 Heinrich, 1.947 Veit in der GND. Bei solchen Mengen ist selbst die kaskadierende Suche noch sehr aufwändig.</note> Nimmt man hier noch in Betracht, dass es international mehrere ernst zu nehmende Normdatenpools zu Personen gibt, verwässert sich der Wert des Normdatums zunehmend, da sich das Problem der Dubletten potenziert. Antworten auf dieses Problem hat das Projekt VIAF<note xml:id="kamzelak-ftn18" n="18"><hi rend="italic">Virtual International Authority File</hi> (VIAF), URL: <ptr target="https://viaf.org/"/>.</note> gesucht und teilweise gefunden. VIAF hat einen Algorithmus entwickelt, der Normdaten verschiedener Normdatenpools abgleicht und da, wo es durch die Beschreibungen möglich ist, zusammenführt. So kann VIAF z.&#8239;B. sechs Ansetzungen von <name ref="#kamzelak-pers009">Harry Graf Kessler</name> auf einen Datensatz reduzieren. Das gelingt aber leider nicht zuverlässig.<note xml:id="kamzelak-ftn19" n="19">Sucht man in VIAF im Feld <q>Namen</q> nach <q>Veit</q>, erhält man 3.057 Treffer. Bei <q><name ref="#kamzelak-pers008">Veit, Joachim</name></q> schränkt sich die Auswahl ein auf 86&#x00A0;Treffer. Der gesuchte <name ref="#kamzelak-pers008">Joachim Veit</name> mit der GND-Nummer&#x00A0;103988327 ist jedoch nicht darunter. Die Suche erfolgte am 29.&#8239;September 2015.</note> Hier besteht also Handlungsbedarf. Dennoch: Die GND-Nummer ist die verlässlichste Identifikation, die wir im deutschsprachigen Raum haben und sollte unbedingt zum Pflichtfeld aller Metadaten gehören.</p>
+         <p>Gleiches oder Ähnliches gäbe es über Normdaten für Körperschaften, Orte, Werke, Periodika, Sachen und Themen zu sagen. Bei diesen Gruppen ist die Identifizierung in der Regel noch viel schwieriger zu vereindeutigen. Bei Orten verwendet man zunehmend Georeferenzen oder Geoinformationssysteme (GIS) und kann auf diese Weise zuverlässig einen Punkt auf einer vermassten Karte anzeigen, aber keine Flächen und keine historische Dimension eines Ortes. Die historische Dimension muss über andere Quellen, als textliche Metadaten, hinzugespielt werden.<note xml:id="kamzelak-ftn20" n="20">Eine wichtige Quelle hierfür ist <hi rend="italic">Geonames</hi>, das einige historische Informationen mitführt. Siehe <ptr target="http://www.geonames.org/"/>.</note> Dies in aller Breite auszuführen würde den Rahmen jedoch sprengen.<note xml:id="kamzelak-ftn21" n="21">Hier sollte es einen interdisziplinären Workshop mit Geographen, Historikern und vielleicht Ethnologen gemeinsam mit Fachleuten aus der Informatik und den Digital Humanities geben.</note> Hier sollen die Werke noch betrachtet werden, die in Editionen von Lebensdokumenten eine besondere Rolle spielen. Eine besondere Rolle deshalb, weil in Briefen und Tagebüchern zwar über publizierte Werke, aber auch über Publikationsprojekte gesprochen wird. Projekte haben einen besonderen Charakter, denn sie werden im Idealfall einfach zu publizierten Werken, können aber auch unvollendet bleiben oder es können mehrere Werke aus diesen Projekten resultieren.<note xml:id="kamzelak-ftn22" n="22">So wird aus <name ref="#kamzelak-pers011">Thomas Manns</name> <title ref="#kamzelak-work001">Joseph</title>  eine Tetralogie. Siehe z.&#8239;B. <ref target="#Mann1988" type="bibl"/>.</note> Im ersten Fall ist die Wahrscheinlichkeit groß, ein Normdatum zu finden, im zweiten Falle in der Regel nicht. Wie geht man im <hi rend="italic">semanic web</hi> mit solchen Projekten um? Wenn <name ref="#kamzelak-pers011">Thomas Mann</name> über seinen <title ref="#kamzelak-work001">Joseph</title> schreibt, dann ist überhaupt nicht klar, um welchen Romanteil es geht, und oft ist ein Motiv gemeint, das in mehreren Bänden vorkommt. Dieses Motiv jedoch als Thema oder Schlagwort zu begreifen, würde zu kurz greifen, da es ja wiederum mit dem Werk verbunden ist. Gibt man also alle Werke an, die in Frage kommen, dann wird die Verknüpfung inflationär und führt zu einer Verwässerung der Suchergebnisse.</p>
+         <p><!--Aber auch wenn man innerhalb der publizierten Werke bleibt,-->Aber selbst bezüglich der publizierten Werke stellt sich oft die Frage, was referenziert werden soll. So sprechen Schriftsteller &#x2013; so wie wir auch &#x2013; meist nur vom Faust. Wir gehen davon aus, dass <name ref="#kamzelak-pers003">Goethes</name> <title ref="#kamzelak-work002">Faust&#x00A0;I</title> gemeint ist,<note xml:id="kamzelak-ftn23" n="23">Im Grunde auch nur eine <name ref="#kamzelak-pers005">Grice</name>&#x2019;sche Implikatur, um die Dunkelheit der Sprache, wie <name ref="#kamzelak-pers001">Adorno</name> sagt, aufzulösen.</note> was aber durchaus nicht gesichert ist. Es gibt <title ref="#kamzelak-work002">Faust&#x00A0;I</title> und <title ref="#kamzelak-work003">II</title>, den <title ref="#kamzelak-work006">Urfaust</title> und die Figur Faust. Es gibt einen <title ref="#kamzelak-work005">Faust</title> von <name ref="#kamzelak-pers013">Christopher Marlowe</name>, dann den <title ref="#kamzelak-work004">Dr. Faustus</title> von <name ref="#kamzelak-pers011">Thomas Mann</name> usw. Wir müssen also, wenn wir Faust referenzieren, Verweisungen setzen zu all diesen Möglichkeiten. Hilft das oder wird auch hieraus eine Flut von Verknüpfungen, die verwässert?</p>
+         
+         <figure xml:id="kamzelak-fig01" rendition="#latex-kamzelak-width06">
+               <graphic url="figures/kamzelak-fig01.pdf" width="4680px" height="1758px"/>
+               <head type="legend">FRBR-Modell, <hi rend="italic">Group 1 Entities and Primary Relationships</hi><note>Abbildung entnommen aus <ptr target="http://archive.ifla.org/VII/s13/frbr/frbr1.htm#3"/></note></head>
+            </figure>
+         <p>Eine Antwort auf diesen Problemkomplex versucht die <hi rend="italic">International Federation of Library Associations and Institutions</hi> (IFLA) mit dem System FRBR<note xml:id="kamzelak-ftn24" n="24"><hi rend="italic">Functional Requirements for Bibliographic Records</hi> (FRBR). Siehe <ptr target="http://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/>.</note> zu geben (vgl. Abb.&#8239;<ref target="#kamzelak-fig01" type="crossref" rend="no"/>).
+            Die Bibliotheken haben erkannt, dass die Verbindungen zwischen Entitäten für jeden Nutzer eines Bibliothekskatalogs sichtbar sein sollten. Dabei ist <hi rend="italic">item</hi> ein spezifisches Exemplar einer Medieneinheit, das in einer Bibliothek zu finden ist. Dieses Exemplar ist unikal, aber eine Bibliothek kann mehrere Exemplare eines Werkes besitzen. So zum Beispiel Ausgaben verschiedener Verlage oder verschiedene Auflagen, also Exemplare (<hi rend="italic">items</hi>) verschiedener <hi rend="italic">manifestations</hi> des Werkes. Das Werk selbst ist dabei als Werkidee (<hi rend="italic">work</hi>) zu verstehen, die einen spezifischen Ausdruck findet (<hi rend="italic">expression</hi>), zum Beispiel als Roman oder als Komposition. Oder aber, um im Beispiel zu bleiben, wäre <name ref="#kamzelak-pers011">Thomas Manns</name> Projekt <title ref="#kamzelak-work001">Joseph</title>, von dem er in Briefen spricht, <hi rend="italic">work</hi>, der erste Teil des Romans <title>Die Geschichten Jaakobs</title> <hi rend="italic">expression</hi> und die Fischerausgabe davon die <hi rend="italic">manifestation</hi>. Das scheint logisch zu sein und abzudecken, was in Lebensdokumenten an Referenzpunkten vorkommt. Wie sieht es also mit dem zweiten Beispiel – <hi rend="italic">Faust</hi> – aus? Nehme ich den <name ref="#kamzelak-pers003">Goethe</name>schen Faust als <hi rend="italic">work</hi>, so sind  <title ref="#kamzelak-work006">Urfaust</title>, <title ref="#kamzelak-work002">Faust&#x00A0;I</title> und <title ref="#kamzelak-work003">Faust&#x00A0;II</title> <hi rend="italic">expressions</hi>? Oder nehme ich den Stoff Faust als <hi rend="italic">work</hi> und habe dann als <hi rend="italic">expressions</hi> <name ref="#kamzelak-pers003">Goethes</name> <title ref="#kamzelak-work006">Urfaust</title>, <title ref="#kamzelak-work002">Faust&#x00A0;I</title> und <title ref="#kamzelak-work003">Faust&#x00A0;II</title>, aber auch <name ref="#kamzelak-pers013">Marlowes</name> <title ref="#kamzelak-work005">Dr. Faustus</title> und vielleicht sogar <name ref="#kamzelak-pers011">Thomas Manns</name> <title ref="#kamzelak-work004">Dr. Faustus</title> als <hi rend="italic">expressions</hi>? Wie sieht es mit Übersetzungen aus? Sind sie <hi rend="italic">expressions</hi> neben den Originaltexten? Das würde dann ja bedeuten, dass sie direkt aus der Werkidee stammen, was sie faktisch nicht tun. Und wenn man nun die Originalmanu- oder typoskripte hinzunimmt, die ja vor dem 20.&#8239;Jahrhundert teilweise wesentlich von den gesetzten Texten abweichen, dann fehlt ein Glied in der Kette oder die falsch gesetzten <hi rend="italic">expressions</hi>  verorten sich neben den <soCalled>richtigen</soCalled> Handschriften.</p>
+         <figure xml:id="kamzelak-fig02" rendition="#latex-kamzelak-width06">
+            <graphic url="figures/kamzelak-fig02.png" width="4680px" height="1758px"/>
+            <head type="legend">RDF-Modell nach FRBR<note xml:id="kamzelak-ftn25" n="25"><ref target="#Wiesenmueller2010" type="bibl"/>. Die Grafik wurde dem Wikipedia-Eintrag zu FRBR entnommen, URL: <ptr target="https://de.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records"/>.</note></head>
+         </figure>
+         <p>Nun hat bereits die IFLA erkannt, dass das System so zu steif wäre und hat Rekursivität zugelassen. In ihrer Vorstellung sollte eher ein semantischer Graph entstehen, kein hierarchischer Baum (vgl. Abb.&#8239;<ref target="#kamzelak-fig02" type="crossref" rend="no"/>).
+            Was sich hier manifestiert, ist ein einfaches Schema mit Subjekt, Prädikat und Objekt. Verwendet werden erweiterte Prädikate, wie sie bereits in der ersten Grafik von FRBR gezeigt sind: <q>is realized through</q>, <q>is embodied in</q>, <q>is exemplified by</q>. Wozu benötigt man die Begriffe <hi rend="italic">work</hi>, <hi rend="italic">expression</hi>, <hi rend="italic">manifestation</hi> und <hi rend="italic">item</hi>? Und wieso muss im Beispiel der Grafik die englische Fassung einen direkten Pfeil vom Werk haben, wenn es doch die Übersetzung des französischen Originals ist. Da die Pfeile alle einseitig gerichtet sind, liesse sich diese Übersetzung trotzdem eindeutig dem Werk zuordnen. Um es positiv zu wenden, kann man vielleicht sagen, dass die Einteilung von Werken nach <hi rend="italic">work</hi>, <hi rend="italic">expression</hi>, <hi rend="italic">manifestation</hi> und <hi rend="italic">item</hi> in die richtige Richtung weist und hilft, ein Bewusstsein für die Komplexität des Werkbegriffs zu entwickeln. Die Beschreibung mit Pfeildiagrammen nach dem Schema Subjekt, Prädikat und Objekt eröffnet vielfältige Möglichkeiten. Dass es sich bei diesem Schema um RDF<!--<note xml:id="kamzelak-ftn26" n="26"><hi rend="italic">Ressource Description Framework</hi> (RDF). Siehe <ptr target="https://www.w3.org/RDF/"/>.</note>--> handelt, ist unschwer zu erkennen. Bibliothekskataloge künftig mit RDF aufzubauen, ist ein großer Schritt, um digitale Editionen mit der Bibliotheks- und Archivwelt zu verschmelzen.<note xml:id="kamzelak-ftn27" n="27">Die bisherige Katalogisierungsrichtlinie RAK (<hi rend="italic">Regeln für die alphabetische Katalogisierung</hi>) soll abgelöst werden durch das auf FRBR und RDF aufbauende RDA (<hi rend="italic">Ressource Description and Access</hi>). Siehe <ptr target="http://www.rda-jsc.org/archivedsite/rda.html"/>. Ziel ist es dabei auch, die Katalogisierung bereits im Verlag zu beginnen, indem dort die Werke bereits in RDA angelegt werden.</note>
+         </p>
+         
+            <p>Wünschenswert wäre ein einfaches System, das wie eine Genealogie funktioniert. Von jeder Person gibt man ausschliesslich Vater und Mutter ein. Daraus allein erschließt sich die gesamte Familiengeschichte mit allen Seitenlinien: Nachzeitig sind Mutter und Vater, Großmütter und Großväter, Urgroßeltern usw., vorzeitig sind Töchter und Söhne, Enkelinnen und Enkel, Urenkel usw., zur Seite Cousinen, Cousinen 2.&#8239;Grades, 3.&#8239;Grades usw., oder zur Seite vorzeitig finden sich Nichten und Neffen 2.&#8239;Grades (also die Kinder von Cousinen) usw. Nur die Begriffe gehen aus, nicht die Eindeutigkeit der Beziehung zur Ausgangsperson.</p>
+         
+         <p>Kehrt man zu dem Beispiel Faust zurück, wäre ein Graph wie in Abb.&#8239;<ref target="#kamzelak-fig03" type="crossref" rend="no"/> dargestellt vorstellbar.
+            Dies wäre das Ergebnis einer Suche mit SPARQL, der RDF-Abfragesprache.<note xml:id="kamzelak-ftn28" n="28">Siehe <ptr target="http://www.w3.org/TR/rdf-sparql-query/"/>.</note> RDF muss man formal beschreiben, wobei man verschiedene Notationen verwenden kann: Turtle, N-Triples, N-Quads, JSON-LD, Notation3 oder RDF/XML. Der Datensatz zu <name ref="#kamzelak-pers009">Harry Graf Kessler</name> aus der Deutschen Biographie ist im Listing&#x00A0;<ref target="#kamzelak-fig01" type="crossref" rend="no"/> wiedergegegen. <!--</p>
+         <p>-->Auf diese Weise formal beschrieben kann ein Projekt wie RelFinder,<note><hi rend="italic">RelFinder. Interactive Relationship Discovery in RDF Data</hi>, URL: <ptr target="http://www.visualdataweb.org/relfinder.php"/>.</note> das die Daten aus der Wikipedia in Form der DBPedia<note xml:id="kamzelak-ftn30" n="30">Siehe <ptr target="http://wiki.dbpedia.org/"/>.</note> abfragt, diese in Graphen umsetzen. Sucht man nach <name ref="#kamzelak-pers003">Goethe</name> und Faust, erhält man den Graphen aus  Abb.&#8239;<ref target="#kamzelak-fig04" type="crossref" rend="no"/>.
+            Weder <title>Faust&#x00A0;I</title> noch <title>Faust&#x00A0;II</title> kommen in dem Graphen vor. Auch die Verbindung zu <name ref="#kamzelak-pers015">Ovid</name> wird nicht dargestellt. Sucht man nach <name ref="#kamzelak-pers003">Goethe</name> und <name ref="#kamzelak-pers015">Ovid</name>, ergibt sich der Graph aus Abb.&#8239;<ref target="#kamzelak-fig05" type="crossref" rend="no"/>.
+            Zunächst ist der Graph verwirrend und enthält leider auch falsche Angaben, wie zum Beispiel, dass <name ref="#kamzelak-pers003">Goethe</name> <name ref="#kamzelak-pers017">Shakespeare</name> beeinflusst habe. Das ist aber sicherlich nur eine Frage der Justierung. Interessant ist an dem Graphen, dass Namen zum Vorschein kommen, an die man bei der Eingabe der Stichwörter vielleicht nicht gedacht hat. Gibt man nun ein drittes Stichwort ein, ergeben sich neue Fragestellungen (vgl. Abb.&#8239;<ref target="#kamzelak-fig06" type="crossref" rend="no"/>).</p>
+         <figure xml:id="kamzelak-fig03" place="here" rendition="#latex-kamzelak-width08">
+            <graphic url="figures/kamzelak-fig03.png" width="4680px" height="1758px"/>
+            <head type="legend">Natürlichsprachliche Triple</head>
+         </figure>
+         
+         <figure xml:id="kamzelak-fig08">
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" source="figures/kamzelak-listing01.xml"/>
+            
+            <!--<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:gnd="http://d-nb.info/standards/elementset/gnd#" xmlns:rda="http://rdvocab.info" xmlns:rel="http://purl.org/vocab/relationship/" xmlns:shv="http://ns.aksw.org/spatialHierarchy/" xmlns:acal="http://cal.aksw.org/" xmlns:ndb="http://data.deutsche-biographie.de/" xmlns:ndbvoc="http://data.deutsche-biographie.de/vocabulary/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/" xml:base="http://data.deutsche-biographie.de/">
+   <rdf:Description rdf:about="http://data.deutsche-biographie.de/Person/sfz40697">
+      <rdf:type rdf:resource="http://data.deutsche-biographie.de/vocabulary/Person"/>
+      <rdfs:seeAlso rdf:resource="http://d-nb.info/gnd/118561685"/>
+      <rdfs:seeAlso rdf:resource="http://linkedhistory.aksw.org/pnd/118561685"/>
+      <rdfs:seeAlso rdf:resource="http://beacon.findbuch.de/seealso/
+         pnd-aks?format=sources&amp;id=118561685"/>
+      <rdaGr2:identifierForThePerson>sfz40697</rdaGr2:identifierForThePerson>
+      <ndbvoc:page>http://www.deutsche-biographie.de/sfz40697.html</ndbvoc:page>
+      <rdaGr2:gender>Male</rdaGr2:gender>
+      <gnd:gender rdf:resource="http://d-nb.info/standards/vocab/gnd/Gender#male"/>
+      <ndbvoc:gender rdf:resource="http://data.deutsche-biographie.de/vocabulary/Male"/>
+      <gnd:preferredNameForThePerson>Kessler, Harry Graf von</gnd:preferredNameForThePerson>
+      <rdfs:label>Kessler, Harry Graf von</rdfs:label>
+      <rdaGr2:periodOfActivityOfThePerson>1868 bis 1937</rdaGr2:periodOfActivityOfThePerson>
+      <gnd:periodOfActivityOfThePerson>1868 bis 1937</gnd:periodOfActivityOfThePerson>
+      <rdaGr2:professionOrOccupation>Schriftsteller; Diplomat</rdaGr2:professionOrOccupation>
+      <gnd:professionOrOccupation>Schriftsteller; Diplomat</gnd:professionOrOccupation>
+      evangelisch 1868 186818681868;1868*1868-05-23Paris 1937 193719371937;1937*1937-11-30Lyon
+      <!-\- pg -\->
+      <rel:childOf rdf:resource="http://data.deutsche-biographie.de/Person/sfz40686"/>
+      <!-\- l -\->
+   </rdf:Description>
+</rdf:RDF>
+            </egXML>-->
+            <head type="legend">RDF-Datensatz zu <name ref="#kamzelak-pers009">Harry Graf Kessler</name> aus der <hi rend="italic">Deutschen Biographie</hi>, <lb/>URL: <ptr target="http://data.deutsche-biographie.de/rest/sfz40697.rdf"/></head>
+         </figure>
+         <figure xml:id="kamzelak-fig04">
+            <graphic url="figures/kamzelak-fig04.png" width="1745px" height="691px"/>
+            <head type="legend">RelFinder Graph zu <name ref="#kamzelak-pers003">Goethe</name> und <name ref="#kamzelak-pers003">Goethes</name> <title>Faust</title>. <lb/>Siehe <ptr target="http://www.visualdataweb.org/relfinder/relfinder.php"/>  mit Eingabe der zwei Stichwörter <q><name ref="#kamzelak-pers003">Goethe, Johann Wolfgang von</name></q> und <q><name ref="#kamzelak-pers003">Goethes</name> Faust</q></head>
+         </figure>
+         <figure xml:id="kamzelak-fig05"  rendition="#latex-kamzelak-width08">
+            <graphic url="figures/kamzelak-fig05.png" width="2143px" height="1569px"/>
+            <head type="legend">RelFinder Graph zu <name ref="#kamzelak-pers003">Goethe</name> und <name ref="#kamzelak-pers015">Ovid</name>. <lb/>Siehe <ptr target="http://www.visualdataweb.org/relfinder/relfinder.php"/> mit Eingabe der zwei Stichwörter <q><name ref="#kamzelak-pers003">Goethe, Johann Wolfgang von</name></q> und <q><name ref="#kamzelak-pers015">Ovid</name></q></head>
+         </figure>
+         <figure xml:id="kamzelak-fig06" rendition="#latex-kamzelak-width08">
+            <graphic url="figures/kamzelak-fig06.png" width="1868px" height="1101px"/>
+            <head type="legend">RelFinder Graph zu <name ref="#kamzelak-pers003">Goethe</name>, <name ref="#kamzelak-pers015">Ovid</name> und <title>Faust</title>. <lb/>Siehe <ptr target="http://www.visualdataweb.org/relfinder/relfinder.php"/> (Ausschnitt) mit Eingabe der drei Stichwörter <q><name ref="#kamzelak-pers003">Goethe, Johann Wolfgang von</name></q> und <q><name ref="#kamzelak-pers015">Ovid</name></q> und <q>Faust</q></head>
+         </figure>
+         <pb/>
+            <p>Das Ergebnis ist sicherlich für die Faustforschung unergiebig. Es fehlen dezidiert literaturwissenschaftliche Relationen &#x2013; wie zum Beispiel der intertextuelle Bezug zu <name>Philemon</name> und <name>Baucis</name>. Das ist jedoch nicht dem Projekt RelFinder zuzuschreiben, sondern der Datenbasis, die eben noch zu dünn ist. Doch selbst jetzt bereits wird man durch die Visualisierung auf Dinge hingewiesen, die man vielleicht beim Beginn der Recherche nicht im Blick hatte<note xml:id="kamzelak-ftn34" n="34">Dies ist das Ziel des vom Bundesministerium für Bildung und Forschung BMBF geförderten Projektes <q>Vernetzte Korrespondenzen | Exilnetz33. Erforschung und Visualisierung sozialer, räumlicher, zeitlicher und thematischer Netze in Briefkorpora</q>, siehe <ptr target="http://exilnetz33.de/de/"/>.</note> &#x2013; wie zum Beispiel den angezeigten Filmen.</p>
+         
+         <p>Als Quintessenz kann man festhalten, dass die Entwicklung hin zu einem <hi rend="italic">semantic web</hi> mit Hinzufügung von Editionsdaten auf einem guten Weg ist. Schaut man sich DBPedia an, also ein Croudsourcing Projekt wie die Wikipedia selbst, bei dem semantische Entitäten im Sinne des W3C aus der Wikipedia extrahiert werden, so stellt man fest, dass die guten Effekte, wie sie etwa der RelFinder zeigt, durch falsche Schlüsse überlagert werden: Dass <name ref="#kamzelak-pers017">Shakespeare</name> durch <name ref="#kamzelak-pers003">Goethe</name> beeinflusst wurde, kann schlicht nicht sein. Es wäre deshalb sinnvoller, die RDF-Tripel selbst herzustellen oder die Editionsdaten so aufzubereiten, dass die RDF-Tripel sich eindeutig daraus ableiten. Ein Aspekt ist dabei besonders wichtig, dass nämlich die Experten für ein Gebiet selbst die Relationen beschreiben; aber auch nur die Relationen ihres eigenen Fachgebietes und nicht auf Vollständigkeit aller möglichen Relationen zielen. Das kann nur zu Ungenauigkeiten, zum Beispiel zu Dubletten führen. Vielleicht reicht es künftig tatsächlich für einen Bibliothekar, den Werktitel nach Vorlage sowie den Autorennamen nach Vorlage zu erfassen und diese beiden Entitäten miteinander du verknüpfen. Die Abfragesprache berücksichtigt dann den gesamten Datenbestand im W3, um die Beziehungen zwischen Werk und Person eindeutig zu definieren. Dies würde aber bedingen, dass alle Experten ihre Daten als RDF-Tripel eingeben. Das scheint zu kompliziert, wie das Beispiel am Datensatz der Deutschen Biographie zu <name ref="#kamzelak-pers009">Harry Graf Kessler</name> gezeigt hat. Kaum scheint es gelungen zu sein, die Editoren auf XML mit den Richtlinien der TEI<note xml:id="kamzelak-ftn35" n="35"><hi rend="italic">Text Encoding Initiative</hi> (TEI), URL: <ptr target="http://www.tei-c.org"/>.</note> eingeschworen zu haben, sollen sie RDF/XML erlernen? Und vielleicht dann auch RDF/XML mit Richtlinien der TEI? Das führt doch allmählich zu weit weg vom philologischen Terrain, auch wenn eine grundsätzliche computertechnische Kompetenz inzwischen vorausgesetzt werden muss und kann.</p>
+         <p>Auch Bibliotheken setzen nicht auf die Eingabe von Tripeln nach RDF, sondern bauen weiterhin auf an RDA angepasste Katalogsysteme, aus denen RDF in einer der möglichen Sprachen erzeugt wird. Doch wie überprüfen sie die Richtigkeit der übersetzten Syntax? Für Editoren gibt es bereits einen epistemischen Grund, Algorithmen nach den Regeln der Wissenschaftlichkeit zu verifizieren oder wenigstens zu plausibilisieren, d.&#8239;h. blindes Vertrauen auf rechnergestützte Verfahren darf es in der Wissenschaft nicht geben. Editoren müssten also die Transferleistung von ihrer eigenen Erfassung in RDF überprüfen und gegebenenfalls korrigieren, was wiederum die Kenntnis von RDF/XML bedingen würde. Es stellt sich die Frage, warum in der heutigen Zeit mit den heutigen technischen Möglichkeiten keine natürlichsprachlichen Tripel realisierbar sind. Dabei denke ich in der Tat an die Form wie oben in Abb.&#8239;3 beschrieben. Wenn Computerlinguisten es schaffen, aus einem Werk wie den Thomas <name ref="#kamzelak-pers011">Mann</name>schen <title ref="#kamzelak-work031">Buddenbrooks</title> mit NER-Taggern<note xml:id="kamzelak-ftn36" n="36">NER = Named Entity Recognition.</note> sämtliche Romanfiguren zu erkennen, dann kann es nicht unmöglich sein, in gut aufbereiteten natürlichsprachlichen Tripeln zielsicher Anschlussmöglichkeiten herzustellen. Auch die Sprache darf dabei keine Rolle spielen, wenn man zwei Grundregeln für die Prädikate anwendet: 1.&#8239;Alle Prädikate werden im Präsens verfasst. 2.&#8239;Alle Prädikate werden aktivisch gefasst. Auf diese Weise könnten alle Experten hochqualifizierte Daten-Tripel erstellen.</p>
+         <p>Nun bleibt noch die Frage offen, wie denn das <hi rend="italic">semanic web</hi> zu einem sinnvollen, Bedeutung transportierenden Informationsmedium  wird. Der RelFinder kann die DBPedia verwenden, weil sie einen SPARQL-Endpoint  bietet,<!--, einen Beacon,--> der gezielt abgefragt wird. Damit sind aber nur die Datenquellen im Blick, die auch bekannt sind. Das ist zu wenig. Die Holschuld muss in eine Bringschuld umgewandelt werden, der Fetch- in einen Pushdienst. So wie alle mobilen Daten potenziell überall verfügbar sind, müssen auch alle semantischen Tripel überall verfügbar sein. Es muss eine Technologie entwickelt werden, die jede RDF-Quelle mit einem Sender ausstattet, statt mit einer Schnittstelle. Der Receiver fragt dann in den virtuellen Raum und empfängt relevante Daten, die dann gefiltert, übersetzt und zusammengesetzt werden müssen. Erst dann entstehen Graphen, die von Experten gespeist werden und diese dann wieder durch die Zusammenschau, die Visualisierung zu neuen Fragestellungen führen. Erst dann entsteht ein wirkliches, hochqualifiziertes <hi rend="italic">semantic web</hi>.</p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Endres-Niggemeyer2013">Brigitte Endres-Niggemeyer (Hg.), <title level="m">Semantic Mashups. Intelligent Reuse of Web Resources</title>, New York 2013</bibl>
+               <bibl xml:id="Kessler">Harry Graf Kessler, <title level="m">Das Tagebuch 1880&#x2013;1937</title> (9&#x00A0;Bde., 2004&#x2013;2010), hg. von Roland S. Kamzelak und Ulrich Ott, Stuttgart 2004&#x2013;2010</bibl>
+               <bibl xml:id="Kamzelak2009">Roland S. Kamzelak, <title level="a">Materialwirtschaft</title>, in: <title level="s">editio</title> 23 (2009), S.&#8239;159&#x2013;168</bibl>
+               <bibl xml:id="Kamzelak2013">Roland S. Kamzelak (Hg.), <title level="m">Harry Graf Kesslers Weltreisealbum</title>. Mit einem Essay von Ulrich Pohlmann, edition.eliber.de 2013</bibl>
+               <bibl xml:id="W3C">World Wide Web Consortium (W3C), <title level="a">Semantic Web</title>, online abrufbar unter <ptr target="http://www.w3.org/standards/semanticweb/"/></bibl>
+               <bibl xml:id="Schmidt1982">Art. <title level="a">Semantik</title> in: Heinrich Schmidt, <title level="m">Philosophisches Wörterbuch</title>, neu bearb. von Georgi Schischkoff, Stuttgart 1982</bibl>
+               <bibl xml:id="McBratney2015">Sam McBratney, <title level="m">Weißt Du eigentlich, wie lieb ich dich hab?</title>, Frankfurt 2015</bibl>
+               <bibl xml:id="Wickham">Lucy Wickham, <title level="a">The Dilemma with the Phrase, <q>I Love You to the Moon and Back</q></title>, in: <title level="m">Thought Catalog</title>, online abrufbar unter <ref target="http://thoughtcatalog.com/lucy-wickham/2014/08/the-dilemma-with-the-phrase-i-love-you-to-the-moon-and-back/"/></bibl>
+               <bibl xml:id="Grice1975">H. Paul Grice, <title level="a">Logic and Conversation</title>, in:  <title level="m">Syntax and Semantics</title>, hg. von P. Cole und J. Morgan, New York 1975, Bd.&#8239;3:&#x00A0;Speech Acts, S.&#8239;41&#x2013;58</bibl>
+               <bibl xml:id="Mann1988">Thomas Mann, <title level="m">Joseph und seine Brüder</title> (3&#x00A0;Bde.), Frankfurt am Main 1988</bibl>
+               <bibl xml:id="Wiesenmueller2010">Heidrun Wiesenmüller, <title level="a">FRBR – Functional Requirements for Bibliographic Records. Vision – Theorie – Praxis</title>, Präsentation in der VÖB-Kommission für Sacherschließung in Wien am 17.&#8239;Juni 2010, online abrufbar unter <ptr target="http://www.univie.ac.at/voeb/fileadmin/Dateien/Kommissionen/Sacherschliessung/2010-06-17_FRBR.pdf"/></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

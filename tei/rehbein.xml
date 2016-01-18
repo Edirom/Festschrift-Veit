@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">It&#x2019;s our department: On Ethical Issues of Digital Humanities<note xml:id="rehbein-ftn1" n="1">This contribution is based on the Institute Lecture <q>On Ethical Aspects of Digital Humanities (Some Thoughts)</q> presented by the author at the Digital Humanities Summer Institute, Victoria BC, Canada, 5&#8239;June 2015. While the text has been revised and enriched with annotations, its essayistic style has been maintained.</note></title>
+            <author>
+                <name><forename>Malte</forename> <surname>Rehbein</surname></name>
+                <email/>
+               <affiliation>ist Inhaber des Lehrstuhls für Digital Humanities an der Universität Passau. Seine Arbeit umfasst die Betrachtung und Entwicklung computergestützter Methoden innerhalb der Geisteswissenschaften mit Schwerpunkten auf der Digitalisierung des kulturellen Erbes, der digitalen Heuristik sowie der Modellierung, Analyse und Visualisierung historischer Daten. Er setzt sich zudem kritisch mit allen Aspekten der Digitalisierung im fachspezifischen wie auch gesellschaftlichen Kontext auseinander.</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="rehbein-pers001">
+                  <p>Akerkar, Rajendra</p>
+               </person>
+               <person xml:id="rehbein-pers002">
+                  <p>Bacon, Francis</p>
+               </person>
+               <person xml:id="rehbein-pers004">
+                  <p>Beck, Ulrich</p>
+               </person>
+               <person xml:id="rehbein-pers007">
+                  <p>Bentham, Jeremy</p>
+               </person>
+               <person xml:id="rehbein-pers008">
+                  <p>Berry, David</p>
+               </person>
+               <person xml:id="rehbein-pers009">
+                  <p>Bollier, David</p>
+               </person>
+               <person xml:id="rehbein-pers010">
+                  <p>Born, Max</p>
+               </person>
+               <person xml:id="rehbein-pers011">
+                  <p>Boyd, Ryan</p>
+               </person>
+               <person xml:id="rehbein-pers013">
+                  <p>Briggs, Katherine</p>
+               </person>
+               <person xml:id="rehbein-pers015">
+                  <p>Bush, Vannevar</p>
+               </person>
+               <person xml:id="rehbein-pers017">
+                  <p>Carr, Nicholas</p>
+               </person>
+               <person xml:id="rehbein-pers018">
+                  <p>Christie, Agatha</p>
+               </person>
+               <person xml:id="rehbein-pers021">
+                  <p>Churchill, Winston</p>
+               </person>
+               <person xml:id="rehbein-pers022">
+                  <p>Crawford, Kate</p>
+               </person>
+               <person xml:id="rehbein-pers024">
+                  <p>Davis, Kord</p>
+               </person>
+               <person xml:id="rehbein-pers027">
+                  <p>Dick, Philip K.</p>
+                  <p n="work" xml:id="rehbein-work001"><hi rend="italic">The Minority Report</hi></p>
+               </person>
+               <person xml:id="rehbein-pers028">
+                  <p>Donnersmarck, Florian Henckel von</p>
+                  <p n="work" xml:id="rehbein-work003"><hi rend="italic">Das Leben der Anderen</hi></p>
+               </person>
+               <!-- Pseudonym von J.K. Rowling -->
+               <!--<person xml:id="rehbein-pers031">
+                  <p>Galbraith, Robert</p>
+               </person>-->
+               <person xml:id="rehbein-pers032">
+                  <p>Goethe, Johann Wolfgang von</p>
+               </person>
+               <person xml:id="rehbein-pers033">
+                  <p>Greenwald, Glen</p>
+               </person>
+               <person xml:id="rehbein-pers034">
+                  <p>Guillory, Jamie E.</p>
+               </person>
+               <person xml:id="rehbein-pers035">
+                  <p>Hancock, Jeffrey T.</p>
+               </person>
+               <person xml:id="rehbein-pers036">
+                  <p>Hirst, Graeme</p>
+               </person>
+               <person xml:id="rehbein-pers038">
+                  <p>Hoyningen-Huene, Paul</p>
+               </person>
+               <person xml:id="rehbein-pers039">
+                  <p>Jonas, Hans</p>
+               </person>
+               <person xml:id="rehbein-pers042">
+                  <p>Jung, Carl Gustav</p>
+               </person>
+               <person xml:id="rehbein-pers043">
+                  <p>Juola, Patrick</p>
+               </person>
+               <person xml:id="rehbein-pers045">
+                  <p>Kahn, Jeffrey P.</p>
+               </person>
+               <person xml:id="rehbein-pers046">
+                  <p>Kant, Immanuel</p>
+               </person>
+               <person xml:id="rehbein-pers047">
+                  <p>Keen, Andrew</p>
+               </person>
+               <person xml:id="rehbein-pers048">
+                  <p>Klünemann, Hans</p>
+               </person>
+               <person xml:id="rehbein-pers050">
+                  <p>Kramer, Adam D.&#8239;I.</p>
+               </person>
+               <person xml:id="rehbein-pers051">
+                  <p>Lancashire, Ian</p>
+               </person>
+               <person xml:id="rehbein-pers053">
+                  <p>Lessig, Lawrence</p>
+               </person>
+               <person xml:id="rehbein-pers054">
+                  <p>Mastroianni, Anna C.</p>
+               </person>
+               <person xml:id="rehbein-pers055">
+                  <p>Merton, Robert</p>
+               </person>
+               <person xml:id="rehbein-pers057">
+                  <p>Mielke, Erich</p>
+               </person>
+               <person xml:id="rehbein-pers059">
+                  <p>Mill, John Stuart</p>
+               </person>
+               <person xml:id="rehbein-pers060">
+                  <p>Millicam, Peter</p>
+               </person>
+               <person xml:id="rehbein-pers061">
+                  <p>Myers, Isabel</p>
+               </person>
+               <person xml:id="rehbein-pers063">
+                  <p>Nida-Rümelin, Julian</p>
+               </person>
+               <person xml:id="rehbein-pers064">
+                  <p>Nietzsche, Friedrich</p>
+               </person>
+               <person xml:id="rehbein-pers065">
+                  <p>Noecker, John</p>
+               </person>
+               <person xml:id="rehbein-pers067">
+                  <p>Noller, Stephan</p>
+               </person>
+               <person xml:id="rehbein-pers069">
+                  <p>Pennebaker, James</p>
+               </person>
+               <person xml:id="rehbein-pers071">
+                  <p>Platon</p>
+                  <p n="work" xml:id="rehbein-work005"><hi rend="italic">Phaidros</hi></p>
+               </person>
+               <person xml:id="rehbein-pers072">
+                  <p>Pole, Andrew</p>
+               </person>
+               <person xml:id="rehbein-pers073">
+                  <p>Polák, Jindřich</p>
+               </person>
+               <person xml:id="rehbein-pers074">
+                  <p>Randow, Gero von</p>
+               </person>
+               <person xml:id="rehbein-pers075">
+                  <p>Rowling, Joanne K.</p>
+                  <p n="work" xml:id="rehbein-work004"><hi rend="italic">The Cuckoo’s Calling</hi></p>
+               </person>
+               <person xml:id="rehbein-pers078">
+                  <p>Rushkoff, Douglas</p>
+               </person>
+               <person xml:id="rehbein-pers079">
+                  <p>Ryan, Michael</p>
+               </person>
+               <person xml:id="rehbein-pers081">
+                  <p>Shakespeare, William</p>
+               </person>
+               <person xml:id="rehbein-pers083">
+                  <p>Snowden, Edward</p>
+               </person>
+               <person xml:id="rehbein-pers084">
+                  <p>Spielberg, Steven</p>
+                  <p n="work" xml:id="rehbein-work002"><hi rend="italic">Minority Report</hi></p>
+               </person>
+               <person xml:id="rehbein-pers086">
+                  <p>Thaller, Manfred</p>
+               </person>
+               <person xml:id="rehbein-pers087">
+                  <p>Thies, Christian</p>
+               </person>
+               <person xml:id="rehbein-pers088">
+                  <p>Tufekci, Zeynep</p>
+               </person>
+               <person xml:id="rehbein-pers089">
+                  <p>Vayena, Effy</p>
+               </person>
+               <person xml:id="rehbein-pers090">
+                  <p>Weizenbaum, Joseph</p>
+               </person>
+               <person xml:id="rehbein-pers091">
+                  <p>Wiegerling, Klaus</p>
+               </person>
+               <person xml:id="rehbein-pers093">
+                  <p>Wurster, Herbert</p>
+               </person>
+               <person xml:id="rehbein-pers095">
+                  <p>Zicarci, Roberto</p>
+               </person>
+               <person xml:id="rehbein-pers096">
+                  <p>Zuse, Konrad</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-10-22T13:18:00"
+            who="https://github.com/peterstadler">zur ersten Durchsicht vorbereitet.</change>
+         <change when="2015-08-20T12:17:08.353+02:00"
+            who="https://github.com/peterstadler">Personen und Werktitel identifiziert. Literatur muss noch normalisiert werden.</change>
+         <change when="2015-08-19T21:14:08.353+02:00"
+            who="https://github.com/peterstadler">Text bearbeitet …</change>
+         <change when="2015-08-19T15:17:08.353+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="rehbein-abstract"><p>While obvious legal issues connected to Digital Humanities research such as copyright are widely discussed, ethical issues in Digital Humanities have so far not been addressed let alone systematically studied. However, recent research demonstrates that without informed consent, moral questions are arising. Along several case-studies, this contribution categorizes and discusses some immanent ethical aspects of Digital Humanities and proposes a path towards establishing an ethical code of conduct and a framework for a <q>Wissenschaftsethik</q> of this discipline.</p></div>
+      </front>
+      <body>
+         <div xml:id="rehbein-div01" rend="numbered-heading">
+            <head>Anecdotal Introduction</head>
+            <p>I am not an ethicist and had not thought through the moral aspects of my profession as a Digital Humanities scholar until quite recently. 
+               A historian by training with a focus on Medieval Studies, I mostly considered the objects I studied to be beyond the scope of moral and legal issues: historical figures are long dead and historical events took place in the past, and my research would hardly ever influence the course of history. After this training as a (traditional) historian, I went on to work digitally with historical data, like Digital Humanists do, trying to identify entities, to find correlations, or to visualize patterns within that very data.</p>
+            <p>At the big Digital Humanities gathering in Hamburg, 2012, however, rumours circulated that a secret service agency was recruiting personnel at the conference. This agency, they said, was interested in competences and skills in analysing and interpreting ambiguous, heterogeneous, and uncertain data. I had not been approached in person and until today do not know whether the story is true or not. Nevertheless, just the idea that a secret service might be interested in expertise from the Digital Humanities was a strong enough signal to start thinking about the moral implications of the work we are doing in this field, and it inspired for this essay. </p>
+            <p>In this light, examples of recent research in Digital Humanities such as psychological profiling appear at the same time exciting and frightening. We can observe a typical dual-use problem: something can have good as well as bad consequences according to its use. Is it not a fascinating asset for research to determine a psychological profile of a historical figure just through automated analysis of historical textual sources? On the other hand, what would the consequences be if a psychological profile of anyone, living or dead, were to be revealed or circulated without her knowledge or her assignee’s consent? </p>
+            <p>Ethical considerations are more than just a philosophical exercise. They help us to shape the future of our society (and environment) in ways that we want it to be, and they help us minimize risks of changes that we do not want to happen.</p>
+         </div>
+         <div xml:id="rehbein-div02" rend="numbered-heading">
+            <head>Setting the Stage: Use and Abuse of Big Data Now and Then</head>
+            <div xml:id="rehbein-div03" rend="numbered-heading">
+               <head>Big Data</head>
+               <p>This essay uses Big Data as a vehicle for considerations about ethical issues of the Digital Humanities, <hi rend="italic">pars pro toto</hi> for the field as a whole with all its facets. Big Data has been a hyped term worldwide for some time now,<ref target="#Puschmann2014" type="bibl" xml:id="rehbein-ftn2"/>
+                  and its methods have reached the Humanities.<ref type="bibl" target="#Schoech2013" xml:id="rehbein-ftn3"/>
+                  Big Data is a collective term for huge collections of data and their analysis, often characterized by four attributes: volume, velocity, variety, and veracity:</p>
+               <list rend="bulleted">
+                  <item>
+                     <hi rend="italic">Volume</hi> describes vast amounts of data generated or collected. The notion of <q>vast</q> is ambiguous, however. Some define it as an amount of data that is too big to be handled by a single computer. Digital Humanities and the use-cases described in this essay will hardly ever reach this amount. However, as <name ref="#rehbein-pers086">Manfred Thaller</name> has pointed out in his keynote presentation at the second annual conference of the <hi rend="italic">Digital Humanities im deutschsprachigen Raum</hi>,<ref type="bibl" target="#Thaller2015" xml:id="rehbein-ftn4"/>
+                     Big Data is characterized especially by the multiplication of all four factors described here. Since data in the Humanities is often far more complex than, for instance, engineering data due to its ambiguous nature, data in the Humanities can be <q>big</q> in this way.</item>
+                  <item>
+                     <hi rend="italic">Velocity</hi> describes the speed at which data goes viral. As people often think of new data generated within seconds or even faster, this is not characteristic for the Humanities, which deals with historical or literary data. But it can become relevant for Social Science, for instance in the analysis of so-called social media data, which can be considered as part of Digital Humanities.</item>
+                  <item>
+                     <hi rend="italic">Variety</hi> refers to the various types of data processed, multimodal data, data in different structures or completely unstructured data. This variety is characteristic of Humanities’ sources, and Digital Humanities offer new methods to interlink various types of data and to process it synchronously.</item>
+                  <item>
+                     <hi rend="italic">Veracity</hi> questions the trustworthiness of the data to be processed, its quality and accuracy. The Humanities, especially within the historical disciplines, know best of all what critically questioning origin, context, and content of data means &#x2013; making veracity of data a very relevant aspect for the Digital Humanities.</item>
+               </list>
+               <p>Overall, Big Data collections are too big and/or too complex to be handled by traditional techniques of data management (databases) and by algorithmic analysis on a single computer. With this definition of big data in mind, one might think of systems like the Large Hadron Collider in Geneva, which is considered the largest research infrastructure and scientific enterprise of all time, or of telecommunication data produced by mankind &#x2013; tons of terabytes every second. 
+                  Compared to this, it might not be appropriate to speak of Big Data in the context of scholarship in the Humanities at all. Nevertheless, Big Data can act as a metaphor for one of the current major trends in Digital Humanities: data-driven, quantitative research based on an amount of data that a single scholar or even a group of scholars can barely oversee let alone calculate. Such data, due to its amount, complexity, incompleteness, uncertainty, and ambiguity, requires the support of computers and their algorithmic power. For centuries, Humanities scholars have recognised this aspect of their data, but now they have this data at hand in a much larger quantity than ever before. </p>
+               <p>In general, typical applications for Big Data are well known and described. With regard to ethics, these applications span a broad range of how they are used and what implications this might cause. This shall be illustrated by the following examples, divided into three groups.</p>
+               <p>The first group comprises those of the Sciences and Humanities (the German term <hi rend="italic">Wissenschaft</hi> fits better here and will be used henceforth). Incredible amounts of data are investigated, for example for research on global climate (e.&#8239;g., NASA Center for Climate Simulation), to increase the precision of weather forecasts, to decode the human genome, or in the search for elementary particles at the Large Hadron Collider in Geneva. In a positive view on <hi rend="italic">Wissenschaft</hi>, these investigations shall serve society as a whole.</p>
+               <p>The second class encompasses applications of Big Data from which particular groups would benefit but which might interfere with the interests of others. Depending on one’s perspective, such applications can easily be found in the business world. For example, on February 16<hi rend="sup">th</hi>, 2012, the <hi rend="italic">New York Times</hi> published an article <q>How Companies Learn Your Secrets</q>. Taking the example of the US retailer Target, the article describes how companies analyse data and then try to predict consumer behaviour in order to tailor and refine their marketing machine. In this context, <name ref="#rehbein-pers072">Andrew Pole</name> proposed a <q>pregnancy-prediction model</q> to answer a company’s question: <q>If we wanted to figure out if a customer is pregnant, even if she didn’t want us to know, can you do that?</q> with the help of algorithms based on Big Data.<ref target="#Duhigg2012" type="bibl" xml:id="rehbein-ftn5"/>
+               </p>
+               <p>In the wake of revelations by <name ref="#rehbein-pers083">Edward Snowden</name>, <name ref="#rehbein-pers033">Glen Greenwald</name> and others in&#x00A0;2013,<ref type="bibl" target="#SnowdenFiles" xml:id="rehbein-ftn6"/>
+                  a third class of applications has come more and more into public consciousness. Current mass surveillance might be the strongest example of Big Data analysis in which the interests of a very small group are in stark contrast with the values of society at large.</p>
+            </div>
+            <div xml:id="rehbein-div04" rend="numbered-heading">
+               <head>Big Data Ethics</head>
+               <p>These three categories form only one, preliminary classification of Big Data applications from a moral perspective, a classification, which is, of course, simplistic and disputable. Nevertheless, it shall lead us towards the basic question of ethics: the distinction between right and wrong or good and evil when it comes to deciding between different courses of action. It should also be clear by now that there is no one answer to this question, but that different moral perspectives exist: perspectives of those who conduct Big Data analysis, perspectives of those who do basic research so that others can apply these methods, and perspectives of the ambient society.</p>
+               <p>Putting aside the particular scenarios in which Big Data is studied/examined, one might ask what is methodologically typical for it? There are three main methodological areas involved: pattern recognition, linkage of data and correlation detection. Then people (or machines) begin the process of inference or prediction.</p> 
+               <p>In his 1956 short story <title ref="#rehbein-work001">The Minority Report</title>, <name ref="#rehbein-pers027">Philip K. Dick</name> depicts a future society in which a police department called <hi rend="italic">Precrime</hi>, employing three clairvoyant mutants, called <hi rend="italic">Precogs</hi>, is capable of predicting and consequently preventing violent crimes. <pb/>This world has not seen a single murder in years. In <name ref="#rehbein-pers084">Steven Spielberg’s</name> movie of the same name from 2002,<note xml:id="rehbein-ftn7" n="7"><title ref="#rehbein-work002">Minority Report</title>, Dir. <name ref="#rehbein-pers084">Steven Spielberg</name>, 2002.</note> 
+                  these <hi rend="italic">Precogs</hi> are characterized in more detail: thanks to their extrasensory capabilities they are worshiped by mankind. However, it is said in the film, the only thing they do is search for patterns of crime in their visions: <q>people start calling them divine &#x2013; <hi rend="italic">Precogs</hi> are pattern recognition filters, nothing more.</q> </p>
+               <p>Assuredly, <hi rend="italic">Precogs</hi> are a fiction. However, modern real-life crime prevention indeed attempts to find patterns in Big Data collections to predict likely locations of criminal behaviour, which has been reported with various, some say doubtable success rates from the USA and Germany, and probably other countries. The way our governments and secret services justify (disguise) their actions of mass surveillance, namely to predict and prevent terror attacks are real, too. Big data and its technology (pattern recognition, data linkage, and inference) serve such predictions: weather prediction &#x2013; pregnancy prediction &#x2013; crime prediction.</p>
+               <p>This is not new. For instance, the East German secret service Stasi under the direction of <name ref="#rehbein-pers057">Erich Mielke</name> conceptualized a comprehensive database of human activities and intentions.<note xml:id="rehbein-ftn8" n="8">Cf. <ref target="#Wolle2013" type="bibl">p.&#8239;186</ref>.</note> 
+                  Its goal: <quote source="#rehbein-ftn9">to put together digital data and reports of all of the 16.5&#x00A0;million citizens of the German Democratic Republic.<!-- soll das in Anführungszeichen? --></quote><note xml:id="rehbein-ftn9" type="bibl"><ref type="bibl" target="#Sebestyen2009">p.&#8239;121</ref>. In comparison to nowadays Big Data companies, <name ref="#rehbein-pers047">Andrew Keen</name> concludes: <q xml:lang="de"><name ref="#rehbein-pers057">Mielke</name> war ein Datendieb des 20.&#8239;Jahrhunderts, der die DDR in eine Datenkleptokratie verwandelte. Doch verglichen mit den Datenbaronen des 21.&#8239;Jahrhunderts war sein Informationsimperium zu regional und zu klein gedacht. Er kam nicht auf den Gedanken, dass Milliarden Menschen in aller Welt ihre persönlichen Daten freiwillig herausrücken könnten.</q> (<ref target="#Keen2015" type="bibl">p.&#8239;201</ref>).</note> 
+                  In the historically realistic scenario of the Academy Award-winning film <title ref="#rehbein-work003">The Lives of Others</title> (orig. <q>Das Leben der Anderen</q>),<note xml:id="rehbein-ftn10" n="10"><title ref="#rehbein-work003">Das Leben der Anderen</title>, Dir. <name ref="#rehbein-pers028">Florian Henckel von Donnersmarck</name>, 2006.</note> 
+                  the Stasi possesses a type specimen collection of all typewriters that are in circulation, and they know the machine favoured by each of the human writers they are observing. Whenever they come across an anonymous document, they attribute this document to a particular writer by comparing the typesetting of this document with the specimen. This is not (yet) Big Data in the modern definition, but is a form of pattern recognition. In <title ref="#rehbein-work003">The Lives of Others</title>, the Stasi did not manage to disclose Georg Dreyman as the author of an article published in the West German magazine <title level="m">Der Spiegel</title>, an article in which Dreyman revealed the high statistical rate of suicides in East Germany after the suicide of his friend. The East German secret service did not manage to do so, because Dreyman did not write the draft with his own but with somebody else’s typewriter. He behaved untypically. </p>
+               <pb/>
+               <p>Scenarios and applications like this are not new. What is new is their dimension. And what brings these briefly introduced examples together, be they fictitious or real, is that they are all so-called probabilistic methods; they do not give us the truth, but the probability that a particular event or behaviour will take or has taken place. However, even a likelihood of 99&#8239;% prediction accuracy means that in one out of a hundred cases, the wrong person will have to suffer the consequences.</p>
+               <p>For various reasons, Big Data yields several normative questions and issues. On May 30<hi rend="sup">th</hi>, 2014, <name ref="#rehbein-pers022">Kate Crawford</name> published a piece in <q>The New Inquiry</q> under the title: <q>The Anxieties of Big Data. What does the lived reality of big data feel like?</q> She concludes: <quote source="#rehbein-ftn11">If the big-data fundamentalists argue that more data is inherently better, closer to the truth, then there is no point in their theology at which enough is enough. This is the radical project of big data. It is epistemology taken to its limit. The affective residue from this experiment is the Janus-faced anxiety that is heavy in the air, and it leaves us with an open question: How might we find a radical potential in the surveillant anxieties of the big-data era?</quote><ref type="bibl" target="#Crawford2014" xml:id="rehbein-ftn11" n="11"/>
+               </p>
+               <p>Ethical questions in Big Data have barely been addressed in the research.<note xml:id="rehbein-ftn12" n="12">More recently, a conference at Herrenhausen <q>Big Data in a Transdisciplinary Perspective</q> discussed legal aspects of Big Data. Their proceedings have not yet been published. A report is available: <ref target="#Kolodziejski2015" type="bibl"/>.</note> 
+                  In&#x00A0;2014, <name ref="#rehbein-pers001">Rajendra Akerkar</name> edited a volume on <title level="m">Big Data Computing</title>.<ref type="bibl" target="#Akerkar2014" xml:id="rehbein-ftn13"/>
+                  In 540&#x00A0;pages, however, neither legal nor ethical questions are discussed. In the chapter on <title level="a">Challenges and Opportunities</title> by <name ref="#rehbein-pers095">Roberto Zicarci</name><!-- (103&#x2013;130)-->, for example, opportunities are business opportunities, challenges are mostly technical challenges.<note xml:id="rehbein-ftn14" n="14"><ref target="#Zicar2014" type="bibl"/>. Ethical challenges are mentioned (<q>Ensuring that data are used correctly (abiding by its intended uses and relevant laws)</q>) but not further discussed (p.&#8239;111).</note> 
+                  The volume does not address individual, organisational let alone societal risks and consequences of Big Data Computing. This seems to be symptomatic for hyped technologies such as Big Data and for technological advancement of our time generally. First, we do it, and then we handle the consequences. </p>
+               <p>Very much alike is the 2013 report on <title level="m">Frontiers in Massive Data Analysis</title> issued by the National Academy of Sciences of the USA. Limitations of data analysis discussed here are merely of a technical nature. The report states: <quote source="#rehbein-ftn15">The current report focuses on the technical issues &#x2013; computational and inferential &#x2013; that surround massive data, consciously setting aside major issues in areas such as public policy, law, and ethics that are beyond the current scope.</quote><ref type="bibl" target="#Frontiers2013" xml:id="rehbein-ftn15">p.&#8239;5</ref> 
+                  <name ref="#rehbein-pers009">Bollier</name> makes such issues more explicit: <quote source="#rehbein-ftn16">The rise of large pools of databases that interact with each other clearly elevates the potential for privacy violations, identity theft, civil security and consumer manipulation.</quote><ref target="#Bollier2010" type="bibl" xml:id="rehbein-ftn16">p.&#8239;33</ref>
+               </p>
+               <p>Even in areas where potential ethical issues are more obvious than in the Humanities, <hi rend="italic">Wissenschaft</hi> and the general public are slowly beginning to realize the implications of Big Data and to demand action. In June 2014, for example, the University of Oxford announced a postdoctoral position of Philosophy in <q>ethics of big data</q>: <quote source="#rehbein-ftn17">this pilot project will formulate a blueprint of the ethical aspects, requirements and desiderata underpinning a European framework for the ethical use of Big Data in biomedical research.</quote><ref type="bibl" target="#Oxford2015" xml:id="rehbein-ftn17"/>
+                  Earlier, on October 24<hi rend="sup">th</hi>, 2012, <name ref="#rehbein-pers067">Stephan Noller</name> called for a general ethics of algorithms (orig.: <hi rend="italic">Algorithmen-Ethik</hi>) in the German newspaper FAZ to promote control and transparency: <quote source="#rehbein-ftn18" xml:lang="de">Algorithmen müssen transparent gemacht werden, sowohl in ihrem Einsatz als auch in ihrer Wirkweise.</quote><ref target="#Noller2012" type="bibl" xml:id="rehbein-ftn18"/>
+                  It is clear that a wide-spread understanding of algorithms is also an urgent necessity.</p>
+            </div>
+            <div xml:id="rehbein-div05" rend="numbered-heading">
+               <head>Technology is not value-free</head>
+               <p>In a brief survey of current research, one should not overlook a small publication by <name ref="#rehbein-pers024">Kord Davis</name> from 2012, titled <q>Ethics of Big Data</q>. Davis’ analysis runs as follows: <quote source="#rehbein-ftn77">While big-data technology offers the ability to connect information and innovative new products and services for both profit and the greater social good, it is, like all technology ethical neutral. That means it does not come with a built-in perspective on what is right or wrong or what is good or bad in using it. Big-data technology has no value framework. Individuals and corporations, however, do have value systems, and it is only by asking and seeking answers to ethical questions that we can ensure big data is used in a way that aligns with those values.</quote><ref type="bibl" target="#Kord2012" xml:id="rehbein-ftn77">p.&#8239;8</ref></p>
+               <p>While <name ref="#rehbein-pers024">Davis</name> is right in demanding that the discussion of Big Data ethics has to be embedded in surrounding value systems, he is wrong about the neutrality of technology. His argument reminds us of <name ref="#rehbein-pers002">Francis Bacon</name> who had this dream of value-free <hi rend="italic">Wissenschaft</hi> in the 17<hi rend="sup">th</hi> century. In the wake of the bombing of Hiroshima and Nagasaki in August 1945, many, such as <name ref="#rehbein-pers010">Max Born</name> woke up from this dream and recognized the dual-use dilemma of technology and acknowledged the responsibility of the scientists: <quote xml:lang="de" source="#rehbein-ftn19">Wir stehen auf einem Scheidewege, wie ihn die Menschheit auf ihrer Wanderung noch niemals angetroffen hat.</quote><ref target="#Born1965" type="bibl" xml:id="rehbein-ftn19">p.&#8239;9</ref> 
+                  Closer to our field, <name ref="#rehbein-pers015">Vannevar Bush</name>, who provided an important milestone for the development of the Digital Humanities with his seminal publication <title level="a">As We May Think</title> from 1945, asked how science can come back to the track that leads to the growth of knowledge: <quote source="#rehbein-ftn20">It is the physicists who have been thrown most violently off stride, who have left academic pursuits for the making of strange destructive gadgets, who have had to devise new methods for their unanticipated assignments. […] Now, as peace approaches, one asks where they will find objectives worthy of their best.</quote><ref type="bibl" target="#Bush1945" xml:id="rehbein-ftn20"/>
+               </p>
+               <p>Technology is not value-free. Scientists and scholars develop it. Together with those who apply technology in specific use cases, a huge share of responsibility belongs to them. Computer pioneer <name ref="#rehbein-pers096">Konrad Zuse</name> recognised this. Looking back from the vantage point of his memoir, he describes the qualms (orig.: <q>Scheu</q>) he had in the end of 1944 to further develop his machine (Z4). Implementing conditional jumps into it would allow free control flow: <quote source="#rehbein-ftn78" xml:lang="de">Solange dieser Draht nicht gelegt ist, sind die Computer in ihren Möglichkeiten und Auswirkungen gut zu übersehen und zu beherrschen. Ist aber der freie Programmablauf erst einmal möglich, ist es schwer, die Grenze zu erkennen, an der man sagen könnte: bis hierher und nicht weiter.</quote><ref target="#Zuse1984" type="bibl" xml:id="rehbein-ftn78">p.&#8239;77</ref> According to Zuse&#x2019;s memoir, his reputation suffered from this <quote source="#rehbein-ftn21" xml:lang="de">Veranwortungsbewußtsein des Erfinders.</quote><ref target="#Zuse1984" type="bibl" xml:id="rehbein-ftn21" n="21" rend="ibid">p.&#8239;77</ref> 
+               </p>
+               <p>There is a second critical aspect of <name ref="#rehbein-pers024">Davis’</name> ethics. His readers are decision makers of business enterprises. The value system he discusses refers to corporations and individuals within the corporate structure. He does not address individuals outside the corporation, let alone the ambient society and world at large: internal but not external responsibility. For <hi rend="italic">Wissenschaft</hi>, however, it is essential that we address both. The freedom to study and to investigate always comes with the responsibility to use this freedom carefully. In <hi rend="italic">Wissenschaft</hi>, freedom and responsibility are two sides of the same coin. </p>
+            </div>
+         </div>
+         <div xml:id="rehbein-div06" rend="numbered-heading">
+            <head>Case Studies</head>
+            <div xml:id="rehbein-div07" rend="numbered-heading">
+               <head>Some Thoughts on Digital Humanities</head>
+               <p>One can easily imagine that Big Data in biomedical research (as seen in the Oxford job posting) opens the door for ethical considerations. But what about the Digital Humanities? Why should we bother? In the context of this question, it is helpful to characterize Digital Humanities as an attempt to offer new practices for the Humanities. This is mainly facilitated by a) the existence or creation of and access to digital data relevant to research in the Humanities, b) the possibility of a computer-assisted operation upon this data, as well as c) modern communication technology in particular the internet. Overall, this characterizes the Digital Humanities as a hybrid field, suggesting two different perspectives within the scholarly landscape. For both perspectives, ethical discussions play a role.</p>
+               <p>The first perspective is that of a distinct discipline, with its own research questions, methodology, study programmes, publication venues, and so on, and of course: values. As a discipline on its own, Digital Humanities needs its <hi rend="italic">Wissenschaftsphilosophie</hi> (philosophy of science), including theory<note xml:id="rehbein-ftn22" n="22">For Digital Humanities as an emerging academic discipline on its own, more theoretical foundation seems to be timely. This is particularly true in the context of Big Data analysis where proponents are announcing an <q>end of theory</q> (provocative: <ref target="#Anderson2008" type="bibl"/>. A critical discussion offers <ref target="#Kitchin2014" type="bibl"/>.</note> 
+                  and ethics. The second perspective, however, sees Digital Humanities as a <hi rend="italic">Hilfswissenschaft</hi> (auxiliary science) that provides services for others, which one might compare with the role maths plays for physics and engineering, or palaeography for history and medieval studies. This perspective on Digital Humanities is relevant for our ethical discussion, because a Digital Humanist might be tempted to argue that he is only developing methodologies and hence is not responsible for the uses that others make of them.</p>
+            </div>
+            <div xml:id="rehbein-div08" rend="numbered-heading">
+               <head>Early Victims of Digital Humanities: <name ref="#rehbein-pers081">William Shakespeare</name> and <name ref="#rehbein-pers018">Agatha Christie</name></head>
+               <p>A first case study comprises the work by <name ref="#rehbein-pers011">Ryan Boyd</name> and <name ref="#rehbein-pers069">James Pennebaker</name> on <name ref="#rehbein-pers081">William Shakespeare</name>. In the context of modern text and language analysis, <name ref="#rehbein-pers069">Pennebaker</name>, a social psychologist, is known for his method of Linguistic Inquiry and Word Count (LIWC). Applying text analytical methods to the large corpus of the work of <name ref="#rehbein-pers081">William Shakespeare</name>, <name ref="#rehbein-pers011">Boyd</name> and <name ref="#rehbein-pers069">Pennebaker</name> claim to be able to create a psychological signature of authors (<quote source="#rehbein-ftn23a">methods allowed for the inference of Shakespeare&#x2019;s […] unique psychological signatures</quote><ref target="#Boyd2015" type="bibl" xml:id="rehbein-ftn23a">p.&#8239;579</ref>) and to confirm the broadly accepted characterization of the playwright as <q>classically trained</q> and <quote source="#rehbein-ftn23">socially focused and interested in climbing higher on the social ladder.</quote><ref type="bibl" target="#Boyd2015" xml:id="rehbein-ftn23" n="23">p.&#8239;579&#x2013;580</ref> 
+                  <name ref="#rehbein-pers081">Shakespeare</name> has long been dead, of course, and most likely, neither he nor any of his kin has to face the consequences of this research. But the methods employed here are of a general nature and can easily be applied to anyone, living or dead, whether he wants it or not. </p>
+               <p>Another prominent <q>victim</q> of this kind was <name ref="#rehbein-pers018">Agatha Christie</name>, maybe the most read English female writer of all time. In&#x00A0;2009, <name ref="#rehbein-pers051">Ian Lancashire</name> and <name ref="#rehbein-pers036">Graeme Hirst</name> published a study <q>Vocabulary Changes in Agatha Christie’s Mysteries as an Indication of Dementia: A Case Study</q>.<ref type="bibl" target="#Lancashire2010" xml:id="rehbein-ftn24"/> 
+                  <name ref="#rehbein-pers051">Lancashire</name> and <name ref="#rehbein-pers036">Hirst</name> analyse the corpus of <name ref="#rehbein-pers018">Christie’s</name> work as follows: <quote source="#rehbein-ftn25">Fourteen <name ref="#rehbein-pers018">Christie</name> novels written between ages 34 and 82 were digitized, and digitized copies of her first two mysteries […] were taken from Project Gutenberg. After all punctuation, apostrophes, and hyphens were deleted, each text was divided into 10,000-word segments. The segments were then analysed with the software tools Concordance and the Text Analysis Computing Tools (TACT). We performed three analyses of the first 50,000 words of each novel.</quote><ref target="#Lancashire2010" xml:id="rehbein-ftn25" n="25" type="bibl" rend="ibid">p.&#8239;208</ref>
+                  The result of this, fairly straight-forward, textual analysis indicated that <name ref="#rehbein-pers018">Christie’s</name> vocabulary was in significant decline over the course of her life and that the amount of repetition increased, such as the usage of indefinite words. For <name ref="#rehbein-pers051">Lancashire</name> and <name ref="#rehbein-pers036">Hirst</name>, this is an indication that <name ref="#rehbein-pers018">Agatha Christie</name> developed dementia. </p>
+               <p>These techniques on textual corpora operate on text as a sequence of characters. They are agnostic about who had written these texts and for what purpose. In other words, not only texts by well-known and deceased writers can be examined in such manner. Any text can. <name ref="#rehbein-pers051">Lancashire</name> and <name ref="#rehbein-pers036">Hirst</name> are well aware of this fact and of the potential consequences. Like many technologists, however, their ethics and outlook is strictly positive: <q>While few present-day patients</q>, they conclude, <quote source="#rehbein-ftn26">have a large online diachronic corpus available for analysis, this will begin to change as more individuals begin to keep, if only by inertia, a life-time archive of e-mail, blogs, professional documents, and the like. [… We can] foresee the possibility of automated textual analysis as a part of the early diagnosis of Alzheimer’s disease and similar dementias.</quote><ref type="bibl" target="#Lancashire2010" xml:id="rehbein-ftn26">p.&#8239;210</ref>
+               </p>
+               <p>Early diagnosis of diseases or their prediction might be a wonderful <q>tool</q> in the future. Research in this direction aims at something <q>good</q>, <name ref="#rehbein-pers051">Lancashire</name> and <name ref="#rehbein-pers036">Hirst</name> would argue. Their ethics is utilitarian in the tradition of <name ref="#rehbein-pers007">Jeremy Bentham</name> and <name ref="#rehbein-pers059">John Stuart Mill</name>. But what happens if this data is used against someone, for instance, to deny an insurance policy? And as textual data becomes more and more easily available, whether we consciously deliver it, for instance in blogs or Facebook microblogs, or because our e-mails are intercepted, it becomes almost impossible for the individual to avoid this situation. </p>
+            </div>
+            <div xml:id="rehbein-div09" rend="numbered-heading">
+               <head>Revealing Your Health Preconditions</head>
+               <p>Another, related example shall illustrate that not only texts and data that we currently provide might lean to individual or societal consequences, but also data from the past. An open question in medical research addresses whether or not there is a genetic predisposition to Alzheimer’s disease. Neurologist <name ref="#rehbein-pers048">Hans Klünemann</name> and archivist <name ref="#rehbein-pers093">Herbert Wurster</name> now propose that this hypothesis can potentially be tested with historical data.<ref type="bibl" target="#Kluenemann2013" xml:id="rehbein-ftn27"/>
+                  Their research uses historical records, parochial death registers from 1750 to 1900, which were digitized, transcribed and encoded in a database at the archive of the diocese of Passau. They analyse the data for family relations in order to create family trees, and they analyse mortality data to find indicators for Alzheimer’s <pb/>disease.<note xml:id="rehbein-ftn28" n="28">As Dementia or Alzheimer were not known then, other terms were used as indicator for these diseases. <q>Gehirnerweichung</q> or <q>Gehirnwassersucht</q> are typical expressions from the sources that <name ref="#rehbein-pers048">Klünemann</name> and <name ref="#rehbein-pers093">Wurster</name> use for their research.</note> 
+                  Through this, they hope to identify genetic conditions for the development of Alzheimer’s disease and they hope, in the future, to be able to predict whether or not someone belongs to such a risk group. </p>
+               <p>This is a highly interdisciplinary approach with Digital Humanities at its very heart: digitization, digital transcription and encoding as well as computer-based analysis of historical data make this work. If the approach turns out to work, one can foresee great potential in it. What could be problematic about such research? This data (the digitized church registers) has been made publically available, searchable, and analysable. Many other archives have done or will do the same. Consequently, however, information about an individual’s family and their causes of death will become public information and this information can be used, for instance, to evaluate the individual risk of a living descendant for a certain disease even if this individual has not disclosed any personal information about him or herself. Hence, information about living persons could be inferred from open historical data.</p>
+               <p>In addition to the question of whether individual rights are affected, these case studies demonstrate typical dual-use problems. On the one hand, family doctors can use the data and its analysis as an early diagnosis of severe diseases. On the other hand, potential employers can also use it, for instance, to pick only those individuals that do not belong to any risk group. There is no easy solution for this problem. Ethical questions appear to be dilemmas, also in Digital Humanities.</p>
+            </div>
+            <div xml:id="rehbein-div10" rend="numbered-heading">
+               <head>Another Prominent Victim of DH: <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name></head>
+               <p>In&#x00A0;2013, a quite prominent case of authorship attribution floated around. A certain <name ref="#rehbein-pers075">Robert Galbraith</name> published a novel called <title ref="#rehbein-work004">The Cuckoo’s Calling</title>. Despite positive reviews, the book was at first only an average success on the book market. However, three months later, rumours began circulating that the real author of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> was <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name>, who had had such a sweeping success with her Harry Potter series. <name ref="#rehbein-pers043">Patrick Juola</name> and <name ref="#rehbein-pers060">Peter Millicam</name> analysed the text of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> with methods of forensic stylometry and came to the conclusion that it was quite probable that <name ref="#rehbein-pers075">Rowling</name> is indeed its author, which she afterwards admitted.</p>
+               <p>Especially when it is a <q>closed game</q> as in this case, in which one computes the likelihood with which a text can be attributed to an author candidate (as opposed to the <q>open game</q> where one computes the most likely author of a text), forensic stylometry is a simple method: <quote source="#rehbein-ftn29">language is a set of choices, and speakers and writers tend to fall into habitual, or at least common, choices. Some choices come from dialect […], some from social pressure […], and some just seem to come.</quote><ref target="#Juola2013" type="bibl" xml:id="rehbein-ftn29"/>
+                  This leaves stylistic patterns that a computer can measure and compare to corpora of texts already attributed, such as the Harry Potter series. The method has been described and practised since the 19<hi rend="sup">th</hi> century (although computers are a late entrant to the game).</p>
+               <p>For the Digital Humanities, methods like these are &#x2013; at first sight &#x2013; fantastic. They offer vast opportunities for fundamental research, for example in studying the history of literature, or general history, they allow testing existing hypotheses, and they offer new ones. The moral question, however, is again: at what cost? <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name> admitted that she would have preferred to remain unrevealed: <quote source="#rehbein-ftn30">Being Robert Galbraith has been such a liberating experience […] It has been wonderful to publish without hype and expectation and pure pleasure to get feedback under a different name.</quote><note xml:id="rehbein-ftn30" n="30" type="bibl">Quoted after <ref target="#BostonGlobe2013" type="bibl"/><!--The Boston Globe, 15&#8239;July 2013-->.</note> 
+                  Does research in Digital Humanities threaten the effectiveness of a pseudonym and hence an individual’s right to privacy and freedom to publish?</p>
+               <p>This kind of research does not only affect individuals. There are consequences for society as whole, for the world we live in, and for our social interaction. If one thinks the idea of authorship attribution through to its very end, then we arrive at a future in which it is impossible to remain anonymous &#x2013; even when we try. Proponents of mass surveillance and leaders of totalitarian regimes will certainly favour such a scenario, but free-speech advocates will certainly not. We have to carefully evaluate the risk that our research carries. There is yet another interesting aspect to this story: we usually speak of technology and <hi rend="italic">Wissenschaft</hi> in the same breath as representing? progress. <hi rend="italic">Wissenschaft</hi> enhances, it extends, it augments. In the case discussed here, however, we appear to lose a capability by this scientific progress: We will not be capable anymore of hiding.</p>
+            </div>
+            <div xml:id="rehbein-div11" rend="numbered-heading">
+               <head>Psychological Profiling Through Textual Analysis</head>
+               <p>In&#x00A0;2013, inspired by the <name ref="#rehbein-pers069">Pennebaker’s</name> work on the psychological signature of <name ref="#rehbein-pers081">Shakespeare</name>, <name ref="#rehbein-pers065">John Noecker</name>, <name ref="#rehbein-pers079">Michael Ryan</name>, and <name ref="#rehbein-pers043">Patrick Juola</name> published a study of <q>Psychological profiling through textual analysis</q>.<ref type="bibl" target="#Noecker2013" xml:id="rehbein-ftn31" n="31"/>
+                  This research presumes that the personality of an individual can be classified with the help of psychological profiles or patterns. Based on a typology suggested by <name ref="#rehbein-pers042">Carl Gustav Jung</name> in 1921,<ref target="#Jung1921" type="bibl" xml:id="rehbein-ftn32" n="32"/>
+                  <name ref="#rehbein-pers013">Katherine Briggs</name> and <name ref="#rehbein-pers061">Isabel Myers</name> developed a classification on their own (Myers-Briggs type indicator, MBTI)<note xml:id="rehbein-ftn33" n="33">Cf. <ref target="#IsabelBriggsMyersPapers" type="bibl"/>.</note> 
+                  in which they classify individuals’ preferences among four dichotomies: extraversion versus introversion, sensation versus intuition, thinking versus feeling, and perception versus judging. An individual can be, for instance, an ISTJ type: an introversive, sensing thinker who makes decisions quite quickly. Although the validity of this classification as well as its reliance on questionnaires is disputable, the Myers-Briggs indicator appears to be quite popular, especially in the USA where it is used in counselling, team building, social skill development, and other forms of coaching. </p>
+               <p><name ref="#rehbein-pers065">Noecker</name>, <name ref="#rehbein-pers079">Ryan</name>, and <name ref="#rehbein-pers043">Juola</name> formulate a simple hypothesis: the writing style of an individual can serve as a measure for this individual’s MBTI and hence, stylometric methods can be used to determine the type indicator. In other words, they propose that automated textual analysis can create a psychological classification of the author of a given text. For their experiments, <name ref="#rehbein-pers065">Noecker</name>, <name ref="#rehbein-pers079">Ryan</name>, and <name ref="#rehbein-pers043">Juola</name> used a corpus of texts by Dutch authors whose MBTI is known (Luyckx’ and Daelemans’ <hi rend="italic">Personae: A Corpus for Author and Personality Prediction from Text</hi>).<ref type="bibl" target="#Luyckx2008" xml:id="rehbein-ftn34"/>
+                  <name ref="#rehbein-pers065">Noecker</name>, <name ref="#rehbein-pers079">Ryan</name>, and <name ref="#rehbein-pers043">Juola</name> state an average success rate of 75&#8239;%. They claim to detect the <soCalled>J</soCalled>-type (judging) and the <soCalled>F</soCalled>-type (feeling) quite well (91&#8239;%, 86&#8239;%). For the <soCalled>P</soCalled>-types, the perceivers, however, the method does not respond equally well (56&#8239;%).<ref target="#Noecker2013" type="bibl" xml:id="rehbein-ftn35">p.&#8239;385</ref> 
+                  According to <name ref="#rehbein-pers061">Myers</name> and <name ref="#rehbein-pers013">Briggs</name>, the perceivers are those individuals who are willing to rethink their decisions and plans in favour of new information, those who act more spontaneously than others.</p>
+               <p>Again, the texts that these methods are grounded in might be provided consciously and willingly or unconsciously and unwillingly. Hence, the same moral issue of use and reuse of scholarly methods arises here and needs to be discussed within the context of these usages. But what about the researcher who develops but does not necessarily apply this technology? In this case, Digital Humanities would play the role of an auxiliary science, providing services for others. As such an auxiliary science, it is tempting to argue that research is value-free, that its sole goal is the development of methods and that only those who apply these methods have to consider moral consequences &#x2013; whether that be literary scholars working on <name ref="#rehbein-pers018">Agatha Christie</name> or historians interested in the psychological profiling of historical leaders. However, as argued above, <hi rend="italic">Wissenschaft</hi> and technology is never value-free. Everyone who is developing something is responsible for considering potential risks of its usage. Especially when Digital Humanities is understood as a discipline in its own right, these issues have to be addressed and discussed.</p>
+            </div>
+         </div>
+         <div xml:id="rehbein-div12" rend="numbered-heading">
+            <head>Elements of an Ethical Framework &#x2013; Towards a <hi rend="italic">Wissenschaftsethik</hi> for Digital Humanities</head>
+            <div xml:id="rehbein-div13" rend="numbered-heading">
+               <head>Fears of Media Change</head>
+               <p>With the rough definition of Digital Humanities elaborated above in mind, we next sketch out some of the changes underway during this computational turn. Media changeover has always been characterised by anxiety and outspoken criticism. Well-known examples include <name ref="#rehbein-pers071">Plato’s</name> critique on writing as it led to degeneration of the human capability of memorizing and more importantly comprehension (<title ref="#rehbein-work005">Phaedrus dialogue</title>), the invention of the printing press which allowed limitless publications and led to moral decay, <name ref="#rehbein-pers064">Nietzsche’s</name> trouble with the typewriter and how this technology changed his way of thinking,<ref target="#Kunzmann1982" type="bibl" xml:id="rehbein-ftn36"/>
+                  the <q>indoctrination or seize-over of the listener through very close spraying</q> of sounds by stereophonic headphones,<note xml:id="rehbein-ftn37" n="37"><q>Psychoterror durch den Kunstkopf</q>, zitiert nach <ref target="#Buelow2013" type="bibl"/><!--<ptr target="http://www.heise.de/newsticker/meldung/Vor-40-Jahren-Ein-Kunstkopf-fuer-binaurale-Stereophonie-1946286.html"/>; last accessed 28&#8239;July 2015.--></note> 
+                  and many others. More recently, the internet as a new medium has been criticized as leading towards superficiality and the decline of cognitive capabilities as <name ref="#rehbein-pers017">Nicholas Carr’s</name> rhetorical question <q>Is Google Making Us Stupid?</q> suggests.<ref type="bibl" target="#Carr2008" xml:id="rehbein-ftn38"/>
+               </p>
+               <p>Let us briefly look at some positive aspects of these changes: writing down knowledge allowed its increase beyond the memory capability of a single person, the invention of the printing press led to a liberalisation of this knowledge, internet technology and open access might lead to further democratization, de-imperialization and de-canonization of knowledge.
+                  In the context of the latter, <name ref="#rehbein-pers008">David Berry</name> emphasizes the ubiquitous access to human knowledge,<ref target="#Berry2012" type="bibl" xml:id="rehbein-ftn39"/>
+                  which reminds one of <name ref="#rehbein-pers015">Vannevar Bush’s</name> memory extension system Memex: <quote source="#rehbein-ftn39a">Technology enables access to the databanks of human knowledge from anywhere, disregarding and bypassing the traditional gatekeepers of knowledge in the state, the universities, and market. […] This introduces not only a moment of societal disorientation with individuals and institutions flooded with information, but also offer a computational solution to them in the form of computational rationalities, what Turing (1950) described as super-critical modes of thought.</quote><ref target="#Berry2012" type="bibl" xml:id="rehbein-ftn39a" rend="ibid">p.&#8239;8&#x2013;9</ref></p>
+               <p>One may regard it as positive or negative,<note xml:id="rehbein-ftn40" n="40"><name ref="#rehbein-pers047">Andrew Keen</name> is one to emphasize the negative impact of the vanishing of gatekeepers because it led to lost of trust and opens the door for manipulation and propaganda (<ref type="bibl" target="#Keen2015">p.&#8239;184&#x2013;185</ref>).</note> 
+                  but changes in media have always been followed by a dismissal of the old <q>gatekeepers of knowledge</q>: first the authorities of the classical age, the Christian church and the monasteries, then the publishing houses and the governmental control in modern history. Progress dismissed them but new gatekeepers succeeded them. In a way, <name ref="#rehbein-pers015">Vannevar Bush’s</name> vision of the memory extension by what we would now call a networked database of knowledge seems to have become reality. Not only do the various types of media converge, but also man and machine merge. Data and algorithms become more and more important for everyday life and work, and those who control these algorithms and <q>gatekeep</q> the data, wield power. <q>Code is law</q>, postulates <name ref="#rehbein-pers053">Lawrence Lessig</name>,<ref target="#Lessig1999" type="bibl" xml:id="rehbein-ftn41"/>
+                  and in the German newspaper DIE ZEIT, <name ref="#rehbein-pers074">Gero von Randow</name> follows this up and proclaims: <q>Who controls this process, rules the future</q>.<note xml:id="rehbein-ftn42" n="42"><q>Wer diesen Prozess steuert, beherrscht die Zukunft</q>. <ref target="#Randow2014" type="bibl"/>.</note> 
+                  Apparently, this leaves the door open for manipulation and for mistakes.</p>
+            </div>
+            <div xml:id="rehbein-div14" rend="numbered-heading">
+               <head>The Sorcerer’s Apprentice</head>
+               <p>The 1980s Czechoslovakian (children’s) science-fiction TV series <hi rend="italic">Návštěvníci</hi> (The Visitors)<note xml:id="rehbein-ftn43" n="43">Návštěvníci (1981&#x2013;1983), dir. <name ref="#rehbein-pers073">Jindřich Polák</name>.</note> 
+                  depicts a peaceful world in the year 2484. In this world, everything is in harmony until the Central Brain of Mankind, a computer, predicts the collision of an asteroid with the Earth leading to the planet’s destruction. The people completely and blindly rely on this Central Brain and start a mission to rescue mankind. The mission fails and people are about to evacuate the planet. Then an accidental traveller in time, from the year 1984, comes into this world. What he finds out is very simple: the people have built the machine (the Central Brain) onto a crooked surface which hence caused crooked predictions. The traveller put the Central Brain back into its upright position from which it could correct its prediction (Earth was not threatened) and the machine apologized for causing so much trouble. The visitor from a past time did one thing that the people of 2484 did not: he critically (one might say na&#239;vely) approached the computer and challenged its functionality &#x2013; a capability that the people of 2484 have lost or forgotten. They never thought of questioning the computer’s prediction.</p>
+               <p>The moral of this story is that, in the end, it has to be the humans to justify the consequences of actions. This is very much like what <name ref="#rehbein-pers090">Joseph Weizenbaum</name> has told us. A computer can make decisions, he would argue, but it has no free choice. In the future world of <hi rend="italic">The Visitors</hi>, one single, central computer steers the fate of mankind. In our present age, it is the ubiquity of computing technology &#x2013; computers are everywhere&#x00A0;&#x2013; that effects our daily lives. </p>
+               <p>Philosopher <name ref="#rehbein-pers091">Klaus Wiegerling</name> discusses ubiquitous computing<note xml:id="rehbein-ftn44" n="44">The term appeared around 1988. Cf. <ref target="#Weiser1999" type="bibl"/>.</note> 
+                  from an ethical perspective in ways that are highly relevant to (Digital) Humanities.<ref type="bibl" target="#Wiegerling2013" xml:id="rehbein-ftn45"/>
+                  If systems, <name ref="#rehbein-pers091">Wiegerling</name> argues, acquire, exchange, process, and evaluate data on their own, then the materialization of information can no longer be comprehended by people. Personal identity, however, is formed through such comprehension, and making experiences (an important part of these is doubt or resistance) is essential for it. Hence, ubiquitous algorithms might lead to a loss of identity and personal capabilities and competences. Like <hi rend="italic">The Visitors</hi>, we start behaving like little children, being incapable of determining reality correctly, losing our identity as an acting subject and limiting our options on how to act. The <q>unfriendly takeover</q> by computers that technology critic <name ref="#rehbein-pers078">Douglas Rushkoff</name> fears for our present society<ref target="#Rushkoff2013" type="bibl" xml:id="rehbein-ftn46"/>
+                  has taken place in <hi rend="italic">The Visitors</hi> and it is only someone from the past who saves the present live of the future.</p>
+               <p>We need to engage more critically with the origin of our data and with the algorithms we are using. One needs only to look into a university classroom to observe how the role search engines and smartphone apps play in decision-making is increasing. A typical argument that you can often hear is that some information comes <soCalled>from the internet</soCalled>. That this information is not challenged (by questioning who has provided this <soCalled>information</soCalled> and when, with what intention, which were the sources&#x00A0;etc.) illustrates the lack of information literacy. Additionally, the conclusion that because something <soCalled>comes from the internet</soCalled>, this something has to be the truth (or at least valid), illustrates the danger of this attitude and information illiteracy being abused. Consequently, new gatekeepers of knowledge might emerge all too easily. Being incapable of critical thinking can be observed more and more, from a classroom situation in Digital Humanities to scholarship in general, and to society at large.</p>
+               <p><name ref="#rehbein-pers022">Crawford’s</name> observation about Big Data that <quote source="#rehbein-ftn46a">If the big-data fundamentalists argue that more data is inherently better, closer to the truth, then there is no point in their theology at which enough is enough</quote><ref target="#Crawford2014" type="bibl" xml:id="rehbein-ftn46a"/> leads us to a position that ethicists would call the problem of the Sorcerer’s Apprentice, named after <name ref="#rehbein-pers032">Goethe’s</name> poem <hi rend="italic">Der Zauberlehrling</hi>.<note xml:id="rehbein-ftn47" n="47">I am grateful to my colleague <name ref="#rehbein-pers087">Christian Thies</name>, Professor of Philosophy at the University of Passau to share his thoughts on this with me.</note> 
+               </p>
+               <p>The poem begins as an old sorcerer departs his workshop, leaving his apprentice with household chores to be done. Tired of fetching water with a pail, the apprentice enchants a broom to do the work for him &#x2013; using magic for which he is not yet fully trained. The floor is soon awash with water, and the apprentice realizes that he does not know how to stop the broom:</p>
+               <floatingText>
+                  <body>
+                     <lg>
+                        <l>Immer neue Güsse</l>
+                        <l>bringt er schnell herein,</l>
+                        <l>Ach, und hundert Flüsse</l>
+                        <l>stürzen auf mich ein!</l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <p>The apprentice splits the broom in two with an axe, but every piece becomes a new broom on its own and takes up a pail and continues fetching water, now at twice the speed. </p>
+               <floatingText>
+                  <body>
+                     <lg>
+                        <l>Die ich rief, die Geister,</l>
+                        <l>werd&#x2019; ich nun nicht los</l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <p>When all seems lost, the old sorcerer returns and quickly breaks the spell. The poem finishes with the old sorcerer&#x2019;s statement that powerful spirits should only be called by the master himself.</p>
+               <p>The analogy to the risks of Big Data is obvious: what initially has been useful to handle a large amount of data might get out of control and start ruling us, taking away from us the options that we once had: the normative power of the de-facto. At some point, we might have no choice anymore but to use data analysis or other computer-based methods for any kind of research in the Humanities. And what would then happen if we do not understand the data and the algorithms anymore and stop challenging the machines like the people from 2484?</p>
+               <p><name ref="#rehbein-pers091">Wiegerling</name> concludes that it is becoming more and more important today to pinpoint the options available for action, to make transparent the possibilities of intervening with an autonomous operating system, and to enlighten people about the functionality of these systems.<ref target="#Wiegerling2013" type="bibl">p.&#8239;376</ref> 
+                  This should be a core rationale of any training in Digital Humanities, and it is essential to shape our tools before these tools shape us.<note xml:id="rehbein-ftn48" n="48">Cf. <ref type="bibl" target="#Keen2015">p.&#8239;20</ref>, in analogy to the famous <name ref="#rehbein-pers021">Winston Churchill</name> quote: <q>We shape our buildings; thereafter they shape us.</q></note>
+               </p>
+            </div>
+            <div xml:id="rehbein-div15" rend="numbered-heading">
+               <head>Some General Thoughts on <hi rend="italic">Wissenschaftsethik</hi> of Science for the Digital Humanities</head>
+               <p>New technologies have their good sides and their bad sides depending on one’s perspective. Every change brings forward winners and losers. The big ethical question is how to value and how to opt and to justify what we are doing. Philosopher <name ref="#rehbein-pers063">Julian Nida-Rümelin</name> pointed out that for various areas of human conduct, different normative criteria might be appropriate and ethics cannot be reduced to one single system of moral rules and principles.<ref type="bibl" target="#Nida-Ruemelin1996" xml:id="rehbein-ftn49">p.&#8239;63</ref> 
+                  As we are currently forming Digital Humanities as a discipline on its own, a definition of its own <hi rend="italic">Wissenschaftsethik</hi> as a complementary counterpart to its theory of science seems to be timely. Theory and ethics together make philosophy of science. Their role it is to clarify what exactly this <hi rend="italic">Wissenschaft</hi> is (its ontological determination) and how <hi rend="italic">Wissenschaft</hi> is capable to produce reliable knowledge.<ref target="#Reydon2013" type="bibl" xml:id="rehbein-ftn50">p.&#8239;16</ref>
+               </p>
+               <p>Ethics is part of philosophy and is regarded as a discipline that studies moral (as a noun), i.&#8239;e., normative, moral (as an adjective) systems, judgements, and principles. This is not the place to discuss any moral criteria. However, on a more general level, a framework from which these criteria, or code of conduct, for Digital Humanities might be derived, shall be outlined along three areas following <name ref="#rehbein-pers038">Hoyningen-Huene&#x2019;s</name> systematization:<note xml:id="rehbein-ftn51" n="51">Cf. <ref type="bibl" target="#Reydon2013">p.&#8239;12&#x2013;15</ref>. The fourth area, a <hi rend="italic">Sozialphilosophie der Wissenschaft</hi> is left out here. It addresses the interplay of <hi rend="italic">Wissenschaft</hi> with society.</note>
+               </p>
+               <list rend="ordered">
+                  <item>Moral issues in specific fields of research and in close relation to the objects of study</item>
+                  <item>Moral aspects of <hi rend="italic">Wissenschaft</hi> as a profession</item>
+                  <item>The responsibility of an individual scholar as well as of the scholarly community at large.</item>
+               </list>
+               <p>All these areas are relevant for Digital Humanities. The first area comes into play, for instance, when one deals with and analyses personal data. Many of the examples discussed above touch on this question. Consider the authorship attribution and the case of <name ref="#rehbein-pers075">Rowling</name>. The researchers analyse text, but this text mediates an individual, which then becomes the object of study. Do we violate <name ref="#rehbein-pers075">Rowling’s</name> right of privacy or anonymity? Should one (or not) ask this individual whether she objects to this investigation? If we are capable of inferring an individual’s genetic disposition to certain diseases by just analysing historical records, should permission be required from this individual when the historical data of his ancestors is going to be public through digitization? </p>
+               <p>Scientific and technological progress seem to go more and more hand in hand with an increasing readiness for taking risks as <name ref="#rehbein-pers004">Ulrich Beck</name> criticizes.<ref type="bibl" target="#Beck2008" xml:id="rehbein-ftn52"/>
+                  He observes that there are hardly any taboos anymore or that once existing taboos are broken. Societal scruples seem to disappear with the consequence that society increasingly accepts once questionable conduct without opposition. <name ref="#rehbein-pers004">Beck’s</name> observation applies not only for the use of technology but also for research as such. Moreover, this research, <name ref="#rehbein-pers004">Beck</name> argues, is taking place less and less inside the protected environment of a laboratory. Instead, the world as a whole is becoming a laboratory for research. For the objects that <name ref="#rehbein-pers004">Beck</name> discusses, for instance genetically mutated plants, it is rather obvious how this <soCalled>world as laboratory</soCalled> is threatening the world as a whole. For the Humanities, it is less apparent. However, the tendency might indeed be the same. For instance, Big Data offers the possibility of studying communicational patterns and behaviours of people at large by analysing so-called social media such as Twitter. Unlike an experiment in a laboratory where people are invited to participate as test subjects, the internet, the virtual world, becomes the new laboratory where participation is often unwitting and involuntary. In a physical laboratory, we used to ask people for their permission to participate in an experiment (and usually paid them some compensation). Should we not do the same and achieve an informed consent when we regard the internet as a laboratory and use its data? Can we accept the fact that Tweeters are test persons in an experiment without even knowing it?<note xml:id="rehbein-ftn53" n="53">In fact, research of this kind has already been undertaken in a very problematic manner. 
+                     <name ref="#rehbein-pers050">Kramer</name>, <name ref="#rehbein-pers034">Guillory</name>, and <name ref="#rehbein-pers035">Hancock</name> manipulated the <q>News Feeds</q> of 700,000 Facebook users to study the impact on their mood (<ref target="#Kramer2014" type="bibl"/>). Facebook was a partner in this experiment, provided access to personal data and facilitated data manipulation. Informed consent by the users had not been asked for. Many raised ethical concerns about this study, for instance in online comments to the publication (<ref target="http://www.pnas.org/content/111/24/8788.full?sid=750ad790-21a1-4ebc-ba71-9dc0ac5af3d0"/>) and other media. In an opinion piece within the same journal, <name ref="#rehbein-pers045">Kahn</name>, <name ref="#rehbein-pers089">Vayena</name>, and <name ref="#rehbein-pers054">Mastroianni</name> ask in a utilitarian view whether the concept of informed consent <q>makes sense in social-computing research</q> and conclude that <q>best practices have yet to be identified</q> (<ref target="#Kahn2014" type="bibl"/>). A more critical opinion expresses <name ref="#rehbein-pers088">Tufekci</name>: <ref target="#Tufekci2014" type="bibl"/>.</note>
+               </p>
+               <p>The second area of ethics discusses moral aspects of <hi rend="italic">Wissenschaft</hi> as a profession. We can divide ethics of science into two dimensions: first, the internal dimension that deals with issues of affecting individuals within a given scholarly community and this community itself, and second, the external dimension that deals with consequences for individuals outside this community, for the ambient society, culture and nature. Moral aspects of <hi rend="italic">Wissenschaft</hi> as a profession are of the first dimension. What is understood here is usually a code of good practice: work <hi rend="italic">lege artis</hi>, do not fabricate, do not falsify, do not plagiarize, honour the work of others, give credit to all who supported you, name your co-authors, do not publish the same thing twice, and various other guidelines that many scholarly communities have given themselves.<note xml:id="rehbein-ftn54" n="54">For a general framework cf. for instance the memorandum of the Deutsche Forschungsgemeinschaft (1998/2013). Sicherung guter wissenschaftlicher Praxis. Empfehlungen der Kommission <q>Selbstkontrolle in der Wissenschaft</q>/Safeguarding Good Scientific Practice. Recommendations of the Commission on Professional Self Regulation in Science.</note>
+               </p>
+               <p>But it is more than that. <name ref="#rehbein-pers055">Robert Merton</name> formulated in 1942 four epistemological dimensions of what distinguishes good from bad science.<ref type="bibl" target="#Merton1973" xml:id="rehbein-ftn55"/>
+                  He claimed that scholars shall only be guided by the ethics of their profession and not by personal or social values. Between the 1920s and 1940s, he observed that science is developing not autonomously and on its own anymore, but that societal and political forces and their interests significantly drive it. This led to a loss of trust into the objectivity of scientific results. Although <name ref="#rehbein-pers055">Merton’s</name> view on the exclusion of personal and social values does not hold out anymore, in the framework of today’s <hi rend="italic">Wissenschaftssystem</hi>, there are a couple of characteristics, similar to <name ref="#rehbein-pers055">Merton’s</name> observation 70 years ago. These apparently change the way we work, but they also compel our research into particular directions, and steer and restrict our choices of research topics and methods. These characteristics of today’s <hi rend="italic">Wissenschaftssystem</hi> include (among others): a permanent pressure to acquire third-party funding, the <q>publish-or-perish</q> principle, a growing necessity to legitimate research, especially in the Humanities, international competition and a demand to be <q>visible</q> as a researcher. It has to be discussed how these conditions affect the objectivity of our research especially when at the same time, a huge amount of data is conveniently at hand to quickly produce analytical results, faster than by traditional methods but maybe also less grounded. <name ref="#rehbein-pers055">Merton’s</name> principles from 1942 might still serve as guidance. In order to restore legitimation and trust into research, he demands four principles:</p>
+               <list rend="ordered">
+                  <item>Universalism: all research has to be measured against impersonal criteria regardless of its origin. Only then, best results can be produced (this is a teleological criterion)</item>
+                  <item>Communalism: all research is the result of a communal effort (which refers to Newton’s <soCalled>Standing on the shoulders of giants</soCalled>), cannot remain individual and has to be published widely (the modern Open Access, Open Source, Open Data movements builds on this)</item>
+                  <item>Selflessness: the behaviour of a researcher has to be guided only by the interest of the scientific community; it is his duty to produce reliable knowledge (this is a deontological criterion)</item>
+                  <item>Organized skepticism: it is the duty to steadily question the own work and the work of others in order to produce best possible results.</item>
+               </list>
+               <p>The latter is particularly important within an emerging field such as the Digital Humanities.</p>
+               <p>The third area of ethics is more abstract: it deals with the consequences of our research for the world in which we live. In the 17<hi rend="sup">th</hi> century, <name ref="#rehbein-pers002">Francis Bacon</name> formulated his ideal of a <hi rend="italic">Wissenschaft</hi>, which should serve society in order to improve the living conditions of humankind. Science shall be &#x2013; teleologically &#x2013; subordinated under this higher good. In <name ref="#rehbein-pers002">Bacon’s</name> time, this especially aimed at understanding nature. Knowledge would then empower mankind to master nature.<note xml:id="rehbein-ftn56" n="56">Cf. <ref target="#Reydon2013" type="bibl">p.&#8239;82&#x2013;83</ref>.</note>
+               </p>
+               <p>Scepticism about this view has been raised by many others, among them Philosopher <name ref="#rehbein-pers039">Hans Jonas</name>.<ref type="bibl" target="#Jonas1984" xml:id="rehbein-ftn57"/> 
+                  Technology’s control over nature has become excessive with the consequence that technology does not lead any more towards improving living conditions but towards their destruction. <name ref="#rehbein-pers039">Jonas</name> formulates an imperative of future ethics: <quote source="#rehbein-ftn57a">Handle so, daß die Wirkungen deiner Handlung verträglich sind mit der Permanenz echten menschlichen Lebens auf Erden</quote><ref target="#Jonas1984" type="bibl" xml:id="rehbein-ftn57a" rend="ibid">p.&#8239;36</ref> (<q>act only according to the maxim that the consequences of your action are in harmony with a permanent existence of true human life on Earth</q>; translation MR). <name ref="#rehbein-pers039">Jonas</name> does both: he criticizes and he extends (modernizes?) <name ref="#rehbein-pers046">Immanuel Kant’s</name> categorical imperative: <q>Act only according to that maxim whereby you can, at the same time will, that it should become a universal law without contradiction</q>. <name ref="#rehbein-pers039">Jonas</name> demands from each scholar the duty to take responsibility for future generations and to preserve what makes <q>echtes menschliches Leben</q>, true human life. 
+                  <q>True</q> indicates that the question of permanent existence of life goes beyond mere biological existence and procreation, but the Zeitgeist and the current systems of values of a society probably define what <q>true human</q> actually means. Liberty and privacy could be components of such a system in nowadays Western World. Any research that threatens the continuity of these values would violate <name ref="#rehbein-pers039">Jonas’</name> imperative. </p>
+               <p>For research undertaken in the Digital Humanities, questions like these may arise: how is our social behaviour changing when we know that we cannot express ourselves without being monitored? What consequences would follow out of this for <!--the--> society? How does a society look like in which possibly the history of diseases and dispositions of individuals can easily be detected based on Open Access historical data? Is there a risk that we might create future generations in which values like a right to stay anonymous do not exist anymore or is there not? And if there is, shall we take this take or better not? Or what measures shall we take to minimize it?</p>
+               <p><name ref="#rehbein-pers039">Jonas</name> gives us advice when it comes to finding answers for these questions, hence to decide among different options of action. He asks us to think of the worst-case scenario first. His heuristic is determined by fear (<q>Heuristik der Furcht</q>),<ref target="#Jonas1984" type="bibl" xml:id="rehbein-ftn58" rend="ibid">p.&#8239;7&#x2013;8</ref> 
+                  and the principle of <name ref="#rehbein-pers039">Jonas’</name> ethics is responsibility, especially for the future. I personally agree with this view and would like to establish the following: as long as the consequences of our research in Digital Humanities are not sufficiently clear, one should be sensitive to the problems that might arise, one should be careful in his actions, and we as a community should at least have these discussions openly.</p>
+            </div>
+         </div>
+         <div xml:id="rehbein-div16" rend="numbered-heading">
+            <head>Conclusion</head>
+            <p><hi rend="italic">Wissenschaftsethik</hi> refers to all moral and societal aspects of the practice of our <hi rend="italic">Wissenschaft</hi>. Nevertheless, it can do nothing more than to problematize and to make the stakeholders of Digital Humanities sensitive for moral questions. It can suggest different perspectives and set a framework within which arguments take place, but it cannot solve dilemmas. The decisions to be made are always up to the individual scholar or &#x2013; in terms of a code of conduct &#x2013; up to the scholarly community: it&#x2019;s our department.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Puschmann2014">Cornelius Puschmann and Jean Burgess, <title level="a">Big Data, Big Questions. Metaphors of Big Data</title>, in: <title level="j">International Journal of Communication</title> 8 (2014), p.&#8239;1690&#x2013;1709</bibl>
+               <bibl xml:id="Schoech2013">Christof Schöch, <title level="a">Big? Smart? Clean? Messy? Data in the Humanities</title>, in: <title level="j">The Dragonfly&#x2019;s Gaze. Computational analysis of literary texts</title>, (August 1, 2013), online available at <ptr target="http://dragonfly.hypotheses.org/443"/></bibl> <!--?-->
+               <bibl xml:id="Thaller2015">Manfred Thaller, <title level="u">Wenn die Quellen überfließen. Spitzweg und Big Data</title>, Closing Keynote, Graz, 27&#8239;February 2015</bibl>
+               <bibl xml:id="Duhigg2012">Charles Duhigg, <title level="a">How Companies Learn Your Secrets</title>, in: <title level="m">New York Times</title>, 16&#8239;February 2012, online available at <ptr target="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html"/><!-- [24.07.2015])--></bibl> <!--?-->
+               <bibl xml:id="SnowdenFiles"><title level="a">The Snowden files</title>, online available at <ptr target="http://www.theguardian.com/world/series/the-snowden-files"/></bibl> <!--?-->
+               <bibl xml:id="Wolle2013">Stefan Wolle, <title level="m">Die heile Welt der Diktatur</title>, Berlin 2013</bibl>
+               <bibl xml:id="Sebestyen2009">Victor Sebestyen, <title level="m">Revolution 1989: The Fall of the Soviet Empire</title>, New York 2009</bibl>
+               <bibl xml:id="Keen2015">Andrew Keen, <title level="m">Das digitale Debakel</title>, München 2015<bibl type="short">Keen, <title level="m">Das digitale Debakel</title></bibl></bibl><!-- (orig.: The Internet is Not the Answer) ?!? Siehe FN48 -->
+               <bibl xml:id="Crawford2014">Kate Crawford, <title level="a">The Anxieties of Big Data</title>, in: <title level="j">The New Inquiry</title>, 30&#8239;May 2014, online available at <ptr target="http://thenewinquiry.com/essays/the-anxieties-of-big-data/"/><!-- [24.07.2015]--><bibl type="short">Crawford, <title level="a">The Anxieties of Big Data</title></bibl></bibl>
+               <bibl xml:id="Kolodziejski2015">Christoph Kolodziejski and Vera Szöllösi-Brenig, <title level="m">Big Data in a Transdisciplinary Perspective</title>. Herrenhäuser Konferenz, 22&#8239;July 2015, online available at <ptr target="http://www.hsozkult.de/conferencereport/id/tagungsberichte-6084"/><!-- [24.07.2015]--></bibl>
+               <bibl xml:id="Akerkar2014">Rajendra Akerkar, <title level="m">Big data computing</title>, Boca Raton <!--u.&#8239;a.--> 2014</bibl>
+               <bibl xml:id="Zicar2014">Roberto V. Zicar, <title level="a">Big Data: Challenges and Opportunities</title>, in: <title  level="m">Big data computing</title>, ed. by Rajendra Akerkar, Boca Raton<!-- u.&#8239;a.-->, p.&#8239;103&#x2013;128</bibl>
+               <bibl xml:id="Frontiers2013">National Research Council, <title level="m">Frontiers in Massive Data Analysis</title>, Washington DC 2013, online available at <ptr target="http://www.nap.edu/read/18374/"/><!--Online [24.07.2015]--></bibl> <!--?-->
+               <bibl xml:id="Bollier2010">David Bollier, <title level="m">The Promise and Peril of Big Data</title>, Washington DC 2010</bibl>
+               <bibl xml:id="Oxford2015">Job offer for a <title level="a">Postdoctoral Research Fellowship in Ethics of Big Data</title> at the University of Oxford, online available at <ptr target="https://data.ox.ac.uk/doc/vacancy/113435"/><!-- [24.07.2015]--></bibl> <!--?-->
+               <bibl xml:id="Noller2012">Stephan Noller, <title level="a">Relevanz ist alles. Plädoyer für eine Algorithmen-Ethik</title>, in: <title level="j">Frankfurter Allgemeine Zeitung</title>, 24&#8239;October 2012</bibl>
+               <bibl xml:id="Kord2012">Kord Davis, <title level="m">Ethics of Big Data</title>, Sebastopol (CA) 2012</bibl>
+               <bibl xml:id="Born1965">Max Born, <title level="m">Von der Verantwortung des Naturwissenschaftlers. Gesammelte Vorträge</title>, München 1965</bibl>
+               <bibl xml:id="Bush1945">Vannevar Bush, <title level="a">As We May Think</title>, in: <title level="j">Atlantic Monthly</title> 176 (July 1945), online available at <ptr target="http://www.theatlantic.com/magazine/archive/1969/12/as-we-may-think/3881/"/></bibl>
+               <bibl xml:id="Zuse1984">Konrad Zuse, <title level="m">Der Computer &#x2013; Mein Lebenswerk</title>. Mit Geleitworten von F.&#8239;L. Bauer und H. Zemanek, Berlin <!--u.&#8239;a.--> 1984<bibl type="short">Zuse, <title level="m">Der Computer</title></bibl></bibl>
+               <bibl xml:id="Anderson2008">Chris Anderson, <title level="m">The End of Theory: The Data Deluge Makes the Scientific Method Obsolete</title>, in: <title level="j">Wired Magazine</title> 16 (2008), online available at <ptr target="http://archive.wired.com/science/discoveries/magazine/16-07/pb_theory"/></bibl>
+               <bibl xml:id="Kitchin2014">Rob Kitchin, <title level="m">Big Data, New Epistemologies and Paradigm Shifts</title>, in: <title level="j">Big Data &amp; Society</title> 1 (June 2014), DOI: <ref target="http://doi.org/10.1177/2053951714528481">10.1177/2053951714528481</ref></bibl>
+               <bibl xml:id="Boyd2015">Ryan L. Boyd and James W. Pennebaker, <title level="a">Did Shakespeare Write Double Falsehood? Identifying Individuals by Creating Psychological Signatures With Text Analysis</title>, in: <title level="j">Psychological Science</title> 26 (2015), p.&#8239;570&#x2013;582<bibl type="short">Boyd/Pennebaker, <title level="a">Did Shakespeare Write Double Falsehood?</title></bibl></bibl>
+               <bibl xml:id="Lancashire2010">Ian Lancashire and Graeme Hirst, <title level="a">Vocabulary Changes in Agatha Christie&#x2019;s Mysteries as an Indication of Dementia: A Case Study</title>, in: <title level="m">Forgetful Muses: Reading the Author in the Text</title>, Toronto 2010, p.&#8239;207&#x2013;219, online available at <ptr target="http://ftp.cs.toronto.edu/pub/gh/Lancashire+Hirst-extabs-2009.pdf"/><bibl type="short">Lancashire/Hirst, <title level="a">Vocabulary Changes</title></bibl></bibl>
+               <bibl xml:id="Kluenemann2013">Hans Klünemann, Herbert Wurster and Helmfried Klein, <title level="a">Alzheimer, Ahnen und Archive. Genetisch-Genealogische Alzheimerforschung</title>, in: <title level="j">Blick in die Wissenschaft. Forschungsmagazin der Universität Regensburg</title> 15 (2013), p.&#8239;44&#x2013;51</bibl>
+               <bibl xml:id="Juola2013">Patrick Juola, <title level="a">Rowling and <q>Galbraith</q>: an authorial analysis</title>, in: <title level="j">Language Log Blog</title>, 16&#8239;July 2013, online available at <ptr target="http://languagelog.ldc.upenn.edu/nll/?p=5315"/></bibl> <!--?-->
+               <bibl xml:id="Noecker2013">John Noecker, Michael Ryan and Patrick Juola, <title level="a">Psychological profiling through textual analysis</title>, in: <title level="s">Literary &amp; Linguistic Computing</title> 28 (2013), p.&#8239;382&#x2013;387, DOI: <ref target="http://doi.org/10.1093/llc/fqs070">10.1093/llc/fqs070</ref><bibl type="short">Noecker/Ryan/Juola, <title level="a">Pschological profiling through textual analysis</title></bibl></bibl>
+               <bibl xml:id="Jung1921">Carl Gustav Jung, <title level="m">Psychologische Typen</title>, Zürich 1921</bibl>
+               <bibl xml:id="IsabelBriggsMyersPapers"><title level="m">A Guide to the Isabel Briggs Myers Papers</title>, online available at <ptr target="http://web.uflib.ufl.edu/spec/manuscript/guides/Myers.htm"/><!-- [28.07.2015]--></bibl>
+               <bibl xml:id="Luyckx2008">K. Luyckx and W. Daelemans, <title level="a">Personae: A Corpus for Author and Personality Prediction from Text</title>, in: <title level="m">Proceedings of the 6th Language Resources and Evaluation Conference</title>, Marrakech 2008</bibl>
+               <bibl xml:id="Kunzmann1982">Robert Kunzmann, <title level="a">Friedrich Nietzsche und die Schreibmaschine</title>, in: <title level="j">Archiv für Kurzschrift, Maschinenschreiben, Bürotechnik</title>, 3 (1982), p.&#8239;12&#x2013;13</bibl>
+               <bibl xml:id="Carr2008">Nicholas Carr, <title level="a">Is Google Making Us Stupid?</title>, in: <title level="j">The Atlantic</title>, 1&#8239;July 2008, online available at <ptr target="http://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/6868"/></bibl>
+               <bibl xml:id="Berry2012">David M. Berry, <title level="a">Introduction</title>, in:  <title level="m">Understanding Digital Humanities</title>, ed by David M. Berry, Basingstoke 2012, 1&#x2013;20<bibl type="short">Berry, <title level="a">Introduction</title> </bibl></bibl>
+               <bibl xml:id="Lessig1999">Lawrence Lessig, <title level="m">Code and Other Laws of Cyberspace</title>, New York 1999</bibl>
+               <bibl xml:id="Randow2014">Gero von Randow, <title level="a">Zukunftstechnologie: Wer denkt in meinem Hirn?</title>, in: <title level="j">DIE ZEIT</title>, No. 11 (7&#8239;March 2014), online available at <ptr target="http://www.zeit.de/2014/11/verschmelzung-mensch-maschine-internet"/></bibl>
+               <bibl xml:id="Weiser1999">Mark Weiser, R. Gold and J.&#8239;S. Brown, <title level="a">The Origins of Ubiquitous Computing Research at PARC in the Late 1980s</title>, in: <title level="s">IBM Systems Journal</title> 38/4 (1999), p.&#8239;693&#x2013;696</bibl>
+               <bibl xml:id="Wiegerling2013">Klaus Wiegerling, <title level="a">Ubiquitous Computing</title>, in:  <title level="m">Handbuch Technikethik</title>, ed. by Armin Grundwald, Stuttgart 2013, p.&#8239;374&#x2013;378<bibl type="short">Wiegerling, <title level="a">Ubiquitous Computing</title></bibl></bibl>
+               <bibl xml:id="Rushkoff2013">Douglas Rushkoff, <title level="m">Present shock: when everything happens now</title>, New York 2013</bibl>
+               <bibl xml:id="Nida-Ruemelin1996">Julian Nida-Rümelin, <title level="a">Theoretische und angewandte Ethik: Paradigmen, Begründungen, Bereiche</title>, in:  <title level="m">Angewandte Ethik: Die Bereichsethiken und ihre theoretische Fundierung</title>, ed. by Julian Nida-Rümelin,  Stuttgart 1996, p.&#8239;3&#x2013;85</bibl>
+               <bibl xml:id="Reydon2013">Thomas Reydon, <title level="m">Wissenschaftsethik</title>, Stuttgart 2013<bibl type="short">Reydon, <title level="m">Wissenschaftsethik</title></bibl></bibl>
+               <bibl xml:id="Beck2008"> Ulrich Beck, <title level="m">Weltrisikogesellschaft</title>, Frankfurt 2008</bibl>
+               <bibl xml:id="Kramer2014">Adam D.&#8239;I. Kramer, Jamie E. Guillory and Jeffrey T. Hancock, <title level="a">Experimental Evidence of Massive-Scale Emotional Contagion through Social Networks</title>, in: <title level="m">Proceedings of the National Academy of Sciences</title> 111, No.&#8239;24 (17&#8239;June 2014), p.&#8239;8788&#x2013;8790</bibl>
+               <bibl xml:id="Kahn2014">Jeffrey P. Kahn, Effy Vayena and Anna C. Mastroianni, <title level="a">Opinion: Learning as We Go: Lessons from the Publication of Facebook’s Social-Computing Research</title>, in: <title level="m">Proceedings of the National Academy of Sciences</title> 111, No.&#8239;38 (23&#8239;September 2014), p.&#8239;13677&#x2013;13679</bibl>
+               <bibl xml:id="Tufekci2014">Zeynep Tufekci, <title level="m">Engineering the Public: Big Data, Surveillance and Computational Politics</title>, in: <title level="j">First Monday</title>, 19 (7&#8239;July 2014), DOI: <ref target="http://doi.org/10.5210/fm.v19i7.4901">10.5210/fm.v19i7.4901</ref></bibl>
+               <bibl xml:id="Merton1973">Robert Merton, <title level="a">The normative structure of science</title>, in:  <title level="s">The sociology of science: theoretical and empirical investigations</title>, ed. by Robert Merton, Chicago 1973, p.&#8239;267&#x2013;278</bibl>
+               <bibl xml:id="Jonas1984">Hans Jonas, <title level="m">Das Prinzip Verantwortung</title>, Frankfurt 1984<bibl type="short">Jonas, <title level="m">Das Prinzip Verantwortung</title></bibl></bibl>
+               <bibl xml:id="BostonGlobe2013"><title level="a">J.&#8239;K. Rowling’s pseudonym: A bestselling writer’s fantasy</title>, in: <title level="j">The Boston Globe</title>, 22 July 2013, online available at <ptr target="https://www.bostonglobe.com/opinion/editorials/2013/07/21/with-pseudonym-richard-galbraith-rowling-lives-out-every-writer-fantasy/H9tkYJFB5dAHppCOe963yJ/story.html"/></bibl>
+               <bibl xml:id="Buelow2013">Ralf Bülow, <title level="a">Vor 40 Jahren: Ein Kunstkopf für binaurale Stereophonie</title>, in: <title level="j">heise online</title> (31 August 2013), URL: <ptr target="http://heise.de/-1946286"/></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

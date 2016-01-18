@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Music and Words</title>
+            <title type="sub">Reconciling libretto and score editions in the digital medium</title>
+            <author>
+               <name><forename>Raffaele</forename> <surname>Viglianti</surname></name>
+               <affiliation>is a Research Programmer at the Maryland Institute for Technology in the Humanities (MITH) at the University of Maryland. Before MITH he worked at the Departement of Digital Humanities at King’s College London, where he contributed to several digitization and text encoding projects while also completing a PhD in Digital Musicology.
+                  Raffaele’s research revolves around digital editions and textual scholarship, with a focus on editions of music scores. His work also focuses on the shaping of music performance practice by the <hi rend="italic">digital consumption</hi> of music scores, or the performance of a music score from a digital device.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="viglianti-pers001">
+                  <p>Bański, Piotr</p>
+               </person>
+               <person xml:id="viglianti-pers002">
+                  <p>Beethoven, Ludwig van</p>
+                  <p n="work" xml:id="viglianti-work013"><hi rend="italic">Streichquartett</hi> a-Moll op.&#8239;132</p>
+               </person>
+               <person xml:id="viglianti-pers003">
+                  <p>Bohl, Benjamin</p>
+               </person>
+               <person xml:id="viglianti-pers004">
+                  <p>Casti, Giovanni Battista</p>
+               </person>
+               <person xml:id="viglianti-pers005">
+                  <p>Cayless, Hugh</p>
+               </person>
+               <person xml:id="viglianti-pers006">
+                  <p>Coltellini, Marco</p>
+               </person>
+               <person xml:id="viglianti-pers007">
+                  <p>Eunicke, Johanna</p>
+               </person>
+               <person xml:id="viglianti-pers008">
+                  <p>Giacosa, Giuseppe</p>
+               </person>
+               <person xml:id="viglianti-pers009">
+                  <p>Greg, Walter W.</p>
+               </person>
+               <person xml:id="viglianti-pers010">
+                  <p>Illica, Luigi</p>
+               </person>
+               <person xml:id="viglianti-pers013">
+                  <p>Kind, Friedrich</p>
+               </person>
+               <person xml:id="viglianti-pers017">
+                  <p>Mascagni, Pietro</p>
+                  <p n="work" xml:id="viglianti-work006"><hi rend="italic">Iris</hi></p>
+               </person>
+               <person xml:id="viglianti-pers018">
+                  <p>Mozart, Wolfgang Amadeus</p>
+                  <p n="work" xml:id="viglianti-work003"><hi rend="italic">Don Giovanni</hi></p>
+                  <p n="work" xml:id="viglianti-work009"><hi rend="italic">Le nozze di Figaro</hi></p>
+               </person>
+               <person xml:id="viglianti-pers020">
+                  <p>Puccini, Giacomo</p>
+                  <p n="work" xml:id="viglianti-work007"><hi rend="italic">La Bohème</hi></p>
+                  <p n="work" xml:id="viglianti-work011"><hi rend="italic">Tosca</hi></p>
+               </person>
+               <person xml:id="viglianti-pers021">
+                  <p>Ricordi, Giulio</p>
+               </person>
+               <person xml:id="viglianti-pers022">
+                  <p>Salieri, Antonio</p>
+                  <p n="work" xml:id="viglianti-work010"><hi rend="italic">Prima la musica e poi le parole</hi></p>
+               </person>
+               <person xml:id="viglianti-pers023">
+                  <p>Salonen, Esa-Pekka</p>
+                  <p n="work" xml:id="viglianti-work012"><hi rend="italic">Violinkonzert</hi></p>
+               </person>
+               <person xml:id="viglianti-pers024">
+                  <p>Schmidt, Desmond</p>
+               </person>
+               <person xml:id="viglianti-pers026">
+                  <p>Schreiter, Solveig</p>
+               </person>
+               <person xml:id="viglianti-pers027">
+                  <p>Seuffert, Janette</p>
+               </person>
+               <person xml:id="viglianti-pers028">
+                  <p>Strohm, Reinhard</p>
+               </person>
+               <person xml:id="viglianti-pers031">
+                  <p>Traetta, Tommaso</p>
+                  <p n="work" xml:id="viglianti-work005"><hi rend="italic">Iphigenia in Tauride</hi></p>
+               </person>
+               <person xml:id="viglianti-pers032">
+                  <p>Trowell, Brian</p>
+               </person>
+               <person xml:id="viglianti-pers034">
+                  <p>Tyson, Alan</p>
+               </person>
+               <person xml:id="viglianti-pers035">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="viglianti-work002"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="viglianti-latex-width08">width=.8\textwidth</rendition>
+            <rendition xml:id="viglianti-latex-width07">width=.7\textwidth</rendition>
+            <rendition xml:id="viglianti-latex-width06">width=.6\textwidth</rendition>
+            <rendition xml:id="viglianti-latex-width05">width=.5\textwidth</rendition>
+            <rendition xml:id="viglianti-latex-width04">width=.4\textwidth</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-24T10:57:00"
+            who="https://github.com/peterstadler">Listings durch Abbildungen ersetzt und Layout angepasst.</change>
+         <change when="2015-11-19T17:08:00"
+            who="https://github.com/peterstadler">Korrekturen von Raffaele eingearbeitet und Layout angepasst.</change>
+         <change when="2015-11-16T15:10:00"
+            who="https://github.com/peterstadler">Korrekturen von Anna eingearbeitet und Layout angepasst.</change>
+         <change when="2015-11-13T23:44:00"
+            who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+         <change when="2015-09-18T12:45:11.878+02:00"
+            who="https://github.com/peterstadler">Literatur überarbeitet und Personen und Werke identifiziert.</change>
+         <change when="2015-09-17T16:05:11.878+02:00"
+            who="https://github.com/peterstadler">Almost done; Personen und Werke fehlen noch.</change>
+         <change when="2015-09-14T08:54:11.878+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="viglianti-abstract">
+            <p>Words appear in music scores with a variety of roles; they can be used as music notation themselves, or spell text to be sung, or be part of paratexts such as forewords and critical commentaries in printed score publications. This article explores the relationships between music and words in the context of digital editing, particularly with a focus on operatic libretti, which carry the spoken and sung words of operas. How can the hypertextual nature of the digital medium be exploited to model and publish these complex and important relationships?</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="viglianti01">
+            <head/>
+            <p>Words appear in music scores with a variety of roles; they can be used as music notation themselves, or spell text to be sung, or be part of paratexts such as forewords and critical commentaries in printed score publications. This article explores the relationships between music and words in the context of digital editing, particularly with a focus on operatic libretti, which carry the spoken and sung words of operas. How can the hypertextual nature of the digital medium be exploited to model and publish these complex and important relationships? To contextualize and answer this question, this essay gives a brief description of these uses of words in scores and their relevance to historical investigation and editorial work. Operatic libretti are analysed more in depth because of their dual ontological status of standalone literary works and parts of operatic works. <name ref="#viglianti-pers035">Carl Maria von Weber’s</name> <title ref="#viglianti-work002">Der Freischütz</title>, together with the editorial endeavours of the Weber-Gesamtausgabe and the digital edition project <hi rend="italic">Freischütz Digital</hi> will serve as an example case study.<note xml:id="viglianti-ftn1" n="1">In the context of critical editing, the word <q>text</q> is often used interchangeably to indicate textual information carried by a source document, whether musical or literary, or to indicate reconstructed and edited text of a work. Because this essay focuses on the coexistence of music notation and written language it becomes occasionally necessary to use the word <q>text</q> to simply mean written language as distinguished from music notation. Nonetheless, whenever possible, <q>words</q> will be preferred for the sake of clarity. This is in line with <hi rend="italic">The New Grove Dictionary of Music</hi> and <hi rend="italic">The New Grove Dictionary of Opera</hi>, where <q>words</q> is used to indicate written language in entries such as <hi rend="italic">Notation</hi>, §&#8239;II and <hi rend="italic">Libretto</hi> (i) and (ii).</note>
+            </p>
+            <p>Typically, words are most commonly found in scores for vocal music. Sung syllables are usually written under notes, but verses can also be grouped at the end of a section to indicate new words for repeated music. Across both vocal and non-vocal repertoires, words are also used to clarify and support music notation. Some recurring terms have become symbols themselves, like <q><hi rend="italic">piano</hi></q> and <q><hi rend="italic">forte</hi></q>, Italian for <q>quietly</q> and <q>loudly</q>. Often words are used to give directions to the performer and are picked from a well established vocabulary, such as the words and sentences indicating the speed and character of a performance. Composers have been notating music with varying degrees of detail, though it is evident from written sources that at the turn of the 19<hi rend="sup">th</hi> century music notation was becoming increasingly detailed.<note xml:id="viglianti-ftn2" n="2">A need for more detailed notation also reduced the use of too-generic words, for example those indicating tempo – established during the Baroque period (Notation, §&#8239;II – Grove Dictionary) – which were being replaced with metronome markings after the invention of the machine. See <ref target="#Taruskin1995" type="bibl">p.&#8239;217</ref></note> 
+               It is especially from this period onwards that it becomes not uncommon to find in the score more words providing more detailed explanations on how to perform a passage (notwithstanding the fact that unambiguous precision is unachievable),<note xml:id="viglianti-ftn3" n="3">To quote a recent example, <name ref="#viglianti-pers023">Esa-Pekka Salonens</name> <title ref="#viglianti-work012" rend="normal">Violin Concerto</title> (2009) includes a cadenza between the second and third movements. The written instructions restrain the improvisational and virtuosic character of a typical cadenza: <q>This cadenza to be played as written/The pitches must significantly overlap so that harmonies are heard. The gesture of the harmonies is more important than the actual pitches.</q></note> 
+               or even lines from literary works, guiding the performer towards a certain mood and character that the music should have. A well-known example is in the third movement of <name ref="#viglianti-pers002">Beethoven’s</name> <title ref="#viglianti-work013" rend="normal">string quartet No.&#8239;15, Op.&#8239;132</title>. The composer defines the movement as a song of thanksgiving with the words <q>Heiliger Dankgesang eines Genesenen an die Gottheit, in der lydischen Tonart</q> (a convalescent’s holy song of thanksgiving to the divinity, in the Lydian mode). He later writes <q>Neue Kraft fühlend</q> (feeling new strength), which indicates a narrative shift in the piece. Even though it is not a prescriptive indication <hi rend="italic">per se</hi>, the performers are made aware of a mood shift that they ought to consider when playing the music. This language becomes part of the music notation and an integral component of the score, thus blurring the boundaries between music notation and words.</p>
+            <p>Words are not in scores only as part of the music notation, however. Particularly in printed publications, it is common to find, before and after the score, words about the composer, the work, or about the production of the edition. If one looks at scores as historical objects, these words may constitute an important source of contextual information to the music work as well as to its performers, students and listeners. This richness of information is the focus of the <hi rend="italic">What’s the Score</hi><note xml:id="viglianti-ftn4" n="4">Available at <ptr target="http://www.whats-the-score.org/"/>.</note> 
+               project at the Bodleian Library at Oxford University, which seeks to crowdsource transcriptions of text and descriptions of cover images of several hundred piano scores coming mainly from the Victorian era. The goal is to see emerging a taxonomy of popular genres, topics and composers from the paratextual information, which may be more telling than the music content in these publications.<note xml:id="viglianti-ftn5" n="5">In the Victorian era playing piano at home was a popular pastime of educated classes and formed the basis of a popular music canon (<ref type="bibl" target="#Gregory2006">p.&#8239;14&#x2013;16</ref> and <ref target="#Solie2004" type="bibl">chapter&#x00A0;3</ref>). The artistic value of the music itself is not comparable with more sophisticated music of the same time; this music was mainly composed with the idea of being entertaining and not too hard to play. However, this subject is not as well researched as others and an analysis of these publications may contribute considerably to research about the popular culture of their times.</note>
+            </p>
+            <p>These few examples show how words are used for a variety of reasons in music notation. In the preparation of a scholarly edition, words, like any other sign on the page, may be helpful for the investigation of provenance of a source and to establish relationships with other sources. Words may need specific editorial criteria depending on their function in the score. Those that are part of the music notation are often regularized to the closed vocabulary expected in modern practice. For example, in older sources the words <hi rend="italic">piano</hi> and <hi rend="italic">forte</hi> may be spelled in full, or abbreviated in a variety of ways, but are regularized to the corresponding symbols in modern printed editions. Other, more descriptive words are usually left unchanged in editions, such as the words in <name ref="#viglianti-pers002">Beethoven’s</name> <title ref="#viglianti-work013" rend="normal">15<hi rend="sup">th</hi> string quartet</title> mentioned before. </p>
+            <p>In the same way as editing words in scores requires dedicated editorial criteria in printed editions, so they do in a digital context. Abbreviations are a particularly telling example: expanding <q>All:o</q> into <q>Allegro</q> is a different exercise compared to resolving a figured bass figure or ornament symbol; a different form of encoding is therefore necessary for the machine to tell the difference. Vocal music introduces a further complication; when sung text occurs in the musical score, textual linearity is jeopardized in favour of music notation. Those poetic structures such as verse form and lineation typically made evident by layout and formatting are inevitably lost. In a digital context, encoding can be used to indicate structures even when verses are set to music. This can be particularly useful in the editing of operatic works, where music and textual (as in written language) sources are particularly intertwined, and the libretto and the score are both different and inescapably related works. The following section will analyze this textual condition and reflect on the implications for digital editions of operatic works.</p>
+         </div>
+         <div xml:id="viglianti02">
+            <head>Libretto and operatic score editions in a digital context</head>
+            <p>Although typically associated with their composers, operas are the result of the work of many people that shape the music, words, setting and organization of these complex works. Libretti in particular are usually written by someone other than the composer, and their importance for and influence on the work as a whole has changed considerably through the history of opera. While this article does not intend to trace a history of the libretto, it is useful to discuss a few examples that show that libretti often have an independent genesis from the operatic score and may, therefore, require dedicated editorial effort.</p>
+            <p>As publications, libretti originated as aids for the opera goers; they would be printed before each performance and were meant as ephemeral objects.<ref target="#Macnutt1992" type="bibl" xml:id="viglianti-ftn95"/>  These publications would usually include information about the performance such as date, orchestra composition, singers, and other participants. The presence of these facts make the few documents that survived important sources for the study of operatic history and reception. Gradually, the libretto as a publication became a more independent object, meant to last longer and be read away from the music and the theatre. <name ref="#viglianti-pers028">Reinhard Strohm</name> observes:
+               <quote source="#viglianti-ftn6" xml:lang="de">Die Tatsache, daß Hunderttausende von Opernlibretti des 18. und 19.&#8239;Jahrhunderts erhalten sind, zum Teil in riesigen Privatsammlungen, sollte uns daran erinnern, daß Operntexte ebenso wie Sprechdramen und nichttheatralische Literatur zu Hause gelesen bzw. vorgelesen wurden.</quote><note xml:id="viglianti-ftn6" n="6" type="bibl"><q>The fact that hundreds of thousands of opera libretti from the 18<hi rend="sup">th</hi> and 19<hi rend="sup">th</hi> centuries have been preserved, some in huge private collections, should remind us that libretti were read at home just as other theatrical and non-theatrical literature.</q> <ref type="bibl" target="#Strohm2005">p.&#8239;45</ref></note></p>
+            <p>This evolution of libretto as a publication corresponded to a gradual standardization of the operatic repertory. These more durable libretti enabled the formation of a fairly specialized audience that likely used their copy to re-experience the spectacle of an opera they already knew or wished to know, especially before the existence of recordings. Particularly given the hypothesis of such an audience, it seems worthwhile to consider libretti under the lens of literary criticism. Nonetheless, <name ref="#viglianti-pers032">Brian Trowell</name> <!--(1992)--> warns of a general lack of literary quality and originality of libretti: <quote source="#viglianti-ftn7">of repertory operas before recent times, there is virtually none that has an entirely original plot. The use of a well-known story, whether from history or from fiction, offers great advantage to a librettist.</quote><note xml:id="viglianti-ftn7" n="7" type="bibl"><ref target="#Trowell1992" type="bibl">p.&#8239;1198</ref>. This trend continues well into the 20<hi rend="sup">th</hi> century, though the post-modern operatic world started portraying recent events and figures more factually, as it is evident from the enduring trend of <q>docu-opera</q>.</note> 
+               <name ref="#viglianti-pers032">Trowell</name> argues that the requirements of being set to music cause libretti to appear less artistically valuable when compared to other dramatic literature. It is only when music and words are considered together that one can appreciate the <q>mysterious new compound that results from the fusion of words with music.</q> <name ref="#viglianti-pers028">Strohm</name> also discusses the dependence of the libretto on other components of the operatic work, but argues that this very dependency often makes room for genre-defining literary description of the action on the stage, or of episodes in the music.<note xml:id="viglianti-ftn8" n="8"><ref target="#Strohm2005" type="bibl">p.&#8239;43</ref>. <name ref="#viglianti-pers028">Strohm</name> shows a few examples that show the variety of functions and audiences of libretto sources; for example, he explains how in the first print of the libretto of <title ref="#viglianti-work005">Iphigenia in Tauride</title> (music by <name ref="#viglianti-pers031">Tommaso Traetta</name> and words by <name ref="#viglianti-pers006">Marco Coltellini</name>) there are substantial differences in use of punctuation from the score, as well as references to the music, such as <q><hi rend="italic">Si sente da lontano un preludio flebile</hi></q> (a faint prelude is heard from afar).</note> 
+               An uncommon yet significant example of this is <name ref="#viglianti-pers010">Luigi Illica’s</name> libretto for the opera <title ref="#viglianti-work006">Iris</title>, music by <name ref="#viglianti-pers017">Pietro Mascagni</name>. In the edition printed by Ricordi in&#x00A0;1898, one can find <q>stage directions</q> such as the following:
+               <quote source="#viglianti-ftn9">Ecco la scena: la allegra casetta di Iris; &#x2013; il suo giardino colla piccola siepe di biancospine in fiore; &#x2013; nettamente ora spiccano i pallidi e sottili bambou nel risalto del villaggio; &#x2013; il ruscello canta gaio ed azzurro il ritornello che gli viene dalla canzone serena ed azzurra del cielo; &#x2013; e laggiù, là, nell’estremo fondo, il Fousiyama, alto come la brama degli umani anelanti alla gran pace del silenzio!</quote><note xml:id="viglianti-ftn9" n="9" type="bibl"><q>This is the scene: Iris&#x2019;s merry little house; &#x2013; its garden with a small flowered hawthorn hedge; &#x2013; now the pale and thin bamboos neatly stand out against the village; &#x2013; the river sings gaily and blue the refrain inspired by the sky&#x2019;s calm and cerulean song; &#x2013; and over there, in the utmost distance, the Fujiyama, tall like the longing of humans, gasping for the great peace of silence!</q></note>
+            </p>
+            <p><name ref="#viglianti-pers010">Illica’s</name> language in this passage is not functional in relation to the setting on stage of the opera; rather it is shaped to evoke an image in the reader’s mind. In other words, the author writes so that Iris’s story can be appreciated away from, and regardless of, the theatre and the music. </p>
+            <p>The librettist’s freedom of literary description is limited to the context of the libretto as a standalone publication and to those words that are not set to music. Words meant to be sung or acted, instead, often need to follow requirements of length and structure determined by the music. The music, likewise, is in turn shaped by the narrative pace that the words set. In this interdependence, the <q>upper hand</q> has been shifting between poet and composer over the centuries. <name ref="#viglianti-pers032">Trowell</name> summarizes this by remarking on the fact that while in the earliest forms of opera there was a formal division between writing the libretto and composing the music, since the 1760s such a division becomes more blurred and the <q>composer and poet begin to plan as more equal partners.</q> For example, recent studies on the libretti of <name ref="#viglianti-pers020">Giacomo Puccini’s</name> operas <title ref="#viglianti-work011">Tosca</title> and <title ref="#viglianti-work007">La bohème</title> and the composer’s correspondence show frequent and often heated discussions between <name ref="#viglianti-pers020">Puccini</name>, the two librettists <name ref="#viglianti-pers008">Giuseppe Giacosa</name> and <name ref="#viglianti-pers010">Luigi Illica</name>, and the publisher <name ref="#viglianti-pers021">Giulio Ricordi</name>. By studying the letters, one can find evidence of text being set to music, as well as examples of music being prepared beforehand.</p>
+            <p>From an editorial perspective, any interrelation between the genesis of libretto and score must be considered; however, there are challenges to coordinating editorial approaches of these two outputs, namely because of the differences between music notation and words. <name ref="#viglianti-pers034">Alan Tyson</name> <!--(1981) --> offers an example of how score and libretto sources are both revealing about the history of an operatic piece.<ref target="#Tyson1981" type="bibl" xml:id="viglianti-ftn94"/> 
+               The libretto published after the first production of <name ref="#viglianti-pers018">Mozart’s</name> <title ref="#viglianti-work009">Le nozze di Figaro</title> has a recitativo and aria (<q><hi rend="italic">Dove sono i bei momenti</hi></q>) in the second act that appear in an odd position, both from a narrative perspective and a musical perspective (sequence of keys). Since this order is reflected in subsequent libretto and score sources, the <hi rend="italic">Neue Mozart Ausgabe</hi> (NMA) published the operatic score in 1973 following this sequence. A later resurfacing of <name ref="#viglianti-pers018">Mozart’s</name> autograph manuscript, however, shows a more linear sequence. This confirmed an earlier study<ref target="#Moberly1965" type="bibl" xml:id="viglianti-ftn92"/> 
+               that suggested that the characters of Bartolo and Antonio were doubled by the same singer in the first production and since there was no time for him to change clothes, the scenes had been reordered without many modifications.<ref type="bibl" target="#Tyson1981" xml:id="viglianti-ftn93">p.&#8239;457&#x2013;459</ref> 
+               If one were to prepare a critical edition of the libretto of <title ref="#viglianti-work009">Le Nozze</title>, <name ref="#viglianti-pers018">Mozart’s</name> autograph score would have to account as an essential source, at least in order to justify a reordering of the scenes in the second act.</p>
+            <p>There is seemingly strong evidence that sources of libretto and score, as well as ancillary material such as letters, are to be considered in the preparation of a scholarly edition of an opera.<note xml:id="viglianti-ftn10" n="10">The body of ancillary material is called <q>indirect tradition</q> in textual criticism. Indirect tradition may also include translations; for vocal music, and opera in particular, translations can be important sources. Some detailed examples can be found in <ref target="#Gossett2006" type="bibl">p.&#8239;280&#x2013;406</ref>.</note> 
+               However, most editorial projects focus on either the score or the libretto and editions of the score are the most common. The NMA, for example, addresses libretti in a dedicated section of the critical reports, listing variants for sung text and stage directions. This secondary location, together with the fact that the sung text is organized by measures (as opposed to verses), 
+               promotes the score as the main <q>text</q> for an operatic work (Figure&#x00A0;<ref target="#viglianti-fig01" type="crossref" rend="no"/>).<note xml:id="viglianti-ftn11" n="11">Printed libretti often apply a dramatic structure to the text based on scenes and verse lines, whereas the same libretto in the score would follow the score’s numbers, which often differ from or even contradict scene numbering (see <ref target="#Strohm2005" type="bibl"/> and <ref target="#Muenzmay2011" type="bibl"/>).</note>
+            </p>
+            
+            <figure xml:id="viglianti-fig01" rendition="#viglianti-latex-width08">
+               <graphic width="723px" height="497px" url="figures/viglianti-fig01.pdf"/>
+               <head type="legend">A page from the NMA libretto of <title ref="#viglianti-work003">Don Giovanni</title>; the variants are organized by measure (<hi rend="italic">Takt</hi>). <!--<q>Mozart: Neue Ausgabe Sämtlicher Werke</q>, <hi rend="italic">Don Giovanni</hi>, Kritischer Bericht (2003), --><ref target="#MozartII5-17" type="bibl" rend="inline">p.&#8239;197</ref></head>
+            </figure>
+            
+            <p>Recently, however, libretti have begun receiving dedicated editorial efforts; the Carl-Maria-von-Weber-Gesamtausgabe, for example, has published a critical edition of <name ref="#viglianti-pers013">Kind’s</name> libretto for <title ref="#viglianti-work002">Der Freischütz</title> independently from the score edition. The edition of the libretto and the forthcoming edition of the score for <title ref="#viglianti-work002">Der Freischütz</title> will refer to common sources, carrying either words or music, but will exist in print as distinct scholarly endeavours.</p>
+            <p>In a digital-centric editorial workflow, the formalization of connections between literary and musical sources can be reduced to a more approachable engineering problem to be used in the context of digital publication. The project <hi rend="italic">OPERA &#x2013; Spektrum des europäischen Musiktheaters</hi> at Universität Bayreuth<note>See <ptr target="http://www.opera.adwmainz.de/informationen.html"/></note> has been the first to experiment in this direction with a hybrid publication of <name ref="#viglianti-pers022">Antonio Salieri’s</name> <title ref="#viglianti-work010">Prima la musica e poi le parole</title>. The score edition is published in print, while a dedicated digital edition includes interactive critical reports and a <hi rend="italic">Text Encoding Initiative</hi> (TEI)-based digital edition of <name ref="#viglianti-pers004">Giovanni Battista Casti’s</name> libretto (Figure&#x00A0;<ref target="#viglianti-fig02" type="crossref" rend="no"/>). </p>
+            
+            <figure xml:id="viglianti-fig02">
+               <graphic width="806px" height="479px" url="figures/viglianti-fig02.png"/>
+               <head type="legend">A screenshot of the (currently not publicly available) digital edition of the libretto for <title ref="#viglianti-work010">Prima la musica e poi le parole</title>. Confirming <name ref="#viglianti-pers028">Strohm’s</name> observations on the libretto as a different genre, the libretto includes an extensive description of the setting that is missing in the score</head>
+            </figure>
+            
+            <p>The digital model is not particularly sophisticated: it is not a digital <hi rend="italic">critical</hi> edition in the sense that variants amongst sources are not modelled. The TEI encoding, in fact, models the texts already edited and includes editorial commentaries by way of annotations. Interestingly, and so far uniquely, however, this comparative view can be reorganized according to either the score’s or the libretto’s structures; the image above show the text organized by libretto scenes and line numbers, but those can be re-numbered according to arias and measures. Likewise, text can be searched and extrapolated according to either structure. This makes for a more powerful study tool than reports like those in the printed NMA and functionally demonstrates the relationships and idiosyncrasies of the two different typologies of document.<note xml:id="viglianti-ftn12" n="12">The <q>score version</q> also keeps repetition of verses introduced by setting the words to music; this also is an unprecedented practice.</note>
+            </p>
+         </div>
+         
+         <div xml:id="viglianti03">
+            <head>A digital model for the libretto of <title ref="#viglianti-work002">Der Freischütz</title></head>
+            <p>OPERA’s approach to libretto and operatic score in the digital medium is an important proof-of-concept; however, their model has limitations, particularly because it does not include enough structured information about the editorial work. The <hi rend="italic">Freischütz Digital</hi> (FreiDi) project is bringing this paradigm forward. As a consultant to this project, and as part of my doctoral research, I designed a TEI model for the libretto edition part of FreiDi.<note xml:id="viglianti-ftn13" n="13">This work has been completed in coordination with editors <name ref="#viglianti-pers026">Solveig Schreiter</name> and <name ref="#viglianti-pers027">Janette Seuffert</name>. <name ref="#viglianti-pers003">Benjamin Bohl</name> has acted as project manager. See also <ref target="#Viglianti2013" type="bibl"/>.</note> 
+               The model has two key aims: 1) since all sources are transcribed and encoded independently, they should be coordinated through an apparatus; 2) the apparatus should be able to refer to musical sources as well as literary ones.</p>
+            <p>Every libretto source identified by the editors is encoded in a separate TEI file, with a focus on the dramatic and lyrical structure of the text: the content is organized by scenes and verses; prose texts are distinguished and attributed to each actor; and stage directions and other descriptive text are identified as such. The transcriptions preserve original spelling and emphasis such as italicized and underlined text.<note xml:id="viglianti-ftn14" n="14">According to text encoding principles, text is first encoded for the information that it carries, then for the way it looks. For example if the name of the character <hi rend="italic">Max</hi> at the beginning of an aria is underlined, the encoding first records that the text is a <q>speaker</q>, then that this information is expressed in source document by underlining the text:  <tag type="start">speaker rend="underline"</tag>Max<tag type="end">speaker</tag>.</note> 
+               Revised, deleted, and added passages are identified and marked up. <!--</p>
+            <p>-->These independent transcriptions are coordinated through a separate apparatus file that encodes textual variance with <gi>rdg</gi> elements containing pointers to markup in the encoding of the sources. In general, this approach produces a file similar to those generated after an alignment step in modern collation software such as Juxta and CollateX;<note xml:id="viglianti-ftn15" n="15">See for example the page about <q>Textual Variance</q> on the TEI Wiki: <ptr target="http://wiki.tei-c.org/index.php/Textual_Variance#Aligner"/>.</note> 
+               however, it is designed to operate at more than one level of tokenization, so that statements about variation can be attached to any element in the TEI-encoded sources. </p>
+            
+            <p>The TEI Guidelines describe a few methods to encode <hi rend="italic">critical apparatus</hi>,<note xml:id="viglianti-ftn77">Chapter&#x00A0;12: <hi rend="italic">Critical Apparatus</hi>, in: <hi rend="italic">TEI Guidelines</hi>, URL: <ptr target="http://www.tei-c.org/Vault/P5/2.9.1/doc/tei-p5-doc/fr/html/TC.html"/></note> 
+               the most common of which is the <q>parallel segmentation</q>. According to this method, textual variants are encoded directly in the text at phrase level and a <q>lemma</q> (or the text that the editor chooses against other variants) can be specified<!-- (Listing&#x00A0;<ref target="#viglianti-eg01" type="crossref" rend="no"/>)-->.<!--</p>
+            
+            <p>--> More complex situations, common in large traditions, are often handled with the <q>double-end-point-attachment</q> method. Variants can be encoded away from the base text by specifying the start and end point of the lemma they are a variant of. This allows encoders to refer to overlapping areas on the base text. <!--According to this method, the same example would be encoded as demonstrated by Listing&#x00A0;<ref target="#viglianti-eg02" type="crossref" rend="no"/>.--></p>
+            <!--<figure xml:id="viglianti-eg01">
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"><l n="1">
+   <app>
+      <lem wit="#El #Hg">Experience</lem>
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+   </app>
+   though noon Auctoritee
+</l></egXML>
+               <head type="legend">Example of TEI apparatus encoding, following the <q>parallel segmentation</q> method</head>
+            </figure>-->
+            <!--<figure xml:id="viglianti-eg02">
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"><l n="1" xml:id="El.1">Experience<anchor xml:id="El.a1"/>though noon Auctoritee</l>
+   <app from="#El.1" to="El.a1">
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+   </app></egXML>
+               <head type="legend">Example of TEI apparatus encoding, following the <q>double-end-point-attachment</q> method</head>
+            </figure>-->
+            <pb/>
+            <p>Both of these methods make two important assumptions: 1) the existence of a base text, in terms of which the editor records variants from other sources; and 2) variants occur only at phrase level (for example the same system could not be used to record the lack of a full paragraph or stanza in one source). These methods are also less ideal when editors want to preserve textual aspects of the various sources such as spelling, abbreviations, or emphasis. These aspects constitute <q>accidental</q> variants, as opposed to <q>substantive</q> variants such as different words.<note xml:id="viglianti-ftn16" n="16">This distinction between accidental and substantive variants was first introduced by <ref target="#Greg1950" type="bibl"/>. <name ref="#viglianti-pers009">Greg</name> considered orthography and punctuation <hi rend="italic">accidental</hi> and, since they often depend on personal taste and habit, he suggested following them closely from a selected copy-text, which is either an autograph or a document otherwise connected to the author. <hi rend="italic">Substantive</hi> differences, instead, require collation and further investigation across sources.</note> 
+               For example, if the character name <hi rend="italic">Agathe</hi> were underlined in a source and not in another, one would have to create a new apparatus entry to record such a difference (Figure&#x00A0;<ref target="#viglianti-eg03" type="crossref" rend="no"/>):</p>
+            <figure xml:id="viglianti-eg03" rendition="#viglianti-latex-width06" place="here">
+               <graphic url="figures/viglianti-fig07.pdf" width="595px" height="842px"/>
+               <!--<egXML xmlns="http://www.tei-c.org/ns/Examples"><speaker>
+   <app>
+      <rdg wit="#W1">Agathe</rdg>
+      <rdg wit="#W2"><hi rend="underline">Agathe</hi></rdg>
+   </app>
+</speaker></egXML>-->
+               <head type="legend">Example of accidental variant encoded with parallel segmentation</head>
+            </figure>
+            <!--<pb/>-->
+            <p>Similarly to the <q>double-end-point-attachment</q> method, the FreiDi apparatus file allows the addressing of variants that would cause overlapping issues when encoded with the <hi rend="italic">parallel segmentation</hi> method;<note xml:id="viglianti-ftn17" n="17">See Chapter&#x00A0;12 (<hi rend="italic">Linking the Apparatus to the Text</hi>) of the TEI Guidelines: <ptr target="http://www.tei-c.org/Vault/P5/2.8.0/doc/tei-p5-doc/en/html/TC.html#TCAPLK"/>.</note> 
+               yet it differs from it by keeping <gi>app</gi> statements independent from each other and from the text.<note xml:id="viglianti-ftn18" n="18">As such, this model shares the approach of not mixing encoded sources and editorial statements to avoid overlapping hierarchies with <ref target="#Schmidt2009" type="bibl"/>. <name ref="#viglianti-pers024">Schmidt’s</name> method, however, applies a number of hierarchies to a plain text document, which is arguably not any source’s text and certainly not devoid of markup as <name ref="#viglianti-pers024">Schmidt</name> implies.</note> 
+               This approach is motivated by the fact that not every difference between sources will be marked as a variant, such as different uses of the <hi rend="italic">Eszett</hi> or differences due to document structure such as patches and paste-overs. Using the apparatus file to only identify what are considered <q>substantive</q> variants allows the transcription to keep a higher level of detail; although the transcriptions focus substantially on the encoding of the dramatic structure, the editors can include more diplomatic aspects in their transcription because variation statements are kept separately. To briefly illustrate this model, let us consider the following verses from sources KA-tx15 and A-pt (Figure&#x00A0;<ref target="#viglianti-table01" type="crossref" rend="no"/>) and the corresponding apparatus file entry (Figure&#x00A0;<ref target="#viglianti-eg04" type="crossref" rend="no"/>).<note xml:id="viglianti-ftn19" n="19">A-pt and KA-tx15 are names given to the sources by the editors of the <hi rend="italic">Weber Gesamtausgabe</hi>, where A-pt identifies <name ref="#viglianti-pers013">Friedrich Kind’s</name> autograph manuscript and KA-tx15 a copy made under <name ref="#viglianti-pers013">Kind’s</name> supervision.</note>
+            </p>
+            <figure xml:id="viglianti-table01" place="here">
+               <graphic url="figures/viglianti-fig08.pdf" width="595px" height="842px"/>
+               <head type="legend">Example set of verse lines from two sources</head>
+               <!--<row role="label">
+                  <cell rend="normal"><hi rend="italic">Source KA-tx15.xml</hi></cell>
+                  <cell rend="normal"><hi rend="italic">Source A-pt.xml</hi></cell>
+               </row>
+               <row>
+                  <cell rend="normal">
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><l xml:id="KA-tx15_l1">
+   Sie erquicke, </l>
+                        
+<l xml:id="KA-tx15_l2">
+   Und bestricke </l>
+                        
+<l xml:id="KA-tx15_l3">
+   Und beglücke,</l></egXML>
+                  </cell>
+                  <cell rend="normal">
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><l xml:id="A-pt_l1">
+   Sie erquicke, </l>
+                        
+<l xml:id="A-pt_l2">
+   und beglükke </l>
+                        
+<l xml:id="A-pt_l3">
+   und bestrikke. </l></egXML>
+                  </cell>
+               </row>-->
+            </figure>
+            
+            <figure xml:id="viglianti-eg04" rendition="#viglianti-latex-width04" place="here">
+               <graphic url="figures/viglianti-fig09.pdf" width="595px" height="842px"/>
+               <!--<egXML xmlns="http://www.tei-c.org/ns/Examples"><app>
+   <rdg wit="#KA-tx15">
+      <ptr target="KA-tx15.xml#KA-tx15_l2"/>
+      <ptr target="KA-tx15.xml#KA-tx15_l3"/>
+   </rdg>
+   <rdg wit="#A-pt">
+      <ptr target="A-pt.xml#A-pt_l2"/>
+      <ptr target="A-pt.xml#A-pt_l3"/>
+   </rdg>
+</app></egXML>-->
+               <head type="legend">Apparatus file</head>
+            </figure>
+            
+            <p>In this example, the apparatus file records as a variant the inversion of verses and the <gi>app</gi> statement is limited to a verse-level domain. The apparatus is made of independent <gi>app</gi> statements, so that differences in capitalization, punctuation and spelling that are not included at this point are encoded as separate statements instead. To record this, the granularity of encoding needs to be greater, for example by first singling out a word within a verse line and then addressing it in the apparatus (Figure&#x00A0;<ref target="#viglianti-table02" type="crossref" rend="no"/> and  Figure&#x00A0;<ref target="#viglianti-eg05" type="crossref" rend="no"/>).</p>
+            <figure xml:id="viglianti-table02" rendition="#viglianti-latex-width06">
+               <graphic url="figures/viglianti-fig10.pdf" width="595px" height="842px"/>
+               <head type="legend">Example set of verse lines from two sources with some words singled out for addressability</head>
+               <!--<row role="label">
+                  <cell rend="normal"><hi rend="italic">Source KA-tx15</hi></cell>
+                  <cell rend="normal"><hi rend="italic">Source A-pt</hi></cell>
+               </row>
+               <row>
+                  <cell rend="normal"><egXML xmlns="http://www.tei-c.org/ns/Examples"><l xml:id="KA-tx15_l1">
+   Sie erquicke, </l>
+                     
+<l xml:id="KA-tx15_l2">
+   Und <w xml:id="KA-tx15_w1">
+      bestricke</w> </l>
+                     
+<l xml:id="KA-tx15_l3">
+   Und beglücke,</l></egXML>
+                  </cell>
+                  <cell rend="normal"><egXML xmlns="http://www.tei-c.org/ns/Examples"><l xml:id="A-pt_l1">
+   Sie erquicke, </l>
+                     
+<l xml:id="A-pt_l2">
+   und beglükke </l>
+                     
+
+<l xml:id="A-pt_l3">
+   und <w xml:id="A-pt_w1">
+      bestrikke. </w></l></egXML>
+                  </cell>
+               </row>-->
+            </figure>
+            
+            <figure xml:id="viglianti-eg05" rendition="#viglianti-latex-width05">
+               <graphic url="figures/viglianti-fig11.pdf" width="595px" height="842px"/>
+               <!--<egXML xmlns="http://www.tei-c.org/ns/Examples"><app>
+   <rdg wit="#KA-tx15">
+      <ptr target="KA-tx15.xml#KA-tx15_w1"/>
+   </rdg>
+   <rdg wit="#A-pt">
+      <ptr target="A-pt.xml#A-pt_w1"/>
+   </rdg>
+</app></egXML>-->
+               <head type="legend">Apparatus file</head>
+            </figure>
+            <!--<pb/>-->
+            <p>The encoding strategy illustrated by these examples makes use of a stand-off mark-up technique that allows encoders to make concurrent statements about a portion of text by linking one or more elements. The use of stand-off techniques in TEI is well documented and encouraged, though it is not widely adopted, except in its simplest forms. Linguistic corpora in TEI, however, are particularly dependent on these techniques, as they help with tokenization according to more than one principle (e.&#8239;g., morphological, orthographic, syntactic).<note xml:id="viglianti-ftn99">See <ref target="#Banski2010" type="bibl"/></note> 
+               Incidentally, music encoding also substantially relies on these techniques, to the point of being unavoidable even when encoding simple music notation; in text encoding, however, it only becomes necessary when recording complex textual phenomena. Often TEI projects shy away from stand-off techniques because they introduce considerable managerial overhead; the linking between elements happens through string identifiers, so encoders need to make sure that the references are correctly entered. If the encoding is done by hand (which is by far the most common way of creating TEI), it is a challenge to track and update changes to identifiers and avoid misspellings. </p>
+            <p>Good authoring tools can help producing solid stand-off markup, particularly if the elements linked are part of the same XML document. Efficient project management remains essential to deal with links across different documents (what <name ref="#viglianti-pers001">Bański</name> calls <q><hi rend="italic">remote</hi> stand off</q>) and with project-specific requirements. In the case of the libretto of <title ref="#viglianti-work002">Der Freischütz</title>, encoders have first manually encoded each source while introducing identifiers and supporting markup (such as <gi>w</gi>, <gi>seg</gi>, etc.), while the apparatus file is prepared at a later stage, once the transcriptions and encoding are considered relatively stable. In order to better understand the dynamics of dealing with stand-off markup, I developed a tool (the <hi rend="italic">coreBuilder</hi>) to support the encoders in creating apparatus entries in a visual environment.<note xml:id="viglianti-ftn20" n="20">All the code for the <hi rend="italic">coreBuilder</hi> is available at this address under an MIT license: <ptr target="https://github.com/raffazizzi/coreBuilder"/>. The tool is currently being generalized to deal with other kinds of stand-off markup besides critical apparatus.</note> 
+               Encoders can select elements that form a variant from various sources and generate an apparatus entry like the ones shown above, which can be further revised or removed by the encoders. The tool automatically creates the links using the identifiers from the sources, thus reducing human error. Encoders have found the <hi rend="italic">coreBuilder</hi> useful not only to minimize error, but also to speed up the creation and management of the external apparatus. The tool has been used when each transcription was nearly finalized, but enhancement and corrections were still undergoing. While it is trivial to add a new entry in the apparatus at a later stage, there is currently no way to automatically track changes in the sources that would invalidate information already entered in the apparatus. For example, if there is a substantial change in the transcription of one encoding that removes or alters identifiers, entries in the apparatus referring to those identifiers would remain unchanged and potentially erroneous. Practically speaking, it is not entirely possible to escape all the inconveniences of stand-off, though there is much to gain in the expressiveness that the technique brings to text encoding and using subsidiary tools such as the <hi rend="italic">coreBuilder</hi> to reduce error and encoding time (Figure&#x00A0;<ref target="#viglianti-fig03" type="crossref" rend="no"/>).</p>
+            <figure xml:id="viglianti-fig03" rendition="#viglianti-latex-width08" place="here">
+               <graphic width="1200px" height="738px" url="figures/viglianti-fig03.png"/>
+               <head type="legend">A screenshot of the <hi rend="italic">coreBuilder</hi> tool. The user can create apparatus entries by opening files and clicking on elements that are part of readings. The system uses their IDs for building the stand-off apparatus automatically</head>
+            </figure>
+            
+            <p>The apparatus file, and the tool that helps to build it, can only record links between elements with identifiers; as shown above, this means that in order to address smaller portions of text (e.&#8239;g., a word or a single letter in a verse) the encoders must introduce elements such as <gi>seg</gi> (segment), <gi>w</gi> (word), <gi>c</gi> (character) and <gi>pc</gi> (punctuation). These elements are being used with weak semantics; that is, although a <gi>w</gi> element may mark up a specific word, the only reason for doing so is to allow the apparatus to refer to the text at the right point. If the TEI of a single source were taken out of context (say for inclusion in a linguistic corpus of early 19<hi rend="sup">th</hi> century German), the new adopters would be left to deal with the inconsistency introduced by certain words being marked up, while others were left alone. It would be more efficient to be able to refer to portions of text without needing further XML elements. The TEI XPointer schemes may be useful in this case (Figure&#x00A0;<ref target="#viglianti-eg06" type="crossref" rend="no"/>).<note xml:id="viglianti-ftn21" n="21">See Chapter 16.2.4: <hi rend="italic">TEI XPointer Schemes</hi>, in: <hi rend="italic">TEI Guidelines</hi>, URL: <ptr target="http://www.tei-c.org/Vault/P5/2.9.1/doc/tei-p5-doc/en/html/SA.html#SATS"/>.</note>
+            </p>
+            
+            <figure xml:id="viglianti-eg06" rendition="#viglianti-latex-width06">
+               <graphic url="figures/viglianti-fig12.pdf" width="595px" height="842px"/>
+               <!--<egXML xmlns="http://www.tei-c.org/ns/Examples"><app>
+   <rdg wit="#KA-tx15">
+      <ptr target="string-range(xpath(id('KA-tx15_l2‘), 4, 9))"/>
+   </rdg>
+   <rdg wit="#A-pt">
+      <ptr target="string-range(xpath(id('A-pt_l3'), 4, 9))"/>
+   </rdg>
+</app></egXML>-->
+               <head type="legend">Apparatus file</head>
+            </figure>
+            <!--<pb/>-->
+            <p>In this alternative apparatus example, the elements forming a variant are first selected through their identifier with the nested functions <hi rend="italic">xpath()</hi> and <hi rend="italic">id()</hi>. Then, <hi rend="italic">string-range()</hi> is used to identify a textual range (e.&#8239;g., a word) within the selected element, for example starting from position&#x00A0;4 and including the following 9&#x00A0;positions. This approach would not require the introduction of extra elements in the sources, though unfortunately the implementation of TEI’s scheme for XPointer is not very consistent or reliable at the time of writing. In practice, it would be more difficult to computationally parse and understand the apparatus to produce a usable interface for the digital edition. Moreover, the current definition of <hi rend="italic">string-range()</hi> operates within a <q>fragment</q>, or a well-formed XML context. This would make it difficult to select ranges that include an opening or closing tag. 
+               <name ref="#viglianti-pers005">Hugh Cayless</name> has recently suggested that TEI XPointer ought to be more sophisticated, and he has proposed an extension of the schemes together with a working implementation.<ref xml:id="viglianti-ftn91" target="#Cayless2013" type="bibl"/>  
+               Using XPointer and string ranges avoids cluttering TEI transcriptions with unnecessary markup, though it requires an even greater stability of the TEI documents. For example, consider the case where a transcriber corrects her transcription from <q>beglükke</q> to <q>begluekke</q>; consider also that this text is marked up with a <gi>w</gi> element and that the apparatus refers to the element as part of an apparatus entry. This change would not require an update of the file because all the apparatus needs to know is where to locate the <gi>w</gi> element. However, if the apparatus were using string ranges, the introduction of an extra <q>e</q> would cause a shift in the character count within a fragment, thus introducing an error in the file, which would require updating. Whether this method for stand-off markup will be widely adopted remains to be seen: even with more flexibility and sophistication, the managerial overhead of stand-off techniques is likely to remain a challenge for smaller-scale TEI projects. For the digital edition of the libretto for <title ref="#viglianti-work002">Der Freischütz</title>, it only remains a matter of speculation. </p>
+         </div>
+         <div xml:id="viglianti04">
+            <head>Coordinating libretto and score sources</head>
+            <p><name ref="#viglianti-pers035">Carl Maria von Weber</name> and <name ref="#viglianti-pers013">Friedrich Kind</name> developed the concept for <title ref="#viglianti-work002">Der Freischütz</title> collaboratively,<ref target="#Warrack1976" type="bibl" xml:id="viglianti-ftn97"/> though <name ref="#viglianti-pers035">Weber</name> waited for <name ref="#viglianti-pers013">Kind</name> to prepare a first full draft of the libretto before beginning to compose for more than three years, as is evident from his diaries of 1817&#x2013;1821.<note xml:id="viglianti-ftn98">See <ref target="#Schreiter2007" type="bibl">p.&#8239;138&#x2013;143</ref></note> 
+               <name ref="#viglianti-pers035">Weber</name> made substantial adjustments to his copy of the libretto, which is included in the sources for the libretto’s digital edition. Being very much rooted in the tradition of <hi rend="italic">Singspiel</hi>, <title ref="#viglianti-work002">Freischütz</title> includes scenes that are not sung, but acted out. Occasionally, <name ref="#viglianti-pers035">Weber</name> makes changes to these parts too; for example the famous Wolf’s Glen scene (act&#x00A0;II, scene&#x00A0;5) was not planned to be sung, but <name ref="#viglianti-pers035">Weber</name> changes <name ref="#viglianti-pers013">Kind’s</name> prose into verse and sets it to music. He also makes the setting of the previous scene (still in the Wolf’s Glen) much more eerie by changing a stage direction to feature invisible spirit voices instead of ravens and forest birds. </p>
+            <p><name ref="#viglianti-pers035">Weber’s</name> surviving autograph manuscript of the score (a fair copy) includes the revised words of the libretto set to music, which occasionally differ from the adjustments that he had already made on his own copy of the libretto. An interesting example can be found in Agathe’s <hi rend="italic">Cavatina</hi> (Act&#x00A0;III, Scene&#x00A0;2):</p>
+            <figure xml:id="viglianti-fig04" rendition="#viglianti-latex-width06" place="here">
+               <graphic width="767px" height="550px" url="figures/viglianti-fig04.png"/>
+               <head type="legend"><name ref="#viglianti-pers035">Weber’s</name> copy of the libretto for <title ref="#viglianti-work002">Der Freischütz</title>, Staatsbibliothek zu Berlin, Weberiana Cl.&#8239;II A.&#8239;g, Nr.&#8239;1, 25&#8239;v</head>
+            </figure>
+            <p><name ref="#viglianti-pers035">Weber</name> deleted part of the last line of the second stanza, <q>aller seiner Kinder</q>, and the entire following stanza; then he added <q>meiner auch mit Liebe</q> above the line, but he eventually struck that out. Finally, he restored the text by writing a series of dots beneath the line (it is unclear if the line underneath them in red ink is also an addition in <name ref="#viglianti-pers035">Weber’s</name> hand).<note xml:id="viglianti-ftn22" n="22">For further discussion of this and other examples see <ref target="#Viglianti2011" type="bibl">p.&#8239;320&#x2013;323</ref>.</note> 
+               By looking at this source only, one may think that <name ref="#viglianti-pers035">Weber</name> restored the text written by the copyist on the main line. However, the words set to music in the autograph score are closer to the ones added above the line by <name ref="#viglianti-pers035">Weber</name>: <q>meiner liebend</q>, which are then copied over to all further score copies. This is an example of how both libretto and score sources need to play a role in the preparation of the edition of the libretto. The encoding model, particularly the external apparatus, must be able to deal with both kind of sources. As part of the FreiDi project, each music source has been encoded with the <hi rend="italic">Music Encoding Initiative</hi> (MEI) format; it is possible, therefore, to link readings from either kind of source together as a variant. Pointing to words in MEI documents often requires reference to more than one element, as words in MEI are separated into <q>syllables</q> written under each note (Figure&#x00A0;<ref target="#viglianti-fig05" type="crossref" rend="no"/>). </p>
+            <figure xml:id="viglianti-fig05" rendition="#viglianti-latex-width07">
+               <graphic url="figures/viglianti-fig05.pdf" width="700px" height="700px"/>
+               <head type="legend">An example of how the apparatus file for the libretto will refer to score sources</head>
+            </figure>
+            
+            <p><name ref="#viglianti-pers035">Weber’s</name> autograph manuscript and most of the copies made from it often also include stage directions and dialogue from scenes. The autograph manuscript contains a particularly interesting example before and after Ännchen’s <hi rend="italic">Romanza ed Aria</hi>. This piece was composed by <name ref="#viglianti-pers035">Weber</name> as an extra number for the singer <name ref="#viglianti-pers007">Johanna Eunicke</name> after the completion of the opera between March and May 1821; it is stitched to the autograph score in a separate, smaller quire. <name ref="#viglianti-pers035">Weber</name> extends Agathe’s spoken text after the preceding piece (the <hi rend="italic">Cavatina</hi> discussed above) and introduces a reply by Ännchen before her new piece. These words and the <hi rend="italic">Romanza ed Aria</hi> do not appear in any libretto sources before 1821, though later they are included in copies sent to theaters in Vienna and Hamburg for their first performances.<ref xml:id="viglianti-ftn90" target="#Schreiter2007" type="bibl">p.&#8239;67</ref></p>
+            <p>The <hi rend="italic">Volkslied</hi> (No.&#8239;14) sung by Agathe’s bridesmaids follows Ännchen’s piece. The lied, however, is also interesting from the point of view of the libretto: a sizable part of a spoken scene is included in <name ref="#viglianti-pers035">Weber’s</name> score manuscript, right in the middle of the piece. Typically for the genre, the <hi rend="italic">Volkslied</hi> is structured in verse and chorus, with the melody repeated a few times. In the manuscript <name ref="#viglianti-pers035">Weber</name> writes the music once and then writes the words of the verses (without music notation) for three further repetitions, but <name ref="#viglianti-pers035">Weber</name> also writes down scene five from <name ref="#viglianti-pers013">Kind’s</name> libretto, where Agathe discovers she has been given a funeral wreath instead of a wedding one. At the right place in the scene, <name ref="#viglianti-pers035">Weber</name> rewrites the music notation of the first part of the chorus until the maids abruptly stop when Agathe gasps (Sample Notation&#x00A0;<ref target="#viglianti-fig06" type="crossref" rend="no"/>). </p>
+            
+            <figure xml:id="viglianti-fig06" rendition="#viglianti-latex-width08" rend="notenbeispiel">
+               <graphic url="figures/viglianti-fig06.png" width="684px" height="491px"/>
+               <head type="legend"><title ref="#viglianti-work002">Der Freischütz</title>, <name ref="#viglianti-pers035">Weber’s</name> autograph manuscript, No.&#8239;14, p.&#8239;246</head>
+            </figure>
+            
+            <p>The text of the scene contained in the score constitutes an additional witness to the libretto. The interplay between music and the action on stage creates an atypical situation where libretto and score are alternated and mixed on the page. It would be possible to encode words and textual structures in MEI, but the set of elements available is deliberately limited and concerned mostly with presentational rather than descriptive markup.<note xml:id="viglianti-ftn23" n="23">Presentational markup encodes the way in which text is formatted, descriptive markup encodes what the text <q>is</q>.</note>
+               Instead, the scene fragment within the score is encoded in TEI according to the same model used for the libretto edition, and  embedded within the MEI encoding of the music. Most of the time, larger groups of words are clearly separated from the score by sections closed with double barlines. The MEI element <gi>div</gi> is used to wrap and embed the TEI encoding. The apparatus file for the libretto is then able to refer to verses and other components here in the same way as it does with other textual sources. The following encoding shows this in practice by transcribing part of the previous example; it encodes part of the last measure, followed by an MEI <gi>div</gi> element containing the beginning of the text of the second scene (Figure&#x00A0;<ref target="#viglianti-eg07" type="crossref" rend="no"/>).</p>
+            
+            <figure xml:id="viglianti-eg07" rendition="#viglianti-latex-width06" place="here">
+               <graphic url="figures/viglianti-fig13.pdf" width="595px" height="842px"/>
+               <!--<egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:tei="http://whatever.com"><section>
+   <measure n="28">
+      <!-\- ... -\->
+      <staff n="10">
+         <layer n="1">
+            <note pname="c" oct="2" dur="4" dots="1" stem.dir="down"/>
+         </layer>
+         <layer n="2">
+            <note pname="c" oct="3" dur="4" dots="1" stem.dir="up"/>
+         </layer>
+      </staff>
+      <dir staff="10" tstamp="0">
+         <rend rotation="90">dreymal wiederholt vom Zeichen &amp;</rend>
+      </dir>
+   </measure>
+   <!-\- End of musical section -\->
+</section>
+                  
+<div type="dialogue">
+   <tei:div>
+      <tei:sp>
+         <tei:speaker>
+            <tei:hi rend="underline" n="2">2
+               <tei:hi rend="superscript">t</tei:hi>:</tei:hi> 
+            <tei:hi rend="underline" n="1"><tei:hi rend="latintype">
+               Eine Stimme</tei:hi>.
+            </tei:hi>
+         </tei:speaker>
+         <tei:l>Lavendel, Mirt und Thymian, </tei:l>
+         <tei:l>das wächst in meinem Garten;</tei:l>
+         <tei:l>wie lang bleibt doch der Freyersmann </tei:l>
+         <tei:l>ich kann es kaum erwarten. </tei:l>
+      </tei:sp>
+      <!-\- Etc. -\->
+   </tei:div>
+</div></egXML>-->
+               <head type="legend">Example of MEI file with embedded TEI encoding</head>
+            </figure>
+            
+            <p>The encoding strategies described here are achievable in the context of the FreiDi project because libretto and music sources are being encoded as part of the same endeavour. This makes it is possible to create the libretto apparatus described in this article that coordinates both types of sources. This is a unique situation at the moment, made possible not just by a uniquely skilled group of researchers, but also by a generous grant from a national funding agency; access to this kind of resource is not the standard for most Digital Humanities projects. The innovative OPERA project, which was discussed earlier, for example, is not encoding music sources (they will publish score editions only in print), though the digital project encodes a transcription of the words from score sources. Moreover, references to fragments of facsimile images are provided together with the transcription. This gives access to more context about the music to which the words are set and allows, for example, the building of an application that can show an image of the music notation to help contextualize the variant. However, while the words encoded in TEI can be processed further, in this case the music notation data cannot easily be parsed by the machine because it is an image. Including even a partial encoding of the music notation would make such information machine readable as the way in which syllables are mapped to notes in rhythm and pitch, which can be particularly telling and helpful for explaining connections between sources and the collaborative work between composers and librettists. Nonetheless, both OPERA and FreiDi are demonstrations of the opportunity offered by the digital medium to coordinate libretto and score editions in a way that would not be possible on paper. Ultimately, this allows for independent editions of libretti as literary texts, while facilitating the modelling of connections between libretto and score sources of the music edition.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Banski2010">Piotr Bański, <title level="a">Why TEI Stand-off Annotation Doesn’t Quite work: and why you might want to use it nevertheless</title>, in: <title level="s">Proceedings of Balisage: The Markup Conference 2010</title> (Balisage Series on Markup Technologies&#x00A0;5), DOI: <ref target="http://doi.org/10.4242/BalisageVol5.Banski01">10.4242/BalisageVol5.Banski01</ref></bibl>
+               <bibl xml:id="Cayless2013">Hugh Cayless, <title level="a">Rebooting TEI Pointers</title>, in: <title level="j">Journal of the Text Encoding Initiative</title>&#x00A0;6 (2013), DOI: <ref target="http://doi.org/10.4000/jtei.907">10.4000/jtei.907</ref></bibl>
+               <bibl xml:id="Gossett2006">Philip Gossett, <title level="m">Divas and Scholars. Performing Italian Opera</title>, Chicago 2006</bibl>
+               <bibl xml:id="Macnutt1992">Richard Macnutt, article <title level="a">Libretto</title> (i), in: <title level="s">The New Grove Dictionary of Opera</title>, ed. by Stanley Sadie, 1992, vol.&#8239;2, p.&#8239;1185&#x2013;1191</bibl>
+               <bibl xml:id="Moberly1965">Robert Moberly and Christopher Raeburn, <title level="a">Mozart’s Figaro. the Plan of Act&#x00A0;III</title>, in: <title level="j">Music &amp; Letters</title>&#x00A0;46 (1965), p.&#8239;134&#x2013;136</bibl>
+               <bibl xml:id="Muenzmay2011">Andreas Münzmay and Daniel Röwenstrunk, <title level="a">Editing Opera. Challenges of an Integrated Digital Presentation of Music and Text based on Edirom and TEI</title>, in: <title level="s">Proceedings of the annual Conference and Members’ Meeting of the TEI Consortium</title>, 2011</bibl>
+               <bibl xml:id="Greg1950">Walter W. Greg, <title level="a">The Rationale of Copy-text</title>, in: <title level="s">Studies in Bibliography</title>&#x00A0;3 (1950), p.&#8239;19&#x2013;36</bibl>
+               <bibl xml:id="Gregory2006">E. David Gregory, <title level="m">Victorian Songhunters. The Recovery and Editing of English Vernacular Ballads and Folk Lyrics, 1820&#x2013;1883</title>, Lanham 2006</bibl>
+               <bibl xml:id="Schmidt2009">Desmond Schmidt and Robert Colomb, <title level="a">A Data Structure for Representing Multi-version Texts Online</title>, in: <title level="j">International Journal of Human-Computer Studies</title>&#x00A0;67 (2009), p.&#8239;497&#x2013;514</bibl>
+               <bibl xml:id="Solie2004">Ruth A. Solie, <title level="m">Music in Other Words. Victorian Conversations</title>, Berkeley 2004</bibl>
+               <bibl xml:id="Strohm2005">Reinhard Strohm, <title level="a">Partitur und Libretto. Zur Edition von Operntexten</title>, in: <title level="s">Opernedition. Bericht über das Symposion zum 60.&#8239;Geburtstag von Sieghart Döhring</title>, ed. by Helga Lühning and Reinhard Wiesend, Mainz 2005 (Schriften zur Musikwissenschaft&#x00A0;12), p.&#8239;37&#x2013;56<bibl type="short">Strohm, <title level="a">Partitur und Libretto</title></bibl></bibl>
+               <bibl xml:id="Taruskin1995">Richard Taruskin,  <title level="m">Text and Act. Essays on Music and Performance</title>, New York 1995</bibl>
+               <bibl xml:id="Trowell1992">Brian Trowell, <title level="a">Libretto</title> (ii), in: <title level="m">The New Grove Dictionary of Opera</title>, ed. by Stanley Sadie, London 1992, vol.&#8239;2, p.&#8239;1191&#x2013;1252</bibl>
+               <bibl xml:id="Tyson1981">Alan Tyson, <title level="a">Le nozze di Figaro. Lessons from the Autograph Score</title>, in: <title level="j">The Musical Times</title>&#x00A0;122 (1981), p.&#8239;456&#x2013;461<bibl type="short">Tyson, <title level="a">Le nozze di Figaro</title></bibl></bibl>
+               <bibl xml:id="Viglianti2011">Raffaele Viglianti and Jochim Veit, <title level="a">Mind the Gap. A Preliminary Evaluation of Issues in Combining Text and Music Encoding</title>, in: <title level="j">Die Tonkunst</title>&#x00A0;5 (2011), p.&#8239;318&#x2013;325</bibl>
+               <bibl xml:id="Viglianti2013">Raffaele Viglianti, Solveig Schreiter and Benjamin Bohl, <title level="a">A Stand-off Critical Apparatus for the Libretto of <emph>Der Freischütz</emph></title>, in: <title level="m">Proceedings of the annual Conference and Members’ Meeting of the TEI Consortium</title>, 2013</bibl>
+               <bibl xml:id="Warrack1976">John Warrack, <title level="m">Carl Maria von Weber</title>, London 1976</bibl>
+               <bibl xml:id="Schreiter2007">Friedrich Kind and Carl Maria von Weber, <title level="m">Der Freischütz. Romantische Oper in drei Aufzügen. Kritische Textbuch-Edition</title>, ed. by Solveig Schreiter, München 2007<bibl type="short">Schreiter, <title level="m">Der Freischütz</title></bibl></bibl>
+               <bibl xml:id="MozartII5-17">Wolfgang Amadeus Mozart, <title level="m">Neue Ausgabe Sämtlicher Werke. Kritische Berichte</title> II/5, vol.&#8239;17: <title>Don Giovanni</title>, hg. von Wolfgang Plath und Wolfgang Rehm, Kassel 2003</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

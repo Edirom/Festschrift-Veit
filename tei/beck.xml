@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Weber, Karl Förster und der Dresdner Liederkreis im Spiegel ihrer Tagebuchaufzeichnungen</title>
+                <author>
+                   <name><forename>Dagmar</forename> <surname>Beck</surname></name>
+                   <affiliation>studierte Musikwissenschaft an der Humboldt-Universität Berlin und war von 1971 bis 1991 Mitherausgeberin der Konversationshefte Ludwig van Beethovens. Seit 1992 ist sie für die Carl-Maria-von-Weber-Gesamtausgabe mit Schwerpunkt Tagebuch-Edition tätig (ab 2008 als freie Mitarbeiterin).</affiliation>
+                   <email/>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+           <particDesc>
+             <listPerson>
+                <person xml:id="beck-pers001">
+                   <p>Alexis, Willibald</p>
+                </person>
+                <person xml:id="beck-pers003">
+                   <p>Ariosto, Ludovico</p>
+                   <p n="work" xml:id="beck-work014"><hi rend="italic">Orlando furioso</hi></p>
+                </person>
+                <person xml:id="beck-pers005">
+                   <p>Baermann, Heinrich</p>
+                </person>
+                <person xml:id="beck-pers008">
+                   <p>Bergmann, Johann Gottfried</p>
+                </person>
+                <person xml:id="beck-pers009">
+                   <p>Weber, Caroline von</p>
+                   <p>Brandt, Caroline</p>
+                </person>
+                <person xml:id="beck-pers010">
+                   <p>Breuer, Friedrich Ludwig</p>
+                </person>
+                <person xml:id="beck-pers013">
+                   <p>Byron, George Gordon</p>
+                </person>
+                <person xml:id="beck-pers016">
+                   <p>Böttiger, Karl August</p>
+                </person>
+                <person xml:id="beck-pers018">
+                   <p>Calderon de la Barca, Pedro</p>
+                   <p n="work" xml:id="beck-work003"><hi rend="italic">Das Leben ein Traum</hi></p>
+                   <p n="work" xml:id="beck-work005"><hi rend="italic">Der Schultheiß von Zalamea</hi></p>
+                </person>
+                <person xml:id="beck-pers020">
+                   <p>Chézy, Helmina von</p>
+                </person>
+                <person xml:id="beck-pers022">
+                   <p>Dante Alighieri</p>
+                </person>
+                <person xml:id="beck-pers023">
+                   <p>Friedländer, Ludwig Hermann</p>
+                </person>
+                <person xml:id="beck-pers027">
+                   <p>Funk, Friederike</p>
+                </person>
+                <person xml:id="beck-pers028">
+                   <p>Förster, Karl August</p>
+                   <p n="work" xml:id="beck-work004"><hi rend="italic">Dem Andenken Rafael’s</hi></p>
+                </person>
+                <person xml:id="beck-pers029">
+                   <p>Förster, Marie Laura</p>
+                </person>
+                <person xml:id="beck-pers030">
+                   <p>Förster, Friedrich Christoph</p>
+                </person>
+                <person xml:id="beck-pers031">
+                   <p>Förster, Luise</p>
+                </person>
+                <person xml:id="beck-pers038">
+                   <p>Gehe, Eduard Heinrich</p>
+                </person>
+                <person xml:id="beck-pers039">
+                   <p>Geißler, Johann Georg</p>
+                </person>
+                <person xml:id="beck-pers041">
+                   <p>Gries, Johann Diederich</p>
+                </person>
+                <person xml:id="beck-pers042">
+                   <p>Hase, Heinrich August</p>
+                </person>
+                <person xml:id="beck-pers044">
+                   <p>Hasse, Friedrich Christian August</p>
+                </person>
+                <!--<person xml:id="beck-pers045">
+                   <p>Hell, Theodor</p>
+                </person>-->
+                <!-- Weiterleitung zu Winkler?! -->
+                <person xml:id="beck-pers046">
+                   <p>Herrmann, August Leberecht</p>
+                </person>
+                <person xml:id="beck-pers049">
+                   <p>Houwald, Ernst von</p>
+                </person>
+                <person xml:id="beck-pers050">
+                   <p>Nostitz und Jänkendorf, Clotilde von</p>
+                </person>
+                <person xml:id="beck-pers051">
+                   <p>Nostitz und Jänkendorf, Gottlob Adolph Ernst von</p>
+                </person>
+                <person xml:id="beck-pers053">
+                   <p>Nostitz und Jänkendorf, Henriette von</p>
+                </person>
+                <person xml:id="beck-pers052">
+                   <p>Kalkreuth, Friedrich von</p>
+                </person>
+                <person xml:id="beck-pers054">
+                   <p>Kind, Friedrich</p>
+                </person>
+                <person xml:id="beck-pers057">
+                   <p>Krüger, Hermann Anders</p>
+                </person>
+                <person xml:id="beck-pers059">
+                   <p>Kuhn, Friedrich Adolf</p>
+                </person>
+                <person xml:id="beck-pers064">
+                   <p>Loeben, Otto Heinrich von</p>
+                </person>
+                <person xml:id="beck-pers065">
+                   <p>Löbell, Johann Wilhelm</p>
+                </person>
+                <person xml:id="beck-pers066">
+                   <p>Malsburg, Ernst von der</p>
+                </person>
+                <person xml:id="beck-pers070">
+                   <p>Müllers, Wilhelm</p>
+                </person>
+                <person xml:id="beck-pers074">
+                   <p>Petrarca, Francesco</p>
+                </person>
+                <person xml:id="beck-pers075">
+                   <p>Picard, Louis Benoît</p>
+                   <p n="work" xml:id="beck-work007"><hi rend="italic">Encore de Ménechmes</hi></p>
+                </person>
+                <person xml:id="beck-pers076">
+                   <p>Polydori, John</p>
+                   <p n="work" xml:id="beck-work006"><hi rend="italic">Der Vampyr</hi></p>
+                </person>
+                <person xml:id="beck-pers077">
+                   <p>Quandt, Johann Gottlob von</p>
+                </person>
+                <person xml:id="beck-pers078">
+                   <p>Raumer, Friedrich von</p>
+                </person>
+                <person xml:id="beck-pers080">
+                   <p>Ridel, Cornelius Johann Rudolf</p>
+                </person>
+                <person xml:id="beck-pers082">
+                   <p>Maria Amalia Augusta, Prinzessin von Sachsen</p>
+                </person>
+                <person xml:id="beck-pers083">
+                   <p>Carl Friedrich, Großherzog von Sachsen-Weimar-Eisenach</p>
+                </person>
+                <person xml:id="beck-pers084">
+                   <p>Salice-Contessa, Karl Wilhelm</p>
+                </person>
+                <person xml:id="beck-pers085">
+                   <p>Sassaroli, Filippo</p>
+                </person>
+                <person xml:id="beck-pers087">
+                   <p>Schiller, Friedrich</p>
+                   <p n="work" xml:id="beck-work013"><hi rend="italic">Der Neffe als Onkel</hi></p>
+                </person>
+                <person xml:id="beck-pers088">
+                   <p>Semler, Christian August</p>
+                </person>
+                <person xml:id="beck-pers091">
+                   <p>Streckfuß, Karl</p>
+                </person>
+                <person xml:id="beck-pers092">
+                   <p>Tasso, Bernardo</p>
+                </person>
+                <person xml:id="beck-pers093">
+                   <p>Tieck, Ludwig</p>
+                </person>
+                <person xml:id="beck-pers094">
+                   <p>Vogel, Carl Christian</p>
+                </person>
+                <person xml:id="beck-pers095">
+                   <p>Wangenheim, Carl August Freiherr von</p>
+                </person>
+                <person xml:id="beck-pers096">
+                   <p>Weber, Carl Maria von</p>
+                   <p n="work" xml:id="beck-work001"><hi rend="italic">10 Schottische Nationalgesänge</hi>, WeV&#x00A0;U.16</p>
+                   <p n="work" xml:id="beck-work002"><hi rend="italic">7 Variationen über ein Thema aus Silvana</hi> für Klarinette und Klavier, WeV&#x00A0;P.7</p>
+                   <p n="work" xml:id="beck-work008"><hi rend="italic">Euryanthe</hi>, WeV C.9</p>
+                   <p n="work" xml:id="beck-work009"><hi rend="italic">Der Sänger und der Maler <q>Ei, wenn ich doch ein Maler wär&#x2019;</q></hi>, WeV L.72</p>
+                   <p n="work" xml:id="beck-work010"><hi rend="italic">Jubel-Kantate</hi>, WeV&#x00A0;B.15</p>
+                   <p n="work" xml:id="beck-work017"><hi rend="italic">Freiheitslied <q>Ein Kind ist uns geboren!</q></hi>, WeV&#x00A0;H.7</p>
+                   <p n="work" xml:id="beck-work011"><hi rend="italic">Triolet <q>Keine Lust ohn&#x2019; treues Lieben!</q></hi>, JV&#8239;256</p>
+                   <p n="work" xml:id="beck-work012"><hi rend="italic">Natur und Liebe</hi>, WeV&#x00A0;B.14</p>
+                   <p n="work" xml:id="beck-work022"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+                   <p n="work" xml:id="beck-work023"><hi rend="italic">Lied <q>Wenn Kindlein süßen Schlummers Ruh</q></hi>, JV&#8239;281</p>
+                </person>
+                <person xml:id="beck-pers100">
+                   <p>Weigel, Karl Christian Leberecht</p>
+                </person>
+                <person xml:id="beck-pers102">
+                   <p>Winkel, Therese aus dem</p>
+                </person>
+                <person xml:id="beck-pers103">
+                   <p>Winkler, Karl Theodor</p>
+                   <p>Hell, Theodor</p>
+                </person>
+                <person xml:id="beck-pers105">
+                   <p>Wollank, Ernestine</p>
+                </person>
+                <person xml:id="beck-pers106">
+                   <p>Zahlhas, Johann Baptist</p>
+                </person>
+                <person xml:id="beck-pers107">
+                   <p>Philipp II., König von Spanien</p>
+                </person>
+                <person xml:id="beck-pers108">
+                   <p>Gerstenbergk, Georg Friedrich von</p>
+                </person>
+                <person xml:id="beck-pers109">
+                   <p>Stobwasser, Johann Heinrich</p>
+                </person>
+                <person xml:id="beck-pers110">
+                   <p>Stobwasser, Christian Heinrich</p>
+                </person>
+                <person xml:id="beck-pers111">
+                   <p>Lichtenstein, Hinrich</p>
+                </person>
+                <person xml:id="beck-pers112">
+                   <p>Wohlbrück, Johann Gottfried</p>
+                </person>
+                <person xml:id="beck-pers113">
+                   <p>Solbrig, Carl Friedrich</p>
+                </person>
+                <person xml:id="beck-pers114">
+                   <p>Keller, Carl</p>
+                </person>
+                <person xml:id="beck-pers115">
+                   <p>Schröder, Sophie</p>
+                </person>
+                <person xml:id="beck-pers116">
+                   <p>Schröder, Wilhelmine</p>
+                </person>
+                <person xml:id="beck-pers117">
+                   <p>Rochlitz, Friedrich</p>
+                </person>
+                <person xml:id="beck-pers118">
+                   <p>Blankensee, Georg Graf von</p>
+                </person>
+                <person xml:id="beck-pers119">
+                   <p>Tiedge, Christoph  August</p>
+                </person>
+                <person xml:id="beck-pers120">
+                   <p>Koreff, Johannes Ferdinand</p>
+                </person>
+                <person xml:id="beck-pers121">
+                   <p>Tarnow, Fanny</p>
+                </person>
+                <person xml:id="beck-pers122">
+                   <p>Trautvetter, Friedrich Wilhelm</p>
+                </person>
+                <person xml:id="beck-pers123">
+                   <p>Eberhard, August Gottlob</p>
+                </person>
+                <person xml:id="beck-pers124">
+                   <p>Wendt, Amadeus</p>
+                </person>
+                <person xml:id="beck-pers125">
+                   <p>Wolff, Amalie</p>
+                </person>
+                <person xml:id="beck-pers126">
+                   <p>Wolff, Pius Alexander</p>
+                </person>
+                <person xml:id="beck-pers127">
+                   <p>Schaff, Eugenie</p>
+                </person>
+             </listPerson>
+          </particDesc>
+        </profileDesc>
+       <encodingDesc>
+          <tagsDecl>
+             <rendition xml:id="beck-latex-vspace-1mm">\vspace{-1mm}</rendition>
+          </tagsDecl>
+       </encodingDesc>
+        <revisionDesc>
+           <change when="2015-12-14T21:24:00"
+              who="https://github.com/peterstadler">Korrekturen der Autorin eingearbeitet</change>
+           <change when="2015-12-02T09:56:00"
+              who="https://github.com/peterstadler">An aktuelles Layout angepasst</change>
+           <change when="2015-08-27T12:27:03.862+02:00"
+              who="https://github.com/peterstadler">Tabellenanhang eingearbeitet</change>
+           <change when="2015-08-23T16:26:03.862+02:00"
+              who="https://github.com/peterstadler">Text ausgezeichnet, Personen und Werktitel identifiziert; Anhang fehlt noch!</change>
+            <change when="2015-08-22T09:35:03.862+02:00"
+                who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+           <div type="abstract" xml:id="beck-abstract"><p>Webers Tagebucheintragungen zu Zusammenkünften des Dresdner Liederkreises werden in Beziehung gebracht zu Aufzeichnungen des Dichters und Schriftstellers Karl August Förster, die weitere Informationen zu diesen Treffen bieten.</p>
+              <p>Der Beitrag enthält im Anhang eine Übersicht über alle Tagebuchnotizen Webers zum Thema Liederkreis.</p></div>
+        </front>
+        <body>
+            <p>Bereits kurz nach seiner Ankunft in Dresden, am 22.&#8239;Januar 1817, war <name ref="#beck-pers096">Carl Maria von Weber</name> Gast im Dresdner Liederkreis,<note xml:id="beck-ftn1" n="1">Noch bis zum Jahre 1818 bezeichnete <name ref="#beck-pers096">Weber</name> den Liederkreis in Anlehnung an seine ursprüngliche Benennung als <q>Dichterthee</q> bzw. <q>Dichterkreis</q>.</note> 
+                der an diesem Abend bei <name ref="#beck-pers054">Friedrich Kind</name> zusammenkam – für Weber die Gelegenheit, die Dresdner Literatenszene kennenzulernen und  mit ihr in Kontakt zu kommen; ein Abend, <q>wo viel Ehre</q> für ihn <q>aufgetischt wurde und sehr intereßante Sachen vorkamen</q>, wie er seiner Braut <name ref="#beck-pers009">Caroline Brandt</name> berichtete.<note xml:id="beck-ftn2" n="2">Vgl. <name ref="#beck-pers096">Webers</name> Brief an <name ref="#beck-pers009">Caroline Brandt</name> vom (21.–) 24.&#8239;Januar 1817.</note> 
+                Er wurde Mitglied dieses Kreises. In seiner endgültigen Form<note xml:id="beck-ftn3" n="3">Zur Vorgeschichte  vgl. <ref target="#Bartlitz2012" type="bibl"/>.</note> 
+               war der Liederkreis eine auf Initiative von <name ref="#beck-pers051">Gottlob Adolph Ernst von Nostitz und Jänkendorf</name> (1765–1836) 1815 gegründete Vereinigung, in der sich  literarisch und künstlerisch Interessierte, auch Frauen, zusammenfanden.<note xml:id="beck-ftn4" n="4">Vgl. auch  <ref target="#Krueger1904" type="bibl"/> und <ref target="#Hempel2008" type="bibl"/>.</note> 
+                Man  traf sich wöchentlich oder vierzehntäglich  in der Regel bei einem der verheirateten Mitglieder,<note xml:id="beck-ftn5" n="5">Als Ausnahme sei hier <name ref="#beck-pers102">Therese aus dem Winkel</name> genannt, die als unverheiratete Frau, zusammen mit ihrer Mutter, in ihrem Haus im Italienischen Dörfchen häufig Gäste und auch den Liederkreis empfing.</note>
+               meistens Freitags, um über  literarische und künstlerische Fragen zu sprechen, eigene Arbeiten vorzustellen. Auch Gäste waren willkommen. Zu den Hauptvertretern des Liederkreises zählten <name ref="#beck-pers054">Friedrich Kind</name> (1768–1843), <name ref="#beck-pers103">Karl Theodor Winkler</name> (1775–1856), <name ref="#beck-pers016">Karl August Böttiger</name> (1760–1835), <name ref="#beck-pers059">Friedrich Adolf  Kuhn</name> (1774–1844), <name ref="#beck-pers010">Friedrich Ludwig Breuer</name> (1786–1833), <name ref="#beck-pers028">Karl August Förster</name> (1784–1841) und  <name ref="#beck-pers102">Therese aus dem Winkel</name> (1779–1867).<note xml:id="beck-ftn6" n="6">Angaben zur Zahl der Mitglieder sind nicht genau bekannt, sie schwanken sicher im Verlauf der Jahre. <name ref="#beck-pers057">Krüger</name> nennt als weitere Mitglieder u.&#8239;a. noch den Archäologen <name ref="#beck-pers042">Heinrich August Hase</name> (1789–1842) und den Schriftsteller <name ref="#beck-pers038">Eduard Heinrich Gehe</name> (1793–1850), vgl. <ref type="bibl" target="#Krueger1904">S.&#8239;131&#8239;f.</ref></note>
+             Mit seinem Organ, der von <name ref="#beck-pers103">Theodor Hell</name> (d.&#8239;i. Karl Theodor Winkler) &#x2013; bis 1826 gemeinsam mit <name ref="#beck-pers054">Friedrich Kind</name> &#x2013; herausgegebenen  Dresdner <hi rend="italic">Abend-Zeitung</hi> war der Liederkreis auch in der  Dresdner Öffentlichkeit präsent.</p>
+            <p><name ref="#beck-pers096">Webers</name> Besuche der geselligen Abende sind in seinem Tagebuch<note xml:id="beck-ftn7" n="7"><hi rend="italic">D-B</hi>, Mus. ms. autogr. theor. C.&#8239;M.&#8239;v. Weber WFN&#x00A0;1.</note>  
+                gut dokumentiert. Allerdings erfährt man selten Näheres über diese Zusammenkünfte, mehr als zwei Drittel von seinen  Eintragungen beschränken  sich lediglich auf den Vermerk: <q>Abends Liederkreis bei …</q>, so dass es von Interesse wäre, Aussagen anderer Zeitgenossen, sofern sie überliefert sind, zusammenzutragen, um genauere Informationen zu behandelten Themen oder über anwesende Gäste zu erhalten.<note xml:id="beck-ftn8" n="8">Beispielsweise könnte eine Sichtung der Korrespondenz aus dem <name ref="#beck-pers016">Böttiger</name>-Nachlass in der Sächsischen Landesbibliothek Dresden  vielleicht weitere Ergebnisse liefern.</note>
+            </p>
+           <p>Ein Mitglied, zu dem <name ref="#beck-pers096">Weber</name> auch persönlichen Kontakt pflegte, ist <name ref="#beck-pers028">Karl August Förster</name>, den <name ref="#beck-pers057">Hermann Anders Krüger</name> – abweichend von seiner ansonsten weitgehend negativen Beurteilung der führenden Mitglieder des Kreises – als den ohne Zweifel bedeutendsten <q>Kopf und das eigenartigste Talent der ganzen Gesellschaft</q> bezeichnete.<note xml:id="beck-ftn9" n="9"><ref type="bibl" target="#Krueger1904">S.&#8239;140</ref>. Zu <name ref="#beck-pers028">Försters</name> Charakterisierung siehe auch die folgenden S.&#8239;141–144.</note>
+            </p>
+           <p>Der Sohn eines Naumburger Dompredigers und Schulinspektors war nach Studienjahren in Leipzig 1807 in Dresden zum Professor beim adeligen Kadetten-Korps ernannt worden, wo er bis zu seinem Tode als Lehrer der deutschen Sprache und Literatur wirkte. Bekannt wurde er als Übersetzer u.&#8239;a. von <name ref="#beck-pers074">Petrarca</name>, <name ref="#beck-pers022">Dante</name> und <name ref="#beck-pers092">Tasso</name>, er verfasste einen nicht vollendeten <hi rend="italic">Abriss der allgemeinen Litteraturgeschichte</hi>, arbeitete als Herausgeber der Schlussbände von <name ref="#beck-pers070">Wilhelm Müllers</name> <hi rend="italic">Bibliothek deutscher Dichter des 17.&#8239;Jahrhunderts</hi> und als Mitarbeiter für verschiedene Zeitschriften und Lexika. Eine Gesamtausgabe seiner Gedichte in zwei Bänden erschien erst posthum 1843 in Leipzig mit einem Vorwort von <name ref="#beck-pers093">Ludwig Tieck</name>. 1816 heiratete er <name ref="#beck-pers031">Luise geb. Förster</name> (1794–1877).<note xml:id="beck-ftn10" n="10">Vgl. u.&#8239;a. <ref target="#ADB7-189" type="bibl"/></note>  
+               Deren Bruder, den Schriftsteller und Dichter <name ref="#beck-pers030">Friedrich Christoph Förster</name> (1791–1868), hatte <name ref="#beck-pers096">Weber</name> bereits bei seinen Berlin-Besuchen kennengelernt, auch Liedtexte von ihm vertont.<note xml:id="beck-ftn11" n="11">1816 komponierte <name ref="#beck-pers096">Weber</name> die Lieder <hi rend="italic">Mein Verlangen</hi>  <q>Ach wär ich doch zu dieser Stund</q> (JV&#x00A0;196) und <hi rend="italic">Die freien Sänger</hi>  <q>Vöglein hüpfet in dem Haine</q> (JV&#x00A0;198). Bei dem 1820 entstandenen Lied <hi rend="italic">Der Sänger und der Maler</hi>  <q>Ei, wenn ich doch ein Maler wär&#x2019;</q> (JV&#x00A0;278)  ist die Autorschaft des Textes (<name ref="#beck-pers030">Friedrich Christoph Förster</name> oder <name ref="#beck-pers028">Karl August Förster</name>)  ungeklärt.</note>
+            </p>
+           <p><name ref="#beck-pers031">Luise Förster</name> veröffentlichte fünf Jahre nach dem Tode ihres Mannes <hi rend="italic">Biographische und literarische Skizzen aus dem Leben und der Zeit Karl Förster&#x2019;s</hi>,<ref target="#Foerster1846" type="bibl" xml:id="beck-ftn12"/> darin auch Notizen aus <name ref="#beck-pers028">Försters</name> Tagebuch, die u.&#8239;a.  Aussagen über <name ref="#beck-pers096">Weber</name> und die Liederkreis-Abende enthalten. Einige  sollen hier als  Ergänzungen  zu <name ref="#beck-pers096">Webers</name> Tagebuch-Eintragungen näher betrachtet werden, wobei sich allerdings auch die Frage nach der Verlässlichkeit der Försterschen Aufzeichnungen stellt.</p>
+           <p>Über die Bekanntschaft ihres Mannes mit <name ref="#beck-pers096">Weber</name> schreibt <name ref="#beck-pers031">Luise Förster</name>: <quote source="#beck-ftn13">Der Winter 1817 bot unserem Freunde einen reichen Gewinn, er lernte in dieser Zeit <name ref="#beck-pers096">Karl M.&#8239;v. Weber</name> kennen. Die gleichgestimmten Gemüther verband bald die innigste Freundschaft und der wechselseitige und wechselwirkende Geistesaustausch gab den Freunden viele reiche Stunden,</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn13" n="13">S.&#8239;43</ref>
+             eine aus späterer Sicht vielleicht zu überschwängliche Schilderung einer Freundschaft, aber die in <name ref="#beck-pers096">Webers</name> Tagebuch aufgezeichneten Kontakte zu <name ref="#beck-pers028">Förster</name>  lassen erkennen, dass es mehr als nur eine oberflächliche  Beziehung  war.</p>
+            <p>Dreizehn  Besuche des Liederkreises im Hause <name ref="#beck-pers028">Förster</name> und ebenso viele weitere Begegnungen mit <name ref="#beck-pers028">Förster</name>,  der auch gelegentlich Gast bei <name ref="#beck-pers096">Weber</name> war, sind in <name ref="#beck-pers096">Webers</name> Tagebuch festgehalten. <!--</p>
+            <p>-->Die erste Erwähnung eines Besuches bei <name ref="#beck-pers028">Förster</name> findet  sich dort  am 9.&#8239;Februar 1817.<note xml:id="beck-ftn14" n="14">Denkbar ist, dass <name ref="#beck-pers096">Weber</name> <name ref="#beck-pers028">Förster</name> bereits bei seinem ersten Besuch des Liederkreises am 22.&#8239;Januar 1817 kennengelernt hatte.</note>
+               Bald darauf, am 11.&#8239;April 1817, war der Liederkreis in seiner Gesamtheit, und damit auch <name ref="#beck-pers096">Weber</name>, zum Taufpaten von <name ref="#beck-pers028">Försters</name> am 9.&#8239;März geborener Tochter <name ref="#beck-pers029">Marie Laura</name> (1817–1856) gebeten worden. Am 23.&#8239;September 1818 berichtete <name ref="#beck-pers028">Förster</name> von <name ref="#beck-pers096">Webers</name> Aufführung der <title ref="#beck-work010"><hi rend="italic">Jubel-Kantate</hi></title> (WeV B.15)  in der Neustädter Dreikönigskirche:
+               <quote source="#beck-ftn16"><name ref="#beck-pers096">Webers</name> Musik brachte einen unendlich großen Eindruck hervor.  <name ref="#beck-pers085"><hi rend="spaced">Sasseroli</hi></name> sang unvergleichlich, auch die  <name ref="#beck-pers027"><hi rend="spaced">Funk</hi></name> gefiel heute allgemein, nicht minder  <name ref="#beck-pers008"><hi rend="spaced">Bergmann</hi></name> (Tenor).<note xml:id="beck-ftn15" n="15"><name ref="#beck-pers085">Filippo Sassaroli</name> (1775–nach 1828), Kammer- und Kirchensänger am Dresdner Hof (Kastrat); <name ref="#beck-pers027">Friederike Funk</name> (geb. 1796), Schauspielerin und Sängerin am Dresdner Hoftheater; <name ref="#beck-pers008">Johann Gottfried Bergmann</name> (1795–1831), Schauspieler und Sänger am Dresdner Hoftheater.</note>
+             […] Freund <name ref="#beck-pers096">Weber</name>, welcher vor und nach der Aufführung flüchtig bei uns einsprach, war sehr gerührt und weich.</quote><ref target="#Foerster1846" type="bibl" xml:id="beck-ftn16" n="16">S.&#8239;95</ref>
+            </p>
+           <p>In späteren Jahren finden sich bei <name ref="#beck-pers028">Förster</name> Bemerkungen über Diskussionen mit <name ref="#beck-pers096">Weber</name> zu verschiedenen  Themen. Nachdem <name ref="#beck-pers096">Weber</name> am 1.&#8239;April 1823 vermerkte: <q>dann zu <name ref="#beck-pers028">Förster</name> wegen <title ref="#beck-work008">Euryanthe</title> bis 4 Uhr</q>, notierte  <name ref="#beck-pers028">Förster</name> unter dem 2.&#8239;April:
+              <quote source="#beck-ftn18">Des Nachmittags brachte Freund <name ref="#beck-pers096">Weber</name> die Oper <title ref="#beck-work008">Euryanthe</title> von der <name ref="#beck-pers020">Chezy</name>, mit deren Composition er beschäftigt ist. Er bat mich, den dritten Akt und vor Allem den Schluß zu verändern. Er las mir das Ganze in seiner jetzigen Gestalt (die arme <name ref="#beck-pers020">Chezy</name> hat den Text neunmal verändert)<note xml:id="beck-ftn17" n="17">Zu den verschiedenen Fassungen der Oper vgl. <ref target="#beck-Veit1998" type="bibl"/>.</note>
+                 vor. Die ersten Akte sind vortrefflich, voll schöner Stellen, kräftiger Lieder und vieler Charakteristik. Der letzte Akt bedarf jedoch der Nachhülfe und <name ref="#beck-pers096">Weber</name> hat selbst Manches mit geschickter Hand anders geordnet und verbessert. Es war ein großer Genuß, ihn nach der Lesung so einsichtsvoll über das Stück sprechen zu hören und über die Arbeit des Componisten, die Weise, wie er dabei verfährt; ich überzeugte mich von Neuem, daß auf <name ref="#beck-pers096">Webers</name> Schöpfungen nichts einwirkt als sein Genius, daher die tiefe Innigkeit, die poetische Großartigkeit seiner Compositionen. Er spielte noch einige der jüngst componirten Theile aus der <title ref="#beck-work008">Euryanthe</title>, die seine Genialität als Tonsetzer wiederum glänzend bezeichnen. –</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn18" n="18">S.&#8239;295</ref>
+            </p>
+           <p>Noch weitere Begegnungen werden erwähnt: Am 3.&#8239;April 1824 begab sich <name ref="#beck-pers096">Weber</name>, nachdem er die zweite Aufführung seiner <title ref="#beck-work008"><hi rend="italic">Euryanthe</hi></title>  in Dresden dirigiert hatte, zu <name ref="#beck-pers028">Förster</name>, der an diesem Tag seinen 40.&#8239;Geburtstag beging. Als auswärtige  Gäste vermerkte <name ref="#beck-pers028">Förster</name> an diesem Abend den Historiker <name ref="#beck-pers078">Friedrich von Raumer</name><note xml:id="beck-ftn19" n="19">Lt. <name ref="#beck-pers096">Webers</name> Tagebuch hatte <name ref="#beck-pers078">Raumer</name> an diesem Tage durch <name ref="#beck-pers096">Webers</name> Vermittlung auch die <title ref="#beck-work008"><hi rend="italic">Euryanthe</hi></title>-Vorstellung besucht.</note>  (1781–1873) aus Berlin und den Minister <name ref="#beck-pers095">Carl August Freiherr von Wangenheim</name> (1773–1850) aus Coburg.<ref target="#Foerster1846" type="bibl" xml:id="beck-ftn20" n="20">S.&#8239;302</ref>
+            </p>
+           <p>Auch am 24.&#8239;September 1824 verbrachte  <name ref="#beck-pers096">Weber</name> einen Abend im Hause Förster, wo <name ref="#beck-pers093">Ludwig Tieck</name> zu Gast war und in einer größeren Runde <q>zur höchsten Ergötzlichkeit der Freunde</q> den <title ref="#beck-work013"><hi rend="italic">Neffen als Onkel</hi></title>  von <name ref="#beck-pers087">Schiller</name> (nach <name ref="#beck-pers075">Louis Benoît Picards</name> Lustspiel <title ref="#beck-work007"><hi rend="italic">Encore de Ménechmes</hi></title>) las.<ref type="bibl" target="#Foerster1846" xml:id="beck-ftn21" n="21" rend="ibid">S.&#8239;309</ref> 
+              <name ref="#beck-pers028">Förster</name> erwähnte  die Anwesenheit der  <q>Fremde[n]</q> <name ref="#beck-pers001">Willibald  Alexis</name> (1798–1871), des Historikers <name ref="#beck-pers065">Johann Wilhelm Löbell</name> (1786–1863) und eines <q>Dr. Watson</q>.</p>
+           <p>Daneben finden sich Eintragungen, zu denen es keine parallelen  Erwähnungen  in <name ref="#beck-pers096">Webers</name> Tagebuch gibt. So schilderte <name ref="#beck-pers028">Förster</name> einen auf den 8.&#8239;November 1818 datierten <!--<pb/>-->Besuch <name ref="#beck-pers096">Webers</name> und des Bibliothekars <name ref="#beck-pers088">Christian August Semler</name>.<note xml:id="beck-ftn22" n="22"><name ref="#beck-pers088">Semler</name> (auch Semmler) (1767–1825) war seit 1800 Sekretär an der Kgl. Bibliothek in Dresden und betätigte sich auch als Schriftsteller.</note> 
+               Zwischen den beiden ergab sich eine Diskussion über die Anfänge der Oper und den Stellenwert des Rezitativs, bei der <name ref="#beck-pers096">Weber</name> u.&#8239;a. geäußert haben soll, <quote source="#beck-ftn23">daß dem Recitativ noch viel zu seiner Vollendung abgehe, indem es meist nur als Nebensache von dem Tonsetzer behandelt oder wohl gar dem Copisten überlassen würde.</quote><ref target="#Foerster1846" type="bibl" xml:id="beck-ftn23" n="23">S.&#8239;103</ref>
+            </p>
+            <p>Am 18.&#8239;Februar 1821 beschrieb  <name ref="#beck-pers028">Förster</name> eine große Mittagsrunde bei <name ref="#beck-pers016">Böttiger</name>, bei der mit <name ref="#beck-pers096">Weber</name> über die <q>Musik der Alten</q> diskutiert wurde.<ref type="bibl" target="#Foerster1846" xml:id="beck-ftn24" n="24" rend="ibid">S.&#8239;203</ref>
+               Einen Monat später, am 19.&#8239;März 1821, notierte <name ref="#beck-pers028">Förster</name>, dass <name ref="#beck-pers096">Weber</name> ihm seinen für die <hi rend="italic">Allgemeine Enzyklopädie der Wissenschaften und Künste</hi> (J.&#8239;S. Ersch und J.&#8239;G. Gruber) bestimmten Artikel über die Familie Bach vorlegte.<ref target="#Foerster1846" type="bibl" xml:id="beck-ftn25" n="25" rend="ibid">S.&#8239;207</ref>  
+              Laut  <name ref="#beck-pers096">Webers</name> Tagebuch ist der allerdings  erst am 29.&#8239;April 1821 verfasst worden.</p>
+            <p>Erwähnungen von Liederkreis-Abenden in <name ref="#beck-pers028">Försters</name> Tagebuch erstrecken sich im Zeitraum von <name ref="#beck-pers096">Webers</name> Aufenthalt in Dresden über  die Jahre 1817  bis 1822.<note xml:id="beck-ftn26" n="26">Es bleibt unklar, ob das Fehlen von Erwähnungen in den Jahren 1823 bis 1826 <name ref="#beck-pers028">Karl Förster</name> oder der durch <name ref="#beck-pers031">Luise Förster</name> getroffenen Auswahl zuzuschreiben ist.</note> 
+               Anhand von <name ref="#beck-pers096">Webers</name> Tagebuch lassen sich für diesen Zeitabschnitt und darüber hinaus die Gastgeber genau bestimmen. Genannt werden neben <name ref="#beck-pers028">Förster</name> <name ref="#beck-pers054">Friedrich Kind</name>, <name ref="#beck-pers051">Gottlob Adolph Ernst von Nostitz und Jänkendorf</name>, <name ref="#beck-pers046">August Leberecht Herrmann</name><note xml:id="beck-ftn27" n="27"><name ref="#beck-pers046">Herrmann</name> und der im Folgenden genannte Historiker <name ref="#beck-pers044">Hasse</name> waren wie <name ref="#beck-pers028">Förster</name> als Lehrer am Dresdner Kadetten-Korps angestellt.</note> (1783–1847), <name ref="#beck-pers059">Friedrich Adolf Kuhn</name>, <name ref="#beck-pers039">Johann Georg Geißler</name><note xml:id="beck-ftn28" n="28"><name ref="#beck-pers039">Geißler</name>, Jurist und Herzogl. Sächsisch-Gothaischer Regierungsrat, kommt nach 1820 nicht mehr als Gastgeber vor, er lebte dann vorwiegend auf seinem Gut Radibor bei Bautzen.</note> (1760–1830), <name ref="#beck-pers102">Therese aus dem Winkel</name>, ab 1818 <name ref="#beck-pers044">Friedrich Christian August Hasse</name> (1773–1848), <name ref="#beck-pers016">Karl August Böttiger</name>, <name ref="#beck-pers096">Weber</name> selbst, ab 1820 <name ref="#beck-pers052">Friedrich Graf von Kalkreuth</name> (1790–1873), ab 1822  <name ref="#beck-pers066">Ernst von der Malsburg</name><note xml:id="beck-ftn29" n="29"><name ref="#beck-pers066">Malsburg</name> wird bei <ref type="bibl" target="#Krueger1904">S.&#8239;131</ref>, ebenso wie <name ref="#beck-pers052">Friedrich Graf Kalkreuth</name> und <name ref="#beck-pers064">Otto Heinrich von Loeben</name>, als außerordentliches Mitglied bezeichnet.</note> (1786–1824). Nach 1823 kamen noch <name ref="#beck-pers100">Weigel</name>,<note xml:id="beck-ftn30" n="30">Vermutlich der Arzt <name ref="#beck-pers100">Karl Christian Leberecht Weigel</name> (1769–1845), der 1817 auch <name ref="#beck-pers096">Weber</name> behandelte.</note>
+               <name ref="#beck-pers077">Johann Gottlob von  Quandt</name> (1787–1859), <name ref="#beck-pers094">Carl Christian Vogel</name> (1788–1868) und <name ref="#beck-pers103">Karl Theodor Winkler</name> (ab 1824, <name ref="#beck-pers103">Winkler</name> hatte 1824 geheiratet) hinzu.</p>
+           <p>So notierte <name ref="#beck-pers096">Weber</name> am 23.&#8239;Oktober 1818  den Besuch des Liederkreises bei <name ref="#beck-pers059">Friedrich Kuhn</name>, zu dem <name ref="#beck-pers028">Förster</name> eine anschauliche Beschreibung gibt:
+              <!--<pb/>-->
+              <quote source="#beck-ftn39"><milestone rendition="#beck-latex-vspace-1mm"/>Am Abend finde ich die Freunde bei <name ref="#beck-pers059">Fr. Kuhn</name> versammelt, wo auch  <name ref="#beck-pers049">von Houwald</name> und <name ref="#beck-pers084">Contessa</name><note xml:id="beck-ftn31" n="31"><name ref="#beck-pers049">Ernst von Houwald</name> (1778–1845), <name ref="#beck-pers084">Karl Wilhelm Salice-Contessa</name> (1777–1825), Dichter, Schriftsteller.</note>  
+                  zugegen sind. <name ref="#beck-pers066">Von Malsburg</name> theilte aus der Vorrede zu seinem <name ref="#beck-pers018">Calderon</name><note xml:id="beck-ftn32" n="32">Vorrede zum ersten Band der bei Brockhaus in Leipzig von 1819 bis 1825 erschienenen sechsbändigen Ausgabe Calderonscher Werke in der Übersetzung von Malsburg.</note>  
+                 eine scizzirte Darlegung des Inhalts mit: <title ref="#beck-work003">Das Leben ein Traum</title>,<note xml:id="beck-ftn33" n="33"><name ref="#beck-pers018">Calderons</name> <title ref="#beck-work003"><hi rend="italic">Das Leben ein Traum</hi></title>  wurde am 7.&#8239;November 1818 in der Übersetzung von <name ref="#beck-pers041">Johann Diederich Gries</name> (bearbeitet von <name ref="#beck-pers106">Johann Baptist Zahlhas</name>) am Dresdner Hoftheater erstaufgeführt.</note>  
+                  als durchaus dogmatisch, mystisch, allegorisch. Mir war alles, auch in historischer Hinsicht interessant. –  Ein freundlicher Brief  von  <name ref="#beck-pers091"><hi rend="spaced">Streckfuß</hi></name> wird vorgetragen, er sendet den Freunden den zweiten Theil seines <name ref="#beck-pers003">Ariosto</name>.<note xml:id="beck-ftn34" n="34"><name ref="#beck-pers091">Karl Streckfuß’</name> (1778–1844) zweiter Band seiner Übersetzung des <title ref="#beck-work014"><hi rend="italic">Rasenden Roland</hi></title>  von <name ref="#beck-pers003">Ludovico Ariosto</name> erschien 1818 in Halle bei Hemmerde &amp; Schwetschke. <name ref="#beck-pers091">Streckfuß</name>, der zu den Besuchern des <q>Dichterthees</q> gehörte, war 1815 aus beruflichen Gründen von Dresden nach Merseburg übergesiedelt.</note>  
+                 <name ref="#beck-pers059">Kuhn</name> las drei recht gute Sonnette, die Lebensalter,<note xml:id="beck-ftn35" n="35"><name ref="#beck-pers059">Friedrich Kuhn</name>, <title level="m">Gedichte</title>, Leipzig 1820, S.&#8239;383–386, Vier Sonette von den Lebensaltern.</note>  als Räthsel vor. <name ref="#beck-pers051">Nostitz</name> ein erzählendes Gedicht: Sidonie von Tharand, <name ref="#beck-pers010">Breuersche</name> gelungene Übersetzung von <name ref="#beck-pers013">Byron</name>.<note xml:id="beck-ftn36" n="36">Bei Brockhaus in Leipzig erschienen von <name ref="#beck-pers010">Friedrich Ludwig Breuer</name>  1819–1827 drei Bände <hi rend="italic">Brittische Dichterproben</hi>, in metrischen Übersetzungen u.&#8239;a. mit Dichtungen von <name ref="#beck-pers013">Byron</name>.</note>  
+                 <name ref="#beck-pers016">Böttiger</name> giebt einiges aus dem Bericht eines Reisenden von den griechischen Inseln, namentlich von Mitylene,<note xml:id="beck-ftn37" n="37">1819 erschien in Leipzig bei Leopold Voß eine deutsche Übersetzung der Erzählung <title ref="#beck-work006">Der Vampyr</title> von <name ref="#beck-pers076">John Polydori</name>, in dieser Ausgabe <name ref="#beck-pers013">George Gordon Byron</name> zugeschrieben, mit einem <q>Auszug aus einem Briefe enthaltend eine Nachricht über <name ref="#beck-pers013">Lord Byrons</name> Aufenthalt auf der Insel Mitylene</q>  (S.&#8239;70–83, ungezeichnet). Der Übersetzer der Ausgabe ist nicht genannt.</note>  
+                 wo <name ref="#beck-pers013">Byron</name> damals ein schönes Landhaus besaß und sich durch Wohlthätigkeit und Menschenliebe die Zuneigung der Eingeborenen erworben hatte. – <name ref="#beck-pers049">Houwald</name> und <name ref="#beck-pers084">Contessa</name> theilen dramatische Fragmente mit und ich lese ein größeres Gedicht in Stanzen – der Strom<note xml:id="beck-ftn38" n="38">Ein Gedicht mit diesem Titel ist in der zweibändigen Ausgabe von <name ref="#beck-pers028">Försters</name> Gedichten nicht nachweisbar. Möglicherweise handelt es sich um das erste Gedicht <hi rend="italic">An Rafael</hi>  aus dem Zyklus <title ref="#beck-work004"><hi rend="italic">Dem Andenken Rafael’s</hi></title>, <q>Ein breiter Strom treibt rastlos seine Wogen</q>, vgl. <ref target="#Foerster1843" type="bibl">Bd.&#8239;2, S.&#8239;119–126</ref>.</note>  – vor.</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn39" n="39">S.&#8239;100</ref>
+            </p>
+           <p>In den Sommermonaten nahm <name ref="#beck-pers096">Weber</name>, wenn er ein Sommerquartier gemietet hatte, selten an den Zusammenkünften teil. So  fehlte er auch an einem Abend bei <name ref="#beck-pers051">Nostitz</name>, den <name ref="#beck-pers028">Förster</name> ebenfalls ausführlicher beschreibt. Er ist mit 20.&#8239;August 1818 datiert.<note xml:id="beck-ftn40" n="40"><name ref="#beck-pers096">Weber</name> hatte am 20.&#8239;August  in Hosterwitz, wo er sich von Mitte Juni  bis Ende August  aufhielt, Besuch von dem mit ihm befreundeten Ehepaar Friedrich und <name ref="#beck-pers105">Ernestine Wollank</name> aus Berlin.</note> 
+               An diesem Tag wurden verschiedene Texte vorgetragen, u.&#8239;a. las auch <name ref="#beck-pers054">Kind</name> die Textvorlage zu einer <quote source="#beck-ftn41">neulich am Hoflager in Pillnitz aufgeführte[n]  und von K.&#8239;M. Weber componirte[n]  Cantate</quote>.<ref target="#Foerster1846" type="bibl" xml:id="beck-ftn41" n="41">S.&#8239;84</ref> 
+              Gemeint ist die Kantate <title ref="#beck-work012" rend="normal"><hi rend="italic">Natur und Liebe</hi> (WeV&#x00A0;B.14)</title>, die <name ref="#beck-pers096">Weber</name> auf einen Text von <name ref="#beck-pers054">Kind</name> zum Namenstag der Königin <name ref="#beck-pers082">Maria Amalia Augusta von Sachsen</name> am 3.&#8239;August 1818 komponiert und im Pillnitzer Schloss aufgeführt hatte. </p>
+           <pb/>
+           <p>Für die Reise nach Kopenhagen 1820 gab  <name ref="#beck-pers028">Förster</name> <name ref="#beck-pers096">Weber</name> Empfehlungsbriefe mit. Als sich die Liedertafel-Mitglieder in Abwesenheit <name ref="#beck-pers096">Webers</name> bei <name ref="#beck-pers016">Böttiger</name> trafen, zitierte  <name ref="#beck-pers028">Förster</name> aus einem Brief des Hallenser Medizinprofessors  <name ref="#beck-pers023">Ludwig Hermann Friedländer</name> (1790–1851) vom 1.&#8239;August 1820, den <name ref="#beck-pers096">Weber</name> offenbar auf Empfehlung <name ref="#beck-pers028">Försters</name> in Halle aufgesucht hatte, und der auch Grüße des Komponisten an die Freunde des Liederkreises enthielt. <name ref="#beck-pers023">Friedländer</name> berichtete  u.&#8239;a. über <name ref="#beck-pers096">Webers</name> Konzert in Halle: 
+              <quote source="#beck-ftn42">Der treffliche <name ref="#beck-pers096">Weber</name>, der auch bei uns eine große Anzahl Verehrer hat und namentlich von unserer studirenden Jugend sehr gefeiert wird, hat durch seine Gegenwart und durch ein gestern gegebenes Concert allgemeinen Enthusiasmus erregt. Ungeachtet der drückenden Hitze, war der Saal von einer eleganten Versammlung bis zum Erdrücken angefüllt. Was sonst dem berühmtesten Künstler bei uns nicht zu Theil wird, erfolgte dießmal, ein ungestümes Beifallklatschen beim ersten Auftreten, was sich während und nach dem Spiel des Meisters wiederholte. Ganz vortrefflich wurden seine Gesänge, namentlich das Freiheitslied [<title ref="#beck-work017">WeV&#x00A0;H.7</title>], einstimmig von den Studirenden ausgeführt.</quote><note type="bibl" xml:id="beck-ftn42" n="42"><ref target="#Foerster1846" type="bibl">S.&#8239;174&#8239;f.</ref> Zu <name ref="#beck-pers096">Webers</name> Aufenthalt in Halle vgl. auch <ref target="#Ziegler2007" type="bibl"/>.</note>
+            </p>
+           <p>Am 19.&#8239;Dezember 1820 fand  ein Abend bei <name ref="#beck-pers096">Weber</name> statt, einen Tag, nachdem der Klarinettist <name ref="#beck-pers005">Heinrich Baermann</name> (1784–1847)  in Dresden ein Konzert gegeben hatte. <name ref="#beck-pers096">Weber</name> notierte: <q><hi rend="underline">Abends bei uns</hi>  der Liederkreis. […] ich  spielte mit <name ref="#beck-pers005">Bärmann</name> unsere <title ref="#beck-work002"><hi rend="italic">Variat:</hi></title><note xml:id="beck-ftn43" n="43">7 Variationen über ein Thema aus <title ref="#beck-work002">Silvana</title> für Klarinette und Klavier</note> und <title>F moll</title> von ihm</q>. 
+              <name ref="#beck-pers028">Förster</name> schrieb  zu diesem Abend, datiert mit Dezember&#x00A0;1820:
+              <quote source="#beck-ftn45">Der Liederkreis bot während der letzten Zeit den Genuß mancher freundlichen Erscheinung dar. Unter den poetischen Mittheilungen gar vieles Gute, das mit derselben neidlosen Anerkennung aufgenommen ward, als der redliche Tadel, der dem minder Guten nicht fehlte. Eine Versammlung bei <name ref="#beck-pers096">Weber</name> wird durch sein herrliches Spiel mir unvergessen bleiben. Er phantasirte vielleicht eine Stunde auf dem Flügel, mit einem Zauber, welcher mich der Erde entrückte. Darauf erfreute uns das treffliche Oboespiel des Kammermusicus <name ref="#beck-pers005">Bärmann</name> aus Berlin,<note xml:id="beck-ftn44" n="44">Der aus Potsdam stammende <name ref="#beck-pers005">Heinrich  Baermann</name> lebte seit 1807 in München; sein Instrument war die Klarinette (nicht Oboe).</note> den ich auch später wieder mit wahrem Entzücken hörte.</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn45" n="45">S.&#8239;193</ref>
+            </p>
+            <p>Fraglich in Bezug auf die Datierung ist die Beschreibung eines Abends, die <name ref="#beck-pers028">Förster</name> unter dem 22.&#8239;Mai 1818 notierte:
+               <quote source="#beck-ftn48">Wir waren am Abend bei Minister <name ref="#beck-pers051">N.[ostitz]</name>, wo außer dem gewöhnlichen Freundeskreise Hofrath <name ref="#beck-pers080">Riedel</name><note xml:id="beck-ftn46" n="46"><name ref="#beck-pers080">Cornelius Johann Rudolf Ridel</name> (auch Riedel) (1759–1821), Jurist, 1787–1799 Erzieher des Erbprinzen <name ref="#beck-pers083">Karl Friedrich von Sachsen-Weimar</name>, ab 1817 Kammerdirektor.</note>  
+                  aus Weimar, Erzieher des Kronprinzen, gegenwärtig war. Aus einem Heft der Zeitgenossen wird vorgelesen, das Leben der Krüdener und ein Fragment über Las Casas.<note xml:id="beck-ftn47" n="47"><title level="m">Zeitgenossen. Biographieen und Charakteristiken</title>, Bd.&#8239;3, Leipzig 1818, 2.&#8239;Abt., S.&#8239;105–174: <q>Frau von Krüdener</q>, ungezeichnet; ebd. 4.&#8239;Abt., S.&#8239;7–46: <q>Emanuel August Dieudonné Graf von Las Casas oder Las Cases, Begleiter Napoleons nach der Insel St.&#8239;Helena. Nach authentischen Mittheilungen</q> von C.&#8239;L.&#8239;D.&#8239;M.&#8239;R., mit zwei Anhängen (S.&#8239;47–124).</note> 
+                  <name ref="#beck-pers096">Weber</name> drängte mich von Neuem, ihm eine Oper zu schreiben; er hat jetzt ein paar Lieder und ein Triolet von mir componirt, welche er zu meiner großen Freude am Schlusse des Abends noch sang.</quote><ref target="#Foerster1846" type="bibl" xml:id="beck-ftn48" n="48">S.&#8239;46</ref>
+            </p>
+           <p><name ref="#beck-pers096">Weber</name> hat das <title ref="#beck-work011">Triolet</title> <q>Keine Lust ohn’ treues Lieben!</q> (JV&#x00A0;256) auf den <name ref="#beck-pers028">Försterschen</name> Text laut seinem Tagebuch erst am 8.&#8239;Juli 1819 komponiert. Es ist kaum denkbar, dass er noch ein weiteres Triolet von <name ref="#beck-pers028">Förster</name> vertont hat. Unklar bleibt auch, welche weiteren Lieder <name ref="#beck-pers028">Förster</name> hier meinen könnte.<note xml:id="beck-ftn49" n="49">Überliefert sind nur noch das in seiner Autorschaft nicht gesicherte Lied JV&#x00A0;278 (s. Anm.&#8239;<ref target="#beck-ftn11" type="crossref" rend="no"/><!--11-->) sowie aus den <title ref="#beck-work001">10&#x00A0;Schottischen Nationalgesängen</title> die Lieder Nr.&#8239;3 (WeV&#x00A0;U.16/3), <hi rend="italic">Ein entmutigter Liebender</hi>, <q>Ich weiß ein Mägdlein</q> und Nr.&#8239;4 (WeV&#x00A0;U.16/4a), <hi rend="italic">Ein beglückter Liebender</hi>, <q>Was brauch ich des Mondes</q>, für die <name ref="#beck-pers028">Förster</name> die deutschen Übersetzungen der Texte lieferte. Ihm ist mit den anderen Übersetzern die 1826 bei Probst in Leipzig erschienene deutsche Ausgabe gewidmet. </note>  
+              Diese Eintragung lässt Zweifel an der Zuverlässigkeit von <name ref="#beck-pers028">Försters</name> Notizen aufkommen.<note xml:id="beck-ftn50" n="50">Eine weitere Diskrepanz in der Datierung zeigt sich bei der Schilderung eines Besuches von <name ref="#beck-pers096">Weber</name>, der  seinem Patenkind <name ref="#beck-pers029">Marie Laura</name> am 24.&#8239;Dezember ein Geschenk überreichen wollte, vgl. <ref type="bibl" target="#Foerster1846">S.&#8239;108</ref>: <q>Freund <name ref="#beck-pers096">Webers</name> Besuch war ein Strahl mehr in den hellen Freudenabend. Er brachte unserer <name ref="#beck-pers029">Marie</name>, seiner Pathe, einen prachtvollen Arlequin, den er mit dem liebenswürdigsten Humor agiren ließ. Der werthe Freund theilt mir noch allerhand Wünsche und Pläne für eine Oper mit</q>. <name ref="#beck-pers028">Förster</name> datiert den Besuch auf 1818, lt. <name ref="#beck-pers096">Webers</name> Tagebuch erfolgte er 1819 (<q>dem Pathchen den Inka gebracht</q>).</note> 
+              Leider konnte bisher nicht ermittelt werden, ob sich das Original von <name ref="#beck-pers028">Försters</name> Tagebuch erhalten hat. Ungenauigkeiten dürften  teils auf <name ref="#beck-pers028">Karl Förster</name> selber,  teils auf die Herausgeberin <name ref="#beck-pers031">Luise Förster</name> zurückgehen. Zur Charakteristik der Tagebücher äußerte  sich Letztere  folgendermaßen: <quote source="#beck-ftn51">Vollständige Tagebücher, insofern vollständig, daß die <hi rend="spaced">Jahreszahl</hi> genau bezeichnet ist, obschon Erlebnisse mehrerer Wochen sich oftmals in buntem Gemisch zusammendrängen, finden wir von des Verewigten Hand, vom <hi rend="spaced">Mai 1818</hi> bis zum <hi rend="spaced">29.&#8239;März 1841</hi> niedergeschrieben.</quote><ref target="#Foerster1846" type="bibl" xml:id="beck-ftn51" n="51">S.&#8239;45</ref> </p>
+           <pb/>
+           <p>Auch wenn die Herausgeberin sich um eine lesbare und verlässliche Ausgabe bemühte,<note xml:id="beck-ftn52" n="52"><ref target="#Foerster1846" type="bibl">S.&#8239;45</ref>: <q>Diese Tagebücher werden von jetzt an  [ab 1818]  der Leitfaden unserer Mittheilungen sein. Wiederholungen werden vermieden, Bedeutungsloses ausgeschlossen, das Niedergeschriebene worttreu wiedergegeben</q>.</note> 
+              lässt sie an anderer Stelle die Schwierigkeiten erkennen, vor denen sie bei der Edition stand, indem sie den Leser bittet, <quote source="#beck-ftn53">Mängel, <hi rend="spaced">nicht</hi> dem Verewigten, sondern <hi rend="spaced">nur</hi> der Unkunde Derjenigen beizumessen, welche diesen Nachlaß  sichtet und zu ihrer Entschuldigung wohl anführen darf, daß sie denselben aus fast unleserlichen, den Gegenstand oft nur andeutenden Handschriften beharrlich zu retten sucht.</quote><ref type="bibl" target="#Foerster1846" rend="ibid" xml:id="beck-ftn53" n="53">S.&#8239;228&#8239;f.</ref></p>
+           <p>Die Silvesterabende pflegte <name ref="#beck-pers096">Weber</name> ab 1817 regelmäßig in der Runde der Liederkreis-Mitglieder zu verbringen. Speziell für diese Abende wurden eigene, oft humorvolle Beiträge vorbereitet. Zum 31.&#8239;Dezember 1818 berichtete  <name ref="#beck-pers028">Förster</name>, dass er zwei Lieder, <q>Abschied an das alte Jahr und Gruß an das Neue</q> gedichtet habe, die er <q>beim Scheiden des Jahres im Kreise der Freunde mittheilte, der sich dieses Mal bei Minister <name ref="#beck-pers051">v. Nostitz</name> versammelte</q>. Er fährt fort:
+               <quote source="#beck-ftn55">Es war ein schöner genußreicher Abend, eine Freude wechselte mit der andern, eine Liebe bot der andern die Hand. Gar viel Schönes und Sinnreiches ward zu Tage gefördert; Sylvesterspenden getauscht, die bald durch deutungsvollen Ernst, bald durch heitern Scherz bezeichnet waren. Ich erhielt von <name ref="#beck-pers096">Weber</name> einen Schrifthalter, ein monströses Menschengebild, von Eisen.<note xml:id="beck-ftn54" n="54">Merkwürdigerweise findet sich bei <name ref="#beck-pers096">Weber</name>, der sehr genaue Aufzeichnungen über seine Besorgungen führte, keine Notiz über den Erwerb eines Geschenkes für <name ref="#beck-pers028">Förster</name>, wohl aber, dass ihm selbst zu Silvester 1822 <q>ein eisern  Schreibzeug</q> geschenkt wurde.</note> 
+                  In seiner originellen Weise legte <name ref="#beck-pers096">Weber</name> in dem witzigsten Reimspiel die Frage vor, ob das <soCalled>liebenswürdige Ungeheuer</soCalled> ein Dichter oder ein Componist sei. Bei der Abendtafel herrschten Lust und Frohsinn, auch die irdischen Gaben wurden in erlesenem Ueberfluß gespendet. Nach der Tafel traten wir in einen andern, noch verdunkelten Saal; ein hinreißendes Adagio, von <name ref="#beck-pers096">Weber</name> auf dem Piano gespielt, begann; es öffnete sich ein anderer Raum und ein herrlich von den Töchtern  des Hauses geordnetes und ausgeführtes Tableau überraschte und entzückte das Auge; es war trefflich erfunden und die allegorische Bedeutung klar aussprechend […].</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn55" n="55">S.&#8239;113&#8239;f.</ref></p>
+           <pb/>
+           <p>Für die Zusammenkünfte im Liederkreis sind von Förster auch zwei Gedichte zu <name ref="#beck-pers096">Webers</name> Geburtstagen  1823 und 1825 überliefert. Dazu notierte <name ref="#beck-pers096">Weber</name> am 19.&#8239;November 1823 im Tagebuch: <q><hi rend="underline">Lieder</hi>kreis bei <hi rend="underline">Försters</hi>. schöne Gedichte von <name ref="#beck-pers028">Förster</name>. Minister [<name ref="#beck-pers051">Nostitz</name>], und <name ref="#beck-pers059">Kuhn</name></q> (Abb.&#8239;<ref target="#beck-fig01" type="crossref" rend="no"/>).<!--<note xml:id="beck-ftn56" n="56" type="bibl">Das Autograph von <name ref="#beck-pers028">Försters</name> Gedicht in D-B, Weberiana Cl.&#8239;V [Mappe&#8239;I&#8239;A], Abt.&#8239;2, Nr.&#8239;6. [siehe Abb.&#8239;<ref target="#beck-fig01" type="crossref" rend="no"/>].</note>--> 
+              Das zweite Gedicht, das <name ref="#beck-pers028">Förster</name> am Vorabend von <name ref="#beck-pers096">Webers</name> Geburtstag am 18.&#8239;November 1825 verfasste, wurde im Dezember 1825 in der <hi rend="italic">Zeitung für die elegante Welt</hi> veröffentlicht.<note xml:id="beck-ftn57" n="57">Jg.&#8239;25, Nr.&#8239;240 (8.&#8239;Dezember 1825), Sp.&#8239;1913–1915.</note>
+            </p>
+           <figure xml:id="beck-fig01">
+              <graphic url="figures/beck-fig01.jpg" width="1644px" height="2878px"/>
+              <head type="legend"><name ref="#beck-pers028">Karl Försters</name> Gedicht zu <name ref="#beck-pers096">Webers</name> Geburtstag im Liederkreis am 19.&#8239;November 1823. <lb/><hi rend="italic">D-B</hi>, Weberiana Cl.&#8239;V [Mappe&#8239;I&#8239;A], Abt.&#8239;2, Nr.&#8239;6<!-- im Autograph--></head>
+           </figure>
+           <p>Die letzte Erwähnung eines Liederkreises durch <name ref="#beck-pers028">Förster</name> für die Jahre bis 1826, bei dem auch <name ref="#beck-pers096">Weber</name> zugegen  war, stammt vom 2.&#8239;Mai 1822. Der Abend fand bei <name ref="#beck-pers066">Malsburg</name> statt, der, wie <name ref="#beck-pers028">Förster</name> schrieb, <quote source="#beck-ftn59">einigen Freunden ein Schauspiel nach <name ref="#beck-pers018">Calderon</name>: <title ref="#beck-work005">der Schultheiß</title>, vorlas. M.&#x2019;s Uebersetzung möchte ich als durchaus gelungen bezeichnen.<note xml:id="beck-ftn58" n="58"><title ref="#beck-work005">Der Schultheiß von Zalamea</title> in der Übersetzung von <name ref="#beck-pers066">Malsburg</name> erschien im 5.&#8239;Band  der Schauspiele von <name ref="#beck-pers018">Pedro Calderon de la Barca</name>, Leipzig 1823.</note> Dem Stücke liegt eine Anekdote aus dem Leben <name ref="#beck-pers107">König Philipp&#8239;II.</name> zum Grunde und ist wegen des Gegensatzes zwischen Diplomenadel und Menschenadel, wie man ihn bei <name ref="#beck-pers018">Calderon</name> sonst selten findet, merkwürdig&#x00A0;[…].</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn59" n="59">S.&#8239;252&#8239;f.</ref>
+            </p>
+           <p>Auch wenn mit 1822 die  Eintragungen <name ref="#beck-pers028">Försters</name> zu Zusammenkünften des Liederkreises innerhalb des Zeitraums bis 1826 enden und es in <name ref="#beck-pers031">Luise Försters</name> Ausgabe in der Folge nur noch wenige Erwähnungen zu <name ref="#beck-pers096">Weber</name> gibt, ist aus <name ref="#beck-pers096">Webers</name> Tagebuch ersichtlich, dass seine Kontakte zu <name ref="#beck-pers028">Förster</name> weiterbestanden. Die von diesem  beschriebenen Zusammenkünfte wirken glaubhaft, auch wenn sich seine Methode des Notierens von Tagesereignissen von der <name ref="#beck-pers096">Webers</name> unterschied. Bei <name ref="#beck-pers096">Weber</name> kann man davon ausgehen, dass die Eintragungen zeitnah erfolgten. <name ref="#beck-pers028">Förster</name> führte sein Tagebuch hingegen wechselnd in längeren oder kürzeren Zeitabständen, wobei er vermutlich auf ältere Notizen zurückgriff und sie möglicherweise auch mit nachträglichen Erinnerungen kombinierte. So schreibt er im Juni&#x00A0;1825:
+              <quote source="#beck-ftn60">Vielfach abgelenkt, konnte ich in den letzten Monaten selbst die kleine Ruhe, die ich dem Tagebuch zuzuwenden pflege, nicht gewinnen, doch heute […] sei es wieder begonnen.</quote><ref target="#Foerster1846" type="bibl" xml:id="beck-ftn60" n="60" rend="ibid">S.&#8239;313&#8239;f.</ref>
+            </p>
+            <p>Auch später, 1836, notiert er:
+               <quote source="#beck-ftn61">Manichfache Hindernisse ließen mich das Tagebuch versäumen und auch nur durch flüchtige Aufzeichnung der Namen werthgewordene Bekanntschaften oder wiederkehrende Besuchende der Erinnerung festhalten.</quote><ref type="bibl" target="#Foerster1846" xml:id="beck-ftn61" n="61" rend="ibid">S.&#8239;475</ref>  
+               Es folgt die Aufzählung bzw. Charakterisierung einzelner Personen – eine Schilderung mit Abstand, aber <name ref="#beck-pers028">Försters</name> Sicht gemäß.</p>
+            <p><name ref="#beck-pers031">Luise Försters</name> Methode der Auswahl und Datierung lässt sich ohne Einsicht in die Vorlage nur schwer einschätzen, auch wenn man die oben geschilderten Schwierigkeiten, vor denen sie bei der Edition stand, nachvollziehen kann. Der Vergleich mit <name ref="#beck-pers096">Webers</name> Tagebuch-Eintragungen zeigt, dass Fehler bei der Datierung in dieser Ausgabe partiell möglich sind. Während also die in der Ausgabe wiedergegebenen Wertungen und Beschreibungen <name ref="#beck-pers028">Försters</name> inhaltlich kaum in Zweifel zu ziehen sind, ist ihre chronologische Einordnung kritisch zu hinterfragen. Gewissheit kann immer nur der Vergleich mit weiteren Primärquellen (wie hier den Tagebuchnotizen <name ref="#beck-pers096">Webers</name>) schaffen.</p>
+            
+        </body>
+        <back>
+            <div type="appendix">
+               <head>Anhang<lb/>Webers Tagebuchnotizen zu den Zusammenkünften des Dresdner Liederkreises</head>
+               <table xml:id="beck-table01">
+                   <!--<head>Webers Tagebuchnotizen zu den Zusammenkünften des Dresdner Liederkreises</head>-->
+                  <row role="label">
+                     <cell>Datum</cell>
+                     <cell>Gastgeber</cell>
+                     <cell>Bemerkungen Webers im Tagebuch</cell>
+                  </row>
+                  <row role="midlabel">
+                     <cell>1817</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>22.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell><q>viel vorgelesen. bis 11&#8239;Uhr</q></cell>
+                  </row>
+                  <row>
+                     <cell>5.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell><q>bis 11&#8239;Uhr.</q></cell>
+                  </row>
+                  <row>
+                     <cell>19.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers039">Geißler</name></cell>
+                     <cell><q>gespielt <hi rend="italic">Var. F dur</hi>. gesungen.</q></cell>
+                  </row>
+                  <row>
+                     <cell>7.&#8239;März</cell>
+                     <cell/>
+                     <cell><q>ich spielte. Ein Gedicht auf mich von <name>Mlle: Arnold</name> wurde vorgelesen. ich gab <name ref="#beck-pers059">Frid. Kuhn</name> eine Idee zum <hi rend="underline">Thee</hi>  Gedicht.</q></cell>
+                  </row>
+                  <row>
+                     <cell>21.&#8239;März</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>mit <name ref="#beck-pers112">[Johann Gottfried] <hi rend="italic">W.</hi>[<hi rend="italic">ohlbrück</hi>]</name>  Dichter Thee […]  er las des Dichters Sommernacht von <name ref="#beck-pers054">Kind</name><note>Gedruckt in: <hi rend="italic">Die Harfe</hi>, Bd.&#8239;1, Brünn 1816, S.&#8239;53–72</note> und ich Phantasirte frey dazu. dann spielte ich noch.</q></cell>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell>[Vgl. Brief an <name ref="#beck-pers009">Caroline Brandt</name> vom 11.&#8239;Mai 1817:] <q>wo meine Jägerbraut<note>Libretto zum <title ref="#beck-work022"><hi rend="italic">Freischütz</hi></title>  in der Urfassung</note> vorgelesen wurde.</q></cell>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell>[Vgl. Brief an <name ref="#beck-pers009">Caroline Brandt</name> vom 25.&#8239;Mai 1817:] <q>Gelehrten Thee […], wo vieles recht intereßante vorkam. besonders ein Bericht des Hofr: <name ref="#beck-pers016">Böttiger</name> über das Merkwürdigste Litterarische was in dieser Meße in Leipzig erschienen.</q></cell>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers039">Geißler</name></cell>
+                     <cell><q>spielen müßen. <name ref="#beck-pers113">[Carl Friedrich] Solbrig</name> dekl: <name ref="#beck-pers114">[Carl] Keller</name> sang.</q></cell>
+                  </row>
+                  <row>
+                     <cell>25.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>4.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>Phantasirt über, o komm zurükke.</q></cell>
+                  </row>
+                  <row>
+                     <cell>11.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>8.&#8239;August</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>22.&#8239;August</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>5.&#8239;September</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell><q><name ref="#beck-pers054">[Kind]</name>  las sein neues Stük. <name ref="#beck-pers115">[Sophie] Schröder</name> deklamirte.</q></cell>
+                  </row>
+                  <row>
+                     <cell>19.&#8239;September</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell><q>mit <name ref="#beck-pers059">Kuhn</name> und <name ref="#beck-pers010">Breuer</name></q></cell>
+                  </row>
+                  <row>
+                     <cell>3.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers039">Geißler</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell/>
+                     <cell><q>sehr froh. herzlich aufgenommen. Ernst, liebevoll und feyerlich das Jahr beschloßen.</q></cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1818</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q><hi rend="doubleunderline">zum 1<hi rend="sup">t</hi> male der Dichter Kreis bei Uns</hi>. recht angenehm.</q></cell>
+                  </row>
+                  <row>
+                     <cell>25.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell><q>Weberliedchen</q><note>Abgedruckt in: Kind, <hi rend="italic">Der Freischütz. Volks-Oper in drei Aufzügen. Ausgabe letzter Hand</hi>, Leipzig 1843, S.&#8239;180–182</note></cell>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>20.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>8.&#8239;März</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>10.&#8239;April</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell><q>ich las meinen Schlambeizker<note>Humoreske <hi rend="italic">Der Schlammbeizger</hi>, laut Tagebuch entstanden zwischen 12.&#8239;April und 1.&#8239;Mai 1818</note>  vor mit allgemeinem Beifall.</q></cell>
+                  </row>
+                  <row>
+                     <cell>15.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell><q>mit <name ref="#beck-pers117">Rochliz</name></q> [Friedrich Rochlitz]</cell>
+                  </row>
+                  <row>
+                     <cell>29.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>12.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>die Opern vorgelesen.</q><note>Gemeint: die Parodien auf die italienische, französische und deutsche Oper aus <hi rend="italic">Tonkünstlers Leben</hi>, an denen Weber laut Tagebuch zuletzt am 12.&#8239;Juni 1818 gearbeitet hatte</note></cell>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>11.&#8239;September</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <pb/>
+                  <row>
+                     <cell>25.&#8239;September</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell><q><name ref="#beck-pers103">Winkler</name> las ein Gedicht auf meine Kantate.</q><note>Abgedruckt in: <hi rend="italic">Abend-Zeitung</hi>  Nr.&#8239;231 (28.&#8239;Sept. 1818), <q>An Carl Maria von Weber, nach der Anhörung seiner Cantate auf das Regierungs-Jubelfest des Königs von Sachsen</q> (WeV&#x00A0;B.15), dort ungezeichnet.</note></cell>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;November</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>27.&#8239;November</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>des alten Jahres Ende erwartet.</q></cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1819</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers039">Geißler</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>20.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell><q>15 Ex: des <hi rend="italic">Silvester</hi>  Abends im Liederkreise.</q></cell>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;März</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>20.&#8239;März</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell><q>ich las ein Bruchstük aus dem Kstlerl:</q><note>Gemeint: <hi rend="italic">Tonkünstlers Leben</hi></note></cell>
+                  </row>
+                  <row>
+                     <cell>3.&#8239;September</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;September</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell><q>meine Frau mit da.</q></cell>
+                  </row>
+                  <row>
+                     <cell>15.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>29.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>12.&#8239;November </cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>26.&#8239;November</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell>
+                        <p><q>wo <hi rend="underline"><name ref="#beck-pers010">Breuer</name></hi>  und <hi rend="underline"><name ref="#beck-pers103">Winkler</name></hi>  das Fest gaben. ein herrlicher Abend bis 1&#8239;Uhr da, und so das Jahr das viele Leiden gebracht hatte, froh beschloßen.</q></p>
+                        <p>[Am Vortag:] <q>Anrede <hi rend="underline">des Simson an Delila</hi>  für den Liederkreiß gemacht</q></p>
+                     </cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <!--<pb/>-->
+                  <row role="midlabel">
+                     <cell>1820</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>15.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>an Fremden waren da <name ref="#beck-pers066">Malsburg</name>. <name ref="#beck-pers118">[Georg Graf von] Blankensee</name>, <name ref="#beck-pers119">[Christoph  August] Tiedge</name>. <name ref="#beck-pers052">Kalkreuth</name>. und ein Engländer. sehr angenehm.</q></cell>
+                  </row>
+                  <row>
+                     <cell>25.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>10.&#8239;März</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>28.&#8239;März</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>7.&#8239;April</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell><q>die Truhe gelesen.</q><note><name ref="#beck-pers054">Kinds</name> <q>dramatische Kleinigkeit</q> wurde in Dresden am 22.&#8239;Mai 1821 erstaufgeführt</note></cell>
+                  </row>
+                  <row>
+                     <cell>28.&#8239;April</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers052">Kalkreuth</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>sehr angenehm. aber wenig Theilnehmer. es fehlten <name ref="#beck-pers044">Haßes</name>, <name ref="#beck-pers016">Böttgers</name>. <name ref="#beck-pers066">Malsburg</name>. <name ref="#beck-pers102">Frl: v: Winkel</name>. <name ref="#beck-pers046">H: Herrmann</name>.</q></cell>
+                  </row>
+                  <row>
+                     <cell>7.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;November</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>19.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>ich spielte mit <name ref="#beck-pers005">Bärmann</name> unsere <title ref="#beck-work002"><hi rend="italic">Variat:</hi></title>  und <title><hi rend="italic">F moll</hi></title>  von ihm.</q></cell>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers039">Geißler</name></cell>
+                     <cell><q>das alte Jahr schön beschloßen und das neue fröhlich angefangen. Gott gebe seinen Seegen. bey <name ref="#beck-pers039">Geißler</name> im blauen Stern war es.</q></cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1821</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Februar </cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>16.&#8239;März</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;April</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>ich brachte <hi rend="italic"><name ref="#beck-pers050">Clotilde</name></hi>  ihr Lied.<note><title ref="#beck-work023"><q>Wenn Kindlein süßen Schlummers Ruh</q></title> (JV&#x00A0;281), Text von <name ref="#beck-pers050">Clotilde von Nostitz und Jänkendorf</name></note> <name ref="#beck-pers009">Lina</name> [Caroline von Weber] sang es.</q></cell>
+                  </row>
+                  <row>
+                     <cell>27.&#8239;April</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell><q><name ref="#beck-pers120">[Johannes Ferdinand]  Koreff</name> da.</q></cell>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;September</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>5.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>von Fremden waren da. <name ref="#beck-pers121"><hi rend="italic">Fanny</hi> <hi rend="underline italic">Tarnow</hi></name>. Hofrath <name ref="#beck-pers122">[Friedrich Wilhelm] <hi rend="underline">Trautvetter</hi></name>  aus Petersburg. Mad. <name><hi rend="underline">Zimmermann</hi></name>  aus Berlin <name><hi rend="underline">Frau</hi>  und <hi rend="underline">Fräulein von Biedersee</hi></name>. <name ref="#beck-pers044">Haßens</name> fehlten.</q></cell>
+                  </row>
+                  <row>
+                     <cell>19.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;November</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>16.&#8239;November</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>14.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>Sehr fröhlich das neue Jahr begonnen.</q></cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1822</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>11.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>8.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>12.&#8239;April</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q><name ref="#beck-pers123">Eberhards [August Gottlob Eberhard und Ehefrau]</name>  aus Halle, <name ref="#beck-pers125 #beck-pers126">Wolfs [Pius Alexander und Amalie Wolff]</name>  und <name ref="#beck-pers124">[Amadeus]  Wendt</name> waren da.</q></cell>
+                  </row>
+                  <row>
+                     <cell>26.&#8239;April</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>10.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>28.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>der Liederkreis kam an [in Hosterwitz]. mit ihnen auf die Keppmühle. nach Tische in die Sandschenke.</q></cell>
+                  </row>
+                  <row>
+                     <cell>27.&#8239;September</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>18.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>1.&#8239;November</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;November</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell><q>Nostiz zum 1<hi rend="sup">t</hi>  male [nach seiner Italienreise] wieder da.</q></cell>
+                  </row>
+                  <row>
+                     <cell>18.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>ich phantasirte nach einem Gedicht des Ministers <name ref="#beck-pers051">Nostiz</name>.</q></cell>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell>
+                        <p><q>höchst fröhlich wie immer. ich schenkte meiner Dame der <name ref="#beck-pers053">Frau M:[inister Henriette von]  Nostiz</name>. eine Bürste mit Perlemutter […]  und erhielt ein eisern Schreibzeug. <name ref="#beck-pers009">Lina</name> gab <name ref="#beck-pers010">Breuer</name> einen Stok</q></p>
+                        <p>[Am Vortag:] <q>Aufsaz zum Sylvester Liederkreiß  geschrieben</q></p>
+                     </cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1823</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>10.&#8239;Januar </cell>
+                     <cell><name ref="#beck-pers051">Nostiz</name></cell>
+                     <cell><q>gespielt.</q></cell>
+                  </row>
+                  <row>
+                     <cell>16.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers100">Weigel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>28.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;März</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>4.&#8239;April</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell><q><name ref="#beck-pers116">[Wilhelmine]  Schröder</name> sang recht brav.</q></cell>
+                  </row>
+                  <row>
+                     <cell>18.&#8239;April</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>11.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>8.&#8239;August</cell>
+                     <cell><name ref="#beck-pers100">Weigel</name></cell>
+                     <cell><q>nach Tolkewitz</q></cell>
+                  </row>
+                  <row>
+                     <cell>19.&#8239;November</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell><q>schöne Gedichte von <name ref="#beck-pers028">Förster</name>. <name ref="#beck-pers051">Minister [Nostitz]</name>, und <name ref="#beck-pers059">Kuhn</name>.</q></cell>
+                  </row>
+                  <row>
+                     <cell>5.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <pb/>
+                  <row role="midlabel">
+                     <cell>1824</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>16.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>gespielt.</q></cell>
+                  </row>
+                  <row>
+                     <cell>30.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers077">Quandt</name></cell>
+                     <cell><q>1<hi rend="sup">ter</hi>  Liederkreiß bei <name ref="#beck-pers077">Quands</name></q></cell>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>27.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers094">Vogel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>12.&#8239;März</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>26.&#8239;März</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;April</cell>
+                     <cell><name ref="#beck-pers100">Weigel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>30.&#8239;April</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>28.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers103">Winkler</name></cell>
+                     <cell><q>Vorstellung seiner [Winklers] Braut <name ref="#beck-pers127">[Eugenie Schaff]</name>.</q></cell>
+                  </row>
+                  <row>
+                     <cell>1.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>15.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>5.&#8239;November</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>3.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers052">Kalkreuth</name></cell>
+                     <cell>
+                        <p><q><hi rend="italic">Silvester</hi> Piquenik. 3 Bouth: Wein hingeschikt. Eine <hi rend="italic">Bonbonniere</hi></q></p>
+                        <p>[Am Vortag:] <q><title><hi rend="underline italic">Hans Sachs</hi></title>  für den <hi rend="italic">Silvester</hi> Abend geschrieben.</q></p>
+                     </cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1825</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>14.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>26.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers100">Weigel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;Februar</cell>
+                     <cell><name ref="#beck-pers103">Winkler</name></cell>
+                     <cell><q><hi rend="underline"><name ref="#beck-pers103">Winklers</name></hi> Geburtstag bei ihm im Liederkreiß gefeyert.</q></cell>
+                  </row>
+                  <row>
+                     <cell>18.&#8239;März</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>8.&#8239;April</cell>
+                     <cell><name ref="#beck-pers094">Vogel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>22.&#8239;April</cell>
+                     <cell><name ref="#beck-pers059">Kuhn</name></cell>
+                     <cell><q><hi rend="underline"><name ref="#beck-pers108">Gerstenberg</name></hi>.</q> [Georg Friedrich von Gerstenbergk]</cell>
+                  </row>
+                  <row>
+                     <cell>6.&#8239;Mai</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>3.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>17.&#8239;Juni</cell>
+                     <cell><name ref="#beck-pers054">Kind</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>1.&#8239;Juli</cell>
+                     <cell><name ref="#beck-pers077">Quandt</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>9.&#8239;September</cell>
+                     <cell><name ref="#beck-pers102">Winkel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>23.&#8239;September</cell>
+                     <cell><name ref="#beck-pers044">Hasse</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>7.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers096">Weber</name></cell>
+                     <cell><q>Stobwaßers [<name ref="#beck-pers109">Johann Heinrich</name> und vermutlich sein Sohn <name ref="#beck-pers110">Christian Heinrich Stobwasser</name>] da. gespielt.</q></cell>
+                  </row>
+                  <row>
+                     <cell>21.&#8239;Oktober</cell>
+                     <cell><name ref="#beck-pers100">Weigel</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>4.&#8239;November</cell>
+                     <cell><name ref="#beck-pers016">Böttiger</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>18.&#8239;November</cell>
+                     <cell><name ref="#beck-pers046">Herrmann</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>2.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers028">Förster</name></cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>31.&#8239;Dezember</cell>
+                     <cell><name ref="#beck-pers051">Nostitz</name></cell>
+                     <cell><q>Schöne Gruppe von <name ref="#beck-pers103">Winkler</name> zu meiner Ehre gedichtet. Fröhlich das alte Jahr geschloßen.</q><note>Zur erwähnten Huldigungsdichtung vgl. <name ref="#beck-pers096">Webers</name> Brief an <name ref="#beck-pers111">Hinrich Lichtenstein</name> vom 5.&#8239;Januar 1826; ein Manuskript des  Festspiels  <title><q>Der neue Orpheus</q></title> von <name ref="#beck-pers103">Karl Theodor Winkler</name> mit einem dazugehörigen Gedicht von <name ref="#beck-pers054">Friedrich Kind</name> im Autograph in  <hi rend="italic">D-B</hi>, Weberiana Cl.&#8239;V [Mappe&#x00A0;IA], Abt.&#8239;2, Nr.&#8239;7 und 8</note></cell>
+                  </row>
+                  <!--<row>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>-->
+                  <row role="midlabel">
+                     <cell>1826</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>13.&#8239;Januar</cell>
+                     <cell><name ref="#beck-pers103">Winkler</name></cell>
+                     <cell/>
+                  </row>
+               </table>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="Bartlitz2012">Eveline Bartlitz, <title level="a">Die Anfänge der Dresdner  <q>Abend-Zeitung</q> und des Liederkreises im Spiegel der Briefe von Friedrich August Schulze an August Apel</title>, in: <title level="j">Weberiana</title> 22 (2012), S.&#8239;45–60</bibl>
+                   <bibl xml:id="Krueger1904">Hermann Anders Krüger, <title level="a">Pseudoromantik. Friedrich Kind und der Dresdener Liederkreis. Ein Beitrag zur Geschichte der Romantik</title>, Leipzig 1904<bibl type="short">Krüger, <title level="a">Pseudoromantik</title></bibl></bibl>
+                    <bibl xml:id="Hempel2008">Dirk Hempel, <title level="a">Literarische Vereine in Dresden. Kulturelle Praxis und politische Orientierung des Bürgertums im 19.&#8239;Jahrhundert</title>, Tübingen 2008 (Studien und Texte zur Sozialgeschichte der Literatur 116), S.&#8239;58–64</bibl>
+                    <bibl xml:id="ADB7-189"><title level="m">Allgemeine deutsche Biographie</title>, Bd.&#8239;7, Leipzig 1878, S.&#8239;189&#8239;f.</bibl>
+                   <bibl xml:id="Foerster1846"><title level="a">Biographische und literarische Skizzen aus dem Leben und der Zeit Karl Förster’s</title>, hg. von L.[uise] Förster, Dresden 1846<bibl type="short">Förster, <title level="a">Skizzen</title></bibl></bibl>
+                   <bibl xml:id="beck-Veit1998">Joachim Veit, <title level="a">Gehört die Genesis des <q>Euryanthe</q>-Textbuches zum <q>Werk</q>?</title>, in: <title level="m">Der Text im musikalischen Werk. Editionsprobleme aus musikwissenschaftlicher und literaturwissenschaftlicher Sicht</title>, hg. von Walther Dürr, Helga Lühning, Norbert Oellers und Hartmut Steinecke (Beihefte zur Zeitschrift für deutsche Philologie 8), Bielefeld 1998, S.&#8239;184–211</bibl>
+                   <bibl xml:id="Foerster1843"><title level="a">Gedichte von Karl Förster</title>, hg. von Ludwig Tieck, Leipzig 1843</bibl>
+                   <bibl xml:id="Ziegler2007">Frank Ziegler, <title level="a">Leyer, Schwert und <hi rend="italic">Freischütz</hi>-Ouvertüre – Bemerkungen zu Carl Maria von Webers Halle-Besuch 1820</title>, in: <title level="m">Weber-Studien</title> 8, Mainz 2007, S.&#8239;283–300</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

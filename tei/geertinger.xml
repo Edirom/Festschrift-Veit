@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Werkbegriffe in Gesamtausgabe und Werkverzeichnis, oder: Wann ist ein Werk keins?</title>
+            <title type="sub">Definitorische Probleme dargestellt am Beispiel Carl Nielsens</title>
+            <author>
+               <name><forename>Axel Teich</forename> <surname>Geertinger</surname></name>
+               <email/>
+               <affiliation>studierte an der Dänischen Technischen Universität bei Kopenhagen sowie Musikwissenschaft an der Kopenhagener Universität. Seinen PhD erlangte er 2009 gleicherorts mit einer Dissertation über die italienische Opernsinfonie. Forschungsschwerpunkte sind seitdem vor allem Musikedition, dänische Musik des 19. Jahrhunderts und die digitale Verarbeitung von musikwissenschaftlichen Daten und Metadaten. Axel Teich Geertinger ist derzeit Leiter des <hi rend="italic">Dänischen Zentrums für Musikedition (Dansk Center for Musikudgivelse)</hi> an der Königlichen Bibliothek Kopenhagen.</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="geertinger-pers002">
+                  <p>Bach, Johann Sebastian</p>
+                  <p n="work" xml:id="geertinger-work035"><hi rend="italic">Präludium und Fuge</hi> Es-Dur, BWV 552</p>
+               </person>
+               <person xml:id="geertinger-pers003">
+                  <p>Bangert, Emilius</p>
+               </person>
+               <person xml:id="geertinger-pers004">
+                  <p>Berggreen, Andreas Peter</p>
+               </person>
+               <person xml:id="geertinger-pers005">
+                  <p>Bjørnum, Birgit</p>
+               </person>
+               <person xml:id="geertinger-pers006">
+                  <p>Fog, Dan</p>
+               </person>
+               <person xml:id="geertinger-pers007">
+                  <p>Hansen, Wilhelm</p>
+               </person>
+               <person xml:id="geertinger-pers008">
+                  <p>Hellmuth, Paul</p>
+               </person>
+               <person xml:id="geertinger-pers009">
+                  <p>Holstein, Ludvig</p>
+               </person>
+               <person xml:id="geertinger-pers010">
+                  <p>Jacobsen, J.&#8239;P.</p>
+               </person>
+               <person xml:id="geertinger-pers011">
+                  <p>Jonson, Ben</p>
+                  <p n="work" xml:id="geertinger-work055"><hi rend="italic">The Silent Woman</hi></p>
+               </person>
+               <person xml:id="geertinger-pers012">
+                  <p>Mozart, Wolfgang Amadeus</p>
+               </person>
+               <person xml:id="geertinger-pers013">
+                  <p>Møllerhøj, Klaus</p>
+               </person>
+               <person xml:id="geertinger-pers015">
+                  <p>Nielsen, Carl</p>
+                  <p n="work" xml:id="geertinger-work001"><hi rend="italic">Musik til Adam Oehlenschlägers skuespil <q>Aladdin eller Den forunderlige Lampe</q></hi> op.&#8239;34, CNW&#x00A0;17</p>
+                  <p n="work" xml:id="geertinger-work002"><hi rend="italic">Kvintet for fløjte, obo, klarinet, horn og fagot</hi> op.&#8239;43, CNW&#8239;70</p>
+                  <p n="work" xml:id="geertinger-work003"><hi rend="italic">Danevang med grønne Bred</hi>, CNW&#8239;318</p>
+                  <p n="work" xml:id="geertinger-work012"><hi rend="italic">Er din Stue lav og trang</hi>, CNW&#8239;384</p>
+                  <p n="work" xml:id="geertinger-work014"><hi rend="italic">Fordum var her Fred paa Gaden</hi></p>
+                  <p n="work" xml:id="geertinger-work015"><hi rend="italic">Forunderligt at sige</hi>, CNW&#8239;165</p>
+                  <p n="work" xml:id="geertinger-work017"><hi rend="italic">Her vil ties, her vil bies</hi></p>
+                  <p n="work" xml:id="geertinger-work018"><hi rend="italic">Hjemvee</hi>, CNW&#8239;205, 296</p>
+                  <p n="work" xml:id="geertinger-work020"><hi rend="italic">Jeg ved en Lærkerede</hi>, CNW&#8239;262</p>
+                  <p n="work" xml:id="geertinger-work021"><hi rend="italic">Julesang</hi>, CNW&#8239;313</p>
+                  <p n="work" xml:id="geertinger-work022"><hi rend="italic">Kantate ved Aarhus Landsudstillings Aabnings-Højtidelighed 1909</hi>, CNW&#8239;107</p>
+                  <p n="work" xml:id="geertinger-work026"><hi rend="italic">Maskarade</hi>, CNW&#8239;2</p>
+                  <p n="work" xml:id="geertinger-work030"><hi rend="italic">Min Jesus, lad mit Hjerte faa</hi>, CNW&#8239;184</p>
+                  <p n="work" xml:id="geertinger-work031"><hi rend="italic">Min Pige er saa lys som Rav</hi>, CNW&#8239;231</p>
+                  <p n="work" xml:id="geertinger-work033"><hi rend="italic">Musik til Helge Rodes skuespil <q>Moderen</q></hi> op.&#8239;41, CNW&#8239;18</p>
+                  <p n="work" xml:id="geertinger-work036"><hi rend="italic">Roselil og hendes Moder</hi></p>
+                  <p n="work" xml:id="geertinger-work037"><hi rend="italic">Saga-drøm</hi> op.&#8239;39, CNW&#8239;35</p>
+                  <p n="work" xml:id="geertinger-work039"><hi rend="italic">Salmer og aandelige Sange</hi>, CNW Coll.&#8239;10</p>
+                  <p n="work" xml:id="geertinger-work040"><hi rend="italic">Sang bag Ploven</hi>, CNW&#8239;129</p>
+                  <p n="work" xml:id="geertinger-work041"><hi rend="italic">Sangen til Danmark</hi>, CNW&#8239;237</p>
+                  <p n="work" xml:id="geertinger-work042"><hi rend="italic">Saul og David</hi>, CNW&#8239;1</p>
+                  <p n="work" xml:id="geertinger-work045"><hi rend="italic">Solen er saa rød, Mor</hi>, CNW&#8239;263</p>
+                  <p n="work" xml:id="geertinger-work046"><hi rend="italic">Solnedgang</hi>, CNW&#8239;116</p>
+                  <p n="work" xml:id="geertinger-work050"><hi rend="italic">Strofiske Sange</hi>, op.&#8239;21, CNW Coll.&#8239;5</p>
+                  <p n="work" xml:id="geertinger-work051"><hi rend="italic">Symfoni</hi> nr.&#8239;3 op.&#8239;27, CNW&#8239;27</p>
+                  <p n="work" xml:id="geertinger-work052"><hi rend="italic">Søndret Folk er vokset sammen</hi>, CNW&#8239;383</p>
+                  <p n="work" xml:id="geertinger-work053"><hi rend="italic">Søvnen</hi> op.&#8239;18, CNW&#8239;101</p>
+                  <p n="work" xml:id="geertinger-work054"><hi rend="italic">Taagen letter</hi></p>
+                  <p n="work" xml:id="geertinger-work056"><hi rend="italic">Til Asali</hi>, CNW&#8239;118</p>
+                  <p n="work" xml:id="geertinger-work057"><hi rend="italic">Tyst som Aa i Engen rinder</hi>, CNW&#8239;264</p>
+                  <p n="work" xml:id="geertinger-work058"><hi rend="italic">Viser og Vers af J.&#8239;P. Jacobsen</hi>, op.&#8239;6, CNW Coll.&#8239;2</p>
+               </person>
+               <person xml:id="geertinger-pers017">
+                  <p>Rode, Helge</p>
+               </person>
+               <person xml:id="geertinger-pers018">
+                  <p>Schousboe, Torben</p>
+               </person>
+               <person xml:id="geertinger-pers019">
+                  <p>Seidel, Wilhelm</p>
+               </person>
+               <person xml:id="geertinger-pers021">
+                  <p>Wiora, Walter</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-fig01">
+               width=0.75\textwidth
+            </rendition>
+            <rendition xml:id="latex-fig03">
+               width=0.7\textwidth
+            </rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-05T15:00:00" who="KR">Axels Korrekturen eingearbeitet.</change>
+         <change when="2015-10-21T10:55:00" who="KR">Korrekturen eingefügt</change>
+         <change when="2015-10-19T17:29:00" who="KR">Titel angepasst</change>
+         <change when="2015-09-20T20:19:57.992+02:00"
+            who="https://github.com/peterstadler">Tabelle eingerichtet und andere Kleinigkeiten.</change>
+         <change when="2015-09-01T12:27:57.992+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="geertinger-abstract"><p>Das Werkverzeichnis ist eine selbstverständliche Hilfe vor allem bei der Beschäftigung mit älterer Kompositionsmusik. Kaum allerdings wird im Werkverzeichnis jemals ausdrücklich angesprochen, nach welchen Kriterien entschieden wurde, welche Kompositionen eine Werknummer erhielten und welche nicht. Dass die Entscheidung keinswegs immer auf der Hand liegt, wird exemplarisch anhand der Kompositionen Carl Nielsens (1865&#x2013;1931) dargestellt. Der Beitrag basiert auf den Erfahrungen mit dem 2014 veröffentlichten digitalen Nielsen-Verzeichnis (CNW). Schließlich wird auf einige grundsätzlich problematische Aspekte des komponistenbezogenen Werkverzeichnisses überhaupt hingewiesen.</p></div>
+      </front>
+      <body>
+         <div xml:id="geertinger-01">
+            <head/>
+            <p>Das thematisch-bibliographische Werkverzeichnis stellt ein zentrales Nachschlagewerk bei der Beschäftigung mit vor allem älterer Kompositionsmusik dar. <q>Thematisch</q> darf sich das Verzeichnis nennen, wenn es die Identifikation der verzeichneten Werke mittels des Incipits, d.&#8239;h. der Wiedergabe der Anfangstakte des jeweiligen Werkes ermöglicht. <q>Bibliographisch</q> ist das Verzeichnis, falls es ferner die Quellen bibliographisch erfasst, d.&#8239;h. die überlieferten Handschriften und Drucke identifiziert. </p>
+            <p>Die Bezeichnung <q>Werkverzeichnis</q> bezieht sich zwar nicht definitionsgemäß, wohl aber traditionell fast ausschließlich auf das Verzeichnis der Werke eines einzelnen Komponisten. Verzeichnisse anderer Korpora wie etwa örtlich definierte Sammlungen dagegen werden üblicherweise nicht als Werkverzeichnisse bezeichnet sondern als Kataloge. Es verbindet sich somit mit dem Werkverzeichnis auch die Vorstellung des künstlerischen <hi rend="italic">Gesamt</hi>werkes einer Einzelperson, wenn auch der Begriff selbst eigentlich nur das Verzeichnis von Einzelwerken allgemein bezeichnet.</p>
+            <p>Die Gattung des Werkverzeichnisses hat mittlerweile eine jahrhundertlange Tradition hinter sich und hat sich als stehender Begriff in der Musikwissenschaft und Musikliteratur eingebürgert. Gerade wegen dieser Selbstverständlichkeit wird vielleicht erstaunlich selten &#x2013; falls überhaupt jemals &#x2013; in einem Werkverzeichnis erläutert, welche Werkdefinition dem Verzeichnis eigentlich zugrunde gelegt wurde. Dies ist umso erstaunlicher, wenn man den historischen Wandel der Werkauffassung über die Jahrhunderte, etwa seit dem Barock oder gar noch früherer Zeiten, bedenkt. Zwar erläutern Werkverzeichnisse oftmals die nähere Abgrenzung des zu verzeichnenden Œuvres; sie beschränken sich dabei meist auf die Feststellung, dass bestimmtes Material verzeichnet ist &#x2013; z.&#8239;B. alle vollendeten Kompositionen &#x2013; oder dass umgekehrt dieses oder jenes Material ausgegrenzt wurde, z.&#8239;B. Bearbeitungen von Werken anderer Komponisten. Es handelt sich dabei also eher um die Erklärung einer praktikablen Begrenzung des Materials. Diese Frage soll uns hier nicht weiter beschäftigen, denn sie ist üblicherweise eine ebenso legitime wie notwendige Abgrenzung, die auf Grundlage der spezifischen Quellensituation, der historischen Umstände, der zur Verfügung stehenden Mittel etc. die als optimal angesehene Lösung anstrebt. Das hier zu besprechende Problem ist vielmehr die bereits erwähnte Frage nach dem zugrunde liegenden, wenn stets auch nur impliziten Werkbegriff innerhalb des verzeichneten Materials, d.&#8239;h. die Suche nach den Grenzen des einzelnen Werkes. Was gehört noch zum Werk? Wann etwa stellt eine Revision oder eine Kürzung nicht mehr eine Variante oder eventuell Neufassung des Werkes dar, sondern ein eigenständiges Werk? Fassungsprobleme wurden vor allem in editorischem Kontext öfters eingehend diskutiert,<note xml:id="geertinger-ftn1" n="1">Vgl. z.&#8239;B. <ref target="#ReinmarEmans2007" type="bibl"/>.</note> gehören aber eher zur Peripherie des vorliegenden Themas, da sie sich hauptsächlich innerhalb der Grenzen des als Werk empfundenen bewegen. </p>
+            <p>Es soll hier nicht etwa versucht werden, eine allgemeine Definition aufzustellen, was angesichts der historischen, geografischen, gattungsspezifischen und anderen Unterschieden ebenso töricht wie unsinnig wäre. Es sollen lediglich Überlegungen zur Sprache gebracht werden, die dem Leser eines Werkverzeichnisses normalerweise verschlossen bleiben, die aber wegen der Autorität, die einem Werkverzeichnis zuteil wird, zumindest potentiell eine Bedeutung für die weitere Rezeption und Bewertung der betroffenen Kompositionen haben mag.</p>
+            <p>Dass die Frage nach einer Werkdefinition im Rahmen des Verzeichnisses kaum jemals angesprochen wird, mag mehrere Gründe haben. Die einfachste Erklärung wäre freilich, dass die Entscheidung &#x2013; Werk oder nicht Werk &#x2013; in der Praxis keine Fragen aufwirft und eine weitere Erörterung sich somit erübrigt. Angesichts der Diskussionen konzeptueller Fragen bei der Erstellung des unten zu besprechenden <name ref="#geertinger-pers015">Nielsen</name>-Verzeichnisses und nicht zuletzt wegen der widersprüchlichen Antworten, die vorhandene Vorarbeiten gaben, dürfte dies jedoch kaum der Fall sein. Vielmehr scheint das offensichtlich fehlende Interesse an der Mitteilung einer Werkdefinition damit zusammenzuhängen, dass das Werkverzeichnis sowieso eine idealisierte Abstraktion der Realitäten darstellt, die gerade in dem Kontext sowohl praktisch als sogar auch erwünscht ist, und deren Folgen für den Umgang mit der jeweiligen Komposition in der Praxis womöglich als unbedeutend eingestuft werden.</p>
+            <p>Eine weitere, naheliegende Erklärung mag sein, dass die Frage oftmals &#x2013; vor allem bei den bekannteren Komponisten &#x2013; schon längst von der Tradition beantwortet wurde und dass der Herausgeber des Verzeichnisses die Einteilung in Werke und nicht-Werke nicht zwingend neu beurteilen muss oder möchte. Manche Werkverzeichnisse beruhen auf Katalogen, die &#x2013; wie z.&#8239;B. bei <name ref="#geertinger-pers012">W.&#8239;A. Mozart</name> &#x2013; einst vom Komponisten selbst oder Personen aus seinem Umfeld erstellt wurden und freilich noch keineswegs den Anspruch eines modernen Werkverzeichnisses erhoben, sondern z.&#8239;B. als Bestandsaufnahmen eines Nachlasses funktionierten. Oftmals wurde dadurch allerdings bereits eine Werkauffassung tradiert, die auch spätere Verzeichnisse grundsätzlich nicht mehr geändert haben. In dem Fall mag es allerdings auch als unangemessen anmuten, wegen theoretischer Überlegungen über einen zeitgemäßen Werkbegriff eine stark tradierte Werkbestimmung zu verwerfen.</p>
+            <p>Am Rande bemerkt haben auch theoretische Arbeiten des 20.&#8239;Jahrhunderts, die sich ausdrücklich mit dem Werkbegriff und dessen Wandel auseinandersetzten, scheinbar die Frage nach den Grenzen des einzelnen Werkes kaum berührt, wenn immerhin auch anerkannt wurde, dass Werken verschiedener Gattungen und verschiedener Epochen sehr unterschiedlicher Spielraum eingeräumt werden muss (als extreme Beispiele mögen z.&#8239;B. Barockoper einerseits und Werke des Serialismus des mittleren 20.&#8239;Jahrhunderts andererseits dienen). Zu erwähnen wäre z.&#8239;B. <name ref="#geertinger-pers021">Walter Wioras</name> Buch <hi rend="italic">Das musikalische Kunstwerk</hi>.<ref target="#Wiora1983" type="bibl" xml:id="geertinger-ftn2" n="2"/> Ausführlich ging <name ref="#geertinger-pers021">Wiora</name> Fragen ontologischer Art nach und war unter anderem bestrebt, die verschiedenen Daseinsformen des Werkes zu systematisieren. Interessanterweise aber wurde nirgends angesprochen, wo die Grenzen zwischen den einzelnen Werken zu suchen sind, bzw. wie sich verwandtes, aber nicht identisches Material zum <q>Werk</q> verhält. Das Werk wurde grundsätzlich als eine a priori existierende Entität behandelt, die nicht weiter in Frage gestellt wurde. Ähnliches gilt für <name ref="#geertinger-pers019">Wilhelm Seidels</name> Buch <hi rend="italic">Werk und Werkbegriff in der Musikgeschichte</hi>, das wenige Jahre nach <name ref="#geertinger-pers021">Wioras</name> erschien.<ref target="#Seidel1987" type="bibl" xml:id="geertinger-ftn3" n="3"/> Beiden ging es nicht darum, Kriterien für die Bestimmung einer Werkidentität auszumachen, sondern um Themen wie die ästhetische Wertung des Werkes (Werk als <hi rend="italic">Kunst</hi>werk), seine Daseinsformen, und die Geschichte des Werkbegriffs.</p>
+            <p>Mit dem Begriff des Verzeichnisses als <q>idealisierte Abstraktion</q> wurde bereits angedeutet, dass das Werkverzeichnis nicht unbedingt der Komplexität der Wirklichkeit entspricht. Zumindest bezüglich der Werkzählung muss es notgedrungen mit einer binären Opposition operieren: Entweder wird ein Werk als eben solches anerkannt und erhält eine Nummer im Verzeichnis, oder es wird nicht als zureichend selbständiges Material angesehen und unter einer anderen Nummer subsumiert (vorausgesetzt, dass das Material nicht überhaupt aus dem Rahmen des Verzeichnisses fällt und deshalb ganz ausscheidet). Ein Dazwischen gibt es nicht. Gerade die kategorische Eindeutigkeit ist freilich ein Hauptzweck des Werkverzeichnisses, denn sie ermöglicht den eindeutigen Hinweis auf das jeweilige Werk; die Eindeutigkeit gilt jedoch nur der Kommunikation, nicht aber dem bezeichneten Gegenstand: <q>BWV&#x00A0;552</q> etwa als Hinweis auf <name ref="#geertinger-pers002">Bachs</name> <title ref="#geertinger-work035"><hi rend="italic">Präludium und Fuge</hi></title> teilt zwar eindeutig mit, dass unter <name ref="#geertinger-pers002">J.&#8239;S. Bachs</name> Orgelwerken dasjenige Paar in Es-Dur gemeint ist, vermag aber nicht genau zu definieren, welches Material &#x2013; darunter Fremdbearbeitungen, zum Beispiel &#x2013; dem bezeichneten Werk noch zuzurechnen ist und welches nicht. Den Herausgebern einer Gesamtausgabe stellt sich die Frage nicht unbedingt: Im Rahmen der Ausgabe muss nur eine Entscheidung getroffen werden, welche Kompositionen oder Fassungen zu veröffentlichen sind und welche nicht; es muss nicht notwendig über den Werkanspruch des jeweiligen Stücks (d.&#8239;h. ob Werk, Werkteil oder Fassung) entschieden werden.</p>
+         </div>
+            <div xml:id="geertinger-02">
+               <head>Das <name ref="#geertinger-pers015">Carl Nielsen</name>-Werkverzeichnis (CNW)</head>
+               <p>Derartige Fragen über den Werkanspruch stellten sich dem Dänischen Zentrum für Musikedition an der Königlichen Bibliothek in Kopenhagen,<ref target="#DCM" type="bibl" xml:id="geertinger-ftn4" n="4"/> als die unmittelbar vorher vollendete Gesamtausgabe der Werke <name ref="#geertinger-pers015">Carl Nielsens</name> (1865&#x2013;1931) durch ein thematisch-bibliographisches <name ref="#geertinger-pers015">Nielsen</name>-Werkverzeichnis ergänzt werden sollte. Das englischsprachige Verzeichnis wurde unter dem Titel <hi rend="italic">Catalogue of <name ref="#geertinger-pers015">Carl Nielsen</name>&#x2019;s Works</hi> &#x2013; kurz CNW &#x2013; im Herbst 2014 online veröffentlicht. Es ist kostenlos im Internet abrufbar;<ref target="#CNW" type="bibl" xml:id="geertinger-ftn5" n="5"/> eine gedruckte Ausgabe in verkürzter Form ist in Vorbereitung. Das CNW ist zudem das erste Verzeichnis seiner Art, das ganz auf dem Metadatenmodell der <hi rend="italic">Music Encoding Initiative</hi> beruht.<note xml:id="geertinger-ftn6" n="6"><ref target="#MEI" type="bibl"/>. Für die Arbeit am CNW und anderen Werkverzeichnissen entwickelte das Zentrum einen Metadateneditor. Näheres hierzu unter <ptr target="http://www.kb.dk/en/nb/dcm/projekter/mermeid.html"/>.</note></p>
+               <div xml:id="geertinger-03">
+                  <head>Vorarbeiten</head>
+                  <p>Trotz bedeutender Vorarbeiten lag bis zur Veröffentlichung des CNW noch kein vollständiges, thematisch-bibliographisches Verzeichnis der Werke <name ref="#geertinger-pers015">Nielsens</name> vor. Als gängiges <name ref="#geertinger-pers015">Nielsen</name>-Verzeichnis galt bislang der 1965 erschienene Katalog von <name ref="#geertinger-pers006">Dan Fog</name> und <name ref="#geertinger-pers018">Torben Schousboe</name>.<ref target="#Fog_Schousboe1965" type="bibl" xml:id="geertinger-ftn7" n="7"/> Die darin angegebenen Nummern werden nach den Herausgebern üblicherweise als FS-Nummern bezeichnet. Das FS-Verzeichnis orientiert sich grundsätzlich an Drucken, erwähnt aber auch handschriftlich überlieferte Werke. Es kann als fast vollständig gelten, obwohl es ausdrücklich keinen Anspruch auf Vollständigkeit erhebt. </p>
+                  <p>Als wichtige Ergänzung hierzu veröffentlichten <name ref="#geertinger-pers005">Birgit Bjørnum</name> und <name ref="#geertinger-pers013">Klaus Møllerhøj</name> 1992 einen Katalog über den Bestand der <name ref="#geertinger-pers015">Carl Nielsen</name>-Sammlung (CNS) in der Königlichen Bibliothek Kopenhagen,<ref target="#Bjoernum_Moellerhoej1992" type="bibl" xml:id="geertinger-ftn8" n="8"/> die den Großteil der erhaltenen Musikhandschriften <name ref="#geertinger-pers015">Nielsens</name> &#x2013; schätzungsweise über 95&#8239;% &#x2013; enthält. Anders als FS orientiert sich der CNS-Katalog naturgemäß an Handschriften. Weder FS noch CNS sind thematische Verzeichnisse, d.&#8239;h. sie erlauben die eindeutige Identifikation der Werke mittels Incipits nicht. Dies kann zumindest im FS-Verzeichnis zu Zweifelsfällen führen, z.&#8239;B. auf welche lediglich als <q>Sätze für Streichquartett</q> bezeichneten Kompositionen die Nummer FS&#8239;3c hinweist.</p>
+                  <p>Die wichtigste Vorarbeit zu einem thematisch-bibliographischen <name ref="#geertinger-pers015">Nielsen</name>-Verzeichnis jedoch stellte die <name ref="#geertinger-pers015">Carl Nielsen</name>-Gesamtausgabe dar, die während der Jahre 1994&#x2013;2009 an der Königlichen Bibliothek in Kopenhagen entstand.<ref target="#Nielsen-Edition1998_2009" type="bibl" xml:id="geertinger-ftn9" n="9"/> Im Kontext der Gesamtausgabe wurden alle zugänglichen Quellen gesichtet, beurteilt und beschrieben und sämtliche vollendeten Werke kritisch ediert und veröffentlicht. Die naheliegende Annahme, dass die Erstellung eines Werkverzeichnisses sich nunmehr auf das Verleihen von Werkzahlen anhand des Inhaltsverzeichnisses der Gesamtausgabe und das mehr oder weniger mechanische Kopieren der dort zusammengetragenen Informationen &#x2013; darunter die Erstellung der Incipits &#x2013; beschränke, erwies sich allerdings als überraschend verfehlt.</p>
+               </div>
+               <div xml:id="geertinger-04">
+                  <head>Ordnungsprinzip des CNW</head>
+                  <p>Ein eher kleineres Problem stellte die Werknummerierung dar. Die Frage war dabei nicht die Systematik der Zählung, also ob die Nummerierung etwa chronologisch, alphabetisch oder systematisch erfolgen sollte. Die oftmals nur ungenau datierbaren und bisweilen in mehreren Phasen oder parallel entstandenen Werke <name ref="#geertinger-pers015">Nielsens</name> ließen eine eindeutige Chronologie ohnehin nicht zu. Da das Verzeichnis als ein primär digitales geplant war, in dem sich die Werkliste nach mehreren relevanten Prinzipien umordnen lässt, war das Prinzip der Nummerierung allerdings sowieso nicht entscheidend. Es wurde daher auch mehr auf die Beibehaltung der ursprünglich verliehenen Nummern als auf die strenge Einhaltung des gewählten Ordnungsprinzips geachtet, als sich nach der (verfrühten, wie sich herausstellte) Veröffentlichung einer vorläufigen, bereits nummerierten Werkliste doch noch Verschiebungen und Ergänzungen ergaben. Die Zählung des CNW ist grundsätzlich systematisch, d.&#8239;h. nach Gattungen angelegt. Innerhalb der Gattungen folgt die Ordnung in etwa derjenigen der Nielsen-Gesamtausgabe. Aber auch nach Gattungen ist die Einteilung nicht eindeutig. Die zahlenmäßig weitaus größte Werkgruppe stellen die Lieder <name ref="#geertinger-pers015">Nielsens</name> dar: etwa dreihundert der insgesamt mehr als vierhundert Kompositionen. Der Übersichtlichkeit wegen wurde diese Gruppe deshalb weiter unterteilt in einstimmige Lieder (mit oder ohne Begleitung), Werke für Chor a cappella und solche mit Begleitung. Etliche Lieder <name ref="#geertinger-pers015">Nielsens</name> sind jedoch in mehreren Fassungen überliefert, die mehrere dieser Gattungen vertreten und deshalb sowohl der einen als auch der anderen Gruppe zugerechnet werden können. Als bestimmend für die Zuordnung wurde in diesen Fällen die jeweils zuerst veröffentlichte Fassung gewählt.</p>
+               </div>
+            </div>
+            <div xml:id="geertinger-05">
+               <head>Werk, Teil und Fassung</head>
+               <p>Schwieriger zu beantworten als die Frage nach dem Ordnungsprinzip war die Frage, was überhaupt als Werk zu zählen sei und was nicht. Dazu müssen jedoch erst einige Bemerkungen zum Schaffen <name ref="#geertinger-pers015">Nielsens</name> vorausgeschickt werden. Die meisten der gängigen Gattungen sind in <name ref="#geertinger-pers015">Nielsens</name> Gesamtwerk vertreten &#x2013; von den beiden Opern und den sechs Symphonien bis zu den zahlreichen Liedern. Eine interessante Besonderheit ist, dass es sich bei den Liedern <name ref="#geertinger-pers015">Nielsens</name> meist nicht um Kunstlieder handelt, sondern hauptsächlich um Lieder für den Alltags- und Schulgebrauch. Unter anderem durch die Neuauflagen der 1920er Jahre des Liederbuches für die dänischen Volkshochschulen bzw. dem dazugehörigen Melodienbuch (<hi rend="italic">Folkehøjskolens Melodibog</hi>), an dessen Redaktion <name ref="#geertinger-pers015">Nielsen</name> maßgeblich beteiligt war, fanden <name ref="#geertinger-pers015">Nielsens</name> Lieder Verbreitung; tatsächlich sind mehrere davon noch heute nahezu jedem Kind in Dänemark geläufig.</p>
+               <p>Die Produktion <name ref="#geertinger-pers015">Nielsens</name> verteilt sich somit gleichermaßen in einen Teil für den Konzertsaal oder die Bühne und einen Teil für den eher volkstümlichen Gebrauch. Nicht selten allerdings sind (Volks-)Lieder und Bühnenmusik, mitunter aber auch Instrumentalstücke innig miteinander verbunden. Die zahlreichen Verknüpfungen und andere Umstände erschweren mitunter die Entscheidung erstens, was als ein Werk zu zählen ist und was nicht, zweitens, welches Material als eigentliche Neufassung zu gelten hat. Als problematisch sind vor allem folgende Situationen zu erwähnen (mit einigen Beispielen aus <name ref="#geertinger-pers015">Nielsens</name> Produktion):</p>
+               <pb/>
+               <table xml:id="geertinger-table01">
+                  <head>Beispiele problematischer Werkbeziehungen</head>
+                  <row role="midlabel">
+                     <cell cols="2">Wiederverwertung oder selbstständige Rezeption von Auszügen aus größeren Werken, z.&#8239;B.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Lieder aus Bühnenwerken
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title>Sangen til Danmark</title></hi> (CNW&#8239;237; aus dem Schauspiel <hi rend="italic"><title>Moderen</title></hi>, CNW&#8239;18)
+                        <lb/><title>Lied des Jeronimus</title> (aus der Oper<hi rend="italic"><title ref="#geertinger-work026">Maskarade</title></hi>,<hi rend="italic"> </hi>CNW&#8239;2)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Instrumentale Auszüge aus Orchesterwerken
+                     </cell>
+                     <cell>Suite aus <hi rend="italic"><title>Aladdin</title></hi> (CNW&#x00A0;17; Orchestersuite aus der Schauspielmusik)<lb/>
+                        <hi rend="italic"><title ref="#geertinger-work054">Taagen letter</title></hi> (aus dem Schauspiel <hi rend="italic"><title>Moderen</title></hi>, CNW&#x00A0;18)</cell>
+                  </row>
+                  <row role="midlabel">
+                     <cell cols="2">Aufnahme von vorhandenem Material in größeren Werken</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Aufnahme eigenen Materials
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title>Moderen</title></hi> (CNW&#x00A0;18; enthält das Orchesterstück <hi rend="italic"><title ref="#geertinger-work037">Saga-drøm</title></hi>, CNW&#x00A0;35)
+                        <lb/><title ref="#geertinger-work002">Bläserquintett Op.&#8239;43</title> (CNW&#x00A0;70; enthält Variationen über <name ref="#geertinger-pers015">Nielsens</name> Lied <hi rend="italic"><title ref="#geertinger-work030">Min Jesus, lad mit Hjerte faa</title></hi>, CNW&#x00A0;184)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Fremdmaterial
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title>Moderen</title></hi> (CNW&#x00A0;18; enthält <name ref="#geertinger-pers004">A. P. Bergreens</name> Lied <hi rend="italic"><title ref="#geertinger-work017">Her vil ties, her vil bies</title></hi>, das Volkslied <hi rend="italic"><title ref="#geertinger-work036">Roselil og hendes Moder</title></hi> und zitiert ferner Nationalhymnen)</cell>
+                  </row>
+                  <row role="midlabel">
+                     <cell cols="2">Andere Bearbeitungen eigener Werke, darunter</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226;  Wiederverwendung einer Melodie zu neuem Text
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work003">Danevang med grønne Bred</title></hi> (CNW&#x00A0;318) und <hi rend="italic"><title ref="#geertinger-work012">Er din Stue lav og trang</title></hi> (CNW&#x00A0;384; Melodie von <hi rend="italic"><title ref="#geertinger-work021">Julesang</title></hi>, CNW&#x00A0;313)
+                        <lb/><hi rend="italic"><title ref="#geertinger-work052">Søndret Folk er vokset sammen</title></hi> (CNW&#x00A0;383; Melodie von <hi rend="italic"><title>Sangen til Danmark</title></hi>, CNW&#x00A0;237)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Mehrfache Vertonungen desselben Textes
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work018">Hjemvee</title></hi> (CNW&#x00A0;205 und 296)
+                        <lb/><hi rend="italic"><title ref="#geertinger-work046">Solnedgang</title></hi> (CNW&#x00A0;116 und 287)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Bearbeitungen von Orchester- und Bühnenwerken für Klavier
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title>Moderen</title></hi> (CNW&#x00A0;18; Fassung für Klavier und Gesang)
+                        <lb/><title ref="#geertinger-work051">Symphonie Nr.&#8239;3</title> (CNW&#x00A0;27; Bearbeitung für zwei Klaviere)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Klavierauszüge
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work026">Maskarade</title></hi> (CNW&#x00A0;2)
+                        <lb/><hi rend="italic"><title ref="#geertinger-work053">Søvnen</title> </hi>(CNW&#x00A0;101), Kantate für Chor und Orchester</cell>
+                  </row>
+                  <row role="midlabel">
+                     <cell cols="2">Liedersammlungen, darunter</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Liederzyklen mit Opuszahl
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work058">Viser og Vers af <name ref="#geertinger-pers010">J.&#8239;P. Jacobsen</name></title></hi>, Opus&#x00A0;6 (CNW&#x00A0;121&#x2013;125)
+                        <lb/>Lieder zu Texten von <name ref="#geertinger-pers009">Ludvig Holstein</name>, Opus&#x00A0;10 (CNW&#x00A0;126&#x2013;131)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Nicht-zyklische Sammlungen
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work039">Salmer og aandelige Sange</title></hi> (CNW&#x00A0;153&#x2013;201)
+                        <lb/><hi rend="italic"><title ref="#geertinger-work050">Strofiske Sange</title></hi>, Opus&#x00A0;21 (CNW&#x00A0;135&#x2013;141)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Beiträge zu allgemeinen (Volks‑)Liederbüchern
+                     </cell>
+                     <cell>
+                        <hi rend="italic"><title>Folkehøjskolens Melodibog</title></hi> (CNW&#x00A0;202, 204, 205, …)
+                        <lb/><hi rend="italic"><title>Melodier til Sangbogen <q>Danmark</q></title></hi> (CNW&#x00A0;146, 186, 203, …)</cell>
+                  </row>
+                  <row role="midlabel">
+                     <cell cols="2">Sonstiges</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Werke, die in Zusammenarbeit komponiert wurden</cell>
+                     <cell>
+                        <hi rend="italic"><title ref="#geertinger-work022">Kantate ved Aarhus Landsudstillings Aabnings-Højtidelighed 1909</title></hi> (CNW&#x00A0;107; <name ref="#geertinger-pers015">Nielsen</name> und sein Schüler <name ref="#geertinger-pers003">Emilius Bangert</name> teilten sich die Arbeit)</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        &#8226; Fragmente </cell>
+                     <cell>Musik zu <name ref="#geertinger-pers011">Ben Jonsons</name> Schauspiel <hi rend="italic"><title ref="#geertinger-work055">The Silent Woman</title></hi> (CNW&#x00A0;A&#8239;2)
+                        <lb/>Mehrere Fragmente für Streichquartett, Klavier u.&#8239;a.</cell>
+                  </row>
+               </table>
+               <p>Mit den genannten Beispielen soll lediglich auf einige Werke hingewiesen werden, bei denen die betreffenden Fragen sich stellen mögen. Die konkreten Fragen in jedem Fall können hier nicht alle erörtert werden; es kann im Folgenden auch nur auf einige der erwähnten Aspekte eingegangen werden. </p>
+               <p>Um die sehr unterschiedlichen und mitunter verschachtelten Kompositionen bezüglich der Werkzählung so gleichartig wie möglich zu behandeln, war es für die Erstellung des Werkverzeichnisses notwendig, konkrete Kriterien für die Bestimmung als <soCalled>Werk</soCalled> bzw. <soCalled>nicht Werk</soCalled> zu formulieren. Im engeren Sinne ging es darum, die Auffassung von Identität und Integrität eines Werkes in operationelle Richtlinien umzusetzen. Die bereits vorhandenen Werkzählungen &#x2013; FS- und CNS-Katalognummern, aber ebenso <name ref="#geertinger-pers015">Nielsens</name> eigene Opuszahlen &#x2013; schieden aus verschiedenen Gründen als Vorlage aus. Die FS-Nummern sind vor allem bei den Liedern problematisch, weil sie aufgrund der Druckorientierung nicht die einzelnen Lieder zählen, sondern die Sammlungen bzw. Liederbücher, in denen sie erschienen. Da zahlreiche Lieder in mehreren Kontexten veröffentlicht wurden, tragen <name ref="#geertinger-pers015">Nielsens</name> Lieder im FS-Katalog jeweils bis zu vier verschiedene Nummern, wovon aber keine das einzelne Lied eindeutig identifiziert; so tragen z.&#8239;B. sowohl <hi rend="italic"><title ref="#geertinger-work020">Jeg ved en Lærkerede</title></hi> (<q>Ich weiß ein Lerchennest</q>, CNW&#x00A0;262) als auch <hi rend="italic"><title ref="#geertinger-work045">Solen er saa rød, Mor</title></hi> (<q>Die Sonne ist so rot, Mama</q>, CNW&#x00A0;263) als auch <hi rend="italic"><title ref="#geertinger-work057">Tyst som Aa i Engen rinder</title></hi> (<q>Still wie der Bach, der durch Wiesen fließt</q>, CNW&#x00A0;264) die FS-Nummern&#x00A0;111 und 114. Ähnlich verhält es sich mit den CNS-Nummern. Da im CNS-Katalog grundsätzlich Handschriften &#x2013; darunter auch Sammelhandschriften &#x2013; gezählt werden, sind auch dort oftmals mehrere unabhängige Kompositionen unter derselben Nummer vermerkt. Falls eine Komposition in mehreren Handschriften vertreten ist, wurde dem Werk noch zusätzlich eine eigene Nummer verliehen, so dass sich ein verschachteltes Nummernsystem ergibt, in dem sich Nummern überschneiden oder in anderen Nummern enthalten sind. Wie bei FS besteht also auch im CNS-Katalog kein eins-zu-eins-Verhältnis zwischen Werk und Nummer. Die nur 58 authentischen Opuszahlen von <name ref="#geertinger-pers015">Nielsen</name> wiederum lassen offensichtlich zu viele Lücken übrig, um als Grundlage für eine komplette Nummerierung zu dienen. Auch sagen sie über <name ref="#geertinger-pers015">Nielsens</name> eigene Auffassung des Werkbegriffs kaum etwas aus; so tragen beispielsweise zwei der Hauptwerke <name ref="#geertinger-pers015">Nielsens</name>, die beiden Opern <hi rend="italic"><title ref="#geertinger-work042">Saul og David</title></hi> (<q>Saul und David</q>, CNW&#x00A0;1) und <hi rend="italic"><title ref="#geertinger-work026">Maskarade</title></hi> (CNW&#x00A0;2) keine Opusnummern, vermutlich weil sie nicht für den Druck bestimmt waren. Opuszahlen sind bei <name ref="#geertinger-pers015">Nielsen</name> eher als Verlagsnummern zu verstehen, nicht als ein Prädikat, das er besonders gewichtigen Kompositionen gab.</p>
+               <p>Es stand also fest, dass für das CNW von Grund auf neu durchdacht werden musste, wie die Identität der einzelnen Werke auszumachen und abzugrenzen wäre. Wurde eine eigentliche Definition einer solchen <soCalled>Werkidentität</soCalled> während der Vorbereitung des CNW auch nicht ausdrücklich formuliert, lässt sich doch folgendes aus den redaktionellen Richtlinien resümieren: </p>
+               <div xml:id="geertinger-06">
+                  <head>Auszüge bzw. Werkteile</head>
+                  <p>Auszüge werden im CNW als Fassungen desselben Werkes angesehen, sofern sie das ursprüngliche Werk in seiner Gesamtform umreißen oder zusammenfassen. So sind z.&#8239;B. sowohl die siebenteilige Orchestersuite als auch der sechsteilige Auszug für Klavier und Chor als Fassungen der Schauspielmusik zu <hi rend="italic"><title>Aladdin</title></hi> (CNW&#x00A0;17) verzeichnet, da es sich um einen substantiellen Querschnitt aus der 30 Nummern umfassenden Vorlage handelt. Ferner ist es von Bedeutung, dass auch die verkürzten Fassungen den Titel des ursprünglichen Werkes beibehalten oder auf ihn hinweisen. Anders wurde bei Einzelstücken vorgegangen, die allein keinen Gesamteindruck des ursprünglichen Werkes mehr verleihen. Dies ist z.&#8239;B. der Fall, wenn ein aus Schauspielmusiken stammendes Lied unabhängig vom ursprünglichen Kontext rezipiert wurde. </p>
+                  <p>Als Kriterium für den Anspruch eines Werkteils auf eine eigene Werknummer wurde die vom Komponisten beauftragte oder zumindest zur Kenntnis genommene Veröffentlichung des betreffenden Stücks festgelegt. So erhielten die in den zentralen Liederbüchern (vor allem <hi rend="italic"><title>Folkehøjskolens Melodibog</title></hi> und <hi rend="italic"><title>Melodier til Sangbogen <soCalled>Danmark</soCalled></title></hi>) veröffentlichten Lieder ihre eigene Werknummer, auch wenn sie ursprünglich als Teil eines größeren Werkes, etwa einer Kantate oder Schauspielmusik, konzipiert waren. Nur in sehr wenigen Fällen führte diese Praxis zu Entscheidungen, die heute überraschen mögen: So ist z.&#8239;B. eines der bekanntesten Stücke <name ref="#geertinger-pers015">Nielsens</name> überhaupt, <hi rend="italic"><title ref="#geertinger-work054">Taagen letter</title></hi> (<q>Der Nebel steigt</q>) für Harfe und Flöte bzw. für Klavier, nur als Teil der Musik zu <name ref="#geertinger-pers017">Helge Rodes</name> Schauspiel <hi rend="italic"><title>Moderen</title></hi> (<q>Die Mutter</q>, CNW&#x00A0;18; näheres dazu unten) zu finden, da es zu <name ref="#geertinger-pers015">Nielsens</name> Lebzeiten nicht als eigenständiges Stück veröffentlicht wurde. Auch das in Dänemark bekannte Lied des Jeronimus <hi rend="italic"><title ref="#geertinger-work014">Fordum var her Fred paa Gaden</title></hi> (<q>Schön war es in alten Tagen</q>) aus der komischen Oper <hi rend="italic"><title ref="#geertinger-work026">Maskarade</title></hi> erhielt aus demselben Grund keine eigene Werkzahl, obwohl es in spätere Liederbücher aufgenommen wurde. </p>
+                  <figure xml:id="Geertinger01.jpg" rendition="#latex-fig01">
+                     <graphic url="figures/Geertinger01.jpg" width="3560px" height="1482px"/>
+                     <head type="legend">Die erste der zwei Strophen aus dem Lied des Jeronimus aus <name ref="#geertinger-pers015">Nielsens</name> komischer Oper <hi rend="italic"><title ref="#geertinger-work026">Maskarade</title></hi> (CNW&#x00A0;2). Als selbstständige Komposition in gedruckter Form setzte sich das Lied erst nach <name ref="#geertinger-pers015">Nielsens</name> Tod durch. Es erschien zwar bereits 1906 auch als Einzelheft in einer Reihe von Ausschnitten aus dem Klavierauszug, die jedoch immer noch mit Regieanweisungen versehen und  auf dem Titelblatt als (sogar vollständiger) Klavierauszug zur Oper bezeichnet waren. Das Lied verdeutlicht zugleich, dass <name ref="#geertinger-pers015">Nielsen</name> nicht nur Kunstmusik einerseits und volkstümlichere Lieder andererseits schrieb, sondern mitunter sogar das eine im anderen integrieren konnte. <hi rend="italic">DK-Kk</hi> D6, 1906&#x2013;07.368</head>
+                  </figure>
+               </div>
+               <div xml:id="geertinger-07">
+                  <head>Lieder und Liedersammlungen</head>
+                  <p>Einen besonderen Problemkomplex stellten die in sehr unterschiedlichen Kontexten veröffentlichten Lieder <name ref="#geertinger-pers015">Nielsens</name> dar. Die Frage war, ob die in Sammlungen bzw. Liederbüchern zusammen veröffentlichten Lieder als nur ein Werk zu zählen waren oder als einzelne Werke. Angesichts der beschriebenen Schwächen sowohl des FS- als auch des CNS-Katalogs ließ sich die Frage relativ schnell dahingehend beantworten, dass Lieder grundsätzlich als eigenständige Werke zu zählen waren; dies erschien zumindest bei den in allgemeinen Liederbüchern veröffentlichten Liedern ohnehin als zweckdienlich. Die Schwierigkeit bestand darin, dass Liedersammlungen prinzipiell ein Kontinuum ausmachen, an dessen einem Ende die gemischten Liederbücher mit Beiträgen zahlreicher Komponisten stehen, am anderen Ende aber zyklisch konzipierte Liederkreise, die durchaus Anspruch darauf erheben können, als <hi rend="italic">ein</hi> Werk angesehen zu werden und womöglich sogar mit einer Opuszahl versehen wurden. Ähnliche Fragen stellen sich bei anderen Komponisten, besonders vor 1800, auch auf dem Gebiet der Instrumentalmusik, wenn z.&#8239;B. mehrere Sonaten oder Konzerte unter einer Opuszahl und einem gemeinsamen Titel veröffentlicht wurden.</p>
+                  <p><name ref="#geertinger-pers015">Nielsen</name> veröffentlichte drei Liedersammlungen, die jeweils eine Opuszahl erhielten und Texte eines einzelnen Dichters vertonen, und zwar Opus&#x00A0;10 (sechs Lieder zu Texten von <name ref="#geertinger-pers009">Ludvig Holstein</name>), Opus&#x00A0;4 und Opus&#x00A0;6 (jeweils fünf Lieder zu Texten von <name ref="#geertinger-pers010">Jens Peter Jacobsen</name>). Trotz der Opuszahlen handelt es sich bei den drei Sammlungen jedoch nicht um im engeren, musikalischen oder inhaltlichen Sinn zyklische Kompositionen, und es erschien deshalb durchaus vertretbar, auch diesen Liedern einzelne Werknummern zu verleihen. Noch unterstützt wird diese Sichtweise dadurch, dass eines der Lieder aus Opus&#x00A0;10, <hi rend="italic"><title ref="#geertinger-work040">Sang bag Ploven</title></hi>  (<q>Lied hinter dem Pflug</q>, CNW&#x00A0;129) auch im Liederbuch der dänischen Volkshochschulen bzw. dem Melodienbuch dazu (<hi rend="italic"><title>Folkehøjskolens Melodibog</title></hi>), an dessen Redaktion <name ref="#geertinger-pers015">Nielsen</name> beteiligt war, Aufnahme fand. Wie bereits erwähnt kommen Opuszahlen bei <name ref="#geertinger-pers015">Nielsen</name> eher Verlagsnummern gleich. <name ref="#geertinger-pers015">Nielsen</name> selbst scheint als Opus bezeichnete Kompositionen nicht unbedingt als untrennbare Einheiten verstanden zu haben: aus den 1892 als <name ref="#geertinger-pers015">Nielsens</name> Opus&#x00A0;4 veröffentlichten fünf Liedern zu Gedichten von <name ref="#geertinger-pers010">J.&#8239;P. Jacobsen</name> wurde eines, <hi rend="italic"><title ref="#geertinger-work046">Solnedgang</title></hi> (<q>Sonnenuntergang</q>, CNW&#x00A0;116), bereits zwei Jahre vor der Veröffentlichung der Sammlung uraufgeführt, dann vier der Lieder im Erscheinungsjahr, und eines, <hi rend="italic"><title ref="#geertinger-work056">Til Asali</title></hi> (<q>Für Asali</q>, CNW&#x00A0;118), erst drei Jahre später. Ferner erschien 1895 im Verlag <name ref="#geertinger-pers007">Wilhelm Hansen</name>, bei dem auch Opus&#x00A0;4 und 6 erschienen waren, eine Auswahl der Lieder in deutscher Übersetzung unter dem Titel <q><title>Lieder von <name ref="#geertinger-pers010">J.&#8239;P. Jacobsen</name></title></q>, in der jeweils drei Lieder aus Opus&#x00A0;4 und 6 als eine Sammlung vorgestellt wurde. Dass jedes der Lieder einen eigenen Eintrag im CNW erhielt, erleichterte die Darstellung dieser und ähnlicher Sachverhalte. Als Ergänzung zu den Werkeinträgen der einzelnen Lieder ist im CNW allerdings auch pro Sammlung ein Eintrag vorhanden, der die gemeinsamen Quellen und die Entstehungsgeschichte der jeweiligen Sammlung zusammenfasst; nur erhielten diese Sammlungseinträge statt Werknummern gesonderte Sammlungsnummern: CNW Coll.&#8239;1 (= Opus&#x00A0;4), Coll.&#8239;2 (= Opus&#x00A0;6), Coll.&#8239;3 (= <hi rend="italic"><title>Lieder von <name ref="#geertinger-pers010">J.&#8239;P. Jacobsen</name></title></hi>) usw.</p>
+                  <p>Eine andere Frage, die sich besonders im Bereich der Lieder, mitunter aber auch anderswo stellt, ist, wie mit Wiederverwendung von Material &#x2013; sei es Text oder Musik&#x00A0;&#x2013; in verändertem Kontext umzugehen ist. Die Wiederverwendung von entweder Melodien oder Texten kommt bei <name ref="#geertinger-pers015">Nielsen</name> öfters vor, wobei meistens keinerlei Beziehung zwischen den Kontexten besteht. Im CNW wurden Lieder grundsätzlich unter dem Gesichtspunkt behandelt, dass die Werkidentität unlöslich mit der Einheit von Melodie und Text verbunden ist; durch Ersetzen eines der beiden Elemente entsteht ein neues Werk. Besonders deutlich lässt sich dieses anhand des 1923 komponierten <hi rend="italic"><title ref="#geertinger-work021">Julesang</title></hi> (<q>Weihnachtslied</q>, CNW&#x00A0;313) darstellen, aus dem noch im selben Jahr mit neuem Text das eher sommerliche Lied <hi rend="italic"><title ref="#geertinger-work003">Danevang med grønne Bred</title></hi> (<q>Dänemark mit grünen Ufern</q>, CNW&#x00A0;318) entstand. Zwei so unterschiedliche Konzepte lediglich als alternative Fassungen desselben Werkes zu verstehen, schien mit der Idee einer integralen Werkidentität kaum vereinbar. </p>
+               </div>
+               <div xml:id="geertinger-08">
+                  <head>Ein diffuses Werk: <hi rend="italic"><title>Moderen</title></hi> Opus&#x00A0;41</head>
+                  <p>Wie schon aus der Übersicht ersichtlich ist, lassen sich erstaunlich viele der erwähnten Zweifelssituationen anhand der Musik zu <name ref="#geertinger-pers017">Helge Rodes</name> Schauspiel <hi rend="italic"><title>Moderen</title></hi> (<q>Die Mutter</q>, CNW&#x00A0;18) darstellen. Das daraus stammende Instrumentalstück <hi rend="italic"><title ref="#geertinger-work054">Taagen letter</title></hi> wurde bereits oben angesprochen. Das patriotische Schauspiel <hi rend="italic"><title>Moderen</title></hi> entstand anlässlich der Wiedervereinigung Nordschleswigs mit Dänemark nach der Volksabstimmung 1920 über die Staatszugehörigkeit Schleswigs. <name ref="#geertinger-pers015">Nielsen</name> ließ sich &#x2013; allerdings nur widerstrebend &#x2013; überreden, dazu Musik zu komponieren. Gleich im ersten Bühnenbild griff <name ref="#geertinger-pers015">Nielsen</name> auf das bereits 1907&#x2013;1908 komponierte Orchesterstück <hi rend="italic"><title ref="#geertinger-work037">Saga-drøm</title></hi> (<q>Sagen-Traum</q>, CNW&#x00A0;35) Opus&#x00A0;39 zurück, das er einschließlich des Titels unverändert einsetzte. Hier handelt es sich somit nicht um die Verselbstständigung eines Werkteils, sondern umgekehrt um die Aufnahme eines bestehenden Werkes als Werkteil; denn anders lässt es sich kaum verstehen: <hi rend="italic"><title ref="#geertinger-work037">Saga-drøm</title></hi> ist ohne Frage als eigenständiges Werk anzusehen, das aber im Kontext der 22 Nummern umfassenden Schauspielmusik eine so untergeordnete Rolle spielt, dass sich die Musik zu <hi rend="italic"><title>Moderen</title></hi>  &#x2013; die übrigens die eigene Opuszahl 41 erhielt &#x2013; keinesfalls nur als Bearbeitung oder Fassung von Opus&#x00A0;39 verstehen lässt.</p>
+                  
+                  <figure xml:id="Geertinger02.jpg">
+                     <graphic url="figures/Geertinger02.jpg" width="3560px" height="1482px"/>
+                     <head type="legend">Die 1920 im Druck erschienene Partitur zu <hi rend="italic"><title ref="#geertinger-work037">Saga-drøm</title></hi> (<q>Sagen-Traum</q>, CNW&#x00A0;35) wurde in <name ref="#geertinger-pers015">Nielsens</name> autographe Partitur der Schauspielmusik zu <hi rend="italic">Moderen</hi> (<q>Die Mutter</q>, CNW&#x00A0;18) eingeklebt und mit einer Satznummer (<q>Nr.&#8239;1a</q>) versehen. <hi rend="italic">DK-Kk</hi> CNS 345a</head>
+                  </figure>
+                  
+                  <p>Noch vor der Uraufführung im Januar&#x00A0;1921 wurde eine von <name ref="#geertinger-pers015">Nielsen</name> angefertigte Bearbeitung der Schauspielmusik für Klavier und eine Stimme veröffentlicht, in der 13 der insgesamt 22&#x00A0;Nummern vertreten waren. Dieser Auszug wurde nach den oben angedeuteten Richtlinien im CNW nicht als eigenständiges Werk gezählt, sondern als alternative Fassung unter der gleichen CNW-Nummer wie die ursprüngliche Fassung für Orchester, Chor und Solisten aufgeführt. In dieser Zweitfassung befindet sich übrigens auch die Klavierfassung von <hi rend="italic"><title ref="#geertinger-work054">Taagen letter</title></hi>. Im Gegensatz zu <hi rend="italic"><title ref="#geertinger-work054">Taagen letter</title></hi> jedoch verselbstständigten sich unter <name ref="#geertinger-pers015">Nielsens</name> Aufsicht mehrere der Lieder, z.&#8239;B. <hi rend="italic"><title ref="#geertinger-work031">Min Pige er saa lys som Rav</title></hi> (<q>Mein Mädchen ist so hell wie Bernstein</q>, CNW&#x00A0;231), das 1921 in anderem Kontext in einer Fassung für zweistimmigen Kinderchor erschien. </p>
+                  <p>Eine besondere Rolle aber spielt der Schlusschor <hi rend="italic"><title>Som en rejselysten Flaade</title></hi> (<q>Wie eine reiselustige Flotte</q>), der in motivischer Hinsicht die Schauspielmusik zusammenhält: Ein Anklang daran lässt sich schon im Eröffnungsmarsch erahnen, das Lied <hi rend="italic"><title ref="#geertinger-work052">Søndret Folk er vokset sammen</title></hi> (<q>Zerschlagenes Volk ist zusammengewachsen</q>) im fünften Bild stellt eine Variation derselben Melodie vor, und auch das Vorspiel zum siebenten Bild ist aus dem Liedanfang modelliert. Die Fassung für Klavier und Gesang des Liedes wurde 1922, d.&#8239;h. im Jahr nach der Erstaufführung der Bühnenmusik, fast unverändert im Liederbuch der Volkshochschulen aufgenommen. In dem für die Schule bestimmten Liederbuch <hi rend="italic"><title>Danmark. Sangbog for Skolen og Hjemmet</title></hi> (<q>Dänemark. Liederbuch für Schule und Heim</q>) und dem dazugehörigen Melodienbuch erschien es 1924 ferner in einer Fassung für dreistimmigen Kinderchor, und schon 1921 war eine Fassung für gemischten Chor veröffentlicht worden. Mehrere Fremdbearbeitungen für gemischten Chor, Männerchor und für Blasorchester entstanden ebenfalls noch 1921. Als eigenständiges Lied ist <title>Som en rejselysten Flaade</title> im CNW unter der Nummer&#x00A0;237 mit dem Titel <hi rend="italic"><title ref="#geertinger-work041">Sangen til Danmark</title></hi> (<q>Das Lied an Dänemark</q>) verzeichnet. Fremdbearbeitungen dagegen wurden im Anhang aufgenommen. Komplizierend kommt noch hinzu, dass im Liederbuch <hi rend="italic"><title>Danmark</title></hi> nicht nur <hi rend="italic"><title>Som en rejselysten Flaade</title></hi>, sondern auch <hi rend="italic"><title ref="#geertinger-work052">Søndret Folk er vokset sammen</title></hi> erschien, und zwar letzteres nicht mit der ursprünglichen Melodie aus der Schauspielmusik, sondern in einer dreistimmigen Fassung, die mit derjenigen von <title>Som en rejselysten Flaade</title> identisch ist. Das Lied <hi rend="italic"><title ref="#geertinger-work052">Søndret Folk er vokset sammen</title></hi> stellt als selbstständiges Werk im CNW unter der Nummer&#x00A0;383 somit eine Synthese aus ursprünglichem Text und geringfügig veränderter Melodie dar.</p>
+               </div>
+            </div>
+            <div xml:id="geertinger-09">
+               <head>Zusammenfassung</head>
+               <p>Mit <name ref="#geertinger-pers015">Nielsens</name> Musik zu <hi rend="italic"><title>Moderen</title></hi> zeichnet sich ein etwas diffuses Bild von Kompositionen und Teilkompositionen, die ineinander greifen; trotzdem scheint es auch in diesem Komplex durchaus möglich, überzeugende oder zumindest zweckmäßige Urteile über <soCalled>Werk</soCalled> oder <soCalled>nicht Werk</soCalled> zu fällen, so dass sich die unterschiedlichen Entstehungs- und Rezeptionsgeschichten der jeweiligen Teile darstellen lassen. Die zahlreichen Relationen zwischen den Teilen lassen sich zudem vor allem im digitalen Verzeichnis mittels Verlinkung gut verfolgen, so dass sowohl Teil und Gesamtheit als auch die Verbindungen zwischen ihnen gleichermaßen berücksichtigt werden. Die hier besprochenen Prinzipien der Werkzählung und mehr werden übrigens in der englischsprachigen Einleitung zum CNW erläutert.
+                  Eine Frage, über die meistens die historischen oder praktischen Umstände entscheiden, die aber dennoch eine Erwägung wert sein mag, ist diejenige, ob im Idealfall eine Gesamtausgabe vor dem Werkverzeichnis erarbeitet werden sollte oder umgekehrt. Vermutlich wird in beiden Situationen die jeweils spätere Arbeit neues Wissen aufdecken, z.&#8239;B. vorher unbekannte Quellen, die die umgekehrte Arbeitsfolge wünschenswert erscheinen lassen mögen. Die Parallelarbeit bzw. das Erstellen der betreffenden Werkverzeichniseinträge während der Edition der Werke mag diese Situation verbessern. Eine eigentliche Lösung gerade dieses Problems verspricht allerdings vermutlich nur die digitale Publikation beider, wodurch nachträgliche Ergänzungen prinzipiell ermöglicht werden. </p>
+               <p>Etwas überraschend war im Kontext des CNW die Erfahrung, dass die Perspektive des Werkverzeichnisses sich so deutlich von derjenigen der Gesamtausgabe unterschied, dass es retrospektiv mitunter besser erschien, die Gesamtausgabe <hi rend="italic">nicht</hi> als Grundlage des Verzeichnisses benutzt zu haben. Neben Fragen gerade der Auffassung von Werk gegenüber Fassung oder Teil wären z.&#8239;B. Überlegungen zum Status der Quellen zu erwähnen. Dem Begriff <q>Quelle</q> kommt in den beiden Kontexten unterschiedliche Bedeutung zu: Während eine Quelle im Werkverzeichnis naturgemäß eine und nur eine Fassung des Werkes verkörpert und folglich nur unter dieser Fassung verzeichnet wird,<note xml:id="geertinger-ftn10" n="10"> Abgesehen wird hier von z.&#8239;B. Handschriften, die mehrere Fassungen derselben Komposition enthalten; ob solche Handschriften als eine oder mehrere Quellen beschrieben werden, mag von Projekt zu Projekt unterschiedlich sein.</note> kann dieselbe Quelle durchaus für die Edition mehrerer Fassungen herangezogen werden. Dieser und andere &#x2013; an und für sich offensichtliche &#x2013; Sachverhalte waren nicht immer von Anfang an bewusst genug; Reminiszenzen des Denkens der Gesamtausgabe werden hier und da noch immer im CNW entdeckt und laufend ausgebessert.</p>
+               <p>Unter der Kategorie der in Zusammenarbeit entstandenen Werke wurde oben lediglich eine Kantate erwähnt, deren Komposition <name ref="#geertinger-pers015">Nielsen</name> zur Hälfte seinem Schüler <name ref="#geertinger-pers003">Emilius Bangert</name> überließ. Die Stellung einer solchen kooperativen Komposition in einem <name ref="#geertinger-pers015">Nielsen</name>-Werkverzeichnis ist offensichtlich fraglich; im Falle <name ref="#geertinger-pers015">Nielsen</name> ist eine Arbeitsteilung dieser Art allerdings selten. Zu nennen wäre allenfalls noch, dass <name ref="#geertinger-pers015">Nielsen</name> bei der Arbeit mit seinen Liedern mitunter andere Schüler oder Kollegen um Rat bat und von ihnen Änderungsvorschläge übernahm, besonders durchgreifend etwa zur Harmonisierung seines Weihnachtsliedes <hi rend="italic"><title ref="#geertinger-work015">Forunderligt at sige</title></hi> (<q>Wunderlich zu sagen</q>, CNW&#x00A0;165), die in ihrer endgültigen Form zu gleichen Teilen aus Entwürfen von <name ref="#geertinger-pers015">Nielsen</name> und seinem Schüler <name ref="#geertinger-pers008">Paul Hellmuth</name> besteht.</p>
+               
+               <figure xml:id="Geertinger03.jpg" rendition="#latex-fig03">
+                  <graphic url="figures/Geertinger03.jpg" width="3560px" height="1482px"/>
+                  <head type="legend"><name ref="#geertinger-pers015">Nielsens</name> autographe Stichvorlage zu <hi rend="italic"><title ref="#geertinger-work015">Forunderligt at sige</title></hi> (<q>Wunderlich zu sagen</q>, CNW&#x00A0;165). Von <name ref="#geertinger-pers015">Nielsens</name> Schüler <name ref="#geertinger-pers008">Paul Hellmuth</name> stammt die Harmonisierung von Takt 2, letztes Viertel, bis Takt 9, erstes Viertel. Interessanterweise gilt das Lied gerade in dieser vierstimmigen Fassung allgemein als eines der gelungensten Lieder Nielsens. <hi rend="italic">DK-Kk</hi> CNS 220, S.&#8239;13</head>
+               </figure>
+               
+               <p>Wie aber steht es um die Schauspielmusik? Es ließe sich eigentlich <name ref="#geertinger-pers015">Nielsens</name> Musik zu <hi rend="italic"><title>Moderen</title></hi> &#x2013; wie überhaupt Schauspielmusik generell &#x2013; auch zu den in Zusammenarbeit entstandenen Werken zählen; die Konsequenzen einer radikalen Stellungnahme sind allerdings sowohl für die komponistenorientierte Gesamtausgabe als auch für das traditionelle Werkverzeichnis so weitreichend, dass eine eingehende Besprechung hier nicht erfolgen kann. In Katalogen wie FS und CNS, aber auch in Werkübersichten im <hi rend="italic">New Grove</hi><ref target="#NewGrove2001" type="bibl" xml:id="geertinger-ftn11" n="11">S.&#8239;894</ref> und der <hi rend="italic">MGG</hi>,<note xml:id="geertinger-ftn12" n="12"><ref target="#MGG2004" type="bibl">Sp.&#8239;1085</ref>. In beiden Fällen freilich zeigt die Überschrift <q>Incidental Music</q> bzw. <q>Bühnenmusik</q> an, dass nur die Musik gemeint ist.</note> sind Werktitel wie <hi rend="italic"><title>Moderen</title></hi> ohne jeglichen Zusatz verzeichnet, was den Eindruck erwecken könnte, <name ref="#geertinger-pers015">Nielsen</name> sei der Urheber des Werkes <hi rend="italic"><title>Moderen</title></hi>, nicht nur derjenige der Musik dazu. Im Schauspiel mehr noch als in der Oper ist der Text das tragende Element des Werkes; die Musik ist nicht selten eher ein Zusatz zum Text. Im CNW &#x2013; und meist auch in der <name ref="#geertinger-pers015">Nielsen</name>-Gesamtausgabe, allerdings gerade mit Ausnahme der Musik zu <hi rend="italic"><title>Moderen</title></hi> &#x2013; geschieht die Ausgrenzung des gesprochenen Dialogs stets explizit: Der vollständige Titel der Nummer&#x00A0;18 im CNW lautet somit <hi rend="italic"><title ref="#geertinger-work033">Musik til <name ref="#geertinger-pers017">Helge Rodes</name> skuespil <q>Moderen</q>, Opus&#x00A0;41</title></hi> (<q>Musik zu <name ref="#geertinger-pers017">Helge Rodes</name> Schauspiel <soCalled>Die Mutter</soCalled>, Opus&#8239;41</q>). Doch auch der sorgfältig formulierte, wenn auch etwas umständliche &#x2013; und definitiv auf keine Quelle zurückzuführende &#x2013; Titel kaschiert lediglich das eigentliche Problem: dass Schauspielmusik grundsätzlich kein selbständiges Werk darstellt, sondern nur ein Teil desselben. Das Problem wird in der Gesamtausgabe noch deutlicher: Sofern die Musik wie in der Nielsen-Ausgabe tatsächlich allein, d.&#8239;h. ohne den kompletten Dialog ediert und veröffentlicht wird, entsteht der Eindruck eines amputierten Werkes, das sich nur schwer als dramatisch sinnvolle, kohärente Einheit verstehen lässt und als solche vermutlich auch nie intendiert gewesen ist. Rechnet man je nach historischer Situation ferner Inszenierung, Bühnenbild etc. zum Werk hinzu, wird noch deutlicher, dass gewisse Werke sich nicht als individuelle, sondern nur als kollektive Schöpfungen verstehen lassen und deshalb in der Edition der Werke einer einzelnen Person einen fragwürdigen Platz einnehmen. Die Schauspielmusik mag somit noch ein Nagel zum Sarg der Komponisten-Gesamtausgabe sein, sofern diese bemüht ist, im emphatischen Sinne die <hi rend="italic">Werke</hi> eines Komponisten vorzustellen. Ähnliches gilt für das komponistenbezogene <hi rend="italic">Werk</hi>verzeichnis. Ob das Problem durch eine Umbenennung in etwa <soCalled>Kompositionsverzeichnis</soCalled> zu lösen ist, mag dahingestellt bleiben.</p>
+            </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="ReinmarEmans2007">Reinmar Emans (Hg.), <title level="m">Mit Fassung. Fassungsprobleme in Musik- und Textphilologie. Helga Lühning zum 60.&#8239;Geburtstag</title>, Laaber 2007</bibl>
+               <bibl xml:id="Wiora1983">Walter Wiora, <title level="m">Das musikalische Kunstwerk</title>, Tutzing 1983</bibl>
+               <bibl xml:id="Seidel1987">Wilhelm Seidel, <title level="m">Werk und Werkbegriff in der Musikgeschichte</title>, Darmstadt 1987 (Erträge der Forschung&#x00A0;246)</bibl>
+               <bibl xml:id="DCM"><title level="m">Dansk Center for Musikudgivelse</title>, URL: <ptr target="http://www.kb.dk/dcm/"/></bibl>
+               <bibl xml:id="CNW"><title level="m">Catalogue of Carl Nielsen&#x2019;s works</title>, URL: <ptr target="http://www.kb.dk/dcm/cnw.html"/></bibl>
+               <bibl xml:id="MEI">Website der <title level="m">Music Encoding Initiative</title> (MEI), URL: <ptr target="http://www.music-encoding.org"/></bibl>
+               <bibl xml:id="Fog_Schousboe1965">Dan Fog und Torben Schousboe, <title level="m">Carl Nielsen. Kompositioner. En Bibliografi</title>, Kopenhagen 1965</bibl>
+               <bibl xml:id="Bjoernum_Moellerhoej1992">Birgit Bjørnum und Klaus Møllerhøj, <title level="m">Carl Nielsens Samling. Katalog over komponistens musikhåndskrifter i Det kongelige Bibliotek</title>, Kopenhagen 1992</bibl>
+               <bibl xml:id="Nielsen-Edition1998_2009"><title level="m">Carl Nielsen Udgaven / The Carl Nielsen Edition</title>, Kopenhagen 1998&#x2013;2009</bibl>
+               <bibl xml:id="NewGrove2001">David Fanning, Art. <title level="a">Nielsen, Carl (August)</title>, in: <title level="m">The New Grove Dictionary of Music and Musicians</title>, Bd.&#8239;17, London 2001, S.&#8239;887&#x2013;897</bibl>
+               <bibl xml:id="MGG2004">Claus Røllum-Larsen, Art. <title level="a">Nielsen, Carl (August)</title>, in: <title level="m">Die Musik in Geschichte und Gegenwart</title>, Personenteil Bd.&#8239;12, Kassel 2004, Sp.&#8239;1081&#x2013;1096</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

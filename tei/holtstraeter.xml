@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><q>Drahtgestelle, die Wortdraperien tragen</q></title>
+            <title type="sub">Zur Figurenführung in der <hi rend="italic">Euryanthe</hi> von Helmina von Chézy und Carl Maria von Weber</title>
+            <author>
+               <name><forename>Knut</forename> <surname>Holtsträter</surname></name>
+               <affiliation>wirkte während seines Studiums der Musikwissenschaft und der Allgemeinen Literaturwissenschaft an der Universität Paderborn an der Carl-Maria-von-Weber-Gesamtausgabe mit und gab dort das <hi rend="italic">Grand Duo contertant</hi>, Op.&#8239;48 heraus. 
+                  Von 2002 bis 2006 arbeitete er an der HfM Weimar und promovierte dort über Mauricio Kagels musikalisches Werk. Von 2007 bis 2015 war er Akademischer Rat am Lehrstuhl für Musiktheaterwissenschaft und am Forschungsinstitut für Musiktheater der Universität Bayreuth. Seit Mai 2015 ist er wissenschaftlicher Mitarbeiter am Zentrum für Populäre Kultur und Musik der Universität Freiburg und Herausgeber des Jahrbuchs <hi rend="italic">Lied und Populäre Kultur</hi>.<!--Albert-Ludwigs-Universität Freiburg, Zentrum für Populäre Kultur und Musik, Freiburg im Breisgau--></affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="holtstraeter-pers001">
+                  <p>Auber, Daniel-François-Esprit</p>
+               </person>
+               <person xml:id="holtstraeter-pers002">
+                  <p>Beauvoir, Simone de</p>
+               </person>
+               <person xml:id="holtstraeter-pers004">
+                  <p>Beethoven, Ludwig van</p>
+               </person>
+               <person xml:id="holtstraeter-pers005">
+                  <p>Berlioz, Hector</p>
+               </person>
+               <person xml:id="holtstraeter-pers006">
+                  <p>Brentano, Clemens</p>
+               </person>
+               <person xml:id="holtstraeter-pers008">
+                  <p>Butler, Judith</p>
+               </person>
+               <person xml:id="holtstraeter-pers010">
+                  <p>Chézy, Helmina von</p>
+               </person>
+               <person xml:id="holtstraeter-pers013">
+                  <p>Dahlhaus, Carl</p>
+               </person>
+               <person xml:id="holtstraeter-pers014">
+                  <p>Dux, Günter</p>
+               </person>
+               <person xml:id="holtstraeter-pers016">
+                  <p>Erath, Johannes</p>
+               </person>
+               <person xml:id="holtstraeter-pers019">
+                  <p>Felsenstein, Walter</p>
+               </person>
+               <person xml:id="holtstraeter-pers020">
+                  <p>Fincher, David</p>
+               </person>
+               <person xml:id="holtstraeter-pers021">
+                  <p>Friedrich, Sven</p>
+               </person>
+               <person xml:id="holtstraeter-pers022">
+                  <p>Fullgraf, Marita</p>
+               </person>
+               <person xml:id="holtstraeter-pers024">
+                  <p>Gluck, Christoph Willibald</p>
+               </person>
+               <person xml:id="holtstraeter-pers025">
+                  <p>Goffman, Erving</p>
+               </person>
+               <person xml:id="holtstraeter-pers027">
+                  <p>Hanson, Curtis</p>
+               </person>
+               <person xml:id="holtstraeter-pers028">
+                  <p>Henze-Döhring, Sabine</p>
+               </person>
+               <person xml:id="holtstraeter-pers030">
+                  <p>Hofmüller, Max</p>
+               </person>
+               <person xml:id="holtstraeter-pers032">
+                  <p>Honolka, Kurt</p>
+               </person>
+               <person xml:id="holtstraeter-pers033">
+                  <p>Horpácsy, Zsolt</p>
+               </person>
+               <person xml:id="holtstraeter-pers034">
+                  <p>Ibsen, Henrik</p>
+               </person>
+               <person xml:id="holtstraeter-pers035">
+                  <p>Klein, Joachim</p>
+               </person>
+               <person xml:id="holtstraeter-pers036">
+                  <p>Kluttig, Roland</p>
+               </person>
+               <person xml:id="holtstraeter-pers037">
+                  <p>Kruse, Georg Richard</p>
+               </person>
+               <person xml:id="holtstraeter-pers038">
+                  <p>Lazarowicz, Klaus</p>
+               </person>
+               <person xml:id="holtstraeter-pers039">
+                  <p>Leibowitz, René</p>
+               </person>
+               <person xml:id="holtstraeter-pers042">
+                  <p>Metzger, Heinz-Klaus</p>
+               </person>
+               <person xml:id="holtstraeter-pers043">
+                  <p>Meyerbeer, Giacomo</p>
+               </person>
+               <person xml:id="holtstraeter-pers044">
+                  <p>Montfort, Miguel</p>
+               </person>
+               <person xml:id="holtstraeter-pers046">
+                  <p>Mosel, Ignaz Franz Edler von</p>
+               </person>
+               <person xml:id="holtstraeter-pers047">
+                  <p>Mozart, Wolfgang Amadeus</p>
+               </person>
+               <person xml:id="holtstraeter-pers048">
+                  <p>Hardenberg, Friedrich von</p>
+               </person>
+               <person xml:id="holtstraeter-pers049">
+                  <p>Porter, Michael</p>
+               </person>
+               <person xml:id="holtstraeter-pers050">
+                  <p>Riehn, Rainer</p>
+               </person>
+               <person xml:id="holtstraeter-pers051">
+                  <p>Rossini, Gioacchino</p>
+               </person>
+               <person xml:id="holtstraeter-pers052">
+                  <p>Ruckgraber, Katharina</p>
+               </person>
+               <person xml:id="holtstraeter-pers053">
+                  <p>Rudorff, Ernst</p>
+               </person>
+               <person xml:id="holtstraeter-pers055">
+                  <p>Scheele, Heike</p>
+               </person>
+               <person xml:id="holtstraeter-pers056">
+                  <p>Schlegel, Friedrich</p>
+               </person>
+               <person xml:id="holtstraeter-pers057">
+                  <p>Spontini, Gaspare</p>
+               </person>
+               <person xml:id="holtstraeter-pers058">
+                  <p>Stanislawski, Konstantin Sergejewitsch</p>
+               </person>
+               <person xml:id="holtstraeter-pers059">
+                  <p>Strauss, Richard</p>
+               </person>
+               <person xml:id="holtstraeter-pers060">
+                  <p>Tusa, Michael C.</p>
+               </person>
+               <person xml:id="holtstraeter-pers063">
+                  <p>Veit, Joachim</p>
+               </person>
+               <person xml:id="holtstraeter-pers065">
+                  <p>Völlm, Gesine</p>
+               </person>
+               <person xml:id="holtstraeter-pers066">
+                  <p>Wagner, Richard</p>
+                  <p n="work" xml:id="holtstraeter-work038"><hi rend="italic">Tannhäuser</hi></p>
+               </person>
+               <person xml:id="holtstraeter-pers071">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="holtstraeter-work016"><hi rend="italic">Euryanthe</hi>, WeV C.9</p>
+                  <p n="work" xml:id="holtstraeter-work020"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+               </person>
+               <person xml:id="holtstraeter-pers072">
+                  <p>Weber, Max Maria von</p>
+               </person>
+               <person xml:id="holtstraeter-pers073">
+                  <p>Wittmann, Carl Friedrich</p>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-holtstraeter-vspace-1mm">\vspace{-1mm}</rendition>
+            <rendition xml:id="latex-holtstraeter-vspace-2mm">\vspace{-2mm}</rendition>
+            <!--<rendition xml:id="latex-ziegler-vspace1mm">\vspace{1mm}</rendition>-->
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-18T11:53:00"
+            who="https://github.com/peterstadler">Anpassungen an aktuelles Layout.</change>
+         <change when="2015-11-04T20:27:00"
+            who="https://github.com/peterstadler">Abstract eingefügt und Fahne 6 an Autor verschickt.</change>
+         <change when="2015-11-04T12:06:00"
+         who="https://github.com/peterstadler">Korrekturen eingearbeitet und Fahne 5 an Autor verschickt.</change>
+         <change when="2015-10-27T14:56:00"
+            who="https://github.com/peterstadler">Korrekturen eingearbeitet und Fahne 4 an Autor verschickt.</change>
+         <change when="2015-10-24T12:35:00"
+            who="https://github.com/peterstadler">Korrekturen eingearbeitet und Fahne 3 an Autor verschickt.</change>
+         <change when="2015-10-20T15:24:00"
+            who="https://github.com/peterstadler">Fahne 2 an Autor verschickt.</change>
+         <change when="2015-10-19T22:05:00"
+         who="https://github.com/peterstadler">Korrekturen 1 von Holtsträter eingearbeitet.</change>
+         <change when="2015-10-02T10:20:15.47+02:00"
+            who="https://github.com/peterstadler">Text und Literatur ausgezeichnet und Personen und Werke identifiziert.</change>
+         <change when="2015-09-25T13:59:15.47+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="holtstraeter-abstract">
+            <p>Das Feuilleton und die Forschung sind sich in ihrem Urteil über Carl Maria von Webers und Helmina von Chézys Oper <hi rend="italic">Euryanthe</hi> einig: Während die Musik wegweisend ist, krankt das Libretto an unzähligen Stellen, wobei die Figurenführung am stärksten betroffen ist. Die Einmütigkeit, mit der Chézys Anteil am Misslingen betont wird, war mir verdächtig und damit Anlass genug, die Figuren der <hi rend="italic">Euryanthe</hi> anhand des Werks und seiner Rezeption einer genderspezifischen Lesart zu unterziehen. Konsultierend dazu soll die Frankfurter Neuinszenierung der <hi rend="italic">Euryanthe</hi> aus dem Jahr&#x00A0;2015 herangezogen werden, da in ihr Aspekte des sozialen Geschlechts zur Sprache gebracht werden.</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="holtstraeter-div1">
+            <head/>
+            <p>Keine andere Oper des 19.&#8239;Jahrhunderts scheint die Fachwelt so anzugehen wie <name ref="#holtstraeter-pers071">Carl Maria von Webers</name> <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title>. <name ref="#holtstraeter-pers039">René Leibowitz</name> zählt sie als <soCalled>verfluchte</soCalled> oder <soCalled>verachtete</soCalled> Oper zu den <soCalled>Phantomen der Oper</soCalled>.<note xml:id="holtstraeter-ftn1" n="1"><ref target="#Leibowitz1978" type="bibl"/>. Vgl. auch <ref target="#Leibowitz1986" type="bibl"/>. Die Übersetzung stammt vermutlich von <name ref="#holtstraeter-pers042">Metzger</name> und/oder <name ref="#holtstraeter-pers050">Riehn</name>.</note> 
+               <name ref="#holtstraeter-pers032">Kurt Honolka</name> erklärt sie zum <quote source="#holtstraeter-ftn2">Schmerzenskind ihres Schöpfers</quote>.<note xml:id="holtstraeter-ftn2" n="2" type="bibl"><ref target="#Honolka1961" type="bibl">S.&#8239;5</ref>. <name ref="#holtstraeter-pers032">Kurt Honolka</name> (1913–1988) war als Musikkritiker, Musikschriftsteller und als Übersetzer von Opernlibretti tätig, meines Wissens war er an Opernproduktionen nicht beteiligt.</note> 
+               <name ref="#holtstraeter-pers028">Sabine Henze-Döhring</name> spricht ihr, indem sie sie als <soCalled>gescheitertes Projekt</soCalled> deklariert, gar den Werkcharakter ab. <name ref="#holtstraeter-pers022">Marita Fullgraf</name> geht davon aus, dass die Oper <soCalled>gerettet</soCalled> werden müsse.<note xml:id="holtstraeter-ftn3" n="3">So die Titel von <ref target="#HenzeDoehring1997" type="bibl"/>; <ref target="#Fullgraf1997" type="bibl"/>.</note> 
+               Dabei sind sich alle Autorinnen und Autoren einig, dass die Musik für sich wegweisend und über den <title ref="#holtstraeter-work020"><hi rend="italic">Freischütz</hi></title> hinausführend sei, aufgrund des schlechten Librettos aber nicht richtig zur Wirkung finden konnte.<note xml:id="holtstraeter-ftn4" n="4">Wobei berücksichtigt werden muss, dass der öffentlich gemachte Streit <name ref="#holtstraeter-pers010">Chézys</name> mit <name ref="#holtstraeter-pers071">Weber</name> um das Honorar erheblich dazu beitrug, dem Bild der zweifach geschiedenen und in einem Männerberuf tätigen Frau einen weiteren Makel hinzuzufügen. Vgl. hierzu auch <ref target="#Waidelich2018" type="bibl"/>.</note>
+            </p>
+            <p>Schreibt man über <name ref="#holtstraeter-pers071">Webers</name> und <name ref="#holtstraeter-pers010">Chézys</name> <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title>, sei es für ein Lexikon, eine wissenschaftliche Publikation oder ein Programmheft, kommt man offenbar nicht daran vorbei, die überaus komplexe Entstehungsgeschichte des Textbuches zu umreißen und gegebenenfalls für eine ästhetische Bewertung des Werkes zu nutzen. Die Entstehungsgeschichte der <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title> entwickelt ein eigenes Narrativ, sie drängt sich quasi als unautorisierter <soCalled>Paratext</soCalled> dem Werk auf. Dies allerdings aus gutem Grund, denn bei Wiederaufführungen haben Dramaturgen, Regisseure und musikalische Leiter versucht, das Werk in fast allen Belangen zu verbessern. Wie <name ref="#holtstraeter-pers022">Fullgraf</name> darstellt, handelt es sich bei den meisten Umarbeitungen nicht nur um aufführungspraktische Striche, wie sie allenthalben an Opern vorgenommen wurden und werden, um sie von der Länge her an Aufführungskonventionen und den jeweiligen Publikumsgeschmack anzupassen, sondern um Versuche, das Textbuch hinsichtlich der Dramaturgie und der Textgestalt zu verändern.<ref type="bibl" target="#Fullgraf1997" xml:id="holtstraeter-ftn5" n="5"/>
+               <name ref="#holtstraeter-pers032">Honolka</name> griff für seine Bearbeitung von 1961 substantiell in den Text ein. Er fragt sich im Vorwort zur Ausgabe: 
+               <quote source="#holtstraeter-ftn6">Warum Euryanthe-Bearbeitung? Weil die Oper mit dem ursprünglichen Libretto nicht lebensfähig ist; weil alle bisherigen Restaurationsversuche fehlschlugen; weil es ein Jammer ist, daß eine der genialsten Partituren der deutschen Operngeschichte in den Archiven vergilben soll.</quote><ref target="#Honolka1961" type="bibl" xml:id="holtstraeter-ftn6" n="6">S.&#8239;5</ref> 
+            </p>
+            <p>Das Argument, Musik und Text seien aufgrund der unterschiedlichen künstlerischen Stilhöhe und Qualität nicht miteinander vereinbar, knüpft an <name ref="#holtstraeter-pers066">Wagners</name> Aussagen zu <name ref="#holtstraeter-pers010">Chézys</name> und <name ref="#holtstraeter-pers071">Webers</name> Zusammenarbeit an,<ref type="bibl" target="#Wagner2000" xml:id="holtstraeter-ftn7" n="7"/>
+               die, so vermutet <name ref="#holtstraeter-pers060">Michael C. Tusa</name> am Rande seiner Untersuchung von <name ref="#holtstraeter-pers071">Webers</name> Einfluss auf <name ref="#holtstraeter-pers066">Wagner</name>, die Umarbeitungsversuche um 1900 und in der Folgezeit stark beeinflusst hätten.<note xml:id="holtstraeter-ftn8" n="8"><ref target="#Tusa1986" type="bibl">S.&#8239;209, Fußnote 18</ref>. <name ref="#holtstraeter-pers066">Wagner</name> wirft <name ref="#holtstraeter-pers071">Weber</name> in <title>Oper und Drama</title> noch vor, dass er versuchte <q>das Drama selbst aus der absoluten Melodie zu konstruieren. <name ref="#holtstraeter-pers071">Weber</name> war hierbei in einem tiefen Irrtume, aber in einem Irrtume, der ihm mit Notwendigkeit hatte ankommen müssen</q>. Die Beobachtung <name ref="#holtstraeter-pers060">Tusas</name>, dass <name ref="#holtstraeter-pers066">Wagner</name> in seinen frühen Schriften der Ansicht war, dass <name ref="#holtstraeter-pers071">Weber</name> als Künstler <q>frivol</q> gehandelt hätte, kann ich aus der Argumentation von <title>Oper und Drama</title> (besonders S.&#8239;89), nicht nachvollziehen. In <name ref="#holtstraeter-pers066">Wagners</name> <q>Geschichte des Scheiterns der Oper</q>, mit der <name ref="#holtstraeter-pers066">Wagner</name> in Teil&#x00A0;I seine Hauptschrift eröffnet, steht <name ref="#holtstraeter-pers071">Weber</name> auf der Seite der von innerer Notwendigkeit angetriebenen und <soCalled>deutschen</soCalled> Komponisten <name ref="#holtstraeter-pers024">Gluck</name>, <name ref="#holtstraeter-pers047">Mozart</name> und <name ref="#holtstraeter-pers004">Beethoven</name>, während <name ref="#holtstraeter-pers057">Spontini</name>, <name ref="#holtstraeter-pers051">Rossini</name>, <name ref="#holtstraeter-pers001">Auber</name>, <name ref="#holtstraeter-pers005">Berlioz</name> und <name ref="#holtstraeter-pers043">Meyerbeer</name> auf der Gegenseite jeweils die frivolen und <soCalled>ausländischen</soCalled> Kontrahenten bilden. Insofern würde ich <name ref="#holtstraeter-pers066">Wagners</name> spätere Aussagen über <name ref="#holtstraeter-pers071">Weber</name>, wie die in <q>Über das Opern-Dichten und -Komponieren im besonderen</q> (Gesammelte Schriften und Dichtungen, Bd.&#8239;X, S.&#8239;167–168) nicht wie <name ref="#holtstraeter-pers060">Tusa</name> als vom Alter gemildert betrachten, sondern als direkte Anknüpfung an die Aussagen seiner Züricher Zeit. Vgl. hierzu auch  <ref type="bibl" target="#Veit1999">bes. S.&#8239;179</ref>.</note> 
+               Wie <name ref="#holtstraeter-pers022">Fullgraf</name> darstellt, gab es aber bereits vor 1900 eine Reihe an Umarbeitungsversuchen.</p>
+            <p>Beispielhaft für die Rezeption der Oper im 20.&#8239;Jahrhundert ist der Änderungsversuch des Opernsängers und Regisseurs <name ref="#holtstraeter-pers030">Max Hofmüller</name> (1881–1981) aus dem Jahr 1935. 
+               Er begründet seine Umdichtungen und Striche damit, dass <name ref="#holtstraeter-pers010">Chézys</name> Textdichtung <q>verhängnisvolle Fehler</q> habe, die trotz der angeblichen <q>elfmaligen Umarbeitung</q> von <name ref="#holtstraeter-pers071">Webers</name> Seite – <name ref="#holtstraeter-pers030">Hofmüller</name> wusste noch nicht, dass <name ref="#holtstraeter-pers071">Weber</name> und <name ref="#holtstraeter-pers010">Chézy</name> gemeinsam an den Änderungen gearbeitet haben – nicht ganz behoben werden konnten.<note xml:id="holtstraeter-ftn9" n="9"><ref target="#Hofmueller1935" type="bibl">S.&#8239;4</ref>. <name ref="#holtstraeter-pers030">Hofmüller</name> war von der Spielzeit 1928/29 bis 1933 Intendant der Kölner Oper, führte Regie an großen Häusern im In- und Ausland – u.&#8239;a. hat er 1938 bei den Salzburger Festspielen den <title ref="#holtstraeter-work038">Tannhäuser</title> neu inszeniert – wirkte nach Kriegsende an der Bayerischen Staatsoper und veröffentlichte 1963 ein Buch über die <hi rend="italic">Atemtechnischen Grundlagen des Kunstgesanges</hi>. Vgl. auch <ref type="bibl" target="#Schwandt2007">S.&#8239;269</ref>.</note> 
+               (Erst in neuerer Zeit, von <name ref="#holtstraeter-pers060">Tusa</name> erstmals detailliert und darauf aufbauend von <name ref="#holtstraeter-pers063">Joachim Veit</name> und <name ref="#holtstraeter-pers028">Henze-Döhring</name> mit jeweils verschiedenen Fragen und Schwerpunkten zusammenfassend dargestellt,<note xml:id="holtstraeter-ftn10" n="10"><ref target="#holtstraeter-Veit1998" type="bibl"/>; <ref target="#HenzeDoehring1997" type="bibl"/></note> 
+               wurde deutlich, dass <name ref="#holtstraeter-pers071">Weber</name> ebenso eine gute Zahl der Monita des Textbuches verantwortet.) </p>
+         </div>
+         <div xml:id="holtstraeter-div2">
+            <head><q>Die Mängel des Textes</q></head>
+            <p><name ref="#holtstraeter-pers030">Hofmüller</name> knüpft vom Duktus und von der Argumentation her an <name ref="#holtstraeter-pers066">Wagners</name> Aussagen über <name ref="#holtstraeter-pers071">Weber</name> in <hi rend="italic">Oper und Drama</hi>, an, wenn er <name ref="#holtstraeter-pers071">Webers</name> Festhalten am <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title>-Stoff erklärt:
+               <quote source="#holtstraeter-ftn11">Daß Weber trotz seiner klaren Einsicht in die Mängel des Textes von ihm nicht abließ, ist nur durch einen tief inneren Wesenszug dieses edlen Menschen verständlich. Seinem wahrhaft ritterlichen Gefühl, dem Grundzug seines vornehmen Charakters, mochte dieses Buch die Möglichkeit bieten, die reichsten Quellen seines Innern erschließen und musikalisch ausströmen zu lassen. Er war sich seiner schöpferischen Kraft bewußt und glaubte wohl die leeren Worte dieser Pseudodichtung mit dem blutvollen Strom seiner Musik zum Leben zu erwecken.</quote><ref type="bibl" target="#Hofmueller1935" xml:id="holtstraeter-ftn11" n="11">S.&#8239;4</ref>
+            </p>
+            <p>Der Vorwurf des schriftstellerischen Unvermögens der <name ref="#holtstraeter-pers010">Chézy</name> überschattet den öffentlichen und wissenschaftlichen Diskurs bis in die heutige Zeit. Ein ebenso fragwürdiges wie in seiner Gestrigkeit extremes Beispiel stellt das Vorwort von <name ref="#holtstraeter-pers044">Miguel Montfort</name> zur Wiederauflage des Partiturdrucks von Schlesinger dar, in dem es heißt, dass die <q>eher minderbegabte <name ref="#holtstraeter-pers010">Helmina von Chézy</name></q> den Ansprüchen nicht genügen konnte und <q>angesichts der mittlerweile abstrusen Handlung, ihren Ungereimtheiten, der unlösbaren dramaturgischen Probleme</q> überfordert war, zumal <quote source="#holtstraeter-ftn12">es ihr doch auffällig an einem Gefühl für die Melodie ihrer eigenen Worte mangelte, von deren Rhythmus ganz zu schweigen</quote>.<note xml:id="holtstraeter-ftn12" n="12" type="bibl">
+               <ref target="#Montfort2003" type="bibl">zweite von fünf nicht paginierten Seiten</ref>. Bei dieser <soCalled>Studienpartitur</soCalled> handelt es sich um eine bis zur Unbrauchbarkeit korrumpierte Reproduktion von der bei Schlesinger in Berlin herausgegebenen Partitur. Die allgemeinen Verlagsangaben, das Vorwort von <name ref="#holtstraeter-pers053">Ernst Rudorff</name> und die Plattennummer wurden getilgt, der gesamte Spiegel um etwa 80&#x00A0;Prozent in der Waagerechten gestaucht. Mit der Tilgung von <name ref="#holtstraeter-pers053">Rudorffs</name> Vorwort verschwanden neben seinen behutsamen Kürzungsvorschlägen und den Anmerkungen zu <name ref="#holtstraeter-pers071">Webers</name> berüchtigter Uneinheitlichkeit bei der Auszeichnung des akzidentiellen Notentexts <!--und--> auch seine Erklärungen zu den verschiedenen im Anhang der Partitur dargestellten Aufführungsvarianten. (Bei dem Namen <name ref="#holtstraeter-pers044">Miguel Montfort</name> könnte es sich übrigens um ein Pseudonym handeln: Es gab in frühen Fassungen des Textbuches noch einen Ritter Montfort, der Euryanthe in der Einöde auffindet und dazu bringt, zurückzukehren.) Für Verweise auf die Partitur nutze ich das Digitalisat des Exemplars der Bayerischen Staatsbibliothek, online abrufbar unter URN: <ref target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11133482-1">urn:nbn:de:bvb:12-bsb11133482-1</ref>. 
+               </note> 
+               Leider färbt die Lieblosigkeit, mit der diese Raubkopie erstellt wurde, auch auf das Vorwort ab, <name ref="#holtstraeter-pers044">Montfort</name> zitiert leider ungenau <name ref="#holtstraeter-pers039">Leibowitz</name> und spricht in diesem Zusammenhang von der <q>Mißgestalt des Textbuchs</q>. <name ref="#holtstraeter-pers039">Leibowitz</name> spricht an entsprechender Stelle von <q>faiblesse</q>, also von Schwäche.<ref type="bibl" target="#Leibowitz1978" xml:id="holtstraeter-ftn13" n="13">S.&#8239;147</ref>
+            </p>
+            <p>Woran genau entzündete sich die Kritik? Neben den sprachlichen Mängeln sind es für <name ref="#holtstraeter-pers030">Hofmüller</name> vor allem die dramaturgischen Mängel des Librettos, die dem Werk insgesamt zusetzen: 
+               <quote source="#holtstraeter-ftn14">Die Szenen zeichnen wohl – noch dazu dramaturgisch und im Sprachstil höchst anfechtbar – das äußere Geschehen einer Handlung nach, aber nirgends ist der Antrieb dazu im Innern der handelnden Personen spürbar. Es sind Drahtgestelle, die Wortdraperien tragen. Aber nur, wo die Handelnden mit Herz und Hirn <hi rend="italic">von innen</hi> heraus in Konflikt geraten oder sich in Liebe finden, ist dramatisches Leben möglich. Wenn das nicht hinter jedem Satz, hinter jedem Handlungsmotiv zu spüren ist, dann ist das Theater unkünstlerisch. Ja, die Bühne wird wirkungslos und verlogen, wenn sie eine abstoßende Imitation an die Stelle wahren Impulses setzt.</quote><ref target="#Hofmueller1935" type="bibl" xml:id="holtstraeter-ftn14" n="14">S.&#8239;5. Kursiva im Original gesperrt.</ref>
+               Folgernd sieht <name ref="#holtstraeter-pers030">Hofmüller</name> seine Aufgabe als Regisseur und Herausgeber darin, <quote source="#holtstraeter-ftn15">dem roten Faden der Gefühlssymphonie zu folgen und eine von dem gleichen inneren Antrieb hergeleitete Handlung zu erfinden</quote>.<ref type="bibl" target="#Hofmueller1935" xml:id="holtstraeter-ftn15" n="15" rend="ibid">S.&#8239;5</ref> 
+            </p>
+            <p>Als eine sehr frühe, den bereits im direkten Zusammenhang der Uraufführung kursierenden Vorwurf der dramaturgischen Fehlerhaftigkeit äußernde Stimme lässt sich der mit dem Pseudonym <q>Vocas</q> gezeichnete Beitrag aus der <hi rend="italic">Zeitung für die elegante Welt</hi> vom 11.&#8239;November 1824 heranziehen. Der anonyme Autor wundert sich darüber, warum der König bei Euryanthes öffentlicher Bloßstellung nicht einfach nachfragt. Damit werde die ganze Handlung desavouiert:
+               <quote source="#holtstraeter-ftn16">Gleichwohl ist die Scene von so großer dramaturgischer Wichtigkeit, daß das Gebäude augenblicklich zusammenstürzt, sobald man sie herausziehen wollte. Das ganze folgende Spiel läuft von diesem Mißverständnisse aus, und auf der Spitze dieses Momentes spinnt sich gleichsam das ganze Gewebe. Es ist nicht wahrscheinlich, daß die Dichterin diesen Umstand übersehen habe; aber wundern muß man sich, Sünden gegen die ersten Elemente der dramatischen Kunst zu bemerken. Das Interesse hört auf, denn man muß annehmen, daß man sich blos dem Witz einer Laune überliefern soll, und daß man Theilnahme an dem Schicksale von Menschen fordert, die es sogleich enden können, wenn sie wollen. Ist eine Person unter ihnen zu beklagen, so ist es Euryanthe, wegen des Unfalls, unter das Richteramt einfältiger Decernenten gestellt zu seyn.</quote><ref target="#Vocas1824" type="bibl" xml:id="holtstraeter-ftn16" n="16">Sp.&#8239;1779</ref>
+            </p>
+            <p>Diesen Stellen lassen sich freilich andere hinzugesellen, wie beispielsweise Euryanthes Scheintod, der völlig unmotiviert ist und zu sehr an Agathes ebenfalls schwer plausible, plötzliche Ohnmacht aus dem <title ref="#holtstraeter-work020"><hi rend="italic">Freischütz</hi></title> erinnert, oder das plötzliche Erscheinen der Riesenschlange in der Einöde, das beim Publikum eher Irritation als Schrecken heraufbeschwört. <name ref="#holtstraeter-pers063">Veit</name> versteht <name ref="#holtstraeter-pers010">Chézy</name> und <name ref="#holtstraeter-pers071">Weber</name> nach seiner neuerlichen Sicht auf die Quellen beide als Autoren des Textbuchs, sein vorsichtiges Resümee bringt die Gemengelage wohl am besten auf den Punkt: <quote source="#holtstraeter-ftn17">Beiden Autoren gingen offensichtlich im Laufe ihrer Arbeiten das Gespür für Zusammenhänge verloren. Sicherlich zeigt sich hier die Schwäche der Dichterin.</quote><ref type="bibl" target="#holtstraeter-Veit1998" xml:id="holtstraeter-ftn17" n="17">S.&#8239;192</ref>
+            </p>
+            <p>Überblickt man die Gemengelage an Urteilen, hegt sich der leise Zweifel, ob sich dieser Diskurs in seiner Einmütigkeit nicht ein wenig verselbständigt hat. Und es wäre  hinsichtlich der Analyse und Interpretation zu fragen, ob man dem Werk nicht (wieder) mehr Vertrauen in sein mögliches Gelingen geben sollte. <name ref="#holtstraeter-pers013">Carl Dahlhaus</name> postuliert diesen Vertrauensvorschuss für die Analyse als substantiell:
+               <quote source="#holtstraeter-ftn18">Analyse ist der niemals ganz gelingende Versuch, zu begreifen und zu demonstrieren, daß sämtliche Teile eines Werkes sinnvoll aufeinander und auf das Ganze bezogen sind und daß jeder von ihnen in der Funktion aufgeht, die er erfüllt. Der Triumph der Analyse besteht in dem Nachweis, daß ein Werk, mindestens ein geglücktes, nicht anders sein kann, als es ist. Wo ein Komponist Möglichkeiten sieht, realisierte neben unterdrückten, sucht der Analysierende nach Notwendigkeit. Von Zufall oder Überschuß spricht er nur widerstrebend.</quote><ref target="#Dahlhaus1969" type="bibl" xml:id="holtstraeter-ftn18" n="18">S.&#8239;223–224</ref>
+            </p>
+            <p>Dem Werk Sinn und Notwendigkeit und Gelingen zu unterstellen, würde im Fall der <title ref="#holtstraeter-work016">Euryanthe</title>, insbesondere hinsichtlich der Figurenführung, welche sich über die Analyse des Librettos und der Partitur darlegt, bedeuten, dass wir den Figuren zugestehen, ihre jeweiligen Selbste und ihr eigenes Dasein zu besitzen, auch wenn es innerhalb der Handlung Elemente gibt, die uns dieses generelle Zugeständnis, den ersten Interpretationsakt des Publikums überhaupt, bereuen lassen. (Und man kann offen zugeben: Es gibt Libretti aus dem 19.&#8239;Jahrhundert, die in dieser Hinsicht eine größere Zumutung sind.) Mein Bestreben liegt dabei nicht in einem <soCalled>Zurechtlesen</soCalled> des Textbuches und der Oper im Ganzen, sondern zunächst in der Abgrenzung von <name ref="#holtstraeter-pers066">Wagners</name> Perspektive auf das Werk, welche die folgenden Debatten und Verbesserungsversuche stark beeinflusste. Ich verstehe sein Pauschalurteil über <name ref="#holtstraeter-pers010">Chézys</name> Anteil an der <title ref="#holtstraeter-work016">Euryanthe</title> als eine diskursive Konstruktion, die dazu führt, alle Aspekte des Librettos von vornherein wertungsästhetisch zu verbrämen. Um den Faden für eine hermeneutische Interpretation aufnehmen zu können, ist es unerlässlich, das Werk zunächst als gelungen anzusehen. Das Libretto verstehe ich hierbei als gemeinsam autorisiertes Gemeinschaftswerk <name ref="#holtstraeter-pers010">Chézys</name> und <name ref="#holtstraeter-pers071">Webers</name>.<note xml:id="holtstraeter-ftn19" n="19">Aspekte der Werkgenese haben bereits <name ref="#holtstraeter-pers060">Tusa</name>, <name ref="#holtstraeter-pers063">Veit</name> und <name ref="#holtstraeter-pers022">Fullgraf</name> sowie <name ref="#holtstraeter-pers028">Henze-Döhring</name> thematisiert. <ref target="#Tusa1983" type="bibl"/>; <ref target="#holtstraeter-Veit1998" type="bibl"/>; <ref target="#Fullgraf1997" type="bibl"/>
+               </note>
+            </p>
+            <p>Eigentlicher Anlass für diesen Beitrag war aber eine Seminarsitzung, in der ich Adolars und Lysiarts Wortgefecht in Anwesenheit des Königs und seiner Vasallen als Konstellation dargestellt habe, wie sie in Hollywood-Filmen wie <hi rend="italic">Fight Club</hi> (Regie: <name ref="#holtstraeter-pers020">David Fincher</name>, twentieth Century Fox 1999) beschrieben werden. In seiner Struktur erinnert der Wettbewerb in dieser Männerrunde an zeitgenössischen Battle Rap, eine Performance-Kunst, in der es darum geht, den Kontrahenten möglichst originell und kunstvoll zu beleidigen und herabzusetzen.<note xml:id="holtstraeter-ftn20" n="20">Für den Mainstream künstlerisch verarbeitet findet sich diese Kultur in Filmen wie <hi rend="italic">8 Mile</hi> (Regie: <name ref="#holtstraeter-pers027">Curtis Hanson</name>, Universal Pictures 2002) dargestellt. Aber es gibt auch besonders im nordamerikanischen Raum eine Battle Rap-Kultur, die gänzlich ohne (eingespielte) Musik auskommt und bei der sich die Kontrahenten bei den Wettbewerben allein auf die rhythmisch-musikalische Struktur ihrer Texte verlassen.
+            </note> 
+               <name ref="#holtstraeter-pers010">Chézy</name> ließe sich aus dieser Perspektive als emanzipierte Schriftstellerin interpretieren, die die Mechanismen männlicher Herrschaft innerhalb der erzählten Welt <hi rend="italic">Euryanthes</hi> dar- und bloßstellt und damit auch Aussagen zur historischen Wirklichkeit der sozialen Geschlechter im 19.&#8239;Jahrhundert trifft. In der Vorbereitung dieses Aufsatzes verlor diese Interpretation aber recht bald an Glanz, wenngleich einige Aspekte dieser Interpretation noch haltbar sind und überlebt haben. Insofern war es für mich ein glücklicher Zufall, dass die Frankfurter Inszenierung von <name ref="#holtstraeter-pers016">Johannes Erath</name><note xml:id="holtstraeter-ftn21" n="21">Musikalische Leitung: <name ref="#holtstraeter-pers036">Roland Kluttig</name>, Inszenierung: <name ref="#holtstraeter-pers016">Johannes Erath</name>, Bühnenbild: <name ref="#holtstraeter-pers055">Heike Scheele</name>, Kostüme: <name ref="#holtstraeter-pers065">Gesine Völlm</name>, Licht: <name ref="#holtstraeter-pers035">Joachim Klein</name>, Dramaturgie: <name ref="#holtstraeter-pers033">Zsolt Horpácsy</name> (Premiere am 5.&#8239;April 2015). Besucht habe ich die Vorstellung vom 25.&#8239;April 2015, die Angaben der Mitwirkenden stammen von der beigelegten Abendbesetzung.
+               </note> 
+               einige Aspekte des sozialen Geschlechts thematisiert hat. <!--<name ref="#holtstraeter-pers016">Eraths</name> Inszenierung soll hier als das fungieren, wofür es mir beim Verfassen dieses Beitrags gedient hat, einerseits als Ratgeber zur Interpretation und andererseits als Steigbügel für die Argumentation, die sich bereits im Vornherein vorbegrifflich manifestiert hat.--> Diesen Impuls aufnehmend möchte ich <name ref="#holtstraeter-pers016">Eraths</name> Inszenierung einer kursorischen Analyse unterziehen und deren <soCalled>regietheatrale</soCalled> Einsichten bezüglich des sozialen Geschlechts nutzen, um  <name ref="#holtstraeter-pers071">Webers</name> und <name ref="#holtstraeter-pers010">Chézys</name> Werk selbst, also das Libretto und die Musik, einer neuerlichen Sichtung zu unterziehen. Eine genderspezifische Lesart der <title ref="#holtstraeter-work016">Euryanthe</title> lässt – so viel sei bereits verraten – besonders die männlichen Figuren in einem anderen Lichte dastehen und bot manche Überraschung. </p>
+            <p>Die Frankfurter Inszenierung zeichnet sich dadurch aus, dass sie das Textbuch und die Partitur – soweit ich das anhand lediglich einer Aufführung beobachten konnte – vollständig wiedergibt. An unzähligen Stellen (und an einigen Stellen des Programmhefts) wird deutlich, dass der Dramaturg <name ref="#holtstraeter-pers033">Zsolt Horpácsy</name> umfangreich recherchiert hat und dass dieses Wissen auch in <name ref="#holtstraeter-pers016">Eraths</name> Regiearbeit mit eingeflossen ist. Ein Aspekt, der auf ein Studium der wissenschaftlichen Literatur hinweist, ist der Einsatz von pantomimischen Szenen. Die Frankfurter Inszenierung versucht die problematischen Handlungsmomente, welche aus der unklaren Darstellung von Adolars Familiengeheimnis herrühren, plausibel zu gestalten, indem die tragische und im besten Sinne romantische Liebesbeziehung zwischen Emma und Udo von stummen Darstellern in pantomimischen Passagen dargestellt wird. Damit greift die Dramaturgie <!--auf eine frühe Entwurfsfassung <name ref="#holtstraeter-pers071">Webers</name> und <name ref="#holtstraeter-pers010">Chézys</name> zurück, die aber vermutlich aus Gründen der Wiener Zensur, die das Werk für die Uraufführung am 25.&#8239;Oktober 1823 durchlaufen musste, nicht durchgeführt wurde.-->auf eine Variante einer frühen Entwurfsfassung zurück, die aber vermutlich angesichts der Wiener Zensur, die das Werk für die Uraufführung am 25.&#8239;Oktober 1823 durchlaufen musste, von <name ref="#holtstraeter-pers071">Weber</name> und <name ref="#holtstraeter-pers010">Chézy</name> wieder getilgt worden war.<note xml:id="holtstraeter-ftn22" n="22"><ref type="bibl" target="#Tusa1983">S.&#8239;274</ref> und in Grundzügen auch schon Wittmann, einleitender Text zu <ref target="#Wittmann1890" type="bibl"><!--S.&#8239;3–17, hier -->S.&#8239;8</ref>. Die Geistergeschichte hat erst im Laufe der Erstellung der verschieden Textfassungen an Raum gewonnen. (<ref type="bibl" target="#Tusa1983">S.&#8239;273</ref>) In dem Libretto findet sich – so <name ref="#holtstraeter-pers060">Tusa</name> – im Manuskript des Kopisten, welches mit Anmerkungen aus <name ref="#holtstraeter-pers071">Webers</name> Hand durchsetzt ist, eine pantomimische Szene skizziert, die während der Ouvertüre aufgeführt werden soll: Eglantine belauscht in der Gruft Euryanthe und Emmas Geist (ebd., S.&#8239;483–484). (Damit ist die Geistererscheinung dargestellt, aber die tragische Geschichte von Udo und Emma noch nicht erzählt. Und eigentlich wäre damit ja auch das Geheimnis, von dem Eglantine erst in dem Duett mit Euryanthe erfährt, schon bei der Ouvertüre verraten.) Die Frankfurter Inszenierung nimmt das von <name ref="#holtstraeter-pers071">Weber</name> in den Vorfassungen angedeutete pantomimische Element in den Grundzügen auf, Emma (dargestellt von <name ref="#holtstraeter-pers052">Katharina Ruckgraber</name>) wird in vielen Szenen während der gesamten Oper als eine Art stumme Doppelgängerin Euryanthes geführt. (Im dritten Akt übernimmt die bis dahin stumme Darstellerin den Gesangspart der Bertha, welche Adolar von Lysiarts und Eglantines Hochzeit berichtet.) So ist sie ähnlich Euryanthe in Hochzeitsweiß gekleidet und hat eine hellblonde Langhaar-Perücke. Ihr wird an den Stellen, in denen von der tragischen Liebesgeschichte berichtet wird, ein Udo als stumme Rolle (dargestellt von <name ref="#holtstraeter-pers049">Michael Porter</name>) hinzugesellt. 
+               </note>
+            </p>
+            <p>Bevor die Hauptfiguren der Oper untersucht werden sollen, möchte ich zunächst auf eine sehr grundsätzliche Frage eingehen, die mir besonders bei der <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title> oft unterbelichtet, aber dennoch als unerlässlich erscheint, und zwar, wie wir auf die Idee kommen, bei Opernfiguren überhaupt auf eine Persönlichkeit und damit eine Motivation zu schließen. Oder in anderen Worten:<milestone rendition="#latex-holtstraeter-vspace-2mm"/></p>
+         </div>
+         <div xml:id="holtstraeter-div3">
+            <head><milestone rendition="#latex-holtstraeter-vspace-1mm"/><q>Papa, warum schreit die Frau so?</q> – Das Problem der generellen Plausibilität in der Oper</head>
+            <p><milestone rendition="#latex-holtstraeter-vspace-1mm"/>Ohne Zweifel ist es generell schwierig, in der musikalischen Gattung der Oper, die durch so ein hohes Maß an Künstlichkeit in der menschlichen Äußerung geprägt ist, und deren Handlung von den in den jeweiligen Gattungsgrenzen bestimmten musikalischen Formkonventionen stark beeinflusst ist, eine Motivation der Figuren zu vermuten, wie man sie in Werken des realistischen Sprechtheaters zum Ausgang des 19.&#8239;Jahrhunderts findet und spätestens mit <name ref="#holtstraeter-pers059">Richard Strauss’</name> Opern auch im Musiktheater. Die Oper des 19.&#8239;Jahrhunderts und früherer Zeit mithilfe von durch den Realismus beeinflussten Schauspieltheorien wie der von <name ref="#holtstraeter-pers058">Konstantin Sergejewitsch Stanislawski</name> zu interpretieren und zu erwarten, dass die in das enge Regelkorsett der Oper geschnürten Sängerinnen und Sänger in der Lage sein müssten, reale oder fiktive Personen nachzuzeichnen, die für das Publikum plausibel handeln, ist sicher eines der fruchtbarsten Missverständnisse, die das Regietheater in der Oper heraufbeschworen hat. Dieses Missverständnis ist aber in der allgemeinen Grundannahme verankert, dass Personen auf der Bühne überhaupt in der Lage sind, plausibel andere Personen zu repräsentieren. Diese Vorannahme, welche die Zuschauer als Vorleistung mit in den Theatersaal bringen, ist dem von <name ref="#holtstraeter-pers025">Erving Goffman</name> so genannten <q>theatralen Rahmen</q> geschuldet, einem – wie <name ref="#holtstraeter-pers038">Klaus Lazarowicz</name> formuliert – <q>contrat théâtral</q>, der vom Publikum (annähernd) bedingungslos unterzeichnet wird, sonst wüsste es mit dem ganzen Treiben auf der Bühne nichts anzufangen.<note xml:id="holtstraeter-ftn23" n="23"><ref target="#Goffmann1974" type="bibl">dort Kap. <q>The Theatrical Frame</q>, S.&#8239;123–155</ref>; <ref type="bibl" target="#Lazarowicz1991">S.&#8239;24</ref>.
+               </note> 
+            </p>
+            <p>In der musikalischen Gattung der Oper ist dieser Vertrag zwischen Künstler und Publikum ebenfalls abgeschlossen, jedoch enthält er andere Klauseln als derjenige für das Sprechtheater. Der Umstand, dass Menschen sich ansingen statt miteinander zu sprechen, ist unter dieser Prämisse weder weniger plausibel noch unrealistischer als im Sprechtheater, sondern er gehört zu dieser Absprache. Dieses Einverständnis ermöglicht dem Publikum Personen auf der Bühne, die durch die theatrale Situation der Oper bedingt höchst unrealistisch oder unplausibel handeln, in der Eigengesetzlichkeit der Handlung als Menschen wahrzunehmen und sich mit ihnen zu identifizieren, d.&#8239;h. aus ihren Äußerungen und Handlungen auf ihre Gefühle, Ziele, Ängste und Hoffnungen zu schließen und ihnen eine Motivation zu unterstellen, die mit seiner Erfahrungswelt, seinem Wissen, wie Menschen normalerweise handeln, in Einklang gebracht werden kann.<note xml:id="holtstraeter-ftn24" n="24">Siehe hierzu u.&#8239;a. <ref target="#Graver2003" type="bibl"/>
+            </note> Dieses Verstehenkönnen eines Menschen, oder eher einer von einem uns unbekannten Menschen dargestellten Figur, ist (besonders bei musiktheatralen Gattungen) eine Leistung des Publikums, der ein sehr intensiver Sozialisations- und Konditionierungsprozess vorangegangen sein muss. Neben den Zumutungen, die <name ref="#holtstraeter-pers025">Goffman</name> für die Kommunikationssituation im Sprechtheater beschreibt, darf das Publikum in der Oper sich nicht über vermeintlich unsinnige Wort- und Textwiederholungen im Gesang wundern, es muss aufgeben, jedes Wort überhaupt verstehen zu wollen, es muss sich daran gewöhnen, dass tödlich Verletzte oder Sterbende noch genügend Vitalität und Spannkraft für die Abschiedsarie aufbringen, ebenso wird jeder Anlass genutzt, um in Tanz auszubrechen usw. usf. Oder um es mit <name ref="#holtstraeter-pers032">Honolka</name> zu formulieren: <quote source="#holtstraeter-ftn25">Opernbesucher sind Kummer gewohnt und schlucken allerlei Unsinn</quote>.<ref type="bibl" target="#Honolka1961" xml:id="holtstraeter-ftn25" n="25">S.&#8239;8</ref> Zwischen einer Inszenierung von <name ref="#holtstraeter-pers019">Walter Felsenstein</name> und der eines Stadttheater-Intendanten liegt diesbezüglich nur ein gradueller Unterschied.</p>
+            <p>Setzt man diese Prämissen der Kunstform im Allgemeinen und der Gattung im Speziellen als gegeben voraus, ist es ja durchaus möglich, sich über die Motivation und das daraus resultierende Handeln von Opernfiguren zu verständigen. Insofern ist das vermeintlich leichte Psychologisieren von Opernfiguren, welches in Programmhefttexten, Rezensionen oder Regiekonzepten anzutreffen ist, ein ungemein spezialisierter diskursiver Akt, der aber auch sinnvoll und notwendig ist. In diesem Diskurs über Oper im Allgemeinen ist die Diskussion über die anscheinend mangelhafte Führung der Handlung in <name ref="#holtstraeter-pers071">Webers</name> <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title> und ihrer Figuren zu begreifen. Oder anders gesagt: Der Umstand, dass in der Opernfachwelt über <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title> gesprochen wird wie über ein Werk von <name ref="#holtstraeter-pers034">Ibsen</name> ist diesem Operndiskurs geschuldet.</p>
+         </div>
+         <div xml:id="holtstraeter-div4">
+            <head>Die Figuren</head>
+            <p><name ref="#holtstraeter-pers028">Henze-Döhring</name> bindet ihre Argumentation wohlweislich an die Gattungsgeschichte der Oper an und nähert sich dem Werk mit der Frage, welche Implikationen mit <name ref="#holtstraeter-pers071">Webers</name> Bezeichnung des Werks als <q>Große Oper</q> einhergehen. Diese müssten neben musikalischen und formalen Kriterien auch die Anlage der Figuren beeinflussen. So spielen nach <name ref="#holtstraeter-pers046">Ignaz Franz Edler von Mosel</name> bei der Unterscheidung von Oper und Singspiel die Frage nach dem Stoff und den Personen eine Rolle. Nehme das Singspiel <quote source="#holtstraeter-ftn26">[b]eynahe jeden Stoff, der dem Lustspiele, dem Drama, oder dem romantischen Schauspiele angemessen ist</quote>,<ref target="#Mosel1820" type="bibl" xml:id="holtstraeter-ftn26" n="26">Sp.&#8239;683</ref> findet die Oper hingegen <q>nur erhabene Charaktere, grosse Handlungen, mächtige Leidenschaften würdig, zur Vorstellung gebracht zu werden</q>. Sie <quote source="#holtstraeter-ftn27">nimmt ihre Stoffe am liebsten aus der antiken Welt und stellt uns Personen vor, die wir ihrer Gemüths- und Körperkraft, ihrer oft an das Unglaubliche gränzenden Thaten wegen, für mehr als Menschen, für überirdische, an das Göttliche gränzende Wesen zu halten geneigt sind.</quote><note type="bibl" xml:id="holtstraeter-ftn27" n="27"><ref type="bibl" target="#Mosel1820" rend="ibid">Sp.&#8239;689</ref>. Vgl. auch <ref target="#HenzeDoehring1997" type="bibl">S.&#8239;131</ref>.</note> 
+               Wie vertragen sich solche zeitgenössischen Aussagen, die damals wie heute den ästhetischen Diskurs über Oper prägten, mit der Personenführung und der Handlung in der <title ref="#holtstraeter-work016">Euryanthe</title>?</p>
+            <p>Bemerkenswert ist ja, dass die Figuren – wie <name ref="#holtstraeter-pers039">Leibowitz</name> anmerkt – zwar traditionell als ein hohes und ein niederes Paar angelegt sind, aber in ihrer jeweiligen Charakterisierung eine Vielschichtigkeit aufweisen, die sie in manchen Situationen widersprüchlich handeln lässt.<ref type="bibl" target="#Leibowitz1978" xml:id="holtstraeter-ftn28" n="28">S.&#8239;164</ref>
+               Für eine Inszenierung gelte es, die Komplexität der Charaktere, sowohl auf Seite der Protagonisten als auch der Antagonisten, nicht einfach zu bemängeln, sondern für eine Inszenierung zu nutzen. Die Frankfurter Inszenierung scheint diesen Impuls aufzunehmen, wenn sie versucht, viele Handlungsmomente als durch (zwischen-)geschlechtliche Liebe, und zwar in ihren Ausprägungen als Begehren, Verlangen und Sehnsucht, motiviert zu begründen. Beispielsweise erscheint Adolar als stumme Rolle in dem Duett Nr.&#8239;7 (<q>Unter ist mein Stern gegangen</q>) zwischen Euryanthe und Eglantine auf der Bühne, was dazu führt, dass Eglantine den Anlass nutzt, sich ihm mit verführerischen Bewegungen zu nähern. Dieses Handeln lässt die von den beiden Frauen gesungene Textzeile  <q>Du nur bist mein Alles</q> zumindest für Eglantine nicht mehr nur als Beteuerung der hier noch möglich erscheinenden Freundschaft mit Euryanthe verstehen, sondern auch als Ausdruck ihrer Hoffnungen bezüglich Adolar.</p>
+            <!--<pb/>-->
+            <p>Beginnen wir mit der Figur, die in der frühen Entwicklungsphase des Textbuches als letzte mit Solonummern bedacht wurde<ref target="#Tusa1983" type="bibl" xml:id="holtstraeter-ftn29" n="29">S.&#8239;277</ref> und auf der Bühne als erstes stirbt: die Intrigantin Eglantine, welche sich mit Lysiart verbündet. Bei der Frankfurter Inszenierung wird Eglantine als Bestandteil der Männerwelt inszeniert: Nachdem Lysiart sich abfällig über die Treue der Frauen geäußert hat, um Adolar zu provozieren, verlassen bis auf Eglantine alle Frauen des Hofstaates die Bühne. Sie nimmt an der weiteren Auseinandersetzung als stumme Zeugin teil und gehört ab diesem Zeitpunkt in gewisser Weise zur Männergesellschaft. Bereits im ersten Akt wird sie als außerhalb der höfischen Gesellschaft stehend charakterisiert: Eglantine hält sich in der als Offizierskasino gehaltenen Kulisse vorwiegend an der Theke auf und lässt sich vom Barkeeper Drinks machen, die sie dann auch trinkt. Sie ist offensichtlich auch in gesellschaftlicher Hinsicht – zumindest bezogen auf die ritterliche Männergesellschaft – die Gegenspielerin oder das Gegenmodell zu Euryanthe, da sie tatsächlich von den Männern/Rittern als Sexualobjekt wahrgenommen und begehrt wird. Die Charakterisierung von Eglantine in dieser Inszenierung ist insofern interessant, als sie einen Aspekt des Textbuchs hervorhebt, der oft übersehen wird, und zwar ihre gesellschaftliche Stellung, welche sie ja selber in ihrem Dialog mit Euryanthe beschreibt:</p>
+            <floatingText xml:id="holtstraeter-float01">
+               <body>
+                  <sp>
+                     <speaker>Eglantine</speaker>
+                     <l>Du wandeltest den Kerker</l>
+                     <l>Zur Freystatt um, warst mild der Heimathlosen,</l>
+                     <l>Die ihrer Ahnen Burg in Staub gesehn,</l>
+                     <l>Den Vater, als Rebell, geächtet, flüchten –</l>
+                     <l>Mich tödtet die Erinn’rung!</l>
+                  </sp>
+                  <sp>
+                     <speaker>Euryanthe</speaker>
+                     <l>Du Geliebte,</l>
+                     <l>Getrost blick in die Zukunft, mir vertraue!</l>
+                  </sp>
+                  <sp>
+                     <speaker>Eglantine</speaker>
+                     <l>Dir? Nimmer hast Du mir Vertrau’n gewährt, […]<note xml:id="holtstraeter-ftn30" n="30">Textbuch, 1.&#8239;Akt, 3.&#8239;Scene, S.&#8239;11–12. Dieses und die folgenden Zitate stammen aus dem <ref target="#Textbuch1824" type="bibl"/>.</note>
+                        <!--<note xml:id="holtstraeter-ftn30" n="30"><!-\-Weber u. Chézy, Euryanthe, hg. v. Wittmann, -\-><ref type="bibl" target="#Wittmann1890">1.&#8239;Akt, 6.&#8239;Auftritt, S.&#8239;30</ref>. Bei den jeweiligen Textstellen beziehe ich mich auf die Ausgabe von <name ref="#holtstraeter-pers073">Carl Friedrich Wittmann</name>, <q>Euryanthe. | Romantische Oper in drei Aufzügen | von | Karl Maria von Weber. | Dichtung von Helmine von Chezy. Vollständiges Buch. Durchgearbeitet und herausgegeben von Carl Friedrich Wittmann,</q> Leipzig: Philipp Reclam [etwa 1890]. Sie ist vor den jeweiligen immensen Umarbeitungen im 20.&#8239;Jahrhundert entstanden und hat als Reclam-Ausgabe vermutlich eine recht weite Verbreitung gefunden. Zwar hat auch <name ref="#holtstraeter-pers073">Wittmann</name> in den Text eingegriffen, aber er hat die zu streichenden Passagen zumindest nur eingeklammert und nicht komplett getilgt.
+                     </note>--></l>
+                  </sp>
+               </body>
+            </floatingText>
+            <!--<pb/>-->
+            <p>Sie gehört einem gefallenen Adelsgeschlecht an, hatte also vormals, als unverheiratete Hofdame und Tochter eines Vasallen, den gleichen Status wie Euryanthe, ist aber nach dem Fall der Familie in Sippenhaft geraten und hat die Adelsprivilegien verloren.<note xml:id="holtstraeter-ftn31" n="31">Im Textbuch zur Uraufführung wie auch in der Ausgabe von <name ref="#holtstraeter-pers073">Wittmann</name>, S.&#8239;20, lautet die Auskunft <q>Eglantine von Puiset, eine Gefangene, Tochter eines Empörers</q>. <ref target="#Fullgraf1997" type="bibl">S.&#8239;48–49</ref>, dokumentiert eine frühe Textvariante in der 2.&#8239;Szene des 1.&#8239;Akts, die der Rede von Eglantine ein wenig mehr Zeit gibt. Dort beklagt Eglantine den gewaltsamen Tod ihrer Eltern und das Schleifen der Heimatburg.</note> 
+               Obwohl sie mit Euryanthes Ankunft in Nevers<note xml:id="holtstraeter-ftn32" n="32">Es sei angemerkt, dass die mittelalterliche Erzählung, die <name ref="#holtstraeter-pers010">Chézy</name> vorgelegen hat, sich bis auf den Namen des Königs nicht mit historischen Fakten untermauern lässt. Insofern lässt sich über die Dauer der freundschaftlichen Beziehung der beiden Frauen nur mutmaßen. Aber es ist bemerkenswert, dass Euryanthe im Laufe dieser Freundschaft offensichtlich nur wenig von sich preisgegeben hat.</note> eine Herrin gefunden hatte, die sie als Vertraute und Freundin akzeptiert, plagt sie die Haft und der Statusverlust so sehr, dass sie gegenüber Euryanthe nur Hass empfindet. (Es ist bemerkenswert, dass diese Hintergrundinformationen, welche im Bühnengeschehen ohnehin leicht untergehen können, sogar von einem so skrupulösen Herausgeber wie <name ref="#holtstraeter-pers073">Carl Friedrich Wittmann</name> zur Streichung vorgeschlagen wurden.)<note xml:id="holtstraeter-ftn33" n="33"><name ref="#holtstraeter-pers073">Carl Friedrich Wittmann</name> (1839–1903), u.&#8239;a. Leiter des Hoftheaters in Gera, ab 1884 für Reclam tätig, vgl. <ref target="#Ewald2006" type="bibl"/>. <name ref="#holtstraeter-pers073">Wittmann</name> hat in seiner Ausgabe der <title ref="#holtstraeter-work016">Euryanthe</title> nur wenige Stellen zur Streichung vorgeschlagen, vorzugsweise bei Dialogstellen und Chören. Im ersten Akt zu Anfang des dritten Auftritts sind fünf Zeilen des Dialogs zwischen Euryanthe und Eglantine getilgt. Die nächsten Streichungen finden sich im 3.&#8239;Akt, 1.&#8239;Auftritt im Gespräch Euryanthes und Adolars in der Einöde, dort sind insgesamt 17&#x00A0;Zeilen im Rezitativ und neun Zeilen im Duett zur Streichung vorgeschlagen. Ebenso solle der komplette abschließende Chor im 3.&#8239;Akt, 8.&#8239;Auftritt mit insgesamt acht Textzeilen wegfallen, im neunten Auftritt zwei Zeilen im Rezitativ, im zehnten Auftritt vier Zeilen Adolars und im Schlusschor fünf Textzeilen. Insgesamt sollen also 50&#x00A0;Textzeilen wegfallen. Dafür gibt er Anweisungen, die man eher in einem Regiebuch vermutet, bspw. Vorschläge für die räumliche Figurenführung der Ensembleszenen in Form von Stellungsplänen.
+               </note> 
+               Die Frankfurter Inszenierung zeigt diesen Statusverlust in all seiner Hässlichkeit, indem sie Eglantine als entwurzelte Marketenderin darstellt.</p>
+            <p>Die namensgebende Figur der Oper, Euryanthe, erscheint aus der Lektüre des Librettos heraus schwer verständlich. Mit ihrer eigenartigen Passivität, ihrer bis in den Tod standhaften Liebe und ihrem unerschütterlichen Festhalten an der Wahrheit und an der Treue besitzt sie Charaktereigenschaften, die nicht unbedingt dazu angelegt sind, die Handlung voranzutreiben oder eine Entwicklung der Figur zu begünstigen. Insofern ist es nicht erstaunlich, wenn sie gegenüber den anderen Hauptfiguren, die gewissermaßen diese Aufgaben unter sich aufteilen, merkwürdig blass und passiv erscheint. Diese <soCalled>Schwäche</soCalled> Euryanthes ist aber in der Handlung als Konfliktmoment intendiert.</p>
+            <p>Innerhalb der Gesellschaft der Ritter erfüllt Euryanthe eine repräsentative Funktion, sie schmückt und krönt, so der König, die Siegesfeier: <quote source="#holtstraeter-ftn34">Sie wird der Schmuck des Hofes seyn</quote>.<ref target="#Textbuch1824" type="bibl" xml:id="holtstraeter-ftn34">1.&#8239;Akt, 1.&#8239;Scene, S.&#8239;4</ref><!--<ref type="bibl" target="#Wittmann1890" xml:id="holtstraeter-ftn34" n="34">S.&#8239;23</ref>--> 
+               So viel Wertschätzung kann alleine durch ihre körperliche Attraktivität nicht gegeben sein, denn offensichtlich ist, dass Adolar ihr zugewiesener Partner ist und alle Ritter und Vasallen sich hüten müssten, sie in dieser Hinsicht zu preisen.<note xml:id="holtstraeter-ftn35" n="35">Es ist überhaupt unklar, ob das <q>Schmücken</q> oder die <q>Schönheit</q> Euryanthes sich auf die äußeren Merkmale der weiblichen Person beziehen – und damit vielleicht in der Inszenierung hervorgehoben werden müssen –, denn nach <name ref="#holtstraeter-pers008">Butler</name> werden solche Attribute <soCalled>eingeschrieben</soCalled>: <q><soCalled>the body</soCalled> appears as a passive medium on which cultural meanings are inscribed or as the instrument through which a set of cultural meaning for itself</q>. <ref target="#Butler1990" type="bibl">S.&#8239;8</ref>.
+               </note> 
+               Ihre eigentliche Qualität oder – um es mit <name ref="#holtstraeter-pers002">Simone de Beauvoir</name> zu bezeichnen – ihr von einer patriarchalen Gesellschaft ausgehandelter Wert als Objekt und <q>Eigentum</q><ref type="bibl" target="#Beauvoir1949" xml:id="holtstraeter-ftn36" n="36">S.&#8239;108–110</ref> 
+               liegt in ihrer Treue und ihrer Eignung als Gegenstand von Minne. So singt der Chor nach Adolars Minne auf Euryanthe:</p>
+            <floatingText xml:id="holtstraeter-float02">
+               <body>
+                  <lg>
+                     <l>Heil Adolar, Heil, Euryanth, der Schönen,</l>
+                     <l>Der Liebe Heil, in reiner Unschuld Glanz!</l>
+                     <l>Dich, Held und Sänger, müsse Ruhm bekrönen,</l>
+                     <l>Doch Treue reicht den schönsten Lebenskranz.<ref type="bibl" target="#Textbuch1824" xml:id="holtstraeter-ftn37">1.&#8239;Akt, 1.&#8239;Scene, S.&#8239;6</ref><!--<ref target="#Wittmann1890" type="bibl" xml:id="holtstraeter-ftn37" n="37">S.&#8239;25</ref>--></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>Die Frauentreue oder Gattinnentreue wird hier gleichgesetzt mit der Treue des Vasallen zu seinem Lehnsherrn, deswegen singt gerade der König so oft davon. Die Braut Euryanthe ist in jeglicher Hinsicht wirklich <q>vorzeigbar</q> und damit das krasse Gegenbild zu Eglantine. Sogar der König wird zum unverhohlenen Bewunderer ihrer weiblichen Qualitäten. Mit <name ref="#holtstraeter-pers008">Judith Butler</name> lässt sich die Männergesellschaft in dieser Oper als eine beschreiben, die Frauen und im besonderen Euryanthe, nur als Objekte nutzt. Ähnlich wie Eglantine hat Euryanthe keine Möglichkeit über sich selbst zu bestimmen und zu einem handelnden Subjekt zu werden.</p>
+            <p>Euryanthes <soCalled>Funktion</soCalled> als Braut und zukünftige Gattin, also ihre direkte Beziehung zu Adolar, ist hingegen durch die romantische Liebe geprägt, durch das gegenseitige Aufgehen im geliebten Partner und durch die Opferbereitschaft bis in den Tod. (Emma und Udo sind diesbezüglich als Vorbild zu sehen.) So singen Adolar und Euryanthe bei ihrem langerhofften Wiedersehen im vierten Auftritt des zweiten Aktes: <milestone rendition="#latex-holtstraeter-vspace-1mm"/></p>
+            <floatingText xml:id="holtstraeter-float03">
+               <body>
+                  <lg>
+                     <l>Hin nimm die Seele mein</l>
+                     <l>Athme mein Leben ein!</l>
+                     <l>Laß mich ganz Du nur seyn.</l> 
+                     <l>Ganz bin ich Dein!</l>
+                     <l>Seufzer, wie Flammen weh’n,</l> 
+                     <l>Selig um Lindrung fleh’n,</l>
+                     <l>Laß mich in Lust und Wehn</l> 
+                     <l>An Deiner Brust vergehn.<note xml:id="holtstraeter-ftn38" n="38"><!--<ref type="bibl" target="#Wittmann1890">S.&#8239;43</ref>--><ref type="bibl" target="#Textbuch1824">2.&#8239;Akt, 4.&#8239;Scene, S.&#8239;24</ref>. Diese Zeilen werden in der Finalszene des dritten Aktes von Adolar und Euryanthe als Duett in verkürzter Form wiederholt und lassen sich daher als Motto für Ihre Beziehung auffassen. Die hier angegebenen fünften und sechsten Zeilen fallen weg, da die <q>Lindrung</q> ja nun eingetroffen ist.</note></l>
+                  </lg>
+               </body>
+            </floatingText>
+            
+            <p>Wie steht es um Adolar, der im ersten Akt so leicht in Lysiarts Intrigenfalle tappt? Nach <name ref="#holtstraeter-pers039">Leibowitz</name> zeigen sich von Anfang an die <quote source="#holtstraeter-ftn39">Charaktereigenschaften eines melancholischen und zärtlichen Mannes</quote>.<note xml:id="holtstraeter-ftn39" n="39" type="bibl">In diesem Wortlaut im Programmheft der Frankfurter Aufführung, S.&#8239;32, aus der dt. Übers. in dem Band über Carl Maria von Weber in der Reihe Musik-Konzepte, S.&#8239;63. Vgl. auch <ref type="bibl" target="#Leibowitz1978">S.&#8239;164</ref>: <q>La première intervention d’Adolar – qui, par al suite, se révélera comme un personnage vaillant, héroïque et passionné – nous le fait voir sous les traits d’un être mélancolique et tendre.</q>
+               </note> 
+               Zunächst aber wird er von der Gemeinschaft der Vasallen als Kriegsheld gefeiert, er genießt offensichtlich beim König besondere Gunst. Die anderen Vasallen bzw. Ritter stehen uneingeschränkt zu ihm. Sogar in dem Augenblick, in dem Euryanthe in aller Öffentlichkeit nichts gegen Lysiarts Vorwürfe erwidert, und Adolar somit als betrogener Bräutigam erscheint (2.&#8239;Akt, 7.&#8239;Auftritt), bestärken die Ritter ihn: <quote source="#holtstraeter-ftn40">Wir wollen alle mit Dir gehen</quote>.<ref target="#Textbuch1824" type="bibl" xml:id="holtstraeter-ftn40" n="40">S.&#8239;29</ref>
+            </p>
+            <p>Lysiart hingegen agiert in dieser Männergesellschaft als kalkulierender Machtmensch. Er spinnt dem offensichtlich jüngeren Adolar eine Intrige, um sein Lehen, die Grafschaft Nevers, und seinen Status zu erlangen. Auch scheint der Neid auf Adolars besondere Gunst beim König am Anfang eine Motivation für Lysiarts Handeln zu sein. Prekär und verhängnisvoll wird der Handlungsfortgang für ihn, wenn er Euryanthe <!--(wohl zum ersten Mal) leibhaftig begegnet und sich offensichtlich unsterblich in sie verliebt-->wohl zum ersten Mal leibhaftig begegnet und sich  unsterblich in sie verliebt. (Weder im Textbuch noch in der Partitur finden sich Hinweise darauf, dass Lysiart gegenüber Euryanthe schon vor ihrem Treffen zärtliche Gefühle hegte oder ihr vorher überhaupt persönlich begegnet ist. Zwar gibt die von <name ref="#holtstraeter-pers010">Chézy</name> aus dem Französischen übersetzte und von <name ref="#holtstraeter-pers056">Friedrich Schlegel</name> unter seinem Namen im Jahr 1804 herausgegebene <hi rend="italic">Geschichte der tugendsamen Euryanthe</hi> zwar darüber Auskunft, dass Euryanthe Lysiart <quote source="#holtstraeter-ftn201">wohl kannte</quote>.<note type="bibl" xml:id="holtstraeter-ftn201"><ref type="bibl" target="#Schlegel1980">S.&#8239;320</ref>. Zur Autorschaft siehe S.&#8239;XXII–XXV.</note> Den Halbsatz mit dieser Information hat <name ref="#holtstraeter-pers010">Chézy</name> 1823 in ihrer eigenen Herausgabe dieser Übersetzung jedoch getilgt, sicher aus dem Grund, dass sie sich mit Lysiarts plötzlicher Verliebtheit und Bestürzung, welche auch schon in der Textfassung von 1806 ins Auge springt, nicht vereinbaren lässt.)<note><q>Euryanthe von Savoyen. | Aus dem Manuscript | der Königl. Bibliothek zu Paris: | <q>Historie de Gerard de Nevers | et | de la belle et verteuse | Euryant de Savoy, sa mie</q> | übertragen von Helmine von Chézy, geb. Freiin Klencke | Berlin, | in der Vereins-Buchandlung. | 1823</q>. Angesichts dessen, dass die beiden Ausgaben bis in den Wortlaut annähernd identisch sind, werte ich diese Tilgung als bewussten Eingriff <name ref="#holtstraeter-pers010">Chézys</name>, um Lysiarts Reaktion Plausibilität zu verleihen.</note>
+               Gleichzeitig muss Lysiart erkennen, dass sie nie von Adolar ablassen wird. Dies führt ihn zu dem Schluss, Adolar zu töten:</p>
+            <floatingText xml:id="holtstraeter-float04">
+               <body>
+                  <lg>
+                     <l>Was soll mir ferner Gut und Land?</l>
+                     <l>Die Welt ist arm und öde, ohne sie!</l>
+                     <l><hi rend="spaced">Mein</hi> ihre Huld!? – Mein wird sie nie! –</l>
+                     <l>Vergiß, Unseliger, entflieh!</l>
+                     <l>Sie liebt ihn! – Und er sollte leben?</l>
+                     <l>Ich, schmachtend beben?</l>
+                     <l>Im Staube Sieg ihm zugestehn?</l>
+                     <l>O nein! Er darf nicht leben,</l>
+                     <l>Ich mord’ ihn unter tausend Weh’n!</l>
+                     <l>Doch, Hölle, du kannst sie mir auch nicht geben,</l>
+                     <l>Sie liebt ihn, ich muß untergeh’n!<ref target="#Textbuch1824" type="bibl">2.&#8239;Akt, 1.&#8239;Scene, S.&#8239;20–21</ref></l>
+                  </lg>
+               </body>
+            </floatingText>
+            
+            <p>In der anschließenden Arie wird klar, dass auch Euryanthe bestraft werden und vielleicht sogar sterben soll:</p>
+            
+            <floatingText xml:id="holtstraeter-float05">
+               <body>
+                  <lg>
+                     <l>So weih’ ich mich den Rachgewalten,</l>
+                     <l>Sie locken mich zu schwarzer That!</l>
+                     <l>Geworfen ist des Unheils Saat,</l>
+                     <l>Der Todeskeim muß sich entfalten!</l>
+                     <l>Zertrümm’re, schönes Bild,</l>
+                     <l>Fort, letzter, süßer Schmerz! […]<ref type="bibl" target="#Textbuch1824" rend="ibid">2.&#8239;Akt, 1.&#8239;Scene, S.&#8239;21</ref></l>
+                  </lg>
+               </body>
+            </floatingText>
+            
+            <p>Durch Zufall erfährt er dann in der zweiten Szene des zweiten Akts  von Eglantines Racheplänen und verbündet sich mit ihr. </p>
+            <p>Lysiarts Handeln ist ein tragisches. <name ref="#holtstraeter-pers071">Weber</name> betont in einem Brief an <name ref="#holtstraeter-pers010">Chézy</name> vom 28.&#8239;November 1822, dass Lysiart über die ganze Oper <q>heldenmäßig bis zuletzt</q> gehalten sein solle.<note xml:id="holtstraeter-ftn41" n="41">Programmheft der Frankfurter Aufführung, S.&#8239;31. Vgl. auch Carl-Maria-von-Weber-Gesamtausgabe. Digitale Edition, <ptr target="http://www.weber-gesamtausgabe.de/A041978"/>.</note> 
+               Diese Aussage lässt sich nur sehr schwer mit den Aussagen des Sohnes <name ref="#holtstraeter-pers072">Max Maria von Weber</name> in Einklang bringen, der Lysiart zunächst als Zyniker und Spötter beschreibt. In seinem Wesen <quote source="#holtstraeter-ftn99">ist, von seinem ersten rohen Zweifel am Werth der Frauen an, bis zum Erdolchen der Eglantine, mehr von dem gewaltsam zufahrenden, knotendurchhauenden, thöricht wagehalsigen, sinnlich rüden Wesen des Ritters, wie er wirklich war</quote>.<note xml:id="holtstraeter-ftn99" type="bibl"><ref target="#MMW2" type="bibl">S.&#8239;455</ref>. Vgl. auch <ref target="#Fullgraf1997" type="bibl">S.&#8239;79</ref>, die sich bei ihrer Interpretation der Figuren weitgehend von <name ref="#holtstraeter-pers072">Max Marias</name> Anmerkungen leiten lässt</note>
+               Lysiart gemäß <name ref="#holtstraeter-pers071">Carl Maria</name> als tragischen Helden zu verstehen, das heißt sein Handeln als aus einem tragischen Konflikt motiviert zu begründen, korrespondiert aber ganz trefflich mit <name ref="#holtstraeter-pers046">Mosels</name> Forderung nach Größe in der Gattung Oper.
+               Ebenso findet sich im Textbuch kein Hinweis darauf, dass er gegenüber dem König oder den anderen Vasallen untreu sei. Seine Verärgerung über die bevorzugte Behandlung Adolars kann er nur schwer verbergen.</p>
+            <floatingText xml:id="holtstraeter-float06">
+               <body>
+                  <sp>
+                     <speaker>Lysiart</speaker> 
+                     <l>Ich trag es nicht. <stage>(laut.)</stage> Hör an, Graf Adolar,</l>
+                     <l>Du hast uns hoch – ergetzt – mit dem Gesang,</l>
+                     <l>Wo <hi rend="italic">Alle</hi> danken, nimm auch <hi rend="italic">meinen</hi> Dank,</l>
+                     <l>Kein Sänger ringt den Preis dir ab, fürwahr!</l>
+                     <l>Vergeuden könntest du getrost dein Erbe,</l>
+                     <l>Die Zither sorgt, daß nicht ihr Held verderbe!</l>
+                  </sp>
+                  <sp>
+                     <speaker>Adolar.</speaker> 
+                     <l>Gern, Lysiart, üb’ ich mich in sanften Weisen,</l>
+                     <l>Für Mißlaut taugt ein gut gestimmtes Eisen.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lysiart.</speaker>
+                     <l>Was zürnst du gleich? Die Weise tadl’ ich nicht,</l>
+                     <l>Doch wohl die Worte vom Gedicht!</l>
+                     <l>Hör’ auf, der Frauen Treu’ so hoch zu preisen!</l>
+                     <l>Des Meeres Grund hegt Perlen, makelrein,</l>
+                     <l>Des Weibes Brust schließt keine Treue ein.</l>
+                  </sp>
+                  
+                  <stage>(Die Dame, welche Adolarn gekränzt, winkt den Frauen, die sich 
+                     mit ihr aus der Halle entfernen.)</stage>
+                  
+                  <sp>
+                     <speaker>Lysiart.</speaker>
+                     <l>Schon athm’ ich freier! – Was entgegnest du?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Adolar.</speaker>
+                     <l>Dieß acht ich keiner Antwort werth,</l>
+                     <l>Komm in den Wald, dort schließet dir mein Schwert</l>
+                     <l>Mit Gott! die gift’gen Lippen zu.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lysiart.</speaker>
+                     <l>Um schnöden Anlaß kämpfen? Nie!</l>
+                     <l>Die Warnung gab ich, – nütze sie!</l>
+                     <l>Mein junger Freund, wärst du der Preis der Ritter,</l>
+                     <l>Wär ich ein nied’rer Knecht, ich schwör’ es dir,</l>
+                     <l>Die Liebe deiner Braut gewönn’ ich mir,</l>
+                     <l>Trotz deiner Rosenwang’ und gold’nen Zither!<ref target="#Textbuch1824" type="bibl">1.&#8239;Akt, 1.&#8239;Scene, S.&#8239;6–7</ref></l>
+                  </sp>
+               </body>
+            </floatingText>
+            <p>Was Lysiart meines Erachtens jedoch zusätzlich zum Affront treibt, ist das Verhalten Adolars bei dem Festakt. Adolar zieht sich demonstrativ zurück und erregt so die Aufmerksamkeit des Königs, der ihn auffordert, eine an Euryanthe gerichtete Minne zu anzustimmen. Ihre dort besungene Treue ist lesbar als die im Krieg erwiesene Treue bzw. Loyalität des Vasallen Adolar zum Lehnsherrn, dem König. Aus der Sicht des Machtpolitikers Lysiart dient Adolars Gesang dem Zweck, sich im Augenblick des Triumphes, den Adolar genießt und ohnehin schon sicher hat, noch einmal über die anderen Vasallen zu erheben – ein Verhalten, welches aus der Sicht eines ebenfalls treuen Vasallen wie Lysiart als unwürdig erscheint.</p>
+            <p>In der Frankfurter Inszenierung wird Lysiart hingegen als gegenüber dem König respektlos dargestellt: er verneigt sich nicht vor ihm, sondern blickt ihm direkt ins Gesicht. Seine übertriebene, falsche Höflichkeit gegenüber allen Figuren auf der Bühne, begleitet von tänzelnden und manierierten Bewegungen, lassen sein Verhalten als Teil eines perfiden Spiels erscheinen. Dieses Verhalten verleiht Lysiart einerseits etwas unmotiviert Diabolisches, andererseits schwächt es den offenen Sarkasmus seiner Eingangsrede ab. Wie bereits bemerkt, geben uns weder das Textbuch noch die Partitur einen konkreten Hinweis für eine solche Charakterisierung Lysiarts.</p>
+            
+            <figure xml:id="holtstraeter-fig01" rend="notenbeispiel">
+               <graphic url="figures/holtstraeter-fig01.png" width="1178px" height="520px"/>
+               <head type="legend"><name ref="#holtstraeter-pers071">Carl Maria von Weber</name> und <name ref="#holtstraeter-pers010">Helmina von Chézy</name>: <title ref="#holtstraeter-work016">Euryanthe</title>, Partitur,<lb/> Berlin: Schlesinger [1866], 1.&#8239;Akt, Nr.&#8239;3, S.&#8239;54; online abrufbar unter <lb/> URN: <ref target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11133482-1">urn:nbn:de:bvb:12-bsb11133482-1</ref></head>
+            </figure>
+            
+            <p>Die Beherrschtheit und Abgeklärtheit Lysiarts auf dem politischen Parkett wird aber schon in der Musik deutlich. Schafft es <name ref="#holtstraeter-pers071">Weber</name> in den Rezitativen der <title ref="#holtstraeter-work016">Euryanthe</title> mit Leichtigkeit, den Gesangstext in der gesamten Oper in ein überhöhtes Sprechen zu überführen,<note xml:id="holtstraeter-ftn42" n="42"><ref type="bibl" target="#holtstraeter-Veit1998">S.&#8239;186–188</ref>, hat <name ref="#holtstraeter-pers071">Webers</name> langwierigen Arbeitsprozess an der Sprechmelodie an einer Stelle veranschaulicht.</note> 
+               so findet er auch bei Lysiarts Passagen einen Sprachtonfall, der dessen Höhnen in der Partitur musikalisch greifbar macht.
+               Beispielhaft dafür ist die Vertonung der Phrase <q>Mein junger Freund!</q> (vgl. Notenbeispiel&#x00A0;<ref target="#holtstraeter-fig01" type="crossref" rend="no"/>). Mit einem kleinen Sekundschritt von <hi rend="italic">b</hi> nach <hi rend="italic">a</hi> und dem Abstieg nach <hi rend="italic">e</hi>, umfasst die Phrase einen Tritonus, schließt  jedoch auf <hi rend="italic">fis</hi>, der Terz des D-Dur-Akkords. Die Silben <q>jung-</q> und <q>Freund</q> werden durch die Zählzeit betont und springen eigentümlich stark gedehnt hervor. Durch den doppelten Quintfall über E<hi rend="sup">7</hi> (mit Septime im Bass) nach A<hi rend="sup">7</hi> (mit der Terz <hi rend="italic">cis</hi> im Bass) hin zu D wird im Bass die Diskantklausel <hi rend="italic">d-cis-d</hi> erzeugt, was den D-Dur-Klang in Grundstellung trügerisch erscheinen lässt. In diesem Zusammenhang klingt die Dur-Terz <hi rend="italic">fis</hi> auf <q>Freund</q> einfach nur <soCalled>hart</soCalled>. Die Harmonie verschleiert hier die Zugehörigkeit der Gesangstöne zu den Akkorden und erweckt den Anschein eines harmonischen Durchgangs, der aber nur genutzt wird, um Instabilität zu erzeugen. Ebenfalls bemerkenswert ist hier ein stimmlich-klangliches Phänomen: Der (recht hohe) Bass muss bei dieser Phrase in seiner höheren Mittellage einsetzen, wodurch der Klang notwendigerweise verjüngt wird, der Abstieg in die tiefere Lage bietet ihm aber dann die Sonorität, Adolar im Hofsaal akustisch zu erreichen. Der Gesang setzt sich gegen die Orchesterstimme als ein gemächliches, Nähe und Gemütlichkeit vortäuschendes, aber letztendlich keine Unterbrechung duldendes (überhöhtes) Sprechen durch, das allen Beteiligten klarmacht, was Lysiart eigentlich denkt.</p>
+            <p>Lysiarts abwartende Haltung in seiner Rede und seine sorgfältig vorbereitenden verbalen Nadelstiche &#x2013; im Ganzen seine Souveränität in diesem Wortgefecht &#x2013; sind auch hier konkret in den Noten zu finden, so sind seinen Redebeiträgen <hi rend="italic">Andante</hi> und <hi rend="italic">Larghetto</hi> vorgezeichnet, sie werden von Akkordflächen oder von Pausen begleitet. Er nimmt sich zwischen den Sätzen Zeit und wählt anscheinend seine Worte mit Bedacht. Nur in den Teilen, in denen er zu sich spricht, scheint in schnellen Läufen der hohen Streicher, sein Zorn auf. Adolars Rezitativteile hingegen sind alle <hi rend="italic">accompagnée</hi>, und zwar von Tremolo-Streicherflächen mit starken dynamischen Kontrasten. Wenn seinen Beiträgen eine musikalische Bewegung vorangeht, dann ist sie mit <hi rend="italic">Allegro</hi> bezeichnet, zwischen seinen Sätzen ist gerade einmal genug Zeit um Luft zu holen. Adolars Entgegnungen muten in ihrer Hast, die sich über den Notentext mitteilt, spontan und unüberlegt an, was ihn dann ja auch letztendlich in Probleme bringt. In dieser Gesellschaft von gestandenen, älteren Männern, dem Parkett der höfischen Diplomatie, ist der junge Adolar derjenige, der aus der Rolle fällt. Insofern wird verständlich, dass der König erst nach längerer Zeit eingreift und dann nicht Lysiart zur Ordnung ruft, sondern Adolar: <quote source="#holtstraeter-ftn43">Mein Adolar, laß ab von diesem Streite!</quote><ref target="#Textbuch1824" type="bibl"  xml:id="holtstraeter-ftn43" n="43">1.&#8239;Akt, 1.&#8239;Scene, S.&#8239;7.</ref></p>
+            <p>In der Frankfurter Inszenierung geht Adolar (offensichtlich nach <name ref="#holtstraeter-pers039">Leibowitz&#x2019;</name> Lesart Adolars als der eines <q>melancholischen und zärtlichen Mannes</q>) nur zögernd und unwillig auf die Bitte des Königs ein, die Minne anzustimmen. Das Textbuch hingegen lässt sich an dieser Stelle &#x2013; mit Blick auf Lysiarts Verfassung in diesem Moment &#x2013; auch so lesen, dass Adolar es durch sein bei diesem Festakt offen zur Schau getragenes Verhalten geradezu darauf anlegt, von dem König gebeten zu werden. Eigentlich verhält sich Adolar bei dem Festakt in seiner Funktion als Vasall unziemlich und versucht, seinem freundlichen und ihm zugeneigten, aber offensichtlich schwachen und nachgiebigen König eine weitere Vergünstigung zu entlocken.</p>
+            <floatingText xml:id="holtstraeter-float07">
+               <body>
+                  <sp>
+                     <speaker>König.</speaker>
+                     <l>Mein Adolar, so fern dem schönen Reigen,</l>
+                     <l>So trübe bey des Festes Lust?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Adolar.</speaker>
+                     <l>Nur Sehnsucht herrscht in meiner Brust, </l>
+                     <l>Ihr muss sich jede Freude neigen.</l>
+                  </sp>
+                  <sp>
+                     <speaker>König.</speaker>
+                     <l>Erheitre dich!</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lyiart</speaker> <stage>(für sich).</stage>
+                     <l>O, Sorg’ um einen Knaben!</l>
+                  </sp>
+                  <sp>
+                     <speaker>König.</speaker>
+                     <l>Beglückend Wiedersehn ist nah!</l>
+                     <l>Weilt deine Braut in Nevers?</l>
+                  </sp>
+                  <pb/>
+                  <sp>
+                     <speaker>Adolar.</speaker>
+                     <l>Ja,</l>
+                     <l>Mein König!</l>
+                  </sp>
+                  <sp>
+                     <speaker>König.</speaker>
+                     <l>Heut&#x2019; noch soll sie Kunde haben,</l>
+                     <l>Bald soll ihr Anblick dich erfreun,</l>
+                     <l>Sie wird der Schmuck des Hofes seyn.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Adolar.</speaker>
+                     <l>Mein theurer König!<ref target="#Textbuch1824" type="bibl">1.&#8239;Akt, 1.&#8239;Scene, S.&#8239;4</ref><!--<ref target="#Wittmann1890" type="bibl" xml:id="holtstraeter-ftn44" n="44" rend="ibid">S.&#8239;23</ref>--></l>
+                  </sp>
+               </body>
+            </floatingText>
+            <p>Mit dieser Lesart von Adolars Verhalten wären zwei Eigenschaften in seinen Charakter eingebracht, welche er auf dem Schlachtfeld sicher gebraucht hat, jedoch für sein politisches Leben noch anzuwenden lernen muss: Geltungsdrang und List.</p>
+            <p>Wie deutlich wird, haben alle vier Figuren, das hohe Paar Adolar und Euryanthe und die Gegenspieler Lysiart und Eglantine, sehr verschiedene Motive für ihr Handeln, wobei Euryanthe durch ihre gesellschaftlich-repräsentative Funktion und/oder ihre charakterliche Disposition &#x2013; nach <name ref="#holtstraeter-pers002">de Beauvoir</name> wäre dies für ihre Wirkungsmacht unerheblich &#x2013; das geringste Entwicklungspotential für die Bühnenhandlung birgt. Wie auch schon <name ref="#holtstraeter-pers039">Leibowitz</name> darlegt, lässt sich der Konflikt zwischen den beiden Paaren nicht auf den Gegensatz zwischen <q>Gut und Böse</q> reduzieren (und folgt damit auch nicht den pauschalen Kategorisierungen der Paarungen in der Oper). Da ist zum einen der Konflikt der beiden Staatsmänner in der politischen Öffentlichkeit (der Vasallen und des Königs) am Anfang. Da ist zum anderen der unerwartete Zufall, der Lysiarts Motivation grundlegend verändert: war er anfangs noch von überzogener Ritterlichkeit (oder von ritterlicher Männlichkeit) erfüllt, so verändert sich dies mit dem ersten Zusammentreffen mit Euryanthe zu einem verblendeten Verliebtsein, welches in Zerstörung mündet. Bei Eglantine scheint ein längerer Prozess  stattgefunden zu haben: der Standesverlust, der Verlust der Familie und die Gefangenschaft haben sie schon lange zermürbt, sie entscheidet sich, von der Opferrolle in die der Täterin zu wechseln.</p>
+            <p>Bereits in den Momenten, in denen sie Gelegenheit zur Retrospektion hat, beim fünften Auftritt (Rezitativ und Arie), klingt sie wie eine Isolde kurz vor dem Liebestod: </p>
+            <floatingText xml:id="holtstraeter-float08">
+               <body>
+                  <lg>
+                     <l>Vielleicht sinkt Adolar</l>
+                     <l>Noch reuevoll an diese glüh&#x2019;nde Brust,</l>
+                     <l>O, der Gedanke lös&#x2019;t mich auf in Lust,</l>
+                     <l>In Ahnungswonnen schwelgt die Seele trunken.</l>
+                     <l>Fänd&#x2019; ich den Tod, an seine Brust gesunken,</l>
+                     <l>Nur einen, einen Augenblick,</l>
+                     <l>Ich wollt&#x2019; ihn mit Vernichtung zahlen.<ref type="bibl" target="#Textbuch1824">1.&#8239;Akt, 4.&#8239;Scene, S.&#8239;15</ref><!--<ref type="bibl" target="#Wittmann1890" xml:id="holtstraeter-ftn45" n="45">S.&#8239;33</ref>--></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>Andererseits ist dieses selbstzerstörerische Moment des Liebens bis in den Wahnsinn oder die Selbstauslöschung des Eigenen und des geliebten Anderen, bis in den Suizid oder den erweiterten Suizid, ein Moment, welches die romantische Liebe ausmacht. So beschreibt <name ref="#holtstraeter-pers014">Günter Dux</name> an den Schriften und Briefen von <name ref="#holtstraeter-pers048">Novalis</name>, <name ref="#holtstraeter-pers056">Friedrich Schlegel</name> und <name ref="#holtstraeter-pers006">Clemens Brentano</name> die romantische Welt als durch Liebe bestimmt:
+               <quote source="#holtstraeter-ftn46">Jedwede Form menschlicher Liebe, vor allem die Liebe zwischen den Geschlechtern stellt sich ihr als Partizipation an der göttlichen Liebe dar, die den Kosmos durchdringt; sie ist [nach Novalis] <q>das Unum des Universums</q>, der Endzweck der Geschichte.</quote><ref target="#Dux1994" type="bibl" xml:id="holtstraeter-ftn46" n="46">S.&#8239;432</ref>
+            <!--</p>
+            <p>-->Notwendig sei diesem Verständnis zufolge die Macht der Liebe auch die Macht des Todes. Im Sterben, so <name ref="#holtstraeter-pers014">Dux</name>, löse sich nach diesem Verständnis die Liebe an einen Menschen in die kosmische Liebe auf.</p>
+            <p>Das Aufgehenwollen in der vollendeten Zweisamkeit mit Adolar und die Vereinigung im Tod, die Sehnsucht nach dem Vergehen <q>an der Brust des Geliebten</q>, vereint die beiden Frauen und Rivalinnen Eglantine und Euryanthe. Aber auch Adolar singt in der Zweisamkeit mit Euryanthe von dem Auflösen des Eigenen im Anderen. (Und sogar Adolars Versuch, Euryanthe zu töten, kann im Sinne eines romantischen Liebeskonzepts, welches keinen Unterschied zwischen Leben und Tode macht, nicht als Gottesgericht, sondern als letzter Akt seiner Liebe angesehen werden. Freilich ist in diesem patriarchalen Konzept unbestritten, dass nur der Mann die Tötung ausführen darf und nicht die Frau.)<note xml:id="holtstraeter-ftn47" n="47">Vgl. hierzu de Beauvoirs Beschreibung des Tötungsrechts im Falle eines Ehebruchs in feudalen Gesellschaften. <ref type="bibl" target="#Beauvoir1949">S.&#8239;110</ref></note></p>
+            <p>Ohne noch weitere Details zu thematisieren, lässt sich sagen, dass in dieser Gemengelage von Motiven das Handeln aus Liebe, welches besonders in Cavatinen wie Euryanthes <q>Glöcklein im Thale</q> (zum Anfang des dritten Auftritts im ersten Akt) betont wird, nur einen Teil der Handlung darstellt. Insofern finde ich das dezidierte und teilweise auch naive Betonen von Liebesmomenten, wie sie in der Frankfurter Inszenierung allenthalben durch das Einsetzen von pantomimischen stummen Rollen zu finden sind, nicht förderlich für das, was ich als handlungsleitende Momente und Motive erkenne. Eglantine (von Puiset) wird im Textbuch als die Tochter eines Empörers bzw. Aufrührers beschrieben. Das ist Lysiart sehr bewusst, deswegen singt er im gemeinsamen Rezitativ mit Eglantine nicht von verschmähter Liebe, sondern von weltlicheren Dingen: </p>
+            <floatingText xml:id="holtstraeter-float09">
+               <body>
+                  <lg>
+                     <l>Die Fesseln wandl&#x2019; ich in ein Rosenband,</l>
+                     <l>Beherrschen sollst du diese [d.&#8239;h. Adolars] reichen Gauen,</l>
+                     <l>Heil, Ehre, Leben darfst Du mir vertrauen!<ref target="#Textbuch1824" type="bibl">2.&#8239;Akt, 2.&#8239;Scene, S.&#8239;22</ref><!--<ref type="bibl" target="#Wittmann1890" xml:id="holtstraeter-ftn48" n="48">S.&#8239;40</ref>--></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>Lysiarts Eheversprechen im Rezitativ und dann im Duett <quote source="#holtstraeter-ftn49">Nimm mein feierlich Versprechen, Rächer werd&#x2019; ich und Gemahl!</quote><ref target="#Textbuch1824" type="bibl" xml:id="holtstraeter-ftn49" n="49" rend="ibid">2.&#8239;Akt, 2.&#8239;Scene, S.&#8239;23.</ref> 
+               wird in Frankfurt mit gegenseitigem heftigen Küssen besiegelt. Meines Erachtens ist dies einer der ganz wenigen <soCalled>echten</soCalled> Inszenierungsfehler, denn die Liaison zwischen Lysiart und Eglantine ist eine reine Zweckbeziehung, um die Intrige zum Erfolg zu führen. Folgerichtig sieht Lysiart, wie an obigen Zeilen deutlich, vor allem Eglantines verpasste Chance einer Statuswiederherstellung, die Adolar Eglantine durch sein Verschmähen nicht gewährte.</p>
+         </div>
+         
+         <div xml:id="holtstraeter-div5">
+            <head><q>Der Frauen Treu&#x2019;</q> und Vasallentreue</head>
+            <p>Insofern ist es generell fraglich, wie die normalerweise mit <soCalled>Liebe</soCalled> assoziierten Verhaltensweisen zu deuten sind. Insgesamt ist es bemerkenswert, in welch enge Nähe die Autoren <name ref="#holtstraeter-pers010">Chézy</name> und <name ref="#holtstraeter-pers071">Weber</name> die Treue des Vasallen zum König zur Treue der versprochenen Braut, in diesem Fall Euryanthe, bringen. Besonders in den öffentlichen und repräsentativen Anlässen wie der Siegesfeier und der Hochzeit, in denen der Chor die höfische (Teil-)Öffentlichkeit repräsentiert, erfüllt der Lobpreis der Treue Euryanthes einen rituellen Zweck. Dies geht soweit, dass der König Adolar die Minne, das rituelle Lob der Frau, in einem Moment der vollständigen Öffentlichkeit und im Angesicht eines errungenen Sieges anstimmen lässt. Bei der Ankunft Lysiarts und seiner Gefolgschaft in Euryanthes Aufenthaltsort,
+               dem Garten der Burg von Nevers, werden die siegreichen Ritter von den <q>Landleuten</q> (d.&#8239;h. der einfachen Bevölkerung) empfangen mit: <quote source="#holtstraeter-ftn51">Laßt euch Dank und Liebe krönen /&#x00A0;In der Treue Heiligtum</quote>.<ref target="#Textbuch1824" type="bibl" xml:id="holtstraeter-ftn51" n="51" rend="ibid">1.&#8239;Akt, 5.&#8239;Scene, S.&#8239;17.</ref>
+               Die Treue Euryanthes, wie immer sie geartet ist, scheint ein allgemeingesellschaftlicher Konsens zu sein, der in <name ref="#holtstraeter-pers010">Chézys</name> und <name ref="#holtstraeter-pers071">Webers</name> Interpretation des feudalen Mittalters alle gesellschaftlichen Schichten vereint.</p>
+            <p>Diese Kombination Staatstreue/Frauentreue kann auch in ihr Gegenteil umschlagen. Indem Lysiart den Frauen und damit auch Euryanthe Untreue vorwirft, stellt er die Möglichkeit in den Raum, dass ein Vasall seinem Herrn, hier Adolar seinem König, untreu sein könnte. Schlimmer noch, er mindert Adolars erbrachte Leistung im Kampf, indem er die Möglichkeit eröffnet, dass Adolar sich weder um seine Ländereien noch um seine Braut kümmern könnte. </p>
+            <p><name ref="#holtstraeter-pers073">Carl Friedrich Wittmann</name>, der das Werks innerhalb seiner mit <name ref="#holtstraeter-pers037">Georg Richard Kruse</name> bei Reclam herausgegebenen Reihe der <q>Opernbücher</q> bearbeitet und kommentiert hat, deutet als entscheidenden Fehler des Textbuchs, dass <name ref="#holtstraeter-pers071">Weber</name> und <name ref="#holtstraeter-pers010">Chézy</name> aufgrund der in Wien zu befürchtenden Zensur den Hinweis auf die Untreue umänderten. In der mittelalterlichen Romanvorlage erlangte Lysiart durch die verräterische Vertraute (damals noch eine alte Zofe namens Gundrieth) Zugang zu Euryanthes Bad und konnte das Mal unter der rechten Brust sehen, welches die Form eines Veilchenblattes hat.<note xml:id="holtstraeter-ftn52" n="52">Siehe hierzu detailliert  <ref target="#Fullgraf1997" type="bibl">S.&#8239;47&#x2013;48</ref>.</note> 
+               Die Kenntnis dieses intimen körperlichen Merkmals reichte aus, um Euryanthe der Untreue zu bezichtigen. <name ref="#holtstraeter-pers010">Chézy</name> ändert dies in ihrem ersten Szenario<note xml:id="holtstraeter-ftn53" n="53">Abgedruckt in <ref type="bibl" target="#Tusa1983">S.&#8239;467–470</ref></note> in die Kenntnis von Adolars Familiengeheimnis, Emmas Suizid. Stellvertretend für die Kenntnis dieses Geheimnisses ist Lysiarts Besitz von Emmas Ring. <name ref="#holtstraeter-pers073">Wittmann</name> dazu:
+               <quote source="#holtstraeter-ftn54">Bei dem Veilchenmal war das Schweigen Euryanthes auf die Vorwürfe des Geliebten aus zarten Rücksichten erklärlich und vollkommen motiviert; bei dem Ring erscheint unbegreiflich und unklar, weshalb es Euryanthe Adolar und dem ganzen Hofe gegenüber nicht ausspricht: sie habe den Verlockungen der Freundin nachgegeben und dieser das Geheimnis des Ringes in einer schwachen Stunde offenbart.</quote><ref target="#Wittmann1890" type="bibl" xml:id="holtstraeter-ftn54" n="54">S.&#8239;7–8</ref>
+            <!--</p>
+            <p>-->Ich finde diesen Vorwurf nicht plausibel, denn das Ausplaudern von Adolars Familiengeheimnis scheint für Euryanthe genauso schlimm zu sein wie der Vorwurf des Seitensprungs. Letztendlich bleibt es aber im Textbuch unklar, wessen Adolar Euryanthe konkret bezichtigt. Für ihn scheint das Verraten des Geheimnisses wie die mögliche Untreue (in der Spannweite denkbar von dem Gewähren eines Gesprächs unter vier Augen bis hin zum Vollzug des konkreten Geschlechtsaktes) mit dem Widersacher Lysiart in einem verschwommenen Möglichkeitsfeld der <soCalled>Untreue</soCalled> zusammenzufallen. Plausibler erscheint ein anderer Grund, der ebenfalls mit Liebe, aber in ihrer gesellschaftlich institutionalisierten Form zu tun hat: Indem Euryanthe Adolars mit Schande beladenes Familiengeheimnis nicht für sich behalten kann, hat sie sich für die Aufnahme in Adolars Familie, die ihr als Braut bevorsteht, als unwürdig erwiesen, und muss mit allen Mitteln, notfalls mit Mord, aus dem Eheversprechen entbunden werden. Adolar will seine Euryanthe also als Braut nicht mehr haben. Euryanthes Versuch, die Lage während der Befragung am Hof und später in der Einöde unter vier Augen zu klären, scheitert, weil Adolar der Sachverhalt ausreicht, Euryanthe habe Lysiart gegenüber das Familiengeheimnis ausgeplaudert. Erst in den beiden Dialogen zwischen Euryanthe und dem König und später zwischen Berta und Adolar – in denen offengelegt wird, dass Euryanthe selber betrogen wurde, und zwar durch die Vertraute Eglantine, die das Geheimnis weitergetragen hat – löst sich für alle Beteiligten das Missverständnis völlig auf, da nun klar wird, dass Euryanthe in beiderlei Hinsicht nicht untreu war.</p>
+         </div>
+         <div xml:id="holtstraeter-div6">
+            <head>Fazit</head>
+            <p>Wie deutlich wurde, ist <name ref="#holtstraeter-pers039">Leibowitz’</name> Wunsch nach Differenzierung und neuerlicher Hinterfragung der Figuren nach wie vor aktuell. Und durch den Einbezug des sozialen Geschlechts innerhalb der Handlung der Euryanthe, und zwar sowohl der Männer als auch der Frauen, lässt sich seine Beobachtung, dass die Figuren vielschichtig sind und auch widersprüchlich handeln, weiter präzisieren. Dabei erscheint es mir angemessen eine aktuelle Inszenierung bzw. die Aufführung derselben als ein Interpretationsangebot heranzuziehen, welches Auskünfte über das Werk gibt, die bis dahin in der Forschung oder durch die vorwissenschaftliche Beobachtung nicht klar formuliert sind. In großen Teilen war die Frankfurter Inszenierungskonzept ebenfalls von Fragen des sozialen Geschlechts bestimmt. Wie in der parallelen Analyse von Text und Bühnengeschehen deutlich wurde, ist der Umstand, dass der Schwerpunkt auf dem sozialen Geschlecht liegt, nicht (nur) das Resultat einer künstlerischen Willkür der inszenierenden Instanzen oder Ausdruck einer zeitgenössischen Entwicklung, von denen&#x00A0;&#x2013;&#x00A0;so der mögliche Vorwurf&#x00A0;&#x2013;&#x00A0;das Werk und deren Schöpfer noch nichts wussten, sondern dieses Interpretationsangebot ist bereits in das Werk eingeschrieben. Das bedeutet einerseits, dass das Regietheater hier (im Sinne <name ref="#holtstraeter-pers021">Sven Friedrichs</name>) ein <soCalled>gutes</soCalled> ist, weil es&#x00A0;&#x2013;&#x00A0;im Sinne <name ref="#holtstraeter-pers066">Wagners</name> Begriff der <q>Notwendigkeit</q>, welche die <q>reine Willkür</q> ablehnt&#x00A0;&#x2013;&#x00A0;die womöglich versteckte Botschaft des Werkes erkennt, ernst nimmt und in eine zeitgemäße Theatersprache übersetzt.<note xml:id="holtstraeter-ftn55" n="55">Vgl. <ref target="#Friedrich2005" type="bibl"/>.</note> 
+               Andererseits wirft eine feministische Lesart der <title ref="#holtstraeter-work016"><hi rend="italic">Euryanthe</hi></title> ein helleres Licht auf die Autorin des Librettos und natürlich auch auf den Komponisten. <!--(Denjenigen, die <name ref="#holtstraeter-pers071">Webers</name> Tagebücher durchgeblättert haben, wird dieser <soCalled>feministische</soCalled> <name ref="#holtstraeter-pers071">Weber</name> aber nicht neu sein.)--></p>
+            <p>Einige durch das Textbuch bedingte Probleme in der Handlung, wie bspw. der Umstand, dass Eglantines Auskunft über ihre Herkunft im Bühnentreiben untergehen kann, Euryanthes Schweigen bei dem Scherbengericht und Lysiarts plötzliche und rasende Verliebtheit lassen sich aber auch nach detaillierter Analyse und wohlwollender Interpretation, welche die sozialen Komponenten dieser mittelalterlichen Gesellschaft berücksichtigt, nicht schlüssig klären. Indem die Verantwortlichen der Frankfurter Inszenierung die gesellschaftliche Komponente hervorheben und mit anderen Mitteln wie beispielsweise der Parallelpantomime den Inhalt des gesungenen Textes verdeutlichen, können einige dramaturgische Probleme wie Eglantines Motivation für ihr Handeln und das Geheimnis um Emma und Udo behoben werden. Die Figur des Lysiart bleibt allerdings weiterhin schwach und unter den hier angedeuteten Möglichkeiten ausgebildet.</p>
+            <p>Ohne dass dieser Beitrag in eine Rezension münden soll, kann festgestellt werden, dass die repräsentative Musikgattung der Minne, welche in diesem Werk dazu genutzt wird, die gesellschaftliche Funktion Euryanthes zu bezeichnen beziehungsweise ihren <soCalled>Körper</soCalled> fortwährend zu <soCalled>beschreiben</soCalled>, noch weiter thematisiert werden könnte. Indem in einer möglichen Inszenierung Euryanthes symbolischer Wert als Frau in dieser Männergesellschaft deutlich hervorgehoben wird, ließe sich darstellen, wie  das Singen über die Liebe mehrere soziale Funktionen erfüllen kann. Einerseits ist es, als Minne dargebracht, im öffentlichen Kreis geäußerter Ausdruck von Herrschafts- und Loyalitätsansprüchen, andererseits drücken sich in Momenten der Privatheit die Subjekte im Singen scheinbar unmittelbar aus. Jedoch auch diese Momente erscheinen determiniert oder kontaminiert von der Geschlechterdiskriminierung, denn das Sprechen der Protagonisten verändert sich in den verschiedenen Situationen nicht.</p>
+            <p>Ein starkes Wahrheitsmoment liegt daher in der inszenatorischen Lösung des Finales, welches in Frankfurt gefunden wurde. Euryanthe wacht nicht aus ihrer Ohnmacht auf. Adolar, nun verstummt, zerrt hilflos an ihr herum und versucht sie zum Leben zu erwecken. Derweil brüllt der Chor ins Publikum: <q>Heil Adolar! Heil Euryanthe!</q> Das Spiel der Geschlechterdiskriminierung kennt keine Gewinner, sondern nur Verlierer.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Leibowitz1978">René Leibowitz, Kapitel <title level="a">Un opéra maudit: <q>Euryanthe</q></title>, in: <title level="m">Les fantômes de l’opèra. Essais sur le théâtre lyrique</title>, Paris 1978, S.&#8239;145–174<bibl type="short">Leibowitz, <title level="a">Un opéra maudit</title></bibl></bibl>
+               <bibl xml:id="Leibowitz1986">René Leibowitz, <title level="a">Eine verachtete Oper: Euryanthe</title>, in: <title level="m">Carl-Maria von Weber</title>, hg. von Heinz-Klaus Metzger und Rainer Riehn, München 1986 (Musik-Konzepte 52), S.&#8239;48–78</bibl>
+               <bibl xml:id="Honolka1961">Kurt Honolka, <title level="a">Einleitung</title> zur von ihm und Wilhelm Zentner neu eingerichteten Textfassung der <hi rend="italic">Euryanthe</hi>, Stuttgart 1961, S.&#8239;5–9<bibl type="short">Honolka, <title level="a">Einleitung</title></bibl></bibl>
+               <bibl xml:id="HenzeDoehring1997">Sabine Henze-Döhring, <title level="a">Der Blick auf die deutsche Große Oper oder Das Scheitern zweier Projekte: Spohrs Jessonda und Webers Euryanthe</title>, in: <title level="m">Oper und Musikdrama im 19.&#8239;Jahrhundert</title>, hg. von Sieghart Döhring und Sabine Henze-Döhring, Laaber 1997 (Handbuch der musikalischen Gattungen 13<!--, hg. v. Siegfried Mauser-->), S.&#8239;130–143<bibl type="short">Henze-Döhring, <title level="a">Jessonda und Euryanthe</title></bibl></bibl>
+               <bibl xml:id="Fullgraf1997">Marita Fullgraf, <title level="m">Rettungsversuche einer Oper. Die musikdramaturgischen Bearbeitungen der Oper <q>Euryanthe</q> von Carl Maria von Weber</title>, Saarbrücken 1997<bibl type="short">Fullgraf, <title level="m">Rettungsversuche einer Oper</title></bibl></bibl>
+               <bibl xml:id="Waidelich2018">Till Gerrit Waidelich, <title level="a"><q>Durch Webers Betrügerey die Hände so gebunden</q>. Helmina von Chézys Kampf um die Urheberrechte an ihrem Euryanthe-Libretto in ihrer Korrespondenz und Brief-Entwürfen</title>, in: <title level="j">Weberiana. Mitteilungen der Internationalen Carl-Maria-von-Weber-Gesellschaft e. V.</title> 18 (2008), S.&#8239;33–68</bibl>
+               <bibl xml:id="Wagner2000">Richard Wagner, <title level="m">Oper und Drama</title>, hg. und komm. von Klaus Kropfinger, Stuttgart 2000, S.&#8239;87–92</bibl>
+               <bibl xml:id="Tusa1986">Michael C. Tusa, <title level="a">Richard Wagner and Weber’s Euryanthe</title>, in: <title level="m">19<hi rend="sup">th</hi>-Century Music</title>&#x00A0;9, Heft&#x00A0;3 (Frühling 1986), S.&#8239;206–221<bibl type="short">Tusa, <title level="a">Richard Wagner and Weber’s Euryanthe</title></bibl></bibl>
+               <bibl xml:id="Veit1999">Joachim Veit, <title level="a">Spurensuche: Wagner und Weber – Aspekte einer künstlerischen Beziehung</title>, in: <title level="m">Richard Wagner und seine <soCalled>Lehrmeister</soCalled>. Tagungsbericht Mainz 1997, Egon Voss zum 60.&#8239;Geburtstag</title>, Mainz 1999, S.&#8239;173–214</bibl>
+               <bibl xml:id="Hofmueller1935">Max Hofmüller, <title level="a">Das Textproblem der Euryanthe</title>, in: <title level="m">Euryanthe. Romantische Oper von K.&#8239;M. von Weber. Neufassung von Max Hofmüller</title>, München 1935, S.&#8239;4–6<bibl type="short">Hofmüller, <title level="a">Das Textproblem der Euryanthe</title></bibl></bibl>
+               <bibl xml:id="Schwandt2007">Christoph Schwandt, <title level="a">Hofmüller und der Nazi aus Weimar (1928–1944)</title>, in: <title level="m">Oper in Köln. Von den Anfängen bis zur Gegenwart</title>, hg. von dems., Berlin 2007, S.&#8239;255–306</bibl>
+               <bibl xml:id="holtstraeter-Veit1998">Joachim Veit, <title level="a">Gehört die Genesis des <q>Euryanthe</q>-Textbuchs zum Werk?</title>, in: <title level="m">Der Text im musikalischen Werk. Editionsprobleme aus musikwissenschaftlicher und literaturwissenschaftlicher Sicht</title>, hg. von Walther Dürr u.&#8239;a., Berlin 1998 (Beihefte zur Zeitschrift für deutsche Philologie&#x00A0;8), S.&#8239;184–211<bibl type="short">Veit, <title level="a">Gehört die Genesis des <q>Euryanthe</q>-Textbuchs zum Werk?</title></bibl></bibl>
+               <bibl xml:id="Montfort2003">Miguel Montfort, Vorwort zu <title level="m">Carl Maria von Weber, Euryanthe. Große romantische Oper in drei Akten, Studienpartitur</title>, München  2003</bibl>
+               <bibl xml:id="Vocas1824"><q>Vocas.</q> (anonym), <title level="a">Eine Stimme aus dem Parterre über einen Moment der Euryanthe als Dichtung</title>, in: <title level="j">Zeitung für die elegante Welt</title>, Jg.&#8239;24, Nr.&#8239;222 (11.&#8239;November 1824), Sp.&#8239;1777–1780</bibl>
+               <bibl xml:id="Dahlhaus1969">Carl Dahlhaus, <title level="a">Plädoyer für eine romantische Kategorie: Der Begriff des Kunstwerks in der neuesten Musik</title> (1969), in: ders., <title level="m">20.&#8239;Jahrhundert. Historik. Ästhetik. Theorie. Oper. Arnold Schönberg</title>, hg. von Hermann Danuser, Laaber 2005 (Carl Dahlhaus. Gesammelte Schriften&#x00A0;8), S.&#8239;216–224</bibl>
+               <bibl xml:id="Tusa1983">Michael C. Tusa, <title level="m">Carl Maria von Weber’s Euryanthe. A Study of Its Historical Context, Genesis and Reception</title>, Masch. Diss. Princeton Univ. 1983<bibl type="short">Tusa, <title level="m">Euryanthe</title></bibl></bibl>
+               <bibl xml:id="Wittmann1890"><title level="m">Euryanthe. Romantische Oper in drei Aufzügen von Karl Maria von Weber. Dichtung von Helmine von Chezy. Vollständiges Buch. Durchgearbeitet und herausgegeben von Carl Friedrich Wittmann</title>, Leipzig [etwa 1890]<bibl type="short">Wittmann, <title level="m">Euryanthe</title></bibl></bibl>
+               <bibl xml:id="Goffmann1974">Erving Goffmann, <title level="m">Frame Analysis. An Essay on the Organization of Experience</title>, New York u.&#8239;a. 1974</bibl>
+               <bibl xml:id="Lazarowicz1991">Klaus Lazarowicz, <title level="a">Einleitung</title>, in: <title level="m">Texte zur Theorie des Theaters</title>, hg. von Christopher Balme und dems., Stuttgart 1991, S.&#8239;19–38</bibl>
+               <bibl xml:id="Graver2003">David Graver, <title level="a">The Actor’s Bodies</title>, in: <title level="m">Performance. Critical Concepts in Literary and Cultural Studies</title>, hg. von Philip Auslander, London 2003, Bd.&#8239;2, S.&#8239;157–174</bibl>
+               <bibl xml:id="Mosel1820">Ignaz Fr. von Mosel, <title level="a">Vaudeville, Liederspiel, Singspiel, Oper</title>, in: <title level="j">Allgemeine musikalische Zeitung mit besonderer Rücksicht auf den österreichischen Kaiserstaat</title>, Jg.&#8239;4, Heft&#x00A0;86 (25. Oktober 1820), Sp.&#8239;681–686; Heft&#x00A0;87 (28. Oktober 1820), Sp.&#8239;689–692 und Heft&#x00A0;88 (1. November 1820), Sp.&#8239;697–701<bibl type="short">Fr. von Mosel, <title level="a">Vaudeville, Liederspiel, Singspiel, Oper</title></bibl></bibl>
+               <bibl xml:id="Ewald2006">Georg Ewald, <title level="a">Carl Friedrich Wittmann – ein biographischer Versuch</title>, in: <title level="m">Reclam. Die Kunst der Verbreitung. Begleitband der Ausstellung, 22.&#8239;Februar bis 2.&#8239;April 2006, Klingspor Museum in Offenbach am Main</title>, Stuttgart 2006, S.&#8239;35&#x2013;40</bibl>
+               <bibl xml:id="Butler1990">Judith Butler, <title level="m">Gender trouble. Feminism and the Subversion of Identity</title>, New York u.&#8239;a. 1990</bibl>
+               <bibl xml:id="Beauvoir1949">Simone de Beauvoir, <title level="m">Das andere Geschlecht. Sitte und Sexus der Frau</title> (1949), übers. von Uli Aumüller und Grete Osterwald, Reinbek bei Hamburg 2000<bibl type="short">De Beauvoir, <title level="m">Das andere Geschlecht</title></bibl></bibl>
+               <bibl xml:id="Dux1994">Günter Dux, <title level="m">Geschlecht und Gesellschaft. Warum wir lieben. Die romantische Liebe nach dem Verlust der Welt</title>, Frankfurt am Main 1994</bibl>
+               <bibl xml:id="Friedrich2005">Sven Friedrich, <title level="m">Um die <q>Geburt der Tragödie aus dem Geist der Musik</q> bittend. Überlegungen zum <q>Regietheater</q> auf der Opernbühne</title>, in: <title level="j">wagnerspectrum</title> (2005), Heft&#x00A0;2: Schwerpunkt Regietheater, S.&#8239;31&#x2013;54</bibl>
+               <bibl xml:id="MMW2">Max Maria von Weber, <title level="m">Carl Maria von Weber. Ein Lebensbild</title>, Bd.&#8239;2, Leipzig 1864</bibl>
+               <bibl xml:id="Schlegel1980">Friedrich Schlegel, <title level="m">Sammlung von Memoiren und romantischen Dichtungen des Mittelalters aus altfranzösischen und deutschen Quellen</title>, mit Einleitung und Kommentar hg. von Liselotte Dieckmann, Paderborn u.&#8239;a. 1980 (Kritische Schlegel-Ausgabe&#x00A0;33), S.&#8239;317–375</bibl>
+               <bibl xml:id="Textbuch1824">Textbuch der Uraufführung von 1823. <q>Euryanthe. | Große romantische Oper in drey Aufzügen, | von | Helmine von Chezy, | geborne Freyin Klencke. | Musik von Carl Maria von Weber, | königl. sächsischem Hof-Kapellmeister. | Für das k.&#8239;k. Hoftheater nächst dem Kärnthnerthore. | Wien, 1824. | Druck und Verlag von J.&#8239;B. Wallishausser</q>. Das Digitalisat von Slg.&#8239;Her&#x00A0;456 aus der BSB ist online abrufbar unter URN: <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00062158-8">urn:nbn:de:bvb:12-bsb00062158-8</ref><bibl type="short">Textbuch</bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

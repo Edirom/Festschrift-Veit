@@ -1,0 +1,2359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Melodieverweise bei Johann Rist</title>
+            <title type="sub">Korpus und Kommentierung</title>
+            <author>
+               <name><forename>Oliver</forename> <surname>Huck</surname></name>
+               <affiliation>ist Professor für Historische Musikwissenschaft an der Universität Hamburg. Nach dem Studium und der Promotion an der Universität Paderborn war er Postdoktorand an der Ludwig Maximilians-Universität München und an der Università <hi rend="italic">La sapienza</hi> (Rom), dann Leiter der Nachwuchsgruppe <hi rend="italic">Die Musik des frühen Trecento</hi> an der Friedrich-Schiller-Universität Jena als Wissenschaftlicher Assistent und nach der Habilitation als Oberassistent. 2005&#x2013;2006 hatte er eine Professur für Historische Musikwissenschaft an der Hochschule für Musik Würzburg inne.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="huck-pers002">
+                  <p>Bodenschatz, Erhard</p>
+                  <p n="work" xml:id="huck-works005"><hi rend="italic">Harmoniae Angelicae</hi></p>
+               </person>
+               <person xml:id="huck-pers003">
+                  <p>Coler, Martin</p>
+               </person>
+               <person xml:id="huck-pers005">
+                  <p>Eler, Franz</p>
+                  <p n="work" xml:id="huck-works001"><hi rend="italic">Cantica sacra</hi></p>
+               </person>
+               <person xml:id="huck-pers006">
+                  <p>Flor, Christian</p>
+               </person>
+               <person xml:id="huck-pers007">
+                  <p>Gesius, Bartholomäus</p>
+               </person>
+               <person xml:id="huck-pers008">
+                  <p>Goudimel, Claude</p>
+               </person>
+               <person xml:id="huck-pers031">
+                  <p>Hammerschmidt, Andreas</p>
+               </person>
+               <person xml:id="huck-pers009">
+                  <p>Hassler, Hans Leo</p>
+               </person>
+               <person xml:id="huck-pers032">
+                  <p>Jacobi, Michael</p>
+               </person>
+               <person xml:id="huck-pers035">
+                  <p>Kortkamp, Jacob</p>
+               </person>
+               <person xml:id="huck-pers010">
+                  <p>Küster, Konrad</p>
+               </person>
+               <person xml:id="huck-pers011">
+                  <p>Lobwasser, Ambrosius</p>
+                  <p n="work" xml:id="huck-works004"><hi rend="italic">Der Psalter dess Kœniglichen Propheten Dauids</hi></p>
+               </person>
+               <person xml:id="huck-pers037">
+                  <p>Meier, Petrus</p>
+               </person>
+               <person xml:id="huck-pers013">
+                  <p>Nicolai, Jeremias</p>
+               </person>
+               <person xml:id="huck-pers014">
+                  <p>Nicolai, Philipp</p>
+               </person>
+               <person xml:id="huck-pers015">
+                  <p>Olearius, Adam</p>
+               </person>
+               <person xml:id="huck-pers016">
+                  <p>Pape, Hinrich</p>
+               </person>
+               <person xml:id="huck-pers036">
+                  <p>Praetorius, Jacob</p>
+               </person>
+               <person xml:id="huck-pers017">
+                  <p>Rist, Johann</p>
+               </person>
+               <person xml:id="huck-pers020">
+                  <p>Scheidemann, Heinrich</p>
+               </person>
+               <person xml:id="huck-pers022">
+                  <p>Schein, Johann Hermann</p>
+                  <p n="work" xml:id="huck-work003"><hi rend="italic">Cantional</hi></p>
+               </person>
+               <person xml:id="huck-pers024">
+                  <p>Schop, Johann</p>
+               </person>
+               <person xml:id="huck-pers033">
+                  <p>Selle, Thomas</p>
+               </person>
+               <person xml:id="huck-pers026">
+                  <p>Spee, Friedrich</p>
+               </person>
+               <person xml:id="huck-pers034">
+                  <p>Staden, Sigismund Theophil</p>
+               </person>
+               <person xml:id="huck-pers027">
+                  <p>Telemann, Georg Philipp</p>
+               </person>
+               <person xml:id="huck-pers028">
+                  <p>Vopelius, Gottfried</p>
+               </person>
+               <person xml:id="huck-pers029">
+                  <p>Walther, Paul</p>
+               </person>
+               <person xml:id="huck-pers030">
+                  <p>Wolder, David</p>
+                  <p n="work" xml:id="huck-works002"><hi rend="italic">New Catechismus Gesangbuechlein</hi></p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-12-04T15:25:00"
+            who="https://github.com/peterstadler">Anpassungen (Seitenumbrüche) an aktuelles Layout</change>
+         <change when="2015-11-12T14:45:00" who="KR">Korrekturen eingearbeitet</change>
+         <change when="2015-11-11T14:10:00"
+            who="https://github.com/peterstadler">Korrekturen weiter eingearbeitet</change>
+         <change when="2015-10-22T15:48:00" who="KR">Korrekturen eingearbeitet</change>
+         <change when="2015-08-31T12:25:00.27+02:00"
+            who="https://github.com/peterstadler">Anhang eingefügt</change>
+         <change when="2015-08-25T23:48:00.27+02:00"
+            who="https://github.com/peterstadler">Text ausgezeichnet und Personen identifiziert; Anhang fehlt noch!!</change>
+         <change when="2015-08-04T09:07:00.27+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="huck-abstract"><p>Der Beitrag verzeichnet sämtliche Verweise auf insgesamt 78 Haus- und Kirchenlieder, die Johann Rist als Melodien für seine geistlichen Lieder heranzieht. Rist orientiert sich dabei, wie die Auswahl zeigt, an den Hamburgischen Gesangbüchern, insbesondere an David Wolders <title ref="#huck-works002">New Catechismus Gesangbuechlein</title> (1598), zieht aber auch andere Quellen heran. Diskutiert wird, welche Melodiefassungen Rist im Sinne gehabt haben könnte und wie die Melodieverweise in kritischen Ausgaben seiner geistlichen Lieder kommentiert werden können.</p></div>
+      </front>
+      <body>
+         <p>Hatte der Dichter <name ref="#huck-pers017">Johann Rist</name> (1607&#x2013;1667) im Druck seiner <hi rend="italic">Himlischen Lieder</hi> 1641/42 für deren Vortrag noch ausschließlich von <name ref="#huck-pers024">Johann Schop</name> komponierte Vertonungen<note xml:id="huck-ftn1" n="1">Im ersten Teil der <hi rend="italic">Himlischen Lieder</hi> stammen, wie aus den Vorworten sowohl zum ersten, als auch zum zweiten Teil hervorgeht, nur <q>etliche wenig</q> von <name ref="#huck-pers024">Schop</name>, vgl. <ref target="#Rist2012" type="bibl">S.&#8239;14 und 101</ref>. Sicher nicht von <name ref="#huck-pers024">Schop</name> komponiert wurde <q>O Trawrigkeit! O Hertzeleid!</q> (I/3), weil von <name ref="#huck-pers017">Rist</name> die erste Strophe von <name ref="#huck-pers026">Friedrich Spee</name> samt dem zweistimmigem Satz &#x2013; wenn auch mit einer Reihe von Veränderungen in beiden Stimmen &#x2013; aus der 1628 publizierten <hi rend="italic">Himmlischen Harmony</hi> (RISM 1628<hi rend="sup">05</hi>) übernommen wurde, vgl. <ref type="bibl" target="#Braun2001">hier S.&#8239;123&#8239;ff.</ref> <name ref="#huck-pers010">Konrad Küster</name> hebt hervor, dass sich die ersten drei Lieder und das siebente durch mehrere typographische Merkmale von den anderen Kompositionen des ersten Teils unterscheiden und damit vermutlich aus anderen Vorlagen gesetzt wurden (vgl. <ref target="#Rist2012" type="bibl">S.&#8239;604</ref>), damit könnten I/1&#x2013;2 und I/7 &#x2013; I/3 jedoch nur als Bearbeitung &#x2013; von <name ref="#huck-pers017">Rist</name> (oder auch einem anderen Komponisten) stammen. </note> 
+            vorgesehen, so hebt er im Vorwort seiner 1651 gedruckten <hi rend="italic">Neuen Himlischen Lieder</hi> zunächst hervor, man könne diese auf <q>bekante und in unseren Evangelischen Kirchen gebräuchliche Melodien leichtlich singen</q> bevor er denjenigen Lesern, die in <q>der edlen Singkunst</q> erfahren sind, die dem Druck beigegebenen Generalbaßlieder als <quote source="#huck-ftn2">von unterschiedlichen vortrefflichen Künstlern oder Komponisten wolgesetzte Weisen</quote><ref type="bibl" target="#Rist2013" xml:id="huck-ftn2" n="2">S.&#8239;39</ref> 
+            anempfiehlt. Entsprechend haben <name ref="#huck-pers017">Rist</name> und die Komponisten seiner Texte einen Platz in der Geschichte des deutschen Liedes,<note xml:id="huck-ftn3" n="3">Vgl. zuletzt <ref target="#Braun2014" type="bibl"/>.</note> 
+            jedoch <name ref="#huck-pers017">Rist</name> und die von ihm herangezogenen Melodieverweise keinen Platz in einer ohnehin erst noch zu schreibenden Geschichte des deutschen Kirchenliedes nach 1610.<note xml:id="huck-ftn4" n="4">Vgl. zum Abbruch des ursprünglich bis 1800, dann bis 1680 und später bis 1640 geplanten Vorhabens <ref target="#Stalmann2010" type="bibl"/>.</note> 
+            Denn die Musikwissenschaft neigt von jeher dazu, Notentexten mehr Aufmerksamkeit zu schenken als Texten, selbst wenn diese sich als Paratexte unmittelbar auf Musik beziehen. Entsprechend erhalten Kompositionen gegenüber Kontrafakturen nicht nur unter ästhetischen, sondern auch unter editorischen Prämissen Vorrang. </p>
+         <p>Eben weil es sich um gebräuchliche Melodien handelt, scheinen <name ref="#huck-pers017">Rists</name> Melodieverweise für den Kommentar in einer kritischen Edition keine Herausforderung darzustellen. Ich greife als Beispiel mit <q>Frisch auf und last uns singen</q> ein Lied aus den <hi rend="italic">Neuen Himlischen Liedern</hi> auf, dass zusammen mit der Vertonung von <name ref="#huck-pers020">Heinrich Scheidemann</name> Eingang in <name ref="#huck-pers028">Gottfried Vopelius&#x2019;</name> <hi rend="italic">Neu Leipziger Gesangbuch</hi> von 1682 gefunden hat.<note xml:id="huck-ftn5" n="5">Vgl. <ref type="bibl" target="#huck-Vopelius1682">S.&#8239;997&#x2013;1002</ref>.</note> 
+            <name ref="#huck-pers017">Rist</name> gibt als Alternative zur Vertonung von <name ref="#huck-pers020">Scheidemann</name> an: <quote source="#huck-ftn6">Dises kan man auch singen auf die Melodei des Lides: Nun lobe meine Seele den Herren.</quote><ref target="#Rist2013" type="bibl" xml:id="huck-ftn6" n="6">S.&#8239;371</ref> 
+            Nun erscheint es keineswegs ausgeschlossen, dass <name ref="#huck-pers017">Rist</name> die 1540 erstmals gedruckte Fassung der Melodie (DKL<ref type="bibl" target="#DasDeutscheKirchenlied" xml:id="huck-ftn7" n="7"/> 
+            Ef16) kannte und auch im Sinn hatte als er den Melodieverweis notierte. Ebenso wahrscheinlich ist es, dass sich unter seinen zahlreichen Lesern nicht wenige befanden, die bei dem zitierten Verweis genau diese Melodiefassung erinnerten. Andere hingegen werden je nach Ort und Zeit der Lektüre andere Melodiefassungen assoziiert haben.<note xml:id="huck-ftn8" n="8">Insofern gibt der Verweis in <ref target="#Rist2013" type="bibl">S.&#8239;371</ref> (mit Verweis auf <q>Wie wol hast du gelabet</q>, das den gleichen Melodieverweis enthält, und dort ebd., S.&#8239;145) auf <ref type="bibl" target="#Zahn1889">Nr.&#8239;8244&#8239;f.</ref>, die Unbestimmtheit zutreffend wieder.</note> 
+            Damit ist festzuhalten, dass aus einer rezeptionsgeschichtlichen Perspektive nicht eindeutig zu bestimmen ist, mit welcher Melodie bzw. Melodiefassung <name ref="#huck-pers017">Rists</name> Texte verbunden wurden, sondern potentiell jede Melodie und Melodiefassung, die die Verweise bezeichnen können, mit <name ref="#huck-pers017">Rists</name> Text verbunden worden sein kann. In Bezug auf <name ref="#huck-pers017">Rist</name> selbst erscheint es mir jedoch wahrscheinlich zu sein, dass er die in Hamburg zirkulierenden Melodiefassungen kannte, die im Falle von <q>Frisch auf und last uns singen</q> erstmals 1588 im Anhang zu <name ref="#huck-pers005">Franz Elers</name> <title ref="#huck-works001">Cantica sacra</title> gedruckt wurde<note xml:id="huck-ftn9" n="9"><ref target="#Eler1588" type="bibl">S.&#8239;40&#8239;f.</ref> (RISM 1588<hi rend="sup">14</hi>), online abrufbar unter <ref target="http://daten.digitale-sammlungen.de/~db/0009/bsb00092315/images/"/>.</note> 
+            (DKL Ef16G), und dass er diese auch im Sinn hatte, als er den Verweis notierte.<note xml:id="huck-ftn10" n="10">Entsprechend könnte ein Kommentar zu diesem Melodieverweis lauten: Zu der von <name ref="#huck-pers017">Rist</name> vorgesehenen Melodie des erstmals 1540 in Augsburg (RISM 1540<hi rend="sup">13</hi>) gedruckten Liedes <q>Nun lob&#x2019;, mein Seel, den Herren</q> vgl. <ref type="bibl" target="#DasDeutscheKirchenlied">Bd.&#8239;III/1.2 Notenband, S.&#8239;180&#8239;f.</ref> (Ef16) und Textband, S.&#8239;226&#x2013;229 sowie III/3&#x2013;4 Abschließender Kommentarband, S.&#8239;308&#8239;f. <name ref="#huck-pers017">Rist</name> dürfte die Melodie jedoch in der Fassung aus <name ref="#huck-pers005">Franz Elers</name> 1588 in Hamburg gedruckten <title ref="#huck-works001">Cantica sacra</title> (RISM 1588<hi rend="sup">14</hi>) geläufig gewesen sein, die auch in <name ref="#huck-pers030">David Wolders</name> <title ref="#huck-works002">New Catechismus Gesangbüchlein</title> von 1598 (RISM 1598<hi rend="sup">11</hi>) aufgenommen wurde, vgl. <ref target="#DasDeutscheKirchenlied" type="bibl">Bd..&#8239;III/3 Notenband, S.&#8239;242</ref> (Ef16G) und Textband, S.&#8239;281 sowie III/3&#x2013;4 Abschließender Kommentarband, S.&#8239;309.</note>
+         </p>
+         <p>Bereits im Zuge der Edition von <name ref="#huck-pers017">Rists</name> <hi rend="italic">Neuen Hochheiligen Paßions=Andachten</hi> mit Musik von <name ref="#huck-pers003">Martin Coler</name><note xml:id="huck-ftn11" n="11">Vgl. <ref target="#Rist2015" type="bibl"/>.</note> 
+            stellte sich damit die Frage, wie im Kommentar zum Text mit den Verweisen auf solche Melodien umzugehen ist, bei denen es sich nicht um Melodien aus <name ref="#huck-pers017">Rists</name> früheren Publikationen, insbesondere den <hi rend="italic">Himlischen Liedern</hi> handelt, sondern um <quote source="#huck-ftn12">bekante und in unseren Evangelischen Kirchen gebräuchliche Melodien.</quote><ref type="bibl" target="#Rist2013" xml:id="huck-ftn12" n="12">S.&#8239;39</ref> 
+            Bei der Edition des ersten Teils von <name ref="#huck-pers017">Rists</name> <hi rend="italic">Neuem Musikalischen Seelenparadis</hi> mit Musik von <name ref="#huck-pers006">Christian Flor</name><note xml:id="huck-ftn13" n="13">Vgl. <ref target="#RistIV" type="bibl"/></note> 
+            stellte sich diese Frage umso dringlicher, als die Zahl entsprechender Verweise noch weitaus größer ist. Darüber hinaus kommt den Melodieverweisen in diesen und <name ref="#huck-pers017">Rists</name> weiteren Sammlungen geistlicher Lieder jedoch auch insofern Bedeutung zu als sie ein repräsentatives Korpus von Haus- und Kirchenliedern<note xml:id="huck-ftn14" n="14">Auch wenn <name ref="#huck-pers017">Rist</name> nach den <hi rend="italic">Neuen Himlischen Liedern</hi> auf dem Titelblatt nahezu jeder Sammlung geistlicher Lieder den Hinweis auf den Gebrauch der Melodien in den evangelischen Kirchen wiederholt, bezeichnet er die Lieder im einzelnen (s.&#8239;u.) teilweise als Haus- und Kirchenlieder.</note> 
+            in der Mitte des 17.&#8239;Jahrhunderts adressieren. </p>
+         <p>Ich möchte an dieser Stelle zum einen erstmals einen Überblick darüber geben, welche Lieder <name ref="#huck-pers017">Rist</name> und damit ein als Dichter und Pastor gleichermaßen repräsentativer Zeitgenosse bei seinen Lesern insofern als bekannt voraussetzte, als er diese gerade für musikalisch nicht gebildete Leser für in höherem Maße geeignet hielt, um seine Texte darauf zu singen, als die eigens komponierten und in den Publikationen auch abgedruckten Melodien. Zum anderen möchte ich exemplarisch der Frage nachgehen, ob es möglich ist, zu entscheiden, welche der vor der zunehmenden Normierung der Gesangsbücher ab dem ausgehenden 17.&#8239;Jahrhundert vielfach abweichenden Melodiefassungen <name ref="#huck-pers017">Rist</name> jeweils im Sinn gehabt haben könnte.</p>
+         <pb/>
+         <p>Innerhalb des über 700&#x00A0;Texte umfassenden Korpus von <name ref="#huck-pers017">Rists</name> <hi rend="italic">Carmina spiritualia</hi><note xml:id="huck-ftn15" n="15">Vgl. <ref target="#Steiger2013" type="bibl"/>. Die dort verwendeten Abkürzungen für die Ristschen Publikationen werden hier (vgl. <!--Anhang&#x00A0;I-->Anhang&#x00A0;<ref target="#huck-table01" type="crossref" rend="no"/>) übernommen. In vier der Sammlungen sind weder Vertonungen, noch Angaben zu Melodien enthalten, auf die die Texte zu singen wären, es sind dies: <hi rend="italic">Poetischer Lust=Garte</hi>, Hamburg 1638; <hi rend="italic">Starker Schild Gottes</hi>, Hamburg 1644; <hi rend="italic">Poetischer Schauplatz</hi>, Hamburg 1646 und <hi rend="italic">Betrachtung Der überaus schweren Anfechtungen mit welchen offtmahls eine Christliche Seele biß auff die euserste Verzweiflung wird geplaget</hi>, o.&#8239;O. 1665. Es handelt sich damit nicht um geistliche Lieder in einem musikalischen, sondern in einem textlichen Sinne. </note> 
+            liegen zu 658&#x00A0;Texten insgesamt 678&#x00A0;Vertonungen vor.<note xml:id="huck-ftn16" n="16">Die Liedtexte aus HV und LS sind erneut in NHL bzw. PA vertont. <ref type="bibl" target="#Winterfeld1845">S.&#8239;432</ref>, nennt 611&#x00A0;Texte und 629&#x00A0;Vertonungen, er unterschlägt dabei HV, VE&#x00A0;I und VE&#x00A0;II. </note> 
+            <name ref="#huck-pers017">Rist</name> hat zwar jedem Lied einen neu komponierten zweistimmigen Satz beigegeben,<note xml:id="huck-ftn17" n="17">Zu den Kompositionen vgl. grundsätzlich <ref target="#Kuester2007" type="bibl"/>.</note> 
+            dennoch stellen jene Publikationen, die ausschließlich die Möglichkeit bieten, die Lieder auf neue und eigene Melodien zu singen, die Ausnahme dar. Lediglich in den ersten beiden Sammlungen, den <hi rend="italic">Himlischen Liedern</hi> sowie dem <hi rend="italic">Leiden und Sterben</hi>, verfährt <name ref="#huck-pers017">Rist</name> durchgehend und ausschließlich so. Alle künftigen Bände enthalten neben neu komponierten Melodien stets auch Verweise auf bekannte Melodien. Ausnahmen hiervon sind neben jenen 19&#x00A0;Liedern in den <hi rend="italic">Neuen Hochheiligen Paßions=Andachten</hi>, die bereits <name ref="#huck-pers016">Hinrich Pape</name> im <hi rend="italic">Leiden und Sterben</hi> vertont hatte,<note xml:id="huck-ftn18" n="18">Vgl. die zwölf Andachten <q>Uber unseren Allerlibsten HErren und Seligmacher JESUM/ Wie Derselbe/ zu Seinem Allerheiligsten Leiden ist hingeführet/</q> und die sieben Andachten über <q>Allerheiligste/ Jämmerlich geplagte/ und zermarterte Glieder</q>, <ref type="bibl" target="#Rist2015">S.&#8239;131&#8239;ff., 343&#8239;ff. und 429&#8239;ff.</ref></note> 
+            nur wenige zu verzeichnen, lediglich neun der verbleibenden 570&#x00A0;Lieder können ausschließlich in ihrer <q>eigenen gantz neüen Melodei</q><note xml:id="huck-ftn19" n="19"><ref target="#Rist2013" type="bibl">S.&#8239;300</ref>. In den <hi rend="italic">Neuen Himlischen Liedern</hi> sind dies lediglich <q>GOtt/ der du den Klooß der Erden</q> (NHL Nr.&#8239;I/9, S.&#8239;56), bei dem <name ref="#huck-pers017">Rist</name> zwar angibt, es sei <q>Jn unterschiedlichen neüen Melodeien andächtig und bußfertig zu singen</q>, jedoch weder auf die dem Erstdruck des Textes (HV) beigegebene Melodie, noch auf die dort angegebene Alternative (HL Nr.&#8239;I/7) so verweist, dass sie für den Leser auffindbar wären, <q>WAch auf/ wach&#x2019; auf du sichre Welt</q> (NHL Nr.&#8239;V/8, S.&#8239;248) und <q>WJrd den nun der Tag anbrechen</q> (NHL Nr.&#8239;IV/10, S.&#8239;262), daneben <q>Wo flieh Jch armer hin/ wem sol ich Mich vertrauen?</q> (AH Nr.&#8239;4, S.&#8239;14), <q>WAch&#x2019; auf Mein Geist mit Freuden/ Hinweg Sorg/ Angst und Leiden</q> (AH Nr.&#8239;70, S.&#8239;378), <q>O Fröliche Stunden!</q> (NFA Nr.&#8239;27, S.&#8239;174), <q>WJe geh ich so gebückt</q> (DSch Nr.&#8239;4, S.&#8239;22), <q>REcht wunderbahrlich stund gebauet</q> (NMS.NT Nr.&#8239;34, S.&#8239;202) und <q>O Süsser Jesu hilff! Es ist zu groß mein Schade</q> (PA, S.&#8239;284).</note> 
+            gesungen werden. Mit Ausnahme der <hi rend="italic">Sabbahtischen Seelenlust</hi> dienen <name ref="#huck-pers017">Rist</name> dabei stets auch Vertonungen eigener Texte als Melodievorlagen, insgesamt sind 116<note xml:id="huck-ftn20" n="20">Dreimal gibt <name ref="#huck-pers017">Rist</name> alternativ die Melodie eines Kirchenliedes und eines eigenen Liedes an, vgl. <q>ALles was der HErr geschaffen</q> (KA S.&#8239;286) und <q>LJbster/ wilt du meiner wahrten</q> (VE&#x00A0;I, Nr.&#8239;21, S.&#8239;365), die entweder auf <q>Wie nach einem Wasserquelle</q> oder nach HL III/8 gesungen werden können, sowie <q>GUte Nacht du schnöde Welt</q> (VE&#x00A0;II, Nr&#8239;24, S.&#8239;663), das entweder auf <q>Christus, der uns selig macht</q> oder auf VE&#x00A0;I, Nr.&#8239;22 gesungen werden kann.</note> 
+            Entlehnungen aus und Verweise auf <name ref="#huck-pers017">Rists</name> eigene Sammlungen geistlicher Lieder nachweisbar.<note xml:id="huck-ftn21" n="21">Vgl. dazu <ref target="#Huck2015" type="bibl"/>.</note> 
+            Weitaus zahlreicher (vgl. <!--Anhang&#x00A0;II-->Anhang&#x00A0;<ref target="#huck-table02" type="crossref" rend="no"/>) sind jedoch die Melodieverweise auf 78&#x00A0;Haus- und Kirchenlieder (vgl. <!--Anhang&#x00A0;III-->Anhang&#x00A0;<ref target="#huck-table03" type="crossref" rend="no"/>).</p>
+         <p>Bemerkenswert ist, dass <name ref="#huck-pers017">Rist</name> auf mehrere Melodien mit unterschiedlichen Textincipits verweist, bei zwei Liedern handelt es sich um Strophen, die im jeweils anderen Lied enthalten sind, die jedoch auch einzeln gebräuchlich waren und offenbar als eigenständige Lieder verstanden wurden. Während er in den Publikationen bis 1656 auf <q>Es ist das Heil uns kommen her</q> (DKL Ea2G) verweist, bezeichnet er die gleiche Melodie 1658 und 1659 dann als <q>Sei Lob und Ehr&#x2019; mit hohem Preis</q>, möglicherweise ein Indiz dafür, dass die selbständige Verwendung der Strophen 13 und 14 gebräuchlicher geworden war. Im ersten Teil des <hi rend="italic">Neuen Musikalischen Seeleparadises</hi> verweist er zweimal auf <q>Der Tag der ist so freudenreich</q> und dreimal auf <q>Ein Kindelein so löbelich</q>, die zweite Strophe aus dem gleichen Lied (DKL Eg17B).<note xml:id="huck-ftn22" n="22">Vgl. NMS-AT Nr.&#8239;57, S.&#8239;350 und Nr.&#8239;86, S.&#8239;386 bzw. Nr.&#8239;1, S.&#8239;4, Nr.&#8239;5, S.&#8239;28 und Nr.&#8239;78, S.&#8239;479.</note> 
+            Warum <name ref="#huck-pers017">Rist</name> jedoch innerhalb der gleichen Sammlung für eine identische Melodie unterschiedliche Liedincipits als Verweis angibt, bleibt unklar.</p>
+         <p>Ob davon auszugehen ist, dass <name ref="#huck-pers017">Rist</name> mit der Wahl verschiedener Incipits dort, wo es sie gibt, auf unterschiedliche Melodien verweist, erscheint damit keineswegs sicher. <q>Herr Christ, der einig Gott(e)s Sohn</q> (DKL Ea4) gehört zu jenen Liedern, auf die <name ref="#huck-pers017">Rist</name> in sämtlichen Sammlungen ab den <hi rend="italic">Neuen Himlischen Liedern</hi> verweist. Lediglich einmal gibt er hingegen auch <q>O Mensch, du wollst bedenken mein bitter Leiden</q> (NFA Nr.&#8239;18, S.&#8239;114) an, ein Lied, für dessen Melodie sowohl bei <name ref="#huck-pers005">Eler</name> als auch bei <name ref="#huck-pers030">David Wolder</name> jeweils auf <q>Herr Christ, der einig Gott(e)s Sohn</q> verwiesen wird.<note xml:id="huck-ftn23" n="23">Vgl. <ref type="bibl" target="#Eler1588">S.&#8239;9 und 35&#8239;f.</ref>; sowie  <ref target="#Wolder1598" type="bibl">S.&#8239;340&#8239;f. und 333&#8239;f.</ref> (RISM 1598<hi rend="sup">11</hi>)<!--, Zugriff am 21.&#8239;Juli 2015 unter <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0000F7C400000000"/>-->.</note> 
+            <q>Herr Christ tu mir verleihen</q> wurde von <name ref="#huck-pers013">Jeremias Nicolai</name> als Kontrafaktur auf die Melodie von <q>Aus meines Herzensgrunde</q> gedichtet, unwahrscheinlich ist damit, dass <name ref="#huck-pers017">Rist</name> mit diesen beiden Incipits auf unterschiedliche Melodien verweist. Im Falle von <q>Wie &#x2019;s Gott gefällt, so g&#x2019;fält mir &#x2019;s auch</q> gibt es zwar zwei eigene Melodien zu diesem Lied (DKL C&#8239;43 und Zahn&#x00A0;7547), keine davon war jedoch verbreitet, so dass es wahrscheinlich erscheint, dass <name ref="#huck-pers017">Rist</name> hier ebenfalls die von <name ref="#huck-pers030">Wolder</name> als Verweis vorgeschlagene Melodie, <q>Durch Adams Fall ist ganz verderbt</q>,<ref target="#Wolder1598" type="bibl" xml:id="huck-ftn24" n="24" rend="ibid">S.&#8239;329&#x2013;331</ref> im Sinn hatte.</p>
+         <p><name ref="#huck-pers017">Rist</name> unterscheidet zwischen Liedern, die im evangelischen kirchlichen Gebrauch (dass er damit den lutherischen meint, wird deutlich, wenn er die drei Lobwasser-Psalmen &#x2013; s.&#8239;u. &#x2013; nicht als <q>Kirchenlied</q>, sondern als <q>Psalm</q> bezeichnet) seiner Zeit waren und solchen, die dies nicht waren.<note xml:id="huck-ftn25" n="25">Eine Reihe von Liedern wird einfach nur als <q>Lied</q> bezeichnet ohne eine funktionale Bindung als Haus- und/oder Kirchenlied. Zum einen sind dies Lieder, die ausschließlich in den <hi rend="italic">Neuen Himlischen Liedern</hi> herangezogen werden, wo viele der Melodieverweise funktional nicht  spezifiziert sind, vgl. <q>Der Tag hat sich geneiget</q>, <q>Mag ich Unglück nicht widerstehn</q>, <q>So wünsch ich nun ein gute Nacht</q> und <q>Wär Gott nicht mit uns diese Zeit</q> (NHL Nr.&#8239;V/6, S.&#8239;308, Nr.&#8239;III/7, S.&#8239;178, Nr.&#8239;V/10, S.&#8239;338 und Nr.&#8239;III/8, S.&#8239;186), daneben jedoch auch <q>Ach Gott tu dich erbarmen</q>, <q>Das alte Jahr vergangen ist</q>, <q>Du Friedenfürst Herr Jesu Christ</q>, <q>Jesu nun sei gepreiset zu diesem neuen Jahr</q>, <q>O Welt ich muss dich lassen</q>, <q>Wacht auf ruft uns die Stimme</q> und <q>Was mein Gott will das gescheh allzeit</q></note>  
+            Außer den <q>Kirchenliedern</q> bzw. <q>Kirchengesängen</q> gibt es daneben eine Reihe von Liedern, die zwar nicht als Kirchenlieder bezeichnet sind, jedoch durch die auf das Kirchenjahr zielende Bezeichnung als Adventslied, Weihnachtslied, Passionslied, Osterlied oder Pfingslied in diesen Kontext gestellt werden, gleiches gilt für das Tauflied <q>Christ unser Herr zum Jordan kam</q> (NHL Nr.&#8239;III/6, S.&#8239;172 u.&#8239;a.) und das Grablied <q>Nun lasst uns den Leib begraben</q> (NFA Nr.&#8239;25, S.&#8239;160) sowie vermutlich auch für das <q>Buhs=Lied</q> (DSch Nr.&#8239;28, S.&#8239;166) <q>O Herre Gott begnade mich</q>, insofern als die beiden anderen Bußlieder <q>Aus tiefer Not schrei ich zu Dir</q> und <q>Erbarm dich mein O Herre Gott</q> auch als Kirchenlieder bezeichnet werden (DSch Nr.&#8239;34, S.&#8239;204 und Nr.&#8239;22, S.&#8239;128). Nur sechs Lieder bezeichnet <name ref="#huck-pers017">Rist</name> explizit als <q>Haus- und Kirchenlied</q>,<note xml:id="huck-ftn26" n="26"><q>Auf meinen lieben Gott</q>, <q>Kommt her zu mir spricht Gottes Sohn</q>, <q>Singen wir aus Herzens Grund</q>, <q>Von Gott will ich nicht lassen</q>, <q>Warum betrübst du dich mein Herz</q> und <q>Wie es Gott gefällt so gefält mirs auch</q>.</note> 
+            eine Bezeichnung die er erstmals in den <hi rend="italic">Katechismus Andachten</hi> und dann auch in den folgenden Publikationen verwendet.<note xml:id="huck-ftn27" n="27">Zuvor einmal <q>Haus= und KirchenGesang</q> (SSL Nr.&#8239;20, S.&#8239;120).</note> 
+            Daneben sind Morgengesang,<note xml:id="huck-ftn28" n="28"><q>Aus meines Herzens Grunde</q>, <q>Ich dank dir lieber Herre</q> und <q>Ich danke dir schon</q> (u.&#8239;a. AH Nr.&#8239;16, S.&#8239;80, Nr.&#8239;43, S.&#8239;232 und Nr.&#8239;42, S.&#8239;226).</note>
+            Abendgesang<note xml:id="huck-ftn29" n="29"><q>Christe der du bist Tag und Licht</q> (AH Nr.&#8239;44, S.&#8239;236).</note> 
+            Tischgesang<note xml:id="huck-ftn30" n="30"><q>Nun last uns Gott dem Herren</q> und <q>O Gott wir danken deiner Güth</q> (u.&#8239;a. AH Nr.&#8239;9, S.&#8239;52 [recte 42] und Nr.&#8239;46, S.&#8239;246) sowie <q>Singen wir aus Herzens Grund</q> (SSL Nr.&#8239;46, S.&#8239;278) und <q>Zwei Ding o Herr bitt ich von dir</q> (AH Nr.&#8239;45, S.&#8239;242).</note> 
+            und Abschied- bzw. Sterbelied<note xml:id="huck-ftn31" n="31"><q>Herzlich tut mich verlangen nach einem seligen End&#x2019;</q> (SSL Nr.&#8239;58, S.&#8239;352) und <q>Wenn mein Stündelein fürhanden ist</q> (AH Nr.&#8239;66, S.&#8239;358).</note> 
+            durch ihre Funktion jedoch ebenfalls als <q>Hauslieder</q> markiert.<!--<note xml:id="huck-ftn32" n="32"/>-->
+         </p>
+         <p>Für das Gebiet, zu dem <name ref="#huck-pers017">Rists</name> Wohnort und Wirkungsstätte Wedel gehörte &#x2013; bis 1640 die Grafschaft Holstein-Pinneberg, danach das Herzogtum Holstein &#x2013;, ist bis zu <name ref="#huck-pers017">Rists</name> Tod kein Gesangbuch gedruckt worden &#x2013; als erstes Gesangbuch gilt das Plönische von <pb/>1674.<note xml:id="huck-ftn33" n="33">Vgl.  <ref target="#Brederek1919" type="bibl">S.&#8239;3&#8239;ff.</ref></note> 
+               Lediglich die beiden Kirchenordnungen von <name ref="#huck-pers029">Paul Walther</name> (1635) und <name ref="#huck-pers015">Adam Olearius</name> (1665) enthalten Lieder,<note xml:id="huck-ftn34" n="34">Vgl. <ref target="#Walther1635" type="bibl"/> und <ref target="#Olearius1665" type="bibl"/><!--Zugriff am 21. Juli 2015 unter <ref target="http://diglib.hab.de/drucke/tk-79/start.htm">http://diglib.hab.de/drucke/tk-79/start.htm</ref>--></note> 
+               jedoch ohne Melodien, ersteres 114&#x00A0;Lieder in niederdeutscher Sprache, letzteres die gleichen Lieder in hochdeutsch und dazu weitere 32 (bis auf 16&#x00A0;Lieder sind alle bei <name ref="#huck-pers017">Rist</name> zitierten hier enthalten).<note xml:id="huck-ftn35" n="35">Vgl. <ref type="bibl" target="#Brederek1919">S.&#8239;1&#x2013;3</ref> und <ref target="#Hoeck1888" type="bibl">S.&#8239;25&#8239;ff. und 49&#8239;ff.</ref></note> 
+            Insofern erscheint es naheliegend anzunehmen, dass <name ref="#huck-pers017">Rist</name> vor allem mit Hamburger Gesangbuchdrucken und den in ihnen enthaltenen Melodiefassungen bekannt war. Entsprechend sind 50 der von <name ref="#huck-pers017">Rist</name> herangezogenen Lieder, viele davon mehrfach verwendet, in <name ref="#huck-pers005">Franz Elers</name> 1588 als Anhang zu den <title ref="#huck-works001">Cantica sacra</title> gedruckten niederdeutschen <hi rend="italic">Psalmi Lutheri, et aliorum</hi> enthalten, teilweise erscheint die in Hamburg fortan geläufige Melodie hier erstmals. All diese und zwölf weitere Lieder sind auch in <name ref="#huck-pers030">David Wolders</name> 1598 gedrucktem hochdeutschem <title ref="#huck-works002">New Catechismus Gesangbüchlein</title> enthalten, das damit wohl das <name ref="#huck-pers017">Rist</name> bekannte Gesangbuch gewesen sein dürfte, hingegen fehlen im Hamburger <hi rend="italic">Melodeyen Gesangbuch</hi><ref type="bibl" target="#MelodeyenGesangbuch1604" xml:id="huck-ftn36" n="36"/> 
+               von 1604 zwölf dieser bei <name ref="#huck-pers030">Wolder</name> enthaltenen Lieder. <q>Sei Lob und Ehr in hohem Preis</q> ist als 13. (und 14.) Strophe von <q>Es ist das Heil uns kommen an</q> in allen genannten Hamburger Gesangbüchern enthalten, lediglich im <hi rend="italic">Melodeyen Gesangbuch</hi> ist es innerhalb des Liedes <q>Es ist das Heil uns kommen an</q> durch eine Zwischenüberschrift<ref target="#MelodeyenGesangbuch1604" type="bibl" xml:id="huck-ftn37" n="37" rend="ibid">S.&#8239;111</ref> 
+               und einen Verweis im Register als eigenständiges Lied herausgehoben. Es zeichnet sich damit ab, dass <name ref="#huck-pers017">Rist</name> sich am Repertoire und wohl auch den Melodiefassungen der Hamburgischen Gesangbücher, vor allem an <name ref="#huck-pers030">Wolder</name>, orientierte,<note xml:id="huck-ftn38" n="38">Vgl. auch <ref type="bibl" target="#Rist2015">S.&#8239;496&#8239;ff.</ref></note> 
+               in dem bis auf 16 sämtliche verwiesenen Lieder enthalten sind.<note xml:id="huck-ftn39" n="39"><q>Jesu, nu sei gepreiset</q> (DKL C87) jedoch ohne Melodie, vgl. <ref target="#Wolder1598" type="bibl">S.&#8239;412&#8239;f.</ref></note>
+         </p>
+         <p>Bei einigen Liedern weichen die Melodien bzw. die Melodiefassungen in den Hamburger Gesangbüchern voneinander ab, so dass sich Gelegenheit bietet, diese These auf ihre Plausibilität zu überprüfen. So verweist <name ref="#huck-pers005">Eler</name> für <q>Wenn mein Stündlein vorhanden ist</q> auf die Melodie von <q>Es ist das Heil uns kommen her</q><note xml:id="huck-ftn40" n="40">Vgl. <ref type="bibl" target="#Eler1588">S.&#8239;66 und 37&#8239;f.</ref></note> 
+            (DKL Ea2G), während <name ref="#huck-pers030">Wolder</name> und das <hi rend="italic">Melodeyen Gesangbuch</hi> hier eine eigene Melodie in jeweils unterschiedlichen Fassungen (DKL Em6G bzw. Em6F) vorsehen. Auch bei drei anderen Liedern unterscheiden sich die Melodiefassungen bei <name ref="#huck-pers030">Wolder</name> und im <hi rend="italic">Melodeyen Gesangbuch</hi>, je einmal ist die Melodie bei <name ref="#huck-pers005">Eler</name> nicht vorhanden (<q>In dich hab&#x2019; ich gehoffet, Herr</q> DKL Ek24D bzw. Ek24E) bzw. stimmt bei <name ref="#huck-pers005">Eler</name> mit <name ref="#huck-pers030">Wolder</name> (<q>Singen wir aus Herzens Grund</q> DKL Eg100G bzw. <hi rend="italic">Melodeyen Gesangbuch</hi> Eg100I) oder dem <hi rend="italic">Melodeyen Gesangbuch</hi> (<q>O Gott, wir danken deiner Güt&#x2019;</q> DKL En2C bzw. Wolder En2B) überein. Im Falle von <q>Christe, der du bist Tag und Licht</q>, das im <hi rend="italic">Melodeyen Gesangbuch</hi> fehlt, divergieren die Melodiefassungen bei <name ref="#huck-pers005">Eler</name> und <name ref="#huck-pers030">Wolder</name> (DKL B12 bzw. B12G,a). Bei letzterem erscheint es aufgrund des bei <name ref="#huck-pers017">Rist</name> angegebenen Incipits <q>Christe der du bist Tag und Licht</q>)<note xml:id="huck-ftn41" n="41">AH Nr.&#8239;44, S.&#8239;236.</note> 
+            wahrscheinlich, dass er sich auf <name ref="#huck-pers030">Wolder</name> und nicht auf <name ref="#huck-pers005">Eler</name> bezieht, auch bei <q>O Gott, wir danken deiner Güt</q> scheint dies plausibel, insofern als <name ref="#huck-pers030">Wolder</name> hier die weiter verbreitete Fassung enthält, ebenso bei <q>Wenn mein Stündlein vorhanden ist</q>, für das <name ref="#huck-pers005">Eler</name> keine eigene Melodie angibt. </p>
+         <p>In Hamburg fanden 1604 zunächst zwei,<note xml:id="huck-ftn42" n="42"><q>Wacht auf ruft uns die Stimme</q> und <q>Wie schön leuchtet der Morgenstern</q> bereits 1604 im <title level="m">Melodeyen Gesangbuch</title>, S.&#8239;374&#8239;ff. und 346&#8239;ff., ersteres jedoch mit einer abweichenden Melodiefassung.</note> 
+            ab dem 1607 erschienenen (verlorenen) Hamburger <hi rend="italic">Enchiridion</hi> &#x2013; also noch zur Amtszeit <name ref="#huck-pers014">Philipp Nicolais</name> als Hauptpastor an St.&#8239;Katharinen &#x2013; dann alle vier in dessen <hi rend="italic">FrewdenSpiegel deß ewigen Lebens</hi> (RISM 1599<hi rend="sup">10</hi>) abgedruckten Lieder Eingang in die Gesangbücher.<note xml:id="huck-ftn43" n="43">Vgl. <ref target="#Schade1995" type="bibl">S.&#8239;121&#8239;f.</ref></note> 
+            Sie wurden sowohl niederdeutsch als auch hochdeutsch danach auch separat gedruckt als <hi rend="italic">Veer Schöne Geistlyke Leeder/ genamen vth dem FröuwdenSpegel deß ewigen Leuendes</hi> (RISM 1613<hi rend="sup">14</hi>) bzw. <hi rend="italic">Vier Schöne Geistliche Lieder/ genommen auß dem FrewdenSpiegel deß ewigen Lebens</hi> (RISM 1615<hi rend="sup">17</hi>), ebenso in der Hamburger Ausgabe des <hi rend="italic">FrewdenSpiegel</hi> (RISM 1617<hi rend="sup">18</hi>). Mit <q>So wünsch ich nun ein gute Nacht</q> (zur Melodie des weltlichen Liedes <q>So wünsch ich nun ein gute Nacht</q>)<ref type="bibl" target="#Erk1894" xml:id="huck-ftn44" n="44">S.&#8239;187&#8239;f.</ref> und <q>Wacht auf ruft uns die Stimme</q> sowie <q>Herr Christ tu mir verleihen</q> (Text <name ref="#huck-pers013">Jeremias Nicolai</name> zur Melodie des Liedes <q>Aus meines Herzens Grunde</q>) verwendet <name ref="#huck-pers017">Rist</name> die Melodien von drei dieser Lieder, gerade jene drei sind jedoch im Hamburger <hi rend="italic">Enchiridion</hi> von 1630 nicht mehr enthalten.<note xml:id="huck-ftn45" n="45">Vgl. <ref type="bibl" target="#Schade1995">S.&#8239;125</ref>. Das <hi rend="italic">Enchiridion</hi> von&#x00A0;1630 enthält keine Noten.</note> 
+            Auf die Melodien <q>Aus meines Herzens Grunde</q> und <q>So wünsch ich ihr ein gute Nacht</q> wird jedoch auch in den Hamburger Ausgaben nur verwiesen.</p>
+         <p>Dass <q>Auf meinen lieben Gott</q> in Hamburg verbreitet war, belegt seine Aufnahme (wenn auch ohne Noten) in das <hi rend="italic">Enchiridion</hi> von 1630.<note xml:id="huck-ftn46" n="46">Vgl. <ref type="bibl" target="#Schade1995" rend="ibid"/></note> 
+            Dieses Datum deutet darauf hin, dass die Melodie in der weit verbreiteten Fassung des 1627 erschienen <title ref="#huck-work003">Cantional</title> von <name ref="#huck-pers022">Johann Hermann Schein</name><note xml:id="huck-ftn47" n="47">Vgl. <ref target="#Schein1965" type="bibl">Teil&#x00A0;2, S.&#8239;61.</ref></note> 
+            (RISM 1627<hi rend="sup">10</hi>) geläufig gewesen sein dürfte, die damit wohl auch die <name ref="#huck-pers017">Rist</name> bekannte war.</p>
+         <p>Lediglich zwölf Lieder gehören damit nicht zu einem in Hamburger Drucken bereits 1607 etablierten Repertoire, eben jene fallen damit aber auch nicht unter das von <name ref="#huck-pers017">Rist</name> im Vorwort der <hi rend="italic">Fest=Andachten</hi> beschworene Repertoire jener Lieder, die <q>in unseren evangelischen Kirchen von vielen Jahren her üblich</q><note xml:id="huck-ftn48" n="48">NFA, fol.&#8239;B4&#8239;r.</note> 
+            seien. Von diesen sind <q>Mein Hüter und mein Hirt&#x2019; ist Gott der Herre</q>, <q>O höchster Gott, o unser lieber Herr</q> und <q>Wie nach einem Wasserquelle</q> in dem von <name ref="#huck-pers011">Ambrosius Lobwasser</name> ins Deutsche übertragenen <title ref="#huck-works004" rend="normal">Genfer Psalter</title> (mit den vierstimmigen Sätzen von <name ref="#huck-pers008">Claude Goudimel</name>) enthalten, der erstmals 1573 in Leipzig gedruckt wurde und zahlreiche Nachdrucke erfahren hat. Da es bis zu <name ref="#huck-pers017">Rists</name> Tod kein Gesangbuch gibt, in dem alle drei von <name ref="#huck-pers017">Rist</name> als Melodievorlagen herangezogenen Lobwasser-Psalmen (Ps&#8239;8, 23 und 42) enthalten sind,<note xml:id="huck-ftn49" n="49">Vgl. <ref type="bibl" target="#Haug2010">S.&#8239;245&#8239;ff.</ref> und <ref target="#Scheitler2004" type="bibl"/>.</note> 
+            ist davon auszugehen, dass er <name ref="#huck-pers011">Lobwasser</name> direkt (ev. auch in einer der erstmals 1574 erschienenen einstimmigen Ausgaben) rezipiert hat.<note xml:id="huck-ftn50" n="50">Vgl. <ref target="#Lobwasser1573" type="bibl"/>.</note> 
+            Das von <name ref="#huck-pers007">Bartholomäus Gesius</name> komponierte Lied <q>Du Friedefürst Herr Jesu Christ</q> erschien erstmals 1601 in dessen <hi rend="italic">Geistlichen Deutschen Liedern</hi><ref type="bibl" target="#Gesius1601" xml:id="huck-ftn51" n="51"/> und fand weite Verbreitung.</p>
+         <p>Bei drei der verbleibenden acht Lieder enthalten Quellen, die nach <name ref="#huck-pers017">Rists</name> Tod erschienen sind, Hinweise auf Melodiefassungen, die in Hamburg geläufig waren. Mit <q>Der Tag hat sich geneiget</q> kann <name ref="#huck-pers017">Rist</name> aufgrund des Metrums nicht auf die erstmals in <name ref="#huck-pers002">Erhard Bodenschatz&#x2019;</name> <title ref="#huck-works005">Harmoniae Angelicae</title> 1608 (RISM 1608<hi rend="sup">03</hi>) gedruckte Melodie (DKL H 120 bzw. Zahn 7219), sondern nur auf die erstmals in Bremen 1639 (RISM 1639<hi rend="sup">04</hi>) gedruckte Melodie (Zahn 5420a), von der das &#x2013; verlorene &#x2013; Hamburger Choralbuch von 1690 (RISM 1690<hi rend="sup">08</hi>) eine eigene Melodiefassung enthielt (Zahn 5420b), verwiesen haben. Auch von <q>Ich dank&#x2019; dir schon</q> enthielt das Hamburger Choralbuch von 1690 eine eigene Melodiefassung (Zahn 247b), die möglicherweise bereits zuvor in Hamburg geläufig war. Im Falle von <q>Das alte Jahr vergangen ist</q><note xml:id="huck-ftn52" n="52">Die bei Schein erstmals gedruckte Melodiefassung (Zahn 522) ist, wenn auch mit rhythmischen Veränderungen, noch bei <name ref="#huck-pers027">Georg Philipp Telemann</name> 1730 (RISM 1730<hi rend="sup">11</hi>) in Hamburg zu finden.</note> 
+            ist es nicht unwahrscheinlich, dass <name ref="#huck-pers017">Rist</name> die noch bei <name ref="#huck-pers027">Georg Philipp Telemann</name> 1730 (RISM 1730<hi rend="sup">11</hi>) in Hamburg gebräuchliche, erstmals in <name ref="#huck-pers022">Scheins</name> <title ref="#huck-work003">Cantional</title><note xml:id="huck-ftn53" n="53">Vgl. <ref target="#Schein1965" type="bibl">Teil&#x00A0;1, S.&#8239;27</ref>.</note> 
+            gedruckte Melodiefassung (Zahn 522) geläufig war. Neben diesem und <q>Auf meinen lieben Gott</q> sind mit <q>Christus, der uns selig macht</q>, <q>Helft mir Gott&#x2019;s Güte preisen</q>, <q>Herzlich tut mich verlangen nach einem seligen End</q> und <q>Jesu nu sei gepreist</q> vier weitere Lieder ebenfalls in <name ref="#huck-pers022">Scheins</name> <title ref="#huck-work003">Cantional</title> enthalten,<note xml:id="huck-ftn54" n="54">Vgl. <ref type="bibl" target="#Schein1965" rend="ibid">Teil&#x00A0;I S.&#8239;35&#8239;f. und 25, Teil&#x00A0;II, S.&#8239;58 sowie Teil&#x00A0;I, S.&#8239;26</ref>.</note> 
+            so dass es nicht unwahrscheinlich ist, dass <name ref="#huck-pers017">Rist</name> diese Fassungen direkt oder indirekt bekannt waren. Im Fall jener Lieder, von denen die Hamburger Gesangbücher keine Melodien enthalten, ist letztlich jedoch weder die Melodiefassung, noch <name ref="#huck-pers017">Rists</name> Quelle eindeutig zu benennen, insbesondere, wenn sie so weit verbreitet waren wie <q>Herzlich tut mich verlangen nach einem selgen End&#x2019;</q> (Zahn 5385a) auf <name ref="#huck-pers009">Hans Leo Hasslers</name> <q>Mein Gemüt ist mir verwirret</q>.</p>
+      </body>
+      <back>
+         <div type="appendix">
+            <head>Anhang I: Erstausgaben von Rists Geistlichen Liedern mit Musik</head>
+            <table xml:id="huck-table01">
+               <!--<head>Erstausgaben von Rists Geistlichen Liedern mit Musik</head>-->
+               <row role="label">
+                  <cell>Sigle</cell>
+                  <cell>Druck</cell>
+                  <cell>Komponist(en)</cell>
+               </row>
+               <row>
+                  <cell>HL</cell>
+                  <cell>Himlische Lieder. Lüneburg 1641–1642</cell>
+                  <cell>50 Lieder, <name ref="#huck-pers024">Johann Schop</name> und im ersten Teil auch <name ref="#huck-pers017">Rist</name>?</cell>
+               </row>
+               <row>
+                  <cell>LS</cell>
+                  <cell>Der zu seinem allerheiligsten Leiden und Sterben hingeführter und an das Kreütz gehefteter Christus Jesus. Hamburg 1648</cell>
+                  <cell>19 Lieder, <name ref="#huck-pers016">Hinrich Pape</name></cell>
+               </row>
+               <row>
+                  <cell>HV</cell>
+                  <cell>Holstein vergiß es nicht. Hamburg 1648</cell>
+                  <cell>1 Lied, Komponist nicht genannt, <name ref="#huck-pers017">Rist</name>?</cell>
+               </row>
+               <row>
+                  <cell>NHL</cell>
+                  <cell>Neüer Himlischer Lieder Sonderbahres Buch. Lüneburg 1651</cell>
+                  <cell>50 Lieder, Musik von <name ref="#huck-pers031">Andreas Hammerschmidt</name>, <name ref="#huck-pers032">Michael Jacobi</name>, <name ref="#huck-pers035">Jacob Kortkamp</name>, <name ref="#huck-pers037">Petrus Meier</name>, <name ref="#huck-pers016">Hinrich Pape</name>, <name ref="#huck-pers036">Jacob Praetorius</name>, <name ref="#huck-pers020">Heinr. Scheidemann</name> und <name ref="#huck-pers034">S. Th. Staden</name></cell>
+               </row>
+               <row>
+                  <cell>SSL</cell>
+                  <cell>Sabbahtische Seelenlust. Lüneburg 1651</cell>
+                  <cell>58 Lieder, <name ref="#huck-pers033">Thomas Selle</name></cell>
+               </row>
+               <row>
+                  <cell>AH</cell>
+                  <cell>Frommer und Gottseliger Christen Alltägliche Haußmusik. Lüneburg 1654</cell>
+                  <cell>70 Lieder, <name ref="#huck-pers024">Johann Schop</name> und <name ref="#huck-pers032">Michael Jacobi</name></cell>
+               </row>
+               <row>
+                  <cell>NFA</cell>
+                  <cell>Neüe Musikalische Fest=Andachten. Lüneburg 1655</cell>
+                  <cell>52 Lieder, <name ref="#huck-pers033">Thomas Selle</name></cell>
+               </row>
+               <row>
+                  <cell>KA</cell>
+                  <cell>Neüe Musikalische Katechismus Andachten. Lüneburg 1656</cell>
+                  <cell>50 Lieder, <name ref="#huck-pers031">Andreas Hammerschmidt</name> und <name ref="#huck-pers032">Michael Jacobi</name></cell>
+               </row>
+               <row>
+                  <cell>VE I</cell>
+                  <cell>Die verschmähete Eitelkeit Und Die verlangete Ewigkeit. Lüneburg 1658</cell>
+                  <cell>24 Lieder, <name ref="#huck-pers020">Heinrich Scheidemann</name></cell>
+               </row>
+               <row>
+                  <cell>DSch</cell>
+                  <cell>Neüe Musikalische Kreutz= Trost=Lob= und DankSchuhle. Lüneburg 1659</cell>
+                  <cell>70 Lieder, <name ref="#huck-pers032">Michael Jacobi</name></cell>
+               </row>
+               <row>
+                  <cell>NMS.AT</cell>
+                  <cell>Neues Musikalisches Seelenparadis/&#x00A0;Jn sich begreiffend Die allerfürtreflichste Sprüche der heiligen Schrifft/&#x00A0;Alten Testaments. Lüneburg 1660</cell>
+                  <cell>82 Lieder, <name ref="#huck-pers006">Christian Flor</name></cell>
+               </row>
+               <row>
+                  <cell>NMS.NT</cell>
+                  <cell>Neues Musikalisches Seelenparadis/&#x00A0;in Sich begreiffend Die allerfürtreflichste Sprüche der H. Schrifft/&#x00A0;Neuen Testaments. Lüneburg 1662</cell>
+                  <cell>82 Lieder, <name ref="#huck-pers006">Christian Flor</name></cell>
+               </row>
+               <row>
+                  <cell>PA</cell>
+                  <cell>Neue Hoch=heilige Paßions=Andachten. Hamburg 1664</cell>
+                  <cell>46 Lieder, <name ref="#huck-pers003">Martin Coler</name></cell>
+               </row>
+               <row>
+                  <cell>VE II</cell>
+                  <cell>Der verschmäheten Eitelkeit Und Der verlangeten Ewigkeit/&#x00A0;Ander Theil. Frankfurt a.M. 1668</cell>
+                  <cell>24 Lieder, Komponist nicht genannt</cell>
+               </row>
+            </table>
+         </div>
+         <div type="appendix" rend="landscape">
+            <head>Anhang II: Verweise auf Melodien von Kirchenliedern <lb/>(Textincipitis nach DKL, Angegeben ist die Seitenzahl)</head>
+            <table xml:id="huck-table02">
+               <!--<head>Verweise auf Melodien von Kirchenliedern (Incipitis nach DKL, Angegeben ist die Seitenzahl)</head>-->
+               <row role="label">
+                  <cell/>
+                  <cell>
+                     NHL
+                     1651
+                  </cell>
+                  <cell>
+                     SSL
+                     1651
+                  </cell>
+                  <cell>
+                     AH
+                     1654
+                  </cell>
+                  <cell>
+                     NFA
+                     1655
+                  </cell>
+                  <cell>
+                     KA
+                     1656
+                  </cell>
+                  <cell>
+                     VE I
+                     1658
+                  </cell>
+                  <cell>
+                     DSch
+                     1659
+                  </cell>
+                  <cell>NMS.AT 1660</cell>
+                  <cell>
+                     NMS.NT
+                     1662
+                  </cell>
+                  <cell>
+                     PA
+                     1664
+                  </cell>
+                  <cell>
+                     VE II
+                     1668</cell>
+               </row>
+               <row>
+                  <cell>Ach Gott, tu dich erbarmen</cell>
+                  <cell>256</cell>
+                  <cell>260</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Ach Gott, vom Himmel sieh darein</cell>
+                  <cell>20</cell>
+                  <cell/>
+                  <cell>182</cell>
+                  <cell>36</cell>
+                  <cell>154</cell>
+                  <cell/>
+                  <cell>354</cell>
+                  <cell>281</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Allein Gott in der Höh&#x2019; sei Ehr&#x2019;</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>142</cell>
+                  <cell>166</cell>
+                  <cell/>
+                  <cell>312</cell>
+                  <cell>16, 88</cell>
+                  <cell>490</cell>
+                  <cell>99, 400</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Allein zu dir, Herr Jesu Christ</cell>
+                  <cell>44</cell>
+                  <cell>218, 334</cell>
+                  <cell>204</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Als (Da) Christus geboren war</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>354</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>An Wasserflüssen Babylon</cell>
+                  <cell>212, 316</cell>
+                  <cell>82, 248</cell>
+                  <cell>256</cell>
+                  <cell>96, 210, 330</cell>
+                  <cell>136, 242</cell>
+                  <cell>136</cell>
+                  <cell>
+                     224, 380
+                  </cell>
+                  <cell>
+                     150, 230
+                  </cell>
+                  <cell>130, 430</cell>
+                  <cell>174 </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Auf meinen lieben Gott</cell>
+                  <cell>106, 192</cell>
+                  <cell>52</cell>
+                  <cell>
+                     154,
+                     214
+                  </cell>
+                  <cell>42</cell>
+                  <cell>34</cell>
+                  <cell>241</cell>
+                  <cell>
+                     260
+                  </cell>
+                  <cell>96, 484</cell>
+                  <cell>148, 442</cell>
+                  <cell>130 </cell>
+                  <cell>298</cell>
+               </row>
+               <row>
+                  <cell>Aus meines Herzen Grunde</cell>
+                  <cell>
+                     32
+                  </cell>
+                  <cell>46, 266</cell>
+                  <cell>
+                     80,
+                     148, 220
+                  </cell>
+                  <cell>
+                     310
+                  </cell>
+                  <cell>
+                     261
+                  </cell>
+                  <cell>
+                     329
+                  </cell>
+                  <cell/>
+                  <cell>
+                     454
+                  </cell>
+                  <cell>190</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Aus tiefer Not schrei&#x2019; ich zu Dir</cell>
+                  <cell/>
+                  <cell>254</cell>
+                  <cell>172</cell>
+                  <cell/>
+                  <cell>178</cell>
+                  <cell/>
+                  <cell>204</cell>
+                  <cell>73</cell>
+                  <cell>141, 447</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Christ lag in Todesbanden</cell>
+                  <cell/>
+                  <cell>138</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>159</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Christ, unser Herr, zum Jordan kam</cell>
+                  <cell>172 </cell>
+                  <cell>
+                     170
+                  </cell>
+                  <cell>
+                     64,
+                     300
+                  </cell>
+                  <cell/>
+                  <cell>202</cell>
+                  <cell/>
+                  <cell>146</cell>
+                  <cell>357</cell>
+                  <cell>171, 466</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Christe, der du bist Tag und Licht</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>236</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Christus, der uns selig macht</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>312</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>384</cell>
+                  <cell>58, 298</cell>
+                  <cell>85, 337</cell>
+                  <cell>111, 418</cell>
+                  <cell>217 </cell>
+                  <cell>54, 663</cell>
+               </row>
+               <row>
+                  <cell>Da Jesus an dem Kreuze stund</cell>
+                  <cell/>
+                  <cell>100</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>288</cell>
+                  <cell>324</cell>
+                  <cell/>
+                  <cell>16 </cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Das alte Jahr vergangen ist</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>68</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Der Tag, der ist so freudenreich</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>108</cell>
+                  <cell>74</cell>
+                  <cell/>
+                  <cell>224</cell>
+                  <cell>192</cell>
+                  <cell>350, 386</cell>
+                  <cell>208, 485</cell>
+                  <cell/>
+                  <cell>607</cell>
+               </row>
+               <row>
+                  <cell>Der Tag hat sich geneiget</cell>
+                  <cell>308</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Dies sind die heil&#x2019;gen 10 zehen Gebot&#x2019;</cell>
+                  <cell/>
+                  <cell>290</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>10</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Du Friedefürst, Herr Jesu Christ</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>330</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>4</cell>
+                  <cell>46, 310</cell>
+                  <cell>33, 335</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Durch Adams Fall ist ganz verderbt</cell>
+                  <cell>12</cell>
+                  <cell>200, 314</cell>
+                  <cell>
+                     260, 
+                     306,
+                     341 [recte 342] 
+                  </cell>
+                  <cell>
+                     216, 272
+                  </cell>
+                  <cell>40, 70</cell>
+                  <cell>276</cell>
+                  <cell>76</cell>
+                  <cell>380, 472</cell>
+                  <cell>70, 366</cell>
+                  <cell>181</cell>
+                  <cell>553</cell>
+               </row>
+               <row>
+                  <cell>Ein feste Burg ist unser Gott</cell>
+                  <cell>154</cell>
+                  <cell>126</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     124,
+                     248
+                  </cell>
+                  <cell>68</cell>
+                  <cell>210</cell>
+                  <cell>102, 412</cell>
+                  <cell>264</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Ein Kindelein so löbelich </cell>
+                  <cell>72</cell>
+                  <cell>34</cell>
+                  <cell/>
+                  <cell>16</cell>
+                  <cell>88, 274 </cell>
+                  <cell/>
+                  <cell>64</cell>
+                  <cell>4, 28,  479</cell>
+                  <cell>58, 270, 355</cell>
+                  <cell>104 </cell>
+                  <cell>241</cell>
+               </row>
+               <row>
+                  <cell>Erbarm dich mein, o Herre Gott</cell>
+                  <cell>230</cell>
+                  <cell>236, 340</cell>
+                  <cell>318</cell>
+                  <cell/>
+                  <cell>
+                     22,
+                     300
+                  </cell>
+                  <cell/>
+                  <cell>
+                     128,
+                     282
+                  </cell>
+                  <cell>108</cell>
+                  <cell>166, 460</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Es ist gewisslich an der Zeit</cell>
+                  <cell>270</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>112</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Es ist das Heil uns kommen her</cell>
+                  <cell/>
+                  <cell>224</cell>
+                  <cell>266</cell>
+                  <cell>278</cell>
+                  <cell>196</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Es wollt&#x2019; uns Gott genädig sein</cell>
+                  <cell>166</cell>
+                  <cell>70,  182</cell>
+                  <cell>276</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Gelobet seist du, Jesu Christ</cell>
+                  <cell/>
+                  <cell>28</cell>
+                  <cell/>
+                  <cell>54</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>122</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Gott der Vater, wohn uns bei</cell>
+                  <cell/>
+                  <cell>114</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Helft mir Gott&#x2019;s Güte preisen</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>4</cell>
+                  <cell/>
+                  <cell>142 </cell>
+                  <cell/>
+                  <cell>386</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Herr Christ, der einig Gott(e)s Sohn</cell>
+                  <cell>206</cell>
+                  <cell>22</cell>
+                  <cell>198, 324</cell>
+                  <cell>
+                     10,
+                     126
+                  </cell>
+                  <cell>82</cell>
+                  <cell>258</cell>
+                  <cell>92</cell>
+                  <cell>
+                     269, 275
+                  </cell>
+                  <cell>88, 377</cell>
+                  <cell>154</cell>
+                  <cell>383</cell>
+               </row>
+               <row>
+                  <cell>Herr Christ tu mir verleihen</cell>
+                  <cell>140</cell>
+                  <cell>4, 126, 284</cell>
+                  <cell>194</cell>
+                  <cell>246</cell>
+                  <cell>28</cell>
+                  <cell>86</cell>
+                  <cell>28</cell>
+                  <cell>
+                     22
+                  </cell>
+                  <cell>16, 318</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Herzlich lieb hab&#x2019; ich dich, o Herr</cell>
+                  <cell>
+                     148
+                  </cell>
+                  <cell/>
+                  <cell>38</cell>
+                  <cell/>
+                  <cell>226</cell>
+                  <cell/>
+                  <cell>186</cell>
+                  <cell>436</cell>
+                  <cell>277</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Herzlich tut mich verlangen nach einem selgen End&#x2019;</cell>
+                  <cell>292</cell>
+                  <cell>352</cell>
+                  <cell/>
+                  <cell>298, 344</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Hilf, Gott, dass mir gelinge</cell>
+                  <cell/>
+                  <cell>108</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>392</cell>
+                  <cell>304</cell>
+                  <cell>306</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Ich dank&#x2019; dir, lieber Herre</cell>
+                  <cell>198</cell>
+                  <cell>230</cell>
+                  <cell>232</cell>
+                  <cell>224</cell>
+                  <cell>208</cell>
+                  <cell>207</cell>
+                  <cell>40</cell>
+                  <cell>78, 91</cell>
+                  <cell>82, 371</cell>
+                  <cell>187</cell>
+                  <cell>354</cell>
+               </row>
+               <row>
+                  <cell>Ich dank&#x2019; dir schon</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>226</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>347</cell>
+                  <cell>366</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Ich ruf&#x2019; zu dir, Herr Jesu Christ</cell>
+                  <cell>50</cell>
+                  <cell>64, 272</cell>
+                  <cell>130</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>413</cell>
+               </row>
+               <row>
+                  <cell>In dich hab&#x2019; ich gehoffet, Herr</cell>
+                  <cell>236</cell>
+                  <cell>
+                     212,
+                     328
+                  </cell>
+                  <cell>18, 188</cell>
+                  <cell>290</cell>
+                  <cell>58</cell>
+                  <cell>293</cell>
+                  <cell>46</cell>
+                  <cell>293</cell>
+                  <cell>394, 412</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>In dulci jubilo</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>30</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                     198,
+                     330
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Jesu, nu sei gepreiset </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>60</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Jesus Christus, wahr Gottessohn</cell>
+                  <cell/>
+                  <cell>144</cell>
+                  <cell/>
+                  <cell>182</cell>
+                  <cell>100</cell>
+                  <cell/>
+                  <cell>276</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Komm, Heiliger Geist, Herre Gott</cell>
+                  <cell/>
+                  <cell>176</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>4, 118</cell>
+                  <cell/>
+                  <cell>
+                     242,
+                     420
+                  </cell>
+                  <cell>211, 393</cell>
+                  <cell>4, 312</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Kommt her zu mir, spricht Gottes Sohn</cell>
+                  <cell>38, 224</cell>
+                  <cell>
+                     16,
+                     206, 322
+                  </cell>
+                  <cell>160, 176</cell>
+                  <cell>120, 252</cell>
+                  <cell>
+                     46,
+                     268 
+                  </cell>
+                  <cell>121</cell>
+                  <cell>
+                     82,
+                     322
+                  </cell>
+                  <cell>132, 287</cell>
+                  <cell>22, 324</cell>
+                  <cell>142</cell>
+                  <cell>80</cell>
+               </row>
+               <row>
+                  <cell>Mag ich Unglück nicht widerstahn</cell>
+                  <cell>178</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Mein Hüter und mein Hirt&#x2019; ist Gott der Herre</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>92</cell>
+                  <cell>196</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>10</cell>
+                  <cell>52 </cell>
+                  <cell>39, 342</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Nun freuet euch, lieben Christen g&#x2019;emein</cell>
+                  <cell>84</cell>
+                  <cell>76</cell>
+                  <cell>28</cell>
+                  <cell>230</cell>
+                  <cell/>
+                  <cell>14</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>220</cell>
+                  <cell/>
+                  <cell>108, 526</cell>
+               </row>
+               <row>
+                  <cell>Nun komm, der Heiden Heiland</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>108</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Nun lob&#x2019;, mein Seel&#x2019;, den Herren</cell>
+                  <cell>78, 330</cell>
+                  <cell>156</cell>
+                  <cell>250, 348</cell>
+                  <cell>
+                     202, 258,
+                     336
+                  </cell>
+                  <cell>
+                     106, 306
+                  </cell>
+                  <cell>50</cell>
+                  <cell>34</cell>
+                  <cell>187, 237</cell>
+                  <cell>118</cell>
+                  <cell/>
+                  <cell>162</cell>
+               </row>
+               <row>
+                  <cell>Nun lasst uns den Leib begraben</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>160</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Nun lasst uns Gott dem Herren</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>52 [recte 42]</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>70</cell>
+                  <cell>59</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Gott, wir danken deiner Güt&#x2019;</cell>
+                  <cell>126</cell>
+                  <cell/>
+                  <cell>
+                     60,
+                     246
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Herre Gott, begnade mich</cell>
+                  <cell>4</cell>
+                  <cell>242</cell>
+                  <cell>22</cell>
+                  <cell/>
+                  <cell>
+                     64,
+                     280
+                  </cell>
+                  <cell/>
+                  <cell>166</cell>
+                  <cell>114</cell>
+                  <cell>257</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Herre Gott, dein göttlich Wort</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>190</cell>
+                  <cell>234</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O höchster Gott, o unser lieber Herre</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>138</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Lamm Gottes, unschuldig</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>154</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>199</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Mensch, bewein dein Sünde groß</cell>
+                  <cell>278</cell>
+                  <cell>94</cell>
+                  <cell/>
+                  <cell>146</cell>
+                  <cell>
+                     94, 
+                     214 
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>4</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>
+                     O Mensch, du wollst bedenken mein bitter Leiden
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>114</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O Welt, ich muss dich lassen</cell>
+                  <cell>
+                     284
+                  </cell>
+                  <cell>
+                     132,
+                     346
+                  </cell>
+                  <cell>
+                     374
+                  </cell>
+                  <cell>
+                     48, 102
+                  </cell>
+                  <cell>190</cell>
+                  <cell/>
+                  <cell>230</cell>
+                  <cell>198</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>O (Ach) wir armen Sünder, unsre Missetat</cell>
+                  <cell/>
+                  <cell>194, 302</cell>
+                  <cell/>
+                  <cell>132</cell>
+                  <cell>130, 220</cell>
+                  <cell>190</cell>
+                  <cell>264, 342</cell>
+                  <cell>193</cell>
+                  <cell>195, 478</cell>
+                  <cell>10, 193</cell>
+                  <cell>636</cell>
+               </row>
+               <row>
+                  <cell>Sei Lob und Ehr&#x2019; mit hohem Preis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>425</cell>
+                  <cell>52</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Singen wir aus Herzens Grund</cell>
+                  <cell/>
+                  <cell>120, 278</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>468</cell>
+               </row>
+               <row>
+                  <cell>So wünsch ich nun ein gute Nacht</cell>
+                  <cell>338</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Vater unser im Himmelreich</cell>
+                  <cell>160</cell>
+                  <cell>88</cell>
+                  <cell>
+                     8, 282
+                  </cell>
+                  <cell>
+                     324
+                  </cell>
+                  <cell>
+                     148, 
+                     294
+                  </cell>
+                  <cell>104</cell>
+                  <cell>152</cell>
+                  <cell>
+                     138, 443
+                  </cell>
+                  <cell> 9, 289</cell>
+                  <cell>117</cell>
+                  <cell>134</cell>
+               </row>
+               <row>
+                  <cell>Von allen Menschen abgewandt</cell>
+                  <cell>218</cell>
+                  <cell>58</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>316</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Von Gott will ich nicht lassen</cell>
+                  <cell>132, 324</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>88, 266</cell>
+                  <cell>
+                     160
+                  </cell>
+                  <cell/>
+                  <cell>
+                     360
+                  </cell>
+                  <cell>
+                     162
+                  </cell>
+                  <cell>46</cell>
+                  <cell>110</cell>
+                  <cell>325</cell>
+               </row>
+               <row>
+                  <cell>Wacht auf, ihr Christen alle</cell>
+                  <cell>242</cell>
+                  <cell>10</cell>
+                  <cell>54, 370</cell>
+                  <cell>4</cell>
+                  <cell>
+                     16
+                  </cell>
+                  <cell>31</cell>
+                  <cell>
+                     134,
+                     248
+                  </cell>
+                  <cell>
+                     144,
+                     418
+                  </cell>
+                  <cell>27, 329</cell>
+                  <cell>
+                     97
+                  </cell>
+                  <cell>27</cell>
+               </row>
+               <row>
+                  <cell>Wacht auf ruft uns die Stimme</cell>
+                  <cell/>
+                  <cell>308</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wär&#x2019; Gott nicht mit uns diese Zeit</cell>
+                  <cell>186</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Warum betrübst du dich, mein Herz</cell>
+                  <cell>26</cell>
+                  <cell>40</cell>
+                  <cell>166</cell>
+                  <cell/>
+                  <cell>52, 172</cell>
+                  <cell/>
+                  <cell>96</cell>
+                  <cell>362</cell>
+                  <cell>184</cell>
+                  <cell/>
+                  <cell>441</cell>
+               </row>
+               <row>
+                  <cell>Was kann uns kommen an für Not</cell>
+                  <cell/>
+                  <cell>150</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>154</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Was mein Gott will, das g&#x2019;scheh&#x2019; allzeit</cell>
+                  <cell>118 </cell>
+                  <cell/>
+                  <cell>86 </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wenn mein Stündlein vorhanden ist</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>358</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wenn wir in höchsten Nöten sein</cell>
+                  <cell>100</cell>
+                  <cell/>
+                  <cell>136</cell>
+                  <cell/>
+                  <cell>184</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>186</cell>
+               </row>
+               <row>
+                  <cell>Wie &#x2019;s Gott gefällt, so g&#x2019;fält <lb/>mir &#x2019;s auch</cell>
+                  <cell>300</cell>
+                  <cell>162</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>166</cell>
+                  <cell>172</cell>
+                  <cell>172 </cell>
+                  <cell>466</cell>
+                  <cell>245</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wie nach einem Wasserquelle</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>270</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>365</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wir glauben all an einen Gott</cell>
+                  <cell/>
+                  <cell>188</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>76</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Wo Gott der Herr nicht bei uns hält</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>288</cell>
+                  <cell>284</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Zwei Ding&#x2019;, o Herr, bitt&#x2019; ich von dir</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>242</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+            </table>
+         </div>
+         <div type="appendix" rend="landscape">
+            <head>Anhang III: Verwiesene Lieder, wahrscheinliche Melodiefassungen und ihre Quellen</head>
+            <table xml:id="huck-table03">
+               <!--<head>Verwiesene Lieder, wahrscheinliche Melodiefassungen und ihre Quellen</head>-->
+            <row role="label">
+               <cell/>
+               <cell>
+                  vermutete Melodiefassung
+                  DKL/Zahn
+               </cell>
+               <cell>Eler 1588</cell>
+               <cell>Wolder 1596</cell>
+               <cell>Melodeyen Gesangbuch 1604</cell>
+               <cell>
+                  Olearius 1665
+                  <lb/>bis auf ( ) auch
+                  Walther 1635 
+               </cell>
+               <cell>Bemerkung</cell>
+            </row>
+            <row>
+               <cell>Ach Gott, tu dich erbarmen</cell>
+               <cell>Eg&#8239;239</cell>
+               <cell/>
+               <cell>209–213</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row>
+               <cell>Ach Gott, vom Himmel sieh darein</cell>
+               <cell>Ea&#8239;5</cell>
+               <cell>56&#8239;f.</cell>
+               <cell>311&#8239;f.</cell>
+               <cell>10–13</cell>
+               <cell>59&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Allein Gott in der Höh&#x2019; sei Ehr&#x2019;</cell>
+               <cell>Ei&#8239;2A</cell>
+               <cell>19</cell>
+               <cell>150&#8239;f.</cell>
+               <cell>32–37</cell>
+               <cell>31&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Allein zu dir, Herr Jesu Christ</cell>
+               <cell>B&#8239;47A</cell>
+               <cell>31</cell>
+               <cell>427–429</cell>
+               <cell>28–33</cell>
+               <cell>43&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Als (Da) Christus geboren war</cell>
+               <cell>Eg&#8239;100B</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>erstmals RISM 1560<hi rend="sup">17</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>An Wasserflüssen Babylon</cell>
+               <cell>Eb&#8239;17</cell>
+               <cell>50&#8239;f.</cell>
+               <cell>464–466</cell>
+               <cell>46–51</cell>
+               <cell>74&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Auf meinen lieben Gott</cell>
+               <cell>Zahn 2164</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>93&#8239;f.</cell>
+               <cell>erstmals <name ref="#huck-pers022">Schein</name>, RISM 1627<hi rend="sup">10</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Aus meines Herzen Grunde</cell>
+               <cell>A&#8239;247C</cell>
+               <cell/>
+               <cell>387&#8239;f.<note>Melodieverweis auf 222–229 <q>Herzlich tut mich erfreuen</q></note></cell>
+               <cell/>
+               <cell>117&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name></cell>
+            </row>
+            <row>
+               <cell>Aus tiefer Not schrei&#x2019; ich zu Dir</cell>
+               <cell>Ea&#8239;6</cell>
+               <cell>28</cell>
+               <cell>423&#8239;f.</cell>
+               <cell>36–41</cell>
+               <cell>39&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Christ lag in Todesbanden</cell>
+               <cell>Ea&#8239;8A</cell>
+               <cell>12&#8239;f.</cell>
+               <cell>187–189</cell>
+               <cell>66–71</cell>
+               <cell>20&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Christ, unser Herr, zum Jordan kam</cell>
+               <cell>Ec&#8239;4</cell>
+               <cell>24&#8239;f.</cell>
+               <cell>529–531</cell>
+               <cell>70–77</cell>
+               <cell>38&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Christe, der du bist Tag und Licht</cell>
+               <cell>
+                  B&#8239;12 (<name ref="#huck-pers005">Eler</name>)
+                  <lb/>B&#8239;12G,&#8239;a (<name ref="#huck-pers030">Wolder</name>)
+               </cell>
+               <cell>73</cell>
+               <cell>395–397</cell>
+               <cell>58–63</cell>
+               <cell>118&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Christus, der uns selig macht</cell>
+               <cell>B&#8239;7</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>(17&#8239;f.)</cell>
+               <cell>erstmals 1545<hi rend="sup">05</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Da Jesus an dem Kreuze stund</cell>
+               <cell>Ek&#8239;7A</cell>
+               <cell>7&#8239;f.</cell>
+               <cell>176–178</cell>
+               <cell>76–81</cell>
+               <cell>14&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Das alte Jahr vergangen ist</cell>
+               <cell>Zahn 522</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>erstmals <name ref="#huck-pers022">Schein</name>, RISM 1627<hi rend="sup">10</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Der Tag, der ist so freudenreich</cell>
+               <cell>Eg&#8239;17B</cell>
+               <cell/>
+               <cell>129&#8239;f.<note>Melodieverweis auf 130&#8239;f. <q>Ein Kindelein so löbelich</q></note></cell>
+               <cell/>
+               <cell>8&#8239;f.</cell>
+               <cell> = 1.&#8239;Strophe zu <q>Ein Kindelein so löbelich</q></cell>
+            </row>
+            <row>
+               <cell>Der Tag hat sich geneiget</cell>
+               <cell>Zahn 5420a/b</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>122&#8239;f.</cell>
+               <cell>erstmals RISM 1639<hi rend="sup">1</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Dies sind die heil&#x2019;gen 10 zehen Gebot&#x2019;</cell>
+               <cell>Ea&#8239;1</cell>
+               <cell>20&#8239;f.</cell>
+               <cell>19–21</cell>
+               <cell>86–89</cell>
+               <cell>34&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Du Friedefürst, Herr Jesu Christ</cell>
+               <cell>H&#8239;20</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>(77&#8239;f.)</cell>
+               <cell>erstmals <name ref="#huck-pers007">Gesius</name>, RISM 1601<hi rend="sup">03</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Durch Adams Fall ist ganz verderbt</cell>
+               <cell>Ee&#8239;13</cell>
+               <cell>32&#8239;f.</cell>
+               <cell>99–102</cell>
+               <cell>90–95</cell>
+               <cell>54–56</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Ein feste Burg ist unser Gott</cell>
+               <cell>B&#8239;31</cell>
+               <cell>58</cell>
+               <cell>241–243</cell>
+               <cell>100–105</cell>
+               <cell>61&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Ein Kindelein so löbelich </cell>
+               <cell>Eg&#8239;17B,a</cell>
+               <cell>4</cell>
+               <cell>130–132</cell>
+               <cell>96–101</cell>
+               <cell>9&#8239;f.</cell>
+               <cell>= <q>Der Tag, der ist so freudenreich</q></cell>
+            </row>
+            <row>
+               <cell>Erbarm dich mein, o Herre Gott</cell>
+               <cell>Ec&#8239;5</cell>
+               <cell>29</cell>
+               <cell>421&#8239;f.</cell>
+               <cell>126–131</cell>
+               <cell>40&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Es ist gewisslich an der Zeit</cell>
+               <cell>B&#8239;15</cell>
+               <cell/>
+               <cell>204&#8239;f.<note>Melodieverweis auf 102–105 <q>Nun freut euch, lieben Christen g&#x2019;mein</q></note></cell>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row>
+               <cell>Es ist das Heil uns kommen her</cell>
+               <cell>Ea&#8239;2G</cell>
+               <cell>34&#8239;f.</cell>
+               <cell>73–76</cell>
+               <cell>104–111</cell>
+               <cell>56–58</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Es wollt&#x2019; uns Gott genädig sein</cell>
+               <cell>B&#8239;17</cell>
+               <cell>58&#8239;f.</cell>
+               <cell>313&#8239;f.</cell>
+               <cell>132–135</cell>
+               <cell>62&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Gelobet seist du, Jesu Christ</cell>
+               <cell>Ec&#8239;10</cell>
+               <cell>2</cell>
+               <cell>139&#8239;f.</cell>
+               <cell>146–149</cell>
+               <cell>4&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Gott der Vater, wohn uns bei</cell>
+               <cell>Ec&#8239;17C</cell>
+               <cell>18&#8239;f.</cell>
+               <cell>454&#8239;f.</cell>
+               <cell>154–159</cell>
+               <cell>31</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Helft mir Gott&#x2019;s Güte preisen</cell>
+               <cell>B&#8239;76</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>112&#8239;f.</cell>
+               <cell>erstmals RISM 1563<hi rend="sup">16</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Herr Christ, der einig Gott(e)s Sohn</cell>
+               <cell>Ea&#8239;4</cell>
+               <cell>35&#8239;f.</cell>
+               <cell>333&#8239;f.</cell>
+               <cell>160–163</cell>
+               <cell>58&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Herr Christ tu mir verleihen</cell>
+               <cell>A&#8239;247C</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>
+                  <name ref="#huck-pers013">Nicolai</name>, RISM 1599<hi rend="sup">10</hi> ohne Noten
+                  = <q>Aus meines Herzens Grunde</q>
+               </cell>
+            </row>
+            <row>
+               <cell>Herzlich lieb hab&#x2019; ich dich, o Herr</cell>
+               <cell>Ek&#8239;25B</cell>
+               <cell/>
+               <cell>279–281</cell>
+               <cell/>
+               <cell>(53&#8239;f.)</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Herzlich tut mich verlangen nach einem selgen End&#x2019;</cell>
+               <cell>Zahn 5385a</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>(138&#8239;f.)</cell>
+               <cell>
+                  erstmals RISM 1613<hi rend="sup">22</hi>
+                  = <name ref="#huck-pers009">Hassler</name> (Lustgarten 1601), <q>Mein Gemüt ist mir verwirret</q>
+               </cell>
+            </row>
+            <row>
+               <cell>Hilf, Gott, dass mir gelinge</cell>
+               <cell>A&#8239;881</cell>
+               <cell>8&#8239;f.</cell>
+               <cell>173–176</cell>
+               <cell>186–191</cell>
+               <cell>15–17</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Ich dank&#x2019; dir, lieber Herre</cell>
+               <cell>B&#8239;41D</cell>
+               <cell>71&#8239;f.</cell>
+               <cell>381–383</cell>
+               <cell>216–221</cell>
+               <cell>115–117</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Ich dank&#x2019; dir schon</cell>
+               <cell>A&#8239;907A</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>erstmals RISM 1610<hi rend="sup">06</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Ich ruf&#x2019; zu dir, Herr Jesu Christ</cell>
+               <cell>Ee&#8239;17</cell>
+               <cell>45</cell>
+               <cell>334–336</cell>
+               <cell>196–201</cell>
+               <cell>82&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>In dich hab&#x2019; ich gehoffet, Herr</cell>
+               <cell>
+                  Ek&#8239;24D (Wolder)
+                  <lb/>Ek&#8239;24E (1604)
+               </cell>
+               <cell/>
+               <cell>282&#8239;f.</cell>
+               <cell>220–226</cell>
+               <cell>71&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name></cell>
+            </row>
+            <row>
+               <cell>In dulci jubilo</cell>
+               <cell>Ee&#8239;12</cell>
+               <cell>5</cell>
+               <cell>140–142</cell>
+               <cell>202–205</cell>
+               <cell>10&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Jesu, nu sei gepreiset </cell>
+               <cell>C&#8239;87 </cell>
+               <cell/>
+               <cell>412&#8239;f. ohne Noten</cell>
+               <cell/>
+               <cell/>
+               <cell>
+                  bei <name ref="#huck-pers030">Wolder</name> keine Noten;
+                  erstmals RISM 1591<hi rend="sup">14</hi>
+                  
+               </cell>
+            </row>
+            <row>
+               <cell>Jesus Christus, wahr Gottessohn</cell>
+               <cell>A&#8239;212,b</cell>
+               <cell>15</cell>
+               <cell>84</cell>
+               <cell>206–209</cell>
+               <cell>26</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Komm, Heiliger Geist, Herre Gott</cell>
+               <cell>Ea&#8239;11</cell>
+               <cell>17</cell>
+               <cell>234&#8239;f.</cell>
+               <cell>232–237</cell>
+               <cell>30</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Kommt her zu mir, spricht Gottes Sohn</cell>
+               <cell>B&#8239;37A</cell>
+               <cell>43&#8239;f.</cell>
+               <cell>455–459</cell>
+               <cell>224–231</cell>
+               <cell>80–82</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Mag ich Unglück nicht widerstahn</cell>
+               <cell>B&#8239;33A</cell>
+               <cell>53</cell>
+               <cell>463&#8239;f.</cell>
+               <cell>246–249</cell>
+               <cell>75</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Mein Hüter und mein Hirt&#x2019; ist Gott der Herre</cell>
+               <cell>Fa&#8239;23A</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell><name ref="#huck-pers011">Lobwasser</name>, RISM 1573<hi rend="sup">03</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Nun freuet euch, lieben Christen g&#x2019;emein</cell>
+               <cell>B&#8239;15</cell>
+               <cell>39&#8239;f.</cell>
+               <cell>102–105</cell>
+               <cell>262–267</cell>
+               <cell>106–108</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Nun komm, der Heiden Heiland</cell>
+               <cell>Ea&#8239;10</cell>
+               <cell>1</cell>
+               <cell>124&#8239;f.</cell>
+               <cell>256–259</cell>
+               <cell>1&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Nun lob&#x2019;, mein Seel&#x2019;, den Herren</cell>
+               <cell>Ef&#8239;16G</cell>
+               <cell>40&#8239;f.</cell>
+               <cell>260–262</cell>
+               <cell>268–273</cell>
+               <cell>108&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Nun lasst uns den Leib begraben</cell>
+               <cell>C&#8239;38B</cell>
+               <cell>67</cell>
+               <cell>299&#8239;f.</cell>
+               <cell>252–255</cell>
+               <cell>96&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Nun lasst uns Gott dem Herren</cell>
+               <cell>A&#8239;793A</cell>
+               <cell/>
+               <cell>353&#8239;f.</cell>
+               <cell>398–403</cell>
+               <cell>115</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>O Gott, wir danken deiner Güt&#x2019;</cell>
+               <cell>
+                  En&#8239;2C (Eler, 1604)
+                  <lb/>En&#8239;2B (Wolder)
+               </cell>
+               <cell>73&#8239;f.<note>Melodieverweis auf 27&#8239;f. <q>O Christ, wir danken deiner Güt&#x2019;</q></note></cell>
+               <cell>354&#8239;f.</cell>
+               <cell>274–277</cell>
+               <cell>113</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>O Herre Gott, begnade mich</cell>
+               <cell>Eb&#8239;11</cell>
+               <cell>30</cell>
+               <cell>418–420</cell>
+               <cell>286–293</cell>
+               <cell>41–43</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>O Herre Gott, dein göttlich Wort</cell>
+               <cell>Ee&#8239;3A</cell>
+               <cell>63&#8239;f.</cell>
+               <cell>314–317</cell>
+               <cell>280–287</cell>
+               <cell>65–67</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>O höchster Gott, o unser lieber Herre</cell>
+               <cell>Fa&#8239;8,a</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell><name ref="#huck-pers011">Lobwasser</name>, RISM 1573<hi rend="sup">03</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>O Lamm Gottes, unschuldig</cell>
+               <cell>D&#8239;21G</cell>
+               <cell>27</cell>
+               <cell>178&#8239;f.</cell>
+               <cell>278–281</cell>
+               <cell>18</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>O Mensch, bewein dein Sünde groß</cell>
+               <cell>Eb&#8239;14</cell>
+               <cell>9–12<note>Melodieverweis auf 45&#8239;f. <q>Es sind doch selig alle, die</q></note></cell>
+               <cell>158–196 [recte: 166]<note>Melodieverweis auf 4–7 <q>Es sind doch selig alle, die</q></note></cell>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row>
+               <cell>O Mensch, du wollst bedenken mein bitter Leiden</cell>
+               <cell>Ea&#8239;4</cell>
+               <cell>9<note>Melodieverweis auf 35&#8239;f. <q>Herr Christ, der einig Gott(e)s Sohn</q></note></cell>
+               <cell>340&#8239;f.<note>Melodieverweis auf 333&#8239;f. <q>Herr Christ, der einig Gott(e)s Sohn</q></note></cell>
+               <cell/>
+               <cell>18–20</cell>
+               <cell>= Melodie <q>Herr Christ, der einig Gott(e)s Sohn</q></cell>
+            </row>
+            <row>
+               <cell>O Welt, ich muss dich lassen</cell>
+               <cell>Ga&#8239;4B</cell>
+               <cell/>
+               <cell>291–293</cell>
+               <cell/>
+               <cell/>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name>
+                  = Melodie <q>Innsbruck ich muss dich lassen</q>
+               </cell>
+            </row>
+            <row>
+               <cell>O (Ach) wir armen Sünder, unsre Missetat</cell>
+               <cell>E&#8239;f7E</cell>
+               <cell>6&#8239;f.</cell>
+               <cell>182–184</cell>
+               <cell>14–17</cell>
+               <cell/>
+               <cell/>
+            </row>
+            <row>
+               <cell>Sei Lob und Ehr&#x2019; mit hohem Preis</cell>
+               <cell>Ea&#8239;2G</cell>
+               <cell/>
+               <cell/>
+               <cell>111 (innerhalb von <q>Es ist das Heil uns kommen her</q> für Strophe&#x00A0;13 mit Überschrift)</cell>
+               <cell>58 (als Teil von <q>Es ist Heil uns kommen her</q>, ohne Auszeichnung)</cell>
+               <cell>= <q>Es ist das Heil uns kommen her</q> (Str.&#8239;13 und 14)</cell>
+            </row>
+            <row>
+               <cell>Singen wir aus Herzens Grund</cell>
+               <cell>
+                  Eg&#8239;100G (<name ref="#huck-pers005">Eler</name>, <name ref="#huck-pers030">Wolder</name>);
+                  Eg&#8239;100I (1604)
+               </cell>
+               <cell>74&#8239;f.</cell>
+               <cell>359–361</cell>
+               <cell>306–309</cell>
+               <cell>117&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>So wünsch ich nun ein gute Nacht</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>
+                  <name ref="#huck-pers013">Nicolai</name>, RISM 1599<hi rend="sup">10</hi> ohne Noten
+                  = <q>So wünsch ich ihr ein gute Nacht</q> 
+               </cell>
+            </row>
+            <row>
+               <cell>Vater unser im Himmelreich</cell>
+               <cell>Eb&#8239;35</cell>
+               <cell>2&#8239;f.</cell>
+               <cell>304–306</cell>
+               <cell>310–315</cell>
+               <cell>36–38</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Von allen Menschen abgewandt</cell>
+               <cell>A&#8239;43C</cell>
+               <cell>31&#8239;f.</cell>
+               <cell>114</cell>
+               <cell>314</cell>
+               <cell>44&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Von Gott will ich nicht lassen</cell>
+               <cell>B&#8239;76F</cell>
+               <cell/>
+               <cell>294–296 </cell>
+               <cell>330–335</cell>
+               <cell>(87&#8239;f.)</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name></cell>
+            </row>
+            <row>
+               <cell>Wacht auf, ihr Christen alle</cell>
+               <cell>A&#8239;795A</cell>
+               <cell>68&#8239;f.</cell>
+               <cell>58&#8239;f.</cell>
+               <cell>338–343</cell>
+               <cell>101&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Wacht auf ruft uns die Stimme</cell>
+               <cell>
+                  A&#8239;1069 (<name ref="#huck-pers013">Nicolai</name>);
+                  A&#8239;1069B (1604)
+               </cell>
+               <cell/>
+               <cell/>
+               <cell>374–379</cell>
+               <cell>(70&#8239;f.)</cell>
+               <cell><name ref="#huck-pers013">Nicolai</name>, RISM 1599<hi rend="sup">10</hi></cell>
+            </row>
+            <row>
+               <cell>Wär&#x2019; Gott nicht mit uns diese Zeit</cell>
+               <cell>Ec&#8239;14</cell>
+               <cell>59</cell>
+               <cell>243&#8239;f.</cell>
+               <cell>366</cell>
+               <cell>63</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Warum betrübst du dich, mein Herz</cell>
+               <cell>A&#8239;518</cell>
+               <cell>81&#8239;f.</cell>
+               <cell>336–339</cell>
+               <cell>368–375</cell>
+               <cell>72–74</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Was kann uns kommen an für Not</cell>
+               <cell>Ee&#8239;7</cell>
+               <cell>41&#8239;f.</cell>
+               <cell>105&#8239;f.</cell>
+               <cell>334–339</cell>
+               <cell>110&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Was mein Gott will, das g&#x2019;scheh&#x2019; allzeit</cell>
+               <cell>A&#8239;514B</cell>
+               <cell>65&#8239;f.</cell>
+               <cell>289–291</cell>
+               <cell>362–365</cell>
+               <cell>(139&#8239;f.)</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Wenn mein Stündlein vorhanden ist</cell>
+               <cell>
+                  Em&#8239;6G (<name ref="#huck-pers030">Wolder</name>);
+                  Em&#8239;6F (1604);
+                  Ea&#8239;2G (<name ref="#huck-pers005">Eler</name>)
+               </cell>
+               <cell>66<note>Melodieverweis auf 34&#8239;f.  <q>Es ist das Heil uns kommen her</q></note></cell>
+               <cell>276–279</cell>
+               <cell>382–389</cell>
+               <cell>92&#8239;f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name> </cell>
+            </row>
+            <row>
+               <cell>Wenn wir in höchsten Nöten sein</cell>
+               <cell>B&#8239;81B</cell>
+               <cell>66</cell>
+               <cell>461&#8239;f.</cell>
+               <cell/>
+               <cell>76 [recte 78] f.</cell>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers005">Eler</name></cell>
+            </row>
+            <row>
+               <cell>Wie &#x2019;s Gott gefällt, so g&#x2019;fält <lb/>mir &#x2019;s auch</cell>
+               <cell>Ee&#8239;13</cell>
+               <cell/>
+               <cell>329–331<note>Melodieverweis auf 99–102 <q>Durch Adams Fall ist ganz verderbt</q></note></cell>
+               <cell/>
+               <cell/>
+               <cell>= <q>Durch Adams Fall ist ganz verderbt</q></cell>
+            </row>
+            <row>
+               <cell>Wie nach einem Wasserquelle</cell>
+               <cell>Fa&#8239;40,a</cell>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell/>
+               <cell>Lobwasser, RISM 1573<hi rend="sup">03</hi>
+               </cell>
+            </row>
+            <row>
+               <cell>Wir glauben all an einen Gott</cell>
+               <cell>Ec&#8239;18</cell>
+               <cell>21&#8239;f.</cell>
+               <cell>77&#8239;f.</cell>
+               <cell>388–394</cell>
+               <cell>36</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Wo Gott der Herr nicht bei uns hält</cell>
+               <cell>Ee&#8239;11</cell>
+               <cell>61&#8239;f.</cell>
+               <cell>245–247</cell>
+               <cell>356–361</cell>
+               <cell>64&#8239;f.</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Zwei Ding&#x2019;, o Herr, bitt&#x2019; ich von dir</cell>
+               <cell>A&#8239;1051</cell>
+               <cell/>
+               <cell>67&#8239;f.<note>Melodieverweis auf 27–29 <q>Willst du, dass dein Stand sei christlich</q></note></cell>
+               <cell/>
+               <cell/>
+               <cell>Melodiefassung erstmals bei <name ref="#huck-pers030">Wolder</name></cell>
+            </row>
+         </table>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Rist2012">Johann Rist und Johann Schop, <title level="m">Himmlische Lieder</title>, kritisch hg. und kommentiert von Anselm Steiger, kritische Edition des Notentextes von Konrad Küster, Berlin 2012<bibl type="short">Rist/Schop, <title level="m">Himmlische Lieder</title></bibl></bibl>
+               <bibl xml:id="Braun2001">Werner Braun, <title level="a">Rist-Gesänge in der Passionshistorie</title>, in: <title level="m">Tod und Musik im 17. und 18.&#8239;Jahrhundert</title>, hg. von Günther Fleischhauer, Blankenburg 2001, S.&#8239;121&#x2013;134</bibl>
+               <bibl xml:id="Rist2013">Johann Rist, <title level="m">Neue Himmlische Lieder</title>, kritisch hg. und kommentiert von Anselm Steiger, kritische Edition des Notentextes von Konrad Küster, Berlin 2013<bibl type="short">Rist, <title level="m">Neue Himmlische Lieder</title></bibl></bibl>
+               <bibl xml:id="Braun2014">Werner Braun, <title level="m">Thöne und Melodeyen, Arien und Canzonetten. Zur Musik des deutschen Barockliedes</title>, Tübingen 2004 (Frühe Neuzeit&#x00A0;100)</bibl>
+               <bibl xml:id="Stalmann2010">Joachim Stalmann, <title level="a"><q>… deren etliche noch leben …</q> 40&#x00A0;Jahre Edition deutsches Kirchenlied: eine bewegte Geschichte</title>, in: <title level="m">Das deutsche Kirchenlied. Bilanz und Perspektiven einer Edition</title>, hg. von Wolfgang Hirschmann und Hans-Otto Korth, Kassel u.&#8239;a. 2010, S.&#8239;11&#x2013;16</bibl>
+               <bibl xml:id="huck-Vopelius1682">Gottfried Vopelius, <title level="m">Neu Leipziger Gesangbuch</title>, Leipzig 1682</bibl>
+               <bibl xml:id="DasDeutscheKirchenlied"><title level="m">Das deutsche Kirchenlied. Kritische Gesamtausgabe der Melodien</title>. Abt.&#8239;3: Die Melodien aus gedruckten Quellen bis 1680, hg. von Joachim Stalmann, Kassel u.&#8239;a. 1993&#x2013;2010<bibl type="short"><title level="m">Das deutsche Kirchenlied</title></bibl></bibl>
+               <bibl xml:id="Zahn1889">Johannes Zahn, <title level="m">Die Melodien der deutschen evangelischen Kirchenlieder</title>, Gütersloh 1889&#x2013;1893</bibl>
+               <bibl xml:id="Eler1588">Franz Eler, <title level="m">Cantica Sacra […]. Acceßerunt in fine Psalmi Lutheri, et aliorum ejus seculi Doctorum, itidem Modis applicati</title>, Hamburg 1588<bibl type="short">Eler, <title level="m">Cantica Sacra</title></bibl></bibl>
+               <bibl xml:id="Rist2015">Johann Rist und Martin Coler, <title level="m">Neue Hochheilige Passions-Andachten</title>, kritisch hg. und kommentiert von Anselm Steiger, kritische Edition des Notentextes von Oliver Huck und Esteban Hernández Castelló, Berlin 2015<bibl type="short">Rist/Coler, <title level="m">Neue Hochheilige Passions-Andachten</title></bibl></bibl>
+               <bibl xml:id="RistIV">Johann Rist und Christian Flor, <title level="m">Neues Musikalisches Seelenparadis</title>, kritisch hg. und kommentiert von Anselm Steiger, kritische Edition des Notentextes von Oliver Huck und Esteban Hernández Castelló, Druck in Vorbereitung</bibl>
+               <bibl xml:id="Steiger2013">Johann Anselm Steiger, <title level="a">Carmina spiritualia Ristiana. Bibliographie sämtlicher geistlicher Lieder Johann Rists (1607&#x2013;1667)</title>, in: <title level="j">Jahrbuch für Hymnologie</title>&#x00A0;52 (2013), S.&#8239;171&#x2013;204</bibl>
+               <bibl xml:id="Winterfeld1845">Carl Winterfeld, <title level="m">Der evangelische Kirchengesang und sein Verhältnis zur Kunst des Tonsatzes</title>, Teil&#x00A0;2, Leipzig 1845</bibl>
+               <bibl xml:id="Kuester2007">Konrad Küster, <title level="a"><q>O du güldene Musik!</q>. Wege zu Johann Rist</title>, in: <title level="m"><q>Ewigkeit, Zeit ohne Zeit</q>. Gedenkschrift zum 400.&#8239;Geburtstag des Dichters und Theologen Johann Rist</title>, hg. von Johann Anselm Steiger, Neuendettelsau 2007 (Testes et testimonia veritatis&#x00A0;5), S.&#8239;77&#x2013;180</bibl>
+               <bibl xml:id="Huck2015">Oliver Huck, <title level="a"><q>nach der Melodie meines aus den himlischen wolbekanten Liedes</q>. Rists Melodieverweise auf seine eigenen geistlichen Lieder</title>, in:  <title level="m">Johann Rist (1607&#x2013;1667). Profil und Netzwerke eines Pastors, Dichters und Gelehrten</title>, hg. von Johann Anselm Steiger und Bernhard Jahn, Berlin 2015 (Frühe Neuzeit&#x00A0;195), S.&#8239;439&#x2013;457</bibl>
+               <bibl xml:id="Wolder1598">David Wolder, <title level="a">New Catechismus Gesangbuechlein […]</title>, Hamburg 1598; online abrufbar unter <ptr target="http://resolver.staatsbibliothek-berlin.de/SBB0000F7C400000000"/><bibl type="short">Wolder, <title level="a">New Catechismus Gesangbuechlein</title></bibl></bibl>
+               <bibl xml:id="Brederek1919">Emil Brederek, <title level="m">Geschichte der schleswig=holsteinischen Gesangbücher. I.&#8239;Teil: Die älteren Gesangbücher (bis 1771)</title>, Kiel 1919 (Schriften des Vereins für schleswig=holsteinische Kirchengeschichte&#x00A0;I/9)<bibl type="short">Brederek, <title level="m">Geschichte der schleswig=holsteinischen Gesangbücher</title></bibl></bibl>
+               <bibl xml:id="Walther1635">Paul Walther, <title level="m">Manuale Ecclesiasticum Edder Kercken Hand=Böckschen […]</title>, Hamburg 1635</bibl>
+               <bibl xml:id="Olearius1665">Adam Olearius, <title level="m">Das Schleßwigische und Holsteinische Kirchen Buch […]</title>, Schleswig 1665, online abrufbar unter <ptr target="http://diglib.hab.de/drucke/tk-79/start.htm"/></bibl>
+               <bibl xml:id="Hoeck1888">Johann Heinrich Höck, <title level="m">Der Ritual= und Agendenschatz der lutherischen Kirche in Schleswig-Holstein</title>, Kropp 1888</bibl>
+               <bibl xml:id="MelodeyenGesangbuch1604"><title level="m">Melodeyen Gesangbuch […]</title>, Hamburg 1604 (RISM 1604<hi rend="sup">05</hi>), online abrufbar unter <ptr target="http://resolver.sub.uni-goettingen.de/purl?PPN647647958"/><bibl type="short"><title level="m">Melodeyen Gesangbuch</title></bibl></bibl>
+               <bibl xml:id="Schade1995">Herwarth von Schade, <title level="m">Zu Gottes Lob in Hamburgs Kirchen. Eine Hamburgische Gesangbuchgeschichte</title>, Herzberg 1995 (Arbeiten zur Kirchengeschichte Hamburgs&#x00A0;20)<bibl type="short">von Schade, <title level="m">Zu Gottes Lob in Hamburgs Kirchen</title></bibl></bibl>
+               <bibl xml:id="Erk1894">Ludwig Erk und Franz M. Böhme, <title level="m">Deutscher Liederhort</title>, Bd.&#8239;3, Leipzig 1894</bibl>
+               <bibl xml:id="Schein1965">Johann Hermann Schein, <title level="m">Cantional oder Gesangbuch Augsburgischer Konfession 1627/1645</title>, hg. von Adam Adrio, Kassel u.&#8239;a. 1965&#x2013;67 (Neue Ausgabe sämtlicher Werke&#x00A0;2)<bibl type="short">Schein, <title level="m">Cantional</title></bibl></bibl>
+               <bibl xml:id="Haug2010">Judith Haug, <title level="m">Der Genfer Psalter in den Niederlanden, Deutschland, England und dem Osmanischen Reich (16.&#x2013;18.&#8239;Jahrhundert)</title>, Tutzing 2010 (Tübinger Beiträge zur Musikwissenschaft&#x00A0;30)</bibl>
+               <bibl xml:id="Scheitler2004">Irmgard Scheitler, <title level="a">Der Genfer Psalter im protestantischen Deutschland des 17. und 18.&#8239;Jahrhunderts</title>, in:  <title level="m">Der Genfer Psalter und seine Rezeption in Deutschland, der Schweiz und den Niederlanden</title>, hg. von Eckhard Grunewald, Henning P. Jürgens und Jan R. Luth, Tübingen 2004 (Frühe Neuzeit&#x00A0;97), S.&#8239;263&#x2013;282</bibl>
+               <bibl xml:id="Lobwasser1573">Ambrosius Lobwasser, <title level="m">Der Psalter dess Kœniglichen Propheten Dauids, Jn deutsche reymen verstendiglich vnd deutlich gebracht, mit vorgehender anzeigung der reymen weise</title>, Leipzig 1573 [nicht paginiert] (RISM 1573<hi rend="sup">03</hi>)</bibl>
+               <bibl xml:id="Gesius1601">Bartholomeus Gesius, <title level="m">Geistliche deutsche Lieder Mart. Lutheri und anderer frommen Christen, welche durchs gantze Jahr in der christlichen Kirchen zu singen gebreuchlich, mit vier und fünff Stimmen nach gewöhnlicher Choralmelodien richtig und lieblich gesetzet</title>, Franckfurt/Oder 1601, fol.&#8239;198&#8239;r (RISM 1601<hi rend="sup">03</hi>)</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

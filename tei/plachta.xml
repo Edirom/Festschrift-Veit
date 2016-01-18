@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><q>nicht einen Schuß Pulver werth</q>?</title>
+            <title type="sub">Editionsphilologie im Kontext romantischer Kulturkonzepte</title>
+            <author>
+               <name><forename>Bodo</forename> <surname>Plachta</surname></name>
+               <email/>
+               <affiliation>arbeitet als Literaturwissenschaftler schwerpunktmäßig auf dem Gebiet der Edition, ist Mitherausgeber des internationalen Jahrbuchs für Editionswissenschaft <hi rend="italic">editio</hi> und Sprecher der Arbeitsgemeinschaft für germanistische Edition. Arbeitsthemen sind außerdem Zensur, Literatur und Musik/bildende Kunst, Literaturbetrieb und Erinnerungskultur. <!--Zuletzt erschienen: <hi rend="italic">Literaturbetrieb</hi> (2008), <hi rend="italic">Klaus Mann. Mephisto. Roman einer Karriere. Text und Dokumentation</hi> (2013), <hi rend="italic">Künstlerhäuser. Lebensräume und Ateliers berühmter Maler und Bildhauer</hi> (2014) und <hi rend="italic">Scholarly Editing and German Literature. Revision, Revaluation, Edition</hi> (Mithg., 2016). --></affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                  Attribution 3.0 Unported License (CC BY 3.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="plachta-pers001">
+                  <p>Myller (Müller), Christoph Heinrich</p>
+               </person>
+               <person xml:id="plachta-pers002">
+                  <p>Arnim, Achim von</p>
+               </person>
+               <person xml:id="plachta-pers003">
+                  <p>Hartmann von Aue</p>
+               </person>
+               <person xml:id="plachta-pers005">
+                  <p>Barbarossa</p>
+               </person>
+               <person xml:id="plachta-pers006">
+                  <p>Benecke, Georg Friedrich</p>
+               </person>
+               <person xml:id="plachta-pers007">
+                  <p>Bodmer, Johann Jacob</p>
+               </person>
+               <person xml:id="plachta-pers009">
+                  <p>Breitinger, Johann Jacob</p>
+               </person>
+               <person xml:id="plachta-pers011">
+                  <p>Brentano, Clemens</p>
+               </person>
+               <person xml:id="plachta-pers013">
+                  <p>Wolfram von Eschenbach</p>
+               </person>
+               <person xml:id="plachta-pers014">
+                  <p>Fallersleben, August Heinrich Hoffmann von</p>
+               </person>
+               <person xml:id="plachta-pers015">
+                  <p>Gleim, Johann Wilhelm Ludwig</p>
+               </person>
+               <person xml:id="plachta-pers016">
+                  <p>Goethe, Johann Wolfgang von</p>
+               </person>
+               <person xml:id="plachta-pers017">
+                  <p>Gottsched, Johann Christoph</p>
+               </person>
+               <person xml:id="plachta-pers019">
+                  <p>Grimm, Jacob</p>
+               </person>
+               <person xml:id="plachta-pers020">
+                  <p>Grimm, Wilhelm</p>
+               </person>
+               <person xml:id="plachta-pers027">
+                  <p>Görres, Joseph</p>
+               </person>
+               <person xml:id="plachta-pers028">
+                  <p>Hagen, Friedrich Heinrich von der</p>
+               </person>
+               <person xml:id="plachta-pers032">
+                  <p>Herder, Johann Gottfried</p>
+               </person>
+               <person xml:id="plachta-pers034">
+                  <p>Holtzmann, Adolf</p>
+               </person>
+               <person xml:id="plachta-pers035">
+                  <p>Homer</p>
+               </person>
+               <person xml:id="plachta-pers037">
+                  <p>Friedrich II., König von Preußen</p>
+               </person>
+               <person xml:id="plachta-pers038">
+                  <p>Janota, Johannes</p>
+               </person>
+               <person xml:id="plachta-pers043">
+                  <p>Lachmann, Karl</p>
+               </person>
+               <person xml:id="plachta-pers047">
+                  <p>Lessing, Gotthold Ephraim</p>
+               </person>
+               <person xml:id="plachta-pers049">
+                  <p>Lukrez (Titus Lucretius Carus)</p>
+               </person>
+               <person xml:id="plachta-pers050">
+                  <p>Möser, Justus</p>
+               </person>
+               <person xml:id="plachta-pers051">
+                  <p>Müllenhoff, Karl</p>
+               </person>
+               <person xml:id="plachta-pers052">
+                  <p>Bonaparte, Napoleon</p>
+               </person>
+               <person xml:id="plachta-pers054">
+                  <p>Nutt-Kofoth, Rüdiger</p>
+               </person>
+               <person xml:id="plachta-pers055">
+                  <p>Opitz, Martin</p>
+               </person>
+               <person xml:id="plachta-pers057">
+                  <p>Ossian</p>
+               </person>
+               <person xml:id="plachta-pers058">
+                  <p>Perrault, Charles</p>
+               </person>
+               <person xml:id="plachta-pers059">
+                  <p>Plachta, Bodo</p>
+               </person>
+               <person xml:id="plachta-pers060">
+                  <p>Properz (Sextus Aurelius Propertius)</p>
+               </person>
+               <person xml:id="plachta-pers061">
+                  <p>Roloff, Hans-Gert</p>
+               </person>
+               <person xml:id="plachta-pers062">
+                  <p>Scherer, Wilhelm</p>
+               </person>
+               <person xml:id="plachta-pers063">
+                  <p>Schlegel, Friedrich</p>
+               </person>
+               <person xml:id="plachta-pers064">
+                  <p>Schlegel, August Wilhelm</p>
+               </person>
+
+               <person xml:id="plachta-pers067">
+                  <p>Schmieder, Johann Andreas</p>
+               </person>
+               <person xml:id="plachta-pers068">
+                  <p>Shakespeare, William</p>
+               </person>
+               <person xml:id="plachta-pers069">
+                  <p>Tacitus</p>
+               </person>
+               <person xml:id="plachta-pers070">
+                  <p>Walther von der Vogelweide</p>
+               </person>
+               <person xml:id="plachta-pers071">
+                  <p>Wolf, Friedrich August</p>
+               </person>
+               <person xml:id="plachta-pers074">
+                  <p>d’Aulnoys, Madame</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-10-31T14:42:00" who="https://github.com/peterstadler">cv in affiliation eingesetzt</change>
+         <change when="2015-10-21T12:02:00" who="KR">Korrekturen eingearbeitet</change>
+         <change when="2015-06-05T23:26:11.727+02:00" who="https://github.com/peterstadler">Initial
+            transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="plachta-abstract"><p>In der ersten Hälfte des 19. Jahrhunderts erhielt die Editionsphilologie wichtige Impulse, um Methoden und praktische Verfahrensweisen auszudifferenzieren. Der romantische Diskurs, der insbesondere die Edition mittelalterlicher Texte in den Fokus rückte, trug erheblich zu dieser Entwicklung bei. Trotzdem differierten die Editionskonzepte erheblich; ebenso unterschiedlich waren die Editionsergebnisse und die Leserschaft, an die sie sich richteten. Viele Akteure &#x2013; Literaturliebhaber, Amateure und Dilettanten, aber auch mehr und mehr Fachleute &#x2013; tummelten sich auf dem editorischen <soCalled>Feld</soCalled> und debattierten leidenschaftlich. Mit Karl Lachmann und seinen methodischen Vorstellungen emanzipierte sich die Edition schließlich von einer <soCalled>wilden Philologie</soCalled> zu einer bis auf den heutigen Tag angesehenen wissenschaftlichen Disziplin.</p></div>
+      </front>
+      <body>
+         <div xml:id="plachta-div01">
+            <head>1.</head>
+            <p>Die Edition von Texten hat bekanntermaßen eine lange Tradition und reicht bis in die
+               Antike zurück.<note xml:id="plachta-ftn1" n="1">Dieser Beitrag greift Überlegungen aus
+                  folgenden Aufsätzen auf: <ref target="#Plachta2001" type="bibl"/> und <ref
+                     target="#Plachta2007" type="bibl"/>. Der Wissenschaftsgeschichte der Edition
+                  widmet sich seit 2005 die Reihe <q>Bausteine zur Geschichte der Edition</q>, die von
+                     <name ref="#plachta-pers054">Rüdiger Nutt-Kofoth</name> und <name
+                     ref="#plachta-pers059">Bodo Plachta</name> herausgegeben wird.</note> Obwohl es
+               auch im deutschen Sprachraum eine ausgeprägte Editionstradition gibt und wichtige
+               editorische Impulse etwa von den Humanisten im 16.&#8239;Jahrhundert ausgegangen sind, wurden
+               Fragen der Textedition erst im 18.&#8239;Jahrhundert wieder systematisch erörtert. Das
+               Augenmerk lag jedoch nach wie vor auf der Edition antiker Texte, dann auf denen des
+               Mittelalters und so gut wie gar nicht auf der Edition neuerer Texte. Eine bemerkenswerte
+               Ausnahme war die Edition der Gedichte des Barockdichters <name ref="#plachta-pers055"
+                  >Martin Opitz</name>, die von <name ref="#plachta-pers007">Johann Jacob Bodmer</name>
+               und <name ref="#plachta-pers009">Johann Jacob Breitinger</name> 1745 herausgebracht
+               wurde. <name ref="#plachta-pers007">Bodmer</name> und <name ref="#plachta-pers009"
+                  >Breitinger</name> diskutierten in ihrer Herausgebervorrede erstmals die so
+               fundamental unterschiedliche Überlieferung antiker bzw. mittelalterlicher Texte im
+               Vergleich mit der Überlieferung neuerer, nach der Erfindung des Buchdrucks entstandener
+               Texte. Während Varianten in der Überlieferung antiker oder mittelalterlicher Texte
+               meistens durch Abschreiber und Redaktoren entstanden waren und nur in ganz wenigen
+               Fällen auf den Autor zurückgingen, erkannten <name ref="#plachta-pers007">Bodmer</name>
+               und <name ref="#plachta-pers009">Breitinger</name>, dass die Varianten, die sie in der
+               Überlieferung von <name ref="#plachta-pers055">Opitz</name>’ Gedichten vorfanden,
+               dagegen vom <name ref="#plachta-pers055">Autor</name> stammten.<note xml:id="plachta-ftn2" n="2"
+                  >Wiederabdruck der <q>Vorrede</q> von <name ref="#plachta-pers007">Bodmer</name> und
+                     <name ref="#plachta-pers009">Breitinger</name> in: <ref target="#Nutt2005"
+                     type="bibl">S.&#8239;4</ref></note> Aber die Zeit war für derartige, aus
+               heutiger Perspektive innovative Beobachtungen noch nicht reif und daher auch nicht
+               bereit für einen radikalen methodischen Paradigmenwechsel in der Textkritik. Die
+               Diskussion editorischer Fragen befand sich weiterhin in der Hand von Altphilologen, die
+               nach festen, lange erprobten Prinzipien Texte edierten. Insofern war die Edition der
+               Epen <name ref="#plachta-pers035">Homers</name> im 18.&#8239;Jahrhundert durchaus ein
+               Meilenstein in der Geschichte der Edition, weil man glaubte nachweisen zu können, dass
+               der Autor <name ref="#plachta-pers035">Homer</name> weitgehend eine Fiktion sei und
+                  <q>Ilias</q> und <q>Odyssee</q> vielmehr von mehreren Autoren verfasst worden seien.
+               Insbesondere <name ref="#plachta-pers071">Friedrich August Wolf</name> diskutierte diese
+                  <soCalled>homerische Frage</soCalled> in seinen berühmten <q>Prolegomena ad
+                  Homerum</q> (Halle 1795), die seitdem als wichtige Gelenkstelle in der Geschichte der
+               Edition gelten. <name ref="#plachta-pers071">Wolf</name> hatte sich darum bemüht, die
+               Textgeschichte von <q>Ilias</q> und <q>Odyssee</q> zu rekonstruieren und einen
+               kritischen Text aus den überlieferten Handschriften zu gewinnen.<note xml:id="plachta-ftn3"
+                  n="3">Vgl. <ref target="#Kenney1974" type="bibl">S.&#8239;97&#8239;f.</ref></note> Dieser
+               Ansatz wich vom geläufigen Verfahren ab, nur eine überlieferte Handschrift, und zwar
+               meistens den <soCalled>textus receptus</soCalled>, als Grundlage der Edition zu wählen.
+               Erst <name ref="#plachta-pers043">Karl Lachmann</name> wird Jahre später an diese
+               Überlegungen anknüpfen und den von <name ref="#plachta-pers071">Wolf</name>
+               eingeleiteten Methodenwechsel systematisch umsetzen. Vorerst aber war diese Form
+               textkritischen Arbeitens im 18.&#8239;Jahrhundert eine Randerscheinung.<note xml:id="plachta-ftn4"
+                  n="4">Vgl. hierzu <ref target="#Lutz1975" type="bibl"/></note>
+            </p>
+            <p>Ein paar Beispiele sollen die damals gängigen Vorstellungen vom kritischen Umgang mit
+               Texten illustrieren:<note xml:id="plachta-ftn5" n="5">Die Konsequenzen für die im
+                  18.&#8239;Jahrhundert erarbeiteten Werkausgaben diskutiert vor breitem Hintergrund
+                     <ref target="#Haischer2011" type="bibl"/>.</note>
+               <name ref="#plachta-pers017">Johann Christoph Gottsched</name> etwa verlangte in seinem
+                  <q>Versuch einer kritischen Dichtkunst</q>, ein <q>Kritikus</q> müsse ein viel
+               umfassenderes Verständnis von Literatur haben und dürfe sich nicht mit dem bloßen
+               Sammeln von Varianten und Fehlern zufrieden geben: <quote source="#plachta-ftn6">Man begreift es
+                  schon, daß ein solcher Kritikus ein Philosoph seyn, und etwas mehr verstehen müsse,
+                  als ein Buchstäbler; der nur verschiedene Lesarten, oder besser zu sagen, die
+                  Schreib- und Druckfehler sammlen […] kann.</quote><ref target="#GottschedVersuch"
+                  type="bibl" xml:id="plachta-ftn6">S.&#8239;XXX.</ref>
+               <name ref="#plachta-pers017">Gottsched</name> wollte nicht über isolierte Elemente eines
+               Textes diskutieren, sein Blick auf die Literatur als Ganzes war ein poetologischer. Mit
+               Hilfe kritischer Verfahren wollte er vielmehr poetische Normen entwickeln und
+               definieren, die gleichermaßen für Produktion und Rezeption Gültigkeit besäßen. Auch
+                  <name ref="#plachta-pers032">Johann Gottfried Herder</name> wehrte sich noch
+               Jahrzehnte später gegen den <quote source="#plachta-ftn7">Philologischen
+                  Parallelenkram.</quote><ref target="#HerderWerke" type="bibl" xml:id="plachta-ftn7"
+                     >S.&#8239;325&#8239;f.</ref> Aber ihm ging es nicht mehr wie <name ref="#plachta-pers017"
+                  >Gottsched</name> um eine normative Poetik. Im Studium von Varianten lasse sich
+               &#x2013; so <name ref="#plachta-pers032">Herder</name> &#x2013; das schöpferische Genie
+               des Dichters erkennen. Textkritik sollte daher dazu dienen, einen <quote source="#plachta-ftn8"
+                  >gewissen und vesten Geschmack</quote> auszubilden.<ref target="#HerderWerke"
+                  type="bibl" xml:id="plachta-ftn8">Bd.&#8239;3, S.&#8239;329</ref> 
+               Und auch <name ref="#plachta-pers016">Goethe</name> sah im Studium der Varianten die Förderung des
+               kunstkritischen Geschmacks, wenn er schreibt: <quote source="#plachta-ftn9">wir behaupten, daß
+                  ein verständiger fleißiger Literator durch Vergleichung der sämmtlichen Ausgaben
+                  unsres <hi rend="spaced">Wielands</hi> […] allein aus den stufenweisen Correcturen dieses unermüdet zum
+                  Bessern arbeitenden Schriftstellers die ganze Lehre des Geschmacks würde entwickeln
+                  können.</quote><ref target="#GoetheWerke" type="bibl" xml:id="plachta-ftn9">Abt.&#8239;1,
+                  Bd.&#8239;40, S.&#8239;201</ref> Obwohl das 18.&#8239;Jahrhundert das Zeitalter der Kritik schlechthin war, sind
+               allenthalben Vorbehalte gegenüber textkritischen Perspektiven erkennbar. Das lag
+               sicherlich zunächst einmal daran, dass sich die deutsche Literatur erst allmählich als
+               Nationalliteratur konstituierte. Die Beschäftigung mit der nationalen literarischen und
+               kulturellen Überlieferung stand auf der literaturkritischen Tagesordnung deshalb nicht
+               an oberster Stelle. Außerdem begegnete die Aufklärung gerade dem Mittelalter mit Skepsis
+               und Distanz, was besonders diejenigen zu spüren bekamen, die sich mit der Edition
+               mittelalterlicher Texte beschäftigten. Es gab zwar auch im 18.&#8239;Jahrhundert eine
+               Reihe von beachtlichen Editionen mittelalterlicher Texte, aber die mittelalterliche
+               Literatur ließ sich mit diesen Editionen keineswegs im zeitgenössischen Literaturkanon
+               durchsetzen. Die abschätzige Äußerung <name ref="#plachta-pers037">Friedrichs des
+                  Großen</name>, der die französische Sprache und Literatur ohnehin der deutschen
+               vorzog, über die 1782 von <name ref="#plachta-pers001">Christoph Heinrich Myller
+                  (Müller)</name> veröffentlichte erste vollständige Edition des Nibelungenliedes fasst
+               sämtliche Vorurteile der damaligen Zeit zusammen. Der <name ref="#plachta-pers037"
+                  >König</name> antwortete nach Lektüre der ihm gewidmeten Edition: <quote
+                  source="#plachta-ftn10">Meiner Einsicht nach, sind solche, nicht einen Schuß Pulver, werth;
+                  und verdienten nicht aus dem Staube der Vergessenheit, gezogen zu werden. In meiner
+                  Bücher-Sammlung wenigstens, würde Ich, dergleichen elendes Zeug, nicht dulten; sondern
+                  herausschmeissen. Das Mir davon eingesandte Exemplar mag dahero sein Schicksaal, in
+                  der dortigen großen Bibliothec, abwarten.</quote><note xml:id="plachta-ftn10" n="10"
+                  type="bibl"><name ref="#plachta-pers037">Friedrich II.</name> an <name ref="#plachta-pers001"
+                     >Christoph Heinrich Myller (Müller)</name>, 22.&#8239;Februar 1784; zitiert
+                  nach: <ref target="#Mittelalter1977" type="bibl">S.&#8239;3</ref></note> Die
+               alleinige Wiedergabe der Handschriftentexte mit allen Schreibfehlern und Ungereimtheiten
+               sowie jeglicher Verzicht auf Worterläuterungen oder Kommentar konnte wirklich nur einen
+               kleinen Kreis echter Liebhaber oder Spezialisten begeistern. Eine größere Rezeption
+               blieb dieser Nibelungenliedausgabe wie auch anderen vergleichbaren Editionen versagt,
+               obwohl nun häufiger Stimmen laut wurden, die, wie der Historiker und Literat <name
+                  ref="#plachta-pers050">Justus Möser</name> 1756, klagten: <quote source="#plachta-ftn11">Es
+                  ist würklich ein Schimpf vor uns Deutsche, daß nicht diese sämtlichen Überbleibsel
+                  der wahren und unverfälschten und gleichwohl zierlichen alten deutschen Sprache auf
+                  eine anständige und prächtige Art im Druck erscheinen.</quote><note xml:id="plachta-ftn11" type="bibl"><name ref="#plachta-pers050">Justus Möser</name> an <name ref="#plachta-pers015">Johann Wilhelm Ludwig Gleim</name>, 24.&#8239;Juli 1756. <ref
+                     target="#Moeser1939" type="bibl">S.&#8239;84</ref></note>
+               In den letzten Jahrzehnten des 18.&#8239;Jahrhunderts, insbesondere in der Epoche des Sturm
+               und Drang, erschienen zwar zahlreiche Programmschriften (z.&#8239;B. <q>Von deutscher
+                  Art und Kunst</q>, 1773), in denen das Interesse der jüngeren Autorengeneration für
+                  <name ref="#plachta-pers057">Ossian</name>, <name ref="#plachta-pers068"
+                  >Shakespeare</name> und die mittelalterliche Architektur sichtbar wurde, doch galten
+               zur Zeit der Weimarer Klassik die antike Kunst und Literatur wieder als ästhetisches
+               Paradigma, was die Akzeptanz von Edition und Textkritik weiterhin bremste. Fruchtbare
+               Anstöße für die Diskussion editorischer Fragen und damit für ein erstes Aufblühen
+               kritischer Editionen in Deutschland gingen erst von romantischen Literatur- und
+               Kulturkonzepten aus.</p>
+         </div>
+         
+         <div xml:id="plachta-div02">
+            <head>2.</head>
+            <p>Die Romantik in Deutschland lässt sich keineswegs als einheitliche Epoche
+               charakterisieren. Sie umfasst verschiedene Phasen, ist von Brüchen und Umbrüchen
+               gekennzeichnet und muss außerdem in einem größeren europäischen sowie interdisziplinären
+               und multimedialen Kontext gesehen werden. Schon das Selbstverständnis vieler Romantiker
+               oder deren Wahrnehmung des romantischen Diskurses war selten widerspruchsfrei. So hat es
+               um 1830 Autoren gegeben, die sich von der Romantik distanzierten, obwohl sie sich früher
+               als Romantiker verstanden hatten. Dennoch galten die Begriffe Romantik oder romantisch
+               ungeachtet ihrer Polyvalenz den Zeitgenossen als Programmbegriffe mit deutlich
+               oppositionellem Potenzial.<note xml:id="plachta-ftn12" n="12">Vgl. u.&#8239;a. <ref
+                  target="#Schmitz2004" type="bibl">S.&#8239;9&#x2013;11</ref></note> 
+               Kritik an der modernen Zivilisation ist daher regelmäßig ein zentrales Moment
+               der Debatte. Man wandte sich mit großer Begeisterung der inneren und äußeren Natur des
+               Menschen sowie vergangenen, insbesondere mittelalterlichen Zeiten, christlich geprägten
+               Kulturen und vermeintlich urtümlichen Gesellschaftsformen zu. Die Romantik als
+               Oppositionsbewegung richtete sich gegen Aufklärung und Klassizismus, aber auch gegen die
+               feudale Gesellschaft und deren Reformunwilligkeit. Ihre Protagonisten wollten Teil einer
+               umfassenden Erneuerungsbewegung sein. Die Romantik verstand sich daher ausdrücklich als
+               eine dynamische Bewegung, die nicht selten programmatisch mit Konzepten von
+               Universalität und Fortschritt verknüpft war. Die Einbeziehung unterschiedlicher Künste,
+               die Nähe zur Philosophie und die Öffnung der Kunst zum wirklichen Leben machten die
+               Dynamik romantischer Konzepte aus. Immer wieder finden sich theoretische
+               Erörterungen zum organischen Werden. <name ref="#plachta-pers063">Friedrich
+                  Schlegel</name> etwa wollte <quote source="#plachta-ftn13">die Gegenstände nach ihrer innern
+                  Zusammensetzung und ihren Elementen, ihrer stufenweisen Entwicklung und ihren innern
+                  Verhältnissen zu sich selbst</quote> betrachten.<ref target="#SchlegelAusgabe"
+                     type="bibl" xml:id="plachta-ftn13">Bd.&#8239;12, S.&#8239;322&#8239;f.</ref> Das historische
+               Geschehen spielte eine entscheidende Rolle im romantischen Denken, wobei der <quote source="#plachta-ftn14">&#x200A;<hi rend="spaced">inner[e] Zusammenhang der Dinge</hi></quote><ref
+                  target="#ErschGruber" type="bibl" xml:id="plachta-ftn14">T.&#8239;15, S.&#8239;405</ref>
+               Aufmerksamkeit fand. Der Versuch, Poesie und Mythologie zu verbinden, entsprang diesen
+               Vorstellungen ebenso wie die Suche nach dem Unbewussten, Irrationalen und Subjektiven.
+               Auch die historischen Eckdaten 1789 und 1830, mit denen wir heute die Romantik in
+               Deutschland eingrenzen, entsprechen dieser von Umwälzungserfahrungen geprägten
+               Programmatik. Die Französische Revolution, das Ende des Deutschen Reichs 1806, Aufstieg
+               und Fall <name ref="#plachta-pers052">Napoleons</name> sowie die Restauration alter
+               feudaler Zustände nach 1815 gaben der Romantik ihr historisches Profil und schärften
+               gleichzeitig das Bewusstsein vieler Menschen für <quote source="#plachta-ftn15">Zeit und
+                  Zeitlichkeit.</quote><ref target="#Schmitz2004" type="bibl" xml:id="plachta-ftn15"
+                  >S.&#8239;37</ref>
+            </p>
+            <p>Dieses aufblühende Interesse an Geschichte machte auch vor den traditionellen Verfahren
+               der Philologie nicht Halt, wobei die Edition als Teilbereich der Philologie in nicht
+               unerheblichem Maße vom romantischen Diskurs profitierte. Aber der Diskurs allein reichte
+               nicht aus, sondern es war zusätzlich eine gehörige Portion von Spezialisierung und
+               Professionalisierung sowie das Engagement fördernder Institutionen notwendig,<note
+                  xml:id="plachta-ftn16" n="16">Vgl. <ref target="#Kolk1994" type="bibl"/></note> um die
+               methodischen Verfahren der Edition literarischer Quellen zu modernisieren und eine
+               Debatte über Aufgaben und Ziele der Editorik in geregelte Bahnen zu lenken. Das hatte
+               gleichzeitig zur Folge, dass die gelehrten Liebhaber und Amateure und alle, die vom
+               inzwischen populären Heben vergessener (vornehmlich mittelalterlicher) literarischer
+               Schätze profitieren wollten, zurückgedrängt wurden. Man sortierte sogar prominente
+               Vertreter der Romantik in die ständig anwachsende Gruppe der Dilettanten ein, weil deren
+               ästhetischer Aneignungsprozess der mittelalterlichen Literatur mit den
+               wissenschaftlichen Prinzipien der aufstrebenden Philologie kollidierte. 1805 wurde in
+               Göttingen eine Professur für Deutsche Philologie geschaffen und mit <name
+                  ref="#plachta-pers006">Georg Friedrich Benecke</name> besetzt. Berlin zog 1810 mit
+               der ersten Professur für deutsche Sprache und Literatur nach; schon die Bezeichnung
+               dieser Professur unterstrich die angestrebte Spezialisierung und die innovative Absicht,
+               die dahinter stand. Bei dem Berliner Lehrstuhl handelte es sich vorerst noch um ein
+               Extraordinariat ohne Besoldung. Aber mit der Berufung <name ref="#plachta-pers028"
+                  >Heinrich von der Hagens</name> wurde ein viel beachtetes Zeichen gesetzt, denn <name
+                  ref="#plachta-pers028">von der Hagen</name> hatte sich 1807 mit einer Edition des
+                  Nibelungenliedes<ref target="#Hagen1807" type="bibl" xml:id="plachta-ftn17"/> einen Namen
+               gemacht. <name ref="#plachta-pers028">Von der Hagen</name> legte in einer
+                  <q>Zueignung</q> seine Absichten folgendermaßen dar: <quote source="#plachta-ftn18">Wie man
+                  zu des <name ref="#plachta-pers069">Tacitus</name> Zeiten die Altrömische Sprache der
+                  Republik wieder hervor zu rufen strebte: so ist auch jetzo, mitten unter den
+                  zerreißendsten Stürmen, in Deutschland die Liebe zu der Sprache und den Werken
+                  unserer ehrenfesten Altvordern rege und thätig, und es scheint, als suche man in der
+                  Vergangenheit und Dichtung, was in der Gegenwart schmerzlich untergeht. Es ist aber
+                  dies tröstliche Streben noch allein die lebendige Urkunde des unvertilgbaren
+                  Deutschen Karakters, der über alle Dienstbarkeit erhaben, jede fremde Fessel über
+                  kurz oder lang immer wieder zerbricht, und dadurch nur belehrt und geläutert, seine
+                  angestammte Natur und Freiheit wieder ergreift.</quote><note xml:id="plachta-ftn18" n="18"
+                  type="bibl">Zitiert nach: <ref target="#Janota1980" type="bibl">S.&#8239;63</ref>
+               </note>
+               <name ref="#plachta-pers028">Von der Hagen</name> beschwor das Nibelungenlied außerdem
+               als <quote source="#plachta-ftn19">das erhabenste und vollkommenste Denkmal einer so lange
+                  verdunkelten Nazionalpoesie,</quote><ref target="#Janota1980" type="bibl"
+                  xml:id="plachta-ftn19" rend="ibid"/> in dem sich <quote source="#plachta-ftn20">vorbildliche
+                  Lebensformen</quote><ref target="#Weimar1989" type="bibl" xml:id="plachta-ftn20"
+                  >S.&#8239;227</ref> zeigen und die Möglichkeit eröffnet werde, <quote
+                  source="#plachta-ftn21">die Schönheit und Anmuth jugendlicher Heldengestalten, kühner,
+                  ritterlicher Scherz, Uebermuth, Stolz und Trutz, männliche und minigliche Jungfrauen
+                  in des Frühlings und des Schmuckes Pracht, holde Zucht, einfache, fromme und
+                  freundliche Sitte, zarte Scheu und Schaam, und liebliches, wonniges
+                  Minnespiel</quote><note xml:id="plachta-ftn21" n="21" type="bibl">Zitiert nach: <ref
+                     target="#Janota1980" type="bibl">S.&#8239;64</ref>
+               </note> zu studieren. Das nationale Programm, das hinter dieser Edition stand, wurde
+               dadurch deutlich, dass der Editor den mittelhochdeutschen Text in Orthographie und
+               Lautung modernisierte und damit auch für die Zeitgenossen lesbar und verständlich
+               machte. Allerdings war nach unserem heutigen Verständnis eher eine Nachdichtung als ein
+               historisch getreuer Text entstanden. <name ref="#plachta-pers028">Von der Hagen</name>
+               sprach deshalb von der <q>Erneuung</q> des Nibelungenlieds, wollte <q>das alte Deutsch
+                  in das neue umschreiben</q> und bemühte sich, die <q>Dunkelheit</q>, die <q>über manchen Stellen schwebt</q>, durch eine moderne Wortwahl zu
+                  beseitigen.<note xml:id="plachta-ftn22" n="22" type="bibl">Zitiert nach: <ref
+                     target="#Janota1980" type="bibl">S.&#8239;65</ref></note> Obwohl <name
+                  ref="#plachta-pers028">von der Hagen</name> als philologischer Dilettant galt und
+               seine Nibelungen-Edition Kritiker auf den Plan rief, war die Edition bemerkenswert, weil
+               sie die Leistung eines Patrioten war, der sich der wohl bekanntesten nationalen
+               Textikone angenommen hatte: Die Edition erschien nur ein Jahr nach der vernichtenden
+               Niederlage, die <name ref="#plachta-pers052">Napoleon</name> der preußischen Armee 1806
+               bei Jena und Auerstedt beigebracht hatte. Der preußische Staat, der sich immer noch im
+               Ruhm <name ref="#plachta-pers037">Friedrichs des Großen</name> sonnte, war im Laufe der
+               Zeit morsch geworden; das hatte die Niederlage auf dem Schlachtfeld mehr als offenkundig
+               gemacht. Die Niederlage hatte außerdem deutlich gemacht, dass die deutsche
+               Kleinstaaterei und ihre eifersüchtig gehüteten Partikularinteressen <name
+                  ref="#plachta-pers052">Napoleon</name> in die Hände gespielt hatten. Die Frage der
+               nationalen Einheit stand damit auf der politischen Tagesordnung wieder ganz oben, denn
+               dem französischen Vormachtstreben war nur in einer gemeinsamen nationalen Aktion zu
+               begegnen.</p> 
+            <p>Zunächst einmal setzte die napoleonische Fremdherrschaft in Preußen eine
+               beispiellose Modernisierung von Staat und Gesellschaft in Gang, die sich ausdrücklich
+               als patriotische Neubesinnung und als Herausforderung des napoleonischen Frankreich
+               verstand. Dieser Patriotismus formulierte schon bald den Wunsch nach nationaler Einheit.
+               Insbesondere das Bürgertum favorisierte ein geeintes Staatswesen mit republikanischem
+               Profil. Der <name ref="#plachta-pers037">preußische König</name> und mit ihm die alten
+               adligen Eliten versuchten, diese populären Initiativen zu instrumentalisieren und für
+               ihre nach wie vor feudalen Absichten in Dienst zu nehmen. Das Verfassungsversprechen des
+                  <name ref="#plachta-pers037">preußischen Königs</name> am Vorabend der Volkserhebung
+               gegen <name ref="#plachta-pers052">Napoleon</name> 1813 wurde später nie eingelöst!
+               Sämtliche Reformen, auch die auf kulturellem und wissenschaftlichem Gebiet, sind vor
+               diesem politischen Hintergrund zu sehen. Der sich überall formierende Patriotismus war
+               außerdem eine nicht unerhebliche Motivation für die Arbeit der immer zahlreicher
+               werdenden Germanisten. Die Rückbesinnung auf eine gemeinsame nationale Geschichte,
+               Literatur-, Sprach- und Rechtstradition wurde zusätzlich stimuliert durch romantische
+                  Kulturkonzepte.<note xml:id="plachta-ftn23" n="23">Vgl. <ref target="#Hunger" type="bibl"/></note> Sicherlich waren viele dieser Konzepte
+               ahistorisch, weil sie auf Erfahrungen einer als defizitär empfundenen Gegenwart
+               basierten. Man glaubte in der mittelalterlichen Kultur einen pulsierenden Organismus zu
+               erkennen, der alle Barrieren der alten Ständegesellschaft überwand. Man sah sogar im
+               mittelalterlichen Kaisertum eine Garantie für eine allgemeine Harmonie menschlichen
+               Zusammenlebens. Diese Mittelalterbegeisterung ging somit eine enge Verbindung mit dem
+               aktuellen patriotischen Zeitgeist ein. Der Blick in eine große und strahlende
+               Vergangenheit sollte die unbefriedigenden Zustände der Gegenwart als solche erkennbar
+               machen und in einem weiteren Schritt Perspektiven für die Beseitigung politischer
+               Missstände entwickeln, aber gleichzeitig ein Bewusstsein dafür schaffen, <quote
+                  source="#plachta-ftn24">daß die gesellschaftliche Realität nicht naturgegeben, sondern
+                  historisch geworden und damit auch veränderbar ist.</quote><ref target="#Janota1980"
+                  type="bibl" xml:id="plachta-ftn24">S.&#8239;21</ref> Die Distanzierung von der Gegenwart
+               und die Rückwendung zur Vergangenheit wurde dementsprechend als <quote source="#plachta-ftn25"
+                  >Anlauf in die Zukunft</quote><ref target="#Weimann1972" type="bibl" xml:id="plachta-ftn25"
+                     >S.&#8239;29</ref> gedeutet.</p>
+         </div>
+         
+         <div xml:id="plachta-div03">
+            <head>3.</head>
+            <p>Der Rekurs auf das Mittelalter verstand sich ausdrücklich nicht als Gewinnung von Daten,
+               um historische Prozesse zu rekonstruieren oder zu analysieren. Die kulturellen
+               Traditionen des Mittelalters wurden vielmehr als Erbe eines ganzen Volkes betrachtet und
+               sollten gesichert werden, um eine Grundlage für das Streben nach nationaler Einheit zu
+               schaffen. <name ref="#plachta-pers019">Wilhelm Grimm</name> sah in der mittelalterlichen
+               Literatur <quote source="#plachta-ftn26">ein großes allesumfassendes Bild der deutschen Vorzeit,
+                  von den größten Heldenthaten und Kriegen bis zum häuslichen Leben herab.</quote><ref
+                  target="#Mittelalter1977" type="bibl" xml:id="plachta-ftn26">S.&#8239;8</ref> Der Fokus lag
+               folgerichtig auf der volkstümlichen Überlieferung, auf Volksliedern, Märchen, Sagen oder
+               Volksbüchern. 1805/08 erschien die Volksliedersammlung <q>Des Knaben Wunderhorn</q>, die
+                  <name ref="#plachta-pers002">Achim von Arnim</name> und <name ref="#plachta-pers011"
+                  >Clemens Brentano</name> konzipiert hatten. 1807 veröffentlichte <name
+                  ref="#plachta-pers027">Joseph Görres</name> eine Sammlung mit Volksbüchern. Die <name
+                  ref="#plachta-pers019 #plachta-pers020">Brüder Grimm</name> folgten 1812/15 mit den
+                  <q>Kinder- und Hausmärchen</q>, denen sich 1816/18 die <q>Deutschen Sagen</q>
+               hinzugesellten. Auch den deutschen Dialekten schenkte man Aufmerksamkeit: 1827/30
+               erschien das vierbändige <q>Bayerische Wörterbuch</q> von <name ref="#plachta-pers067"
+                  >Johann Andreas Schmieder</name>, das noch heute als Meilenstein damaliger
+               Mundartkunde angesehen wird. Noch 1855 schreibt <name ref="#plachta-pers014">August
+                  Heinrich Hoffmann von Fallersleben</name> rückblickend über die Sammlung <q>Des
+                  Knaben Wunderhorn</q>: <quote source="#plachta-ftn27">Die Jahre 1805 und 1806, die uns in
+                  politischer Beziehung nur die allertraurigsten Erinnerungen zurückließen, nichts als
+                  Niederlagen zu verkünden wissen, müssen wir begrüßen als Siegesjahre für die Belebung
+                  des vaterländischen Sinnes und die Reinerhaltung und Entwickelung unserer
+                  Volksthümlichkeit. Nach allen Seiten hin war große Thätigkeit, alle Regungen des
+                  deutschen Geistes zu verfolgen, die Denkmäler der Sprache und Kunst zu retten, zu
+                  erhalten, dem Studium und Genusse zugänglich zu machen, und die betrübten Gemüther
+                  damit zu trösten, daran aufzurichten und zu volksthümlichen Erzeugnissen in Kunst und
+                  Wissenschaft anzuregen.</quote><note xml:id="plachta-ftn27" n="27" type="bibl">Zitiert nach:
+                     <ref target="#Janota1980" type="bibl">S.&#8239;61</ref></note> Und <name
+                  ref="#plachta-pers027">Joseph Görres</name> lässt in der Widmung zu seiner
+               Volksbücheredition auf die Frage des <name ref="#plachta-pers005">Kaisers
+                  Barbarossa</name>
+               <q>Was suchst du bei den Toten, Fremdling?</q> tiefsinnig
+               antworten: <quote source="#plachta-ftn28">Ich suche das Leben.</quote><ref
+                  target="#Mittelalter1977" type="bibl" xml:id="plachta-ftn28">S.&#8239;8</ref> Das
+               Lebensgefühl der Romantiker-Generation ist wohl mit dieser Replik kaum treffender zu
+               charakterisieren. Doch die politische Desillusion nach 1815 beeinträchtigte diese
+               sozialen und kulturellen Ambitionen schnell. Die politische Neuordnung Europas auf dem
+               Wiener Kongress (1815) stellte den feudalen Zustand vor der Französischen Revolution
+               wieder her. Die Auseinandersetzung mit der Vergangenheit wurde zunehmend zu einer Flucht
+               aus den nach wie vor bedrückenden Verhältnissen. Unter geänderten politischen Vorzeichen
+               geriet die ursprünglich progressive Mittelalterbegeisterung in den Sog der Mythisierung
+               einer Vergangenheit, die zunehmend nationalistische Komponenten enthielt. Diese
+               Mythisierung von Volk und Geschichte lassen sich zwar auf Konzepte zurückführen, wie sie
+                  <name ref="#plachta-pers032">Herder</name> und in seiner Nachfolge die Romantik
+               formuliert hatten. Aber im Gegensatz zu <name ref="#plachta-pers032">Herder</name>
+               erhielt die Begeisterung für das Volkstümliche im frühen 19.&#8239;Jahrhundert mehr und
+               mehr eine nebulöse und sakrale Dimension. Volk und Geschichte wurden enthistorisiert und
+               die Vergangenheit in mythische Ferne entrückt. Die ursprünglichen, auf die Zukunft
+               orientierten Konzepte verflüchtigten sich, die Vorstellung von Volk und Geschichte
+               verloren ihren Realitätsbezug und öffneten durch ihre Beliebigkeit einer späteren
+               ideologischen Vereinnahmung Tür und Tor. Wenn man im Mittelalter ein <soCalled>goldenes
+               Zeitalter</soCalled> mit paradiesischen Zuständen erkennen wollte, dann war dies in der Tat eine
+               Flucht aus der Wirklichkeit, und die Beschäftigung mit mittelalterlicher Literatur und
+               Kultur büßte den Bezug zur aktuellen gesellschaftlichen Wirklichkeit vielfach ein.
+               Politisch gesehen war die Orientierung am Mittelalter eine rückwärts gewandte Utopie.
+               Hatte man sich ursprünglich ausdrücklich der <soCalled>Volkspoesie</soCalled> zugewandt
+               und damit ein durchaus politisch-soziales Konzept formuliert, wurde diese
+                  <soCalled>Volkspoesie</soCalled> nun zur <soCalled>Naturpoesie</soCalled> veredelt.
+               Dadurch entstand ein soziales Wunschdenken, das auch zu falschen historischen
+               Beschreibungen führte. Dieser problematische Prozess lässt sich gut an der Edition der
+                  <q>Kinder- und Hausmärchen</q> studieren. Obwohl die <name
+                  ref="#plachta-pers019 #plachta-pers020">Brüder Grimm</name> stets betonten, die von
+               ihnen gesammelten Märchen stammten von den <soCalled>einfachen</soCalled> Leuten aus dem
+               bäuerlichen Milieu, wissen wir heute, dass diese Beteuerungen falsch waren. Viele
+               Märchen kamen vielmehr aus dem Milieu des gut situierten Stadtbürgertums. Auch die
+               Aussage, bei den Märchen handle es sich um urdeutsche Überlieferungen, ist nicht
+               haltbar. Richtig ist vielmehr, dass die <name ref="#plachta-pers019 #plachta-pers020"
+                  >Grimms</name> zahlreiche Märchen den beiden französischen Märchensammlungen von
+                  <name ref="#plachta-pers058">Charles Perrault</name> (1697) und von <name
+                  ref="#plachta-pers074">Madame d’Aulnoys</name> entnommen hatten. Durch eine
+               geschickte Bearbeitung der Texte versuchten sie diese Tatsache zu verschleiern. Nicht
+               nur die Behauptung, nationales Kulturgut gesichert zu haben, war unzutreffend, sondern
+               auch die soziale Zuweisung der Märchen war fragwürdig. Schon <name
+                  ref="#plachta-pers064">August Wilhelm Schlegel</name> hatte die grundsätzliche
+               Dimension dieser Problematik erkannt. In einer Rezension des ersten Jahrgangs der von
+               den <name ref="#plachta-pers019 #plachta-pers020">Brüdern Grimm</name> gegründeten
+               Zeitschrift <q>Altdeutsche Wälder</q> monierte er 1815 in den <q>Heidelberger
+                  Jahrbüchern</q>: <quote source="#plachta-ftn29">Wenn man aber die ganze Rumpelkammer
+                  wohlmeinender Albernheit ausräumt, und für jeden Trödel im Namen der <soCalled>uralten Sage</soCalled>
+                  Ehrerbietung begehrt, so wird in der That gescheiten Leuten allzu viel
+                  zugemuthet.</quote><note xml:id="plachta-ftn29" n="29" type="bibl">Zitiert nach: <ref
+                     target="#Janota1980" type="bibl">S.&#8239;99</ref>
+               </note>
+               <name ref="#plachta-pers064">Schlegel</name> warf den <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> polemisch eine insgesamt
+               unkritische Hinwendung zur Vergangenheit vor. Dass solche Vorhaltungen in dieser Schärfe
+               nur bedingt zutreffen, zeigen die vielen anderen Projekte der <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> zur Sicherung der kulturellen
+               und literarischen Überlieferung. Dennoch ist der Vorwurf nicht von der Hand zu weisen,
+               dass ihnen Philologie auch <quote source="#plachta-ftn30">als Religion, als Versprechen, das
+                  Göttliche schauen zu dürfen im Gang zur <soCalled>edelsten Menschheit</soCalled>,
+                  auch zu den Nibelungen</quote><ref target="#Ehrismann1985" type="bibl" xml:id="plachta-ftn30"
+                     >S.&#8239;43&#8239;f.</ref> galt. In den <q>Altdeutschen Wäldern</q> fand das große
+               Interesse der <name ref="#plachta-pers019 #plachta-pers020">Grimms</name> an der
+               Geschichte mittelalterlicher Volkspoesie seinen deutlichsten Niederschlag, indem sie mit
+               Hilfe von Kommentaren, Editionen und Dokumentationen historischer Zeugnisse als deren
+               Geschichtsschreiber auftraten. Es war ihnen dabei stets ein Anliegen, die Volkspoesie
+               überhaupt erst wieder für ein lesendes Publikum zugänglich zu machen. Ihre Adressaten
+               waren nicht die <q>gescheiten Leute</q>, sondern sie wollten die kulturellen Traditionen
+               der <soCalled>einfachen</soCalled> Leute darstellen, auch wenn ihnen bei diesem Vorhaben
+               Irrtümer unterliefen bzw. sie sich irren wollten. <name ref="#plachta-pers064"
+                  >Schlegel</name> reagierte daher verständlicherweise distanziert darauf, dass die
+                  <name ref="#plachta-pers019 #plachta-pers020">Grimms</name> alles ihrem
+               Volkspoesiebegriff unterordneten, der damit mehr und mehr unspezifisch wurde. Aber die
+               popularisierende Darstellungsweise, insbesondere die Jacob Grimms im ersten Band der
+                  <q>Altdeutschen Wälder</q>, ließ sogar prinzipielle Fragen an der
+               Wissenschaftlichkeit aufkommen, denn <name ref="#plachta-pers019">Jacob Grimm</name>
+               <quote source="#plachta-ftn31">verbindet Auseinanderliegendes in kühnen Bögen, vorschnell bringt
+                  er entfernte Ähnlichkeiten zusammen, und womöglich stellt er mythologische und
+                  sprachliche Beziehungen her, die offensichtlich unhaltbar oder zumindest
+                  unwahrscheinlich sind.</quote><ref target="#Ginschel1967" type="bibl" xml:id="plachta-ftn31"
+                  >S.&#8239;53</ref>
+               <name ref="#plachta-pers064">Schlegels</name> kritische Bemerkungen über die
+               Wissenschaftlichkeit der <name ref="#plachta-pers019 #plachta-pers020"
+               >Grimm</name>’schen Aktivitäten berührten allerdings eine viel grundsätzlichere
+               Problematik. Ging es bei der Beschäftigung mit mittelalterlicher Kultur um die
+               Popularisierung volkstümlicher Überlieferung für ein breites Publikum oder ging es um
+               die wissenschaftliche Erforschung dieser Überlieferung, also um Philologie? <name
+                  ref="#plachta-pers064">Schlegel</name> verschärfte den schon seit einiger Zeit
+               schwelenden Konflikt, ob man das philologische Feld Dilettanten überlassen dürfe, die
+               sich an das breite Publikum wandten, oder ob ausschließlich wissenschaftliche Kriterien
+               der Maßstab für die Erarbeitung von Editionen und Textsammlungen sein sollten. <name
+                  ref="#plachta-pers064">Schlegel</name> zollte den <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> zwar Respekt, was ihren <q
+               >nicht geringen Scharfsinn</q>, ihre <q
+                  >ausgebreitete Belesenheit</q> und ihren <quote source="#plachta-ftn32">unermüdlichen
+                  Fleiß im Aufspüren auch des Unbemerktesten</quote> anging.<note xml:id="plachta-ftn32" n="32"
+                  type="bibl">Zitiert nach: <ref target="#Janota1980" type="bibl">S.&#8239;92</ref>
+               </note> Er stieß sich aber an dem weiten Verständnis von Volksüberlieferung und den
+               Parallelen, die die <name ref="#plachta-pers019 #plachta-pers020">Grimms</name> immer
+               wieder zur Literatur und Kultur der Gegenwart zogen. Damit kritisierte er ihre zentrale
+               Auffassung, wonach jede Form von Volkspoesie uralt und damit mythisch sei. Das Sammeln
+               von Texten aus früheren Jahrhunderten mache &#x2013; so <name ref="#plachta-pers064"
+                  >Schlegel</name> &#x2013; nur dann Sinn, wenn neben eine sprachhistorische auch eine
+               textkritische Analyse dieses Materials trete. Weil die <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> an ihrem Konzept der
+               Popularisierung festhielten, mussten sie auf die Vorwürfe mangelnder Seriosität
+               reagieren. Dem Vorwurf fehlender sprachhistorischer Analyse etwa half <name
+                  ref="#plachta-pers019">Jacob Grimm</name> 1819 mit der <q>Deutschen Grammatik</q> ab,
+               auf die das Mammutunternehmen <q>Deutsches Wörterbuch</q> folgte.</p>
+         </div>
+         
+         <div xml:id="plachta-div04">
+            <head>4.</head>
+            <p>Die Forderung <name ref="#plachta-pers064">Schlegels</name> nach umfassender Quellen-
+               und Textkritik löste schließlich ein anderer Philologe ein, und zwar <name
+                  ref="#plachta-pers043">Karl Lachmann</name>. <name ref="#plachta-pers043"
+                  >Lachmann</name> erfüllte insofern <name ref="#plachta-pers064">Schlegels</name>
+               Forderungen, als seine Bemühungen auf die <q>gescheiten Leute</q> ausgerichtet waren und
+               seine Editionen von Anfang an ausdrücklich einen Anspruch auf Wissenschaftlichkeit
+               erhoben. <name ref="#plachta-pers043">Lachmanns</name> Editionen und Aufsätze zu
+               editorischen Themen markieren somit einen weithin sichtbaren Paradigmenwechsel.<note
+                  xml:id="plachta-ftn33" n="33">Zur weiten (internationalen) Wirkung <name
+                     ref="#plachta-pers043">Lachmanns</name> vgl. <ref target="#Plachta2012"
+                     type="bibl"/></note> Zwei fundamentale Elemente dieses Paradigmenwechsels lassen
+               sich unterscheiden. <name ref="#plachta-pers043">Lachmann</name> war in erster Linie
+               klassischer Philologe, der sein Handwerk in Leipzig und Göttingen gelernt hat. 1814
+               habilitierte er sich als 21-Jähriger in Göttingen für klassische Philologie, 1816 folgte
+               die zweite Habilitation in Berlin mit einer Arbeit <q>Über die ursprüngliche Gestalt des
+                  Gedichts von der Nibelungen Noth</q>. <name ref="#plachta-pers043">Lachmann</name>
+               vereinigte also zwei Philologien in einer Person. Schon bald setzte er Prioritäten und
+               engagierte sich schwerpunktmäßig für die deutsche Literatur des Mittelalters.
+               Für diese Entscheidung war zweifellos der nationale Zeitgeist verantwortlich. <name
+                  ref="#plachta-pers043">Lachmann</name> wechselte also vom klassischen ins nationale
+               Arbeitsfeld und leistete einen erheblichen Beitrag zum <quote source="#plachta-ftn34"
+                  >weitgespannten Interessenfeld, eine nationale Literatur- und Kulturgeschichte des
+                  Mittelalters zu konstituieren.</quote><ref target="#Roloff2003" type="bibl"
+                  xml:id="plachta-ftn34">S.&#8239;71</ref> 
+            </p>
+            <p>
+               Das zweite Element des Paradigmenwechsels ist
+               in der Tatsache zu sehen, dass <name ref="#plachta-pers043">Lachmann</name> sich auf die
+                  <soCalled>hohe</soCalled> Literatur, also die <q>Kunstpoesie</q>, konzentrierte.
+               Seine Editionen waren für <q>Vorlesungen und zum
+                  Schulgebrauch</q> konzipiert, und er wandte sich scharf gegen <quote
+                  source="#plachta-ftn35">arbeitsscheuen Liebhabereifer, und wohlgemeinte, aber eitele und
+                  erfolglose Betriebsamkeit.</quote><ref target="#Lachmann1876" type="bibl"
+                     xml:id="plachta-ftn35">S.&#8239;157, 171</ref> 1826 edierte er das Nibelungenlied und die Klage,
+               1827 folgten eine Edition von <name ref="#plachta-pers003">Hartman von Aues</name>
+               <q>Iwein</q> und die Edition der Gedichte <name ref="#plachta-pers070">Walthers von der
+                  Vogelweide</name>, 1833 die der Werke <name ref="#plachta-pers013">Wolframs von
+                  Eschenbach</name> und schließlich 1838/40 <name ref="#plachta-pers047"
+                  >Lessings</name>
+               <q>Sämmtliche Schriften</q>.<note xml:id="plachta-ftn36" n="36">Hierzu <ref target="#Bein2011"
+                     type="bibl"/></note> An dieser umfangreichen Editionstätigkeit, die auch Editionen
+               des Neuen Testaments sowie der Werke von <name ref="#plachta-pers060">Properz</name> und
+                  <name ref="#plachta-pers049">Lukrez</name> einschloss, lässt sich ein prinzipiell
+               anderes Textverständnis ablesen, als es Editionen zugrunde lag, die von romantischen
+               Literaturkonzepten beeinflusst waren und denen sich etwa die <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> verpflichtet fühlten. So hat
+                  <name ref="#plachta-pers019">Jacob Grimm</name> immer wieder darauf hingewiesen, dass
+               jedes überlieferte Dokument einen historischen Eigenwert habe. Die Textgestalt dieses
+               Dokuments sei als <quote source="#plachta-ftn37">offene Größe</quote> zu betrachten.<ref
+                  target="#Janota1980" type="bibl" xml:id="plachta-ftn37">S.&#8239;35</ref> Gleichzeitig
+               seien diese Dokumente als individuelle Zeugnisse eines kollektiven Schaffensprozesses,
+               eben als <quote source="#plachta-ftn38">lebendige Verschiedenheiten</quote>,<note xml:id="plachta-ftn38"
+                  n="38" type="bibl">Zitiert nach: <ref target="#Ginschel1967" type="bibl"
+                     >S.&#8239;172</ref>
+               </note> zu interpretieren. Der Aspekt der Überlieferung stand daher im Mittelpunkt der
+               Aktivitäten der <name ref="#plachta-pers019 #plachta-pers020">Grimms</name>. Dies ist
+               insofern verständlich, als die Kenntnis von Handschriften mittelalterlicher Texte damals
+               noch äußerst rudimentär war. Auch hierfür gab es historische Gründe: Nach der Aufhebung
+               der geistlichen Fürstentümer und der Säkularisation von Kirchen- und Klösterbesitz im
+               Reichsdeputationshauptschluss von 1803 wurden plötzlich die Klösterbibliotheken mit
+               ihren riesigen Schätzen an Handschriften zugänglich. Nicht zuletzt aus diesem
+               historischen Umstand resultierte die Priorität, die <name ref="#plachta-pers019">Jacob
+                  Grimm</name> der Überlieferung einräumte. In seiner Gedenkrede auf den 1851
+               verstorbenen <name ref="#plachta-pers043">Karl Lachmann</name> wird diese Priorität noch
+               einmal deutlich, wenn er die unterschiedlichen Positionen folgendermaßen beschreibt:
+                  <quote source="#plachta-ftn39">Man kann alle philologen, die es zu etwas gebracht haben, in
+                  solche theilen, welche die worte um der sachen, oder die sachen um der worte willen
+                  treiben. <name ref="#plachta-pers043">Lachmann</name> gehörte unverkennbar zu den
+                  letztern und ich übersehe nicht die groszen vortheile seines standpuncts, wenn ich
+                  umgedreht mich lieber zu den ersteren halte.</quote><ref target="#GrimmSchriften"
+                  type="bibl" xml:id="plachta-ftn39">Bd.&#8239;1, S.&#8239;150</ref>
+            Wenn <name ref="#plachta-pers019">Jacob Grimm</name> sich zu denen rechnete, die <q>die
+                  worte um der sachen</q> willen betrachten, dann verteidigte er einmal mehr seine
+               Auffassung, die Überlieferung mit all ihren Eigenheiten und historischen Veränderungen
+               hätten im Mittelpunkt des philologischen Interesses zu stehen. <name
+                  ref="#plachta-pers043">Lachmann</name> dagegen vertrat eine andere Position, weil er
+               eine andere Sichtweise auf die Überlieferung hatte. Sein Blick war stets retrospektiv
+               gerichtet auf das Ursprüngliche, Echte, Wahre und damit auf den unerreichbaren
+                  <soCalled>Archetyp</soCalled> eines Werks. Für ihn hielt die Textgeschichte das
+               Material bereit, mit dessen Hilfe er den Weg zurück zu einem zumeist verlorenen Original
+               rekonstruieren könne. Geschichte wurde in <name ref="#plachta-pers043">Lachmanns</name>
+               Perspektive auf die Textgeschichte reduziert. Diese Textgeschichte ließ sich mit Hilfe
+               der textkritischen Methode und einer Reihe formalisierter Verfahren rekonstruieren, die
+               als <name ref="#plachta-pers043">Lachmann’sche</name> Methode Eingang in die
+               Wissenschaftsgeschichte gefunden hat. Es ist das große Verdienst <name
+                  ref="#plachta-pers043">Lachmanns</name>, die traditionellen textkritischen Verfahren
+               der <soCalled>recensio</soCalled> und <soCalled>emendatio</soCalled> neu im Bewusstsein
+               der Philologie verankert zu haben. Dennoch wird heute mit guten Argumenten
+               fachübergreifend bestritten, <name ref="#plachta-pers043">Lachmann</name> sei als
+               Begründer einer <soCalled>modernen</soCalled> wissenschaftlichen Textkritik zu
+                  bezeichnen.<ref target="#Timpanaro1971" type="bibl" xml:id="plachta-ftn40"
+                     >S.&#8239;69&#x2013;72</ref> Aber er war derjenige, der die textkritischen
+               Verfahren systematisch geordnet und in der praktischen Editionsarbeit angewendet hat.
+                  <name ref="#plachta-pers043">Lachmanns</name> Verdienst besteht auch darin, die
+               altphilologische Recensio-Technik auf die Überlieferung mittelalterlicher wie neuerer
+               Texte übertragen zu haben. Altphilologie und Deutsche Philologie feierten Hochzeit und
+               gaben der Germanistik als philologische Disziplin über Jahrzehnte hinweg ihr
+               entsprechendes Gesicht. Der Vermittlungsaspekt, der im Konzept der <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> ein wichtiges Moment war, wurde
+               dagegen von <name ref="#plachta-pers043">Lachmann</name> ausgeblendet. Ging es <name
+                  ref="#plachta-pers019">Jacob Grimm</name> um die Aktualisierung vergangener Kultur-
+               und Literaturepochen, konzentrierte sich <name ref="#plachta-pers043">Lachmann</name>
+               auf die Errichtung historischer Textdenkmäler. Die Arbeit des Philologen an der
+               Textüberlieferung, schreibt <name ref="#plachta-pers038">Johannes Janota</name>, <quote
+                  source="#plachta-ftn41">wird zum Dienst am Autor, dessen Werk und Persönlichkeit von der
+                  Patina und den Schlacken der Überlieferung gereinigt, in möglichst makellosem Glanz
+                  erstrahlen sollen.</quote><ref target="#Janota1980" type="bibl" xml:id="plachta-ftn41"
+                  >S.&#8239;35</ref> Seine Arbeit an der <name ref="#plachta-pers047"
+               >Lessing</name>-Ausgabe kommentierte <name ref="#plachta-pers043">Lachmann</name> so:
+                  <quote source="#plachta-ftn42">Der kritische Herausgeber […] hat, wo seine Arbeit auch auf
+                  der niedrigsten Stufe des geistigen Verdienstes steht, zu beurtheilen, welchen Werth,
+                  welches Verhältniss zur Wahrheit jede der von ihm zu brauchenden Quellen im Ganzen
+                  und an jeder einzelnen Stelle hat: er muss, um dies zu können, jeden Augenblick und
+                  bei jedem Zweifel dem Verfasser in seine geistige Werkstatt schauen und ganz die
+                  ursprüngliche Thätigkeit desselben reproduciren können.</quote><ref
+                  target="#Lachmann1876" type="bibl" xml:id="plachta-ftn42">S.&#8239;566</ref> Die Arbeit des
+               Textkritikers bestand darin, die Texte noch einmal zur Welt zu bringen, sie regelrecht
+               wieder zu gebären. In vielen Äußerungen hat <name ref="#plachta-pers043">Lachmann</name>
+               die Veröffentlichung seiner Editionen dementsprechend als Geburten phantasiert.<ref
+                  target="#Weigel1989" type="bibl" xml:id="plachta-ftn43">S.&#8239;174, 181&#8239;ff.</ref> Im Falle
+               der Lessing-Ausgabe hat <name ref="#plachta-pers043">Lachmann</name> sogar einen
+               (erfolglosen) Prozess angestrengt, mit dem er seine Rechte als Urheber an dieser Ausgabe
+               und darüber hinaus an den Texten <name ref="#plachta-pers047">Lessings</name>
+               feststellen lassen wollte.<ref target="#Weigel1989" type="bibl" xml:id="plachta-ftn44" rend="ibid">S.&#8239;36&#8239;ff.</ref> Er verstand sich als Stellvertreter des Autors <name
+                  ref="#plachta-pers047">Lessing</name>.</p>
+            <p>Aber wie sah <name ref="#plachta-pers043">Lachmanns</name> editorische Arbeit zumindest
+               in ihren Grundzügen aus? Bislang wurden deutsche Texte nur nach einer Handschrift
+               ediert. <name ref="#plachta-pers043">Lachmann</name> dagegen wollte aus der gesamten
+               Überlieferung einen <soCalled>echten</soCalled> Text generieren. Als zentrale Forderung
+               formuliert er: <quote source="#plachta-ftn45">ganz offenbar ist, dass aus einer hinlänglichen
+                  Anzahl von Handschriften, deren Verwandtschaft und Eigenthümlichkeiten der Kritiker
+                  genau erforscht hat, ein Text sich ergeben muss, der im Kleinen und Grossen dem
+                  ursprünglichen des Dichters selbst oder seines Schreibers sehr nah kommen wird. Füge
+                  ich noch hinzu, dass der Herausgeber mit allen Rede- und Versgebräuchen seines
+                  Dichters sich erst vollkommen vertraut machen soll, so sieht man zwar, dass die
+                  Arbeit in einen Kreis geht: aber in diesem Kreise sich geschickt zu bewegen, das ist
+                  des Kritikers Aufgabe und erhebt sein Geschäft über Handarbeit. Mir lag für dies Mahl
+                  mehr an lesbaren als an urkundlichen Texten: daher hab’ ich nur aus den vorhandenen
+                  Quellen und eigener Vermutung was ich konnte verbessert.</quote><ref
+                  target="#Lachmann1876" type="bibl" xml:id="plachta-ftn45">S.&#8239;163</ref> Die
+               unterschiedlichen Positionen von <name ref="#plachta-pers019">Grimm</name> und <name
+                  ref="#plachta-pers043">Lachmann</name> lassen sich noch einmal an den Vorstellungen
+               veranschaulichen, wie das Nibelungenlied zu edieren sei. <name ref="#plachta-pers019"
+                  >Jacob Grimm</name> hatte sich schon 1815 skeptisch über die Möglichkeit geäußert,
+               überhaupt eine <q>kritische Ausgabe</q> des Nibelungenliedes erarbeiten zu können, wie
+                  <name ref="#plachta-pers043">Lachmann</name> sie favorisierte.<ref
+                     target="#Lachmann1876" type="bibl" xml:id="plachta-ftn46">S.&#8239;75, Anm.&#8239;53</ref>
+               Er forderte vielmehr, dass <quote source="#plachta-ftn47">alle und jede vorhandene eigentümliche
+                  Handschrift vollständig für sich und mit andern unvermischt gedruckt erscheine. Erst
+                  alsdann könnte jemand, dem etwas dran läge, ins Mittel treten, und einen vermeintlich
+                  besseren Text aus allen zusammen zimmern; eine Aufgabe, die kaum zur Befriedigung
+                  wird gelöst werden können, und wobei neben einleuchtenderen Fällen eine Menge
+                  ungewisser und ihren gleich Anspruch machender Lesarten angenommen oder ausgeworfen
+                  bleiben muß.</quote><ref target="#GrimmNibelungen" type="bibl" xml:id="plachta-ftn47">S.&#8239;160&#8239;f.</ref> 
+               Das, was <name ref="#plachta-pers019">Grimm</name> vorschwebte,
+               war allenfalls ein kritisch berichtigter Abdruck der besten Handschrift. Dieses Prinzip
+               wendeten <name ref="#plachta-pers019">er</name> und <name ref="#plachta-pers020">sein
+                  Bruder</name> bei sämtlichen ihrer Editionen an. Die Frage nach dem
+                  <soCalled>echten</soCalled> Text blieb zweitrangig. Für die <name
+                  ref="#plachta-pers019 #plachta-pers020">Grimms</name> stand der durch eine Handschrift
+               überlieferte Text im Mittelpunkt. Dessen Fehler versuchten sie mit Hilfe
+               grammatikalischer, metrischer oder motivgeschichtlicher Untersuchungen zu
+                  <soCalled>reinigen</soCalled>.</p>
+            <p><name ref="#plachta-pers043">Lachmann</name> dagegen ging von völlig anderen
+               Voraussetzungen bei der Edition des Nibelungenliedes aus. Zum einen wollte er die drei
+               großen Nibelungenhandschriften in ihrer verwandtschaftlichen Beziehung genau
+               untersuchen, um herauszufinden, welche der Handschriften die älteste war: <quote
+                  source="#plachta-ftn48">Wir sollen und wollen aus einer hinreichenden Menge von guten
+                  Handschriften einen allen diesen zum Grunde liegenden Text darstellen, der entweder
+                  der ursprüngliche selbst seyn oder ihm doch sehr nahe kommen muss.</quote><ref
+                  target="#Lachmann1876" type="bibl" xml:id="plachta-ftn48">S.&#8239;82</ref> Zum anderen
+               wollte er durch Vergleich aller Varianten einen <soCalled>Archetyp</soCalled> des Textes
+               rekonstruieren, der allerdings nur in <name ref="#plachta-pers043">Lachmanns</name>
+               Vorstellung und nie in der Realität so bestanden hat. Durch Induktion hoffte er, dem
+               ursprünglichen Text möglichst nahezukommen. Dabei ging er davon aus, dass die
+               Nibelungenhandschriften einen bereits aus mehreren Textsammlungen kompilierten Text
+               enthielten, der allerdings auf eine einzige Sammlung zurückzuführen sein müsse. Er
+               unterstellte, dass es nur einen originalen Textkomplex gegeben habe, der durch
+               textkritische Verfahren wiederzugewinnen sei. Indem er an <name ref="#plachta-pers071"
+                  >Friedrich August Wolfs</name> Theorie von der kollektiven Verfasserschaft der
+               Homerischen Epen anknüpfte, gelangte er zu der These: <quote source="#plachta-ftn49">Ich glaube
+                  nämlich […], dass unser so genanntes Nibelungenlied, oder bestimmter, die Gestalt
+                  desselben, in der wir es, aus dem Anfange des dreizehnten Jahrhunderts uns
+                  überliefert, lesen, aus einer noch jetzt erkennbaren Zusammensetzung einzelner
+                  romanzenartiger Lieder entstanden sei.</quote><ref target="#Lachmann1876" type="bibl"
+                  xml:id="plachta-ftn49">S.&#8239;1</ref>
+           Diese These hatte Folgen, denn <name ref="#plachta-pers043">Lachmann</name> musste aus
+               dem überlieferten Material Strophen für <soCalled>echt</soCalled> oder
+                  <soCalled>unecht</soCalled> erklären. Das schien jedoch kein Problem zu sein, denn
+                  <name ref="#plachta-pers043">Lachmann</name> war davon überzeugt, dass er aus dem
+               gesamten Variantenbestand die jeweils <soCalled>echte</soCalled> Variante
+               herausdestillieren könne. So streng und konsequent sein philologisches Verfahren bei der
+                  <soCalled>recensio</soCalled> der Nibelungenhandschriften auch gewesen sein mag,
+               problematisch war sein Vorgehen immer dann, wenn er inhaltlich argumentierte und davon
+               überzeugt war, dass die Ausscheidung <soCalled>unechter</soCalled> Strophen dazu
+               beitrage, <quote source="#plachta-ftn50">hauptsächlich das Motivlose und de[n] Mangel des innern
+                  Zusammenhangs</quote> zu beseitigen.<note xml:id="plachta-ftn50" n="50" type="bibl">Lachmann
+                  an Ludwig Uhland, 15.&#8239;6.&#8239;1827; <ref target="#UhlandBriefe" type="bibl"
+                     >S.&#8239;243</ref></note> Nicht selten lassen sich aber auch moralische Motive
+               erkennen, von denen sich <name ref="#plachta-pers043">Lachmann</name> bei seinen
+               textkritischen Entscheidungen leiten ließ. Mit Hilfe der Analogie etwa sollte die <quote
+                  source="#plachta-ftn51">Reinheit</quote><ref target="#Lachmann1876" type="bibl"
+                  xml:id="plachta-ftn51">S.&#8239;215</ref> des Textes und damit seine alte sittliche Kraft
+               wiederhergestellt werden.<ref target="#Ehrismann1975" type="bibl" xml:id="plachta-ftn52"
+                  >S.&#8239;122</ref> Es lassen sich aber auch Tendenzen in der Variantenauswahl
+               erkennen, mit denen das Germanische und damit das Heidnische im Nibelungenlied betont
+               werden. <name ref="#plachta-pers043">Lachmanns</name> Nibelungentext ist aus heutiger
+               Perspektive in jeder Hinsicht ein <quote source="#plachta-ftn53">hypothetisches
+                  Konstrukt.</quote><ref target="#Roloff2003" type="bibl" xml:id="plachta-ftn53"
+                  >S.&#8239;70</ref> Für die <q>Reinheit und Sauberkeit der Texte</q> bürgt allein
+               das <q>Kunstgefühl</q> des Editors, dessen Absicht es auch sei, die zu edierenden Texte
+                  <quote source="#plachta-ftn54">so zu lesen, wie sie ein guter Vorleser in der gebildeten
+                  Gesellschaft des 13.&#8239;Jahrhunderts aus der besten Handschrift vorgetragen
+                  hätte.</quote><ref target="#Roloff2003" type="bibl" xml:id="plachta-ftn54" rend="ibid">S.&#8239;74</ref>
+            </p>
+         </div>
+         <pb/>
+         <div xml:id="plachta-div05">
+            <head>5.</head>
+            <p><name ref="#plachta-pers043">Lachmanns</name> Verfahren spaltete bis in das
+               20.&#8239;Jahrhundert hinein die Fachleute in Befürworter und Gegner, denn die
+               problematische Mischung aus Intuition und exakter Philologie löste nicht nur im Falle
+               der Nibelungenlied-Edition zahlreiche interpretatorische Fehden aus. <name
+                  ref="#plachta-pers043">Lachmanns</name> Variantenselektion und das daraus
+               resultierende eklektische Vorgehen bei der Textkonstitution konnte und wollte das
+               subjektive <soCalled>iudicium</soCalled> des Textkritikers nicht vermeiden.<note
+                  xml:id="plachta-ftn55" n="55">Vgl. <ref target="#Stackmann1964" type="bibl"/></note> Es war
+               vor allem die Absolutheit, die <name ref="#plachta-pers043">Lachmann</name> mit seiner
+               Methode verknüpfte, und die vielfach auf Widerspruch stieß. 1857 etwa polemisierte <name
+                  ref="#plachta-pers034">Adolf Holtzmann</name> gegen die <quote source="#plachta-ftn56"
+                  >machthungrigen Epigonen</quote><ref target="#Kolk1991" type="bibl" xml:id="plachta-ftn56"
+                  >S.&#8239;10</ref>
+               <name ref="#plachta-pers043">Lachmanns</name>: <quote source="#plachta-ftn57">Alle Welt solle
+                  sich nach dem ästhetischen Gefühl <name ref="#plachta-pers043">Lachmanns</name> und
+                  der Erben seiner Gefühle richten.</quote><note xml:id="plachta-ftn57" n="57" type="bibl">Zitiert nach: <ref target="#Ehrismann1975" type="bibl">S.&#8239;123</ref>.</note>
+               Und <name ref="#plachta-pers061">Hans-Gert Roloff</name> fasst aus heutiger Perspektive
+               zusammen: <quote source="#plachta-ftn58">In der geschichtlichen Sterilität seiner ästhetisch
+                  glanzvoll elaborierten Texte lassen sich klassizistische, ja klassisch-nationale
+                  Intentionen erkennen, die erst obsolet wurden, als die mediävistisch-romantischen
+                  Sehnsüchte verblaßten.</quote><ref target="#Roloff2003" type="bibl" xml:id="plachta-ftn58"
+                  >S.&#8239;69</ref>
+               <name ref="#plachta-pers043">Karl Lachmann</name> hat nicht nur die Textedition
+               entscheidend geprägt, sondern auch der jungen Germanistik über Jahrzehnte ihr Profil als
+               philologische Disziplin mit zentralem editorischen Segment gegeben. Elemente wie
+               Interpretation oder Literaturgeschichtsschreibung haben die Germanistik erst in der
+               zweiten Hälfte des 19.&#8239;Jahrhunderts zu einer literaturwissenschaftlichen
+               Disziplin werden lassen. Wenn wir heute <name ref="#plachta-pers043">Lachmanns</name>
+               Leistung, insbesondere seine textkritische Methode, wesentlich kritischer sehen, so
+               erkannte man im 19.&#8239;Jahrhundert in ihm aber die Person, die mit ihren
+               Vorstellungen den vielen irrationalen Tendenzen der Romantik ein Gegengewicht
+               entgegengesetzt hatte. <name ref="#plachta-pers051">Karl Müllenhoff</name>, der
+               Herausgeber von <name ref="#plachta-pers043">Lachmanns</name> philologischen Schriften,
+               schreibt 1876: <quote source="#plachta-ftn59"><name ref="#plachta-pers043">Lachmann</name> war
+                  der erste, der als wohl geschulter Philolog mit philologischer Methode daran gieng in
+                  dem wüsten Haufen unserer alten Litteratur Licht und Ordnung zu schaffen und überall
+                  da ansetzte, wo es zuerst geschehen muste, bei ihren Hauptwerken und ersten
+                  Meistern.</quote><ref target="#Lachmann1876" type="bibl" xml:id="plachta-ftn59"
+                  >S.&#8239;VII</ref>
+            <name ref="#plachta-pers043">Lachmanns</name>
+               <soCalled>strenge</soCalled> Philologie ist sicherlich zu Recht als notwendiges
+               Korrektiv zu den Vorstellungen <name ref="#plachta-pers019">Jacob Grimms</name> von
+               einer nationalen Philologie in romantischem Geist zu sehen. Beiden Wissenschaftlern
+               kommt das Verdienst zu, Geburtshelfer nicht nur der aufstrebenden Germanistik, sondern
+               auch der kritischen Textedition gewesen zu sein. Aber sie unterscheiden sich in
+               wesentlichen Punkten bei der Beantwortung der Frage, wie romantische Konzepte
+               philologisch sinnvoll umgesetzt werden könnten. <name ref="#plachta-pers062">Wilhelm
+                  Scherer</name> hat das plausibel erläutert, als er <name ref="#plachta-pers043"
+                  >Lachmanns</name>
+               <q>Genie der Methode</q> dem <q>Genie der Kombination</q> bei <name
+                  ref="#plachta-pers019">Jacob Grimm</name> gegenüber stellte.<note xml:id="plachta-ftn60"
+                  n="60">Vgl. <ref target="#Wyss1979" type="bibl">S.&#8239;13</ref></note> Die Zeit
+               der <q>wilden Philologie</q>, wie sie so wunderbar in das Romantik-Konzept passte, war
+               damit auf jeden Fall vorbei und die Liebhaber, Amateure und Dilettanten mussten das
+               editorische Feld den Fachleuten überlassen. </p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Plachta2001">Bodo Plachta, <title level="a">Germanistische Editionswissenschaft im
+                  Kontext ihrer Geschichte</title>, in: <title level="s">Anglia</title>&#x00A0;119 (2001), H.&#8239;1,
+                  S.&#8239;375&#x2013;398</bibl>
+               <bibl xml:id="Plachta2007">Bodo Plachta, <title level="a">Dilettanten und Philologen. Debatten über
+                  den Umgang mit Texten in Editionen der ersten Hälfte des 19.&#8239;Jahrhunderts</title>, in:
+                  <title level="m">Ästhetische Erfahrung und Edition</title>, hg. von Rainer Falk und Gert Mattenklott,
+                  Tübingen 2007 (Beihefte zu editio&#x00A0;27), S.&#8239;59&#x2013;71</bibl>
+               <bibl xml:id="Nutt2005">Rüdiger Nutt-Kofoth (Hg.), <title level="m">Dokumente zur Geschichte der
+                  neugermanistischen Edition</title>, Tübingen 2005 (Bausteine zur Geschichte der
+                  Edition&#x00A0;1)</bibl>
+               <bibl xml:id="Kenney1974">E.&#8239;J. Kenney, <title level="m">The Classical Text. Aspects of Editing in the
+                  Age of the Printed Book</title>, Berkeley, Los Angeles u.&#8239;a. 1974</bibl>
+               <bibl xml:id="Lutz1975">Magdalene Lutz-Hensel, <title level="m">Prinzipien der ersten textkritischen
+                  Editionen mittelhochdeutscher Dichtung. Brüder Grimm &#x2013; Benecke &#x2013; Lachmann. 
+                  Eine methodenkritische Analyse</title>, Berlin 1975,
+                  S.&#8239;21&#x2013;25</bibl>
+               <bibl xml:id="Haischer2011">Peter-Henning Haischer, <title level="m">Historizität und Klassizität.
+                  Christoph Martin Wieland und die Werkausgabe im 18.&#8239;Jahrhundert</title>, Heidelberg
+                  2011 (Ereignis Weimar-Jena. Kultur um 1800. Ästhetische Forschungen&#x00A0;28)</bibl>
+               <bibl xml:id="GottschedVersuch">Johann Christoph Gottsched, <title level="m">Versuch einer kritischen
+                  Dichtkunst</title>, unveränderter photomechanischer Nachdruck der 4., vermehrten Aufl.,
+                  Darmstadt 1962</bibl>
+               <bibl xml:id="HerderWerke"><title level="m">Herders sämtliche Werke</title>, hg. von Bernhard Suphan,
+                  33&#x00A0;Bde., Berlin 1877&#x2013;1913 (Nachdruck Hildesheim 1967/68 und 1994),
+                  Bd.&#8239;3<bibl type="short">Suphan (Hg.), <title level="m">Herders sämtliche Werke</title></bibl></bibl>
+               <bibl xml:id="GoetheWerke"><title level="m">Goethes Werke</title>, hg. im Auftrage der Großherzogin Sophie von
+                  Sachsen, 133&#x00A0;Bde. in 143, Weimar 1887&#x2013;1919</bibl>
+               <bibl xml:id="Mittelalter1977"><title level="m">Mittelalterrezeption. Texte zur Aufnahme altdeutscher
+                  Literatur in der Romantik</title>, hg., eingeleitet und mit einer weiterführenden
+                  Bibliographie versehen von Gerard Koziełek, Tübingen 1977<bibl type="short">Koziełek (Hg.), <title level="m">Mittelalterrezeption</title></bibl></bibl>
+               <bibl xml:id="Moeser1939"><title level="m">Justus Möser, Briefe</title>, hg. von Ernst Beins und Werner
+                  Pleister, Hannover u.&#8239;a. 1939</bibl>
+               <bibl xml:id="Schmitz2004">Monika Schmitz-Emans, <title level="m">Einführung in die Literatur der
+                  Romantik</title>, Darmstadt 2004<bibl type="short">Schmitz-Emans, <title level="m">Literatur der Romantik</title></bibl></bibl>
+               <bibl xml:id="SchlegelAusgabe"><title level="m">Kritische Friedrich-Schlegel-Ausgabe</title>, hg. von Ernst
+                  Behler unter Mitwirkung von Jean-Jacques Anstett und Hans Eichner, München,
+                  Paderborn, Wien 1958&#8239;ff.<bibl type="short"><title level="m">Kritische Friedrich-Schlegel-Ausgabe</title></bibl></bibl>
+               <bibl xml:id="ErschGruber">Johann Samuel Ersch, Johann Gottfried Gruber (Hg.),
+                  <title level="m">Allgemeine Encyclopädie der Wissenschaften und Künste in alphabetischer Folge von
+                  genannten Schriftstellern bearbeitet</title>, Leipzig 1818&#x2013;1850</bibl>
+               <bibl xml:id="Kolk1994">Rainer Kolk, <title level="a">Liebhaber, Gelehrte, Experten. Das Sozialsystem
+                  der Germanistik bis zum Beginn des 20.&#8239;Jahrhunderts</title>, in:
+                  <ref target="#Fohrmann_Vosskamp1994" type="bibl">S.&#8239;48&#x2013;114</ref></bibl>
+               <bibl xml:id="Hagen1807">Heinrich von der Hagen, <title level="m">Der Nibelungen Lied. Erneuet und
+                  erklärt</title>, Berlin 1807</bibl>
+               <bibl xml:id="Janota1980"><title level="m">Eine Wissenschaft etabliert sich. 1810&#x2013;1870</title>, mit
+                  einer Einführung hg. von Johannes Janota, Tübingen 1980 (Texte zur
+                  Wissenschaftsgeschichte der Germanistik&#x00A0;3)<bibl type="short">Janota (Hg.), <title level="m">Eine Wissenschaft etabliert sich</title></bibl></bibl>
+               <bibl xml:id="Weimar1989">Klaus Weimar, <title level="m">Geschichte der deutschen
+                  Literaturwissenschaft bis zum Ende des 19.&#8239;Jahrhunderts</title>, München 1989</bibl>
+               <bibl xml:id="Hunger">Ulrich Hunger, <title level="a">Die altdeutsche Literatur und das Verlangen
+                  nach Wissenschaft. Schöpfungsakt und Fortschrittsglaube in der Frühgermanistik</title>,
+                  in: <ref target="#Fohrmann_Vosskamp1994" type="bibl">S.&#8239;236&#x2013;263</ref></bibl>
+               <bibl xml:id="Weimann1972">Robert Weimann, <title level="a">Gegenwart und Vergangenheit in der
+                  Literaturgeschichte</title>, in: Ders., <title level="m">Literatur, Gesellschaft und Mythos</title>, Berlin 1972,
+                  S.&#8239;11&#x2013;46, 453&#x2013;458</bibl>
+               <bibl xml:id="Ehrismann1985">Otfrid Ehrismann, <title level="a">Philologie der Natur &#x2013; die
+                  Grimms, Schelling, die Nibelungen</title>, in: <title level="s">Brüder Grimm Gedenken</title>&#x00A0;5 (1985),
+                  S.&#8239;35&#x2013;59</bibl>
+               <bibl xml:id="Ginschel1967">Gunhild Ginschel, <title level="m">Der junge Jacob Grimm 1805&#x2013;1819</title>,
+                  Berlin 1967 (Deutsche Akademie der Wissenschaften zu Berlin. Veröffentlichungen
+                  der Sprachwissenschaftlichen Kommission&#x00A0;7)<bibl type="short">Ginschel, <title level="m">Der junge Jacob Grimm</title></bibl></bibl>
+               <bibl xml:id="Plachta2012">Bodo Plachta, <title level="a">Wie international ist die
+                  Editionswissenschaft? Ein Blick in ihre Geschichte</title>, in: <title level="s">editio</title>&#x00A0;26 (2012),
+                  S.&#8239;13&#x2013;29</bibl>
+               <bibl xml:id="Roloff2003">Hans-Gert Roloff, <title level="a">Karl Lachmann, seine Methode und die
+                  Folgen</title>, in: <title level="m">Geschichte der Editionsverfahren vom Altertum bis zur Gegenwart im
+                  Überblick. Ringvorlesung</title>, hg. von Hans-Gert Roloff, Berlin 2003 (Berliner Beiträge
+                  zur Editionswissenschaft&#x00A0;5), S.&#8239;63&#x2013;81<bibl type="short">Roloff, <title level="m">Karl Lachmann</title></bibl></bibl>
+               <bibl xml:id="Lachmann1876">Karl Lachmann, <title level="m">Kleinere Schriften zur deutschen
+                  Philologie</title>, hg. von Karl Müllenhoff, Berlin 1876<bibl type="short">Lachmann, <title level="m">Kleinere Schriften</title></bibl></bibl>
+               <bibl xml:id="Bein2011">Thomas Bein, <title level="a">Karl Lachmann &#x2013; Ethos und Ideologie der
+                  frühen Editionswissenschaft</title>, in: <title level="m">Neugermanistische Editoren im
+                  Wissenschaftskontext. Biografische, institutionelle, intellektuelle Rahmen in der
+                  Geschichte wissenschaftlicher Ausgaben neuerer deutschsprachiger Autoren</title>, hg. von
+                  Roland S. Kamzelak, Rüdiger Nutt-Kofoth und Bodo Plachta, Berlin u.&#8239;a.
+                  2011 (Bausteine zur Geschichte der Edition&#x00A0;3), S.&#8239;1&#x2013;15</bibl>
+               <bibl xml:id="GrimmSchriften">Jacob Grimm, <title level="m">Kleinere Schriften</title>,
+                  [Bd.&#8239;1&#x2013;5] hg. von Karl Müllenhoff, [Bd.&#8239;6&#x2013;8] hg. von
+                  Eduard Ippel, Berlin 1864&#x2013;1890 (Nachdruck Hildesheim 1965/66)</bibl>
+               <bibl xml:id="Timpanaro1971">Sebastiano Timpanaro, <title level="m">Die Entstehung der Lachmannschen
+                  Methode</title>, 2. erw. und überarb. Aufl., Hamburg 1971</bibl>
+               <bibl xml:id="Weigel1989">Harald Weigel, <title level="m"><q>Nur was du nie gesehn wird ewig
+                     dauern</q>. Carl Lachmann und die Entstehung der wissenschaftlichen Edition</title>,
+                  Freiburg/Brsg. 1989<bibl type="short">Weigel, <title level="m">Carl Lachmann und die Entstehung der wissenschaftlichen Edition</title></bibl></bibl>
+               <bibl xml:id="GrimmNibelungen">Jacob Grimm, <title level="a">Ueber die Nibelungen</title>, in: <title level="s">Altdeutsche
+                  Wälder</title>&#x00A0;2 (1885), S.&#8239;145&#x2013;180</bibl>
+               <bibl xml:id="UhlandBriefe"><title level="m">Uhlands Briefwechsel</title>, im Auftrage des Schwäbischen
+                  Schillervereins hg. von Julius Hartmann, T.&#8239;2, Stuttgart u.&#8239;a. 1912 </bibl>
+               <bibl xml:id="Ehrismann1975">Otfrid Ehrismann, <title level="m">Das Nibelungenlied in Deutschland.
+                  Studien zur Rezeption des Nibelungenliedes von der Mitte des
+                  18.&#8239;Jahrhunderts bis zum Ersten Weltkrieg</title>, München 1975<bibl type="short">Ehrismann, <title level="m">Das Nibelungenlied in Deutschland</title></bibl></bibl>
+               <bibl xml:id="Stackmann1964">Karl Stackmann, <title level="a">Mittelalterliche Texte als Aufgabe</title>, in:
+                  <title level="m">Festschrift für Jost Trier zum 70.&#8239;Geburtstag</title>, hg. von William Foerste und
+                  Karl Heinz Borck, Köln 1964</bibl>
+               <bibl xml:id="Kolk1991">Rainer Kolk, <title level="m">Berlin oder Leipzig? Eine Studie zur sozialen
+                  Organisation der Germanistik im <q>Nibelungenstreit</q></title>, Tübingen 1991</bibl>
+               <bibl xml:id="Wyss1979">Ulrich Wyss, <title level="m">Die wilde Philologie. Jacob Grimm und der
+                  Historismus</title>, München 1979</bibl>
+               <bibl xml:id="Fohrmann_Vosskamp1994"><title level="m">Wissenschaftsgeschichte der Germanistik im 19. Jahrhundert</title>, hg. von Jürgen Fohrmann und Wilhelm Voßkamp, Stuttgart u.&#8239;a. 1994<bibl type="short">Fohrmann, Voßkamp (Hg.), <title level="m">Wissenschaftsgeschichte der Germanistik im 19. Jahrhundert</title></bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

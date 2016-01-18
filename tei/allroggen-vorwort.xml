@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="front">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Statt eines Vorworts nur ein Brief</title>
+            <author>
+               <name><forename>Gerhard</forename> <surname>Allroggen</surname></name>
+               <email/>
+               <affiliation></affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="allroggen-vorwort-pers001">
+                  <p>Bennwitz, Hanspeter</p>
+               </person>
+               <person xml:id="allroggen-vorwort-pers002">
+                  <p>Finscher, Ludwig</p>
+               </person>
+               <person xml:id="allroggen-vorwort-pers004">
+                  <p>Friedrich, Lothar</p> <!--Vorname?-->
+               </person>
+               <person xml:id="allroggen-vorwort-pers005">
+                  <p>Goldhan, Wolfgang</p>
+               </person>
+               <person xml:id="allroggen-vorwort-pers006">
+                  <p>Veit, Joachim</p>
+               </person>
+               <person xml:id="allroggen-vorwort-pers007">
+                  <p>Weber, Carl Maria von</p>
+               </person>
+               <person xml:id="allroggen-vorwort-pers008">
+                  <p>Ziegler, Frank</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-09-15T23:45:37.269+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="allroggen-vorwort-abstract"/>
+      </front>
+      <body>
+         <p>Lieber <name ref="#allroggen-vorwort-pers006">Herr <name ref="#allroggen-vorwort-pers006">Veit</name></name>,</p>
+         <p rend="noIndent">vorweg das Übliche, was aber das Wichtigste ist: herzliche Glück- und Segenswünsche zu Ihrem 60.&#8239;Geburtstag &#x2013; mögen Sie Ihren  Angehörigen, Ihrer Arbeit, vor allem aber sich selbst noch lange gesund und froh erhalten bleiben!</p>
+         <p>Vor wenigen Tagen erhielt ich den jüngsten Band der Weber-Gesamtausgabe; es ist der sechsundzwanzigste &#x2013; im Bücherregal nimmt die Reihe der Bände nun eine Strecke von ungefähr 80&#8239;cm ein. Wieviel Arbeit und Mühe steckt dahinter, und wie sehr hat die Weber-Gesamtausgabe das musikwissenschaftliche Editionswesen beeinflusst und verändert! Das Hauptverdienst daran haben Sie, lieber <name ref="#allroggen-vorwort-pers006">Herr Veit</name>.</p>
+         <p>Gewiss erinnern Sie sich noch an die Anfänge. Mir lag daran, etwas  auf die Beine zu stellen, das Absolventen eines musikwissenschaftlichen Studiums, die bei mir promoviert wurden, eine berufliche Existenz bieten konnte. Nun war <name>Carl Maria von Weber</name> der einzige große Komponist, dessen Werke nicht in einer Gesamtausgabe erschlossen wurden. Es galt also, die Möglichkeit dazu in einer Bund-Länder-Finanzierung eines solchen Vorhabens zu erschließen. Dabei hat mir übrigens mit Rat und Tat Herr <name ref="#allroggen-vorwort-pers002">Prof.&#8239;Dr. Ludwig Finscher</name> beigestanden. Der Musikverlag von B.&#x00A0;Schott&#x2019;s Söhnen in Mainz  übernahm das Vorhaben, was insbesondere  dem  damaligen Cheflektor des  Hauses, <name ref="#allroggen-vorwort-pers004">Herrn Friedrich</name>, zu danken war. Die Akademie der Wissenschaften und der Literatur in Mainz, genauer gesagt: deren Ausschuss für musikwissenschaftliche  Editionen, dem damals <name ref="#allroggen-vorwort-pers001">Dr. Hanspeter Bennwitz</name> vorstand, sicherte die Finanzierung zweier Arbeitsstellen, eine in Berlin (DDR) an der damals von <name ref="#allroggen-vorwort-pers005">Dr. Wolfgang Goldhan</name> geleiteten Musikabteilung der dortigen Staatsbibliothek, die andere in Detmold  beim Musikwissenschaftlichen Seminar. Die weitere Entwicklung ist bekannt.</p>
+         <p>Übrigens waren manche Grundsatzentscheidungen schnell und leicht zu treffen, z.&#8239;B. diejenige, wie die künftigen Bände der Weber-Gesamtausgabe aussehen sollten. <name ref="#allroggen-vorwort-pers008">Herr Ziegler</name> hat kürzlich im jüngsten Heft der <hi rend="italic">Weberiana</hi> daran erinnert: ich schlug kurzerhand vor, dass die Bände im  üblichen Gesamtausgabenformat in preußischblauem Leinen gebunden und mit silbernen Versalien zu beschriften seien. Darauf sagte <name ref="#allroggen-vorwort-pers004">Herr Friedrich</name> spontan: So machen wir&#x2019;s!</p>
+         <p>Unter Ihrer  Ägide, lieber <name ref="#allroggen-vorwort-pers006">Herr Veit</name>, geht es genauso zu. Möge unter Ihrem Schutz und Schild die Weber-Gesamtausgabe weiter blühen und gedeihen!</p>
+         <p rend="right">
+            Das wünscht von Herzen
+            <lb/>Ihr <hi rend="italic">Gerhard Allroggen</hi>
+         </p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="bloggs13"/>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

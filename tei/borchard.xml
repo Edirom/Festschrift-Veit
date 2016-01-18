@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">MusikGeschichtsVermittlung und Genderforschung im Internet</title>
+                <title type="sub">Bericht über ein work in progress</title>
+                <author>
+                    <name><forename>Beatrix</forename> <surname>Borchard</surname></name>
+                    <affiliation><!--geb. in Lingen/Ems, -->studierte in Bonn und Berlin Musikwissenschaften, Germanistik und Geschichte und wurde 1984 mit einer Arbeit zu <hi rend="italic">Robert Schumann und Clara Wieck. Bedingungen künstlerischer Arbeit in der ersten Hälfte des 19.&#8239;Jahrhunderts</hi> promoviert. 2000 habilitierte sie sich mit der interpretationsgeschichtlichen Studie <hi rend="italic">Stimme und Geige. Amalie und Joseph Joachim. Biographie und Interpretationsgeschichte</hi>. Beatrix Borchard lehrte zehn Jahre an der Hochschule der Künste Berlin (heute: Universität der Künste). Vom WS 2000 bis zum SoSe 2002 hatte sie eine Professur für historische Musikwissenschaft und Genderforschung an der Musikhochschule Detmold/Universität Paderborn. Seit 2002 ist sie Professorin für Musikwissenschaften an der Hochschule für Musik und Theater Hamburg. <!--Mehr zu Beatrix Borchard: <ptr target="http://mugi.hfmt-hamburg.de/Borchard"/>.-->
+                    </affiliation>
+                    <email/>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="borchard-pers001">
+                        <p>Bartsch, Cornelia</p>
+                    </person>
+                    <person xml:id="borchard-pers003">
+                        <p>Bick, Martina</p>
+                    </person>
+                    <person xml:id="borchard-pers004">
+                        <p>Borchard, Beatrix</p>
+                    </person>
+                    <person xml:id="borchard-pers002">
+                        <p>Geissler, Cornelia</p>
+                    </person>
+                    <person xml:id="borchard-pers005">
+                        <p>Gerlach, Julia</p>
+                    </person>
+                    <person xml:id="borchard-pers006">
+                        <p>Hanslick, Eduard</p>
+                    </person>
+                    <person xml:id="borchard-pers007">
+                        <p>Heimerdinger, Julia</p>
+                    </person>
+                    <person xml:id="borchard-pers008">
+                        <p>Hensel, Fanny</p>
+                    </person>
+                    <person xml:id="borchard-pers022">
+                        <p>Holze, Constanze</p>
+                    </person>
+                    <person xml:id="borchard-pers023">
+                        <p>Hotz, Sybille</p>
+                    </person>
+                    <person xml:id="borchard-pers024">
+                        <p>Jürgens, Pepe</p>
+                    </person>
+                    <person xml:id="borchard-pers026">
+                        <p>Kiupel, Birgit</p>
+                    </person>
+                    <person xml:id="borchard-pers009">
+                        <p>Klassen, Janina</p>
+                    </person>
+                    <person xml:id="borchard-pers010">
+                        <p>Knauer, Bettina</p>
+                    </person>
+                    <person xml:id="borchard-pers030">
+                        <p>Kubisch, Christina</p>
+                    </person>
+                    <person xml:id="borchard-pers025">
+                        <p>Lindig, Julia</p>
+                    </person>
+                    <person xml:id="borchard-pers011">
+                        <p>Meyer-Denkmann, Gertrud</p>
+                    </person>
+                    <person xml:id="borchard-pers012">
+                        <p>Noeske, Nina</p>
+                    </person>
+                    <person xml:id="borchard-pers027">
+                        <p>Nösler, Thomas</p>
+                    </person>
+                    <person xml:id="borchard-pers013">
+                        <p>Noltze, Holger</p>
+                    </person>
+                    <person xml:id="borchard-pers014">
+                        <p>Reese, Kirsten</p>
+                    </person>
+                    <person xml:id="borchard-pers015">
+                        <p>Reicha, Anton</p>
+                    </person>
+                    <person xml:id="borchard-pers029">
+                        <p>Seeber, Martina</p>
+                    </person>
+                    <person xml:id="borchard-pers016">
+                        <p>Smyth, Ethel</p>
+                    </person>
+                    <person xml:id="borchard-pers028">
+                        <p>Tittel, Claudia</p>
+                    </person>
+                    <person xml:id="borchard-pers017">
+                        <p>Veit, Joachim</p>
+                    </person>
+                    <person xml:id="borchard-pers018">
+                        <p>Viardot-Garcia, Pauline</p>
+                    </person>
+                    <person xml:id="borchard-pers019">
+                        <p>Wagner, Richard</p>
+                    </person>
+                    <person xml:id="borchard-pers020">
+                        <p>Wenzel, Silke</p>
+                    </person>
+                    <person xml:id="borchard-pers021">
+                        <p>Wiesenfeldt, Christiane</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="latex-borchard-width85">width=.85\textwidth</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2015-07-28T17:04:10.214+02:00"
+                    who="https://github.com/peterstadler">Textstruktur, Personen und Literatur ausgezeichnet.</change>
+                <change when="2015-07-27T15:43:34Z"
+                    who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="borchard-abstract"/>
+        </front>
+        <body>
+            <div xml:id="borchard-div01">
+                <head></head>
+                <p>Ausgangspunkt für die Entwicklung einer Forschungsplattform im Internet zum Thema Musik und Gender (MUGI) waren zwei Erkenntnisse: Die Ergebnisse von Forschung gehen verloren, wenn sie nur in Hochschulprojekte und einmalige Aufführungen münden, und: Vernetzung tut Not. Jede Studierende, jede Wissenschaftlerin (zunächst waren es ausschließlich Frauen), die sich mit musikbezogener Frauen- und Geschlechterforschung
+                    befasste, war in ihrem jeweiligen institutionellen Kontext eine Einzelkämpferin. So entstand noch in Berlin an der Universität der Künste (damals noch Hochschule der Künste) eine Idee, die 2001 zunächst am musikwissenschaftlichen Institut Detmold/
+                    Paderborn gemeinsam mit meiner Mitarbeiterin <name ref="#borchard-pers014">Kirsten Reese</name> und in guter
+                    Nachbarschaft zu <name ref="#borchard-pers017">Joachim Veit</name> Grundlage eines Konzepts wurde, das dann an der Hochschule für Musik und Theater Hamburg realisiert wurde.</p>
+            </div>
+            <div xml:id="borchard-div02">
+                <head>Konzept</head>
+                <p>Von vornherein legten wir die Plattform<note><hi rend="italic">Musik und Gender im Internet (MUGI)</hi>, URL: <ptr target="http://mugi.hfmt-hamburg.de"/></note> mehrteilig an: Ein personenbezogener
+                    Teil, der sich den Werken und dem musikalischen Wirken von Frauen vom
+                    Mittelalter bis heute widmen sollte, wurde unterteilt in die Bereiche <q>Lexikon</q>,
+                    <q>multimediale Präsentationen</q>, <q>Materialsammlung</q> und <q>kommentierte Links</q>. Später
+                    sollte noch ein sachbezogener Teil hinzukommen. Im Mittelpunkt der
+                    zugrundeliegenden Forschungsarbeit standen Arbeits- und Lebenszusammenhänge
+                    von Musikerinnen und bisher nicht erfasste bzw. unerforschte Werke. Ziel war
+                    es, durch die als offener Wissensraum konzipierte Plattform zu einer
+                    Musikgeschichtsschreibung beizutragen, in der nicht Autoren und Werke im
+                    Zentrum stehen, sondern das musikbezogene kulturelle Handeln von Frauen <hi
+                        rend="italic">und</hi> Männern und die Rekonstruktion historischer und
+                    aktueller Lebens- und Klangwelten. Musik wurde in diesem Kontext verstanden
+                    als vielfältiges Beziehungsereignis, verschriftlichte Werke nur als Teil
+                    eines komplexen Gefüges. Das Wirken von Frauen sollte ins Blickfeld
+                    gerückt werden. Das bedeutete zunächst, im lexikalischen Teil von MUGI nicht
+                    nur die Arbeit von Komponistinnen sondern auch von Interpretinnen,
+                    Mäzeninnen, Initiatorinnen von musikalischen Salons, Verlegerinnen,
+                    Pädagoginnen, Förderinnen u.&#8239;a. lexikalisch zu erfassen. Eine Vorauswahl im
+                    Sinne von <q>die 100 wichtigsten Musikerinnen</q> wurde bewusst nicht getroffen,
+                    weil eine solche Auswahl Kriterien voraussetzt, die im Forschungs- und
+                    Vernetzungsprozess erst entwickelt werden mussten. </p>
+                <figure xml:id="borchard-fig01" rendition="#latex-borchard-width85">
+                    <graphic url="figures/borchard-fig01.jpg" width="3213px" height="2096px"/>
+                    <head type="legend">Screenshot MUGI Lexikon, <ref target="http://mugi.hfmt-hamburg.de/Lexikon"/></head>
+                </figure>
+            </div>
+            <div xml:id="borchard-div03">
+                    <head>MUGI heute</head>
+                    <p>Inzwischen sind mehr als zehn Jahre vergangen. Was in Detmold/Paderborn
+                        begann, wurde an der Hochschule für Musik und Theater Hamburg ab 2002 mit
+                        wechselnden Mitarbeiter_innen<note xml:id="borchard-ftn1" n="1">Vgl. <q>Team</q> unter
+                            <ref target="http://mugi.hfmt-hamburg.de/Team"/> (MUGI = Musikvermittlung und Gender
+                                im Internet)</note> 
+                        systematisch weitergeführt und
+                            ausgebaut<note xml:id="borchard-ftn2" n="2">MUGI. Musikvermittlung und Genderforschung: Lexikon und multimediale
+                                Präsentationen, hg. von Beatrix Borchard, Hochschule für Musik und
+                                Theater Hamburg, 2003&#8239;ff. Online frei verfügbar unter <ref
+                                    target="http://www.mugi.hfmt-hamburg.de"/>.</note> &#x2013; anderes trat
+                        aufgrund der schmalen personellen Austattung in den Hintergrund, so der
+                        Plan, einen parallelen Sachteil aufzubauen. Aber im Laufe der Jahre wurde
+                        vor allem durch den lexikalischen Teil Schritt für Schritt ein nach wie vor
+                        weitgehend unbekannter Teil des europäischen Kulturerbes zum ersten Mal
+                        erfasst und nicht nur Wissenschaftler_innen und Musiker_innen sondern auch
+                        der interessierten Öffentlichkeit zugänglich gemacht. Die historische
+                        Orientierung des Lexikon spiegelt die historische Orientierung unseres
+                        Faches und damit unsere Autor_innen. Die Hoffnung, durch die kommentierten
+                        Links die zeitgenössische Musikszene immer aktuell miteinbeziehen zu können,
+                        war nicht wie geplant zu realisieren. Zahlreiche Nutzer_innen verstanden
+                        den Vernetzungsgedanken nicht, sondern beklagten &#x2013; verleitet durch das
+                        Lexikonformat &#x2013; die fehlenden Artikel. Außerdem müssen Links ständig
+                        aktualisiert werden &#x2013; auch dies eine Frage der personellen Kapazität. </p>
+                    <p>Sowohl die zunächst vorhandene Beschränkung auf Frauen als auch die spätere Einbeziehung sogenannter
+                        <q>Männerseiten</q> wurde wiederholt diskutiert. Da der Nachholbedarf bezogen auf
+                        unser Wissen über das kulturelle Handeln von Frauen nicht nur in der
+                        Vergangenheit sondern selbst noch in der Gegenwart unvermindert groß ist,
+                        wird MUGI auch künftig einen Beitrag zu beiden Gebieten leisten, zur
+                        musikbezogenen Frauen- <hi rend="italic">und</hi> zur Geschlechterforschung.
+                        Die ursprüngliche Beschränkung auf Europa entsprach den Vorgaben von
+                        Geldgebern und wird nun nach und nach, nicht zuletzt dank erster
+                        englischsprachiger Seiten aufgehoben. Die Nichteinbeziehung der populären
+                        Musik bis auf den Bereich Kabarett ergab sich aus den eigenen
+                        Forschungsschwerpunkten und war rein pragmatisch motiviert. Auch dies wird
+                        sich dank des weiteren Ausbaus der Plattform gemeinsam mit <name ref="#borchard-pers012">Nina Noeske</name>
+                        ändern.</p>
+                    
+                    <!--<table xml:id="borchard-table01">
+                        <head>Maske für lexikalische Artikel</head>
+                        <row>
+                            <cell/>
+                            <cell role="label">Rubriken</cell>
+                            <cell role="label">Inhalt</cell>
+                        </row>
+                        <row>
+                            <cell>1</cell>
+                            <cell>Namen</cell>
+                            <cell>Hauptname: Geburtsname: Sonstige Namen: </cell>
+                        </row>
+                        <row>
+                            <cell>2</cell>
+                            <cell>Lebensdaten</cell>
+                            <cell>* [Geburtsdatum, -ort (damalige
+                                    Bezeichnung / heutige Bezeichnung)]; † [Todesdatum, -ort
+                                    (damalige Bezeichnung / heutige Bezeichnung)] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Kommentar zu unklaren Lebensdaten</cell>
+                            <cell> [Nur bei unklaren Daten angeben] </cell>
+                        </row>
+                        <row>
+                            <cell>3</cell>
+                            <cell>Tätigkeiten</cell>
+                            <cell> [Tätigkeitsfelder im Sinne
+                                eines musikbezogenen Handelns (nicht ausschließlich
+                                Berufstätigkeiten)] </cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>Orte und Länder, Text</cell>
+                            <cell> [kurzer ausformulierter Text über die Orte
+                                und Länder, in denen die Musikerin schwerpunktmäßig wirkte] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>Orte und Länder, Liste</cell>
+                            <cell>Orte: [z.&#8239;B. Namen von Künstlerkolonien,
+                                Klöstern, Schlössern, Ghettos, u.&#8239;ä.], Städte, Regionen, Länder</cell>
+                        </row>
+                        <row>
+                            <cell>5</cell>
+                            <cell>Profil</cell>
+                            <cell> [prägnante Zusammenfassung des Lebens und
+                                Schaffens, zugespitzte Beschreibung der besonderen Lebens- und
+                                Arbeitszusammenhänge] </cell>
+                        </row>
+                        <row>
+                            <cell>6</cell>
+                            <cell>Charakterisierender Satz</cell>
+                            <cell> [charakterisierender Satz von der oder
+                                über die betreffende Musikerin mit genauer Quellenangabe, bei
+                                fremdsprachigen Zitaten mit deutscher Übersetzung] </cell>
+                        </row>
+                        <row>
+                            <cell>7</cell>
+                            <cell>Biografie</cell>
+                            <cell> [Biografie der Musikerin mit
+                                Quellennachweisen für Zitate und Hauptaussagen] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zu Biografie]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>8</cell>
+                            <cell>Würdigung</cell>
+                            <cell> [Beschreibung, Charakterisierung und
+                                Einordnung des kompositorischen und/oder sonstigen Schaffens und
+                                Wirkens der Musikerin] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zu Würdigung]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>9</cell>
+                            <cell>Rezeption</cell>
+                            <cell> [Rezeption (historisch, gegenwärtig,
+                                kompositorisch, wissenschaftlich, aufführungspraktisch, in Roman,
+                                Film usw.)] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zu Rezeption]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>10</cell>
+                            <cell>Werkverzeichnis</cell>
+                            <cell> [gegliedertes Werkverzeichnis bei
+                                Komponistinnen und Autorinnen (Gliederung und Formate siehe
+                                Redaktionsrichtlinien)] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zu Werken]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>11</cell>
+                            <cell>Repertoire</cell>
+                            <cell> [Repertoire von Interpretinnen, als
+                                ausformulierter Text oder als Auflistung] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zum Repertoire]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>12</cell>
+                            <cell>Quellen</cell>
+                            <cell> [Dokumente, Rezensionen, Sekundärliteratur
+                                einschließlich aktuellen Verweisen auf Artikel, Dokumente, Bilder
+                                usw. im Internet (Gliederung und Formate siehe
+                                Redaktionsrichtlinien)] </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell> [mehr zu Quellen]</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>13</cell>
+                            <cell>Forschung</cell>
+                            <cell> [aktueller Forschungsstand mit Hinweisen
+                                auf eventuelle Besonderheiten und auf Orte, wo Quellen zu finden
+                                sind] </cell>
+                        </row>
+                        <row>
+                            <cell>14</cell>
+                            <cell>Forschungsbedarf</cell>
+                            <cell> [kurzer formulierter Text über die
+                                konkreten Forschungsdesiderate, wichtig!] </cell>
+                        </row>
+                        <row>
+                            <cell>15</cell>
+                            <cell>Abbildung: [(Porträt-)Bild der
+                                    Musikerin]</cell>
+                            <cell>Vollständiger Titel der Abbildung, Quelle, Ansprechpartner für Rechte, Genehmigungsvermerk</cell>
+                        </row>
+                        <row>
+                            <cell>16</cell>
+                            <cell>Schriftprobe</cell>
+                            <cell>Vollständiger Titel des Werks, Quelle, Ansprechpartner für Rechte, Genehmigungsvermerk</cell>
+                        </row>
+                        <row>
+                            <cell>17</cell>
+                            <cell>Hörbeispiel</cell>
+                            <cell>Vollständiger Titel des Werks: Quelle, Ansprechpartner für Rechte, Genehmigungsvermerk</cell>
+                        </row>
+                        <row>
+                            <cell>18</cell>
+                            <cell>Notenbeispiel</cell>
+                            <cell>Vollständiger Titel des Werks: Quelle, Ansprechpartner für Rechte, Genehmigungsvermerk</cell>
+                        </row>
+                        <row>
+                            <cell>19</cell>
+                            <cell>Materialsammlung</cell>
+                            <cell> [Hinweise auf Bilder, Dokumente,
+                                Hörbeispiele, Texte usw., die sich für eine Archivierung im Internet
+                                eignen (z.&#8239;B. Audio-Aufnahmen oder andere Dokumentationen von
+                                Kompositionen, Performances, Konzerten etc., Abbildungen von Noten,
+                                Autografen, Fotos, Materialien aus Familienbesitz, Bibliografien,
+                                Quellenverzeichnisse etc., Beiträge aus anderen Medien, Manuskripte
+                                von Radiosendungen, Seminar-, Diplom- und Magisterarbeiten etc.)]
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>20</cell>
+                            <cell>Autor/in des lexikalischen Artikels,
+                                Angabe des Datums</cell>
+                            <cell/>
+                        </row>
+                    </table>-->
+                    <p>Die Anlage der Artikel zeigt deutlich, dass es um ein möglichst breites
+                        Erfassen musikbezogener Tätigkeitsfeldern geht, statt, wie in herkömmlichen
+                        Lexika üblich, um die Zuweisung einer bestimmten Profession. Gerade für den
+                        Bereich der Musik ist bis heute die Vielfalt von Tätigkeiten kennzeichnend.
+                        Welche dieser Tätigkeiten hauptsächlich dem Gelderwerb dient, ist nur eines
+                        unter vielen Kennzeichen. Die Auswertung ihrer Repertoires, wie sie
+                        <name ref="#borchard-pers021">Christiane Wiesenfeldt</name> auf der Grundlage des MUGI-Lexikons in Angriff
+                        genommen hat,<ref target="#Wiesenfeldt2015" type="bibl"/> bezieht sich nahezu ausschließlich auf
+                        öffentliche Auftritte der Musikerinnen. Speziell, aber nicht ausschließlich
+                        bezogen auf weibliche Musiker ist jedoch Professionalität nicht
+                        gleichbedeutend mit Berufstätigkeit.<note xml:id="borchard-ftn4" n="4"
+                                >Vgl. <ref target="#Borchard1999" type="bibl"/>.</note> Das
+                        wird besonders deutlich, wenn man den Bereich des privaten und
+                        halböffentlichen Musizierens mit ins Blickfeld nimmt, wie es hier explizit
+                        geschieht. Dadurch wurde zum ersten Mal sichtbar, welche Rolle Frauen
+                        historisch speziell als Trägerinnen des jeweiligen regionalen und
+                        städtischen Musiklebens in seiner ganzen Bandbreite gespielt haben. </p>
+                    <p>Die Erfassung von Wirkungsorten, die neben den aktuellen auch diehistorischen Ortsbezeichnungen
+                        mit einbezog, vermittelte vor allem auch der
+                        Regionalgeschichtsschreibung umfangreiches, bisher unbekanntes Material. <hi
+                            rend="italic">Würdigung</hi> und <hi rend="italic">Wirkung</hi> eröffnen
+                        einen Einblick in das Arbeitsfeld der jeweiligen Musikerin und ihre
+                        Rezeption, wobei über zitierte Rezensionen mentale Bilder entstehen, die im
+                        Rahmen der Textsorte Lexikonartikel nicht differenziert hinterfragt werden
+                        können. Das wäre Aufgabe einer Auswertung der Artikel in einer
+                        vergleichenden Studie. <name ref="#borchard-pers009">Janina Klassen</name> hat in einem Beitrag zum Thema
+                        <q>Gender, Sprache, Wertungsfragen</q> bereits die Grundlage gelegt.<ref target="#Klaasen2015" type="bibl"/>
+                    </p>
+                    <p>Ein Akzent der Lexikon-Artikel lag konzeptionell auf dem Lückenschreiben,<note
+                            xml:id="borchard-ftn6" n="6">Vgl. <ref target="#Borchard2004" type="bibl"/>.</note> hier gemeint als Aufweisen von
+                        Forschungslücken und Hinweise auf unaufgearbeitete Archivbestände und
+                        private Nachlässe. Vom Benennen der Desiderata sollen Impulse zu weiterer
+                        Forschungsarbeit ausgehen, etwa, wenn es um die Themensuche für Examens-,
+                        Diplom- oder Doktorarbeiten geht, um weitere Forschung zu initiieren.
+                        Werkverzeichnisse verweisen auf ungehörte Musik in einem nicht erwarteten
+                        Umfang, damit auf künftige Editionsaufgaben.
+                        Welche Fragen sich bei der Anlage von Werkverzeichnissen stellen, hat
+                        <name ref="#borchard-pers001">Cornelia Bartsch</name> eindrucksvoll gezeigt.<ref target="#Bartsch2015" type="bibl"/></p>
+                    <p>Besonders die interessierte Öffentlichkeit reagierte nicht nur auf den neuen
+                        Zugang zu Informationen, sondern auch auf die Möglichkeit der Ergänzung und
+                        Korrektur biographischer Details der Artikel, während sich die Erwartung,
+                        dass die Autor_innen selbst für Aktualisierungen sorgen, bis auf wenige
+                        Ausnahmen nicht erfüllte. Dass die Fortschreibbarkeit, die das Medium
+                        ermöglicht und einer der großen Vorteile des Mediums ist, kaum genutzt
+                        wurde, hängt abgesehen vom ständigen Zeit- und Finanzmangel aller
+                        Beteiligter auch mit Vorbehalten innerhalb der wissenschaftlichen Community
+                        gegenüber einer Internetveröffentlichung von Forschungsergebnissen zusammen.
+                        Diese Vorbehalte bezogen sich zum einen auf die Einschätzung, dass für die
+                        eigene wissenschaftliche Laufbahn eine Internetveröffentlichung nicht
+                        gleichwertig ist mit einer Printveröffentlichung, zum anderen sprach aus
+                        ihnen die Sorge vor <q>Diebstahl am geistigen Eigentum</q>. Die
+                        Gleichwertigkeitsdebatte erledigt sich zunehmend von selbst, auch wenn es
+                        immer noch Kolleg_innen selbst im Genderforschungsbereich gibt,
+                        die meinen, sie könnten das MUGI-Lexikon benutzen, ohne ihre Quelle, weil
+                        nur im Internet, anzugeben. Zudem haben die Plagiatsaffären der letzten
+                        Jahre deutlich gezeigt, was wir immer schon wussten, nämlich dass
+                        vermeintlicher oder tatsächlicher geistiger Diebstahl nicht an ein
+                        bestimmtes Medium gebunden ist. </p>
+                </div>
+        <div xml:id="borchard-div04">
+                <head>MUGI-Lexikon</head>
+                <p>Anders als ursprünglich gedacht lag der Hauptakzent der Arbeit auf dem
+                    lexikalischen Teil, für den eine Datenbank entwickelt wurde, in der auch
+                    unter Kategorien recherchiert werden kann, die aus spezifisch
+                    genderbezogenen Fragestellungen erwuchsen. Das war nicht ohne Probleme. Denn
+                    eine Datenbank entwickelt man am besten, wenn die Daten vorliegen. Hier aber
+                    ging es um ein Projekt, das sich ständig weiterentwickelte und veränderte.
+                    Verschlagwortungen und Suchfunktionen mussten mehrfach überarbeitet werden.
+                    Das ist aufwendig, weil ja auch die <soCalled>alten</soCalled> Seiten nachgearbeitet werden
+                    müssen, aber notwendig. Die Überarbeitung betraf vor allem die für
+                    weiterführende Studien besonders wichtigen Kategorien <q>Wirkungsfelder</q>,
+                    <q>Wirkungsorte</q> sowie <q>Räume</q>. Die Tabelle&#x00A0;<ref target="#borchard-table02" type="crossref" rend="no"/>
+                    zeigt ausschnittsweise eine Liste von Wirkungsfeldern, die den Autor_innen mit
+                    der Bitte zur Verfügung gestellt wird, die aus ihrer Sicht passenden
+                    Zuordnungen anzukreuzen und gegebenenfalls neue Schlagwörter zu nennen Sie
+                    zeigt begrifflich eine große Heterogenität, um die Suchmöglichkeiten so
+                    vielfältig und so offen wie möglich zu gestalten. Außerdem
+                    wurden aus konzeptionellen Gründen Felder aufgenommen wie <q>Briefe</q>,
+                    <q>Dialogpartnerin</q>, <q>ideelle Förderung</q>, <q>materielle Förderung</q> etc., die  im
+                    engeren Sinne nicht als musikbezogen gelten. </p>
+                
+                
+            <table xml:id="borchard-table02">
+                <head>MUGI-Schlagworte: Wirkungsfelder</head>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Akkordeon</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bass <lb/>(Kontra- /E-)</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bearbeitung</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Beratung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bildende Kunst</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Briefe</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Brotberuf</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Cembalo</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Chorleitung</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Concertina</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Dialogpartnerin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Dirigieren</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Dramaturgie</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Edition</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Elementare <lb/>Musikpädagogik (historisch)</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Flöte</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Förderung <lb/>(ideell)</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Förderung <lb/>(materiell)</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Forschung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Fürstin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Gesang</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Gitarre</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Glasharmonika</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Gottesdienst</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Harfe</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Improvisation</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Instrumentenbau</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Interpretation</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Journalismus</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kammermusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Keyboard</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kirchenmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Klangkunst</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Klavier</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Komposition</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Konzertmeisterin</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Konzertorganisation</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Korrepetition</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Laptop</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Laute</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Librettistik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Literatur</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Malerei</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Management</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Mandoline</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Mäzenatentum</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Medienkunst</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Memoiren</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Muse</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikhochschule (Institution)</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikkritik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikpädagogik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikpolitik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikschulgründung</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Musiktheorie</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musiktherapie</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikwissenschaft</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Nachlassverwaltung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Oboe</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Orchester</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Orchesterleitung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Organistin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Orgel</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Performance</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Rebec</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Regie</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Salonorchester</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Sammlung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Saxophon</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Schauspiel</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Schlagzeug</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Schriftstellerin</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Schulmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Songwriting</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Sounddesign</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Stimme</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Streichquartett</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Stummfilm</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Stundengebet</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Tanz</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Theaterleitung</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Theorbe</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Theremin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Unterricht</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Veranstalterin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Verlag</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Vermittlung</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Viola</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Viola da gamba</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Violine</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Violoncello</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Widmungsträgerin</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Wissenschaft</cell>
+                </row>
+            </table>
+            
+                
+            <!--<table xml:id="borchard-table03">
+                <head>Schlagworte: Räume</head>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Adelshaus</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Akademie (Aufführungsort)</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Akademie (Ausbildungsstätte)</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Altersheim</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bibliothek</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bühne</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Club</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Erziehungsheim</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Fernsehen</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Festivals</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Film</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Garten</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Gasthaus</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Gefängnis</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Haus</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Hochschule</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Hof</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Internet</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Kindergarten</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kinderheim</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kino</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Kirche</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kloster</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Konservatorium</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Konzentrationslager</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Konzertsaal</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Krankenhaus</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Mädchenschule</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Medialer Raum</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musenhof</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikhochschule</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikschule</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Natur</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Opernhaus</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Psychiatrische Anstalt</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Radio</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Salon</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Schloss</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Schule</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Städtischer Raum</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Straße und Plätze</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Studio</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Theater</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Universität</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Verein</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Waisenhaus</cell>
+                    <cell/>
+                    <cell/>
+                </row>
+            </table>-->
+            
+            
+                <p>Auch die Verschlagwortungen für die Rubrik <q>Gattungen/Genres</q> sowie
+                    <q>Biographisches</q> mussten kontinuierlich erweitert, Zuordnungen immer wieder
+                    diskutiert werden, obwohl es sich hier um tradierte musikwissenschaftliche
+                    Kategorisierungen handelt.</p>
+            
+            <!--<table xml:id="borchard-table04">
+                <head>Gattungen / Genres:</head>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Alte Musik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] American Band Music</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Artikel</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Aufsatz</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Ballade</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Ballett</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Buch</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Bühnenmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Chanson</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Charakterstück</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Chormusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Dokumentation</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Elektroakustische Musik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Elektronische Musik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Experimentelle Musik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Feature</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Filmmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Funktionale Musik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Gedichte</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Geistliche Musik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Geistliches Drama</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Gemeinschaftswerk</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Hörspiel</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Improvisation</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Installation</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Instrumentalmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Intermedien</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Jazz</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Jodeln</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kabarett</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Kammermusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kantate</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Kinder (Kindermusik/Musik für
+                        Kinder)</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Klangkunst</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Klangökologie</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Klaviermusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Kleinkunst</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Laienmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Lied</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Lyrik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Madrigal</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Märchenspiel</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Melodram</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Messe</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Militärmusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Motette</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musikkritik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Musiktheater</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Musique spectrale</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Neue Medien</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Oper</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Operette</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Opernfantasien</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Oratorium</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Orchestermusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Orgelmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Pädagogische Musik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Performance</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Politische Musik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Popularmusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Prosa</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Psalmvertonung</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Radiophone Musik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Revue</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Rezension</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Romance</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Schauspielmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Sinfonie</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Singspiel</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Solokonzert</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Sonate</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Song</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Sound Design</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Streichoktett</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Streichquartett</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Streichtrio</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Stummfilmmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Symphonie</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Tanz</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Vaudeville</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Violinmusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Virginalmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Vokalmusik</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Volksmusik</cell>
+                </row>
+                <row>
+                    <cell role="data" rows="1" cols="1"> [ ] Weltmusiken</cell>
+                    <cell role="data" rows="1" cols="1"> [ ] Zeitgenössische Musik</cell>
+                    <cell/>
+                </row>
+            </table>-->
+            
+            
+            
+                <!--<table xml:id="borchard-table05">
+                    <head>Biografisches</head>
+                    <row>
+                        <cell> [ ] <q>Wunderkind</q></cell>
+                        <cell> [ ] Adel</cell>
+                        <cell> [ ] Antisemitismus</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Auszeichnung/Ehrung</cell>
+                        <cell> [ ] Autobiografie</cell>
+                        <cell> [ ] Autodidaktin</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Blindenwesen</cell>
+                        <cell> [ ] Brief</cell>
+                        <cell> [ ] Bürgertum</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Christentum</cell>
+                        <cell> [ ] Damen-Streichquartett</cell>
+                        <cell> [ ] Damen-Trio</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Damenkapelle</cell>
+                        <cell> [ ] Ehe</cell>
+                        <cell> [ ] Emigration (auch innere)</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Enkelin eines Komponisten</cell>
+                        <cell> [ ] Erwerbstätigkeit</cell>
+                        <cell> [ ] Exil</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Fahrradpionierin</cell>
+                        <cell> [ ] Finanzielle Notlage</cell>
+                        <cell> [ ] Frauenbewegung</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Frauenorchester</cell>
+                        <cell> [ ] Frauenorganisation</cell>
+                        <cell> [ ] Friedensbewegung</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Geistlicher Stand</cell>
+                        <cell> [ ] Hofmusikerin</cell>
+                        <cell> [ ] Hofpianistin</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Hofsängerin</cell>
+                        <cell> [ ] Homosexualität</cell>
+                        <cell> [ ] Judentum</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Kammersängerin</cell>
+                        <cell> [ ] Kammervirtuosin</cell>
+                        <cell> [ ] Katholizismus</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Kinderkonzerte</cell>
+                        <cell> [ ] Krieg</cell>
+                        <cell> [ ] Kulturelle/Künstlerische Gemeinschaft</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Künstlerfamilie</cell>
+                        <cell> [ ] Künstlerpaar</cell>
+                        <cell> [ ] Malerei</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Musikpreis</cell>
+                        <cell> [ ] Mutter</cell>
+                        <cell> [ ] Nachlass</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Politische Partei/Organisation</cell>
+                        <cell> [ ] Protestantismus</cell>
+                        <cell> [ ] Quäker</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Rassismus</cell>
+                        <cell> [ ] Spiritualität</cell>
+                        <cell> [ ] Stipendium</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Tagebuch</cell>
+                        <cell> [ ] Trennung vom Ehemann</cell>
+                        <cell> [ ] Verfolgung</cell>
+                    </row>
+                    <row>
+                        <cell> [ ] Verwandte eines/r Komponisten/in</cell>
+                        <cell> [ ] Witwe</cell>
+                        <cell/>
+                    </row>
+                </table>-->
+                <p>Viele der biographischen Kategorien wurden nur fallweise und bezogen auf
+                    lebende Musiker_innen nur mit ihrem Einverständnis vergeben. Besonders
+                    problematisch erwies sich die Markierung <q>Judentum</q>, da aus historischen
+                    Gründen nicht zu trennen ist zwischen einer positiven Zuordnung und einer
+                    negativen Markierung. </p>
+                <p>Dass es sich für das MUGI-Lexikon bei der Verschlagwortung um ein dynamisches
+                    System handeln muss, wird auch an einer durchaus nicht von vornherein mit
+                    bedachten Kategorie wie <q>Schülerin von …</q> deutlich. Zum einen wurde, je mehr
+                    Instrumentalistinnen in das Lexikon aufgenommen wurden, immer deutlicher,
+                    welche Rolle Schülerkreise gespielt haben und spielen, zum anderen verweist
+                    diese recherchierbare Zuordnung auf männliche Musiker, die Frauen
+                    ausgebildet und gefördert haben.</p>
+                
+                <!--<table xml:id="borchard-table06">
+                    <head>Schülerkreise um …</head>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Adolf Henselt</cell>
+                        <cell> [&#x00A0;]&#x00A0;Adolf Rebner</cell>
+                        <cell> [&#x00A0;]&#x00A0;Adolph Brodsky</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Adolph Schlösser</cell>
+                        <cell> [&#x00A0;]&#x00A0;Adrien-François Servais</cell>
+                        <cell> [&#x00A0;]&#x00A0;Agathe Backer Grøndahl</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Albert Becker</cell>
+                        <cell> [&#x00A0;]&#x00A0;Albert Geiger</cell>
+                        <cell> [&#x00A0;]&#x00A0;Alberto Randegger</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Alessandro Pezze</cell>
+                        <cell> [&#x00A0;]&#x00A0;Alexander Dreyschock</cell>
+                        <cell> [&#x00A0;]&#x00A0;Alexander Zemlinsky</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Alfredo Piatti</cell>
+                        <cell> [&#x00A0;]&#x00A0;Andreas Moser</cell>
+                        <cell> [&#x00A0;]&#x00A0;Andreas Streicher</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Ann Mounsey Bartholomew</cell>
+                        <cell> [&#x00A0;]&#x00A0;Anna Schultzen von Asten</cell>
+                        <cell> [&#x00A0;]&#x00A0;Anne Queféllec</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Anton Bohrer</cell>
+                        <cell> [&#x00A0;]&#x00A0;Anton Bruckner</cell>
+                        <cell> [&#x00A0;]&#x00A0;Antonio Bernacchi</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Antonio Salieri</cell>
+                        <cell> [&#x00A0;]&#x00A0;Arno Hilf</cell>
+                        <cell> [&#x00A0;]&#x00A0;Arnold Schönberg</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Arthur de Greef</cell>
+                        <cell> [&#x00A0;]&#x00A0;Artur Schnabel</cell>
+                        <cell> [&#x00A0;]&#x00A0;August Buhl</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;August Goltermann</cell>
+                        <cell> [&#x00A0;]&#x00A0;August Wilhelmij</cell>
+                        <cell> [&#x00A0;]&#x00A0;Auguste Dupont</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Bedřich Smetana</cell>
+                        <cell> [&#x00A0;]&#x00A0;Benjamin Godard</cell>
+                        <cell> [&#x00A0;]&#x00A0;Bohuslav Foerster</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Brian Ferneyhough</cell>
+                        <cell> [&#x00A0;]&#x00A0;Bronisław Huberman </cell>
+                        <cell> [&#x00A0;]&#x00A0;Bruno Zwintscher</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Camille Saint-Saëns</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Baermann</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Baermann (jun.)</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Carl Czerny</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Dawidow</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Flesch</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Carl Friedberg</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Halir</cell>
+                        <cell> [&#x00A0;]&#x00A0;Carl Reinecke</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Carl Tausig</cell>
+                        <cell> [&#x00A0;]&#x00A0;Charles Dancla</cell>
+                        <cell> [&#x00A0;]&#x00A0;Charles Lucas</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Charles Steggall</cell>
+                        <cell> [&#x00A0;]&#x00A0;Charles Villiers Stanford</cell>
+                        <cell> [&#x00A0;]&#x00A0;Charles-Marie Widor</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Cipriano Potter</cell>
+                        <cell> [&#x00A0;]&#x00A0;Clara Schumann</cell>
+                        <cell> [&#x00A0;]&#x00A0;Claude Debussy</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Dieter Schnebel</cell>
+                        <cell> [&#x00A0;]&#x00A0;Dionys Pruckner</cell>
+                        <cell> [&#x00A0;]&#x00A0;Diran Alexanian</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Domenicus Stephani</cell>
+                        <cell> [&#x00A0;]&#x00A0;Dominique Merlet</cell>
+                        <cell> [&#x00A0;]&#x00A0;Ebenezer Prout</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Edgar Mouncher</cell>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Jacobs</cell>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Mertke</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Pirkert</cell>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Pirkhart</cell>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Rappoldi</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Eduard Reuß</cell>
+                        <cell> [&#x00A0;]&#x00A0;Edward Dannreuther</cell>
+                        <cell> [&#x00A0;]&#x00A0;Elise Polko</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Emanuel Wirth</cell>
+                        <cell> [&#x00A0;]&#x00A0;Émile Bienaimé</cell>
+                        <cell> [&#x00A0;]&#x00A0;Emile Sauret</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Engelbert Humperdinck</cell>
+                        <cell> [&#x00A0;]&#x00A0;Enrique Arbós</cell>
+                        <cell> [&#x00A0;]&#x00A0;Ernst F. Wenzel</cell>
+                    </row>
+                    <row>
+                        <cell> [&#x00A0;]&#x00A0;Ernst Ferdinand Wenzel</cell>
+                        <cell> [&#x00A0;]&#x00A0;Ernst Friedrich Richter</cell>
+                        <cell> [&#x00A0;]&#x00A0;Ernst Julius Otto</cell>
+                        <!-\-<cell> [&#x00A0;]&#x00A0;Ernst Pauer</cell>-\->
+                    </row>
+                </table>-->
+                <p>Auch das Gesicht von MUGI wurde zweimal aktualisiert, die Programmierung sich
+                    verändernden Nutzergewohnheiten sowie der Weiterentwicklung von Browsern und
+                    Software angepasst. Datenbank und Layout entsprechen mit HTML&#8239;5 und CSS&#8239;3 dem
+                    neuesten Stand der Technik, so dass MUGI nunmehr mit einem <q>responsive
+                    design</q> auch für das Lesen auf Smartphones attraktiv ist. Darüber hinaus
+                    wurde die Optik der Seite an gedruckte Lexika angeglichen. Die neue, digital
+                    zur Verfügung gestellte zweispaltige Druckfassung einzelner Artikel als
+                    pdf-Datei ist zwar vom Aufbau her, jedoch nicht im Außenbild von einem
+                    gedruckten Lexikonartikel zu unterscheiden, Die Namensveränderung von <q>Musik
+                    und Gender im Internet</q> zu <q>Musikvermittlung und Genderforschung im
+                    Internet</q> bei gleichbleibender Abkürzung MUGI weist auf eine
+                    Akzentverschiebung des gesamten Projekts auf die Vermittlung von Forschung
+                    und Musik.</p>
+                <p>Inzwischen verfügt MUGI über einen großen Stamm von Autor_innen und wächst
+                    kontinuierlich. Zur Zeit sind es ca.&#x00A0;500 Artikel. Dadurch ist die Grundlage
+                    für weiterführende systematische Untersuchungen wie etwa zu
+                    Professionalisierungswegen von Pianistinnen, Cellistinnen, Geigerinnen
+                    gelegt. Eine Studie von <name ref="#borchard-pers020">Silke Wenzel</name> steht kurz vor der
+                    Veröffentlichung.<ref target="#Wenzel2016" type="bibl"/> 
+                    Entsprechendes gilt für Studien zur Wahrnehmung
+                    weiblicher Musiker in Kritiken. Durch die seit&#x00A0;2014 in Angriff genommene
+                    Ergänzung des Lexikons durch Artikel über männliche Musiker und
+                    Musikschriftsteller wie etwa <name ref="#borchard-pers006">Eduard Hanslick</name>, <name ref="#borchard-pers015">Anton Reicha</name> oder <name ref="#borchard-pers019">Richard Wagner</name>
+                    unter Gendergesichtspunkten wird nicht zuletzt die Geschichte des Denkens
+                    über <q>Weiblichkeit</q> und <q>Männlichkeit</q> im Bereich der Musik lesbar. Durch
+                    diese Ergänzung wird zudem das deutlich, was <name ref="#borchard-pers003">Martina Bick</name> herausgearbeitet
+                    hat, nämlich wie stark auch weibliche Autoren geschlechtsspezifische und
+                    häufig misogyne Zuschreibungen reproduziert haben, um
+                    Publikationsmöglichkeiten zu erhalten.<note xml:id="borchard-ftn9" n="9">Vgl. <ref target="#Bick2015" type="bibl"/></note></p>
+            </div>
+            <div xml:id="borchard-div05">
+                <head>MUGI Multimedial</head>
+                <p>Zweiter Schwerpunkt der Forschungsplattform sind speziell für das Medium
+                    Internet konzipierte multimediale Präsentationen über Leben und Werk von
+                    Komponistinnen und Musikerinnen. Außerdem wurden neben traditionellen
+                    Werkformen von vornherein auch Arbeiten ins Blickfeld gerückt, die einen
+                    erweiterten Werkbegriff voraussetzen, wie Performances, elektronische Musik,
+                    Klangkunst und andere zeitgenössische Musikformen. Dafür sowie für
+                    genderspezifische Sachthemen mussten neue Methoden der Erschließung und neue
+                    multimediale Darstellungsformen entwickelt werden. Die an Feature- und
+                    Montageformen<note xml:id="borchard-ftn10" n="10">Vgl. <ref target="#Borchard2004" type="bibl"/></note> orientierten Präsentationen wurden individuell
+                    erarbeitet und von Webdesigner_innen gestaltet, um das jeweilige Thema mit
+                    Hilfe verschiedener Materialien und Formate, wie z.&#8239;B. Texten, Audiodateien,
+                    Fotos, Videos, interaktiven Modulen und Animationen, möglichst aspektreich
+                    darzustellen. Jede Präsentation ist durch einen Kommentar zum
+                    zugrundeliegenden inhaltlichen und darstellerischen Konzept ergänzt.</p>
+                <pb/>
+                <p><name ref="#borchard-pers014">Kirsten Reese</name> hat zu Darstellungsmöglichkeiten in und mit multimedialen und
+                    interaktiven Medien die grundsätzlichen konzeptionellen Überlegungen zum
+                    multimedialen Teil der Forschungsplattform ausformuliert.<ref target="#Reese2006" type="bibl"/>
+                </p>
+                <figure xml:id="borchard-fig02" place="here">
+                    <graphic url="figures/borchard-fig02.jpg" width="3040px" height="2258px"/>
+                    <head type="legend">Startseite MUGI multimedial</head>
+                </figure>
+                <p>Daneben sind derzeit z.&#8239;B. folgende Präsentationen online zugänglich: <q>Kunst
+                    im Kollektiv &#x2013; les femmes savantes</q> (<name ref="#borchard-pers029">Martina Seeber</name>), <q>Licht und Klang.
+                        Aspekte der Raumwahrnehmung in Klanginstallationen von <name ref="#borchard-pers030">Christina Kubisch</name></q>
+                    (<name ref="#borchard-pers028">Claudia Tittel</name>, <name ref="#borchard-pers027">Thomas Nösler</name> und Sakrowski), <q>Spielfrauen im Mittelalter</q>
+                    (<name ref="#borchard-pers022">Constanze Holze</name>, <name ref="#borchard-pers024">Pepe Jürgens</name> und <name ref="#borchard-pers014">Kirsten Reese</name>), <q>Dienstmädchen auf
+                        der Opernbühne des 18.&#8239;Jahrhunderts</q> (<name ref="#borchard-pers026">Birgit Kiupel</name> und <name ref="#borchard-pers002">Cornelia Geissler</name>),
+                    <q>Körper und Musik</q> (<name ref="#borchard-pers005">Julia Gerlach</name> und <name ref="#borchard-pers023">Sybille Hotz</name>) oder <name ref="#borchard-pers018">Pauline
+                        Viardot-Garcia</name> (<name ref="#borchard-pers004">Beatrix Borchard</name> und <name ref="#borchard-pers025">Julia Lindig</name>) sowie <name ref="#borchard-pers016">Ethel Smyth</name>
+                    (Melanie Unseld und Wice GmbH) und <name ref="#borchard-pers011">Gertrud Meyer-Denkmann</name> (<name ref="#borchard-pers014">Kirsten Reese</name>).
+                    Zwei Beispiele seien mit ihren Kommentaren herausgegriffen:</p>
+                <p>Die multimediale Präsentation <q>Fanny Hensel &#x2013; Korrespondenzen in Musik</q><note>Cornelia Bartsch, <title level="m">Fanny Hensel &#x2013; Korrespondenzen in Musik</title>, URL: <ref target="http://mugi.hfmt-hamburg.de/Multimedia/Fanny_Hensel_-_Korrespondenzen_in_Musik"/>.</note> basiert auf der Idee, Inhalte
+                    aus <name ref="#borchard-pers001">Cornelia Bartschs</name> Buch Fanny Hensel, geb. Mendelssohn Bartholdy. Musik als Korrespondenz
+                    (Kassel: Furore 2007) multimedial aufzuarbeiten bzw. weiterzuführen. Das
+                    Konzept entwickelte die Autorin gemeinsam mit <name ref="#borchard-pers014">Kirsten Reese</name> 2007.
+                    Fertiggestellt wurde die multimediale Präsentation Anfang&#x00A0;2009 von <name ref="#borchard-pers007">Julia
+                    Heimerdinger</name>. Ebenso wie die anderen multimedialen Präsentationen des
+                    Portals werden auch in <title level="m">Fanny Hensel &#x2013; Korrespondenzen in Musik</title> die Möglichkeiten des Internets
+                    gezielt ausgenutzt und textliche Inhalte mit zahlreichen Hörbeispielen,
+                    Abbildungen und interaktiven Elementen &#x2013; in diesem Fall Musikanalysen &#x2013;
+                    verknüpft.</p>
+                <p>Da das Forschungsprojekt MUGI an der Hochschule für Musik und Theater
+                    angesiedelt ist, war es möglich, acht Lieder <name ref="#borchard-pers008">Fanny Hensels</name> erstmalig einzuspielen und zu veröffentlichen.</p>
+                <p><quote source="#borchard-ftn12"><q>Fanny Hensel &#x2013; Korrespondenzen in Musik</q> lässt sich auf verschiedenen Wegen
+                    entdecken: An vielen Stellen wird durch Querverweise in Form von kleinen
+                    Bildern und Links zum assoziativen Kreuz- und Querlesen angeregt. Pfeile
+                    führen linear durch die Website und eine Sitemap gibt einen vollständigen
+                    Überblick über die Inhalte.</quote><note xml:id="borchard-ftn12" n="12" type="bibl">Vgl. Kommentar von Cornelia Bartsch zu ihrer
+                        Präsentation. <ref target="http://mugi.hfmt-hamburg.de/Hensel_Korrespondenzen/"/>.</note></p>
+                <p><name ref="#borchard-pers005">Julia Gerlach</name> hingegen stellt in ihrer Präsentation <q>Körper &amp; Musik</q><note>Julia Gerlach, <title level="m">Körper &amp; Musik</title>, URL: <ptr target="http://mugi.hfmt-hamburg.de/Multimedia/Körper_und_Musik"/></note>
+                    unter systematischen Gesichtspunkten künstlerische Arbeiten im Bereich der
+                    musikalischen Performance und der intermedialen Musik zusammen. 
+                    <quote source="#borchard-ftn77">Die ausgewählten, meist sehr aktuellen Werke werden durch eine textliche
+                    Beschreibung und Analyse sowie durch Medien (Video, Musikausschnitt) und
+                    Zitate vorgestellt.
+                    <lb/>Ausgangspunkt für die Analyse sind einige Entwicklungen, insbesondere die der
+                    Reproduktionsmedien und der Computertechnologie, die historisch zu einer
+                    Entfremdung der Musik vom diese produzierenden Körper, also zu einer
+                    Entkoppelung und Entkörperlichung geführt haben. Dennoch sind
+                    zeitgenössische Produktionen, die neue Technologien verwenden, oft nicht
+                    körperlos. Körperlichkeit wird etwa durch die abstrahierende Transformation
+                    in Gesten und Bewegung in Musik wieder hergestellt oder der reale Körper
+                    wird neu inszeniert und durch neue technische Optionen (Sensoren, Video
+                    etc.) auf eine andere &#x2013; stärker vermittelte &#x2013; Art eingebunden. Biodaten
+                    werden zu Steuerdaten. Der Körper des Rezipienten spielt im künstlerischen
+                    Produktionsprozess eine zunehmend große Bedeutung. Diese verschiedenen
+                    Spielarten und Methoden ordnet <name ref="#borchard-pers005">Julia Gerlach</name> nach systematischen
+                    Gesichtspunkten: Gestik und Bewegung, Expanded, Körper = Instrument,
+                    Körperkunst und differenziert sie anhand von Unterbegriffen noch weiter aus.
+                    Auf diese Weise entsteht ein semantisches Netz künstlerischer Praktiken, die
+                    den Körper einbeziehen.
+                    <lb/>Unterschieden wird in dem Text zudem zwischen dem instrumentalen und dem
+                    vokalen Kontext. Während Instrumente selbst schon eine Medialität
+                    beinhalten, die durch Technologien lediglich verschoben und anders besetzt
+                    wird, ist die Stimme mit dem Körper ursächlich verbunden. Hier ist
+                    Körperbewusstsein fundamentale Voraussetzung und Ausgangspunkt für die
+                    künstlerischen Ansätze, die Erzeugung von Klang.
+                        <lb/>Aus ihren Analysen leitet <name ref="#borchard-pers005">Julia Gerlach</name> sechs den Arbeiten inhärente
+                    zeitgenössische Tendenzen ab: <q>Stille und Bewegung</q>, <q>Hybridisierung</q>, <q>Außen und
+                    Innen</q>, <q>Männlich und Weiblich</q>, <q>Rezipientenkörper</q> und <q>Rituale</q>.
+                    <lb/>Für die Darstellung des Themenfeldes und der inhaltlichen Gliederung wurde
+                    eine interaktive Lösung konzipiert. Das Thema ist netzartig aufgefächert,
+                    hat Voraussetzungen (Unkörperliche Musik) und Konklusionen (Körpermusik) und
+                    eine Kernerörterung (Körper und Musik). Die erste Seite der Website ist so
+                    programmiert, dass bei einem Rollover über die einzelnen netzartig angeordneten
+                    Gliederungspunkte die in dem Abschnitt besprochenen Künstler namentlich
+                    aufgelistet werden sowie zentrale Stichworte der Passage. Auf diese Weise
+                    ist der Besucherin ein intuitiver Zugriff ermöglicht und vor allem ein
+                    Überblick geboten, worum es in dem Text allgemein und in den Textabschnitten
+                    im Einzelnen geht. Sie kann sich gewissermaßen den Abschnitt auswählen, der
+                    sie thematisch und von den Künstlerpersönlichkeiten besonders interessiert.
+                    Durch Klick landet sie auf der jeweiligen Seite, auf der sie dann auch
+                    Zugriff auf die illustrierenden Medien erhält. Die Medien reichen von
+                    Bildern/Skizzen über Videos zu Musiken. Viele dieser Medien wurden von den
+                    Künstlern selbst kostenfrei zur Verfügung gestellt. Insgesamt ergibt sich
+                    aus den Medien eine große Breite dokumentarischen Materials zu dem Thema,
+                    das einzigartig ist.
+                    <lb/>Der Text ist so verfasst, dass zwei Lesarten möglich sind. Zum einen sind die
+                    einzelnen Textabschnitte in sich geschlossen und können daher einzeln
+                    gelesen werden. Zum anderen ist die Folge der Texte abgestimmt.
+                    <lb/>Neben dem Zugriff auf die einzelnen Textseiten vom Netzbild aus ist es daher
+                    auch möglich, sich von vorne bis hinten durch den Text zu klicken.</quote><note xml:id="borchard-ftn77" type="bibl">Kommentar von Julia Gerlach zu ihrer Präsentation unter <ref target="http://mugi.hfmt-hamburg.de/Multimedia/Körper_und_Musik"/>.</note>
+                </p>
+                <p>Dass der multimediale Teil der Plattform sehr viel langsamer wächst als der
+                    lexikalische, hängt zum einen damit zusammen, dass Entwurf und Realisation
+                    sehr aufwendig sind, zum anderen, dass die meisten
+                    Musikwissenschaftler_innen und -publizist_innen nach wie vor <soCalled>in Büchern</soCalled>
+                    denken und sich schwer damit tun, die Vorteile des Mediums, wie z.&#8239;B. die
+                    nichthierarische und nichtlineare Darstellungsweise zu nutzen sowie
+                    interaktive Elemente einzubauen. Auch das sehr verbreitete auf schnelle
+                    Information ausgerichtete Nutzerverhalten steht einer intensiven
+                    Auseinandersetzung mit vielfältigen Präsentationen im Internet entgegen. Im
+                    Rahmen von Seminaren und Schulstunden hingegen korrespondieren die
+                    multimedialen Präsentationen mit modernen pädagogischen Konzepten des
+                    entdeckenden und forschenden Lernens, wie beispielsweise eine im Rahmen
+                    eines Seminars erarbeitete Präsentation unter dem Titel <q>Räume für Musik –
+                    Fanny Hensel</q> sowie ein Schulprojekt <q>Panorama der Vielfalt. Musik und
+                    Gender in heutiger Popularkultur</q>.<note xml:id="borchard-ftn14" n="14"><q>Panorama der Vielfalt. Musik und Gender in
+                        heutiger Popularkultur</q>. Ein Projekt der Klasse&#x00A0;12h der
+                        Stadtteilschule Bergedorf im Schuljahr 2012/13, in Kooperation mit
+                        <q>Musikvermittlung und Genderforschung im Internet</q> der Hochschule
+                        für Musik und Theater Hamburg, unter der Leitung und Herausgabe von
+                        Bernd Ruffer (Stadtteilschule Bergedorf), Dr. Bettina Knauer und
+                        Silke Wenzel (HfMT Hamburg).</note></p>
+            </div>
+            <div xml:id="borchard-div06">
+                <head>MusikGeschichtsVermittlung an Schulen</head>
+                <p>Das Projekt <q>Musik und Gender an weiterführenden Schulen</q> unter Leitung von
+                    <name ref="#borchard-pers004">Beatrix Borchard</name> und <name ref="#borchard-pers010">Bettina Knauer</name> wird in Hamburg seit 2010 als
+                    Projektpartnerschaft zwischen Wissenschaftler_innen, jungen Künstler_innen,
+                    Lehrer_innen und Schüler_innen durchgeführt, mit dem Ziel Schüler_innen und
+                    Lehrer_innen einen Einblick in die musik- und kulturwissenschaftliche,
+                    genderorientierte Forschung zu ermöglichen.<ref target="#Borchard2015" type="bibl"/> 
+                    Am Projekt nahmen
+                    bislang ca.&#x00A0;120 Schüler_innen aus der Klassenstufe&#x00A0;6–13 teil. Durch aktive
+                    Mitwirkung an kleineren Forschungsprojekten, Einbindung in den
+                    wissenschaftlichen wie künstlerischen Betrieb an der Hochschule für Musik
+                    und Theater Hamburg, Erarbeitung eigener Formate zur Musikvermittlung
+                    gemeinsam mit Studierenden der wissenschaftlichen und künstlerischen
+                    Studiengänge, etc. lernen Schüler_innen Fragestellungen und Methoden der
+                    Musik-, Literatur- und Kulturwissenschaft kennen. Die Zusammenarbeit mit den
+                    Schulen ist so strukturiert, dass sie in verschiedenen Fächern an den
+                    Schulen durchgeführt werden kann. Weitere Kooperationspartner waren bislang
+                    die Staatsoper Hamburg, die Laeiszhalle/Elbphilharmonie und das
+                    Kulturforum21, ein eigenständiges Education-Programm des Katholischen
+                    Schulverbandes Hamburg. Für diese Institutionen war es neben der
+                    Unterstützung aller Beteiligter wichtig zu erfassen, wie nachhaltig Prozesse
+                    der Musikvermittlung anzulegen sind, wie intensiv der Dialog mit Lehrer_innen
+                    und Schüler_innen gepflegt werden muss, damit ein Education-Programm sich
+                    nicht als <soCalled>Eintagsfliege</soCalled> erweist, wie genderorientierte Themen das eigene
+                    Programm bestimmen könnten und – nicht zuletzt – wie das Vermittlungsprojekt
+                    <q>Musik und Gender</q> innerhalb der seit 2010 diskutierten Frage der
+                    <q>Leichtigkeitslüge</q> resp. <q>Komplexitätsvermeidung</q> in der Musikvermittlung
+                    (<name ref="#borchard-pers013">Holger Noltze</name>) als Kontrapunkt zu bewerten ist. </p>
+                <div xml:id="borchard-div07">
+                    <head>Fragestellungen und Themen</head>
+                    <p>Ausgangspunkt des speziellen Vermittlungsprojektes ist die Grundlage von
+                        MUGI, nämlich ein Musikverständnis, das nicht nur Werke im Sinne von
+                        geschriebenen Noten meint, sondern alle Aspekte des Lebens einbezieht. Das
+                        Projekt identifiziert die Vielfalt der Formen, Räume und Orte kulturellen
+                        Handelns insbesondere von Frauen und öffnet damit neue Perspektiven in der
+                        Vermittlung von Musik und Musikgeschichtsschreibung im Transfer von
+                        Wissenschaft und Schule. Angeknüpft wird an die Ergebnisse von MUGI sowie an
+                        die einschlägigen Forschungen am Institut für Musikwissenschaft der
+                        Hochschule für Musik und Theater Hamburg unter Einbeziehung der
+                        Aufführungspraxis und der Entwicklung von neuen Formaten an der Hochschule;
+                        zudem werden interdisziplinäre Perspektiven durch die Verbindung zur
+                        Literatur- und Kulturwissenschaft und eine auf performative Wissensräume
+                        spezialisierten Musikvermittlung berücksichtigt. Die Bedeutung der Arbeit
+                        von Interpretinnen, Initiatorinnen von musikalisch-literarischen Salons,
+                        Kulturvermittlerinnen u.&#8239;a. gehört ebenso zum Forschungsfeld wie
+                        Performances, Popkultur und andere zeitgenössische Musikformen. Als weiteres
+                        Forschungs- und Vermittlungsfeld kommen hinzu: musik- und
+                        literaturgeschichtliche Untersuchungen, in denen Fragen der Konstruktion von
+                        Männlichkeit(en) und Weiblichkeit(en) im Vordergrund stehen. Grundsätzlich
+                        gilt es im Transfer zu Schulen die Vielfalt von Forschungsfeldern im Bereich
+                        Musik und Gender zu öffnen und ein Umdenken in der Musikgeschichtsschreibung
+                        und damit auch der Musik- und Kulturvermittlung zu bewirken. </p>
+                </div>
+            </div>
+            
+            <div xml:id="borchard-div08">
+                <head>Fazit</head>
+                <p>Es sei abschließend noch einmal betont: Es geht auch in der
+                    Zukunft darum, eine Forschungsplattform zu betreuen und weiter auszubauen
+                    und nicht ein herkömmliches Lexikon-Projekt, und die besonderen Chancen und
+                    Möglichkeiten des Mediums Internet gezielt (und besonders auch für die
+                    Lehre) zu nutzen. Es gilt auch zunehmend dem Prinzip Wikipedia von
+                    wissenschaftlicher Seite aus etwas entgegenzusetzen. </p>
+                <p>Wichtig bleibt</p>
+                <list>
+                    <item>die breite Zugänglichkeit des Mediums, die Informationen
+                        nicht nur der scientific community, sondern größeren Kreisen von
+                        Interessierten zugänglich macht,</item>
+                    <item>die Möglichkeit, multimedial zu arbeiten, also neben
+                        Texten auch Bild-, Noten- und Klangquellen wenigstens ausschnitthaft
+                        präsentieren zu können,</item>
+                    <item>die Möglichkeit, vorläufige Ergebnisse zu präsentieren,
+                        die ständig fortgeschrieben werden können. Dadurch wird der
+                        Forschungsprozess in seiner Diskontinuität und Fragmenthaftigkeit
+                        offengelegt. Ganz bewusst sollen die Lücken in der Kenntnis vor allem von
+                        weiblichen Biographien und Schaffenszusammenhängen aufgezeigt werden,</item>
+                    <item>die Möglichkeit, in multimedialen Beiträgen Informationen
+                        nicht hierarchisiert zu vermitteln, sondern den Nutzer_innen die Chance zu
+                        bieten, den Zugang zu einer Musikerin oder zu einem Sachthema bezüglich
+                        Themenauswahl und -reihenfolge selbst zu wählen. Außerdem können durch
+                        Verlinkungen Leben und Werk stärker miteinander verknüpft und verschiedene
+                        Aspekte individuell und vielfach aufeinander bezogen werden,</item>
+                    <item>die Möglichkeit der Interaktion für die Nutzer_innen,
+                        einmal durch e-mail-Kontakt, vor allem aber auch durch spielerische
+                        Präsentationsformen,</item>
+                    <item>die Möglichkeit, durch die Erarbeitung solch
+                        individueller Beiträge neue hochschuldidaktische Wege zu beschreiten. In
+                        Projekten könnte die musikalische Einstudierung, wissenschaftliche
+                        Aufarbeitung und technische Umsetzung einer multimedialen Seite die
+                        Zusammenarbeit verschiedener Fachrichtungen intensivieren. Der
+                        pluralistische Zugang auf ein Thema könnte tiefere Eindrücke hinterlassen,
+                        die Auseinandersetzung mit dem Medium die Kompetenzen der Studierenden und
+                        Lehrenden im multimedialen Bereich stärken,</item>
+                    <item>die Möglichkeit, eine Forschungsplattform
+                        bereitzustellen, die gemeinsam ausgebaut werden kann, und zwar
+                        hochschulübergreifend und international.</item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="Wiesenfeldt2015">Christiane Wiesenfeldt, <title level="a">Repertoire-Konstanten und -Wandel von Komponistinnen des späten 18. und 19.&#8239;Jahrhunderts</title>, in: <title level="m">Frauen- und Geschlechterforschung multimedial – Chancen und Grenzen</title>, hg. von Beatrix Borchard, Elisabeth Treydte und Silke Wenzel, Hildesheim  2015 (Druck in Vorbereitung)</bibl>
+                    <bibl xml:id="Borchard1999">Beatrix Borchard, <title level="a">Frau oder Künstlerin – Musikerinnen im Deutschland des 19.&#8239;Jahrhunderts</title>, in: <title level="m">Professionalismus in der Musik. Arbeitstagung in Verbindung mit dem Heinrich-Schütz-Haus Bad Köstritz vom 22. bis 25.&#8239;August 1996</title>, hg. von Christian Kaden und Volker Kalisch, Essen 1999, S.&#8239;115–122 (Musik-Kultur. Eine Schriftenreihe der Musikhochschule Düsseldorf&#x00A0;5)</bibl>
+                    <bibl xml:id="Klaasen2015">Janina Klassen, <title level="a">Gender, Sprache, Wertungsfragen</title>, in: <title level="m">Frauen- und Geschlechterforschung multimedial – Chancen und Grenzen</title>, hg. von Beatrix Borchard, Elisabeth Treydte und Silke Wenzel, Hildesheim 2015 (Druck in Vorbereitung)</bibl>
+                    <bibl xml:id="Borchard2004">Beatrix Borchard, <title level="a">Mit Schere und Klebstoff. Montage als wissenschaftliches Verfahren in der Biographik</title>, in: <title level="m">Musik und Biographie. Festschrift für Rainer Cadenbach</title>, hg. von Cordula Heymann-Wentzel und Johannes Laas, Würzburg 2004, S.&#8239;30–45<bibl type="short">Borchard, <title level="a">Mit Schere und Klebstoff</title></bibl></bibl>
+                    <bibl xml:id="Bartsch2015">Cornelia Bartsch, <title level="a">Werkverzeichnisse – oder: Hase und Igel – zum Umgang mit einem Paradox</title>, in: <title level="m">Frauen- und Geschlechterforschung multimedial – Chancen und Grenzen</title>, hg. von Beatrix Borchard, Elisabeth Treydte und Silke Wenzel, Hildesheim 2015 (Druck in Vorbereitung)</bibl>
+                    <bibl xml:id="Bick2015">Martina Bick, <title level="a">Mittäterschaften? Wie Musikschriftstellerinnen zur Heroenbildung beitrugen (La Mara, Lina Ramann und Anna Morsch)</title>, in: <title level="m">Frauen- und Geschlechterforschung multimedial – Chancen und Grenzen</title>, hg. von Beatrix Borchard, Elisabeth Treydte und Silke Wenzel, Hildesheim 2015 (Druck in Vorbereitung)</bibl>
+                    <bibl xml:id="Reese2006">Kirsten Reese, <title level="a">Sehen/Hören/Lesen/Assoziieren</title>, in: <title level="m">Musik mit Methode: Neue kulturwissenschaftliche Perspektiven</title>, hg. von Corinna Herr und Monika Woitas, Köln u.&#8239;a. 2006 (Musik – Medien – Geschlecht. Studien zur europäischen Kultur&#x00A0;1), S.&#8239;109–126</bibl>
+                    <bibl xml:id="Borchard2015">Beatrix Borchard und Bettina Knauer, <title level="a">Musik und Gender – Vermittlungsprojekte an weiterführenden Schulen. Grundlagen, Fragestellungen, Beispiele</title>, in: <title level="m">Frauen- und Geschlechterforschung multimedial – Chancen und Grenzen</title>, hg. von Beatrix Borchard, Elisabeth Treydte und Silke Wenzel, Hildesheim 2015 (Druck in Vorbereitung)</bibl>
+                    <bibl xml:id="Wenzel2016">Silke Wenzel, <title level="m">Dreißig Violoncellistinnen 1850–1930. Eine biographisch-systematische Studie</title>, Hildesheim 2016 (Druck in Vorbereitung)</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Der Wundersmann</title>
+            <title type="sub">Johann Sebastian Bach und die Kantate <hi rend="italic">Wer nur den lieben Gott lässt walten</hi> BWV&#x00A0;93</title>
+            <author>
+               <name><forename>Rebecca</forename> <surname>Grotjahn</surname></name>
+               <email/>
+               <affiliation>wurde 1997 an der Hochschule für Musik und Theater Hannover promoviert und habilitierte sich 2004 an der Carl von Ossietzky Universität Oldenburg. Seit 2006 ist sie Professorin für Musikwissenschaft an der Universität Paderborn und der Hochschule für Musik Detmold. Zu ihren Forschungsschwerpunkten zählt &#x2013; neben der Geschichte des Singens, dem Lied, der musikalischen Sozial- und Alltagsgeschichte und der musikwissenschaftlichen Genderforschung &#x2013; in zunehmendem Maße die Musik Johann Sebastian Bachs. Mit Joachim Veit arbeitet sie im <hi rend="italic">Zentrum Musik – Edition – Medien</hi> sowie im Projekt <hi rend="italic">Detmolder Hoftheater</hi> zusammen. </affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="grotjahn-pers002">
+                  <p>Bach, Johann Sebastian</p>
+                  <p n="work" xml:id="grotjahn-work001"><hi rend="italic">Wer nur den lieben Gott lässt walten</hi>, BWV&#x00A0;93</p>
+               </person>
+               <person xml:id="grotjahn-pers005">
+                  <p>Beethoven, Ludwig van</p>
+               </person>
+               <person xml:id="grotjahn-pers006">
+                  <p>Berlioz, Hector</p>
+               </person>
+               <person xml:id="grotjahn-pers039">
+                  <p>Dürr, Alfred</p>
+               </person>
+               <!--<person xml:id="grotjahn-pers007">
+                  <p>Elisa</p>
+               </person>-->
+               <person xml:id="grotjahn-pers008">
+                  <p>Bach, Carl Philipp Emanuel</p>
+               </person>
+               <person xml:id="grotjahn-pers009">
+                  <p>Forkel, Johann Nikolaus</p>
+               </person>
+               <person xml:id="grotjahn-pers012">
+                  <p>Franck, Salomon</p>
+               </person>
+               <person xml:id="grotjahn-pers013">
+                  <p>Goethe, Johann Wolfgang von</p>
+               </person>
+               <person xml:id="grotjahn-pers014">
+                  <p>Henrici, Christian Friderich</p>
+                  <!--<p>Picander</p>-->
+               </person>
+               <person xml:id="grotjahn-pers015">
+                  <p>Herdegen, Johann</p>
+               </person>
+               <person xml:id="grotjahn-pers016">
+                  <p>Händel, Georg Friedrich</p>
+               </person>
+               <person xml:id="grotjahn-pers017">
+                  <p>Kant, Immanuel</p>
+               </person>
+               <person xml:id="grotjahn-pers018">
+                  <p>Kind, Friedrich</p>
+               </person>
+               <person xml:id="grotjahn-pers020">
+                  <p>Küster, Konrad</p>
+               </person>
+               <!--<person xml:id="grotjahn-pers021">
+                  <p>Lazarus</p>
+               </person>-->
+               <!--<person xml:id="grotjahn-pers022">
+                  <p>Micha</p>
+               </person>-->
+               <person xml:id="grotjahn-pers023">
+                  <p>Mozart, Wolfgang Amadeus</p>
+               </person>
+               <person xml:id="grotjahn-pers024">
+                  <p>Neumark, Georg</p>
+               </person>
+               <!--<person xml:id="grotjahn-pers028">
+                  <p>Petrus</p>
+               </person>-->
+               <person xml:id="grotjahn-pers030">
+                  <p>Rembrandt van Rijn</p>
+               </person>
+               <person xml:id="grotjahn-pers031">
+                  <p>Schumann, Robert</p>
+               </person>
+               <person xml:id="grotjahn-pers032">
+                  <p>Schweitzer, Albert</p>
+               </person>
+               <person xml:id="grotjahn-pers035">
+                  <p>Spitta, Philipp</p>
+               </person>
+               <person xml:id="grotjahn-pers040">
+                  <p>Trunz, Erich</p>
+               </person>
+               <person xml:id="grotjahn-pers036">
+                  <p>Wolff, Christoph</p>
+               </person>
+               <person xml:id="grotjahn-pers038">
+                  <p>Ziegler, Mariane von</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-grotjahn-motto-indent">0.6\textwidth</rendition>
+            <rendition xml:id="latex-grotjahn-vspace-4ex">\vspace{-4ex}</rendition>
+            <rendition xml:id="latex-grotjahn-vspace-6ex">\vspace{-6ex}</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-10-23T11:31:00"
+            who="https://github.com/peterstadler">Text vorbereitet zur ersten Durchsicht.</change>
+         <change when="2015-10-07T11:19:59.852+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="grotjahn-abstract"><p>Bachs Choralkantate <hi rend="italic">Wer nur den lieben Gott lässt walten</hi> BWV 93 kann als musikalischer Beitrag zum frühen Autorschaftsdiskurs gelesen werden. Bereits die Vorlage, das gleichnamige Lied von Georg Neumark, verweist in einem für die Zeit ungewöhnlichen Maße auf die Person des Autors. Mit der textausdeutenden Vertonung der sechsten Liedstrophe setzt Bach nicht nur den &#x2013; vom Kantatenlibrettisten stammenden &#x2013; Aspekt des <q>nach seinem Willen</q> schaffenden <q>Wundersmannes</q> um. Vielmehr inszeniert er sich damit selbst als genialer Autor, der mit dem aus der Choralvorlage übernommenen musikalischen Material nach seinem eigenen Willen verfährt und so allerhöchste Kunst schafft.</p></div>
+      </front>
+      <body>
+         <div type="motto" xml:id="grotjahn-motto" rendition="#latex-grotjahn-motto-indent">
+            <p>Daß Gott den Jubilar zu seiner Zeit
+               <lb/>versorgen und erhalten will.<note xml:id="grotjahn-ftn1" n="1">Frei nach dem Motto zum Erstdruck des Liedes <q>Wer nur den lieben Gott lässt walten</q> von <name ref="#grotjahn-pers024">Georg Neumark</name> (siehe Fußnote&#x00A0;<ref target="#grotjahn-ftn19" type="crossref" rend="no"/><!--19-->).</note>
+            </p>
+         </div>
+         <div xml:id="grotjahn-div01">
+            <head/>
+            <p>Jede Zeit hat ihr eigenes <name ref="#grotjahn-pers002">Bach</name>-Bild. Das klingt banal; mit <name ref="#grotjahn-pers023">Mozart</name> oder <name ref="#grotjahn-pers005">Beethoven</name>, <name ref="#grotjahn-pers030">Rembrandt</name> oder <name ref="#grotjahn-pers013">Goethe</name> verhält es sich ja nicht anders &#x2013; und doch ist der Fall <name ref="#grotjahn-pers002">Johann Sebastian Bach</name> ein extremer. Denn wir wissen fast nichts über den Menschen <name ref="#grotjahn-pers002">Bach</name>. Die Quellen, die sich biografisch auswerten lassen, finden in wenigen Bänden der <hi rend="italic"><name ref="#grotjahn-pers002">Bach</name>-Dokumente</hi><ref xml:id="grotjahn-ftn2" n="2" target="#Bach-Dokumente" type="bibl"/> Platz, und ein Großteil von ihnen lag bereits <name ref="#grotjahn-pers035">Philipp Spitta</name><ref target="#Spitta1873" type="bibl" xml:id="grotjahn-ftn3" n="3"/> vor. Neue <name ref="#grotjahn-pers002">Bach</name>-Bilder wurden seither nicht so sehr durch spektakuläre Entdeckungen weiterer Lebenszeugnisse inspiriert, sondern vor allem durch veränderte Perspektiven der Biografen, die an dem Komponisten Seiten entdeckten &#x2013; oder entdecken wollten&#x00A0;&#x2013;, die anderen Autoren bzw. Rezeptions-Epochen verborgen geblieben waren. Immer wieder dieselben Quellen, Ereignisse und Anekdoten erhielten dadurch immer wieder neue Deutungen.</p>
+            <p>Als Element der biografischen Konstruktion fungieren zuweilen die so genannten Choralkantaten. 1909 belegt <name ref="#grotjahn-pers032">Albert Schweitzer</name> mit ihnen seine Vorstellung, <name ref="#grotjahn-pers002">Bach</name> sei in mittelalterlichen Vorstellungen verwurzelt:
+               <quote source="#grotjahn-ftn4"><name ref="#grotjahn-pers002">Johann Sebastian Bach</name>, um <name ref="#grotjahn-pers017">Kants</name> Sprache zu reden, ist ein historisches Postulat. <lb/>Auf welchem Pfade man den Gang durch die mittelalterliche Dichtung und Musik unternimmt: immer wird man zu ihm geführt. <lb/>Was das Kirchenlied vom XII. bis zum XVIII.&#8239;Jahrhundert Herrliches geschaffen hat, schmückt seine Kantaten und Passionen. <lb/><name ref="#grotjahn-pers016">Händel</name> und die anderen lassen den kostbaren Schatz der Choralmelodien ungenützt liegen. Sie wollen von der Vergangenheit frei sein. <name ref="#grotjahn-pers002">Bach</name> empfindet anders. Er setzt den Choral zum Fundament seines Werkes.</quote><ref target="#Schweitzer1909" type="bibl" xml:id="grotjahn-ftn4" n="4">S.&#8239;2</ref></p>
+            <p>In <name ref="#grotjahn-pers002">Bachs</name> Hinwendung zur Choralkantate, die er in Einklang mit dem damaligen Forschungsstand in den 1730er Jahren verortet, sieht <name ref="#grotjahn-pers032">Schweitzer</name> eine Entscheidung des Komponisten gegen die moderne Dichtung, nachdem ihm endlich <q>das Unzulängliche seiner Kantatentexte zu Bewußtsein gekommen</q> war.<ref target="#Schweitzer1909" type="bibl" xml:id="grotjahn-ftn5" n="5" rend="ibid">S.&#8239;618</ref> Allerdings habe <name ref="#grotjahn-pers002">Bach</name> &#x2013; unter dem schlechten Einfluss der Textdichter &#x2013; nicht sofort zu einem adäquaten Umgang mit dem Choral gefunden; in den ersten Choralkantaten sei dieser vielmehr oft durch moderne dichterische bzw. kompositorische Verfahrensweisen entstellt. <name ref="#grotjahn-pers032">Schweitzers</name> Negativbeispiel ist die Kantate <hi rend="italic"><title ref="#grotjahn-work001">Wer nur den lieben Gott lässt walten</title></hi>, BWV&#x00A0;93, in der <q>die Choralverse mit freier Dichtung durchsetzt</q> seien, wie etwa im ersten Rezitativ mit seinen tropierenden Einschüben. Die kompositorische Verarbeitung der Choralmelodie sei die musikalische Entsprechung zu diesem Verfahren: <q>Wie <name ref="#grotjahn-pers014">Picander</name> hier mit dem Text, so geht <name ref="#grotjahn-pers002">Bach</name> mit der Melodie um</q>, indem er die <q>Themen der Soli […] alle aus den ersten Noten des Cantus firmus</q> bilde, sogar das <q>leichtgeschürzte Motiv</q> am Beginn der Arie <q>Man halte nur ein wenig stille</q>: 
+               <quote source="#grotjahn-ftn6">Dieses Spiel mag geistreich sein, künstlerisch zu befriedigen vermag es jedoch nicht. Es läuft auf eine Entstellung der Melodie hinaus und widerspricht <name ref="#grotjahn-pers002">Bachs</name> eigensten Prinzipien, da er sonst die Choralweise in dieser Art nicht antastet.</quote><note xml:id="grotjahn-ftn6" type="bibl" n="6">Vgl. <ref target="#Schweitzer1909" type="bibl" rend="ibid"/>. <name ref="#grotjahn-pers032">Schweitzer</name> irrt bei der Zuschreibung des Kantatenlibrettos an <name ref="#grotjahn-pers014">Picander</name>; zur Autorfrage siehe im vorliegenden Beitrag S.&#8239;<ref target="#grotjahn-div03" rend="page" type="crossref"/>.</note>
+            </p>
+            <p>Rund hundert Jahre später bezeichnet <name ref="#grotjahn-pers036">Christoph Wolff</name> die Choralkantaten als <q>Großprojekt</q>, an das der Komponist <quote source="#grotjahn-ftn7">systematisch heranging</quote>,<ref target="#Wolff2005" type="bibl" xml:id="grotjahn-ftn7" n="7">S.&#8239;301</ref> mit dem Ziel der <quote source="#grotjahn-ftn8">Schaffung eines durch und durch homogenen Kantaten-Jahrgangs, dessen besondere Grundidee er selbst imstande war zu definieren</quote>.<note xml:id="grotjahn-ftn8" n="8" type="bibl">Vgl.  <ref type="bibl" target="#Schweitzer1909" rend="ibid">S.&#8239;299</ref>.</note> Hier erscheint <name ref="#grotjahn-pers002">Bach</name> als Komponist, der sein Werk bewusst plant und konzipiert, entsprechend dem Bild des selbstbewussten Künstlers, das <name ref="#grotjahn-pers036">Wolff</name> in seiner Biographie erarbeitet:
+               <quote source="#grotjahn-ftn9">Erst bei Niederschrift dieses Buches und noch deutlicher im Nachhinein ist mir klar geworden, wie sehr das aus dem späten 18.&#8239;Jahrhundert überkommene Verständnis <name ref="#grotjahn-pers002">Bachs</name> im Sinne einer musikalischen Kultfigur auf ein offenbar vom Komponisten betriebenes und propagiertes Selbstverständnis zurückgeht. Nach allem, was wir heute wissen, war <name ref="#grotjahn-pers002">Bach</name> ein höchst selbstbewußter Mann &#x2013; ja einer, der offensichtlich keine Scheu hatte, sich in seiner Umgebung und im Kreise seiner Schüler durchaus zu einer Art <soCalled>Star</soCalled> zu stilisieren und sich bewundern zu lassen.</quote><ref target="#Schweitzer1909" type="bibl" xml:id="grotjahn-ftn9" n="9">S.&#8239;17</ref>
+            </p>
+            <p>Wie <name ref="#grotjahn-pers036">Wolff</name> an anderer Stelle zeigt, trug der Komponist selbst dafür Sorge, dass sein <q>Self-image</q> als Genie der Nachwelt übermittelt wurde: <quote source="#grotjahn-ftn10" xml:lang="en">Particularly remarkable, however, is the evidence (not merely a suspicion) that the groundwork for the image of <name ref="#grotjahn-pers002">Bach</name> the genius was laid by none other than the composer himself.</quote><ref target="#Wolff2001" type="bibl" xml:id="grotjahn-ftn10" n="10">S.&#8239;481</ref> Er stützt dies auf diverse verbale Aussagen, die <name ref="#grotjahn-pers002">Bach</name> selbst niederschrieb &#x2013; z.&#8239;B. im Familienstammbaum &#x2013; oder mittels seiner Schülerschaft verbreiten ließ. </p>
+            <p>Aber was ist mit <name ref="#grotjahn-pers002">Bachs</name> eigenem Medium, der Musik? Ein Maler, der ein Selbstporträt anfertigt, oder ein Schriftsteller, der einen Künstlerroman schreibt, spricht nicht über sein Selbstbild, sondern formt es mit seinen eigenen künstlerischen Mitteln aus. Entsprechendes wäre von einem künstlerisch selbstbewussten Musiker zu erwarten: ein musikalisches Selbstbild, so wie wir das von Komponisten wie <name ref="#grotjahn-pers031">Schumann</name> oder <name ref="#grotjahn-pers006">Berlioz</name> kennen.<note xml:id="grotjahn-ftn11" n="11">Vgl. hierzu: <ref target="#Grotjahn2013" type="bibl"/></note> Bei <name ref="#grotjahn-pers002">Bach</name> rechnen wir nicht mit dergleichen, schon weil in den von ihm vertonten Texten das Themenfeld Kunst und Künstlertum keine große Rolle zu spielen scheint. Indessen weist das Geniekonzept des 18.&#8239;Jahrhunderts, dessen Relevanz für <name ref="#grotjahn-pers002">Bach</name> <name ref="#grotjahn-pers036">Christoph Wolff</name> so überzeugend dargelegt hat, bekanntlich Berührungspunkte mit der Idee der göttlichen Schöpferkraft auf. Daraus ergibt sich die Möglichkeit, künstlerische Selbstaussagen mittels der Vertonung religiöser Texte zu konstruieren. Diese Überlegung soll meine Darstellung der Kantate <hi rend="italic"><title ref="#grotjahn-work001">Wer nur den lieben Gott lässt walten</title></hi> BWV&#x00A0;93 leiten.</p>
+            </div>
+         <div xml:id="grotjahn-div02">
+            <head></head>
+            <p>Wie wohl alle Kantaten <name ref="#grotjahn-pers002">Bachs</name> hat auch <hi rend="italic"><title ref="#grotjahn-work001">Wer nur den lieben Gott lässt walten</title></hi> mehrere Autoren. Die übliche Rede von der <q>Bach-Kantate</q><note xml:id="grotjahn-ftn12" n="12"><name ref="#grotjahn-pers002">Bach</name> verwendete den Begriff <q>Kantate</q> bekanntlich nicht für seine Kirchenmusiken. Ich passe mich pragmatisch dem heutigen Begriffsgebrauch an, der weltliche und geistliche gemischtbesetzte Vokalwerke gleichsetzt und auf die ab 1850 erstellte erste <name ref="#grotjahn-pers002">Bach</name>-Gesamtausgabe zurückgeht.</note> 
+               ist nicht nur eine Nachlässigkeit, sondern auch methodisch problematisch: Das Auseinanderhalten der Autoren und der von ihnen geschaffenen Stufen des Werks ist die Bedingung dafür, <name ref="#grotjahn-pers002">Bachs</name> eigenen Anteil zu verstehen. Ich werde daher zunächst sowohl auf das Lied, das der Kantate zugrunde liegt, als auch auf deren Libretto ausführlich eingehen.</p>
+            <p>Das Lied <hi rend="italic"><title ref="#grotjahn-work001">Wer nur den lieben Gott lässt walten</title></hi> wurde von <name ref="#grotjahn-pers024">Georg Neumark</name> (1621&#x2013;1681) als Einheit von Text und Musik geschaffen. Der Dichter hat die Nachwelt in einem autobiografischen Bericht über die Entstehung dieses Liedes informiert.<note xml:id="grotjahn-ftn13" n="13"><ref target="#Neumark1681" type="bibl"/>. Vgl. zur Entstehung auch <ref target="#Trunz1986" type="bibl"/>; <ref target="#Piper1990" type="bibl"/>; <ref target="#Henkys2001" type="bibl"/>.</note> Detailreich schildert er hier, wie er als neunzehnjähriger Student ausgeraubt worden war und danach verzweifelt ein Auskommen suchte. Nach Wochen fand er durch Zufälle eine Stelle als Hauslehrer. Dieses <q>gleichsam vom Himmel gefallene Glükk</q> veranlasste ihn dazu, <quote source="#grotjahn-ftn14">noch des ersten Tages /&#x00A0;meinem lieben Gott zu Ehren /&#x00A0;das hin und wieder wohl bekante Lied: Wer nur den lieben Gott läst walten […] etc. aufzusetzen</quote>.<ref target="#Neumark1681" type="bibl" xml:id="grotjahn-ftn14" n="14">S.&#8239;[21] mit Bezug zu ebd., S.&#8239;[10], Strophe&#x00A0;21. Die Schrift ist unpaginiert, Seitenangaben hier nach dem o.&#8239;a. Digitalisat.</ref> Ob die Fakten dieses im vierzigjährigen Abstand zum Geschehen niedergeschriebenen Berichts zutreffen, ist von weit geringerer Bedeutung als die Tatsache, dass es überhaupt eine autobiografische Verortung eines literarischen Produkts gibt, was, wie der Literaturwissenschaftler <name ref="#grotjahn-pers040">Erich Trunz</name> betont, im 17.&#8239;Jahrhundert nicht üblich war: <quote source="#grotjahn-ftn15">Wann und aus welcher seelischen Situation heraus ein Gedicht entstand, das haben die Dichter des Barocks nicht gesagt &#x2013; mit wenigen Ausnahmen; eine davon ist die hier zitierte Anmerkung <name ref="#grotjahn-pers024">Neumarks</name>.</quote><ref target="#Trunz1986" type="bibl" xml:id="grotjahn-ftn15" n="15">S.&#8239;64</ref></p>
+            <p>Wir wissen nicht, ob <name ref="#grotjahn-pers002">Bach</name> oder sein Librettist die Geschichte kannten. Sie war jedoch &#x2013; in leicht abgewandelter Form &#x2013; bereits in ihrer Zeit Teil des kulturellen Gedächtnisses. So erzählt <name ref="#grotjahn-pers015">Johann Herdegen</name> 1744, dass der Dichter, <q>dienstlos in grosser Armuth</q> lebend, seine <q>Viola di [!] Gamba</q> (von der bei <name ref="#grotjahn-pers024">Neumark</name> selbst nicht die Rede ist) habe versetzen müssen. Nachdem er eine Anstellung bekommen und das Instrument <quote source="#grotjahn-ftn16">wieder eingelöset, machte er das Lied: Wer nur den lieben GOtt lässt walten; und da ers componirt, spielte ers das erste mal darauf mit Vergiessung vieler Thränen</quote>.<ref target="#Amarantes1744" type="bibl" xml:id="grotjahn-ftn16" n="16"/> In dieser Version war die Geschichte noch im 19.&#8239;Jahrhundert verbreitet.<note xml:id="grotjahn-ftn17" n="17">Vgl. <ref target="#Neumark_ADB1886" type="bibl"/>.</note> Davon zeugt beispielsweise das Gedicht <q><name ref="#grotjahn-pers024">Georg Neumark</name> und die Gambe</q>, verfasst 1812 von keinem anderen als dem <hi rend="italic">Freischütz</hi>-Librettisten <name ref="#grotjahn-pers018">Friedrich Kind</name>. Die Schlussstrophen seien hier zitiert (der im Text erwähnte <q>Edle</q> ist ein Graf, der <name ref="#grotjahn-pers024">Neumark</name> finanziell rettet): </p>
+            <floatingText xml:id="grotjahn-float01">
+               <body>
+                  <lg>
+                     <l>Traun! würdig war die Ehrenspende</l>
+           				<l>Deß, der sie gab; deß, der sie nahm;</l>
+           				<l>Er drückt gerührt des Edlen Hände</l>
+           				<l>Mit stummem Dank, mit schöner Scham;</l>
+           				<l>Ihn treibt das volle Herz nach Haus,</l>
+           				<l>Doch &#x2013; lös’t er erst die Gambe aus.</l>
+                  </lg>
+                  <lg>
+                     <l>Nun grüßt er die verarmten Mauern,</l>
+           				<l>Die er so oft voll Grams geflohn,</l>
+           				<l>Mit Jubel, prüft mit süßen Schauern</l>
+           				<l>Den lieben, lang entbehrten Ton,</l>
+           				<l>Drückt fest die Gambe an die Brust</l>
+           				<l>Und stimmt sie ein mit inn’ger Lust.</l>
+                  </lg>
+                  <lg>
+                     <l>Nicht länger kann die Gluth sich halten,</l>
+           				<l>Er dichtet, spielt mit frommer Hand:</l>
+           				<l><q><hi rend="italic">Wer nur den lieben Gott läßt walten!</hi></q></l>
+           				<l>Noch immer singt es Stadt und Land,</l>
+           				<l>Und manches Herz, des Kummers Raub,</l>
+                     <l>Schlägt leichter, segnet Neumarks Staub.<ref xml:id="grotjahn-ftn18" target="#Kind1818" type="bibl">S.&#8239;242</ref></l>
+                  </lg>
+               </body>
+            </floatingText>
+            
+            <p><name ref="#grotjahn-pers018">Kinds</name> Gedicht, das Strophenbau und Vermaß aus <name ref="#grotjahn-pers024">Neumarks</name> Lied übernimmt und immer wieder Verse daraus zitiert, ist ein repräsentatives Dokument der Rezeptionsgeschichte des Liedes, die nicht nur von dessen großer Popularität geprägt ist, sondern auch vom Bewusstsein für den autobiografischen Entstehungsanlass. </p>
+                  <p>Erstmals gedruckt wurde das Lied 1657 in <hi rend="italic">G. Neumarks Fortgepflanzter Musikalisch-Poetischer Lustwald</hi><ref target="#Neumark1657" type="bibl" xml:id="grotjahn-ftn19" n="19"/> als Aria für Singstimme und Basso continuo mit einem Vorspiel für zwei Violinen &#x2013; der Dichter besaß offenbar hohe musikalische Kompetenzen und komponierte nicht nur zu diesem Text die Melodie selbst. Der Erstdruck verdeutlicht die Struktur des Gedichts grafisch. Die beiden Verse des sentenzartigen Abgesangs &#x2013; im Unterschied zu den kreuzreimigen Stollen als Paarreim angeordnet &#x2013; sind durch größere Schrift hervorgehoben (in der folgenden Wiedergabe kursiv gesetzt). Auffällig ist die Sonderrolle der sechsten Strophe, die insgesamt größer gedruckt ist.<!--<hi rend="annotation_reference">
+                        <note resp="Rebecca_Grotjahn">
+                           <date when="2015-10-03T14:03:00Z"/>NB HerausgeberInnen: Bitte die Orthographie des Liedtexts nicht ändern und aufpassen, dass die Autokorrektur nicht den zweiten Großbuchstaben jeweils beim Wort <q>GOtt</q> bzw. <q>ER</q> eliminiert. (Bei <q>Er</q> ist das nicht konsequent durchgeführt &#x2013; s. Str. 4 und 7).</note>
+                     </hi>--> </p>
+            <floatingText xml:id="grotjahn-float02" rend="twocolumns">
+               <body>
+                  <lg>
+                     <l>1.</l>
+           				<l>Wer nur den lieben GOtt läst walten /</l>
+           				<l>Und hoffet auf Ihn allezeit /</l>
+           				<l>Der wird Ihn wunderlich erhalten /</l>
+           				<l>In aller Noht und Traurigkeit. </l>
+                     <l><hi rend="italic">Wer GOtt dem Allerhöchsten traut</hi> /</l>
+                     <l><hi rend="italic">Der hat auf keinen Sand gebaut.</hi></l>
+                  </lg>
+                  <lg>
+                     <l>2. </l>
+           				<l>Was helfen uns die schwere Sorgen?</l>
+           				<l>Was hilft uns unser Weh und Ach?</l>
+           				<l>Was hilft es daß wir alle Morgen /</l>
+           				<l>Beseuftzen unser Ungemach?</l>
+                     <l><hi rend="italic">Wir machen unser Kreutz und Leid</hi> /</l>
+                     <l><hi rend="italic">Nur größer durch die Traurigkeit.</hi></l>
+                  </lg>
+                  <lg>
+                     <l>3.</l>
+                     <l>Man halte nur ein wenig stille /</l>
+                     <l>Und sey doch in sich selbst vergnügt /</l>
+                     <l>Wie unsres GOttes Gnadenwille /</l>
+                     <l>Wie sein’ Allwissenheit es fügt /</l>
+                     <l><hi rend="italic">GOtt der uns Ihm hat auserwehlt</hi> /</l>
+                     <l><hi rend="italic">Der weis auch sehr wohl was uns fehlt.</hi></l>
+                  </lg>
+                  <lg>
+                     <l>4.</l>
+           				<l>Er kennt die rechte Freudenstunden /</l>
+           				<l>Er weis wohl wenn es nützlich sey /</l>
+           				<l>Wenn ER uns nur hat treu erfunden /</l>
+           				<l>Und merket keine Heucheley.</l>
+                     <l><hi rend="italic">So kömmt GOtt eh wir uns versehn</hi> /</l>
+                     <l><hi rend="italic">Und lesset uns viel Guts geschehn.</hi></l>
+                  </lg>
+                  <cb/>
+                  <lg>
+                     <l>5.</l>
+           				<l>Denk nicht in deiner Drangsalshitze /</l>
+           				<l>Daß du von GOtt verlassen seyst /</l>
+           				<l>Und daß GOtt der im Schoße sitze /</l>
+           				<l>Der sich mit stetem Glükke speist.</l>
+                     <l><hi rend="italic">Die Folgezeit verändert viel</hi> /</l>
+                     <l><hi rend="italic">Und setzet Jeglichem sein Ziel.</hi></l>
+                  </lg>
+                  <lg>
+                     <l>6.</l>
+                     <l><hi rend="italic">Es sind ja GOtt sehr schlechte Sachen</hi> /</l>
+                     <l><hi rend="italic">Und ist dem Höchsten alles gleich</hi> /</l>
+                     <l><hi rend="italic">Den Reichen klein und arm zu machen</hi> /</l>
+                     <l><hi rend="italic">Den Armen aber groß und reich.</hi></l>
+                     <l><hi rend="italic">GOtt ist der rechte Wundermann</hi> /</l>
+                     <l><hi rend="italic">Der bald erhöhn</hi> /&#x00A0;<hi rend="italic">bald stürtzen kan.</hi></l>
+                  </lg>
+                  <lg>
+                     <l>7.</l>
+                     <l>Sing /&#x00A0;bet /&#x00A0;und geh auf GOttes Wegen /</l>
+           				<l>Verricht das Deine nur getreu /</l>
+           				<l>Und trau des Himmels reichem Segen /</l>
+           				<l>So wird Er bey dir werden neu.</l>
+                     <l><hi rend="italic">Denn Welcher seine Zuversicht</hi> /</l>
+                     <l><hi rend="italic">Auf GOtt setzt</hi> /&#x00A0;<hi rend="italic">den verläst Er nicht.</hi></l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>Die Adressaten des Liedes sind die Mitchristen, die zunächst entweder unpersönlich (Wer/der; man) oder in der 1.&#8239;Person Plural (wir/uns) angesprochen werden. Erst in Strophe&#x00A0;5 und dann erneut in Strophe&#x00A0;7 wird die 2.&#8239;Person Singular gewählt &#x2013; eine Intensivierung der Ansprache, die dadurch initiiert wird, dass in den jeweils vorausgehenden Strophen&#x00A0;4 und 6 das Gewicht auf dem Handeln Gottes liegt. Von ihm ist stets in der 3.&#8239;Person die Rede; das Gedicht hat also nicht den Charakter eines Gebets, sondern mit seinem starken Akzent auf dem Gegenüber eher den einer Predigt. An keiner Stelle des Gedichts wird das Wort <q>Ich</q> verwendet.</p>
+            <p>Unübersehbar sind einige Anklänge an Bibelstellen, insbesondere in Strophe&#x00A0;6 (hierzu unten mehr); daneben in Strophe&#x00A0;1 (<q>auf Sand gebaut</q> spielt auf Matthäus&#x00A0;7,&#x00A0;24&#x2013;27 an) und 5 (<q>Die Folgezeit verändert viel</q> mag sich auf Psalm&#x00A0;37 beziehen). Indessen macht <name ref="#grotjahn-pers040">Trunz</name> darauf aufmerksam, dass das Lied in seinen Formulierungen im Vergleich zu anderen Gedichten der Zeit eher wenige biblische Allusionen aufweist: <quote source="#grotjahn-ftn20">Daß es in Gedankengang und Sprachschatz im christlichen Bereich bleibt, war für <name ref="#grotjahn-pers024">Neumark</name> selbstverständlich. Deswegen sind Anklänge an die Sprache von Luthers Bibel und an das Erbauungsschrifttum der Zeit vorhanden, jedoch nur in allgemeiner Form.</quote><note xml:id="grotjahn-ftn20" n="20" type="bibl"><ref target="#Trunz1986" type="bibl">S.&#8239;60</ref>. Er widerspricht anderslautenden Einschätzungen, die weitere biblische Anspielungen feststellen wollen: <q>Doch wenn man diese Stellen ansieht, merkt man, daß es sich nur um allgemeine Anklänge handelt, zumal wenn man die Literatur des 17.&#8239;Jhds. kennt, die voll ist von Motiven und Formulierungen dieser Art.</q> (Ebd., Fn.&#8239;18.)
+                     </note>
+                  </p>
+            <p>Das Lied durchschreitet die Höhen und Tiefen menschlicher Affekte und lehnt sich dabei &#x2013; wie viele geistliche Lieder der Zeit &#x2013; an den Aufbau einer klassischen Rede an.<note xml:id="grotjahn-ftn21" n="21"><q>Das Lied des 17.&#8239;Jahrhundert <hi rend="italic">argumentiert</hi> oder &#x2013; was dasselbe ist &#x2013; es ist <hi rend="italic">theologische</hi> Dichtung.</q> <ref target="#Axmacher2008" type="bibl">S.&#8239;29</ref>.</note> Im Sinne einer <hi rend="italic">exordio</hi> nimmt die erste Strophe den Inhalt und die Botschaft des gesamten Texts voraus. Strophe zwei bis sechs bilden den Hauptteil, in dem sich typischerweise narrative und argumentierende Passagen verbinden. Zunächst wird in der zweiten Strophe eine negative Gefühlswelt aufgebaut, die als Ausgangspunkt des im Lied durchmessenen Prozesses dient: <q>Sorgen</q>, <q>Weh und Ach</q>, <q>Seufzen</q>, <q>Ungemach</q>, <q>Kreuz</q>, <q>Leid</q>, <q>Traurigkeit</q> &#x2013; der Jammer findet kein Ende, er erstreckt sich über ein zeitliches Kontinuum (<q>alle Morgen</q>) und verstärkt sich dabei noch selbst (<q>Wir machen unser Kreutz und Leid /&#x00A0;Nur größer durch die Traurigkeit</q>). Darauf antwortet die dritte Strophe mit einem Appell an Geduld und Gottvertrauen. Die vierte Strophe steigert die positive Botschaft: Gott weiß, wann es Zeit für Freude ist, er wird uns Gutes tun, sofern wir ihm treu sind. In der nächsten Strophe folgt eine Gegenrede, in der wieder negative Gefühle zur Sprache kommen, jedoch im Konjunktiv: Man könnte meinen, von Gott benachteiligt zu sein. Dem wird als Gegenargument der Glaube gegenüber gestellt: Alles kann sich ändern. Damit ist der Text am gedanklichen Kern angelangt, der nun in der &#x2013; im Erstdruck grafisch hervorgehobenen &#x2013; Strophe 6 breit ausgeführt wird. Dieser ist ein einziger Lobgesang auf Gottes Macht, die Dinge zu ändern. Ihr Text greift die berühmten Verse aus dem Magnificat (Lukas&#x00A0;1,&#x00A0;52&#8239;f.) auf: <q>Er stößt die Gewaltigen vom Thron und erhebt die Niedrigen. Die Hungrigen füllt er mit Gütern und lässt die Reichen leer ausgehen.</q><note xml:id="grotjahn-ftn22" n="22">Alle Bibelzitate in diesem Beitrag nach: <ref target="#Bibel1999" type="bibl"/>. Das Magnificat bezieht sich seinerseits auf den Lobgesang der Hannah (1.&#8239;Sam.&#8239;2,7): <q>Der Herr macht arm und macht reich, er erniedrigt und erhöht.</q></note> 
+               Die Rahmenverse der Strophe beziehen sich auf Jesaja&#x00A0;40,&#x00A0;4: <q>Alle Täler sollen erhöht werden und alle Berge und Hügel sollen erniedrigt werden, und was uneben ist, soll gerade, und was hügelig ist, soll eben werden</q>. Dass er alles ändern kann, das ist es, was Gott ausmacht, darum ist er <q>der rechte Wundermann</q>. So kann die Schlussstrophe als <hi rend="italic">peroratio</hi> die Botschaft der Eingangsstrophe reformulieren, die nun ihre Begründung gefunden hat: Wer seine Zuversicht auf Gott setzt, den verlässt er nicht. Das Bild der eingeebneten Höhenunterschiede aus der 6.&#8239;Strophe illustriert somit die Struktur des gesamten Gedichts: Das Auf und Ab der Affekte weicht dem Gottvertrauen.</p>
+         </div>
+         
+         <div xml:id="grotjahn-div03">
+            <head></head>
+            <p>Den Urheber oder die Urheberin der zweiten Stufe des Werks, des Kantatenlibrettos, kennen wir nicht. Dies gilt für sämtliche Texte des Bachschen Choralkantatenjahrgangs; es ist nicht einmal klar, ob dort verschiedene VerfasserInnen am Werke waren oder nur eine(r).<note xml:id="grotjahn-ftn23" n="23">Vgl. <ref target="#Schulze1998" type="bibl">insbes. S.&#8239;115</ref>.</note> 
+               Daraus lässt sich schließen, dass der Dichter offenbar nicht die Absicht hatte, mit dem Text als Autor hervorzutreten &#x2013; anders als etwa <name ref="#grotjahn-pers012">Salomon Franck</name>, <name ref="#grotjahn-pers038">Mariane von Ziegler</name> oder <name ref="#grotjahn-pers014">Christian Friderich Henrici</name> (<name ref="#grotjahn-pers014">Picander</name>), die ihre Kantatentexte als eigenständige Werke höchsten künstlerischen Anspruchs publizierten. Indessen ist auch der anonyme Librettist oder die Librettistin von <hi rend="italic">Wer nur den lieben Gott lässt walten</hi> weit mehr als nur ein <q>Bearbeiter</q>,<note xml:id="grotjahn-ftn24" n="24">So <ref target="#Emans1993" type="bibl">S.&#8239;28</ref>.</note> der lediglich den Liedtext in die Kantatenform übertrug.</p>
+            <p>In der Literatur wird die individuelle Gestalt der Choralkantatentexte zumeist wenig gewürdigt. So gilt der Text von BWV&#x00A0;93 vor allem als <quote source="#grotjahn-ftn25">Musterbeispiel für die Art, in der der unbekannte Textdichter seine Choralvorlage zu behandeln pflegte</quote>.<ref target="#Duerr2005" type="bibl" xml:id="grotjahn-ftn25" n="25">Bd.&#8239;1, S.&#8239;480</ref> 
+               Auch wenn wir ja nicht wissen, welche Texte dieser Dichter außerdem schrieb, ist dies soweit richtig, als der Text das übliche Modell der Choralkantate repräsentiert: Die äußeren Choralstrophen bleiben wie in der Vorlage, während die zweite bis vorletzte zu Arien- und Rezitativtexten umgearbeitet werden, mit unterschiedlicher Nähe zum Wortlaut des Chorals (manche Zeilen oder Strophen bleiben unverändert, bei anderen ist die Vorlage nur noch zu erahnen). Dennoch lohnt sich die genauere Analyse; denn auch die einem Muster folgende Umarbeitung kann den Text inhaltlich und strukturell verändern. Was geschieht mit dem Choraltext, wenn er zum Libretto verarbeitet wird? Werden Strukturen übernommen oder verändert? Kommen neue inhaltliche Aspekte hinzu? Verschieben sich Gewichte? Ziel der Analyse ist zu erkennen, wie und in welchem Maße sich der Librettist die Vorlage aneignet und so seine Autorschaft ins Spiel bringt.</p>
+            <p>Zu den Hintergründen der Gattung Choralkantate zählt die bereits im 16.&#8239;Jahrhundert existierende Choralbearbeitung <q>per omnes versus</q>.<note xml:id="grotjahn-ftn26" n="26">Vgl. <ref target="#Duerr2005" type="bibl">Bd.&#8239;1, S.&#8239;49&#8239;f.</ref></note> 
+               Erst durch <name ref="#grotjahn-pers002">Bach</name> bzw. seinen Librettisten werden Choräle so stark bearbeitet und umgedichtet, dass sie als Folge von Rezitativen und Arien strukturell der damals neuen Kantatenform entsprechen. Der Text der für den 5.&#8239;Sonntag nach Trinitatis bestimmten Kantate BWV&#x00A0;93<note xml:id="grotjahn-ftn27" n="27">Erstmals aufgeführt wurde <hi rend="italic">Wer nur den lieben Gott lässt walten</hi> am 9.&#8239;Juli 1724. Das Aufführungsmaterial der Erstaufführung ist freilich &#x2013; bis auf einen Bogen der Continuostimme &#x2013; verloren, die erhaltenen Quellen stammen von einer Wiederaufführung um 1732/33 (vgl. <ref target="#Emans1993" type="bibl"/>). Allerdings steht der Eingangschor in der früheren Version in b-Moll anstatt in dem a-Moll der Version von 1732. Ob die Kantate darüber hinaus weitere Änderungen erfuhr, lässt sich den Quellen nicht entnehmen, aber natürlich auch nicht ausschließen. Genau genommen betrachten somit alle AutorInnen (einschließlich meiner Person), die sich bisher mit dem Werk befasst haben, ein Stück aus den 1730er Jahren.</note> 
+               ist in den beiden Rahmenstrophen sowie in Strophe&#x00A0;4 bis auf orthographische Abweichungen nahezu identisch mit dem Originaltext von <name ref="#grotjahn-pers024">Neumark</name>.<note xml:id="grotjahn-ftn28" n="28">Den grammatikalisch problematischen dritten Vers <q>Der wird Ihn wunderlich erhalten</q> korrigiert bereits <name ref="#grotjahn-pers024">Neumark</name> in seinen Lebenserinnerungen zu <q>Den wird er wunderlich erhalten</q> (<ref target="#Neumark1681" type="bibl">S.&#8239;[21]</ref>, wodurch die <q>Wer &#x2013; Der</q>-Relation in den Zeilen&#x00A0;1 und 3 verschwindet und somit auch der Bezug zu den ebenfalls mit <q>Wer &#x2013; Der</q> beginnenden Versen&#x00A0;5 und 6.</note> 
+               Lediglich in Vers&#x00A0;4 der ersten Strophe gibt es eine inhaltliche Abweichung, die sich bereits in einigen Gesangbüchern der Zeit findet:<note xml:id="grotjahn-ftn29" n="29">So bereits in: <ref target="#Vopelius1682" type="bibl">S.&#8239;787&#8239;ff.</ref> (<q>in allem Creutz und Traurigkeit</q>), ebenso in der Neuausgabe: <ref target="#Vopelio1758" type="bibl">S.&#8239;258, Nr.&#8239;590</ref>. Auch das <ref target="#Schemelli1736" type="bibl">S.&#8239;343&#8239;f., Nr.&#8239;512</ref>, schreibt <q>in allem kreuz und traurigkeit</q>.</note> 
+               die <q>Noht</q> wurde durch das <q>Kreuz</q> ersetzt (<q>in allem Kreuz und Traurigkeit</q>), wodurch die materielle Not, die <name ref="#grotjahn-pers024">Neumark</name> im Blick hatte, theologisiert wird. Das Bild des Kreuzes wird in den Kantatenstrophen&#x00A0;2, 3 und 5 noch mehrmals aufgegriffen.</p>
+            <p>Auch die beiden Rezitative übernehmen die Liedverse nahezu unverändert, entfernen sich jedoch mit ihren umfangreichen Einschüben strukturell weit vom Liedtext. In Strophe&#x00A0;2 wird <name ref="#grotjahn-pers024">Neumarks</name> regelmäßiger Strophenbau durch eine unregelmäßige Reimfolge ersetzt; auch das Versmaß ist teilweise unregelmäßig: (die Übernahmen aus <name ref="#grotjahn-pers024">Neumarks</name> Lied sind in der Wiedergabe kursiv gesetzt<!--<hi rend="annotation_reference">
+                        <note resp="Rebecca_Grotjahn">
+                           <date when="2015-09-25T10:03:00Z"/>Hrsg.: Es wäre vielleicht besser, die Zeilen durchzunummerieren, damit die folgende Analyse leichter nachzuvollziehen ist. Aber wenn hier, dann auch bei den anderen Gedichtzitaten?</note>
+                     </hi>-->):</p>
+            <floatingText>
+               <body>
+                  <lg>
+                     <l><hi rend="italic">Was helfen uns die schweren Sorgen?</hi></l>
+                     <l>Sie drücken nur das Herz</l>
+                     <l>Mit Zentnerpein,</l>
+                     <l>Mit tausend Angst und Schmerz.</l>
+                     <l><hi rend="italic">Was hilft uns unser Weh und Ach?</hi></l>
+                     <l>Es bringt nur bittres <hi rend="italic">Ungemach</hi>.</l>
+                     <l><hi rend="italic">Was hilft es? daß wir alle Morgen</hi></l>
+                     <l>Mit <hi rend="italic">Seufzen</hi> von dem Schlaf aufstehn<note xml:id="grotjahn-ftn30" n="30">Bei <name ref="#grotjahn-pers024">Neumark</name> heißt die entsprechende Zeile&#x00A0;4: <q>beseuftzen unser Ungemach</q>; das Wort <q>Ungemach</q> hat der Librettist in die 6.&#8239;Zeile des Rezitativs verschoben.</note></l>
+                     <l>Und mit beträntem Angesicht<lb/>Des Nachts zu Bette gehn?</l>
+                     <l><hi rend="italic">Wir machen unser Kreuz und Leid</hi></l>
+                     <l><hi rend="italic">Durch</hi> bange <hi rend="italic">Traurigkeit nur größer</hi>.<note xml:id="grotjahn-ftn31" n="31">Vorlage der Zeile ist die Schlusszeile <name ref="#grotjahn-pers024">Neumarks</name>: <q>Nur größer durch die Traurigkeit</q>.</note></l>
+                     <l>Drum tut ein Christ viel besser,</l>
+                     <l>Er trägt sein Kreuz</l>
+                     <l>Mit christlicher Gelassenheit.</l>
+                  </lg>
+               </body>
+            </floatingText>
+            <p>Das Kantatenlibretto verstärkt die negativen Affekte, die bereits <name ref="#grotjahn-pers024">Neumarks</name> zweite Strophe prägen. Werden im Original die drei direkt aufeinander folgenden Fragen <q>Was helfen/was hilft es …?</q> zusammenfassend mit der Aussage beantwortet, dass die Traurigkeit das Leid nur noch vertieft, so erhält im Libretto jede Frage eine Antwort, die die entsprechende Aussage wort- und bilderreich variiert. Die dritte Frage wird überdies selbst ausgebaut: Zu den Seufzern am Morgen kommen die Tränen der Nacht. So setzen die ersten zehn Zeilen den Gedanken um, der anschließend (angelehnt an die Zeilen&#x00A0;5/6 des Originaltexts) formuliert wird: <q>Wir machen unser Kreuz und Leid /&#x00A0;Durch bange Traurigkeit nur größer</q>: In der Tat ist der Leidensaffekt im Vergleich zur Vorlage im Libretto erheblich angewachsen. Zugleich wird der Blick auf die Lösung des Problems geöffnet: Durch die Verschiebung der <q>Traurigkeit</q> in die Zeilenmitte (Zeile&#x00A0;12) wird der originale Reim zum Wort <q>Leid</q> aufgehoben und stattdessen ein neuer initiiert, der zur zentralen Botschaft des Liedes führt: Auf <q>größer</q> reimt sich <q>besser</q>, und <q>besser</q> ist, dass ein Christ sein Kreuz mit <q>christlicher Gelassenheit</q> trägt. In ähnlicher Weise verbindet auch der Schlussreim den Trost mit dem vorher ausgesprochenen Jammer: Die <q>Gelassenheit</q> bezieht sich auf das <q>Leid</q> vier Zeilen weiter oben.</p>
+            <p>An die Theologie der zweiten Strophe schließen die Veränderungen in der dritten Strophe an: Rät der Originaltext dazu, <q>stille</q> in sich selbst vergnügt zu sein, soll nun <q>stille</q> die Kreuzesstunde erwartet werden. Weiterhin wird der bereits bei <name ref="#grotjahn-pers024">Neumark</name> vorhandene Gedanke ausgeführt, dass der allwissende Gott seine Auserwählten kennt und tröstet &#x2013; wie ein Vater seine Kinder.</p>
+                  <table xml:id="grotjahn-table01" rend="noRules">
+                     <head></head>
+                     <row role="label">
+                        <cell>Libretto Arie Nr.&#8239;3</cell>
+                        <cell>Neumark Strophe 3</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <l><hi rend="italic">Man halte nur ein wenig stille,</hi></l>
+                           <l>Wenn sich die Kreuzesstunde naht,</l>
+                           <l><hi rend="italic">Denn unsres Gottes Gnadenwille</hi></l>
+                           <l>Verläßt uns nie mit Rat und Tat.</l>
+                           <l>Gott, der die Auserwählten kennt,</l>
+                           <l>Gott, der sich uns ein Vater nennt,</l>
+                           <l>Wird endlich allen Kummer wenden</l>
+                           <l>Und seinen Kindern Hilfe senden.</l>
+                        </cell>
+                        <cell>
+                           <l>Man halte nur ein wenig stille /</l>
+                           <l>Und sey doch in sich selbst vergnügt /</l>
+                           <l>Wie unsres GOttes Gnadenwille /</l>
+                           <l>Wie sein’ Allwissenheit es fügt /</l>
+                           <l><hi rend="italic">GOtt der uns Ihm hat auserwehlt</hi> /</l>
+                           <l/>
+                           <l><hi rend="italic">Der weis auch sehr wohl was uns fehlt.</hi></l>
+                           <l/>
+                        </cell>
+                     </row>
+                  </table>
+            <p><milestone rendition="#latex-grotjahn-vspace-6ex"/>Während die unveränderte Strophe&#x00A0;4 auch im Kantatenlibretto als freudiger Kontrast zu den düsteren Affekten der vorausgehenden Strophen dient, finden sich in der fünften Strophe wieder zahlreiche Tropierungen, die den Bezug zum Evangeliumstext des Sonntags herstellen und diverse weitere biblische Anspielungen einbauen.<note xml:id="grotjahn-ftn32" n="32">Zu den biblischen Anspielungen in der Kantate vgl. <ref target="#Duerr2005" type="bibl">Bd.&#8239;2, S.&#8239;480</ref>, und <ref target="#Meyer1997" type="bibl">S.&#8239;88</ref>.</note> Damit ähnelt der Satz strukturell Predigten der Zeit, die zuweilen wie Montagen aus Zitaten der unterschiedlichsten Büchern der Bibel wirken. Durch die unregelmäßige Reimstruktur und die durch unterschiedliche Längen und Akzente geprägten Zeilen tendiert diese Strophe noch stärker zur Prosa als das Rezitativ Nr.&#8239;2. Dem Predigtcharakter dürfte auch der Bezug zur aktuellen Wetterlage entsprechen, der die Strophe einrahmt (der 5.&#8239;Sonntag nach Trinitatis fällt stets in den Hochsommer). </p>
+            <floatingText>
+               <body>
+                  <l><hi rend="italic">Denk nicht in deiner Drangsalshitze</hi>,</l>
+                  <l>Wenn Blitz und Donner kracht</l>
+                  <l>Und dir ein schwüles Wetter bange macht,</l>
+                  <l><hi rend="italic">Daß du von Gott verlassen seist.</hi></l>
+                  <l>Gott bleibt auch in der größten Not,</l>
+                  <l>Ja gar bis in den Tod</l>
+                  <l>Mit seiner Gnade bei den Seinen.</l>
+                  <l>Du darfst nicht meinen,</l>
+                  <l><hi rend="italic">Daß dieser Gott im Schoße sitze,</hi></l>
+                  <l>Der täglich wie der reiche Mann</l>
+                  <l>In Lust und Freuden leben kann.</l>
+                  <l><hi rend="italic">Der sich mit stetem Glücke speist,</hi></l>
+                  <l>Bei lauter guten Tagen,</l>
+                  <l>Muß oft zuletzt,</l>
+                  <l>Nachdem er sich an eitler Lust ergötzt,</l>
+                  <l><q>Der Tod in Töpfen!</q> sagen.</l>
+                  <l><hi rend="italic">Die Folgezeit verändert viel!</hi></l>
+                  <l>Hat <name>Petrus</name> gleich die ganze Nacht</l>
+                  <l>Mit leerer Arbeit zugebracht</l>
+                  <l>Und nichts gefangen:</l>
+                  <l>Auf Jesu Wort kann er noch einen Zug erlangen.</l>
+                  <l>Drum traue nur in Armut, Kreuz und Pein</l>
+                  <l>Auf deines Jesu Güte</l>
+                  <l>Mit gläubigem Gemüte.</l>
+                  <l>Nach Regen gibt er Sonnenschein</l>
+                  <l><hi rend="italic">Und setzet jeglichem sein Ziel.</hi></l>
+               </body>
+            </floatingText>
+            <p>Es ist keine willkürliche Idee des Dichters, ausgerechnet diesem Satz einen so ausgeprägten Predigtcharakter zu verleihen. Die Grundlage hierfür findet er in <name ref="#grotjahn-pers024">Neumarks</name> Text, in dem die fünfte Strophe durch die direkte Ansprache des <q>Du</q> gekennzeichnet ist. Dies aufgreifend, formuliert der Librettist seine Strophe als intensive Ansprache: <q>Denk nicht</q>, <q>Du darfst nicht meinen</q>, <q>Drum traue nur</q>: Schritt für Schritt wird der Gläubige überzeugt, unter Einbeziehung von Alltagserfahrungen (Gewitter) und vertrauten biblischen Geschichten. Hierzu gehören neben dem Fischzug des <name>Petrus</name> &#x2013; dem für den Sonntag vorgesehenen Evangeliumstext &#x2013; die Geschichte vom reichen Mann und armen <name>Lazarus</name> (Lk.&#8239;16,&#x00A0;19&#x2013;31, angeregt durch die schon bei <name ref="#grotjahn-pers024">Neumark</name> vorhandene Formulierung <q>daß Gott der im Schoße sitze</q>) und die des Propheten <name>Elisa</name>, der mit seinen Kochkünsten ein ungenießbares Gericht (<q>der Tod in Töpfen</q>) in ein wohlschmeckendes verwandelt (2.&#8239;Kö.&#8239;4,&#x00A0;38&#x2013;41). Stets geht es um die Idee, dass sich alles ändern kann.</p>
+            <p>Lassen sich die bisher aufgezeigten Veränderungen des Librettos mehr oder weniger auf inhaltliche und strukturelle Aspekte zurückführen, die bereits in <name ref="#grotjahn-pers024">Neumarks</name> Lied angelegt sind, so entfernt sich die sechste Strophe weiter von der Vorlage. Dies fällt freilich nicht sofort auf, da Anzahl und Längen der Zeilen beibehalten bleiben. Jedoch besteht ein erheblicher Eingriff darin, dass hier zwei Aspekte hinzukommen, die in <name ref="#grotjahn-pers024">Neumarks</name> Text keine Rolle spielen: das gläubige Subjekt und der Wille. Dies wird durch strukturelle Maßnahmen gestützt.</p>
+            <table xml:id="grotjahn-table02" rend="noRules">
+                     <head></head>
+                     <row role="label">
+                        <cell>Libretto Arie Nr.&#8239;6</cell>
+                        <cell>Neumark Strophe 6</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <l>Ich will auf den Herren schaun</l>
+                           <l>Und stets meinem Gott vertraun.</l>
+                           <l>Er ist der rechte Wundersmann.<note xml:id="grotjahn-ftn33" n="33">Das Fugen-s in <q>Wundersmann</q>, das sich weder im Erstdruck von <name ref="#grotjahn-pers024">Neumarks</name> Lied noch in den von mir eingesehenen Gesangbüchern findet, wird hier aus der NBA und dem bei Bach Digital reproduzierten Autograph (online abrufbar unter <ref target="http://www.bach-digital.de/receive/BachDigitalSource_source_00003237"/>) übernommen.</note>
+                           </l>
+                           <l>Der die Reichen arm und bloß</l>
+                           <l>Und die Armen reich und groß</l>
+                           <l>Nach seinem Willen machen kann.</l>
+                        </cell>
+                        <cell>
+                           <l>Z.&#8239;1: Es sind ja Gott sehr schlechte Sachen</l>
+                           <l>Z.&#8239;2: Und ist dem Höchsten alles gleich</l>
+                           <l>Z.&#8239;5: Gott ist der rechte Wundermann</l>
+                           <l>Z.&#8239;3: Den Reichen klein und arm zu machen </l>
+                           <l>Z.&#8239;4: Den Armen aber groß und reich</l>
+                           <l>[Z.&#8239;6: Der bald erhöhn bald stürtzen kan.]</l>
+                        </cell>
+                     </row>
+                  </table>
+            <p><milestone rendition="#latex-grotjahn-vspace-4ex"/>Nur scheinbar eine Äußerlichkeit ist die Veränderung der Reimstruktur: Aus der Folge Kreuzreim &#x2013; Paarreim wird Paarreim &#x2013; umarmender Reim. Anstelle einer abschließenden zweizeiligen Sentenz bekommt die Strophe damit einen zweizeiligen Anfangsteil, der gänzlich neu formuliert ist. Geradezu programmatisch beginnt die Strophe nun mit dem Wort <q>Ich</q>: Als Antwort auf die Predigt der vorausgehenden Strophe spricht nun der Gläubige, der in der Vorlage ja nur im Paratext &#x2013; <name ref="#grotjahn-pers024">Neumarks</name> autobiografischem Kommentar &#x2013; zu Wort gekommen war, erstmals von sich selbst. Zugleich wird Gott zum persönlichen Gott, <q>meinem Gott</q>. Erst danach wird er als <q>Wundersmann</q> apostrophiert. Seine Macht wird mithin nicht mehr als quasi objektive Tatsache festgestellt, sondern als Überzeugung des Gläubigen formuliert. </p>
+            <p>Die folgenden drei Verse entstammen der Liedstrophe, jedoch wird ihre Reihenfolge verändert, indem die Kernaussage &#x2013; <q>Gott ist der rechte Wunder[s]mann</q> &#x2013; nun der Anspielung an das Magnificat vorausgeschickt wird. Dadurch ergibt sich der umarmende Reim mit dem Schlussvers, durch den die Zeilen 3&#x2013;6 als geschlossener Abschnitt erscheinen. Das Reimwort <q>kan[n]</q> bleibt freilich das einzige, das der Librettist aus <name ref="#grotjahn-pers024">Neumarks</name> letzter Gedichtzeile übernimmt. Er verbindet es mit einem weiteren völlig neuen Aspekt, nämlich dem des göttlichen Willens, der hier als zusätzliche Instanz zu Gottes Fähigkeit, die Dinge zu ändern, betont wird. Der Begriff taucht bereits am Beginn der Strophe auf: <q>Ich will auf den Herren schaun</q>.<note xml:id="grotjahn-ftn34" n="34">Hier wird der Prophet <name>Micha</name>&#x00A0;(7,7) zitiert: <q>Ich aber will auf den Herrn schauen und harren auf den Gott meines Heils; mein Gott wird mich erhören.</q> <q>Ich will</q> ist im Kontext dieses Bibeltexts nicht etwa nur eine Absichtserklärung, sondern betont die Entscheidung des Ichs, sich anders zu verhalten als die Personen seines Umfelds.</note> 
+               Dadurch wird die Strophe gerahmt &#x2013; und noch mehr: Es ergibt sich zugleich eine Verbindung zwischen dem Willen des Ich und dem Gottes. </p>
+            <p>Ohne Änderungen übernimmt das Libretto die abschließende Strophe&#x00A0;7. Sie ist dennoch nicht identisch mit dem Liedtext <name ref="#grotjahn-pers024">Neumarks</name>, denn im Kontext des Librettos bedeutet sie eine Rückkehr von dem über sich selbst sprechenden Subjekt zur Anrede in der 2. Person. Die entscheidende Änderung der vorletzten Strophe wird dadurch nicht entwertet: Indem er den Gläubigen <q>Ich</q> sagen lässt, artikuliert sich der Librettist als Autor.</p>
+         </div>
+         <div xml:id="grotjahn-div04">
+            <head></head>
+            <p>Die Musik, die <name ref="#grotjahn-pers002">Johann Sebastian Bach</name> zu der Kantate schrieb, ist bisher nicht Gegenstand ausführlicher Analysen geworden. Ähnlich wie der Text wird sie in der Literatur vor allem als typisches Beispiel der Choralkantate herangezogen: In den Ecksätzen bleibt die Vorlage in Text und Melodie beibehalten (wenn auch im Eingangssatz in der Regel mit erheblichen Erweiterungen), die Mittelsätze entfernen sich unterschiedlich weit von ihr &#x2013; von der strengen Choralbearbeitung bis hin zu kaum mehr erkennbaren Bezügen. Dem entsprechend stellt <name ref="#grotjahn-pers039">Dürr</name> zu BWV&#x00A0;93 fest: <quote source="#grotjahn-ftn35">Die musikalische Formung schließt sich eng an die des Textes an.</quote><ref target="#Duerr2005" type="bibl" xml:id="grotjahn-ftn35" n="35">Bd.&#8239;2, S.&#8239;481</ref> 
+               Dies ist insofern eine Selbstverständlichkeit, als die Formen Arie und Rezitativ vom Libretto vorgegeben sind. Ergiebiger ist es, nach den kompositorischen Entscheidungen innerhalb der Vorgaben zu fragen und zu analysieren, wie sich die Vertonungsgrundlagen &#x2013; das Libretto und der Choral &#x2013; durch die weitere künstlerische Verarbeitung &#x2013; die Komposition &#x2013; strukturell und inhaltlich verändern, und zwar auf der Ebene Musik zu Text und Musik zu Musik. Wie oben mit Blick auf das Libretto ist auch hier das Ziel, zu erkennen, wie und in welchem Maße sich der Komponist die Vorlage aneignet und so seine Autorschaft ins Spiel bringt.</p>
+            <p>Diese Frage scheint sich allerdings fast zu erübrigen, sobald die ersten Takte der Kantate erklingen: Das ist unüberhörbar <name ref="#grotjahn-pers002">Bach</name>. Das bekannte Gesangbuchlied ist kaum wiederzuerkennen. Auf das Fünffache seiner ursprünglichen Länge<note xml:id="grotjahn-ftn36" n="36">Um die Länge des Chorals zu messen, kann man sich an <name ref="#grotjahn-pers002">Bachs</name> Schlusschoral orientieren: Er umfasst 15&#x00A0;Takte und dauert in einer durchschnittlichen heutigen Aufführung ungefähr eineinviertel Minuten; der Eingangschor ist 75&#x00A0;Takte lang und dauert gut 6&#x00A0;Minuten.</note> 
+               gedehnt, zeigt der Eingangschor eine klangliche, rhythmische und harmonische Vielfalt und satztechnische Komplexität, die die Aufmerksamkeit der Hörenden unmittelbar auf <name ref="#grotjahn-pers002">Bachs</name> kompositorische Meisterschaft lenkt. Gleichwohl bleibt das Lied zentraler Orientierungspunkt &#x2013; nicht nur, weil die Barform (weitgehend) erhalten bleibt und jede Choralzeile in ihrer (nahezu) originalen melodischen Gestalt zitiert wird, sondern auch, weil sich die Motivik der konzertierenden Partien auf die Choralmelodie zurückführen lässt. Der Satz ist so komponiert, dass sich der Choral aus den Motiven der konzertierenden Partien allmählich herauszuschälen scheint. Im Ritornell zu Beginn wird er zunächst angedeutet: durch die fallende Terz <hi rend="italic">h</hi> &#x2013; <hi rend="italic">g</hi> am Ende der ersten Phrase in der Oboenmelodie (T.&#8239;3) und durch den Bass, dessen erste drei Takte sich fast für die Harmonisierung des Chorals eignen würden (vgl. den Beginn des Basses im Schlusschoral Nr.&#8239;7). Die folgende konzertante Vokalpartie greift auf das Ritornell zurück (Rhythmus Achtel &#x2013; vier Sechzehntel; sequenzierende Sechzehntelketten), setzt jedoch bereits mit dem charakteristischen Quartsprung der Choralmelodie ein und übernimmt auch deren melodischen Umriss, bevor dann die Melodie der ersten Choralzeile &#x2013; in homophonem Vokalsatz &#x2013; als Vokaleinbau mit der (variierten) Wiederholung des Ritornells verbunden wird. Der Choral hat hier also nicht den Charakter einer Vorgabe, sondern scheint erst im Verlauf des Satzes zu entstehen. Das gilt auch für die zweite Hälfte des Stollens. Im zweiten Ritornell (ab T.&#8239;13, verschränkt mit dem Schluss der ersten Choralzeile) wird die aus dem ersten Ritornell vertraute auftaktige Tonwiederholung des Beginns aufgegriffen und in Takt&#x00A0;15 von der Altstimme übernommen. Hier ist sie der Beginn der mit einer Wechselnote verzierten und neu rhythmisierten Melodie der Choralzeile&#x00A0;2, die in Sopran und Alt kanonisch sequenziert wird, bevor sie in T.&#8239;19 zu ihrer eigentlichen Gestalt findet. So entpuppt sich das vermeintlich <q>choralunabhängige</q><note xml:id="grotjahn-ftn37" n="37"><ref target="#Duerr2005" type="bibl">Bd.&#8239;2, S.&#8239;481</ref>. Vgl. auch <ref type="bibl" target="#Schulze2007">S.&#8239;322</ref>. </note> 
+               Anfangsmotiv des ersten Ritornells im Nachhinein als Ableitung aus der Choralzeile&#x00A0;2. </p>
+                  <p>Es würde zu weit führen, die raffinierte Kompositionstechnik des Eingangssatzes hier im Detail darzustellen. Nur auf drei besonders interessante Aspekte sei an dieser Stelle hingewiesen:</p>
+                  <list>
+                     <item>den stets anders gestalteten Vokaleinbau, der den Choral und den konzertierenden Satz immer enger zusammenwachsen lässt, bis beides fast ununterscheidbar wird (die letzte Choralzeile wird nur noch vom Sopran in das Vokal-Instrumentalkonzert eingebaut und erscheint hier als Augmentation eines in T.&#8239;61 eingeführten und in der Weise einer Fugen-Engführung behandelten Themas).</item>
+                     <item>die ideenreiche Textausdeutung, besonders schön erkennbar in der Verarbeitung des  zweiten Stollens, die zunächst wie eine Wiederholung des ersten Teils daherkommt, aber immer wieder durch kleine Abweichungen auf Zentralbegriffe hinweist, etwa (er-)<q>halten</q> (gehaltene Noten in T.&#8239;30), <q>wunderlich</q> (T.&#8239;33: verminderter Quartsprung im Bass, dadurch unerwartete <soCalled>Doppeldominante</soCalled>) oder <q>Kreuz und Traurigkeit</q> (T.&#8239;39&#x2013;42 <soCalled>expressive</soCalled> Melodik, insbesondere im Bass).</item>
+                     <item>die Tatsache, dass <name ref="#grotjahn-pers002">Bach</name> seine individuelle Interpretation der vorgegebenen Barform durch die Umbesetzung der Wiederholung des Stollens (Tenor und Bass statt Sopran und Alt) geradezu plakativ hervorhebt.</item>
+                  </list>
+            <p>Dass der Satz mit dem Hinweis auf seine Modellhaftigkeit nicht angemessen beschrieben ist, dürfte deutlich geworden sein. <name ref="#grotjahn-pers002">Bach</name> nutzt die konventionelle Vorlage dazu, sich als origineller Komponist zu zeigen. Der Choral ist für ihn Material, mit dem er vollständig nach seinem eigenen Willen verfährt.</p>
+            <p>Dies gilt auch für die folgenden Sätze. Der Einbau der Choralmelodie in die beiden Rezitative lässt sich als Verbindung von Allgemeinem mit Individuellem verstehen: Das längst in kollektiven Besitz übergegangene Lied wird, ariosohaft verändert und ausgeziert, zur Aussage des Einzelnen. Aus den Ornamentierungen heraus entwickelt sich direkt der expressive Textausdruck; so etwa zu Beginn von Nr.&#8239;2, wo die einen Septakkord umfassende Verzierung ([schwe-]<q>ren Sorgen</q>) aufgegriffen und in die verminderten Intervalle in T.&#8239;4&#x2013;5, 8&#x2013;9 und 11&#8239;ff. überführt wird. Überdies verwenden die Rezitative eine geradezu experimentelle Harmonik, die auch die Choralmelodie selbst ergreift. In Nr.&#8239;5 führt <name ref="#grotjahn-pers002">Bach</name> die einzelnen Liedzeilen durch die Tonarten es-Moll&#x00A0;&#x2013; f-Moll&#x00A0;&#x2013; b-Moll&#x00A0;&#x2013; c-Moll&#x00A0;&#x2013; a-Moll, um bei <q>und setzet jeglichem sein Ziel</q>, in der Zieltonart g-Moll zu landen, freilich nicht ohne ausgerechnet das Wort <q>Ziel</q> mit einem Trugschluss zu harmonisieren.</p>
+            <p>Wie in der Aria Nr.&#8239;3 der Choral zu einer Melodie völlig anderen Charakters umgearbeitet wird, hat bereits <name ref="#grotjahn-pers032">Albert Schweitzer</name> beschrieben (wenn auch nicht gutgeheißen).<note xml:id="grotjahn-ftn38" n="38">Siehe oben S.&#8239;<ref target="#grotjahn-ftn6" type="crossref" rend="page"/>.</note>  
+               Die Idee, die Choralmelodie durch Pausen zu unterbrechen, mag durch den Text angeregt sein: <q>Man halte nur ein wenig stille.</q> Es entsteht dadurch eine zweitaktige Motivik als Grundlage eines geradezu <soCalled>quadratisch</soCalled> strukturierten Satzes, in dem sich Zwei-, Vier- und Achttaktgruppen jeweils zu geschlossenen Einheiten verbinden. Dieser modern angelegten Arie steht mit dem Duett Nr.&#8239;4 eine traditionelle kontrapunktische Choralbearbeitung gegenüber, in dem die instrumental vorgetragene Choralzeile auf die vorausimitierende Bearbeitung in Sopran, Alt und basso continuo antwortet.<note xml:id="grotjahn-ftn39" n="39">Eine Orgelbearbeitung dieser Arie hat <name ref="#grotjahn-pers002">Bach</name> später in die <title>Sechs Choräle von verschiedener Art</title>, die so genannten <title>Schübler-Choräle</title>, aufgenommen (BWV&#x00A0;647).</note>
+            </p>
+            <p>Ein besonderes Augenmerk soll an dieser Stelle auf die kompositorische Verarbeitung der sechsten Strophe gerichtet werden, also derjenigen, die, wie gezeigt, sowohl im Lied als auch im Libretto eine Sonderstellung innehat. Gleichwohl fand sie bisher kaum das Interesse der musikwissenschaftlichen Forschung. Festgestellt wurde lediglich das Offensichtliche: die Choralzitate in den Takten 23&#8239;ff., 28&#8239;ff., 31&#8239;f. und 35&#8239;ff. Wenn allerdings <name ref="#grotjahn-pers020">Konrad Küster</name> schreibt, dass <q>Text und Melodie der 5. Zeile […] wörtlich übernommen</q><note xml:id="grotjahn-ftn40" n="40"><ref target="#Kuester1999" type="bibl">S.&#8239;258</ref>.</note> werden, übersieht er, dass die fragliche Textzeile &#x2013; <q>Er ist der rechte Wunder[s]mann</q> &#x2013; zwar im <name ref="#grotjahn-pers024">Neumark</name>-Lied die fünfte, im Libretto jedoch die dritte Zeile ist. Dass <name ref="#grotjahn-pers002">Bach</name> sie wieder mit ihrer ursprünglichen Melodie verbindet, ist ebenso seine <q>freie kompositorische Entscheidung</q> wie die von <name ref="#grotjahn-pers020">Küster</name> als solche apostrophierte Maßnahme, <quote source="#grotjahn-ftn41">den Reimpartner dieser Zeile, den der Dichter frei formuliert hat, in der Melodie der letzten Choralzeile zu fassen</quote>.<note xml:id="grotjahn-ftn41" n="41" type="bibl">Vgl. <ref target="#Kuester1999" type="bibl" rend="ibid">S.&#8239;258</ref>.</note> Noch mehr Unabhängigkeit beweist der Komponist damit, dass er keine anderen Bestandteile der Liedmelodie zitiert. Mit den durch die rhythmische Gestaltung klar von ihrer Umgebung abgehobenen Melodiezitaten erfahren die beiden Zeilen <q>Er ist der rechte Wunder[s]mann</q> und <q>nach seinem Willen machen kann</q> eine deutliche Hervorhebung.</p>
+            <p>Indessen ist die Choralmelodie &#x2013; genauer: die beiden Melodiezeilen fünf und sechs&#x00A0;&#x2013; auch im weiteren Verlauf der Arie präsent. Aus ihnen deduziert <name ref="#grotjahn-pers002">Bach</name> einen überwiegenden Teil des Motivmaterials. Die Idee dazu mag ihm durch ihre strukturelle Ähnlichkeit gekommen sein: Anders als die Stollenzeilen bestehen die beiden Verse des Abgesangs ausschließlich aus Sekundschritten, und sie stehen (bei etwas großzügiger Betrachtung) im Umkehrungsverhältnis zueinander. Tonleiterausschnitte, wie sie den Abgesang kennzeichnen, finden sich in der Arie auf Schritt und Tritt, und sie sind keineswegs, wie man meinen könnte, beliebiges unspezifisches Material. Ihre Motivfunktion zeigt sich gleich im ersten Takt: Die Oboe beginnt mit der halben aufsteigenden Skala in umspielter Version, im Abstand einer Viertelnote folgt im Kanon (ohne Umspielungen) der Basso continuo. Nahezu genauso ist die Devise in T.&#8239;9 gestaltet, nur dass die Singstimme auf die Umspielungen der Skala verzichtet. Dies wiederholt sich zwei Takte später, beim endgültigen Einsatz der Singstimme; hier wird der Kanon (im Bass beim vierten Ton aus satztechnischen Gründen abgeändert) ergänzt durch die Hinzufügung der diminuierten Version der Skala in der Oboe. Weitere drei Takte später, in T.&#8239;14&#8239;f., wird die Melodik umgekehrt; die abwärts geführte Skala der Singstimme wird im Sekundabstand vom Kanon in der Unterquinte begleitet. (Die Skala ist an dieser Stelle auf sieben Töne erweitert, was in der Singstimme durch einen Oktavsprung in der Mitte verschleiert wird.) Solche kanonischen Verhältnisse zwischen den Skalenausschnitten finden sich an diversen weiteren Stellen (T.&#8239;19, 20, 30, 32). Die umspielte Version wird auch als Begleitung des Zitats von Choralmelodiezeile&#x00A0;5 eingesetzt (T.&#8239;23&#8239;ff.), die hier als Augmentation seines Begleitmotives erscheint; ebenso erscheint Choralmelodiezeile&#x00A0;6 in T.&#8239;35&#8239;f. als Augmentation der halben Abwärtsskala im Bass. Auch die Begleitung der Aufwärts- mit der Abwärtsskala, also die Ausnutzung des Umkehrungsverhältnisses, findet sich (T.&#8239;33&#8239;f.). Und wenn keine Imitationsstrukturen erkennbar sind, so ist doch immer noch ein Großteil der Oboenstimme mit dem in den ersten beiden Takten vorgestellten Material verwandt. Der Komponist zeigt sich als ein rechter <q>Wundersmann</q>, der alles <q>nach seinem Willen machen kann</q>.</p>
+         </div>
+         <div xml:id="grotjahn-div05">
+            <head></head>
+            <p>Der Komponist als Wundersmann? Kann es sein, dass <name ref="#grotjahn-pers002">Bach</name> eine im Text Gott zugeschriebene Bezeichnung auf seine eigene Künstlerschaft angewandt haben könnte? Ist eine solche Lesart nicht blasphemisch angesichts der tiefen Frömmigkeit <name ref="#grotjahn-pers002">Bachs</name>, der doch bekanntlich alle seine Werke mit <q>Soli Deo Gloria</q> unterzeichnete? Nun wird die Verwendung dieser konventionellen Formel ohnehin überinterpretiert; sie ist in barocker Literatur wie Musik weit verbreitet und lässt wenig Rückschlüsse auf individuelle Einstellungen zu. Aber es ist gar nicht nötig, an <name ref="#grotjahn-pers002">Bachs</name> Frömmigkeit zu zweifeln, um die Vorstellung in Frage zu stellen, er habe seine künstlerische Arbeit in erster Linie als Dienst am Glauben gesehen.<note xml:id="grotjahn-ftn42" n="42">Vgl. <ref target="#Siegele1988" type="bibl"/>.</note> 
+               In welchem Maße der Komponist in die Herausbildung des Konzepts vom musikalischen Genie involviert war, habe ich bereits eingangs unter Bezugnahme auf <name ref="#grotjahn-pers036">Christoph Wolff</name> hervorgehoben. <name ref="#grotjahn-pers002">Bach</name> gehört nicht ins <soCalled>Mittelalter</soCalled>, wo <name ref="#grotjahn-pers032">Albert Schweitzer</name> ihn sehen wollte; er steht der Moderne näher, als man sich das lange Zeit vorstellen konnte. Durch die Erforschung der Vorgeschichte der <soCalled>romantischen</soCalled> <name ref="#grotjahn-pers002">Bach</name>-Rezeption ist der einst als riesig konstruierte Abstand zwischen <name ref="#grotjahn-pers002">Bach</name> und dem 19.&#8239;Jahrhundert geschrumpft.<note xml:id="grotjahn-ftn43" n="43">Vgl. die Beiträge im Tagungsband: <ref target="#Grotjahn_Wollny" type="bibl"/>.</note> 
+               Keineswegs abwegig ist damit auch die Vorstellung, dass die Idee des Komponisten als eines autonomen Künstlers und gottgleichen Schöpfers großer Werke bereits zum Horizont <name ref="#grotjahn-pers002">Bachs</name> zählte. </p>
+            <p>Ein früher Protagonist dieser Idee ist <name ref="#grotjahn-pers009">Johann Nikolaus Forkel</name>, der bekanntlich in engem Kontakt mit <name ref="#grotjahn-pers002">Bachs</name> Söhnen, insbesondere <name ref="#grotjahn-pers008">Carl Philipp Emanuel</name>, stand. Sein Paradigma für das <q>Kunstgenie</q> ist niemand anders als <name ref="#grotjahn-pers002">Johann Sebastian Bach</name>, über den er schreibt: <quote source="#grotjahn-ftn44">Er arbeitete für sich, wie jedes wahre Kunstgenie; er erfüllte seinen eigenen Wunsch, befriedigte seinen eigenen Geschmack, wählte seine Gegenstände nach seiner eigenen Meynung, und war endlich auch mit seinem eigenen Beyfall am zufriedensten.</quote><ref target="#Forkel1802" type="bibl" xml:id="grotjahn-ftn44" n="44">S.&#8239;125</ref> 
+               Viermal das Wort <q>eigen</q> in einem Satz: <name ref="#grotjahn-pers009">Forkel</name> würde der Vorstellung, dass <name ref="#grotjahn-pers002">Bach</name> <q>soli Deo gloria</q> arbeitete, wohl eher nicht zustimmen. Er akzentuiert die Autonomie des Komponisten, der für seinen eigenen <q>Beyfall</q> arbeitete &#x2013; und dessen Werke eben darum höchste Bewunderung erregen:
+               <quote source="#grotjahn-ftn45">Dieser wahre Kunstgeist ist es eben, der ihn zum Großen und Erhabenen, als dem höchsten Ziel der Kunst führte. Ihm haben wir es zu verdanken, daß <name ref="#grotjahn-pers002">Bachs</name> Werke nicht bloß gefallen und ergötzen, wie das bloß Schöne und Angenehme in der Kunst, sondern daß sie uns unwiderstehlich mit sich fortreißen; daß sie uns nicht bloß einen Augenblick überraschen, sondern in ihren Wirkungen immer stärker werden, je öfter wir sie hören, und je näher wir sie kennen lernen; daß der in ihnen aufgehäufte ungeheure Gedankenreichthum auch nach tausendmahliger Betrachtung uns noch immer etwas Neues übrig läßt, das unsere Bewunderung und oft unser Staunen erregt; daß endlich selbst der Nichtkenner, der nichts weiter als das musikalische Alphabet kennt, sich kaum der Bewunderung erwehren kann, wenn sie ihm gut vorgetragen werden, und wenn er ihnen Ohr und Herz ohne Vorurtheil öffnet.</quote><ref xml:id="grotjahn-ftn45" target="#Forkel1802" type="bibl" n="45">S.&#8239;126</ref>
+            </p>
+         </div>
+         <div xml:id="grotjahn-div06">
+            <head></head>
+            <p>Jede Zeit hat ihr eigenes <name ref="#grotjahn-pers002">Bach</name>-Bild. Dass dasjenige <name ref="#grotjahn-pers009">Forkels</name> seinen historischen Ort in nicht allzu großer Entfernung vom Protagonisten hat, ist natürlich kein Grund, es zu restaurieren. Es ermutigt mich jedoch, die Kantate <title ref="#grotjahn-work001">Wer nur den lieben Gott lässt walten</title> einem modernen Diskurs zuzuordnen, der nach <name ref="#grotjahn-pers002">Bachs</name> Tod immer mächtiger werden sollte: den um den Künstler als gottähnlichen Schöpfer. Der Komponist hätte hierfür keine geeignetere Vorlage wählen können als das Lied <name ref="#grotjahn-pers024">Georg Neumarks</name>, das aufgrund seiner Entstehungsgeschichte und Rezeption zum frühen Autorschaftsdiskurs zählt. Das Potenzial der sechsten Liedstrophe, die eigene Autorschaft zu betonen, nutzt bereits der Librettist des Kantate. Aber es ist Bach, der diese Idee auf die Musik überträgt &#x2013; und mit Musik ausdrückt.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Bach-Dokumente"><title level="m">Bach-Dokumente</title>, hg. vom Bach-Archiv Leipzig, 7&#x00A0;Bände, Kassel u.&#8239;a. 1963&#x2013;2008 (NBA Supplement)</bibl>
+               <bibl xml:id="Spitta1873">Philipp Spitta, <title level="m">Johann Sebastian Bach</title>, Leipzig 1873</bibl>
+               <bibl xml:id="Schweitzer1909">Albert Schweitzer, <title level="m">J.&#8239;S.&#x00A0;Bach</title>, Leipzig 1909 (ND Leipzig 1948)<bibl type="short">Schweitzer, <title level="m">J.&#8239;S.&#x00A0;Bach</title></bibl></bibl>
+               <bibl xml:id="Neumark1657"><title level="m">G. Neumarks von Mühlhausen aus Thüringen Fortgepflanzter Musikalisch-Poetischer Lustwald</title>, Jena 1657, S.&#8239;26&#x2013;30, online abrufbar unter <ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10592752_00005.html"/><!-- [Stand: 20.09.2015]--></bibl>
+               <bibl xml:id="Neumark1681">Georg Neumark, <title level="m">Thränendes Haus-Kreutz oder gestallten Sachen nach Klag-Lob- und Dank-Opfer […]</title>, Weimar o.&#8239;J. [1681], online abrufbar unter <ptr target="http://resolver.sub.uni-goettingen.de/purl?PPN509002315"/><!-- [Stand: 19.09.2015]--><bibl type="short">Neumark, <title level="m">Thränendes Haus-Kreutz</title></bibl></bibl>
+               <bibl xml:id="Wolff2005">Christoph Wolff, <title level="m">Johann Sebastian Bach</title>, 2.&#8239;Aufl., Frankfurt am Main 2005</bibl>
+               <bibl xml:id="Wolff2001">Christoph Wolff, <title level="a">Defining Genius. Early Reflections of J.&#8239;S.&#x00A0;Bach’s Self-Image</title>, in: <title level="s">Proceedings of the American Philosophical Society</title>&#x00A0;145 (2001), S.&#8239;474&#x2013;481</bibl>
+               <bibl xml:id="Schulze1998">Hans-Joachim Schulze, <title level="a">Texte und Textdichter</title>, in: <title level="m">Die Welt der Bach-Kantaten</title>, hg. von Christoph Wolff, Bd.&#8239;III: <title level="m">Johann Sebastian Bachs Leipziger Kirchenkantaten</title>, Stuttgart u.&#8239;a. 1998, S.&#8239;109&#x2013;125</bibl>
+               <bibl xml:id="Grotjahn2013">Rebecca Grotjahn, <title level="a"><q>Mein bessres Ich</q> &#x2013; Schumanns <emph>Myrthen</emph> als Selbstbildnis des Künstlers</title>, in: <title level="m">Autorschaft &#x2013; Genie &#x2013; Geschlecht. Musikalische Schaffensprozesse von der frühen Neuzeit bis zur Gegenwart</title>, hg. von Kordula Knaus und Susanne Kogler, Köln u.&#8239;a. 2013 (Musik &#x2013; Kultur &#x2013; Gender&#x00A0;11), S.&#8239;159&#x2013;178</bibl>
+               <bibl xml:id="Trunz1986">Erich Trunz, <title level="a"><q>Wer nur den lieben Gott läßt walten</q>. Georg Neumarks Lied und seine Entstehung in Kiel</title>, in: <title level="s">Jahrbuch für Liturgik und Hymnologie</title>&#x00A0;30 (1986), S.&#8239;49&#x2013;65<bibl type="short">Trunz, <title level="m">Wer nur den lieben Gott läßt walten</title></bibl></bibl>
+               <bibl xml:id="Piper1990">Hans-Christoph Piper, Jürgen Grimm, <title level="a">Wer nur den lieben Gott läßt walten</title>, in: <title level="m">Handbuch zum Evangelischen Kirchengesangbuch</title>, Bd.&#8239;III,2: Liederkunde. Zweiter Teil: Lied 176&#x2013;394, hg. von Joachim Stalmann und Johannes Heinrich, Göttingen 1990, S.&#8239;296&#x2013;299</bibl>
+               <bibl xml:id="Henkys2001">Jürgen Henkys, <title level="a">Wer nur den lieben Gott läßt walten</title>, in: <title level="m">Geistliches Wunderhorn. Große deutsche Kirchenlieder</title>, hg., vorgestellt und erläutert von Hansjakob Becker u.&#8239;a., München 2001, S.&#8239;231&#x2013;238</bibl>
+               <bibl xml:id="Amarantes1744">Amarantes [= Johann Herdegen], <title level="m">Historische Nachricht von deß löblichen Hirten- und Blumen-Ordens an der Pegnitz […]</title>, Nürnberg 1744, S.&#8239;384&#8239;f, online abrufbar unter <ptr target="https://books.google.de/books?id=M7pfAAAAcAAJ&amp;pg=PA385"/><!-- [Stand: 20.09.2014]--></bibl>
+               <bibl xml:id="Neumark_ADB1886">Art. <title level="a">Neumark, Georg</title>, in: <title level="m">Allgemeine Deutsche Biographie</title>, hg. von der Historischen Kommission bei der Bayerischen Akademie der Wissenschaften, Bd.&#8239;23, Leipzig 1886, S.&#8239;539&#x2013;541, online abrufbar unter  <ptr target="https://de.wikisource.org/wiki/ADB:Neumark,_Georg"/><!--[Stand: 20.09.2015]--></bibl><!-- Autor?! -->
+               <bibl xml:id="Kind1818">Fridrich [!] Kind, <title level="a">Georg Neumark und die Gambe</title>, in: Fridrich [!] Kind, <title level="m">Gedichte</title>. Zweyter Theil. Neueste Auflage, Wien 1818, S.&#8239;239&#x2013;242</bibl>
+               <bibl xml:id="Axmacher2008">Elke Axmacher, <title level="a"><q>Wer nur den lieben Gott läßt walten</q></title>, in: <title level="m">Lebenswege &#x2013; Fluchtwege. Kantaten- und Liedpredigten an der Universität Bielefeld 1995&#x2013;2006</title>, hg. von ders., Berlin 2008, S.&#8239;23–36</bibl>
+               <bibl xml:id="Bibel1999"><title level="m">Die Bibel nach der Übersetzung Martin Luthers</title>, hg. von der deutschen Bibelgesellschaft, Stuttgart 1999<bibl type="short"><title level="m">Luther-Bibel</title></bibl></bibl>
+               <bibl xml:id="Emans1993">Reinmar Emans, <title level="m">Kritischer Bericht zu Johann Sebastian Bach. Kantaten zum 5. und 6. Sonntag nach Trinitatis</title>, hg. von Reinmar Emans, Kassel u.&#8239;a. 1993 (NBA Serie 1, Bd.&#8239;17.2)<bibl type="short">Emans, <title level="m">Kritischer Bericht zu Johann Sebastian Bach</title></bibl></bibl>
+               <bibl xml:id="Duerr2005">Alfred Dürr, <title level="m">Johann Sebastian Bach. Die Kantaten</title>, Kassel <edition>11</edition>2013 (Bärenreiter Werkeinführungen)<bibl type="short">Dürr, <title level="m">Die Kantaten</title></bibl></bibl>
+               <!--<bibl xml:id="Duerr2">Dürr, <title level="m">Die Kantaten</title>, Bd.&#8239;2<bibl type="short">Dürr, Die Kantaten, Bd.&#8239;2</bibl></bibl>-->
+               <bibl xml:id="Vopelius1682"><title level="m">Neu Leipziger Gesangbuch</title>, hg. von Gottfried Vopeli[us], Leipzig 1682</bibl>
+               <bibl xml:id="Vopelio1758">Vopelio, <title level="m">Das privilegirte Vollständige und vermehrte Leipziger Gesangbuch […]</title>, neu hg. von Carl Gottlob Hofmann, Leipzig 1758</bibl>
+               <bibl xml:id="Schemelli1736"><title level="m">Musicalisches Gesang-Buch […]</title>, hg. von George Christian Schemelli, Leipzig 1736</bibl>
+               <bibl xml:id="Meyer1997">Ulrich Meyer, <title level="m">Biblical quotation and allusion in the cantata libretti of Johann Sebastian Bach</title>, Lanham <!--(Md.)--> 1997</bibl>
+               <bibl xml:id="Schulze2007">Hans-Joachim Schulze, <title level="m">Bach-Kantaten. Einführungen zu sämtlichen Kantaten Johann Sebastian Bachs</title>, Leipzig 2007</bibl>
+               <bibl xml:id="Kuester1999">Konrad Küster, <title level="a">Nebenaufgaben des Organisten, Aktionsfeld des Director musices: Die Vokalmusik</title>, in: <title level="m">Bach Handbuch</title>, hg. von Konrad Küster, Kassel 1999, S.&#8239;93&#x2013;534<bibl type="short">Küster, <title level="a">Nebenaufgaben des Organisten</title></bibl></bibl>
+               <bibl xml:id="Siegele1988">Ulrich Siegele, <title level="a">Johann Sebastian Bach &#x2013; <q>Deutschlands größter Kirchenkomponist</q>. Zur Entstehung und Kritik einer Identifikationsfigur</title>, in: <title level="m">Gattungen der Musik und ihre Klassiker</title>, hg. von Hermann Danuser, Laaber 1988 (Publikationen der Hochschule für Musik und Theater Hannover&#x00A0;1), S.&#8239;58&#x2013;85</bibl>
+               <bibl xml:id="Grotjahn_Wollny"><title level="m">Bach: Genius &#x2013; Genus &#x2013; Generationen</title>, hg. von Rebecca Grotjahn und Peter Wollny, München (Druck in Vorbereitung)</bibl>
+               <bibl xml:id="Forkel1802">J[ohann] N[icolaus] Forkel, <title level="m">Ueber Johann Sebastian Bachs Leben, Kunst und Kunstwerke. Für patriotische Verehrer echter musikalischer Kunst</title>, Leipzig 1802<bibl type="short">Forkel, <title level="m">Johann Sebastian Bach</title></bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><q>… und jezt gerne einen Ruhigen Platz annehmen würde</q></title>
+            <title type="sub">Edmund von Weber und seine Familie zwischen Rheinland, Lippe und Franken (1825–1831)</title>
+            <author>
+               <name><forename>Frank</forename> <surname>Ziegler</surname></name>
+               <email/>
+               <affiliation><!--geb. am 18.&#8239;April 1964 in Rathenow,--> machte sein Abitur am Musikzweig der Gerhart-Hauptmann-Oberschule in Wernigerode (inklusive Mitgliedschaft im dortigen Rundfunkjugendchor) und studierte nach Ableisten des Militärdienstes an der Martin-Luther-Universität in Halle/Saale Musikwissenschaft (Diplom 1990). Seit 1990 ist er wissenschaftlicher Angestellter in der Musikabteilung der Staatsbibliothek zu Berlin, seit 1993 Mitarbeiter an der Carl-Maria-von-Weber-Gesamtausgabe.</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="ziegler-pers003">
+                  <p>Weber, Edmund von</p>
+               </person>
+               <person xml:id="ziegler-pers004">
+                  <p>Wiele, Johann Peter C.</p>
+               </person>
+               <person xml:id="ziegler-pers005">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="ziegler-work019"><hi rend="italic">Oberon</hi>, WeV C.10</p>
+                  <p n="work" xml:id="ziegler-work013"><hi rend="italic">Euryanthe</hi>, WeV C.9</p>
+                  <p n="work" xml:id="ziegler-work015"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+                  <p n="work" xml:id="ziegler-work021"><hi rend="italic">Preciosa</hi>, WeV F.22</p>
+                  <p n="work" xml:id="ziegler-work016"><hi rend="italic">Concertino</hi> für Horn und Orchester, WeV N.5</p>
+               </person>
+               <person xml:id="ziegler-pers006">
+                  <p>Brühl, Carl Graf von</p>
+               </person>
+               <person xml:id="ziegler-pers007">
+                  <p>Weber, Fridolin von</p>
+               </person>
+               <person xml:id="ziegler-pers008">
+                  <p>Ringelhardt, Friedrich Sebald</p>
+               </person>
+               <person xml:id="ziegler-pers010">
+                  <p>Ringelhardt, Victorine</p>
+               </person>
+               <person xml:id="ziegler-pers012">
+                  <p>Weber, Therese von (verh. Atmer)</p>
+               </person>
+               <person xml:id="ziegler-pers014">
+                  <p>Spohr, Louis</p>
+                  <p n="work" xml:id="ziegler-work017"><hi rend="italic">Jessonda</hi></p>
+               </person>
+               <person xml:id="ziegler-pers015">
+                  <p>Schmidt, Friedrich Ludwig</p>
+               </person>
+               <person xml:id="ziegler-pers016">
+                  <p>Weber, Josephine von</p>
+               </person>
+               <person xml:id="ziegler-pers017">
+                  <p>Lortzing, Albert</p>
+               </person>
+               <person xml:id="ziegler-pers018">
+                  <p>Schäfer, Ludwig</p>
+               </person>
+               <person xml:id="ziegler-pers019">
+                  <p>Weber, Therese von (geb. Mack)</p>
+               </person>
+               <person xml:id="ziegler-pers020">
+                  <p>Pichler, August</p>
+               </person>
+               <person xml:id="ziegler-pers021">
+                  <p>Paisiello, Giovanni</p>
+                  <p n="work" xml:id="ziegler-work025"><hi rend="italic">La molinara</hi></p>
+               </person>
+               <person xml:id="ziegler-pers022">
+                  <p>Salieri, Antonio</p>
+                  <p n="work" xml:id="ziegler-work001"><hi rend="italic">Axur Re d’Ormus</hi></p>
+               </person>
+               <person xml:id="ziegler-pers023">
+                  <p>Mozart, Wolfgang Amadeus</p>
+                  <p n="work" xml:id="ziegler-work010"><hi rend="italic">Die Entführung aus dem Serail</hi></p>
+                  <p n="work" xml:id="ziegler-work007"><hi rend="italic">Don Giovanni</hi></p>
+                  <p n="work" xml:id="ziegler-work014"><hi rend="italic">Le nozze di Figaro</hi></p>
+                  <p n="work" xml:id="ziegler-work028"><hi rend="italic">La clemenza di Tito</hi></p>
+               </person>
+               <person xml:id="ziegler-pers025">
+                  <p>Schreyvogel, Joseph</p>
+                  <p n="work" xml:id="ziegler-work008"><hi rend="italic">Donna Diana</hi></p>
+               </person>
+               <person xml:id="ziegler-pers026">
+                  <p>Capelle, Irmlind</p>
+               </person>
+               <person xml:id="ziegler-pers027">
+                  <p>Richts, Kristina</p>
+               </person>
+               <person xml:id="ziegler-pers029">
+                  <p>Grabbe, Christian Dietrich</p>
+               </person>
+               <person xml:id="ziegler-pers030">
+                  <p>Boieldieu, François Adrien</p>
+                  <p n="work" xml:id="ziegler-work005"><hi rend="italic">Le nouveau seigneur de village</hi></p>
+                  <p n="work" xml:id="ziegler-work006"><hi rend="italic">La Dame blanche</hi></p>
+               </person>
+               <person xml:id="ziegler-pers031">
+                  <p>Rossini, Gioacchino</p>
+                  <p n="work" xml:id="ziegler-work002"><hi rend="italic">Il barbiere di Siviglia</hi></p>
+                  <p n="work" xml:id="ziegler-work020"><hi rend="italic">Otello</hi></p>
+                  <p n="work" xml:id="ziegler-work027"><hi rend="italic">Tancred</hi></p>
+               </person>
+               <person xml:id="ziegler-pers033">
+                  <p>Gubitz, Friedrich Wilhelm</p>
+               </person>
+               <person xml:id="ziegler-pers037">
+                  <p>Schmidt, Georg</p>
+               </person>
+               <person xml:id="ziegler-pers042">
+                  <p>Weber, Gottfried</p>
+               </person>
+               <person xml:id="ziegler-pers044">
+                  <p>Dengler, Georg</p>
+               </person>
+               <person xml:id="ziegler-pers047">
+                  <p>Schmidt, Johann Philipp</p>
+               </person>
+               <person xml:id="ziegler-pers050">
+                  <p>Haydn, Joseph</p>
+               </person>
+               <person xml:id="ziegler-pers051">
+                  <p>Destouches, Franz Seraph von</p>
+               </person>
+               <person xml:id="ziegler-pers053">
+                  <p>Haßloch, Theodor</p>
+               </person>
+               <person xml:id="ziegler-pers058">
+                  <p>Hérold, Ferdinand</p>
+                  <p n="work" xml:id="ziegler-work031"><hi rend="italic">La clochette</hi></p>
+               </person>
+               <person xml:id="ziegler-pers062">
+                  <p>Rousseau, Johann Baptist</p>
+               </person>
+               <person xml:id="ziegler-pers064">
+                  <p>Fioravanti, Valentino</p>
+                  <p n="work" xml:id="ziegler-work026"><hi rend="italic">Le cantatrici villane</hi></p>
+               </person>
+               <person xml:id="ziegler-pers065">
+                  <p>Auber, Daniel-François-Esprit</p>
+                  <p n="work" xml:id="ziegler-work024"><hi rend="italic">La neige</hi></p>
+               </person>
+               <person xml:id="ziegler-pers066">
+                  <p>Smart, George</p>
+               </person>
+               <person xml:id="ziegler-pers067">
+                  <p>Méhul, Étienne Nicolas</p>
+                  <p n="work" xml:id="ziegler-work018"><hi rend="italic">Joseph in Ägypten</hi></p>
+               </person>
+               <person xml:id="ziegler-pers068">
+                  <p>Speyer, Wilhelm</p>
+               </person>
+               <person xml:id="ziegler-pers070">
+                  <p>Cherubini, Luigi</p>
+                  <p n="work" xml:id="ziegler-work030"><hi rend="italic">Les deux journées (Der Wasserträger)</hi></p>
+               </person>
+               <person xml:id="ziegler-pers071">
+                  <p>Arendt, Johann Sigismund</p>
+               </person>
+               <person xml:id="ziegler-pers075">
+                  <p>Spontini, Gaspare</p>
+                  <p n="work" xml:id="ziegler-work003"><hi rend="italic">Fernand Cortez</hi></p>
+                  <p n="work" xml:id="ziegler-work029"><hi rend="italic">La Vestale</hi></p>
+               </person>
+               <person xml:id="ziegler-pers077">
+                  <p>Paër, Ferdinando</p>
+                  <p n="work" xml:id="ziegler-work023"><hi rend="italic">Sargino</hi></p>
+               </person>
+               <person xml:id="ziegler-pers078">
+                  <p>Grétry, André-Ernest-Modeste</p>
+                  <p n="work" xml:id="ziegler-work022"><hi rend="italic">Richard Coeur de Lion</hi></p>
+               </person>
+               <person xml:id="ziegler-pers080">
+                  <p>Woywoda, C.&#8239;G.</p>
+               </person>
+               <person xml:id="ziegler-pers081">
+                  <p>Dalayrac, Nicolas</p>
+               </person>
+               <person xml:id="ziegler-pers082">
+                  <p>Maurer, Louis</p>
+               </person>
+               <person xml:id="ziegler-pers083">
+                  <p>Weber, Friedrich Hubert von</p>
+               </person>
+               <person xml:id="ziegler-pers085">
+                  <p>Weber, Max Maria von</p>
+               </person>
+               <person xml:id="ziegler-pers086">
+                  <p>Jähns, Friedrich Wilhelm</p>
+               </person>
+               <person xml:id="ziegler-pers090">
+                  <p>Bethmann, Heinrich</p>
+               </person>
+               <person xml:id="ziegler-pers091">
+                  <p>Winter, Peter von</p>
+                  <p n="work" xml:id="ziegler-work004"><hi rend="italic">Das unterbrochene Opferfest</hi></p>
+               </person>
+               <person xml:id="ziegler-pers092">
+                  <p>Kotzebue, August von</p>
+                  <p n="work" xml:id="ziegler-work012"><hi rend="italic">Die Erbschaft</hi></p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-ziegler-vspace-1mm">\vspace{-1mm}</rendition>
+            <rendition xml:id="latex-ziegler-vspace-2mm">\vspace{-2mm}</rendition>
+            <!--<rendition xml:id="latex-ziegler-vspace1mm">\vspace{1mm}</rendition>-->
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-18T11:15:00"
+            who="https://github.com/peterstadler">Anpassungen an aktuelles Layout.</change>
+         <change when="2015-11-03T14:44:00"
+            who="https://github.com/peterstadler">abstract und cv eingefügt.</change>
+         <change when="2015-11-03T14:44:00"
+            who="https://github.com/peterstadler">Interpunktion geändert.</change>
+         <change when="2015-10-27T16:28:00"
+            who="https://github.com/peterstadler">Korrekturen (Fahne 2) von Frank eingefügt.</change>
+         <change when="2015-10-20T09:35:00"
+            who="https://github.com/peterstadler">Ergänzungen von Frank eingefügt.</change>
+         <change when="2015-10-19T16:31:00" who="KR">Korrekturen eingefügt</change>
+         <change when="2015-08-12T17:58:27.183+02:00"
+            who="https://github.com/peterstadler">Werktitel ausgezeichnet.</change>
+         <change when="2015-08-11T13:32:27.183+02:00"
+            who="https://github.com/peterstadler">Aktuelle Korrekturen eingearbeitet.</change>
+         <change when="2015-06-15T23:12:27.183+02:00"
+            who="https://github.com/peterstadler">Personen angelegt und Sperrungen eingefügt.</change>
+         <change when="2015-06-15T16:51:27.183+02:00"
+            who="https://github.com/peterstadler">Leerzeichen kontrolliert und Namen ausgezeichnet.</change>
+         <change when="2015-06-15T15:04:27.183+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="ziegler-abstract">
+            <p>Der Beitrag beleuchtet anhand zahlreicher Originaldokumente die letzten Lebensjahre Edmund von Webers. Nach Aufgabe seiner Musikdirektorenstelle bei Theaterdirektor Ringelhardt in Köln und Aachen (1824–1826) suchte er, amtsmüde und gesundheitlich geschwächt, nach einer neuen Anstellung. Da eine Bewerbung als Musiklehrer scheiterte, folgte er seiner Tochter Therese, die nunmehr als Sängerin Hauptverdienerin der Familie wurde, in deren Engagements nach Detmold, wo er als Notenkopist und Orchestermusiker tätig war, Mannheim und Würzburg. In der fränkischen Stadt verstarb er im Dezember&#x00A0;1830, seine Ehefrau Therese bald darauf im Juli&#x00A0;1831.</p>
+         </div>
+      </front>
+      <body>
+         <p><name ref="#ziegler-pers005">Carl Maria von Webers</name> Halbbruder <name ref="#ziegler-pers003">Edmund</name> hatte seit 1820 an verschiedenen Theatern als Musikdirektor gearbeitet: in Lübeck (Wintersaison&#x00A0;1820/21), Danzig (Oktober 1821 bis März 1824,<note xml:id="ziegler-ftn1" n="1">Der Wunsch <name ref="#ziegler-pers003">Edmund von Webers</name>, anschließend als Nachfolger des 1823 pensionierten <name ref="#ziegler-pers004">Johann Peter C. Wiele</name> Kapellmeister in Neustrelitz zu werden, ging trotz der Empfehlung durch <name ref="#ziegler-pers005">Carl Maria von Weber</name> (vgl. dessen Brief an <name ref="#ziegler-pers006">Carl Graf Brühl</name> vom 13.&#8239;Februar 1824, <hi rend="italic">D-B</hi>, 55&#x00A0;Ep&#x00A0;302) nicht in Erfüllung.</note>  mit Abstechern nach Elbing), Königsberg (bis zum Sommer 1824)<note xml:id="ziegler-ftn2" n="2">Auf der Reise von Königsberg nach Köln besuchte er Hamburg, wo sein ältester Bruder <name ref="#ziegler-pers007">Fridolin von Weber</name> lebte; 
+            vgl. <ref target="#Neubacher1997" type="bibl">S.&#8239;1006 (Anm.&#8239;65)</ref>.</note> 
+            und schließlich bis Spätsommer 1826 unter Direktor <name ref="#ziegler-pers008">Friedrich Sebald Ringelhardt</name>, dem Ehemann von <name ref="#ziegler-pers003">Edmunds</name> Nichte <name ref="#ziegler-pers010">Victorine Ringelhardt</name>, geb. Weyrauch, in Köln und Aachen.<note xml:id="ziegler-ftn3" n="3">Eine finanzielle Starthilfe <name ref="#ziegler-pers005">Carl Maria von Webers</name> für seinen Bruder in Köln ist durch Webers Tagebuch dokumentiert, wo am 24.&#8239;Dezember&#x00A0;1824 festgehalten wurde: <q><title ref="#ziegler-work013"><hi rend="underline italic">Euryanthe</hi></title> <hi rend="underline">an Ringelhart abgesendet</hi>. und <hi rend="italic">Honorar</hi>  dem Bruder <name ref="#ziegler-pers003">Edmund</name> geschenkt</q>. 
+               Die Kölner Erstaufführung unter Ringelhardts Direktion fand allerdings erst am 19.&#8239;Oktober&#x00A0;1829 statt; vgl. <ref type="bibl" target="#Heyden1939">S.&#8239;95</ref>. In Aachen wurde das Werk unter <name ref="#ziegler-pers008">Ringelhardt</name> sogar erst 1831 gegeben; vgl. <ref type="bibl" target="#Poll1954">S.&#8239;49</ref>.</note>  
+            1826 versuchte er, für sich sowie seine Töchter <name ref="#ziegler-pers012">Therese</name> (1809&#x2013;1884) und <name ref="#ziegler-pers016">Josephine</name> (geb. 28.&#8239;Oktober&#x00A0;1810) eine neue Wirkungsstätte zu finden. Mehrere Bewerbungsbriefe <name ref="#ziegler-pers003">Edmund von Webers</name> aus dieser Zeit sind bekannt: Beim Kasseler Hofkapellmeister <name ref="#ziegler-pers014">Louis Spohr</name> fragte er an, ob für ihn und seine <quote source="#ziegler-ftn01">beiden talentvollen Töchter keine Stellung an der Casseler Hofbühne wäre</quote>.<ref target="#Liepmannssohn1894" type="bibl" xml:id="ziegler-ftn01"/>  
+            Am 5.&#8239;Juni&#x00A0;1826 bot er von Aachen aus einem unbekannten Empfänger an, er würde bei einem Engagement seiner älteren Tochter <name ref="#ziegler-pers012">Therese</name> als Sängerin selbst <q>eine Stelle als Contra-Bass im Orchester annehmen</q>, denn <quote source="#ziegler-ftn5">Musikdirektor bei einer reisenden […] Gesellschaft zu sein, ist auch kein grosses Glück</quote>.<note xml:id="ziegler-ftn5" n="5" type="bibl">Mehrfach bei Leo Liepmannssohn, u.&#8239;a. Katalog&#x00A0;163 (ca.&#x00A0;1906/07), Nr.&#8239;873 (S.&#8239;79); Katalog&#x00A0;174 (ca.&#x00A0;1909/10), Nr.&#8239;2218 (S.&#8239;126); Verbleib des Originals unbekannt.</note>  
+            Schließlich ging am 5.&#8239;Oktober&#x00A0;1826 ein Schreiben aus Köln an <name ref="#ziegler-pers015">Friedrich Ludwig Schmidt</name> in Hamburg, in dem <name ref="#ziegler-pers003">Edmund von Weber</name> sich als Dirigent oder Kontrabassist, seine Frau <name ref="#ziegler-pers019">Therese, geb. Mack</name>, als Schauspielerin (<q>spielt das Fach der komischen Mütter in Stück und Oper ist auch etwas musikalisch</q>) und seine ältere Tochter als Sängerin und Schauspielerin (<q>sehr wohl gebauth, in mereren Opera und Stücken einstudirt und sehr musikalisch</q>) anpries.<note xml:id="ziegler-ftn6" n="6">Vgl. <ref target="#Neubacher1997" type="bibl">S.&#8239;1005&#8239;f.</ref> (Anm.&#8239;65, Zitate auf S.&#8239;1006) und S.&#8239;996 (Anm.&#8239;30, dort Signatur).</note>  
+            Zunächst blieb die Suche erfolglos, und so plante der stellungslose Musiker, wie sein Kollege <name ref="#ziegler-pers017">Albert Lortzing</name> berichtete, vorerst <q>auf seine eigene Faust [zu] reisen</q>, um <quote source="#ziegler-ftn7">wahrscheinlich <hi rend="italic">Conzerte</hi> auf dem Kontrabaß [zu] geben</quote>.<note xml:id="ziegler-ftn7" n="7" type="bibl">Brief vom 21.&#8239;August&#x00A0;1826 an <name ref="#ziegler-pers018">Ludwig Schäfer</name>; vgl. <ref type="bibl" target="#Lortzing">S.&#8239;5</ref></note>  
+            Erst 1827 fand sich für <name ref="#ziegler-pers012">Therese von Weber</name> eine Anstellung als Sängerin am Detmolder Hoftheater unter Direktor <name ref="#ziegler-pers020">August Pichler</name>, und so zog die Familie in die lippische Residenzstadt, auch wenn der nunmehr sechzigjährige <name ref="#ziegler-pers003">Edmund von Weber</name> dort zunächst genauso wenig eine feste Anstellung erhielt,<note xml:id="ziegler-ftn8" n="8">Vgl. <ref target="#Veit2001" type="bibl"/>.</note>  wie seine Frau <name ref="#ziegler-pers019">Therese</name> und seine jüngste Tochter.</p>
+         
+         <p>Die ältere Tochter <name ref="#ziegler-pers012">Therese</name> hatte bereits bei der Ringelhardt’schen Truppe erste Erfahrungen als Solistin gesammelt: In Aachen hatte sie am 1.&#8239;Januar&#x00A0;1826 (noch 16-jährig) das Lieschen in <name ref="#ziegler-pers021">Paisiellos</name> <title ref="#ziegler-work025"><hi rend="italic">Schöner Müllerin</hi></title>  gespielt und <q>sich als Anfängerin lobenswerthe Mühe</q> gegeben;<ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn9">Jg.&#x00A0;2, Beilage zu Nr.&#8239;2 (3.&#8239;Januar&#x00A0;1826); alle Beilagen ohne Paginierung</ref><!--<note xml:id="ziegler-ftn9" n="9">Rheinische Flora, Blätter für Kunst, Leben, Wissen und Verkehr, Aachen, Jg.&#x00A0;2, Beilage zu Nr.&#8239;2 (3.&#8239;Januar&#x00A0;1826); alle Beilagen ohne Paginierung.</note>--> es folgten u.&#8239;a. Auftritte als Knabe Elamir in <name ref="#ziegler-pers022">Salieris</name> <title ref="#ziegler-work001"><hi rend="italic">Axur</hi></title>  (21.&#8239;Januar)<note xml:id="ziegler-ftn10" n="10"><ref type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#x00A0;2, Beilage zu Nr.&#8239;14 (24.&#8239;Januar 1826)</ref>: ihr <q>Gebet wurde mit verdientem Beifall belohnt</q>.</note>  und als Zerline in <name ref="#ziegler-pers023">Mozarts</name> <title ref="#ziegler-work007"><hi rend="italic">Don Giovanni</hi></title>  (8.&#8239;Juni).<note xml:id="ziegler-ftn11" n="11"><ref type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#x00A0;2, Beilage zu Nr.&#8239;91 (11.&#8239;Juni&#x00A0;1826)</ref>: <q>Das Viertelstimmchen […] verfloß in dem großen Hause, wie ein Bach im Meere.</q></note>  
+            Besonders gegen Ende der Aachener Sommerspielzeit 1826 war sie offenbar aufgrund personeller Engpässe eine unverzichtbare Stütze, hatte doch <name ref="#ziegler-pers017">Albert Lortzing</name> seinem Freund <name ref="#ziegler-pers018">Schäfer</name> berichtet: <quote source="#ziegler-ftn02">wir brauchen sie unter uns gesagt, wie das liebe Brod.</quote><ref type="bibl" target="#Lortzing" xml:id="ziegler-ftn02">S.&#8239;5</ref>  
+            So konnte <name ref="#ziegler-pers012">Therese</name> sich auch als Cherubino in <title ref="#ziegler-work014"><hi rend="italic">Figaros Hochzeit</hi></title>  und Ännchen im <title ref="#ziegler-work015"><hi rend="italic">Freischütz</hi></title> <q>nicht ohne einigen Erfolg</q> versuchen.<note xml:id="ziegler-ftn13" n="13">Vgl. <ref target="#Arendt1829" type="bibl">S.&#8239;74&#8239;f</ref>.</note>  
+            Der Korrespondent des <hi rend="italic">Rheinisch-Westphälischen Anzeigers</hi> urteilte wohlwollend:
+            <quote source="#ziegler-ftn107"><name ref="#ziegler-pers012">Dem. <hi rend="spaced">von Weber</hi></name>, die Tochter unseres Musikdirektors, ist noch Anfängerin in der Oper, ein junges liebenswürdiges Mädchen, welche durch ihr Auftreten als Emilie im <title ref="#ziegler-work020">Othello</title>, Cherubin im <title ref="#ziegler-work014">Figaro</title>, und Zerline im <title ref="#ziegler-work007">Don Juan</title> gezeigt hat, daß mit der Zeit eine tüchtige Sängerin aus ihr werden kann.</quote><note type="bibl" xml:id="ziegler-ftn107">Korrespondenzbericht aus Aachen von Anfang August, gez. <q>Spektator d.&#8239;J.</q>, in Bd.&#8239;46, Beilage zu Nr.&#8239;69 (30.&#8239;August 1826), Sp.&#8239;1528.</note>
+            <milestone rendition="#latex-ziegler-vspace-1mm"/>Nach dem Abgang ihres Vaters <name ref="#ziegler-pers003">Edmund</name> blieb sie im Herbst 1826 vorerst bei der Ringelhardt’schen Truppe in Köln und entwickelte sowohl im Schauspiel als auch in der Oper zunehmend Routine.<note xml:id="ziegler-ftn14" n="14">Vgl. <ref type="bibl" target="#RheinischeFlora">Jg.&#x00A0;2, Nr.&#8239;161 (14.&#8239;Oktober&#x00A0;1826), S.&#8239;644</ref>: Mitwirkung in <name ref="#ziegler-pers025">Schreyvogels</name> Einrichtung der <title ref="#ziegler-work008"><hi rend="italic">Donna Diana</hi></title> am 6.&#8239;Oktober; Beilage zu Nr.&#8239;164 (19.&#8239;Oktober&#x00A0;1826): Zerline im <title ref="#ziegler-work007"><hi rend="italic">Don Giovanni</hi></title> am 11.&#8239;Oktober (<q>diese angenehme Erscheinung belebt sich allmählig, wie Pygmalion’s Stein, aber leider sehr allmählig</q>); Beilage zu Nr.&#8239;175 (9.&#8239;November&#x00A0;1826): Mitwirkung in <name ref="#ziegler-pers092">Kotzebues</name> <title ref="#ziegler-work012"><hi rend="italic">Erbschaft</hi></title>  am 5.&#8239;November; Beilage zu Nr.&#8239;181 (19. November&#x00A0;1826): Emilia in <name ref="#ziegler-pers031">Rossinis</name> <title ref="#ziegler-work020"><hi rend="italic">Otello</hi></title>  am 15.&#8239;November (<q>ein günstiges Zeugniß ihres Fortschreitens</q>).</note>
+         </p>
+         
+         <p>Unter <name ref="#ziegler-pers020">August Pichler</name> debütierte <name ref="#ziegler-pers012">Therese von Weber</name> Anfang 1827 in Münster;<note xml:id="ziegler-ftn15" n="15">Das Detmolder Hoftheaterensemble spielte 1827 von Januar bis April in Münster und ab Mitte April in Osnabrück; vgl. <ref target="#Lortzing" type="bibl">S.&#8239;10</ref>.</note> ihre erste Wochengage von 12&#x00A0;Talern erhielt sie am 29.&#8239;Januar für die fünfte Kalenderwoche (29.&#8239;Januar bis 4.&#8239;Februar&#x00A0;1827) ausgezahlt.<note xml:id="ziegler-ftn16" n="16">Lippische Landesbibliothek Detmold (<hi rend="italic">D-DT</hi>), Theaterakten, Signatur TA&#x00A0;101, 1827: Gagenbuch Nr.&#8239;23 Therese von Weber pro 1827. Alle Angaben zu diesem Aktenbestand verdanke ich <name ref="#ziegler-pers026">Irmlind Capelle</name>, die gemeinsam mit <name ref="#ziegler-pers027">Kristina Richts</name> im Projekt <q>Detmolder Hoftheater 1825&#x2013;1875</q> u.&#8239;a. die dortigen archivalischen Quellen erschließt. Die Angaben entsprechen dem derzeitigen Bearbeitungsstand; das Auftauchen weiterer Quellen im Rahmen der Arbeit ist nicht auszuschließen.</note>  
+            Zudem wurde ihr einmalig ein Reisegeld (<q>Für Fracht, der, <name ref="#ziegler-pers012">Freulein von Weber</name> angehörigen Sachen, von Cöln nach Münster</q>) von mehr als 8&#x00A0;Talern gezahlt.<note xml:id="ziegler-ftn17" n="17">Ebd., TA&#x00A0;1, diverse Ausgaben 1827, S.&#8239;81 (Nr.&#8239;33).</note>  
+            Ein dortiger Korrespondent urteilte, dass <q>der Gesang dieser jungen Künstlerinn in einer recht guten Schule gebildet worden, ihre Intonation rein und richtig, dagegen ihre Stimme noch schwach, jedoch rein und klangvoll sei.</q> Weiter heißt es: <quote source="#ziegler-ftn03"><milestone rendition="#latex-ziegler-vspace-1mm"/>Daß <name ref="#ziegler-pers012">Fräulein von Weber</name> in ihrem Spiele noch nicht den Gipfel der Kunst erstiegen habe, vielmehr noch Anfängerin, sowohl in dieser Beziehung als in der Kunstfertigkeit des Gesanges sei, darüber ist der kunst- und sachverständige Theil des hiesigen Publikums sich völlig einig; allein nur durch zweckmäßige Aufmunterung kann das aufkeimende Talent zum weiteren Fortschreiten auf der angefangenen Kunstbahn ermuthiget werden.</quote><note xml:id="ziegler-ftn03" type="bibl"><ref target="#RheinischeFlora" type="bibl">Jg.&#8239;3, Nr.&#8239;20 (16.&#8239;Februar&#x00A0;1827), S.&#8239;80</ref>. Derselbe Bericht erschien offenbar nochmals an anderer Stelle; die hier zitierte Passage griff der Autor einer ungezeichneten <q>Entgegnung</q> aus Münster vom 6.&#8239;Februar 1827 auf, die im <hi rend="italic">Rheinisch-Westphälischen Anzeiger</hi>, Bd.&#8239;47, Beilage zu Nr.&#8239;13 (14.&#8239;Februar 1827), Sp.&#8239;247–250 erschien. Dort (Sp.&#8239;248) ist zur Quelle der Aussage angegeben: <q>Ueber ihren Werth hat sich der Verfasser des im Westphälischen Merkur <hi rend="italic">sub</hi> No.&#8239;8 enthaltenen Aufsatzes wahr und richtig ausgesprochen, und wir müssen dieser Ansicht in sofern unbedingt beitreten.</q></note>
+         </p>
+         
+         <p>Obgleich der Münsteraner Berichterstatter betonte, dass die Direktion der jungen Künstlerin <q>ohne Zweifel […] nur […] jugendliche, sogenannte zweite Gesangparthieen</q> übertragen werde, wurde sie  nachfolgend in Detmold auch in größeren Rollen besetzt. Der gestrenge Kritiker <name ref="#ziegler-pers029">Christian Dietrich Grabbe</name> beurteilte sie als Anna in <name ref="#ziegler-pers030">Boieldieus</name> Oper <title ref="#ziegler-work006"><hi rend="italic">Die weiße Frau</hi></title>  in der Aufführung am 16.&#8239;September&#x00A0;1827 daher wenig freundlich: <quote source="#ziegler-ftn04">ihr Spiel ist matt, ihre Stimme dünn, noch von wenig Schule zeugend […]. Als  <hi rend="spaced">erste</hi> Sängerin genügt sie nicht,<note xml:id="ziegler-ftn108">Das wiederholte Betonen der Berichterstatter, dass <name ref="#ziegler-pers012">Therese von Weber</name> keinesfalls für erste Partien geeignet sei, könnte auch Reaktion auf eine Falschmeldung des Kölner <hi rend="italic">Rheinischen Unterhaltungsblatts</hi> (Jg.&#8239;3, 1827, Nr.&#8239;12) sein. Dieser widersprach der anonyme Münsteraner Bericht vom 6.&#8239;Februar im <hi rend="italic">Rheinisch-Westphälischen Anzeiger</hi> (vgl. Anm.&#8239;<ref target="#ziegler-ftn03" type="crossref" rend="no"/>, Sp.&#8239;247&#8239;f.), nach welchem die Debütantin nicht, wie im <hi rend="italic">Unterhaltungsblatt</hi> behauptet, <q>als Agathe im <title ref="#ziegler-work015">Freischützen</title> rauschend herausgerufen, in den Dorfsängerinnen als Rosine aufgetreten</q> und <q>am allerwenigsten als <hi rend="spaced">erste</hi> Sängerin engagirt</q> sei.</note> 
+            &#x2013; aber daß sie Ermunterung verdient, daß bei ihrer Jugend sich das Bessere entwickeln kann, gesteht Ref. gern ein.</quote><ref type="bibl" target="#Grabbe" xml:id="ziegler-ftn04">S.&#8239;69 (Bericht aus der <hi rend="italic">Westphalia</hi> vom 29.&#8239;September 1827), siehe auch <ptr target="http://www.grabbe-portal.de"/>.</ref>
+
+Auch als Amenaide in <name ref="#ziegler-pers031">Rossinis</name> <title ref="#ziegler-work027"><hi rend="italic">Tancred</hi></title>  drei Tage später zeigte sie laut <name ref="#ziegler-pers029">Grabbe</name> <quote source="#ziegler-ftn04a">keine Bravour</quote>.<ref xml:id="ziegler-ftn04a" target="#Grabbe" type="bibl" rend="ibid">S.&#8239;72</ref> 
+            An <name ref="#ziegler-pers033">Gubitz’</name> <hi rend="italic">Gesellschafter</hi>  berichtete <name ref="#ziegler-pers029">Grabbe</name> Anfang&#x00A0;1828 immerhin, dass das Detmolder Ensemble <q>ein trefliches, angehendes Talent, von Schule und Bildung, in <name ref="#ziegler-pers012">Fräulein v. Weber</name></q> besitze,<ref type="bibl" target="#Grabbe" rend="ibid">S.&#8239;77</ref>  und an die Dresdner <hi rend="italic">Abend-Zeitung</hi>  meldete er im April&#x00A0;1828: <quote source="#ziegler-ftn133"><name ref="#ziegler-pers012">Fräulein  <hi rend="spaced">v. Weber</hi></name> […] wird in zweiten Parthieen jede Bühne zieren, und man gesteht dieß um so herzlicher, als sie durch fleißiges Streben sich Tag für Tag die Gunst des Publikums mehr gewinnt. Sie aber als erste Sängerin zu benutzen, wie es denn oft geschieht, heißt sie aus ihrer Sphäre reißen, sie in Gesang und Spiel für dieselbe verderben, und dagegen das Publikum mit Bravour-Parthieen ermüden, denen nichts fehlt als die Bravour. Mit einer so dünnen Stimme als die des <name ref="#ziegler-pers012">Fräul. v. Weber</name> die Recitative und Arien der Donna Anna vortragen zu hören, erregt die Empfindung, als wenn statt des Stromes ein Bächlein dahinrauschte. Weit lieber hätten wir die Sängerin als Fanchon gesehen, besonders da sie auch nicht übel spielt […].</quote><note type="bibl" xml:id="ziegler-ftn133"><ref target="#Grabbe" type="bibl" rend="ibid">S.&#8239;80&#8239;f.</ref> Der mit <q>B.&#8239;B</q>. gezeichnete Originalbeitrag erschien in der <hi rend="italic">Abend-Zeitung</hi> 1828, Nr.&#8239;99 (24.&#8239;April), S.&#8239;396, Nr.&#8239;100 (25.&#8239;April), S.&#8239;400, Nr.&#8239;101 (26.&#8239;April), S.&#8239;404 (dort das obige Zitat) und Nr.&#8239;102 (28.&#8239;April), S.&#8239;408 sowie nochmals in: <hi rend="italic">Westphalia, eine Zeitschrift für unbefangene Leser aus allen Ständen</hi>, hg. von Dr.&#8239;F.&#8239;P. Glanzow, Herford, Jg.&#8239;7, Nr.&#8239;43 (25.&#8239;Oktober 1828), S.&#8239;342&#8239;f., Nr.&#8239;44 (1.&#8239;November 1828), S.&#8239;350&#8239;f. und Nr.&#8239;45 (8.&#8239;November 1828), S.&#8239;358–360 (obiges Zitat auf S.&#8239;358&#8239;f.).</note>
+         </p>
+         
+         <p>Diese Fehlbesetzungen dürften dem Ehrgeiz der Familie von Weber zuzuschreiben sein. Von großen Ambitionen zeugt auch die Stückwahl zur Benefiz-Vorstellung für <name ref="#ziegler-pers012">Therese von Weber</name> am 14.&#8239;März&#x00A0;1828 in Münster: <name ref="#ziegler-pers023">Mozarts</name> <title ref="#ziegler-work010"><hi rend="italic">Entführung aus dem Serail.</hi></title><note xml:id="ziegler-ftn23" n="23">Vgl. <hi rend="italic">Westfälischer Merkur</hi>,  Münster, 1828, Nr.&#8239;32 (13.&#8239;März). Während der Münsteraner Spielzeiten der Detmolder Gesellschaft vom 4.&#8239;Januar bis 1.&#8239;April, von Anfang September bis 25.&#8239;November sowie im Dezember 1828 standen in den dortigen Konzerten erstaunlich viele Kompositionen von <name ref="#ziegler-pers005">Carl Maria von Weber</name> auf dem Programm. Das lässt zumindest die Vermutung zu, dass <name ref="#ziegler-pers003">Edmund von Weber</name> in die Planungen eingebunden war bzw. Aufführungs-Material aus seinem Besitz zur Verfügung stellte. <name ref="#ziegler-pers037">Georg Schmidt</name> annoncierte für den 11.&#8239;März ein Finale aus der <title ref="#ziegler-work013"><hi rend="italic">Euryanthe</hi></title>, für den 15.&#8239;März und den 11.&#8239;Oktober die <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title>-Ouvertüre, für den 18.&#8239;Dezember eine Sopran-Arie aus <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title>  sowie für den 27.&#8239;Dezember nochmals die <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title>-Ouvertüre und ein Finale aus <title ref="#ziegler-work013"><hi rend="italic">Euryanthe</hi></title>; vgl. ebd., Beilage zu Nr.&#8239;23 (21.&#8239;Februar), Beilage zu Nr.&#8239;31 (11.&#8239;März), Nr.&#8239;146 (5.&#8239;Oktober), Nr.&#8239;187 (16.&#8239;Dezember) und Nr.&#8239;192 (25.&#8239;Dezember). 
+            Außerdem spielte der Münsteraner Hornist <name>Rammelsberg</name> am 30.&#8239;Dezember <name ref="#ziegler-pers005">Webers</name> <title ref="#ziegler-work016">Horn-<hi rend="italic">Concertino</hi></title>  (im selben Konzert erklang die <title ref="#ziegler-work015"><hi rend="italic">Freischütz</hi></title>-Ouvertüre); vgl. ebd. Nr.&#8239;194 (28.&#8239;Dezember).</note>  
+            <name ref="#ziegler-pers017">Albert Lortzing</name> schrieb seinen Eltern am 2.&#8239;Juni&#x00A0;1828 aus Osnabrück:
+            <quote source="#ziegler-ftn05">Mit unsrer <hi rend="italic"><name ref="#ziegler-pers012">Weber</name></hi>  will es nicht beßer werden. Sie ist vergangene Woche nach 4&#x00A0;Wöchentlicher Pause wieder aufgetreten als <hi rend="italic">Rosine</hi>  im <title ref="#ziegler-work002"><hi rend="italic">Barbier v. Sevilla</hi></title>, aber sie kann das (<hi rend="italic">G</hi>) oben nicht ohne Anstrengung nehmen, und aushalten gar nicht, sie singt jetzt beinahe nur alle 14&#x00A0;Tage einmal, weil wir noch andre Sängerinnen haben […]. Wenn’s mit der <name ref="#ziegler-pers012">Weber</name> nicht beßer wird, so müßen sie grade zu betteln gehn. &#x2013; Jetzt schimpft die <hi rend="italic">Bagage</hi>, ihre Tochter habe zu viel singen müßen, sehr wahr! Aber hat man einer Andern eine erste Parthie gegeben, so haben sie <hi rend="italic">Scandal</hi> gemacht und geschrien, ihre Tochter würde zurückgesetzt.</quote><ref type="bibl" target="#Lortzing" xml:id="ziegler-ftn05">S.&#8239;14</ref>
+         </p>
+         
+         <p>Nachfolgend gelang offenbar der Fachwechsel und damit auch die stimmliche Konsolidierung, wie wiederum <name ref="#ziegler-pers017">Lortzing</name> seinen Eltern am 8.&#8239;November&#x00A0;1828 aus Münster mitteilte:
+            <quote source="#ziegler-ftn06">Die <hi rend="italic"><name ref="#ziegler-pers012">Weber</name></hi>  benimmt sich sehr klug. Sie macht auf die <hi rend="italic">Bravour=parthien</hi>  keine Ansprüche mehr, sondern will sich mehr in das Spielparthienfach, wo leichter Gesang vorherrschend ist, hineinwerfen, was sie auch erhalten wird […]</quote>.<ref target="#Lortzing" type="bibl" xml:id="ziegler-ftn06" rend="ibid">S.&#8239;19</ref>
+            Tatsächlich gab <name ref="#ziegler-pers012">Therese von Weber</name> kurz darauf in der Einstudierung des <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title>  eine vergleichsweise kleine Partie: den Puck.<note xml:id="ziegler-ftn26" n="26">Vgl. das Kostümbuch in <hi rend="italic">D-DT</hi>, Theaterakten, TA&#x00A0;54, S.&#8239;273; siehe hierzu den Beitrag von <name ref="#ziegler-pers026">Irmlind Capelle</name> im vorliegenden Band. Die Erstaufführung des <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title>  in Münster fand am 19.&#8239;November&#x00A0;1828 statt; vgl. <hi rend="italic">Westfälischer Merkur</hi>,  Münster, 1828, Nr.&#8239;170 (16.&#8239;November). Am 14.&#8239;Dezember&#x00A0;1828 folgte die Detmolder Erstaufführung.</note>
+         </p>
+         <pb/>
+         <p>Die ältere Tochter war also in Detmold versorgt; mit ihrer Jahreseinnahme von 600&#x00A0;Talern<note xml:id="ziegler-ftn27" n="27">
+            <hi rend="italic">D-DT</hi>, Theaterakten, TA&#x00A0;1 (Ausgaben-Journal 1826 und 1827, Gagen), S.&#8239;31, TA&#x00A0;3 (Haupt-Ausgabe zur Theater-Kasse), S.&#8239;4 (1828) und S.&#8239;93 (1829). Die anteiligen Einnahmen 1827 (ab Ende Januar, vgl. Anm.&#x00A0;<ref target="#ziegler-ftn16" type="crossref" rend="no"/>) und 1829 (bis Ende August) betrugen 580 bzw. 450&#x00A0;Taler.</note>  
+            lag sie, verglichen mit ihren Kollegen, im <q>Mittelfeld</q>, einer Anfängerin mit herausgehobenen Partien angemessen. Daneben stand ihr offenbar jährlich ein Benefiz zu: Schon Anfang 1827, unmittelbar nach ihrer Ankunft, erhielt sie die komplette Einnahme (abzüglich Unkosten) einer Vorstellung von <name ref="#ziegler-pers091">Peter von Winters</name> Oper <title ref="#ziegler-work004"><hi rend="italic">Das unterbrochene Opferfest</hi></title> (53&#x00A0;Taler, 14&#x00A0;Groschen),<note>Ebd., TA&#x00A0;83, 1837: Beläge zur Theater-Rechnung, Tit.&#x00A0;V Für Benefize und Gastdarstellungen, Nr.&#8239;3 (Abrechnung vom 28.&#8239;Januar&#x00A0;1827).</note> im Jahr darauf die halbe Einnahme der bereits genannten Vorstellung der <name ref="#ziegler-pers023">Mozart’schen</name> <title ref="#ziegler-work010"><hi rend="italic">Entführung</hi></title> am 14.&#8239;März&#x00A0;1828 (immerhin 57&#x00A0;Taler, 23&#x00A0;Groschen).<note xml:id="ziegler-ftn16a"><!--<hi rend="italic">D-DT</hi>, Theaterakten-->Ebd., TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829: Benefize 1828, Nr.&#8239;8; die Gesamteinnahme der Vorstellung betrug 137&#x00A0;Taler, 4&#x00A0;Groschen, vgl. TA&#x00A0;28, Einnahme-Journal 1828‒1835, S.&#8239;5 (unter 14.&#8239;März).</note> Außerdem gab es mehrfach Zusatzzahlungen, so im Juni&#x00A0;1827 5&#x00A0;Taler, 16&#x00A0;Groschen Extra-Vergütung <q>für eine Rolle in der <title ref="#ziegler-work025">schönen Müllerin</title></q> von <name ref="#ziegler-pers021">Paisiello</name>,<note>Ebd., TA&#x00A0;1, Ausgaben-Journal 1826 und 1827, Tit.&#x00A0;IV diverse Ausgabe 1827, S.&#8239;92 (Nr.&#8239;214).</note> in Einzelfällen Garderobengeld<note>Ebd., TA&#x00A0;1, Ausgaben-Journal 1826 und 1827, Tit.&#x00A0;II Ausgabe für Bibliothek und Garderobe 1827, Nr.&#8239;74: 1&#x00A0;Taler, 10&#8239;Groschen für die Anfertigung von einem Paar Schuhe; TA&#x00A0;1, Ausgaben-Journal 1826 und 1827, Tit.&#x00A0;IV diverse Ausgabe 1827, S.&#8239;100 (Nr.&#8239;292): 25&#x00A0;Taler <q>Vergütung für Garderobe</q>.</note> sowie 1828 eine Gratifikation von 24&#x00A0;Talern <q>Auf höchsten Befehl</q>.<note>Ebd., TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;IV diverse Ausgabe 1828, S.&#8239;69 (Nr.&#8239;450)</note>
+         </p>
+         
+         <p>Vater <name ref="#ziegler-pers003">Edmund von Weber</name> suchte hingegen weiterhin eine neue Anstellung, wie ein im Archiv des Verlages Schott erhaltener Brief bezeugt.<note xml:id="ziegler-ftn32" n="32"><hi rend="italic">D-B</hi>, Schott-Archiv, Nr.&#8239;26000; auf der Rückseite seitenverkehrt der Verlagsvermerk: <q><hi rend="italic">von Weber</hi> | <hi rend="italic">Lippe Detmold</hi> | 10 <hi rend="italic">Nov</hi>. 1827</q>.</note>  In der von <name ref="#ziegler-pers042">Gottfried Weber</name> herausgegebenen Musikzeitschrift <hi rend="italic">Caecilia</hi>  hatte der stellungslose Musiker folgende <q>Anzeige</q> gefunden, die ihm offenbar vielversprechend erschien:</p>
+         <p><quote source="#ziegler-ftn07">Ein Musiklehrer wird gesucht.
+            <lb/>In einer der angenehmsten Städte des Grossherzogthums Nieder-Rhein, würde ein Musiklehrer, welcher gründlichen Unterricht auf dem Clavier und im Gesange ertheilen könnte, besonders wenn er noch Violin oder Bass spielte, ein reichliches Auskommen finden. Nähere Auskunft ertheilt die Musikhandlung von B. Schotts Söhnen, wenn man sich portofrei an sie wendet.</quote><ref type="bibl" target="#Intelligenzblatt1827" xml:id="ziegler-ftn07">S.&#8239;33</ref>
+         </p>
+         
+         <p>Darauf bezugnehmend schrieb <name ref="#ziegler-pers003">Edmund von Weber</name> am 10.&#8239;November&#x00A0;1827 (in recht fehlerhaftem Deutsch) an den Mainzer Verlag, in dem auch die <hi rend="italic">Caecilia</hi>  erschien:</p>
+         
+         <!--<pb/>-->
+         <floatingText xml:id="ziegler-letter01">
+            <body>
+               <p rend="noIndent">An die Musikhandlung v. B: Schotts Söhnen</p>
+               <p rend="noIndent">Da man einen Musiklehrer in Großherzogthums des Nieder Rhein wünscht zu haben, so bin [ich] so frey um der nähren Ausku[n]ft zu bitten. ich bin der Bruder [von] <hi rend="italic"><name ref="#ziegler-pers005">Carl Maria v: Weber</name></hi>, der 20 Jahre als MusikDirektor bey den Besten Theaters gestanden hat,<note xml:id="ziegler-ftn34" n="34">Als Musikdirektor war <name ref="#ziegler-pers003">Edmund von Weber</name> bereits 1810/11 am Bergischen Theater in Elberfeld und Düsseldorf sowie 1811/12 unter Prinzipal <name ref="#ziegler-pers044">Georg Dengler</name> in Freiburg/Breisgau und Bern tätig, während seiner nachfolgenden Jahre in Bern (bis 1819) sind jedoch keine Theater-Kontakte bezeugt; vgl.  <ref type="bibl" target="#Higuchi2008">S.&#8239;28&#8239;f., 32</ref>.</note>  und jezt gerne einen Ruhigen Platz annehmen würde. ich bin zwar verheirathet da aber meine Tochter eine Brave Sängerin ist und hier beym Hoftheater <hi rend="italic">angagiert</hi>  ist, so ist Sie mit Mutter und Schwester versorgt. Die verlangten eigenschaften des Musiklehre[r]s besitze alle, ich gebe auf allen seiten Instrumenten Unterricht, so wie in Gesang wo ich schon viele Sängerinnen gebildet habe, ich kann mich auch auf das Zeugniß des H: <hi rend="italic">Capellmeisters</hi>  <name ref="#ziegler-pers053">Haßloch</name> wie des <hi rend="italic">Capellmeisters <name ref="#ziegler-pers051">Detousch</name></hi>, die beyde in Ihrer nähe sind, berufen.</p>
+               <p rend="right">ich habe die Ehre mich zu
+                  <lb/>nennen Edmund <hi rend="italic">von Weber</hi>
+                  <lb/>Musikdirektor</p>
+               <p rend="noIndent"><hi rend="underline">Lippe Detmold</hi>.
+                  <lb/>d 10<hi rend="sup">ten</hi> <hi rend="italic">Nov:</hi>  1827.</p>
+               
+               <p rend="noIndent">Vor einen Jahre hatte das Vergnügen Sie selbst in Mainz zu sprechen, ich kaufte noch die 4händige <hi rend="italic">Ouvertur</hi>  aus <title ref="#ziegler-work019"><hi rend="italic">Oberon</hi></title><note xml:id="ziegler-ftn35" n="35">Vermutlich ist das bei Schlesinger in Berlin erschienene vierhändige Arrangement der Ouvertüre von <name ref="#ziegler-pers047">Johann Philipp Schmidt</name> (VN:&#x00A0;1382), erschienen im August&#x00A0;1826, gemeint. Auf einem Lieferschein vom 22.&#8239;September&#x00A0;1826 (<hi rend="italic">D-B</hi>, Schott-Archiv, in Nr.&#8239;2557) ist die Übersendung von sechs Exemplaren der Ausgabe von Schlesinger an Schott vermerkt.</note>
+               </p>
+               
+               <p rend="noIndent">[verso:]
+                  <!--<lb/>-->N: S:
+                  <lb/>Ich bitte um baldige Antwort, die Türkischen Instrumente die hieher kommen habe ich vorgeschlagen, und ich hoffe das ich Ehre damit einlegen werde, die Pauken die wir damals nach Aachen bekamen, waren recht gut.</p>
+               
+               <p rend="right">von Weber
+                  <lb/>beim Fürstlichen Hofftheater | in | Lippe Detmold.</p>
+               <p rend="noIndent">mit H. <hi rend="italic">Capelmeister <name ref="#ziegler-pers051">Destousch</name></hi>  war ich als Schüler bey <hi rend="italic"><name ref="#ziegler-pers050">Haydn</name></hi>,<note xml:id="ziegler-ftn36" n="36"><name ref="#ziegler-pers003">Edmund von Weber</name> war von Anfang 1787 bis Mai&#x00A0;1788 Schüler <name ref="#ziegler-pers050">Joseph Haydns</name> in Esterháza; vgl. <ref target="#Higuchi2008" type="bibl">S.&#8239;10, 29</ref>. <name ref="#ziegler-pers051">Franz Seraph von Destouches</name> (1772&#x2013;1844), ab 1787 für vier Jahre Kompositions-Schüler <name ref="#ziegler-pers050">Haydns</name> und Cellist der Hofkapelle in Esterháza, war von 1820 bis zu seiner Pensionierung 1841 Hofkapellmeister in Homburg.</note>  
+                  und den H: <hi rend="italic">Capellmeister</hi> <name ref="#ziegler-pers053">Haßloch</name> habe erst vor einen Jahre in Darmstadt besucht,<note xml:id="ziegler-ftn37" n="37">Gemeinsam mit <name ref="#ziegler-pers053">Theodor Haßloch</name> (1769‒1829) war <name ref="#ziegler-pers003">Edmund von Weber</name> 1797 bis 1799 am Kasseler Hoftheater engagiert; vgl. <ref target="#Higuchi2008" type="bibl">S.&#8239;19, 31</ref>. <name ref="#ziegler-pers053">Haßloch</name> war seit 1810 in Darmstadt als Regisseur, Tenor und Schauspieler engagiert, seit Oktober&#x00A0;1811 als Hofmusikmeister; vgl. <ref type="bibl" target="#Fuchs1832">S.&#8239;14, 27&#8239;f., 43</ref>. 1813  wurde er Hofkapellmeister. <name ref="#ziegler-pers003">E. von Webers</name> Aufenthalt 1826 in Darmstadt ist ansonsten nicht dokumentiert, passt aber zu <name ref="#ziegler-pers017">Lortzings</name> Hinweis auf dessen Reiseplanungen im Brief vom 21.&#8239;August&#x00A0;1826 (vgl. Anm.&#x00A0;<ref target="#ziegler-ftn7" type="crossref" rend="no"/>) in Zusammenhang mit der Engagementssuche.</note>  wenn es nöthig wäre so könte sehr Bald die Stelle annehmen.</p>
+            </body>
+         </floatingText>
+         
+         <p><milestone rendition="#latex-ziegler-vspace-2mm"/>Dass <name ref="#ziegler-pers003">Edmund von Weber</name> die gewünschte Anstellung nicht erhielt, verwundert nach diesem recht konfusen Brief mit einem Nachtrag zum Haupttext, einem Nachsatz und einem Nachtrag zum Nachsatz kaum. Zudem passte sein Bewerbungsprofil (Lehrer für alle Streichinstrumente und Gesang) nicht genau zu den Ausschreibungsbedingungen (in erster Linie Lehrer für Klavier und Gesang, evtl. mit zusätzlicher Befähigung für Geige oder Bass). Und sicher war es alles andere als geschickt, gleich im ersten Satz zu erwähnen, in erster Linie an einem ruhigen Posten zur Alterssicherung interessiert zu sein, anstatt die jahrelangen Erfahrungen als Lehrer (u.&#8239;a. in Bamberg&#x00A0;1809, Bern ab 1812 und Lübeck&#x00A0;1819/20) zu betonen. Vielleicht rechnete <name ref="#ziegler-pers003">Weber</name> aber auch damit, dass sich seine in den letzten Jahren zunehmende Amtsmüdigkeit ohnehin herumgesprochen hatte.</p>
+         
+         <p>Während seiner Anstellung bei <name ref="#ziegler-pers008">Ringelhardt</name> war <name ref="#ziegler-pers003">Edmund von Weber</name> sowohl in Köln als auch in Aachen immer wieder das Ziel harscher öffentlicher Angriffe von seiten der ortsansässigen Kritiker gewesen. Zu seinem Kölner Benefiz am 3.&#8239;Februar&#x00A0;1825 (<name ref="#ziegler-pers005">C.&#8239;M. von Webers</name> <title ref="#ziegler-work015"><hi rend="italic">Freischütz</hi></title>) liest man noch:
+            <quote source="#ziegler-ftn08"><name ref="#ziegler-pers003">Hr. v. Weber</name> wußte die Achtung des zahlreich versammelten Publikums durch ein gut besetztes Orchester in einem ausgezeichneten Grade zu würdigen</quote>.<ref type="bibl" target="#RheinischeFlora" xml:id="ziegler-ftn08">Jg.&#8239;1, Nr.&#8239;29 (19.&#8239;Februar&#x00A0;1825), S.&#8239;116. Der Kölner Kritiker zeichnete seine Beiträge mit <q>Attento</q> (Aufgepasst).</ref></p>
+         
+         <p>Doch zur Aufführung von <name ref="#ziegler-pers058">Hérolds</name> <title ref="#ziegler-work031"><hi rend="italic">Wunderglöckchen</hi></title>  am 21.&#8239;Februar schrieb derselbe Kritiker:
+            <quote source="#ziegler-ftn39">Das Orchester schoß mehrere Böcke. Der Musikdirektor spielte mit seinem Fidelbogen auf dem Notenbuche ein die Hauptsache störendes Nebenkonzert.</quote><note xml:id="ziegler-ftn39" type="bibl"><ref type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#8239;1, Beilage zu Nr.&#8239;34 (27. Februar 1825)</ref>; die Beilagen dieser Zeitschrift sind durchgehend ohne Paginierung. In derselben Ausgabe heißt es zu <name ref="#ziegler-pers005">C.&#8239;M.&#8239;v. Webers</name> <title ref="#ziegler-work021"><hi rend="italic">Preciosa</hi></title> am 20.&#8239;Februar: <q>Das Orchester spielte unter der Direktion des H. <name ref="#ziegler-pers003"><hi rend="spaced">Edmund v. Weber</hi></name> mit vieler Anstrengung</q>.</note>
+         
+         Ähnliche Urteile finden sich mehrfach: Bei <name ref="#ziegler-pers031">Rossinis</name> <title ref="#ziegler-work027"><hi rend="italic">Tancred</hi></title>  am 17.&#8239;Januar wurde bemängelt, dass die Chöre <quote source="#ziegler-ftn40">so miserabel einstudirt [waren], daß mehrere Störungen nicht unbemerkt blieben</quote>.<ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn40" n="40">Jg.&#8239;1, Beilage zu Nr.&#8239;22 (6.&#8239;Februar 1825)</ref> Zur zweiten Kölner Aufführung von <name ref="#ziegler-pers014">Spohrs</name> <title ref="#ziegler-work017"><hi rend="italic">Jessonda</hi></title>  am 9.&#8239;Mai heißt es: <quote source="#ziegler-ftn41">Ueber die Leistung des Orchesters bei dieser schwierigen Musik schweigen wir lieber.</quote><ref xml:id="ziegler-ftn41" n="41" type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#8239;1, Beilage zu Nr.&#8239;77 (15.&#8239;Mai 1825).</ref>  
+            Zur Eröffnung des Aachener Theaters mit der <hi rend="italic">Jessonda</hi> am 15.&#8239;Mai&#x00A0;1825 rügte der dortige Rezensent <name ref="#ziegler-pers062">Johann Baptist Rousseau</name> (gleichzeitig Herausgeber der Zeitschrift <hi rend="italic">Rheinische Flora</hi>, in der alle diese Kritiken erschienen), dass etliche Tempi, obwohl per Metronomangaben genau bezeichnet, völlig <q>vergriffen</q> gewesen seien, und bemerkte:
+            <quote source="#ziegler-ftn42">es möge dem Herrn Musikdirektor gefallen, seine Zurufungen an’s Orchester nicht so gar laut und die Illusion störend anzubringen […]</quote>.<ref type="bibl" target="#RheinischeFlora" rend="ibid" xml:id="ziegler-ftn42" n="42">Jg.&#8239;1, Beilage zu Nr.&#8239;78 (17.&#8239;Mai 1825)</ref> Auch bei <name ref="#ziegler-pers023">Mozarts</name> <title ref="#ziegler-work010"><hi rend="italic">Entführung aus dem Serail</hi></title> am 10.&#8239;Juni wurde der Dirigierstil des Musikdirektors heftig angegriffen:
+            <quote source="#ziegler-ftn43">Das Orchester war brav, nur ging die Trommel zu dumpf. <name ref="#ziegler-pers003">Herr v. Weber</name>, der Gläserzerschmetterer, kann <hi rend="italic">Forte</hi>  und <hi rend="italic">Presto</hi> angeben, ohne deswegen des Fußstampfens zu bedürfen.</quote><ref xml:id="ziegler-ftn43" n="43" type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#8239;1, Beilage zu Nr.&#8239;93 (14.&#8239;Juni 1825)</ref></p>
+         
+         <p>Waren die Kritiker hingegen mit der Orchesterleistung zufrieden, wurden die ansässigen Musiker zwar gelobt, der <q>zugereiste</q> Musikdirektor aber mit keiner Silbe erwähnt.<note xml:id="ziegler-ftn44" n="44"><ref type="bibl" target="#RheinischeFlora" rend="ibid">Jg.&#8239;1, Nr.&#8239;71 (5.&#8239;Mai&#x00A0;1825), S.&#8239;284</ref> (zu <name ref="#ziegler-pers064">Fioravantis</name> <title ref="#ziegler-work026"><hi rend="italic">Sängerinnen auf dem Lande</hi></title> am 18.&#8239;April in Köln: <q>Die Aufführung war sehr gelungen, und Ref. möchte behaupten, daß während des ganzen Winters keine Oper so präzise dargestellt wurde, als diese, sowohl von Seiten der Sänger und Sängerinnen, als des Orchesters</q>.), Nr.&#8239;79 (19.&#8239;Mai&#x00A0;1825), S.&#8239;316 (zu <name ref="#ziegler-pers065">Aubers</name> <title ref="#ziegler-work024"><hi rend="italic">Schnee</hi></title> am 17.&#8239;Mai in Aachen: <q>Sänger und Orchester waren im besten Einklang</q>), Nr.&#8239;86 (2.&#8239;Juni&#x00A0;1825), S.&#8239;344 (zu <name ref="#ziegler-pers023">Mozarts</name> <title ref="#ziegler-work028"><hi rend="italic">Titus</hi></title> am 30.&#8239;Mai in Aachen: <q>Das Orchester that alles nur Mögliche; die erste Klarinette, an der Stelle des Bassethorns, war unübertrefflich</q>.).</note>  
+            Allerdings deuten Berichte auswärtiger Besucher darauf hin, dass es um die Qualität des Kölner Orchesters nicht zum Besten stand, so dass <name ref="#ziegler-pers003">Edmund von Weber</name> möglicherweise aufgrund des ihm zur Verfügung stehenden Personals resignierte. 
+            Der Londoner <name ref="#ziegler-pers066">Sir George Smart</name> sprach nach seinem Besuch einer Aufführung von <name ref="#ziegler-pers067">Méhuls</name> <title ref="#ziegler-work018"><hi rend="italic">Joseph</hi></title> am 16.&#8239;November&#x00A0;1825 von einem <quote xml:lang="en" source="#ziegler-ftn110">bad orchestra consisting of eight violins, two viole, two &#x2019;celli and two Bassi, with the usual number of wind instruments</quote>,<ref type="bibl" target="#Cox1907" xml:id="ziegler-ftn110">S.&#8239;221; 
+               demnach dirigierte <name ref="#ziegler-pers003">Edmund von Weber</name> selbst vom Geigenpult aus mit dem Bogen.</ref>  
+            und <name ref="#ziegler-pers068">Wilhelm Speyer</name>, der am 9.&#8239;Mai&#x00A0;1825 eine Aufführung der <title ref="#ziegler-work017">Jessonda</title> besucht hatte, berichtete am 12.&#8239;Mai dem befreundeten Komponisten <name ref="#ziegler-pers014">Louis Spohr</name>, das Orchester bestünde <quote source="#ziegler-ftn111">fast gänzlich aus Greise[n], lauter 60 bis 70jährige Menschen</quote>.<note type="bibl" xml:id="ziegler-ftn111">Vgl. <ref type="bibl" target="#Waidelich2014">S.&#8239;138</ref>; <name ref="#ziegler-pers068">Speyer</name> kritisierte u.&#8239;a. die Tempi.</note> Das Aachener Orchester scheint zu jener Zeit das bessere gewesen zu sein.<note xml:id="ziegler-ftn47" n="47">Vgl. <ref target="#RheinischeFlora" type="bibl">Jg.&#8239;1, Nr.&#8239;94 (16.&#8239;Juni 1825), S.&#8239;378</ref> (zu <name ref="#ziegler-pers064">Fioravantis</name> <title ref="#ziegler-work026">Sängerinnen auf dem Lande</title> am 13.&#8239;Juni): <q>Unsere Musiker bewährten ihren alten Ruhm, eines der besten Stadtorchester in Nähe und Ferne zu bilden.</q></note>
+         
+         Die Angriffe auf <name ref="#ziegler-pers003">Edmund von Weber</name> in der örtlichen Presse nahmen mehr und mehr hämischen Charakter an: Zur Aufführung von <name ref="#ziegler-pers030">Boieldieus</name> <title ref="#ziegler-work005"><hi rend="italic">Der neue Gutsherr</hi></title> am 4.&#8239;Juli wurde glossiert: <quote source="#ziegler-ftn48">im Orchester war Alles munter, nur Einer &#x2013; schlief</quote>.<ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn48" n="48" rend="ibid">Jg.&#8239;1, Nr.&#8239;106 (7.&#8239;Juli 1825), S.&#8239;426.</ref>  Dass damit der Musikdirektor gemeint war, bezeugt der Hinweis, dass <name ref="#ziegler-pers003">Edmund von Weber</name> im <title ref="#ziegler-work007"><hi rend="italic">Don Giovanni</hi></title>  am 20.&#8239;Juli von einem solchen <q>magnetischen Schlaf überfallen</q> wurde, dass er <q>zweimal den Ton nicht angab</q> und dadurch <q>Sänger und Orchester gleich stark</q> verwirrte: <quote source="#ziegler-ftn49">Er mußte ordentlich von beiden Theilen fortgeschleppt werden.</quote><ref type="bibl" target="#RheinischeFlora" xml:id="ziegler-ftn49" n="49" rend="ibid">Jg.&#8239;1, Nr.&#8239;115 (24. [recte 23.] Juli 1825), S.&#8239;462</ref>  
+            Auch anlässlich der Aufführung von <name ref="#ziegler-pers070">Cherubinis</name> <title ref="#ziegler-work030"><hi rend="italic">Wasserträger</hi></title> am 3.&#8239;August berichtete der Aachener Kritiker von <quote source="#ziegler-ftn50">der apathiegleichen Art, wie jetzt bei uns die Oper dirigirt wird</quote>.<ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn50" n="50" rend="ibid">Jg.&#8239;1, Nr.&#8239;123 (6.&#8239;August 1825), S.&#8239;494</ref> 
+            Selbst in der <q>Historische[n] Übersicht des Theaters in Aachen von 1825 bis Ende 1828</q> in dem von <name ref="#ziegler-pers071">Johann Sigismund Arendt</name> herausgegebenen Theater-Almanach von 1829 liest man, dass das Aachener Orchester <q>von dem der [<name ref="#ziegler-pers008">Ringelhardt’schen</name>] Gesellschaft attachirten Musikdirektor, <name ref="#ziegler-pers003"><hi rend="spaced">Herrn von Weber</hi></name> (älterem Bruder des berühmten Komponisten) träge und schläfrig geleitet</q> wurde.<note xml:id="ziegler-ftn51" n="51">Vgl. <ref target="#Arendt1829a" type="bibl">S.&#8239;54</ref>; vgl. <ref type="bibl" target="#Arendt1829a" rend="ibid">S.&#8239;75</ref>: <q>das Orchester kränkelte an schläfriger Leitung des <name ref="#ziegler-pers003">Herrn von Weber</name></q>.</note>
+         
+         Nach der Rückkehr von <name ref="#ziegler-pers008">Ringelhardts</name> Truppe nach Köln urteilte der dortige Rezensent über die <title ref="#ziegler-work021"><hi rend="italic">Preciosa</hi></title>-Darbietung am 28.&#8239;Oktober: <quote source="#ziegler-ftn52">Das Tempo der Ouvertüre sowie einiger anderer Musikstücke war zu langsam.</quote><ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn52" n="52">Jg.&#8239;1, Nr.&#8239;173 (3.&#8239;November 1825), S.&#8239;692</ref>
+            Zu <name ref="#ziegler-pers075">Spontinis</name> <title ref="#ziegler-work029"><hi rend="italic">Vestalin</hi></title> am 30.&#8239;November legte er noch nach:
+            <quote source="#ziegler-ftn53">Dann bleibt uns noch zu bemerken übrig, es möge doch dem <name ref="#ziegler-pers003">Hrn. von Weber</name> gefallen, die Partitur etwas genauer zu studiren: die Ouvertüre fängt mit einem Andante an und nicht mit einem Adagio, dann folgt ein Presto und kein Allegro. Ein Glück ist es, sowohl für das Publikum als die Sänger, daß diese gewöhnlich das Tempo selbst einsetzen, wo denn der Herr Taktschläger blos nach Anderer Gefühl den Takt sichtbar und hörbar nachschlägt.</quote><ref target="#RheinischeFlora" xml:id="ziegler-ftn53" n="53" type="bibl" rend="ibid">Jg.&#8239;1, Beilage zu Nr.&#8239;193 (8.&#8239;Dezember 1825)</ref>
+         </p>
+         
+         <p>Anlässlich der Aufführung von <name ref="#ziegler-pers077">Paers</name> <title ref="#ziegler-work023"><hi rend="italic">Sargines</hi></title> am 6.&#8239;Januar 1826 in Aachen liest man die <quote source="#ziegler-ftn54">Bemerkung, welche sowohl für diese als fast alle anderen Opern gilt, daß die Orchesterbegleitung bei uns meistens so stark zu sein pflegt, daß sie die Singstimme entweder ganz überflügelt oder zum mindesten benachtheiligt. Ein <hi rend="italic">Pianissimo</hi>  kommt höchst selten klar hervor, und bei dem <hi rend="italic">Forte</hi> hört man nichts als das Stürmen der Instrumente; daß die Sängerin wirklich singt, kann man oft blos den Bewegungen ihres Mundes absehen.</quote><ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn54" n="54">Jg.&#8239;2, Beilage zu Nr.&#8239;8 (10.&#8239;Januar 1826)</ref>  
+            Und selbst <name ref="#ziegler-pers003">Edmund von Webers</name> Benefiz-Aufführung am 3.&#8239;März 1826 in Köln gab Anlass zur Frage, was sich der Musikdirektor dabei gedacht habe, ausgerechnet <q>eine solche und so alte Oper</q> wie <name ref="#ziegler-pers078">Grétrys</name> <title ref="#ziegler-work022"><hi rend="italic">Richard Löwenherz</hi></title>  auszuwählen.<ref target="#RheinischeFlora" type="bibl" xml:id="ziegler-ftn55" n="55" rend="ibid">Jg.&#8239;2, Nr.&#8239;40 (11.&#8239;März 1826), S.&#8239;160</ref>  Besonders in Aachen hielt der Spott an; zu <name ref="#ziegler-pers075">Spontinis</name> <title ref="#ziegler-work029"><hi rend="italic">Vestalin</hi></title> am 14.&#8239;Juli heißt es:
+            <quote source="#ziegler-ftn56">Der Musikdirektor war heute so fest an sein Pult, wie Prometheus an den Felsen, gebannt, daß er nicht im Stande war, der Virtuosität der Sänger und Sängerinnen zu folgen; er hinkte daher ihrem Auffluge nach.</quote><ref target="#RheinischeFlora" xml:id="ziegler-ftn56" n="56" type="bibl" rend="ibid">Jg.&#8239;2, Beilage zu Nr.&#8239;111 (16.&#8239;Juli 1826)</ref>
+         
+         Immerhin konnte <name ref="#ziegler-pers003">Edmund von Weber</name> vor seinem Abschied von Aachen am 30.&#8239;August 1826 in <name ref="#ziegler-pers075">Spontinis</name> <title ref="#ziegler-work003"><hi rend="italic">Cortez</hi></title>  (zu seinem Benefiz) nochmals sein Können unter Beweis stellen, so dass auch der Kritiker <name ref="#ziegler-pers062">Rousseau</name> die <q>sehr gelungene Aufführung</q> anerkannte.<note xml:id="ziegler-ftn57" n="57"><ref target="#RheinischeFlora" type="bibl" rend="ibid">Jg.&#8239;2, Beilage zu Nr.&#8239;138 (3.&#8239;September&#x00A0;1826)</ref>. Die Kölner Vorstellungen ab Herbst&#x00A0;1826 leitete bereits der neue Ringelhardt’sche Musikdirektor <name ref="#ziegler-pers080">C.&#8239;G. Woywoda</name>; vgl. <ref target="#RheinischeFlora" type="bibl" rend="ibid">Jg.&#8239;2, Beilage zu Nr.&#8239;160 (12.&#8239;Oktober 1826)</ref>.</note>
+         </p>
+         
+         <p>In Detmold hatte sich <name ref="#ziegler-pers003">Edmund von Weber</name> aus dem öffentlichen Musikleben zunächst offenbar weitgehend zurückgezogen; Tochter <name ref="#ziegler-pers012">Therese</name> war die Hauptverdienerin der Familie. Nachdem die erhoffte Anstellung als Lehrer nicht zustande kam, dürfte er allerdings Orchesterdienste versehen haben. In der zweiten Jahreshälfte 1828 sprang er offenbar zunächst vertretungsweise ein, da er keine reguläre Gage erhielt, sondern lediglich innerhalb der Extra-Ausgaben für das Orchester aktenkundig wurde.<note xml:id="ziegler-ftn58" n="58"><hi rend="italic">D-DT</hi>, Theaterakten, TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;III Orchester 1828, S.&#8239;40 (August bis November): Nr.&#8239;35 (12&#x00A0;Taler, 12&#x00A0;Groschen), Nr.&#8239;37 (2&#x00A0;Taler), Nr.&#8239;52 (3&#x00A0;Taler, 8&#x00A0;Groschen <q>für Quartet-Proben</q>) und Nr.&#8239;54 (11&#x00A0;Taler, 16&#x00A0;Groschen).</note>  
+            Erst für die Monate Januar bis August&#x00A0;1829 liegen Gagenabrechnungen als festangestellter Orchestermusiker vor, nach welchen der <q>Alt-Violinist</q> <name ref="#ziegler-pers003">Edmund von Weber</name> insgesamt 40&#x00A0;Taler erhielt; seine Wochengage (2&#x00A0;Taler, 12&#x00A0;Groschen) betrug weniger als ein Fünftel jener der Tochter Therese.<note xml:id="ziegler-ftn59" n="59">Ebd., TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;I Gagen 1829, S.&#8239;94 (Nr.&#8239;35);  außerdem das Gagenbuch Nr.&#8239;35 Edmund von Weber (Sign.: TA&#x00A0;101, 1829, Nr.&#8239;35).</note>  
+            Durch die Vermittlung der im Brief erwähnten Instrumente für die sogenannte <soCalled>Türkische Musik</soCalled>, so sie denn überhaupt zustande kam, dürfte er kaum mitverdient haben, aber durch Zusatzdienste als Notenkopist konnte er das Familieneinkommen aufbessern: Laut Rechnungen des Detmolder Hoftheaters wurde er zwischen Januar und Mai&#x00A0;1829 für Teile der Aufführungsmaterialien zu <name ref="#ziegler-pers067">Méhuls</name> <hi rend="italic">Je toller je besser</hi>,<note xml:id="ziegler-ftn60" n="60"><hi rend="italic">D-DT</hi>, Theaterakten, TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;IV für Musikalien, Januar&#x00A0;1829, Nr.&#8239;2 (3&#x00A0;Taler, 6&#x00A0;Groschen, 4&#x00A0;Pfennig).</note>  
+            <name ref="#ziegler-pers081">Dalayracs</name> <hi rend="italic">Die zwei Worte</hi><note xml:id="ziegler-ftn61" n="61">Ebd., TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;IV für Musikalien, April&#x00A0;1829, Nr.&#8239;12 (7&#x00A0;Taler, 21&#x00A0;Groschen).</note>  
+            und <name ref="#ziegler-pers082">Louis Maurers</name> <hi rend="italic">Aloise</hi><note xml:id="ziegler-ftn62" n="62">Ebd., TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;IV  für Musikalien, Mai&#x00A0;1829, Nr.&#8239;27 (24&#x00A0;Taler, 15&#x00A0;Groschen); außerdem liegt ebd. eine nicht spezifizierte Abrechung für Kopialien vom Februar&#x00A0;1829 vor, Nr.&#8239;6 (2&#x00A0;Taler, 11&#x00A0;Groschen).</note>  bezahlt.</p>
+         
+         <p><milestone rendition="#latex-ziegler-vspace-1mm"/>Vermutlich Anfang September&#x00A0;1829 verließen die Webers Detmold.<note xml:id="ziegler-ftn63" n="63">Die letzte Gage wurde am 30.&#8239;August&#x00A0;1829 an <name ref="#ziegler-pers003">Edmund von Weber</name> gezahlt; vgl. das in Anm.&#x00A0;<ref target="#ziegler-ftn59" type="crossref" rend="no"/> genannte Gagenbuch Nr.&#8239;35 für <name ref="#ziegler-pers003">Edmund von Weber</name>. 
+            Im September erhielten <q>Herr und Dem: Weber</q> ein Reisegeld von 22&#x00A0;Talern, TA&#x00A0;3 Haupt-Ausgabe zur Theater-Kasse 1828 und 1829, Tit.&#8239;II Diverse Ausgabe 1829, S.&#8239;107 (Nr.&#8239;219).</note>  
+            Vater <name ref="#ziegler-pers003">Edmund</name> dürfte bis zu seinem Tod seine Tochter <name ref="#ziegler-pers012">Therese</name> in ihre nachfolgenden Engagements begleitet haben. 1829 schloss sie zunächst einen Jahresvertrag am Hof- und Nationaltheater Mannheim ab (dortiges Debüt am 17.&#8239;September&#x00A0;1829);<note xml:id="ziegler-ftn64" n="64">Vgl. <ref target="#Pichler1879" type="bibl">S.&#8239;237</ref> sowie <ref target="#Fambach1890" type="bibl">S.&#8239;540</ref>.</note>  
+            von dort wechselte sie im Herbst&#x00A0;1830 erneut für ein Jahr nach Würzburg, wo die jüngere Schwester zudem eine Anstellung als Choristin bekam.<note xml:id="ziegler-ftn65" n="65">Vgl. <ref type="bibl" target="#Dennerlein1853">S.&#8239;232, 236</ref>. Auch <name ref="#ziegler-pers017">Albert Lortzing</name> erfuhr von der neuen Anstellung; vgl. den Brief an seine Eltern vom 7.&#8239;November&#x00A0;1830 in <ref target="#Lortzing" type="bibl">S.&#8239;30</ref>.</note>  
+            In Würzburg starben bald nacheinander sowohl <name ref="#ziegler-pers003">Edmund</name> als auch seine Frau <name ref="#ziegler-pers019">Therese</name>. Für <name ref="#ziegler-pers003">Edmund von Weber</name> ist im <hi rend="italic">Genealogischen Taschenbuch der Ritter- und Adels-Geschlechter</hi> das Todesjahr 1831 angegeben,<note xml:id="ziegler-ftn66" n="66">Jg.&#8239;3, Brünn&#x00A0;1878, S.&#8239;784&#8239;f. Die dortigen Angaben zur Familie dürften auf Informationen von <name ref="#ziegler-pers003">Edmunds</name> Enkel <name ref="#ziegler-pers083">Friedrich Hubert von Weber</name> basieren. </note>  
+            allerdings fälschlich, denn das <hi rend="italic">Intelligenz-Blatt für den Unter-Mainkreis des Königreichs Bayern</hi> nennt ihn bereits unter den im Dezember&#x00A0;1830 Verstorbenen.<note xml:id="ziegler-ftn68neu">Jg.&#8239;1831, Nr.&#8239;9 (25.&#8239;Januar), Sp.&#8239;177 (in der <q>Bevölkerungs-Anzeige vom Monate December 1830</q>, präsentiert am 18.&#8239;Januar 1831, unter den Gestorbenen: <q><name ref="#ziegler-pers003">Edmund von Weber</name>, Musik-Direktor, 69 [recte 64] J. alt.</q>). <ref target="#Gruber1994" type="bibl">S.&#8239;160</ref>, nennt als Sterbedatum genauer den 13.&#8239;Dezember 1830. Die in der Literatur häufiger zu findende Behauptung, <name ref="#ziegler-pers003">Edmund von Weber</name> wäre nochmals bei <name ref="#ziegler-pers008">Ringelhardt</name> in dessen letzter Kölner Wintersaison 1831/32 engagiert gewesen, beruht auf einer Verwechslung mit einem seiner Söhne; vgl. <ref target="#Heyden1939" type="bibl">S.&#8239;104</ref> sowie <ref target="#Oepen1955" type="bibl">S.&#8239;142</ref>. Richtig liest man hingegen in der Zeitschrift <title level="m">Allgemeine Theater-Chronik. Wöchentliche Mittheilungen von sämmtlichen deutschen Theatern</title>, Jg.&#8239;1, Nr.&#8239;7 (12.&#8239;Januar 1832), S.&#8239;27 in dem Bericht (datiert 29.&#8239;Dezember 1831) über <name ref="#ziegler-pers008">Ringelhardts</name> Kölner Winterspielzeit (ab 28.&#8239;September 1831): <q>Der Musikdirektor <name ref="#ziegler-pers003"><hi rend="spaced">Hr. v. Weber</hi></name>, Neffe des berühmten Componisten, ist ein tüchtiger Mann, mit den gründlichsten Kenntnissen seines Faches ausgerüstet; er dirigirt mit Umsicht und Ruhe, und wir sehen unser Orchester unter seiner Leitung erfreulich gedeihen.</q></note>
+            Für seine Frau ist der Juli&#x00A0;1831 als Sterbemonat gesichert. 
+            In einer Münchner Zeitung findet sich zu dieser Zeit eine kurze Todesanzeige:
+            <quote source="#ziegler-ftn12">Auswärtig gestorben. […] Würzburg: […] <name ref="#ziegler-pers019">Fr. Therese von Weber</name>. Musikdirectorswittwe, 45 Jahre alt.</quote><ref type="bibl" target="#Landbote1831" xml:id="ziegler-ftn12">S.&#8239;978</ref>
+         </p>
+         
+         <p><milestone rendition="#latex-ziegler-vspace-1mm"/>Tochter <name ref="#ziegler-pers012">Therese</name> (ab 1833 verh. Atmer), die noch bis 1838 auf der Bühne aktiv war,<note xml:id="ziegler-ftn68" n="68">Zu ihrem späteren Lebensweg vgl. <ref type="bibl" target="#Ziegler2005">S.&#8239;43–46</ref>.</note>  
+            lebte später in Berlin und lernte dort 1874, vermittelt durch ihren Cousin <name ref="#ziegler-pers085">Max Maria von Weber</name>, den Musikdirektor <name ref="#ziegler-pers086">Friedrich Wilhelm Jähns</name> kennen.<note xml:id="ziegler-ftn69" n="69">Vgl. den Brief von <name ref="#ziegler-pers085">Max Maria von Weber</name> an <name ref="#ziegler-pers086">Jähns</name> vom 28.&#8239;Mai&#x00A0;1874 (Ostholstein-Museum Eutin, KHM Eutin Weber&#x00A0;63); mit dem Brief übersandte <name ref="#ziegler-pers085">Weber</name> Geld zur Unterstützung der offenbar bedürftigen <name ref="#ziegler-pers012">Therese Atmer</name>.</note>  Für <name ref="#ziegler-pers086">Jähns</name> zeichnete sie im Jahr darauf einige Erinnerungen an die Familie auf, die in der Jähns’schen Weberiana-Sammlung erhalten blieben.<ref target="#Weberiana44a" type="bibl" xml:id="ziegler-ftn70" n="70"/> Die aus großer zeitlicher Distanz niedergeschriebenen und somit leider in zahlreichen Details fehlerhaften Notizen gehen auch kurz auf die letzten fünf gemeinsam mit den Eltern verbrachten Jahre in Köln und Würzburg (ohne Erwähnung von Aachen, Detmold und Mannheim) ein:
+            <quote source="#ftn-Weberiana44a"><milestone rendition="#latex-ziegler-vspace-1mm"/>In <hi rend="italic">Cöln</hi> gefiel es uns Allen sehr gut; doch das Schicksal wurde nicht müde uns zu verfolgen. Meine Mutter begann zu kränkeln; mein Vater verspürte oft Brustschmerzen und heftigen Husten und als nun die furchtbare Nachricht von <hi rend="italic"><name ref="#ziegler-pers005">C. Marias</name></hi> Tode [am 5.&#8239;Juni&#x00A0;1826] die Welt erschütterte, befiel meinen Vater eine schwere Krankheit. Als er sich scheinbar erholt, rieth ihm der Artzt nach <hi rend="italic">Baden-Baden</hi> zu gehen.<note xml:id="ziegler-ftn71" n="71">Zur genaueren Datierung dieses Kuraufenthalts fehlen bislang dokumentarische Belege.</note>  
+               Dort wurden ihm die theuren Briefe seines unvergesslichen Bruders gestohlen, die er in einem Kästchen mit sich führte und von welchem er sich nie trennte. &#x2013; So kam Schlag auf Schlag und der arme alte Mann, konnte sich nicht mehr erholen. Er kam wieder zurück, kränkelte noch einige Jahre und verschied dann an der Brustwassersucht, nachdem wir 1&#x00A0;Jahr früher nach Würzburg gezogen waren, theils der gesunden Luft wegen und theils weil Mutter dort einen geschickten Doktor gefunden zu haben glaubte, der ihre schrecklichen  Leiden zu heilen hoffte. 
+               Diese Hoffnung war jedoch vergebens und nach 1&#8239;½&#x00A0;Jahre[n] starb auch sie, uns beide mit 15 und 16&#x00A0;Jahren [sic]<note xml:id="ziegler-ftn72" n="72">Die Schwestern <name ref="#ziegler-pers012">Therese</name> und <name ref="#ziegler-pers016">Josephine</name> waren beim Tod der Mutter fast 22 bzw. 20&#x00A0;Jahre alt.</note> als Weisen zurücklassend.</quote><ref xml:id="ftn-Weberiana44a" target="#Weberiana44a" type="bibl"/></p>
+         
+         <p>Wieviel tatsächliche Fakten dieser Text überliefert und wieviel phantasievolle Anreicherung, bleibt unklar. Die erwähnte Kränklichkeit des Vaters kann zumindest dessen vielgeschmähte Passivität in den letzten Dienstjahren als Musikdirektor erklären. Die Länge des Würzburg-Aufenthalts (angeblich ein Jahr bis zum Tod des Vaters <name ref="#ziegler-pers003">Edmund</name> und weitere anderthalb Jahre bis zum Tod der Mutter <name ref="#ziegler-pers019">Therese</name>) wurde auf jeden Fall übertrieben: Die Familie verbrachte dort weniger als ein Jahr.<note xml:id="ziegler-ftn73" n="73">Die Schwestern von Weber waren wohl kaum länger als ein halbes Jahr in Würzburg, da sie bei <ref type="bibl" target="#Dennerlein1853">S.&#8239;232</ref> erst für die Wintersaison (ab Oktober 1830) genannt werden. <name ref="#ziegler-pers012">Therese von Weber</name> befand sich im Februar&#x00A0;1831, also vor dem Tod der Mutter in Würzburg, bereits in Dessau; vgl. <ref type="bibl" target="#Ziegler2005">S.&#8239;43 (Anm.&#8239;88)</ref> sowie <ref target="#Dahm1831" type="bibl"/>.</note></p>
+         <p>
+            Der Lebensweg <name ref="#ziegler-pers003">Edmund von Webers</name> konnte in den letzten Jahren durch zahlreiche Quellenfunde im Rahmen der Recherchen zur Carl-Maria-von-Weber-Gesamtausgabe weitgehend rekonstruiert werden; trotzdem sind noch manche Details vage. Es bleibt zu hoffen, dass kommende Forschungen auch hierzu Klärung bringen!</p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Liepmannssohn1894">Leo Liepmannssohn, Katalog zur Auktion am 15./16.&#8239;Oktober&#x00A0;1894 (Nachlass Louis Spohr), Nr.&#8239;603 (S.&#8239;72&#8239;f.), ohne genaue Datumsangabe (Aachen&#x00A0;1826); Verbleib des Originals unbekannt</bibl>
+               <bibl xml:id="Lortzing">Albert Lortzing, <title level="m">Sämtliche Briefe. Historisch-kritische Ausgabe</title>, hg. von Irmlind Capelle, Kassel&#x00A0;1995 (Detmold-Paderborner Beiträge zur Musikwissenschaft&#x00A0;4)<bibl type="short">Lortzing, <title level="m">Briefe</title></bibl></bibl>
+               <bibl xml:id="Grabbe">Christian Dietrich Grabbe, <title level="m">Werke</title>, Bd.&#8239;4, Emsdetten&#x00A0;1966<bibl type="short">Grabbe, <title level="m">Werke</title></bibl></bibl>
+               <bibl xml:id="Intelligenzblatt1827"><title level="j">Intelligenzblatt zur Caecilia</title> 1827 [eigentlich zu Bd.&#8239;7 = Heft&#x00A0;25 bis 28, Mainz 1828], Nr.&#8239;25</bibl>
+               <bibl xml:id="Cox1907">Hugh Bertram Cox und C.&#8239;L.&#8239;E. Cox (Hg.), <title level="m">Leaves from the Journals of Sir George Smart</title>, London&#x00A0;1907</bibl>
+               <bibl xml:id="Waidelich2014">Till Gerrit Waidelich, <title level="a">Die Beziehungen zwischen Carl Maria von Weber und Louis Spohr im Spiegel ihrer Korrespondenz</title>, in: <title level="m">Weberiana. Mitteilungen der Internationalen Carl-Maria-von-Weber-Gesellschaft e.&#8239;V.</title> 24 (2014), S.&#8239;117&#x2013;144</bibl>
+               <bibl xml:id="Landbote1831"><title level="j">Der Bayerische Landbote</title>, Jg.&#8239;7, Nr.&#8239;197 (25.&#8239;Juli&#x00A0;1831)</bibl>
+               <bibl xml:id="Neubacher1997">Jürgen Neubacher, <title level="a">Die Webers, Haydn und</title> Der Aepfeldieb. <title level="a">Eine Untersuchung der Musikhandschrift ND VII 168 der Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky</title>, in: <title level="m">Festschrift Christoph-Hellmut Mahling zum 65.&#8239;Geburtstag</title>, hg. von Axel Beer, Kristina Pfarr und Wolfgang Ruf, Tutzing&#x00A0;1997, Bd.&#8239;2, S.&#8239;989&#x2013;1008<bibl type="short">Neubacher, <title level="a">Die Webers, Haydn und <hi rend="italic">Der Aepfeldieb</hi></title></bibl></bibl>
+               <bibl xml:id="Poll1954">Bernhard Poll, <title level="a">Zeittafel zur Aachener Musikgeschichte im 19. und 20.&#8239;Jahrhundert</title>, in: <title level="m">Beiträge zur Musikgeschichte der Stadt Aachen</title>, Köln u.&#8239;a. 1954 (Beiträge zur rheinischen Musikgeschichte&#x00A0;6), S.&#8239;48&#x2013;68</bibl>
+               <bibl xml:id="Veit2001">Joachim Veit, Art. <title level="a">(Franz) Edmund (Kaspar Johann Nepomuk Joseph Maria) Weber</title>, in: <title level="m">The New Grove. Dictionary of Music and Musicians</title>, 2. edition, hg. von Stanley Sadie, Bd.&#8239;27, London 2001, S.&#8239;134</bibl>
+               <bibl xml:id="Arendt1829"><title level="a">Historische Übersicht des Theaters in Aachen von 1825 bis Ende 1828</title>, in: <title level="j">Almanach für&#x2019;s Aachener Stadt-Theater auf das Jahr 1829</title>, hg. von Dr. Arendt, Aachen&#x00A0;1829</bibl>
+               <bibl xml:id="Higuchi2008">Ryuichi Higuchi und Frank Ziegler, <title level="a"><q>Fürchte Gott! Und wandle den Weg der Tugendt</q>. Das Stammbuch Edmund von Webers als biographische Quelle</title>, in: <title level="m">Weberiana. Mitteilungen der Internationalen Carl-Maria-von-Weber-Gesellschaft e.&#8239;V.</title> 18 (2008), S.&#8239;5&#x2013;32<bibl type="short">Higuchi/Ziegler, <title level="a">Das Stammbuch Edmund von Webers</title></bibl></bibl>
+               <bibl xml:id="Fuchs1832">Dismas Fuchs, <title level="m">Chronologisches Tagebuch des Großherzoglich Hessischen Hoftheaters, von der Begründung bis zur Auflösung desselben. Ein Beitrag zur Geschichte der deutschen Schaubühnen</title>, Darmstadt&#x00A0;1832</bibl>
+               <bibl xml:id="Arendt1829a"><title level="m">Almanach für’s Aachener Stadt-Theater auf das Jahr 1829</title>, hg. von Dr. Arendt, Aachen&#x00A0;1829<bibl type="short">Arendt, <title level="m">Almanach 1829</title></bibl></bibl>
+               <bibl xml:id="Fambach1890">Oscar Fambach, <title level="m">Das Repertorium des Hof- und Nationaltheaters in Mannheim 1804–1832</title>, Bonn&#x00A0;1980 (Mitteilungen zur Theatergeschichte der Goethezeit&#x00A0;1)</bibl>
+               <bibl xml:id="Pichler1879">Anton Pichler, <title level="m">Chronik des Großherzoglichen Hof- und National-Theaters Mannheim. Zur Feier seines hundertjährigen Bestehens am 7.&#8239;October&#x00A0;1879</title>, Mannheim&#x00A0;1879</bibl>
+               <bibl xml:id="Dennerlein1853">Johann Georg Wenzel Dennerlein, <title level="m">Geschichte des Würzburger Theaters von seiner Entstehung im Jahre 1803&#x2013;4 bis zum 31.&#8239;Mai&#x00A0;1853, nebst einem chronologischen Tagebuch und einem Anhang</title>, Würzburg&#x00A0;1853<bibl type="short">Dennerlein, <title level="m">Geschichte des Würzburger Theaters</title></bibl></bibl>
+               <bibl xml:id="Gruber1994">Clemens M. Gruber, <title level="m">Opern-Uraufführungen</title>, Bd.&#8239;1, Wien&#x00A0;1994</bibl>
+               <bibl xml:id="Oepen1955">Heinz Oepen, <title level="m">Beiträge zur Geschichte des Kölner Musiklebens 1760&#x2013;1840</title>, Köln&#x00A0;1955 (Beiträge zur rheinischen Musikgeschichte&#x00A0;10)</bibl>
+               <bibl xml:id="Heyden1939">Otto Heyden, <title level="m">Das Kölner Theaterwesen im 19.&#8239;Jahrhundert. 1814&#x2013;1872</title>, Emsdetten&#x00A0;1939<bibl type="short">Heyden, <title level="m">Kölner Theaterwesen</title></bibl></bibl>
+               <bibl xml:id="Ziegler2005">Frank Ziegler, <title level="a">Die Webers in Lauchstädt &#x2013; Streiflichter zur Familien- und regionalen Theatergeschichte</title>, in: <title level="m">Weberiana. Mitteilungen der Internationalen Carl-Maria-von-Weber-Gesellschaft e.&#8239;V.</title> 15 (2005), S.&#8239;21&#x2013;47<bibl type="short">Ziegler, <title level="a">Die Webers in Lauchstädt</title></bibl></bibl>
+               <bibl xml:id="Dahm1831">Friedrich Dahm und August Gräge, <title level="m">Theater-Journal der vom 2.&#8239;Februar bis 7.&#8239;April&#x00A0;1831 unter der Direction des Herrn Heinr. Bethmann hieselbst gegebenen Vorstellungen</title>, Dessau 1831</bibl>
+               <bibl xml:id="Weberiana44a"><title level="m">D-B</title>, Weberiana Cl.&#8239;V [Mappe&#x00A0;XVIII], Abt.&#8239;4C, Nr.&#8239;44a<bibl type="short"><title level="m">D-B</title>, Weberiana</bibl></bibl>
+               <bibl xml:id="RheinischeFlora"><title level="j">Rheinische Flora, Blätter für Kunst, Leben, Wissen und Verkehr</title>, Aachen<bibl type="short"><title level="j">Rheinische Flora</title></bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

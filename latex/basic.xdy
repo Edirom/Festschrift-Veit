@@ -1,0 +1,52 @@
+;; $Id: basic.xdy,v 1.2 2008/01/09 15:13:54 jschrod Exp $ -*- Lisp -*-
+;; ------------------------------------------------------------
+;; (history at end)
+;; Licensed under GPL, see README and LICENSE.
+
+
+;;;
+;;; Very basic xindy style, to get some TeX-like output at all.
+;;; Useful for testing without the whole texindy framework.
+;;; It assumes the alphabets to be handled elsewhere, by language modules.
+;;;
+
+(define-location-class "page-numbers" ("arabic-numbers"))
+(define-attributes ("default"))
+
+(markup-letter-group :open-head "~n~n  \textbf{" :close-head "}~n"
+                     :capitalize)
+
+(markup-indexentry :open "~n  \item "           :depth 0)
+(markup-indexentry :open "~n    \subitem "      :depth 1)
+(markup-indexentry :open "~n      \subsubitem " :depth 2)
+
+(markup-locclass-list :open "\quad ")
+(markup-locref-list :sep ", ")
+(markup-range :sep "--")
+
+;; The most frequently used cross reference class "see". Add more, if
+;; necessary.
+;; siehe auch http://tex.stackexchange.com/questions/80300/how-can-i-convince-hyperref-and-xindy-to-play-together-nicely
+(define-crossref-class "see")
+(markup-crossref-list :open "\see{" :close "}{}" :class "see")
+(markup-locref :open "\hyperpage{" :close "}")
+
+
+;; Sortier-Regel für Paër = Paer
+(merge-rule "ë" "e")
+
+;; Merge-Regeln um Artikel beim Sortieren auszublenden
+(merge-rule "Il " "")
+(merge-rule "La " "")
+(merge-rule "Le " "")
+(merge-rule "L'" "")
+(merge-rule "Les " "")
+(merge-rule "Las " "")
+(merge-rule "Los " "")
+(merge-rule "Der " "")
+(merge-rule "Die " "")
+(merge-rule "Das " "")
+(merge-rule "Gli " "")
+(merge-rule "I " "")
+
+(sort-rule "^[0-9]* *" "")

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Zur Edition der Werke von Tomás Luis de Victoria</title>
+            <title type="sub">Geschichte und Perspektiven</title>
+            <author>
+               <name><forename>Stephanie</forename> <surname>Klauk</surname></name>
+               <email/>
+               <affiliation>studierte Musikwissenschaft, Spanische Philologie und Vor- und Frühgeschichte an der Universität des Saarlandes. 2004 Magisterarbeit über Juan Bermudos <hi rend="italic">Declaración de instrumentos musicales</hi> (1555). 2006 Stipendium des Deutschen Akademischen Austauschdienstes (DAAD) für einen Forschungsaufenthalt in Spanien. 2006‒2012 wissenschaftliche Mitarbeiterin am Institut für Musikwissenschaft der Universität des Saarlandes. 2008 Promotion mit einer Arbeit zur Musik im spanischen Theater des 16. Jahrhunderts. 2012&#x2013;2015 wissenschaftliche Mitarbeiterin an der Musikgeschichtlichen Abteilung des Deutschen Historischen Instituts in Rom mit einem Forschungsprojekt zur italienischen Instrumentalmusik der zweiten Hälfte des 18. Jahrhunderts. 
+                  Seit 2015 Wissenschaftliche Mitarbeiterin am Institut für Musikwissenschaft der Universität des Saarlandes mit einem Forschungsstipendium der Max Weber Stiftung.
+               </affiliation>
+            </author>
+            <author>
+               <name><forename>Rainer</forename> <surname>Kleinertz</surname></name>
+               <email/>
+               <affiliation><!--geboren 1958 in Düsseldorf.--> studierte Musik an der Hochschule für Musik Detmold. Studium der Fächer Musikwissenschaft, Ältere deutsche Literaturwissenschaft und Italienische Literaturwissenschaft an der Universität Paderborn. Nach der Promotion 1992–1994 Gastprofessor (Profesor Visitante) an der Universität Salamanca. 1994–2006 Wissenschaftlicher Assistent und apl. Professor an der Universität Regensburg. 1998 Habilitation mit einer Arbeit zum spanischen Musiktheater des 18. Jahrhunderts (<hi rend="italic">Grundzüge des spanischen Musiktheaters im 18. Jahrhundert. &#x2013; Ópera, Comedia und Zarzuela</hi>, 2 Bde., Kassel 2003). 1999&#x2013;2002 Vertretung des Lehrstuhls in Regensburg und von 2000–2001 Visiting Fellow an der Faculty of Music der Universität Oxford. Seit 2006 Ordinarius für Musikwissenschaft an der Universität des Saarlandes.
+                  Forschungsschwerpunkte sind Werke und Schriften von Franz Liszt und Richard Wagner, Georg Friedrich Händel sowie die Musikgeschichte Spaniens. Seit 2014 leitet er gemeinsam mit Meinard Müller (Informatik, Friedrich-Alexander-Universität Erlangen-Nürnberg) ein DFG-Projekt zur computergestützten Analyse harmonischer Strukturen.
+               </affiliation>
+            </author>
+            <author>
+               <name><forename>Sergi</forename> <surname>Zauner</surname></name>
+               <email/>
+               <affiliation><!--geboren 1979 in Barcelona.--> studierte Kunstgeschichte und Musikwissenschaft an der Universitat Autònoma de Barcelona. 2010–2011 Lehraufträge zur Musikgeschichte am dortigen Institut für Kunstgeschichte und Musikwissenschaft. 2012&#x2013;2014 Lehrkraft für besondere Aufgaben, seit 2014 wissenschaftlicher Mitarbeiter am Institut für Musikwissenschaft der Universität des Saarlandes. 2014 Promotion mit einer von Maricarmen Gómez Muntané betreuten Arbeit zum Thema <hi rend="italic">El fabordón a la luz de las fuentes hispánicas del Renacimiento</hi> (Universitat Autónoma de Barcelona).</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="kleinertz-pers001">
+                  <p>Alfieri, Pietro</p>
+               </person>
+               <person xml:id="kleinertz-pers003">
+                  <p>Anerio, Felice</p>
+               </person>
+               <person xml:id="kleinertz-pers006">
+                  <p>Anglés, Higinio</p>
+                  <p n="work" xml:id="kleinertz-works019"><hi rend="italic">Monumentos de la música espa&#241;ola</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers008">
+                  <p>Bach, Johann Sebastian</p>
+               </person>
+               <person xml:id="kleinertz-pers009">
+                  <p>Bermudo, Juan</p>
+               </person>
+               <person xml:id="kleinertz-pers011">
+                  <p>Bovicelli, Giovanni Battista</p>
+                  <p n="work" xml:id="kleinertz-works002"><hi rend="italic">Regole, passaggi di musica</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers012">
+                  <p>Burney, Charles</p>
+               </person>
+               <person xml:id="kleinertz-pers013">
+                  <p>Casimiri, Raffaele</p>
+               </person>
+               <person xml:id="kleinertz-pers014">
+                  <p>Chrysander, Friedrich Wilhelm</p>
+               </person>
+               <person xml:id="kleinertz-pers015">
+                  <p>Commer, Franz</p>
+                  <p n="work" xml:id="kleinertz-works012"><hi rend="italic">Musica sacra</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers016">
+                  <p>Correggio, Antonio da</p>
+               </person>
+               <person xml:id="kleinertz-pers017">
+                  <p>Costa, Gasparo</p>
+               </person>
+               <person xml:id="kleinertz-pers018">
+                  <p>Cramer, Eugene Casjen</p>
+               </person>
+               <person xml:id="kleinertz-pers020">
+                  <p>Denss, Adrian</p>
+                  <p n="work" xml:id="kleinertz-works001"><hi rend="italic">Florilegium</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers021">
+                  <p>Donfried, Johannes</p>
+                  <p n="work" xml:id="kleinert-works006"><hi rend="italic">Promptuarii musici</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers022">
+                  <p>Ferrabosco, Alfonso</p>
+               </person>
+               <person xml:id="kleinertz-pers023">
+                  <p>Fischer, Kurt von</p>
+               </person>
+               <person xml:id="kleinertz-pers024">
+                  <p>Fitzwilliam, Richard</p>
+               </person>
+               <person xml:id="kleinertz-pers025">
+                  <p>Gabrieli, Andrea</p>
+               </person>
+               <person xml:id="kleinertz-pers027">
+                  <p>Gabucci, Giulio Cesare</p>
+               </person>
+               <person xml:id="kleinertz-pers028">
+                  <p>Gehrmann, Hermann</p>
+               </person>
+               <person xml:id="kleinertz-pers029">
+                  <p>Giovanelli, Ruggiero</p>
+               </person>
+               <person xml:id="kleinertz-pers030">
+                  <p>Goethe, Johann Wolfgang von</p>
+               </person>
+               <person xml:id="kleinertz-pers031">
+                  <p>Guerrero, Francisco</p>
+               </person>
+               <person xml:id="kleinertz-pers033">
+                  <p>Gurlitt, Willibald</p>
+               </person>
+               <person xml:id="kleinertz-pers034">
+                  <p>Gwilt, Joseph</p>
+                  <p n="work" xml:id="kleinertz-works008"><hi rend="italic">A collection of madrigals and motets</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers035">
+                  <p>Haberl, Franz Xaver</p>
+               </person>
+               <person xml:id="kleinertz-pers037">
+                  <p>Haberl, Ferdinand</p>
+               </person>
+               <person xml:id="kleinertz-pers039">
+                  <p>Hassler, Hans Leo</p>
+               </person>
+               <person xml:id="kleinertz-pers041">
+                  <p>Händel, Georg Friedrich</p>
+               </person>
+               <person xml:id="kleinertz-pers042">
+                  <p>Kerle, Jacobus de</p>
+               </person>
+               <person xml:id="kleinertz-pers043">
+                  <p>Lasso, Orlando di</p>
+               </person>
+               <person xml:id="kleinertz-pers047">
+                  <p>Lechner, Leonhard</p>
+               </person>
+               <person xml:id="kleinertz-pers048">
+                  <p>Ludwig, Friedrich</p>
+               </person>
+               <person xml:id="kleinertz-pers049">
+                  <p>Morales, Cristóbal de</p>
+               </person>
+               <person xml:id="kleinertz-pers051">
+                  <p>Nanino, Giovanni Maria</p>
+               </person>
+               <person xml:id="kleinertz-pers053">
+                  <p>Ney, Joseph Napoléon</p>
+                  <p n="work" xml:id="kleinertz-works007"><hi rend="italic">Recueil des morceaux de musique ancienne</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers054">
+                  <p>Novello, Vincent</p>
+               </person>
+               <person xml:id="kleinertz-pers056">
+                  <p>Palestrina, Giovanni Pierluigi da</p>
+               </person>
+               <person xml:id="kleinertz-pers059">
+                  <p>Paciotti, Pietro Paolo</p>
+               </person>
+               <person xml:id="kleinertz-pers060">
+                  <p>Pedrell, Felipe</p>
+                  <p n="work" xml:id="kleinertz-works015"><hi rend="italic">Salterio sacro-hispano</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers063">
+                  <p>Proske, Carl</p>
+                  <p n="work" xml:id="kleinertz-works013"><hi rend="italic">Musica divina</hi></p>
+                  <p n="work" xml:id="kleinertz-works014"><hi rend="italic">Selectus novus missarum</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers066">
+                  <p>Rochlitz, Friedrich</p>
+                  <p n="work" xml:id="kleinertz-works011"><hi rend="italic">Sammlung vorzüglicher Gesangstücke</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers067">
+                  <p>Rore, Cipriano de</p>
+               </person>
+               <person xml:id="kleinertz-pers068">
+                  <p>Rubio, Samuel</p>
+                  <p n="work" xml:id="kleinertz-works016"><hi rend="italic">Suplemento polifónico de Tesero sacro-musical</hi></p>
+                  <p n="work" xml:id="kleinertz-works017"><hi rend="italic">Antología polifónica sacra</hi></p>
+                  <p n="work" xml:id="kleinertz-works018"><hi rend="italic">Officium hebdomadae sanctae</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers071">
+                  <p>Santini, Abbate Fortunato</p>
+               </person>
+               <person xml:id="kleinertz-pers072">
+                  <p>Soriano, Francesco</p>
+               </person>
+               <person xml:id="kleinertz-pers073">
+                  <p>Soto, Francisco</p>
+               </person>
+               <person xml:id="kleinertz-pers074">
+                  <p>Thibaut, Anton Friedrich Justus</p>
+                  <p n="work" xml:id="kleinertz-works009"><hi rend="italic">Über Reinheit der Tonkunst</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers075">
+                  <p>Tucher, Gottlieb Freiherr von</p>
+                  <p n="work" xml:id="kleinertz-works010"><hi rend="italic">Kirchengesänge der berühmtesten älteren italiänischen Meister</hi></p>
+               </person>
+               <person xml:id="kleinertz-pers077">
+                  <p>Vecchi, Orazio</p>
+               </person>
+               <person xml:id="kleinertz-pers079">
+                  <p>Victoria, Tomás Luis de</p>
+               </person>
+               <person xml:id="kleinertz-pers082">
+                  <p>Waldburg, Otto von</p>
+               </person>
+               <person xml:id="kleinertz-pers083">
+                  <p>Winterfeld, Carl von</p>
+               </person>
+               <person xml:id="kleinertz-pers084">
+                  <p>Albrecht VII. von Österreich</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="width-fig02-latex">width=0.6\textwidth</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-05T10:23:00" who="KR">Korrekturen Kleinertz eingefügt.</change>
+         <change when="2015-10-20T21:28:00"
+            who="https://github.com/peterstadler">Text für erste Durchsicht vorbereitet.</change>
+         <change when="2015-10-19T12:03:39"
+            who="https://github.com/peterstadler">Text ausgezeichnet mitsamt Personen und Literatur.</change>
+         <change when="2015-10-12T12:21:39.641+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="kleinertz-abstract"><p>Die Verbreitung der Werke von Tomás Luis de Victoria (ca. 1548&#x2013;1611) bereits zu Lebzeiten spiegelt sich in zahlreichen Drucken und Abschriften. Bisher liegen zwei Gesamtausgaben seiner Werke vor, von denen die zweite ein Torso blieb und die beide weder nach Maßstäben der Vollständigkeit noch der Edition heutigen wissenschaftlichen Standards entsprechen. Nach einem Überblick über die zeitgenössische Verbreitung der Werke Victorias und die Rezeption seiner Werke im 18.&#8239;und 19.&#8239;Jahrhundert soll die jüngere Editionsgeschichte vorgestellt und Perspektiven für eine zukünftige kritische Gesamtausgabe aufgezeigt werden.</p></div>
+      </front>
+      <body>
+         <p><name ref="#kleinertz-pers079">Tomás Luis de Victoria</name> (ca. 1548&#x2013;1611) genoss bereits zu Lebzeiten internationalen Ruhm. Aus Ávila stammend war er lange Zeit in Rom – dort zudem mit einem deutlichen Bezug zu Deutschland<note xml:id="kleinertz-ftn1" n="1">Auch wenn es keinerlei Belege für einen Aufenthalt <name ref="#kleinertz-pers079">Victorias</name> in Deutschland gibt, so steht seine besondere Beziehung zu Deutschland außer Frage. Neben seinen vielfältigen Verbindungen zum Collegium Germanicum in Rom, an dem er zunächst Schüler, später Musiklehrer war, widmete <name ref="#kleinertz-pers079">Victoria</name> zwei seiner Drucke politischen und kirchlichen deutschen Persönlichkeiten. Basierend auf der Widmung seiner <title>Motecta</title> (Venedig 1572) an den Bischof von Augsburg und <name ref="#kleinertz-pers082">Kardinal Otto Truchsess von Waldburg</name> (1514&#x2013;1573) entwarf <name ref="#kleinertz-pers013">Raffaele Casimiri</name> die Hypothese, <name ref="#kleinertz-pers079">Victoria</name> habe von 1568 bis 1571 als Nachfolger <name ref="#kleinertz-pers042">Jacobus de Kerles</name> die private Kapelle des Kardinals geleitet (<ref target="#Casimiri1934" type="bibl"/>). Dies wurde widerlegt von <ref type="bibl" target="#Regan2001"/>, der zeigen konnte, dass die Kapelle bereits 1563 aufgelöst worden war.</note> &#x2013; und schließlich wieder in Spanien tätig, so dass Drucke, Abschriften und Editionen seiner Werke gerade in den genannten Ländern nicht überraschen. Bisher liegen zwei im engeren Sinne musikwissenschaftliche (Gesamt-) Ausgaben seiner Werke vor: <hi rend="italic">Opera omnia</hi> in acht Bänden, herausgegeben von Felipe Pedrell (Leipzig 1902&#x2013;1913) und <hi rend="italic">Opera omnia</hi> in vier Bänden, herausgegeben von Higinio Anglés (Barcelona 1965&#x2013;1968).<note xml:id="kleinertz-ftn2" n="2"><ref target="#Victoria1965" type="bibl"/>. In diesem Zusammenhang muss auch Samuel Rubios vierbändige Ausgabe sämtlicher damals bekannten Motetten <name ref="#kleinertz-pers079">Victorias</name> genannt werden: <ref target="#Victoria1964" type="bibl"/>.</note> 
+            Unabhängig davon, dass die Ausgabe von <name ref="#kleinertz-pers006">Anglés</name> ein Torso blieb, entsprechen beide Ausgaben weder nach Maßstäben der Vollständigkeit noch der Edition heutigen wissenschaftlichen Standards. Sie basieren nahezu ausschließlich auf den zu Lebzeiten des Komponisten erschienenen Drucken seiner Werke:<note xml:id="kleinertz-ftn3" n="3">Bei den Titelangaben der nachfolgenden Übersicht wurden unterschiedliche Schreibweisen und die Interpunktion weitgehend angeglichen.</note>
+         
+         <list>
+            <item><title>Motecta quae partim quaternis, partim quinis, alia senis, alia octonis vocibus concinuntur</title> (Venedig 1572)</item>
+            <item><title>Liber primus, qui missas, psalmos, Magnificat, ad Virginem Dei Matrem salutationes, aliaquae complectitur</title> (Venedig 1576)</item>
+            <item><title>Hymni totius anni secundum Sanctae Romanae Ecclesiae consuetudinem, qui quattuor concinuntur vocibus. Una cum quattuor psalmis, pro praecipuis festivitatibus, qui octo vocibus modulantur</title> (Rom 1581)</item>
+            <item><title>Cantica Beatae Virginis vulgo Magnificat quatuor vocibus. Una cum quatuor antiphonis Beatae Virginis per annum: quae quidem, partim quinis, partim octonis vocibus concinuntur</title> (Rom 1581)</item>
+            <item><title>Missarum libri duo quae partim quaternis, partim quinis, partim senis, concinuntur vocibus</title> (Rom 1583)</item>
+            <item><title>Motecta quae partim quaternis, partim quinis, alia senis, alia octonis, alia duodenis vocibus concinuntur: quae quidem nunc vero melius excussa, et alia quam plurima adiuncta noviter sunt impressa</title> (Rom 1583)</item>
+            <item><title>Officium Hebdomadae Sanctae</title> (Rom 1585)</item>
+            <item><title>Motecta festorum totius anni cum communi sanctorum. Quae partim senis, partim quinis, partim quaternis, alia octonis vocibus concinuntur</title> (Rom 1585)</item>
+            <item><title>Motecta quae partim quaternis, partim quinis, alia senis, alia octonis, alia duodenis vocibus concinuntur, quae quidem nunc vero melius excussa, et alia quam plurima adiuncta, noviter sunt impressa</title> (Mailand 1589)</item>
+            <item><title>Cantiones sacrae Thomae Ludovici a Victoria abulensis, musici suavissimi, quatuor, quinque, sex, octo, et duodecim vocum, nunquam antehac in Germania excussae</title> (Dillingen 1589)</item>
+            <item><title>Missae, quattuor, quinque, sex, et octo vocibus concinendae, una cum antiphonis Asperges et Vidi aquam totius anni. Liber secundus</title> (Rom 1592)</item>
+            <item><title>Missae, Magnificat, motecta, psalmi, et alia quam plurima. Quae partim octonis, alia nonis, alia duodenis vocibus concinuntur</title> (Madrid 1600)</item>
+            <item><title>Hymni totius anni iuxta ritum Sanctae Romanae Ecclesiae</title> (Venedig 1600)</item>
+            <item><title>Motecta quae partim quaternis, partim quinis, alia senis, alia octonis, alia duodenis vocibus, in omnibus solemnitatibus per totum annum concinuntur, noviter recognita et impressa</title> (Venedig 1603)</item>
+            <item><title>Officium defunctorum, sex vocibus. In obitu et obsequiis Sacrae Imperatricis</title> (Madrid 1605)</item>
+         </list></p>
+         <p rend="noIndent">Bei vier dieser insgesamt fünfzehn zeitgenössischen Drucke, erschienen zwischen 1572 und 1605, handelt es sich wahrscheinlich um nicht-autorisierte Nachdrucke: <title>Motecta</title> (Mailand 1589), <title>Cantiones sacrae</title> (Dillingen 1589), <title>Hymni totius anni</title> (Venedig 1600) und <title>Motecta</title> (Venedig 1603). Für diese finden sich jedenfalls keine Hinweise auf eine Beteiligung <name ref="#kleinertz-pers079">Victorias</name>, während er an den anderen Drucken seiner Werke allem Anschein nach mitgewirkt hat. Neuere Studien geben Aufschluss über seine konkrete Mitarbeit, die sich von den Planungen des Formats über die Reihenfolge des Inhalts bis hin zu musikalischen Details (die in verschiedenen Nachdrucken verändert werden konnten) erstreckte.<note xml:id="kleinertz-ftn4" n="4"><ref target="#Jimenez2012" type="bibl"/>; <ref target="#Ham2013" type="bibl"/>; <ref target="#Filipi2015" type="bibl"/>.</note> 
+            Belegt ist, dass er 1592, als er bereits dauerhaft wieder nach Spanien zurückgekehrt war, sogar nach Rom reiste, um die Veröffentlichung seines <title>Missae […] Liber secundus</title> zu beaufsichtigen.<note xml:id="kleinertz-ftn5" n="5"><name ref="#kleinertz-pers079">Victoria</name> zeichnete die Widmung an <name ref="#kleinertz-pers084">Kardinal Albrecht VII. von Österreich</name> (1559&#x2013;1621) im November 1592 in Rom. Vgl. <ref type="bibl" target="#Filippi2008">S.&#8239;46</ref>.</note>
+         </p>
+         <p>Diese unmittelbare Beteiligung des Komponisten am Druck seiner Werke spricht nicht zuletzt für ihre Authentizität sowie für eine gewisse <soCalled>Werktreue</soCalled> ‒ soweit davon im ausgehenden 16. und beginnenden 17.&#8239;Jahrhundert gesprochen werden kann&#x00A0;‒,<note xml:id="kleinertz-ftn6" n="6">Vgl. hierzu u.&#8239;a. <ref target="#Strohm2010" type="bibl"/>.</note> 
+            während die Nachdrucke, an denen er nicht beteiligt war, die Verbreitung und Rezeption seiner Werke bereits zu Lebzeiten bezeugen.<note xml:id="kleinertz-ftn7" n="7">Vgl. zur Verbreitung seiner Werke, die <name ref="#kleinertz-pers079">Victoria</name> auch aktiv selbst vorantrieb: <ref target="#Stevenson1961" type="bibl"/>; <ref target="#Jimenez2007" type="bibl">S.&#8239;143‒144</ref>; <ref type="bibl" target="#Jimenez2012">S.&#8239;304‒317</ref>.</note> 
+            In diesem Zusammenhang sind auch einige zeitgenössische Anthologien zu nennen, die einzelne Kompositionen <name ref="#kleinertz-pers079">Victorias</name> beinhalten und damit für die frühe Editionsgeschichte relevant sind:</p>
+         <list>
+            <item>Adrian Denss: <title ref="#kleinertz-works001">Florilegium omnis fere generis cantionum suavissimarum ad testudinis tabulaturam accomodatarum, longe iucundissimum. In quo praeter fantasias lepidissimas, continentur diversorum authorum cantiones selectissimae</title> (Köln: Gerardus Greuenbruch, 1594) [RISM 1594<hi rend="sup">19</hi>]</item>
+            <pb/>
+            <item>Giovanni Battista Bovicelli: <title ref="#kleinertz-works002">Regole, passaggi di musica, madrigali, e motetti passeggiati</title> (Venedig: Giacomo Vincenti, 1594)</item>
+            <item>
+               <hi rend="italic">Thesaurus litaniarum. Quae a praecipuis hoc aevo musicis, tam in laudem sanctiss. nominis Iesu, quàm in honorem Deiparae coelitumque omnium, quatuor, quinque, sex, plurium vocum compositae: ad commune verò Ecclesiae usum collectae, opera &amp; studio Georgii Victorini in aede D. Michaëlis</hi> (München: A. Berg, 1596) [RISM 1596<hi rend="sup">2</hi>]</item>
+            <item>
+               <hi rend="italic">Florilegium sacrarum cantionum quinque vocum pro diebus dominicis &amp; festis totius anni, e celeberrimis nostri temporis musicis</hi> (Antwerpen: Pierre Phalèse, 1609) [RISM 1609<hi rend="sup">1</hi>]</item>
+            <item>
+               <hi rend="italic">Quodlibetum novum latinum 5 voc. cum Basso Generali, ex variis cantionum, maximam partem sacrarum, clausulis</hi> (Leipzig: Fridericus Lanckisch, 1620)</item>
+            <item>Johannes Donfried (Hg.), <title ref="#kleinert-works006">Promptuarii musici concentus ecclesiasticos II. III. et IV. vocum cum basso continuo &amp; generali, organo applicato</title> […]. <hi rend="italic">Pars prima</hi> (Straßburg: P. Ledertz, 1622) [RISM 1622<hi rend="sup">2</hi>]</item>
+         </list>
+         <p>So finden sich beispielsweise die beiden Motetten <q>O quam gloriosum</q> und <q>Domine non sum dignus/Miserere mei</q> in <name ref="#kleinertz-pers020">Adrian Denss’</name> <title ref="#kleinertz-works001">Florilegium</title> von 1594. Es handelt sich dabei um eine Zusammenstellung von Werken verschiedener Autoren (und Gattungen: <soCalled>cantiones</soCalled>), Übertragungen wie Originalkompositionen, für Laute. Vertreten sind sowohl Komponisten, die im süddeutschen Raum tätig waren, wie <name ref="#kleinertz-pers043">Orlando di Lasso</name>, <name ref="#kleinertz-pers039">Hans Leo Hassler</name> und <name ref="#kleinertz-pers047">Leonhard Lechner</name> als auch Italiener. Neben <name ref="#kleinertz-pers025">Andrea Gabrieli</name>, <name ref="#kleinertz-pers022">Alfonso Ferrabosco</name> und <name ref="#kleinertz-pers077">Orazio Vecchi</name> tritt vor allem <name ref="#kleinertz-pers017">Gasparo Costa</name> hervor, von dem 23&#x00A0;Stücke enthalten sind. <name ref="#kleinertz-pers079">Victoria</name> wird hier – ebenso wie in anderen Anthologien ‒ offenbar als <soCalled>Italiener</soCalled> (tätig in Rom) rezipiert, ein Verständnis, das auch bei der <soCalled>Wiederentdeckung</soCalled> Alter Musik im 19.&#8239;Jahrhundert eine Rolle spielen wird.
+            Diese Lautenmusik-Sammlung von <name ref="#kleinertz-pers020">Denss</name> dokumentiert nicht nur eine Verbreitung der Werke <name ref="#kleinertz-pers079">Victorias</name> als private Gebrauchsmusik über den liturgischen Kontext hinaus, sondern ist im Zusammenhang mit editorischen Fragestellungen vor allem im Hinblick auf Fragen der Alteration von Tönen (Musica ficta) von Bedeutung. </p>
+         
+         <figure xml:id="kleinertz-fig01" place="page">
+            <graphic width="2645px" height="2201px" url="figures/kleinertz-fig01.png"/>
+            <head type="legend">Intabulierung von <name ref="#kleinertz-pers079">Victorias</name> Motette <q>O quam gloriosum</q> (<name ref="#kleinertz-pers020">Denss</name>, <title ref="#kleinertz-works001">Florilegium</title> […], Köln 1594, fol.&#8239;1&#8239;r und 2&#8239;r)</head>
+            <!-- urn:nbn:de:bvb:12-bsb00082790-2x -->
+         </figure>
+          <figure xml:id="kleinertz-fig02" rendition="#width-fig02-latex" place="page">
+            <graphic width="666px" height="455px" url="figures/kleinertz-fig02.png"/>
+             <head type="legend">Bovicelli, <title ref="#kleinertz-works002">Regole</title> […], Venedig 1594, S.&#8239;53</head>
+         </figure>
+         
+         <p>Im Falle von <name ref="#kleinertz-pers011">Giovanni Battista Bovicellis</name> <title ref="#kleinertz-works002">Regole, passaggi di musica, madrigali, e motetti passeggiati</title> (Venedig 1594) kann zwar weder von einer Anthologie geschweige denn von einer Edition gesprochen werden, allerdings bietet diese Quelle interessante Hinweise auf die zeitgenössische Aufführungspraxis.<ref xml:id="kleinertz-ftn8" n="8" type="bibl" target="#Bovicelli1594"/>
+            <name ref="#kleinertz-pers011">Bovicelli</name> verdeutlicht anhand verschiedener Beispiele aus seinem zeitgenössischen musikalischen Umfeld (<name ref="#kleinertz-pers056">Giovanni Pierluigi da Palestrina</name>, <name ref="#kleinertz-pers067">Cipriano de Rore</name>, <name ref="#kleinertz-pers079">Victoria</name>, <name ref="#kleinertz-pers016">Antonio da Correggio</name>, <name ref="#kleinertz-pers027">Giulio Cesare Gabucci</name>, <name ref="#kleinertz-pers029">Ruggiero Giovanelli</name>, <name ref="#kleinertz-pers011">Bovicelli</name>) die Möglichkeiten, Diminutionen in der Vokalmusik anzubringen.<note xml:id="kleinertz-ftn9" n="9">Vgl. u.&#8239;a. <ref target="#Brown1976" type="bibl"/>.</note> 
+            Von Victoria nimmt er als konkretes Beispiel die Oberstimme (cantus) der Motette <q>Vadam et circuibo</q>, die im jeweils oberen System im <soCalled>Original</soCalled> zitiert wird,<note xml:id="kleinertz-ftn10" n="10">Die Motette ist in mehreren zeitgenössischen Drucken enthalten: <title>Motecta</title> (Venedig 1572), <title>Motecta</title> (Rom 1583), <title>Motecta</title> (Mailand 1589), <title>Cantiones sacrae</title> (Dillingen 1589) und <title>Motecta</title> (Venedig 1603).</note> 
+            im unteren System stellt er eine diminuierte Version gegenüber (Abb.&#8239;<ref target="#kleinertz-fig02" type="crossref" rend="no"/>).
+            In den Sammeldrucken nach <name ref="#kleinertz-pers079">Victorias</name> Tod ist der unmittelbare Bezug zur zeitgenössischen Aufführungspraxis fraglich. Sie bezeugen lediglich die weitere Rezeption und Verbreitung der Werke <name ref="#kleinertz-pers079">Victorias</name>, Publikationen wie das <hi rend="italic">Quodlibetum novum latinum</hi> von 1620 oder <name ref="#kleinertz-pers021">Johannes Donfrieds</name> <title ref="#kleinert-works006">Promptuarii musici</title> […] <hi rend="italic">pars prima</hi> von 1622 sogar eine Anpassung an musikalische Neuerungen wie den Generalbass.</p>
+         
+        
+         <p>Aus dem späteren 17. und 18.&#8239;Jahrhundert sind keine weiteren Drucke mit Kompositionen <name ref="#kleinertz-pers079">Victorias</name> bekannt.<note xml:id="kleinertz-ftn11" n="11">Vgl. in diesem Zusammenhang: <ref target="#Lesure1960" type="bibl"/>; <ref target="#Lesure1964" type="bibl"/>; <ref type="bibl" target="#Cramer1998">S.&#8239;251‒359</ref>.</note> 
+            Das bedeutet jedoch nicht zwangsläufig eine Zäsur in der Überlieferung. Zumindest für Spanien kann anhand von Abschriften und Drucken mit aufführungspraktischen Hinweisen belegt werden, dass Werke von <name ref="#kleinertz-pers079">Victoria</name> weiterhin in Gebrauch waren.<note xml:id="kleinertz-ftn12" n="12"><ref target="#Jimenez2012" type="bibl">S.&#8239;323‒327</ref>; <ref target="#Vicente2012" type="bibl"/>.</note> 
+            Dies ist nicht nur rezeptionsgeschichtlich von Bedeutung, sondern könnte im Rahmen einer digitalen Edition, beispielsweise mit dem an der Universität Paderborn entwickelten Programm <hi rend="italic">Edirom</hi>, auch für die Aufführungspraxis gewinnbringend sein.<note xml:id="kleinertz-ftn13" n="13">Vgl. hierzu insbesondere <ref target="#Stadler2009" type="bibl"/>.</note>
+         </p>
+         <p>Eine Wende in der Rezeptionsgeschichte, die gleichzeitig den Ausgangspunkt für die erste Gesamtausgabe der Werke <name ref="#kleinertz-pers079">Victorias</name> bildete, war die <soCalled>Wiederentdeckung</soCalled> alter Musik im 19.&#8239;Jahrhundert. In Bezug auf <name ref="#kleinertz-pers079">Victoria</name> verbindet sich damit vor allem der Name <name ref="#kleinertz-pers063">Carl Proske</name> (1794&#x2013;1861), der europaweiten Einfluss ausübte, in Spanien beispielsweise auf <name ref="#kleinertz-pers060">Felipe Pedrell</name>. </p>
+         <p>Die Wiederentdeckung <name ref="#kleinertz-pers079">Victorias</name> hatte jedoch bereits lange vor <name ref="#kleinertz-pers063">Proske</name> eingesetzt. Dabei sind französische und italienische Herausgeber eher von nachrangiger Bedeutung. <name ref="#kleinertz-pers053">Joseph Napoléon Ney</name>, Prince de la Moskova (1803&#x2013;1857), nahm zwar mehrere Werke <pb/><name ref="#kleinertz-pers079">Victorias</name> in seine elfbändige Reihe <title ref="#kleinertz-works007">Recueil des morceaux de musique ancienne</title> (Paris 1843‒1845) auf, war damit aber ebenso wenig der erste wie der italienische Musikwissenschaftler und Komponist <name ref="#kleinertz-pers001">Pietro Alfieri</name> (1801&#x2013;1863). <name ref="#kleinertz-pers001">Alfieri</name> war die zentrale Gestalt im Kontext der frühen <name ref="#kleinertz-pers056">Palestrina</name>-Edition, von <name ref="#kleinertz-pers079">Victorias</name> Werken publizierte er jedoch vergleichsweise wenig.<note xml:id="kleinertz-ftn14" n="14"><ref target="#Alfieri1840" type="bibl"></ref>, darin von <name ref="#kleinertz-pers079">Victoria</name>: <q>Pueri hebrearum</q>, <q>Passio secundum Matthaeum</q>, <q>Passio secundum Ioannem</q>; Pietro Alfieri (Hg.), <title>Raccolta di mottetti</title>, Rom 1841, darin: <q>Vere languores</q>, <q>O quam gloriosum</q>, <q>Benedicam dominum</q>, <q>O vos omnes</q>.</note> 
+            Einen unmittelbaren Einfluss auf <name ref="#kleinertz-pers063">Proske</name> dürfte eher das deutsche, aber auch das englische Umfeld ausgeübt haben. </p>
+         <p>Tatsächlich scheint das Phänomen der Wiederentdeckung alter Musik nicht zuletzt von aristokratischen Kreisen in England ausgegangen zu sein.<ref type="bibl" target="#Weber1992" xml:id="kleinertz-ftn15" n="15"/>
+            Der Aspekt antiquarischen Sammelns verband sich dabei mit dem praktischen Interesse an aufführbarer Musik. Treibende Kräfte hierfür waren verschiedene Gesellschaften, deren Gründung bis ins 18.&#8239;Jahrhundert zurückreicht, wie zum Beispiel die Academy of Ancient Music (gegründet 1726), The Madrigal Society (gegründet 1741) oder der Concert of Ancient Music (gegründet 1776). Hinzu kamen die Arbeiten von Musikhistorikern, deren bekanntester wohl <name ref="#kleinertz-pers012">Charles Burney</name> war.</p>
+         <p>Die in diesem Sinne erste <soCalled>moderne</soCalled> Edition mit einem Werk <name ref="#kleinertz-pers079">Victorias</name> scheint auf die Initiative der Madrigal Society zurückzugehen und wurde von dem Architekten <name ref="#kleinertz-pers034">Joseph Gwilt</name> (1784&#x2013;1863) herausgegeben: <title ref="#kleinertz-works008">A Collection of Madrigals and Motets chiefly for four equal voices by the most eminent composers of the Sixteenth and Seventeenth centuries</title> (London 1815). In dieser Sammlung überwiegend englischer Madrigale ist <name ref="#kleinertz-pers079">Victoria</name> (neben zwei Kompositionen <name ref="#kleinertz-pers056">Palestrinas</name>) als einziger mit einer lateinischen Motette &#x2013; <q>O vos omnes</q> &#x2013; vertreten. Unter dem Titel <hi rend="italic">The Fitzwilliam Music</hi> erschienen zwischen 1825 und 1827 fünf Bände mit ausgewählter Musik aus der Handschriftensammlung von <name ref="#kleinertz-pers024">Richard Fitzwilliam</name> (1746&#x2013;1816).<note xml:id="kleinertz-ftn16" n="16">Vgl. zu einer Übersicht des kompletten Inventars der Sammlung: <ref target="#FullerMaitland1893" type="bibl">S.&#8239;16&#8239;f.</ref></note> 
+            Der irische Aristokrat gehörte zu den Direktoren des Concert of Ancient Music. Viele der Abschriften erwarb er in England, aber auch auf seinen zahlreichen Reisen durch Frankreich und Italien.<ref type="bibl" target="#King1963" xml:id="kleinertz-ftn17" n="17">S.&#8239;36</ref> 
+            Nach seinem Tod wurde die Sammlung der Universität Cambridge gestiftet, die den Komponisten und Organisten <name ref="#kleinertz-pers054">Vincent Novello</name> (1781&#x2013;1861) mit einer Teiledition beauftragte.<ref target="#Novello1825" xml:id="kleinertz-ftn18" n="18" type="bibl">hier Bd.&#8239;5, 1827</ref> 
+            In der Sammlung befinden sich insgesamt sechs Manuskripte mit Werken <name ref="#kleinertz-pers079">Victorias</name>, wovon <pb/><name ref="#kleinertz-pers054">Novello</name> nur das <q>Regina coeli</q> auswählte<note xml:id="kleinertz-ftn19" n="19">Vgl. hierzu <ref target="#Cramer1998" type="bibl">S.&#8239;54</ref>. Das <q>Regina coeli</q> befindet sich in der Handschrift Ms.&#8239;24F 3 (entstanden ca.&#8239;1730), die auch die achtstimmige Motette <q>Alma redemptoris/Tu quae genuisti</q> und die <hi rend="italic">Missa Gaudeamus</hi> beinhaltet. Interessanterweise lagen dafür wohl verschiedene Quellen zugrunde, da diese Werke <name ref="#kleinertz-pers079">Victorias</name> in keinem (zeitgenössischen) Druck zusammen publiziert wurden.</note> 
+            und &#x2013; wie alle anderen Kompositionen &#x2013; mit einer Orgelbegleitung versah. Der praktische Aspekt der Edition, nämlich Alte Musik für die zeitgenössische Interpretation und Aufführung zu liefern, stand also auch hier im Vordergrund, was insbesondere an der Sorgfalt bei der Textunterlegung &#x2013; die bis heute ein Problem jeder <name ref="#kleinertz-pers079">Victoria</name>-Edition darstellt<note xml:id="kleinertz-ftn20" n="20">Vgl. dazu auch <ref target="#Angles1969" type="bibl"/></note> 
+            &#x2013; ersichtlich wird.<note xml:id="kleinertz-ftn21" n="21">Vgl. <ref target="#Olleson2005" type="bibl"/>.</note></p>
+         <p>
+            Die Wiederentdeckung alter Musik in England weist Parallelen zu derjenigen in Deutschland auf.<note xml:id="kleinertz-ftn22" n="22">Vgl. hierzu <ref type="bibl" target="#Urchueguia2013">S.&#8239;477&#x2013;479</ref>.</note> 
+            Auch hier ist ein im 18.&#8239;Jahrhundert verwurzelter historizistischer Rückbezug zu beobachten, der ausgehend von Kunst und Literatur nun auch die Musik mit philologischen Kriterien zu beschreiben versuchte. Der für Deutschland charakteristische verstärkte Rückgriff auf <name ref="#kleinertz-pers079">Victoria</name> verdankte sich dem Zusammenspiel mehrerer (landesspezifischer) Gegebenheiten.<note xml:id="kleinertz-ftn23" n="23">Vgl. hierzu beispielsweise <ref target="#Garratt2002" type="bibl">S.&#8239;9‒35</ref>.</note> 
+            Dazu gehörten erstens ein regelrechter <soCalled>Rom-Kult</soCalled>, der sich nicht zuletzt mit der Italienreise <name ref="#kleinertz-pers030">Johann Wolfgang von Goethes</name> bzw. seinen Schriften hierzu verband,<note xml:id="kleinertz-ftn24" n="24">Der Erstdruck von Johann Wolfgang von Goethes <hi rend="italic">Italienischer Reise</hi> erschien unter dem Titel <hi rend="italic">Aus meinem Leben</hi>, 2 Bde., Stuttgart und Tübingen 1816‒1817. Vgl. <ref target="#Goethe1992" type="bibl"/>.</note> 
+            und zweitens Bestrebungen zur Erneuerung der Kirchenmusik. <name ref="#kleinertz-pers079">Victoria</name> wurde in diesem Kontext vor allem als <soCalled>römischer</soCalled> Komponist rezipiert, der gewöhnlich in einem Atemzug mit <name ref="#kleinertz-pers056">Palestrina</name> genannt wurde. Deutschland bot damit den idealen geistesgeschichtlichen Nährboden für die Kanonisierung der Musik <name ref="#kleinertz-pers079">Victorias</name> neben derjenigen <name ref="#kleinertz-pers056">Palestrinas</name>.<ref type="bibl" target="#Garratt2002" xml:id="kleinertz-ftn25" n="25">S.&#8239;38</ref> 
+            Bemerkenswerterweise spielte hierbei ebenso wie bei <name ref="#kleinertz-pers056">Palestrina</name> und der venezianischen Kirchenmusik<note xml:id="kleinertz-ftn26" n="26">Vgl. etwa die Arbeiten des preußischen Protestanten <ref target="#Winterfeld1832" type="bibl"/>, sowie dessen grundlegende Arbeit <hi rend="italic">Johannes Gabrieli und sein Zeitalter</hi>, 3&#x00A0;Bde., Berlin 1834. <name ref="#kleinertz-pers083">Von Winterfeld</name> hat sich später mit Fragen des evangelischen Kirchengesangs beschäftigt.</note> 
+            die Konfession &#x2013; und damit auch die liturgische Verwendbarkeit &#x2013; keine oder höchstens eine untergeordnete Rolle. Unter den frühen deutschen Herausgebern von Werken <name ref="#kleinertz-pers079">Victorias</name> finden sich ebenso Protestanten wie Katholiken.</p>
+         
+         <p>Als paradigmatisches Beispiel für einen deutschen <name ref="#kleinertz-pers079">Victoria</name>-Herausgeber und gleichzeitig als der erste dürfte <name ref="#kleinertz-pers075">Gottlieb Freiherr von Tucher</name> (1798‒1877) gelten. Nicht zuletzt durch den persönlichen Kontakt mit seinem Heidelberger Jura-Professor <name ref="#kleinertz-pers074">Anton Friedrich Justus Thibaut</name> (<title ref="#kleinertz-works009">Über Reinheit der Tonkunst</title>, Heidelberg 1824) wurde <name ref="#kleinertz-pers075">Tuchers</name> Interesse an alter Kirchenmusik gefördert. Das Ergebnis seines Rom-Aufenthaltes 1824, den er vor allem für Quellenarbeiten in der Sammlung des <name ref="#kleinertz-pers071">Abbate Fortunato Santini</name> (heute in der Diözesanbibliothek Münster) nutzte, ist sein zweibändiges Werk <title ref="#kleinertz-works010">Kirchengesänge der berühmtesten älteren italiänischen Meister</title> (Wien 1827&#x2013;1828), das den Repräsentanten der Römischen Schule, des sogenannten Palestrina-Stils, gewidmet ist.<ref target="#Eichner2004" type="bibl" xml:id="kleinertz-ftn27" n="27"/> 
+            Neben <name ref="#kleinertz-pers056">Palestrina</name>, <name ref="#kleinertz-pers003">Felice Anerio</name> und <name ref="#kleinertz-pers051">Giovanni Maria Nanino</name> ist <name ref="#kleinertz-pers079">Victoria</name> hier mit <q>O vos omnes</q> und dem inzwischen als unecht geltenden Hymnus <q>Jesu dulcis memoria</q> vertreten. 
+            Diesen Hymnus nahm auch der vor allem als Musikkritiker bekannt gewordene <name ref="#kleinertz-pers066">Friedrich Rochlitz</name> (1769‒1842) zusammen mit <name ref="#kleinertz-pers079">Victorias</name> <q>O quam gloriosum</q> in seine zweibändige <title ref="#kleinertz-works011">Sammlung vorzüglicher Gesangstücke</title> (Mainz&#x00A0;1835) auf, während im zweiten Band von <name ref="#kleinertz-pers015">Franz Commers</name> (1813‒1887) mehrbändiger Reihe <title ref="#kleinertz-works012">Musica sacra</title> &#x2013; <hi rend="italic">Sammlung der besten Meisterwerke des 16., 17. und 18.&#8239;Jahrhunderts für 2, 3 und 4&#x00A0;Männerstimmen</hi> (Berlin&#x00A0;1841) – <name ref="#kleinertz-pers079">Victorias</name> Improperium <q>Popule meus</q> enthalten ist.</p>
+         <p>Dieser deutschen Tradition ist auch <name ref="#kleinertz-pers063">Proske</name> verbunden. Die Motivation für sein editorisches Werk war die Verfügbarmachung alter Musik im Dienste der Erneuerung der Kirchenmusik.<note xml:id="kleinertz-ftn28" n="28">Vgl. u.&#8239;a. <ref target="#Kleinertz1997" type="bibl"/>.</note> 
+            Dabei ist die Fokussierung auf die klassische Vokalpolyphonie und die römische Schule ebenso charakteristisch wie seine mehrfachen Italienreisen, die ihn auch nach Rom führten. Die Rezeption <name ref="#kleinertz-pers079">Victorias</name> als italienischer bzw. römischer Komponist ist hier bereits verstetigt; entsprechend erscheint sein Name in den Ausgaben <name ref="#kleinertz-pers063">Proskes</name> nur in der italienischen Schreibweise <q>Vittoria</q>. Vermutlich brachte <name ref="#kleinertz-pers063">Proske</name> die Kanonisierung <name ref="#kleinertz-pers079">Victorias</name> aber vor allem durch den Plan einer ersten <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe einen entscheidenden Schritt weiter. In einem an den Verlag Schott oder Breitkopf &amp; Härtel adressierten Brief von 1841 nennt <name ref="#kleinertz-pers063">Proske</name> verschiedene Ideen für Editionen. Neben ausgewählten Werken von <name ref="#kleinertz-pers003">Anerio</name>, einer <q>Miserere</q>-Anthologie und einem Band mit vierstimmigen Messen <name ref="#kleinertz-pers043">Lassos</name> schlägt er als einziges Gesamtausgabenprojekt das Œuvre <name ref="#kleinertz-pers079">Victorias</name> vor. Realisiert wurde jedoch nur eines dieser Projekte &#x2013; die <hi rend="italic">Missa Papae Marcelli: Triplici concentu distincta</hi> (Mainz 1850) &#x2013;, während die anderen teilweise in <name ref="#kleinertz-pers063">Proskes</name> mehrbändigen Anthologien <title ref="#kleinertz-works013">Musica Divina</title> (1853&#x2013;1863) und <title ref="#kleinertz-works014">Selectus Novus Missarum</title> (1856&#x2013;1861) aufgegangen sind.<note xml:id="kleinertz-ftn29" n="29"><ref target="#Janz1989" type="bibl">S.&#8239;3</ref>. Siehe auch <ref type="bibl" target="#Scharnagl1957">S.&#8239;148</ref>.</note> 
+            Beide Publikationen enthalten auch Kompositionen <name ref="#kleinertz-pers079">Victorias</name>, dessen Bedeutung <name ref="#kleinertz-pers063">Proske</name> im Vorwort des ersten Bandes der <title ref="#kleinertz-works013">Musica Divina</title> unterstreicht.<note xml:id="kleinertz-ftn30" n="30">Carl Proske, <title level="m">Musica Divina</title>, Bd.&#8239;1, Regensburg 1853, S.&#8239;XVI: <q>dreier der grössten Zeitgenossen Palestrina’s und unsers Orlandus de Lassus, nämlich des Spaniers Tomaso Ludovico da Vittoria, des Venetianers Constanzo Porta und des Deutschen Jacobus Gallus oder Handl.</q></note></p>
+         <p><name ref="#kleinertz-pers063">Proske</name> selbst war es noch möglich, die vorgesehenen vier Bände der ersten Serie der <title ref="#kleinertz-works013">Musica Divina</title> vorzubereiten. (Die zweite Serie wurde von verschiedenen Herausgebern weitergeführt, darunter dem <name ref="#kleinertz-pers063">Proske</name>-Schüler <name ref="#kleinertz-pers035">Franz Xaver Haberl</name>). Die erste Serie enthält vierstimmige Werke, die vier Bände sind dann jeweils verschiedenen Gattungen gewidmet.
+            Von dem ursprünglich auf drei Bände angelegten <title ref="#kleinertz-works014">Selectus Novus Missarum</title> erschienen nur zwei mit jeweils acht Messen verschiedener Komponisten. Neben <name ref="#kleinertz-pers056">Palestrina</name>, <name ref="#kleinertz-pers043">Lasso</name>, <name ref="#kleinertz-pers003">Anerio</name>, <name ref="#kleinertz-pers072">Soriano</name>, <name ref="#kleinertz-pers039">Hassler</name>, <name ref="#kleinertz-pers025">Gabrieli</name>, <name ref="#kleinertz-pers059">Paciotti</name> und <name ref="#kleinertz-pers077">Vecchi</name> ist <name ref="#kleinertz-pers079">Victoria</name> mit der <hi rend="italic">Missa Simile est regnum</hi>, der <hi rend="italic">Missa Vidi speciosam</hi> und der <hi rend="italic">Missa Trahe me post te</hi> vertreten. </p>
+         <p>Für die Editionsgeschichte <name ref="#kleinertz-pers079">Victorias</name> von besonderem Interesse sind dabei diejenigen Werke, bei denen <name ref="#kleinertz-pers063">Proske</name> auf handschriftliche Quellen zurückgriff. So waren beispielsweise <q>Benedicam Dominum in omni tempore</q><note xml:id="kleinertz-ftn31" n="31"><name ref="#kleinertz-pers063">Proske</name> kopierte diese Motette in Rom aus einem Manuskript des 18.&#8239;Jahrhunderts (Biblioteca dell’Accademia Nazionale dei Lincei e Corsiniana; <hi rend="italic">I-Rli</hi> Miscellanea N.2. Musica&#x00A0;M14).</note> 
+            und <q>Domine ad adjuvandum</q><note xml:id="kleinertz-ftn32" n="32">Laut <name ref="#kleinertz-pers063">Proske</name> stammt die Motette aus einer alten Handschrift der Königlichen Hof- und Staatsbibliothek in München (heute <hi rend="italic">D-Mbs</hi>). Dabei könnte es sich um eine der beiden heute noch dort erhaltenen Quellen des 16.&#8239;Jahrhunderts <hi rend="italic">D-Mbs</hi> 2&#x00A0;Mus. pr.&#8239;23, hand. Beiband, oder <hi rend="italic">D-Mbs</hi> Mus. Ms.&#8239;72 handeln. Die Motette ist dort allerdings ohne Zuschreibung überliefert, die einzige heute bekannte Zuschreibung als Werk <name ref="#kleinertz-pers079">Victorias</name> stammt aus <name ref="#kleinertz-pers063">Proskes</name> Abschrift (<hi rend="italic">D-Rp</hi> Mappe Victoria I, N.27a).</note> 
+            in den Drucken des 16. und 17.&#8239;Jahrhunderts nicht enthalten, gelten heute aber als authentisch.</p>
+            <p>Insgesamt leitete <name ref="#kleinertz-pers063">Proske</name> mit seinen Ausgaben eine neue Etappe in der Editionsgeschichte der Werke <name ref="#kleinertz-pers079">Victorias</name> ein. Im Kontext der Zeit<note xml:id="kleinertz-ftn33" n="33">Die von der Bach-Gesellschaft herausgegebene Ausgabe der <hi rend="italic">Werke</hi> von <name ref="#kleinertz-pers008">Johann Sebastian Bach</name> erschien ab 1851 in Leipzig; die von <name ref="#kleinertz-pers014">Friedrich Wilhelm Chrysander</name> herausgegebene Ausgabe der <hi rend="italic">Werke</hi> <name ref="#kleinertz-pers041">Georg Friedrich Händels</name> ab 1858 in Leipzig und Bergedorf bei Hamburg.</note> 
+            handelt es sich nämlich erstmals um eine wissenschaftliche Edition mit kritischer Quellenuntersuchung und Berücksichtigung philologischer Kriterien. <name ref="#kleinertz-pers063">Proskes</name> Editionsrichtlinien waren zugleich darauf ausgerichtet, dass sich die edierten Werke auch für die zeitgemäße liturgische Praxis eignen sollten. Dies schlägt sich beispielsweise in der Übernahme der originalen Schlüsselung nieder. <name ref="#kleinertz-pers063">Proske</name> nahm grundsätzlich keine Transpositionen vor. Der Ambitus und die entsprechende Zuordnung zu einem Modus sollten erhalten bleiben, um ein korrektes Alternieren mit dem Gregorianischen Gesang zu ermöglichen. </p>
+         <p>Die Vielzahl der von <name ref="#kleinertz-pers063">Proske</name> herausgegebenen Werke <name ref="#kleinertz-pers079">Victorias</name> zog &#x2013; nicht zuletzt im Kontext des Caecilianismus &#x2013; vor allem in Deutschland eine wachsende Zahl weiterer Editionen nach sich.<note xml:id="kleinertz-ftn34" n="34"><name ref="#kleinertz-pers063">Proske</name> erreichte erstmals auch ein vergleichsweise großes Publikum. So hatte beispielsweise allein seine Reihe <title ref="#kleinertz-works013">Musica Divina</title> ca.&#8239;350 Subskriptionen aus dem kirchlichen Umfeld sowie ca.&#8239;130 von Privatpersonen.</note> 
+            Viele davon waren rein für den praktischen Gebrauch bestimmt.<note xml:id="kleinertz-ftn35" n="35"><ref target="#Neidhardt1860" type="bibl"/>, darin: <q>Duo seraphim/Tres sunt</q>; <ref target="#Lueck1859" type="bibl"/>, in Bd.&#8239;2: <q>Jesu dulcis memoria</q>, <q>Popule meus</q>, <q>O quam gloriosum</q>; <ref target="#Hermesdorff1884" type="bibl"/>, in Bd.&#8239;2: <hi rend="italic">Missa O quam gloriosum</hi>; in Bd.&#8239;3: <q>Popule meus</q>, <q>O quam gloriosum</q>, <q>Regina coeli</q> à&#x00A0;5; in Bd.&#8239;5: <q>Ne timeas Maria</q>, <q>Veni sponsa Christi</q>; <ref target="#Wuellner1876" type="bibl"/>, in Dritter Stufe: <q>Jesu dulcis memoria</q>, <q>Pange lingua</q>, <q>Ave Maria</q> à&#x00A0;4, <q>O vos omnes</q>, <hi rend="italic">Missa Quarti toni</hi> (Credo und Agnus Dei). Mit deutschen Texten im protestantischen Umfeld: <ref target="#Luetzel1875" type="bibl"/>, darin: <q>Popule meus</q> (<q>Gott der Heilige und Gnädige</q>). Erwähnenswerte Editionen außerhalb Deutschlands sind vor allem: <ref target="#Eslava1869" type="bibl"/>, in Serie&#x00A0;1, Bd.&#8239;2: <hi rend="italic">Missa Ave maris stella</hi>, <q>Vere languores</q>, <q>O Domine Jesu Christe</q>, <q>O quam gloriosum</q>, <hi rend="italic">Missa pro defunctis</hi>; Pierre-Jean van Damme (Hg.), <q>Jesu dulcis</q>, in: <title level="m">Musica sacra. Revue de chant d’église et de musique religieuse. Bulletin de la Société de Saint Grégoire</title> 6/1 (August&#x00A0;1886), S.&#8239;3‒4 und S.&#8239;12; Pierre-Jean van Damme (Hg.), <q>Ave Maria</q>, in: <title level="m">Musica sacra</title> 15/5 (Dezember&#x00A0;1895), S.&#8239;17&#x2013;20.</note> 
+            Aus musikwissenschaftlicher Sicht von Belang ist <name ref="#kleinertz-pers063">Proskes</name> Einfluss auf seinen Schüler <name ref="#kleinertz-pers035">Haberl</name> (1840&#x2013;1910). Der Musikwissenschaftler, Priester und Kirchenmusiker edierte zwar vergleichsweise wenige Werke <name ref="#kleinertz-pers079">Victorias</name>,<note xml:id="kleinertz-ftn36" n="36">Franz Xaver Haberl (Hg.), <hi rend="italic">Missa Quarti toni</hi>, Regensburg 1883; Franz Xaver Haberl (Hg.), <q>O vos omnes</q>, Wiesbaden u.&#8239;a.&#8239;o.&#8239;J.; Franz Xaver Haberl (Hg.), <hi rend="italic">Officium hebdomadae sanctae</hi>, in: <hi rend="italic">Kirchenmusikalisches Jahrbuch</hi> 11 (1896), S.&#8239;1&#x2013;28; 12 (1897), S.&#8239;29&#x2013;72; 13 (1898), S.&#8239;73&#x2013;160.</note> 
+            war aber für die ersten Gesamtausgaben der schon von <name ref="#kleinertz-pers063">Proske</name> neben <name ref="#kleinertz-pers079">Victoria</name> als zentral erachteten Komponisten des 16.&#8239;Jahrhunderts &#x2013; <name ref="#kleinertz-pers056">Palestrina</name> und <name ref="#kleinertz-pers043">Lasso</name> &#x2013; verantwortlich.<note xml:id="kleinertz-ftn37" n="37"><ref target="#Haberl1863" type="bibl"/>; Franz Xaver Haberl (Hg.), <title level="m">Orlando di Lasso, Sämmtliche Werke</title>, 21&#x00A0;Bde., Leipzig 1894&#x2013;1927. Vgl. <ref target="#Schmid2015" type="bibl"/></note> 
+            <name ref="#kleinertz-pers035">Haberl</name> sah die Notwendigkeit einer Ausgabe der Opera omnia <name ref="#kleinertz-pers079">Victorias</name>, die er nach Beendigung der <name ref="#kleinertz-pers043">Lasso</name>-Edition in Angriff nehmen wollte.<ref type="bibl" target="#Haberl1896" xml:id="kleinertz-ftn38" n="38">S.&#8239;83</ref> Zu beidem kam er jedoch nicht mehr.
+            Dafür verstand der spanische Komponist und Musikwissenschaftler <name ref="#kleinertz-pers060">Felipe Pedrell</name> (1841&#x2013;1922), der sich bereits zuvor mit <name ref="#kleinertz-pers079">Victoria</name> beschäftigt hatte,<note xml:id="kleinertz-ftn39" n="39"><name ref="#kleinertz-pers060">Pedrell</name> hatte das <name ref="#kleinertz-pers079">Victoria</name> zugeschriebene <q>Domine ad adjuvandum</q> in seiner <hi rend="italic">Hispaniae schola musica sacra</hi> (1894–1898) publiziert.</note> die Ankündigung der <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe <name ref="#kleinertz-pers035">Haberls</name> als einen Weckruf.<note xml:id="kleinertz-ftn40" n="40">Vgl. hierzu: <ref target="#Pedrell1913" type="bibl">S.&#8239;II</ref>.</note> 
+            <name ref="#kleinertz-pers060">Pedrell</name>, der als Begründer der spanischen Musikwissenschaft gilt, nahm die erste Gesamtausgabe <name ref="#kleinertz-pers079">Victorias</name> in Angriff, die bis heute die umfangreichste ist (8&#x00A0;Bde., 1902‒1913; Nachdruck: Ridgewood&#x00A0;1966).
+            Im Sinne seiner <soCalled>Vorgänger</soCalled> (deren Arbeiten <name ref="#kleinertz-pers060">Pedrell</name> vertraut waren)<note xml:id="kleinertz-ftn41" n="41">So war er u.&#8239;a. von <name ref="#kleinertz-pers063">Proske</name> und <name ref="#kleinertz-pers035">Haberl</name> beeinflusst. Er konnte ihre Arbeiten und die anderer Herausgeber aus erster Hand in Paris und Rom kennenlernen. Vgl. <ref type="bibl" target="#GonzalezValle1991">S.&#8239;140</ref>.</note> war auch er geleitet sowohl von historizistischen Idealen<note xml:id="kleinertz-ftn42" n="42">Victoria, <hi rend="italic">Opera omnia</hi>, hg. von F. Pedrell, Bd.&#8239;1, Leipzig&#x00A0;1902, S.&#8239;V–VI: <q>Las tres colecciones de obras musicales clásico-religiosas, que forman la modesta contribución aportada por España al espíritu de restauración y de reconstitución artístico actual, no podían llenar las aspiraciones […], dadas las imperiosas solicitudes de tal despertamiento vivificador de estudios, porque España, la nación que hizo fructífera la semilla sembrada en Roma por los predecesores, contemporáneos y continuadores inmediatos de Palestrina: la nación que pudo resistir la influencia neerlandesa conservando su independencia de escuela; la nación que se envanece de contar entre las conquistas del genio de sus hijos el <hi rend="italic">expresivismo</hi> (compenetración y fusión poética del texto con la música), merecía más y á más venía obligado el que se empeñase en esa verdadera obra de rehabilitación de cultura nacional.</q></note> 
+            als auch vom Bestreben einer kirchenmusikalischen Reform.<note xml:id="kleinertz-ftn43" n="43">Vgl. <ref target="#LopezCalo1991" type="bibl"/>.</note> 
+            Die gleichen Beweggründe hatten bereits die Publikation seines <title ref="#kleinertz-works015">Salterio sacro-hispano</title> (ab 1882) veranlasst.<note xml:id="kleinertz-ftn44" n="44">Auch hier nimmt <name ref="#kleinertz-pers060">Pedrell</name> explizit Bezug auf <name ref="#kleinertz-pers063">Proske</name>. Vgl. <ref type="bibl" target="#Pedrell1911">S.&#8239;175–177</ref>.</note> 
+            Hinzu tritt aber nun die Absicht, Werke des eigenen spanischen musikalischen Erbes zugänglich zu machen. Zur <soCalled>Rehabilitierung</soCalled> der nationalen Kultur<note xml:id="kleinertz-ftn45" n="45">Vgl. hierzu auch <ref target="#Kleinertz2012" type="bibl"/>.</note> 
+            wollte <name ref="#kleinertz-pers060">Pedrell</name> ursprünglich neben <name ref="#kleinertz-pers079">Victoria</name> noch zwei weiteren Komponisten des 16.&#8239;Jahrhunderts ein Denkmal in Form einer Gesamtausgabe setzen, nämlich <name ref="#kleinertz-pers049">Cristóbal de Morales</name> und <pb/><name ref="#kleinertz-pers031">Francisco Guerrero</name>.<note xml:id="kleinertz-ftn46" n="46">Victoria, <hi rend="italic">Opera omnia</hi>, Bd.&#8239;1: <title>Motecta</title>, S.&#8239;VI: <q>[…] verdadera obra de rehabilitación de cultura nacional: dar a luz una colección de obras completas dedicada a cada una de esas tres figuras de primera magnitud que en la historia del arte musical español llenan todo el siglo&#x00A0;XVI.</q> 
+               Vgl. hierzu auch <ref target="#Gregori1991" type="bibl"/>.</note> 
+            Die Dreizahl sollte wohl eine eigene spanische Vokal-Klassik unterstreichen. </p>
+         <p>Zur Realisierung des Opera omnia-Projektes war <name ref="#kleinertz-pers060">Pedrell</name> jedoch auf Verlagshäuser außerhalb Spaniens angewiesen.<ref target="#Pedrell1911b" type="bibl" xml:id="kleinertz-ftn47" n="47">S.&#8239;215</ref> 
+            In einem Brief vom 22.&#8239;November 1898 unterbreitet er den Vorschlag Breitkopf &amp; Härtel: </p>
+         
+         <floatingText xml:id="kleinertz-float01">
+            <body>
+               <p rend="noIndent">Messieurs.</p>
+               <p rend="noIndent">J’ai l’honneur d’exposer à votre consideration que tachant de publier une edition complète des œuvres du maître espagnol <name ref="#kleinertz-pers079">Tomás Luis de Victoria</name>, contemporain et continuateur progressif de <name ref="#kleinertz-pers056">Palestrina</name>, je desirerais savoir s’il pourrait convenir à vos intérêts l’idée d’accepter en principe (en vue du plan et les conditions generales que je pourrais détailler si vous avez la bonté de me l’ordonner) une telle publication qui serait pour les œuvres de <name ref="#kleinertz-pers079">Victoria</name> ce qui sont pour les compositions de <name ref="#kleinertz-pers056">Palestrina</name> et l’<hi rend="italic">Opus magnum</hi> de <name ref="#kleinertz-pers043">Orlando Lassus</name> vos monumentales editions. </p>
+               <p>Veuillez, Messieurs, agréer l’assurance de ma haute consideration et de mes sentiments affectueusement devoués.</p>
+               <p><name ref="#kleinertz-pers060">Felipe Pedrell</name><note xml:id="kleinertz-ftn48" n="48">Die Korrespondenz zwischen <name ref="#kleinertz-pers060">Pedrell</name> und dem Verlag Breitkopf &amp; Härtel ist aufbewahrt im Sächsischen Staatsarchiv Leipzig, 21081 Breitkopf &amp; Härtel, Leipzig (im Folgenden: <hi rend="italic">StA-L</hi>, 21081), Nr.&#8239;2772, 2773 und 2743. Dort befinden sich die originalen Briefe von <name ref="#kleinertz-pers060">Pedrell</name> und Kopien der Briefe des Verlagshauses. Die Originale der letztgenannten sind erhalten in der Biblioteca de Catalunya, <hi rend="italic">E-Bc</hi>&#x00A0;M964. Der hier zitierte Brief trägt die Signatur <hi rend="italic">StA-L</hi>, 21081, Nr.&#8239;2772/1.</note>
+               </p>
+            </body>
+         </floatingText>
+         
+         <p rend="noIndent">Der Verlag, der auch schon die <q>O vos omnes</q>-Ausgabe von <name ref="#kleinertz-pers035">Haberl</name> übernommen hatte, erklärte sich zur Publikation einer <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe bereit. Wie aus dem anschließenden Briefwechsel (vor allem der vier Jahre bis zum Erscheinen des ersten Bandes) hervorgeht, musste sich <name ref="#kleinertz-pers060">Pedrell</name> mit dem Verlag zunächst sowohl über die Konzeption der Gesamtausgabe als auch über die Editionsrichtlinien und -kriterien einigen.<note xml:id="kleinertz-ftn49" n="49">Weitere Informationen zum Projekt finden sich auch in verschiedenen Schriften <name ref="#kleinertz-pers060">Pedrells</name>: <ref type="bibl" target="#Pedrell1913">S.&#8239;I–XCVIII</ref>; <ref target="#Pedrell1911b" type="bibl"/>.</note> 
+            Während <name ref="#kleinertz-pers060">Pedrell</name> beispielsweise eine Unterteilung der verschiedenen Bände nach der Chronologie der Werke vornehmen wollte, setzte sich Breitkopf &amp; Härtel mit einer Anordnung nach Gattungen durch (vgl. die folgende Übersicht):<note xml:id="kleinertz-ftn50" n="50"><ref type="bibl" target="#Pedrell1913">S.&#8239;XII</ref>;  <ref type="bibl" target="#Pedrell1911b">S.&#8239;216</ref>.</note></p>
+        
+         <table xml:id="kleinertz-table01">
+            <row role="label">
+               <cell>
+                  Band
+               </cell>
+               <cell>
+                  Titel
+               </cell>
+               <cell>
+                  Erscheinungsjahr
+               </cell>
+            </row>
+            <row>
+               <cell>1</cell>
+               <cell>Motecta</cell>
+               <cell>1902</cell>
+            </row>
+            <row>
+               <cell>2</cell>
+               <cell>Missarum Liber Primus</cell>
+               <cell>1903</cell>
+            </row>
+            <row>
+               <cell>3</cell>
+               <cell>Cantica B. M. V. vulgo Magnificat et Canticum Simeonis</cell>
+               <cell>1904</cell>
+            </row>
+            <row>
+               <cell>4</cell>
+               <cell>Missarum Liber Secundus</cell>
+               <cell>1905</cell>
+            </row>
+            <row>
+               <cell>5</cell>
+               <cell>Hymni totius anni et Officium Hebdomadae Sanctae</cell>
+               <cell>1908</cell>
+            </row>
+            <row>
+               <cell>6</cell>
+               <cell>Missarum Liber Tertius</cell>
+               <cell>1909</cell>
+            </row>
+            <row>
+               <cell>7</cell>
+               <cell>Psalmi – Antiphonae Marianae – Antiphonae</cell>
+               <cell>1911</cell>
+            </row>
+            <row>
+               <cell>8</cell>
+               <cell>Documenta Biographica et bibliographica. – Appendicis. – Cantiones sacrae ex Collectionibus non impressus et aliè. – Index</cell>
+               <cell>1913</cell>
+            </row>
+         </table>
+         
+         <p rend="noIndent">Auch in Bezug auf das Notenbild musste sich <name ref="#kleinertz-pers060">Pedrell</name> den Wünschen des Verlags fügen,<note xml:id="kleinertz-ftn51" n="51"><name ref="#kleinertz-pers060">Pedrell</name> nimmt dazu Stellung, indem er seinen ursprünglichen Plan rechtfertigt und die Verantwortung für die letztlich übernommenen Richtlinien allein dem Verlag zuweist (<ref target="#Pedrell1911b" type="bibl">S.&#8239;209&#x2013;220</ref><!--Pedrell, <title level="m">Intimidades</title> [wie Anm.&#8239;47], S.&#8239;209&#x2013;220-->).</note> 
+            der eine Angleichung an die unmittelbar zuvor erschienenen Gesamtausgaben <name ref="#kleinertz-pers056">Palestrinas</name> und <name ref="#kleinertz-pers043">Lassos</name> anstrebte. Dem Verlagshaus war sehr wohl bewusst, dass <name ref="#kleinertz-pers060">Pedrell</name> bereits einen Großteil der Transkriptionen nach modernisierten Kriterien erstellt hatte und eine Angleichung somit eine erhebliche Mehrarbeit für ihn bedeutete. Dies lässt sich an dem ausgesucht höflichen Tonfall des Briefes ablesen, in dem das Verlagshaus diese Bitte an <name ref="#kleinertz-pers060">Pedrell</name> richtet:</p>
+         
+         <floatingText xml:id="kleinertz-float02">
+            <body>
+               <p rend="noIndent">Monsieur,</p>
+               <p rend="noIndent">Déjà occupés de la gravure de l’édition des œuvres de <name ref="#kleinertz-pers079">Victoria</name>, il s’était offert l’autre jour l’occasion d’en parler en détail avec un musicien distingué qui sera pour la propagation de cette édition en Allemagne d’une influence inappréciable. Ce monsieur est très au courant de la publication d’œuvres anciennes et connaît bien les principes, observés par les éditeurs des Monuments de l’Art musical en Allemagne<note xml:id="kleinertz-ftn52" n="52">Gemeint sind die <hi rend="italic">Denkmäler Deutscher Tonkunst</hi>, die seit 1892 bei Breitkopf &amp; Härtel in Leipzig erschienen. Der zweite Band enthielt die <hi rend="italic">Cantiones sacrae</hi> von <name ref="#kleinertz-pers039">Hans Leo Hassler</name> (Leipzig 1894). Die Kriterien der Edition sind im <hi rend="italic">Vorwort</hi> des Herausgebers <name ref="#kleinertz-pers028">Hermann Gehrmann</name> genannt (S.&#8239;5–10).</note> 
+                  et des autres Collections complètes, publiées par notre maison. Il nous a exprimé quelques désirs d’une manière très aimable et nous ne voudrions pas lui refuser ses conseils, d’autant moins que vous nous avez dit vous <hi rend="italic">même</hi> d’une manière aussi aimable que vous voudriez publier l’édition des œuvres de <name ref="#kleinertz-pers079">Victoria</name> d’après les mêmes principes que ceux, d’après lesquels les Monuments de l’Art musical en Allemagne sont publiés.<note xml:id="kleinertz-ftn53" n="53">Brief vom 9.&#8239;November 1900. <hi rend="italic">E-Bc</hi>&#x00A0;M964, Breitkopf und Härtel.</note>
+               </p>
+            </body>
+         </floatingText>
+         
+         <p rend="noIndent">In einem auf wenige Tage später datierten Antwortschreiben bemüht sich <name ref="#kleinertz-pers060">Pedrell</name>, jede einzelne seiner Entscheidungen und Kriterien zu verteidigen,<note xml:id="kleinertz-ftn54" n="54"><hi rend="italic">StA-L</hi>, 21081, Nr.&#8239;2772/75.</note> 
+            muss aber letztlich nachgeben. Die originale Schlüsselung und die Notenwerte wurden somit beibehalten und nicht, wie von <name ref="#kleinertz-pers060">Pedrell</name> gefordert, an den modernen Gebrauch angepasst.<note xml:id="kleinertz-ftn55" n="55">Brief vom 14.&#8239;November 1900. Vgl. auch <ref type="bibl" target="#Pedrell1911b">S.&#8239;208&#8239;f.</ref></note> 
+            Damit trug der spanische Musikwissenschaftler gegen seinen Willen zur Internationalisierung und Kanonisierung des <soCalled>Urtextes</soCalled> bei.<note xml:id="kleinertz-ftn56" n="56">Vgl. dazu <ref type="bibl" target="#GonzalezValle1991">S.&#8239;142–148</ref>.</note> 
+         </p>
+         <p>Die Festlegung der Editionskriterien lief jedoch nicht ohne Spannungen ab. Einige Monate später teilten Breitkopf &amp; Härtel Pedrell mit, dass die originalen Schlüssel &#x2013; wie in den letzten Bänden der <name ref="#kleinertz-pers056">Palestrina</name>-Gesamtausgabe und entgegen dem ursprünglich geforderten Urtext-Prinzip &#x2013; teilweise transponiert werden sollten. In seinem umgehenden Antwortschreiben lehnt <name ref="#kleinertz-pers060">Pedrell</name> nicht nur eine erneute Revision ab und droht damit, das ganze Projekt aufzugeben, sondern macht auch seinem Ärger über <name ref="#kleinertz-pers035">Haberl</name>, den Herausgeber der <name ref="#kleinertz-pers056">Palestrina</name>-Gesamtausgabe, Luft: </p>
+         
+         <floatingText xml:id="kleinertz-float03">
+            <body>
+               <p rend="noIndent">Messieurs</p>
+               <p rend="noIndent">Pous[s]ée à bout ma patience et ma circonspection, je ne me sens disposé nullement a entreprendre une quatrième révision du matériel de l’édition des œuvres de Victoria, car d’après les innombrables contradictions des plans proposes pour [sic] vous (je les conserve tous) ce n’est pas <hi rend="italic">un</hi> système plus o moins logique que vous me proposez nouvellement, mais <hi rend="italic">le</hi> système de Monseigneur <name ref="#kleinertz-pers035">Haberl</name>, personnage nefaste pour tout ce qui regarde aux questions d’art, de droiture artistique et d’education sociale. Je connais bien ses exploit[s] et le côté d’où vient le peril. Vous comprendez [sic] parfaitement que le savoir musical du monde entier n’est pas de l’exclusive competence de Monseigneur <name ref="#kleinertz-pers035">Haberl</name> ou des Caecilienverein de sa façon. <hi rend="italic">Je ne retire aucune des paroles que je viens d’ecrire</hi> et vous pouvez lui en faire communication au dit Monseigneur s’il vous plait. Il en entendra de pires si je reviens sur ce sujet (il faut l’ésperer) en racontant à l’Europe artistique cette autre histoire de ses procédures. […]. <hi rend="italic">Ou vous acceptez le plan primitif de transcription imaginé par moi</hi> et qui a mérite vous [sic] hauts éloges […] <hi rend="italic">ou je renonce a l’édition des œuvres de <name ref="#kleinertz-pers079">Victoria</name> que j’eus l’honneur de vous proposer.</hi><note xml:id="kleinertz-ftn57" n="57">Brief vom 14.&#8239;Juli 1901, <hi rend="italic">StA-L</hi>, 21081, Nr.&#8239;2772/94.</note>
+               </p>
+            </body>
+         </floatingText>
+         
+         <p rend="noIndent">Letztlich kam es zu einem Kompromiss: Breitkopf &amp; Härtel verzichteten auf eine erneute Überarbeitung, ohne jedoch <name ref="#kleinertz-pers060">Pedrells</name> Kriterien ganz zu übernehmen.</p>
+         <p>Abgesehen von den wenigen nur handschriftlich überlieferten Werken im achten Band (1913), legte <name ref="#kleinertz-pers060">Pedrell</name> seiner Ausgabe stets die Editio princeps der Drucke zu Grunde. Das heißt, und dies ist ein wichtiger Aspekt für die nachfolgenden Editionen, dass weder Varianten aus unterschiedlichen Drucken (wie von <name ref="#kleinertz-pers060">Pedrell</name> angekündigt),<note xml:id="kleinertz-ftn58" n="58"><name ref="#kleinertz-pers060">Pedrell</name> versicherte dies im Vorwort des ersten Bandes (<!--Pedrell, <title level="m">Estudio Biográfico-Bibliográfico</title> [wie Anm.&#8239;40], --><ref target="#Pedrell1913" type="bibl">S.&#8239;XII</ref>).</note> geschweige denn aus Abschriften Berücksichtigung fanden.
+            Dieser Punkt bildet die zentrale Kritik an der Ausgabe <name ref="#kleinertz-pers060">Pedrells</name> durch einen der bekanntesten <name ref="#kleinertz-pers079">Victoria</name>-Spezialisten und -Herausgeber: <name ref="#kleinertz-pers068">Samuel Rubio</name> (1912–1986)<note xml:id="kleinertz-ftn59" n="59">Neben seiner Tätigkeit als Organist und Maestro de capilla in San Lorenzo de El Escorial ab 1940 studierte <name ref="#kleinertz-pers068">Rubio</name> 1950 Musikwissenschaft bei <name ref="#kleinertz-pers037">Ferdinand Haberl</name> in Regensburg und 1952 am Pontificio Istituto di Musica Sacra in Rom. Zu weiteren grundlegenden biographischen Informationen vgl. <ref target="#LopezCalo2001" type="bibl"/>.</note> 
+            darf als erster und lange Zeit als einziger spanischer Musikwissenschaftler gelten, der sich sowohl als Herausgeber der Werke <name ref="#kleinertz-pers079">Victorias</name> betätigte als auch den sich daraus ergebenden wissenschaftlichen Fragestellungen widmete.<note xml:id="kleinertz-ftn60" n="60">Vgl. <ref target="#Vicente2013" type="bibl"/>; <ref type="bibl" target="#SierraPerez2012"/>. Alle von <name ref="#kleinertz-pers068">Rubio</name> publizierten Werkausgaben sind aufgelistet bei <ref target="#Cramer1998" type="bibl">S.&#8239;286–290</ref>.</note>
+         </p>
+         <p>Bereits zwischen 1947 und 1950 veröffentlichte <name ref="#kleinertz-pers068">Rubio</name> zahlreiche Werke <name ref="#kleinertz-pers079">Victorias</name> in den Nummern 16, 18, 19 und 25 seines <title ref="#kleinertz-works016">Suplemento polifónico de Tesoro sacro-musical</title>, weitere in den beiden Bänden seiner <title ref="#kleinertz-works017">Antología polifónica sacra</title> (Madrid 1954–1956). <pb/>In beiden Fällen handelt es sich, schon durch die Vorgabe des Verlags Coculsa, um praktische Ausgaben. <name ref="#kleinertz-pers068">Rubio</name> plante darüber hinaus auch eine Gesamtausgabe der Werke <name ref="#kleinertz-pers079">Victorias</name>,<note xml:id="kleinertz-ftn61" n="61">Er kündigt dies 1950 in einem seiner bekanntesten Aufsätze an. In diesem Zusammenhang übt er starke Kritik an <name ref="#kleinertz-pers060">Pedrell</name>, der das Problem der Varianten komplett vernachlässigt habe. Vgl. <ref target="#Rubio1950" type="bibl"/>; ferner <ref target="#Rubio1973" type="bibl"/>. Beide Aufsätze sind auch enthalten in <ref target="#SierraPerez2012" type="bibl"/>.</note> 
+            was nicht zuletzt aufgrund fehlenden institutionellen Rückhalts und schließlich des gleichartigen Projekts seines Doktorvaters <name ref="#kleinertz-pers006">Anglés</name> aufgegeben wurde.<note xml:id="kleinertz-ftn62" n="62"><name ref="#kleinertz-pers006">Anglés</name> bedankte sich ausdrücklich für den Rückzug in: <ref target="#Victoria1965" type="bibl">Bd.&#8239;4, S.&#8239;9&#x2013;10</ref>. Vgl. dazu auch <ref type="bibl" target="#Vicente2013">S.&#8239;505</ref>.</note> 
+            1965 gab <name ref="#kleinertz-pers068">Rubio</name> immerhin sämtliche bis dahin bekannten 52&#x00A0;Motetten <name ref="#kleinertz-pers079">Victorias</name> in einer vierbändigen Ausgabe heraus.<note xml:id="kleinertz-ftn63" n="63">Siehe oben, Anm.&#8239;<ref target="#kleinertz-ftn2" type="crossref" rend="no"/>.</note> 
+            Verwendet sind moderne Schlüssel, die zahlreichen Varianten sind auf Bitten des Verlags Unión Musical Española nicht in einem Kritischen Apparat, sondern in Fußnoten verzeichnet. Dabei berücksichtigt <name ref="#kleinertz-pers068">Rubio</name> die handschriftliche Überlieferung nicht nur &#x2013; wie bereits <name ref="#kleinertz-pers060">Pedrell</name> in Band&#x00A0;8 seiner Ausgabe &#x2013; bei den in den Drucken nicht enthaltenen Werken, sondern grundsätzlich für alle Motetten. Neben seiner Ausgabe veröffentlichte <name ref="#kleinertz-pers068">Rubio</name> zahlreiche Artikel zu den Varianten, weiteren gedruckten Quellen und Zuschreibungen, deren Ergebnisse in seine Ausgabe eingeflossen sind.<note xml:id="kleinertz-ftn64" n="64">Ein Teil davon ist auch abgedruckt in <ref type="bibl" target="#SierraPerez2012"/>.</note> Zwölf Jahre später erschien <name ref="#kleinertz-pers068">Rubios</name> bemerkenswerteste Edition: die des <title ref="#kleinertz-works018">Officium Hebdomadae Sanctae</title> von 1585.<ref target="#Victoria1977" type="bibl" xml:id="kleinertz-ftn65" n="65"/> 
+            Hier sind sämtliche Varianten derjenigen Stücke verzeichnet, die bereits in früheren Drucken enthalten waren. Während der Haupttext auf dem Druck von 1585 beruht, wird im Anhang zudem noch die vollständige handschriftliche Fassung der <hi rend="italic">Lamentationes</hi> in der Vaticana (<hi rend="italic">I-Rvat</hi> CS 186) wiedergegeben, die möglicherweise auf eine Fassung vor der gedruckten zurückgeht.<ref type="bibl" target="#Vicente2013" xml:id="kleinertz-ftn66" n="66">S.&#8239;502</ref> 
+            Insgesamt hat <name ref="#kleinertz-pers068">Rubio</name> mit 97&#x00A0;Werken fast die Hälfte des Gesamtschaffens <name ref="#kleinertz-pers079">Victorias</name> herausgegeben.</p>
+         <p>Die Tatsache, dass <name ref="#kleinertz-pers068">Rubio</name> sein Projekt einer <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe nicht zuletzt aufgrund der Betreuung seiner 1967 eingereichten Dissertation über <name ref="#kleinertz-pers049">Cristóbal de Morales</name> durch <name ref="#kleinertz-pers006">Anglés</name><note xml:id="kleinertz-ftn67" n="67">Samuel Rubio, <hi rend="italic">Técnica, estilo y expresión en la polifonía de Cristóbal de Morales</hi> (Rom 1967), publiziert unter dem Titel <hi rend="italic">Cristóbal de Morales. Estudio crítico de su polifonía</hi>, El Escorial 1969.</note>
+            aufgab und damit den Weg für dessen Ausgabe freimachte, hatte zur Folge, dass sich der Name <name ref="#kleinertz-pers006">Anglés</name> heute stärker mit <name ref="#kleinertz-pers079">Victoria</name> verbindet als der <name ref="#kleinertz-pers068">Rubios</name>. <name ref="#kleinertz-pers006">Higinio Anglés</name> (1888–1969) war von 1913 bis 1917 Schüler von <name ref="#kleinertz-pers060">Pedrell</name> in Barcelona und studierte später (1923–24) in Freiburg und Göttingen bei <name ref="#kleinertz-pers033">Willibald Gurlitt</name> und <name ref="#kleinertz-pers048">Friedrich Ludwig</name>. 1917 wurde er zunächst Leiter der Musikabteilung der Biblioteca de Catalunya, ab 1943 war er der erste Direktor des von ihm gegründeten Instituto Español de Musicología in Barcelona. Dort führte er das bereits 1941 begonnene wichtigste musikwissenschaftliche Editionsprojekt in Spanien fort: die <title ref="#kleinertz-works019">Monumentos de la Música Española</title> (im Folgenden:&#x00A0;MME).<ref target="#Westrup2001" type="bibl" xml:id="kleinertz-ftn68" n="68"/> 
+            Die Serie, deren Editionsprinzipien <name ref="#kleinertz-pers006">Anglés</name> in der Einleitung zum ersten Band erläuterte, umfasst Werke des 16. bis 18.&#8239;Jahrhunderts.<ref type="bibl" target="#Angles1941" xml:id="kleinertz-ftn69" n="69">S.&#8239;5–6</ref> 
+            Neben den Beiträgen zu dieser Denkmälerausgabe hat <name ref="#kleinertz-pers006">Anglés</name> wenig zu <name ref="#kleinertz-pers079">Victoria</name> publiziert.<note xml:id="kleinertz-ftn70" n="70">Mit Ausnahme von <ref target="#Angles1975" type="bibl">S.&#8239;697–699</ref>.</note> 
+            Obwohl er bereits 1940 erstmals auf die Notwendigkeit einer kritischen Gesamtausgabe der Werke <name ref="#kleinertz-pers079">Victorias</name> hingewiesen hatte,<ref type="bibl" target="#Angles1940" xml:id="kleinertz-ftn71" n="71"/>
+            erschien der erste Band (MME&#x00A0;25) erst 1965. Bis zu seinem Tod 1969 konnte er nur vier der insgesamt zwölf geplanten Bände zum Druck bringen. Das Projekt blieb ein Torso.<note xml:id="kleinertz-ftn72" n="72">Die geplanten Bände wurden vorgestellt in: Tomás Luis de Victoria, <hi rend="italic">Opera omnia</hi>, hg. von Higinio Anglés, Bd.&#8239;3: <hi rend="italic">Missarum liber secundus</hi>, Barcelona 1967 (MME 30), S.&#8239;7. <ref target="#SuarezPajares2013" type="bibl">S.&#8239;15</ref>.</note> Die vier erschienenen Bände umfassen:</p>
+         <list>
+            <item>Volumen I (MME 25): Missarum Liber Primus
+               <list>
+                  <item>Missa Ave maris stella</item>
+                  <item>Missa Simile est regnum</item>
+                  <item>Missa de Beata Maria</item>
+                  <item>Missa Gaudeamus</item>
+               </list>
+            </item>
+            <item>Volumen II (MME 26): Motetes I–XXI
+            </item>
+            <item>Volumen III (MME 30): Missarum Liber Secundus
+            <list>
+               <item>Missa Quam pulchri sunt</item>
+               <item>Missa O quam gloriosum est regnum</item>
+               <pb/>
+               <item>Missa Surge propera</item>
+               <item>Missa Dum complerentur [aus Liber Primus von 1576]</item></list></item>
+            <item>Volumen IV (MME 31): Motetes XXII–XLVI</item>
+         </list>
+         
+         <p>Im Vorwort (<q>Al lector</q>) des ersten Bandes erläutert <name ref="#kleinertz-pers006">Anglés</name> die Prinzipien und den Plan seiner Edition.<note xml:id="kleinertz-ftn73" n="73"><ref target="#Victoria1965" type="bibl">Bd.&#8239;1, S.&#8239;9–10</ref>. Teile des Vorworts sind aufgegriffen in: <ref type="bibl" target="#Angles1969">S.&#8239;21&#x2013;32</ref>.</note> 
+            An der Ausgabe <name ref="#kleinertz-pers060">Pedrells</name> bemängelt er, dass dieser keinen Zugang zu den bedeutendsten Bibliotheken und Sammlungen in Europa gehabt und nicht sämtliche Varianten aufgeführt habe. Man könne seine Ausgabe daher nicht als eine wirklich kritische und vollständige ansehen. Seine eigene Ausgabe beginnt <name ref="#kleinertz-pers006">Anglés</name> mit den <soCalled>größeren</soCalled> Werken, also den Messen, worin sich wohl die Vorstellung der Überlegenheit zyklischer Werke (wie später der Symphonie) gegenüber einsätzigen Stücken spiegelt. Da sich die Messen häufig auf Motetten beziehen, war es notwendig, jedem Messen-Band jeweils einen Motetten-Band folgen zu lassen.<note xml:id="kleinertz-ftn74" n="74">Daher wurde im Anhang des ersten Bandes auch die vierstimmige Motette <q>Simile est regnum caelorum</q> von <name ref="#kleinertz-pers031">Guerrero</name> abgedruckt, auf die die gleichnamige Messe <name ref="#kleinertz-pers079">Victorias</name> Bezug nimmt.</note> 
+            Um die stilistische und kompositionstechnische Entwicklung <name ref="#kleinertz-pers079">Victorias</name> deutlich zu machen, bemühte sich <name ref="#kleinertz-pers006">Anglés</name> innerhalb der Gattungen um eine chronologische Anordnung. Im Gegensatz zu dem weitaus umfassenderen Ansatz <name ref="#kleinertz-pers068">Rubios</name> berücksichtigt <name ref="#kleinertz-pers006">Anglés</name> ausschließlich Drucke &#x2013; wobei der Editio princeps der Vorrang eingeräumt wird &#x2013; mit der Begründung, die überlieferten Handschriften seien nur Abschriften von Drucken;<note xml:id="kleinertz-ftn75" n="75"><ref target="#Victoria1965" type="bibl">Bd.&#8239;1, S.&#8239;10</ref>, und Bd.&#8239;2, S.&#8239;30.</note> 
+            ein Irrtum wie sich gezeigt hat,<note xml:id="kleinertz-ftn76" n="76">So enthält beispielsweise Ms.&#8239;30 der Kathedrale von Toledo Versionen der Messen aus dem <hi rend="italic">Liber primus</hi> von 1576, die wahrscheinlich älter sind als der Druck. Vgl. <ref target="#NooneSkinner2013" type="bibl"/>.</note> 
+            auch wenn das Problem der Varianten bei <name ref="#kleinertz-pers079">Victoria</name> weniger gravierend ist als im Falle von <name ref="#kleinertz-pers049">Morales</name>.</p>
+         <p>Alle Bände weisen dieselbe Struktur auf: Zunächst einige Faksimiles, dann eine Beschreibung der Drucke, ein Kritischer Bericht der Lesarten und Varianten und schließlich die Edition. Die Reihenfolge innerhalb der Bände richtet sich nach der Stimmenzahl, bei den Motetten mit gleicher Stimmenzahl ordnet <name ref="#kleinertz-pers006">Anglés</name> nach dem Kirchenjahr.
+            Dass die Ausgabe nach <name ref="#kleinertz-pers006">Anglés’</name> Tod nicht fortgeführt wurde, hatte zur Folge, dass nur acht der insgesamt zwanzig Messen (fünf von 1576 und drei der vier neuen von 1583) sowie 46 der 52 bekannten Motetten (davon sechs in Handschriften <name ref="#kleinertz-pers079">Victoria</name> zugeschrieben) ediert sind.</p>
+         <p>Beide, <name ref="#kleinertz-pers068">Rubio</name> und <name ref="#kleinertz-pers006">Anglés</name>, sind die zentralen Persönlichkeiten in der Editionsgeschichte <name ref="#kleinertz-pers079">Victorias</name> des 20.&#8239;Jahrhunderts. Obwohl <name ref="#kleinertz-pers006">Anglés</name> eigentlich eine ganze Generation älter war, liegen <name ref="#kleinertz-pers068">Rubios</name> <name ref="#kleinertz-pers079">Victoria</name>-Ausgaben deutlich früher.
+            Vor diesem Hintergrund ist eine <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe eines der wichtigsten Desiderata zur Musikgeschichte des 16.&#8239;Jahrhunderts. Das wohl größte Problem dürfte dabei die Vollständigkeit sein. Angesicht der relativ langen Schaffensphase <name ref="#kleinertz-pers079">Victorias</name> scheint das bisher überlieferte bzw. das als authentisch akzeptierte Repertoire vergleichsweise wenig umfangreich zu sein. Neben den Werken in den zu seinen Lebzeiten erschienenen monographischen Drucken (siehe oben), die keinen Anlass geben, an seiner Autorschaft zu zweifeln, existieren auch zahlreiche Handschriften. Knapp 300 lassen sich den bekannten Kompositionen zuordnen, weitere mehr als 100 Handschriften des 16. <!--[<hi rend="bold">???</hi>]--> bis 19.&#8239;Jahrhunderts enthalten jedoch 71&#x00A0;Kompositionen, die <name ref="#kleinertz-pers079">Victoria</name> zugeschrieben und in keinem der Drucke vertreten sind.<note xml:id="kleinertz-ftn77" n="77">Vgl. das entsprechende Kapitel bei <ref target="#Cramer1998" type="bibl">S.&#8239;91&#x2013;101 (Works attributed to Victoria in Manuscript Sources)</ref>.</note> 
+            Es sollte also nicht überraschen, wenn zumindest ein Teil der nur handschriftlich überlieferten Kompositionen authentisch wäre.<note xml:id="kleinertz-ftn78" n="78">In diesem Zusammenhang ist zu erwähnen, dass möglicherweise ein weiterer, bis heute verschollener Druck <name ref="#kleinertz-pers079">Victorias</name> existierte. Vgl. <ref target="#Rubio1973" type="bibl">S.&#8239;40&#8239;ff.</ref></note> 
+            In den letzten Jahren und Jahrzehnten ist ein Großteil davon als zumindest wahrscheinlich echt beurteilt worden, auch wenn sich dieser aktualisierte Forschungsstand in einschlägigen Lexika-Artikel nicht widerspiegelt und nicht diskutiert wird. So finden sich in den jeweiligen Werkverzeichnissen unterschiedliche Angaben.<note xml:id="kleinertz-ftn79" n="79"><ref target="#Zywietz2006" type="bibl"/>; <ref target="#Stevenson2001" type="bibl"/>; <ref target="#LlorensCistero2002" type="bibl"/>.</note> 
+         </p>
+         <p>Darüber hinaus werden 14 weitere handschriftlich überlieferte Kompositionen als zweifelhaft eingestuft.<ref type="bibl" target="#Cramer1998" xml:id="kleinertz-ftn80" n="80">S.&#8239;103&#x2013;105</ref> 
+            Dazu gehören unter anderen die <hi rend="italic">Missa Dominicalis</hi> und der Hymnus <q>Jesu dulcis memoria</q>, die beide in der Gesamtausgabe von <name ref="#kleinertz-pers060">Pedrell</name> enthalten sind.<note xml:id="kleinertz-ftn81" n="81"><name ref="#kleinertz-pers068">Rubio</name> sprach sich für die Autorschaft <name ref="#kleinertz-pers079">Victorias</name> aus: <ref target="#Rubio1949" type="bibl"/>.</note> 
+            Von den mittlerweile als echt angenommenen Werken edierte <name ref="#kleinertz-pers060">Pedrell</name> die Motetten <q>Domine, ad adjuvandum</q> und <q>Benedicam Dominum</q>, das vierstimmige <q>Ave maria gratia plena</q> sowie die handschriftliche Fassung der <hi rend="italic">Lamentationes</hi> (<hi rend="italic">I-Rvat</hi> CS&#x00A0;186). <name ref="#kleinertz-pers068">Samuel Rubio</name> ergänzte <name ref="#kleinertz-pers079">Victorias</name> Œuvre in seiner Motetten-Ausgabe um fünf bis dahin unveröffentlichte Motetten, nämlich <q>Beati immaculati</q>, <q>Ego sum panis vivus</q>,  <q>O doctor optime</q>, <q>Domine, in virtute tua</q> und <q>Beata es, virgo Maria</q>, die auch <name ref="#kleinertz-pers051">Nanino</name> zugeschrieben wurde.</p>
+         <p>Von der Tatsache abgesehen, dass es sich neben diesen bei <name ref="#kleinertz-pers018">Cramer</name> verzeichneten Handschriften sicherlich nicht um ein vollständiges Corpus von möglichen Zuschreibungen handelt, müssten für eine neue Gesamtausgabe Echtheitsfragen auch für die bereits bekannten zunächst einmal systematisch untersucht werden. 
+            In den letzten 40&#x00A0;Jahren wurden hierzu nur vereinzelt Beiträge publiziert. So legte <name ref="#kleinertz-pers023">Kurt von Fischer</name> dar, dass der spanische Kopist <name ref="#kleinertz-pers073">Francisco Soto</name> die Psalmen des Manuskripts Mus.&#8239;130 der Biblioteca Nazionale Vittorio Emanuele&#x00A0;II in direkter Zusammenarbeit mit <name ref="#kleinertz-pers079">Victoria</name> notierte.<note xml:id="kleinertz-ftn82" n="82"><ref target="#VonFischer1975" type="bibl"/>; vgl. ferner die kommentierte Faksimile-Ausgabe: <ref target="#Victoria2003" type="bibl"/>.</note> 
+            In jüngerer Zeit sprach sich <name ref="#kleinertz-pers018">Cramer</name> für die Authentizität weiterer Kompositionen verschiedener Gattungen und Provenienz aus.<ref type="bibl" target="#Cramer2001" xml:id="kleinertz-ftn83" n="83">S.&#8239;164&#x2013;217</ref> 
+            Hervorzuheben ist dabei eine Reihe von Falsobordoni und Psalmen aus Handschriften der Bayerischen Staatsbibliothek (2&#x00A0;Mus. pr.&#8239;23 und Mus.&#8239;ms.&#8239;89), die teilweise von <name ref="#kleinertz-pers063">Carl Proske</name> in die sogenannte Mappe Victoria&#x00A0;I der Bischöflichen Zentralbibliothek Regensburg (N.&#8239;27a) kopiert wurden. Während die Frage der Autorschaft der <hi rend="italic">Missa Pange lingua</hi> noch nicht abschließend geklärt werden konnte, ist das fünfstimmige <q>Congratulamini mihi</q> (u.&#8239;a. München, Bayerische Staatsbibliothek Mus.&#8239;Ms.&#8239;1640 und 4480) mit hoher Wahrscheinlichkeit nicht authentisch.<ref target="#Klauk2015" type="bibl" xml:id="kleinertz-ftn84" n="84"/>
+            Die Diskussion der Echtheit steht also insbesondere für folgende Werke noch aus:	</p>
+         <list>
+            <item>Ave Maria (sechsstimmig): <hi rend="italic">PL-Wu</hi> Mus. 2083 (unvollständig)</item>
+            <item>Ecce nunc tempus (vierstimmig): <hi rend="italic">D-MÜs</hi> Hs. 3590</item>
+            <item>Gloria, laus et honor (vierstimmig): <hi rend="italic">D-MÜs</hi> Hs. 2762</item>
+            <item>O bone Jesu: <hi rend="italic">GB-Lcm</hi> Ms. 2089</item>
+            <item>Si Deus pro nobis: <hi rend="italic">GB-Cfm</hi> Ms. 30 F22</item>
+            <item>Virgini laudes canimus (vierstimmig): <hi rend="italic">D-Mbs</hi> Mus. Ms. 1536</item>
+         </list>
+         <p>Ein weiteres grundlegendes Problem einer <name ref="#kleinertz-pers079">Victoria</name>-Ausgabe ist das der sogenannten Musica ficta.<ref type="bibl" target="#Angles1969" xml:id="kleinertz-ftn85" n="85"/>
+            Diese ursprünglich nicht notierten Alterationen müssen gegebenenfalls vom Herausgeber gemäß dem damaligen Usus ergänzt werden.<note xml:id="kleinertz-ftn86" n="86">Vgl. zu einer Übersicht über die Bedeutungen des Begriffs Musica ficta: <ref target="#Wegman1992" type="bibl"/>. Weitere grundlegende Arbeiten hierzu: <ref target="#Berger1987" type="bibl"/>; <ref target="#SydowSaak1990" type="bibl"/>; <ref target="#Caldwell1985" type="bibl"/>; <ref target="#Grier2004" type="bibl"/>
+               <!--<p>Incluir referencia al capítulo correspondiente en los libros de Caldwell, Grier y Dumitrescu.</p>--></note> 
+            Dies ist vor allem für die Quellen des 16.&#8239;Jahrhunderts problematisch: Standen die Alterationen zuvor noch wesentlich für Solmisationssilben (# für <hi rend="italic">mi</hi> und <hi rend="italic">b</hi> für <hi rend="italic">fa</hi>), die dem Sänger den zentralen Halbton des Hexachords angaben &#x2013; und damit innerhalb eines rein diatonischen Systems den Hexachord, in dem er sich gerade bewegte &#x2013;, so führte die zunehmende Chromatisierung der Musik dazu, dass das Denken in Hexachorden zunehmend von der Notation im Fünfliniensystem und der Tastatur (beziehungsweise den Griffen bei Laute und Vihuela) abgelöst wurde. 
+            Dieser Bedeutungswandel sorgte bereits unter den Zeitgenossen für Verwirrung.<note xml:id="kleinertz-ftn87" n="87">So gibt <name ref="#kleinertz-pers009">Juan Bermudo</name> den Ratschlag, Alterationen im Notentext unbedingt kenntlich zu machen: <q>Los musicos practicos usan en la Musica de dos señales: y (aunque algunos los llaman señales de ignorantes) son buenas, y dan gran lumbre en el canto. Pluguieße a Dios, que los componedores en todas las partes que uvieße de ser tecla negra: las pusießen para los tañedores de todos los instrumentos</q> (Juan Bermudo, <title level="m">Declaración de instrumentos musicales</title> [1555], hg. von Macario S. Kastner, Kassel u.&#8239;a. 1957 [Documenta musicologica: Erste Reihe, Druckschriften-Faksimiles&#x00A0;1], fol.&#8239;43&#8239;v).<!-- Literaturangabe fehlt?! --></note>
+            Möglicherweise war an einigen Stellen sogar eine gewisse Ambivalenz beabsichtigt, sodass die Entscheidung über Alterationen in den Bereich der Interpretation fiel.<note xml:id="kleinertz-ftn88" n="88">Vgl. hierzu <ref target="#Dahlhaus1969_Tonsystem" type="bibl"/>. Vgl. hierzu auch: <ref type="bibl" target="#Newcomb1997">S.&#8239;225</ref>: <q>And in a still greater number of situations, there were at least two possibilities. Sometimes these dilemmas interlock producing manifold possible permutations, but the ensuing variety of possible behavior seems to have been a source of delight rather than dismay. Some passages remain impossible to realize without some unusual asperity &#x2013; typically a harsh cross-relation of a kind usually avoided. Perhaps the process of devising a way out of these puzzle-passages was itself considered a source of delight, another intellectual game for the members of academies of the time, and a test of a musician’s <hi rend="italic">virtù</hi>.</q></note> 
+            Auch wenn <name ref="#kleinertz-pers079">Victoria</name> seine Drucke sorgfältig betreute und dabei im Vergleich zu anderen zeitgenössischen Komponisten häufig Akzidenzien verwendete,<ref target="#Stevenson1961" type="bibl" xml:id="kleinertz-ftn89" n="89">S.&#8239;432</ref> besagt dies also keineswegs, dass sämtliche Alterationen angezeigt wären. Von besonderer Bedeutung sind in diesem Zusammenhang daher Notationen seiner Musik in Lauten- und Orgeltabulaturen, da dort die entsprechenden Bünde und <soCalled>Tasten</soCalled> klar bezeichnet sind.<note xml:id="kleinertz-ftn90" n="90">Im Unterschied zu <name ref="#kleinertz-pers031">Guerrero</name> und <name ref="#kleinertz-pers049">Morales</name> sind in den spanischen Vihuela-Tabulaturen keine Werke <name ref="#kleinertz-pers079">Victorias</name> enthalten.</note> 
+         </p>
+         <figure xml:id="kleinertz-fig03">
+            <graphic width="690px" height="214px" url="figures/kleinertz-fig03.png"/>
+            <head type="legend"><name ref="#kleinertz-pers020">Denss</name>, <title ref="#kleinertz-works001">Florilegium</title> […], Köln 1594, f.&#8239;1&#8239;v, Bassus</head>
+         </figure>
+         <pb/>
+         <figure xml:id="kleinertz-fig04">
+            <graphic width="706px" height="266px" url="figures/kleinertz-fig04.png"/>
+            <head type="legend"><name ref="#kleinertz-pers020">Denss</name>, <title ref="#kleinertz-works001">Florilegium</title> […], Köln 1594, f.&#8239;2&#8239;r, M.&#8239;43&#x2013;52</head>
+         </figure>
+         
+         <p rend="noIndent">Dies lässt sich exemplarisch an dem oben erwähnten Druck von <name ref="#kleinertz-pers020">Denss</name>, <title ref="#kleinertz-works001">Florilegium</title> (Köln 1594) zeigen (vgl. auch Abb.&#8239;<ref target="#kleinertz-fig01" type="crossref" rend="no"/>). <name ref="#kleinertz-pers020">Denss</name> intabuliert in französischer Griffschrift mit Kleinbuchstaben für die Bünde jeder Saite (G-Stimmung). Gleichzeitig werden zu jedem Stück auch die Diskantus- und die Bassus-Stimme der Vokalvorlage abgedruckt. In Abb.&#8239;<ref target="#kleinertz-fig03" type="crossref" rend="no"/> ist ein Ausschnitt der Bassstimme von <name ref="#kleinertz-pers079">Victorias</name> Motette <q>O quam gloriosum</q> dargestellt. Dort ist eine Alteration angegeben (zweites System), unklar bleibt jedoch, ob das fast unmittelbar nachfolgende <hi rend="italic">f</hi> ebenfalls erhöht werden soll oder nicht. In der Intabulierung von <name ref="#kleinertz-pers020">Denss</name> ist diese Frage zugunsten des unalterierten Tones geklärt (Abb.&#8239;<ref target="#kleinertz-fig04" type="crossref" rend="no"/>, M.&#8239;49, <hi rend="italic">a</hi> statt <hi rend="italic">b</hi> auf der dritten Linie von unten). Außerdem wird die vorangehende Parallelstelle, die im Bassus unalteriert notiert ist (Abb.&#8239;<ref target="#kleinertz-fig03" type="crossref" rend="no"/>, Ende des ersten Systems) in der Tabulatur entsprechend ausgezeichnet (Abb.&#8239;<ref target="#kleinertz-fig04" type="crossref" rend="no"/>, M.&#8239;47, a und b auf der dritten Linie von unten).  </p>
+         <p>Im Rahmen der Vorarbeiten zu einer neuen <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe an der Universität des Saarlandes konnten außerdem eine Reihe von Orgeltabulaturen lokalisiert werden, die ebenfalls Werke <name ref="#kleinertz-pers079">Victorias</name> enthalten und über solche Fragen Aufschluss zu geben vermögen:<note xml:id="kleinertz-ftn91" n="91">Vgl. hierzu <ref target="#Johnson1989" type="bibl"/>; <ref type="bibl" target="#SchwindtGross1993">S.&#8239;71‒83</ref>; <ref target="#Olmos2007" type="bibl"/>; <ref type="bibl" target="#CeaGalan2013">S.&#8239;328&#x2013;333</ref>.</note> 
+         </p>
+         <list>
+            <item>Altötting, Schatzkammer der Hl.&#8239;Kapelle, 716a</item>
+            <item>Berlin, Staatsbibliothek, Ms.&#8239;Mus.&#8239;20</item>
+            <item>Levoca, Evanjelický Farský Úrad, Ms.&#8239;Mus.&#8239;13990a</item>
+            <item>München, Bayerische Staatsbibliothek Mus.&#8239;Ms.&#8239;263, 264 und 1640</item>
+            <item>München, Bayerische Staatsbibliothek, Ms.&#8239;WINtj 78</item>
+            <item>Pelplin, Wyższe Seminarium Duchowne, Ms.&#8239;305 und 308</item>
+            <item>Regensburg, Fürst Thurn und Taxis Hofbibliothek und Zentralarchiv, F.&#8239;K. Musik 21&#x2013;24</item>
+         </list>
+         <p>Für beide editorischen Probleme &#x2013; Echtheitsfragen und Musica ficta &#x2013; können auch computergestützte Verfahren zur Anwendung kommen. Perspektiven solcher Forschungsansätze wurden im September&#x00A0;2015 im Rahmen der Tagung <hi rend="italic">Musicology and Informatics in Dialogue: Problems of Transmission and Possibilities of Analysis in the Oeuvre of <name ref="#kleinertz-pers079">Tomás Luis de Victoria</name></hi> an der Universität des Saarlandes vorgestellt und diskutiert.
+            Beispielsweise können zur automatisierten Identifikation musikalischer Strukturen schon bestehende Verfahren modifiziert und kombiniert werden. Zusätzlich oder alternativ zum sogenannten Pattern Mining, das mit symbolischen Daten arbeitet (z.&#8239;B. MusicXML, MEI oder CMME), können auch auf Audiosignalen basierende Verfahren eingesetzt werden.<note xml:id="kleinertz-ftn92" n="92">Vgl. hierzu u.&#8239;a. <ref target="#Mueller2007_Information" type="bibl"/>; <ref target="#Mueller2010" type="bibl"/>; <ref target="#Mueller2011" type="bibl"/>; <ref target="#Rizo2011" type="bibl"/>; <ref target="#Konz2013" type="bibl"/>; <ref target="#Martorell2014" type="bibl"/>.</note> 
+         </p>
+         <p>Mit dem Auffinden identischer oder vergleichbarer musikalischer Abschnitte innerhalb eines Werkes oder im Gesamtwerk <name ref="#kleinertz-pers079">Victorias</name> lässt sich die Verwendung von Musica ficta systematisch untersuchen. Dies ist nicht nur editionsphilologisch von Bedeutung, sondern auch musikhistorisch vor dem Hintergrund des Übergangs zur Dur-Moll-Tonalität.<note xml:id="kleinertz-ftn93" n="93">Vgl. hierzu grundlegend die Arbeit von <ref target="#Dahlhaus1968" type="bibl"/>; speziell zu Spanien <ref target="#Klauk2014" type="bibl"/>.</note> 
+            Die <soCalled>Wiederverwendung</soCalled> melodischer und harmonischer <soCalled>Muster</soCalled> kann ebenso im Kontext von Echtheitsfragen bisher nicht (eindeutig) <name ref="#kleinertz-pers079">Victoria</name> zugeschriebener Werke eine Rolle spielen. So konnte an Einzelbeispielen bereits gezeigt werden, dass die musikalische Intertextualität einen wichtigen Beitrag zur Authentifizierung zu leisten vermag.<note xml:id="kleinertz-ftn94" n="94">Vgl. hierzu <ref target="#Cramer2001" type="bibl"/>; <ref target="#Klauk2015" type="bibl"/>.</note> 
+         </p>
+         <p>Der interdisziplinäre und internationale Austausch zwischen Musikwissenschaftlern und Informatikern dürfte im Rahmen des Projekts einer modernen und kritischen <name ref="#kleinertz-pers079">Victoria</name>-Gesamtausgabe hierfür zukunftweisende Perspektiven bieten. </p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Casimiri1934">Raffaele Casimiri, <title level="a">Il Vittoria. Nuovi Documenti per una biografia sincera di Tommaso Ludovico de Victoria</title>, in: <title level="j">Note d’Archivio per la Storia Musicale</title> 11 [1934], S.&#8239;127</bibl>
+               <bibl xml:id="Regan2001">Noel O’Regan, <title level="a">Histories of Renaissance Music for a New Century</title>, in: <title level="j">Music &amp; Letters</title> 82 (2001), S.&#8239;279</bibl>
+               <bibl xml:id="Victoria1965">Tomás Luis de Victoria, <title level="m">Opera Omnia</title>, hg. von Higinio Anglés, 4&#x00A0;Bde., Barcelona 1965&#x2013;1968 (Monumentos de la Música Española&#x00A0;25, 26, 30 und 31)<bibl type="short">Victoria, <title level="m">Opera Omnia</title></bibl></bibl>
+               <bibl xml:id="Victoria1964">Tomás Luis de Victoria, <title level="m">Motetes</title>, hg. von Samuel Rubio, 4&#x00A0;Bde., Madrid 1964</bibl>
+               <bibl xml:id="Jimenez2012">Juan Ruiz Jiménez, <title level="a">Recepción y pervivencia de la obra de Victoria en las instituciones eclesiásticas de la corona de Castilla</title>, in: <title level="m">Tomás Luis de Victoria y la cultura musical en la España de Felipe III</title>, hg. von Alfonso de Vicente Delgado und Pilar Tomás, Madrid 2012, S.&#8239;301‒352<bibl type="short">Ruiz Jiménez, <title level="a">Recepción y pervivencia</title></bibl></bibl>
+               <bibl xml:id="Ham2013">Martin Ham, <title level="a">Victoria as Self-Editor: Changing Musical Texts and their Implications</title>, in: <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol, Madrid 2013, S.&#8239;277‒306</bibl>
+               <bibl xml:id="Filipi2015">Daniele V. Filippi, <title level="a">Carlo Borromeo and Tomás Luis de Victoria: a gift, two letters and a recruiting campaign</title>, in: <title level="j">Early Music</title> 43 (2015), S.&#8239;37‒51</bibl>
+               <bibl xml:id="Filippi2008">Daniele V. Filippi, <title level="m">Tomás Luis de Victoria</title>, Palermo 2008</bibl>
+               <bibl xml:id="Strohm2010">Reinhard Strohm, <title level="a">Opus: an Aspect of the Early History of the Musical Work-Concept</title>, in: <title level="m">Musik des Mittelalters und der Renaissance. Festschrift Klaus-Jürgen Sachs zum 80.&#8239;Geburtstag</title>, hg. von Rainer Kleinertz, Christoph Flamm und Wolf Frobenius,  Hildesheim u.&#8239;a. 2010 (Studien zur Geschichte der Musiktheorie&#x00A0;8), S.&#8239;205–217</bibl>
+               <bibl xml:id="Stevenson1961">Robert Stevenson, <title level="m">Spanish Cathedral Music in the Golden Age</title>, Berkeley u.&#8239;a. 1961, S.&#8239;448–450<bibl type="short">Stevenson, <title level="m">Spanish Cathedral Music</title></bibl></bibl>
+               <bibl xml:id="Jimenez2007">Juan Ruiz Jiménez, <title level="m">La Librería de Canto de Órgano. Creación y pervivencia del repertorio del Renacimiento en la actividad musical de la catedral de Sevilla</title>, Granada 2007</bibl>
+               <bibl xml:id="Bovicelli1594">Giovanni Battista Bovicelli, <title level="m">Regole Passaggi di musica 1594</title>, Faksimile-Nachdruck hg. von Nanie Bridgman, Kassel u.&#8239;a. 1957</bibl>
+               <bibl xml:id="Brown1976">Howard Mayer Brown, <title level="m">Embellishing Sixteenth-Century Music</title>, London 1976</bibl>
+               <bibl xml:id="Lesure1960">François Lesure (Hg.), <title level="m">Recueils imprimés XVI<hi rend="sup">e</hi>‒XVII<hi rend="sup">e</hi> siècles. Liste chronologique</title>, München 1960 (Répertoire International des Sources Musicales&#x00A0;B/I)</bibl>
+               <bibl xml:id="Lesure1964">François Lesure (Hg.), <title level="m">Recueils imprimés XVIII<hi rend="sup">e</hi> siècle</title>, München 1964 (Répertoire International des Sources Musicales B/II)</bibl>
+               <bibl xml:id="Cramer1998">Eugene Casjen Cramer, <title level="m">Tomás Luis de Victoria. A Guide to Research</title>, New York u.&#8239;a. 1998<bibl type="short">Cramer, <title level="m">Tomás Luis de Victoria</title></bibl></bibl>
+               <bibl xml:id="Vicente2012">Alfonso de Vicente, <title level="m">Tomás Luis de Victoria en el siglo XVIII. Dos estudios de historia de la fortuna póstuma</title>, Ávila 2012</bibl>
+               <bibl xml:id="Stadler2009">Peter Stadler und Joachim Veit (Hg.), <title level="m">Digitale Edition zwischen Experiment und Standardisierung. Musik – Text – Codierung</title>, Tübingen 2009 (Beihefte zu editio 31)</bibl>
+               <bibl xml:id="Alfieri1840">Pietro Alfieri (Hg.), <title level="m">Excerpta ex celebrioribus de musica viris</title>, Rom 1840</bibl>
+               <bibl xml:id="Weber1992">William Weber, <title level="m">The Rise of Musical Classics in Eighteenth-Century England: A Study in Canon, Ritual and Ideology</title>, Oxford 1992</bibl>
+               <bibl xml:id="FullerMaitland1893">John Alexander Fuller-Maitland und Arthur Henry Mann, <title level="m">Catalogue of the Music in the Fitzwilliam Museum</title>, Cambridge u.&#8239;a. 1893</bibl>
+               <bibl xml:id="King1963">Alec Hyatt King, <title level="m">Some British Collectors of Music, c.&#8239;1600‒1960</title>, Cambridge 1963</bibl>
+               <bibl xml:id="Novello1825">Vincent Novello (Hg.), <title level="m">The Fitzwilliam Music</title>, 5&#x00A0;Bde., London 1825‒1827</bibl>
+               <bibl xml:id="Angles1969">Higinio Anglés, <title level="a">Problemas que presenta la nueva edición de las obras de Morales y de Victoria</title>, in:  <title level="m">Renaissance-muzick 1400‒1600: donum natalicium René Bernard Lenaerts</title>, hg. von Jozef Robijns, Leuven 1969 (Musicologica Lovaniensia&#x00A0;1), S.&#8239;21–32<bibl type="short">Anglés, <title level="a">Problemas</title></bibl></bibl>
+               <bibl xml:id="Olleson2005">Philip Olleson und Fiona M. Palmer, <title level="a">Publishing Music from the Fitzwilliam Museum, Cambridge: The Work of Vincent Novello and Samuel Wesley in the 1820s</title>, in: <title level="j">Journal of the Royal Musical Association</title> 130 (2005), S.&#8239;38‒53</bibl>
+               <bibl xml:id="Urchueguia2013">Cristina Urchueguía, <title level="a">Victoria in Germania. Tomás Luis de Victoria y la historiografía alemana hasta principios del siglo XX</title>, in:  <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol,  Madrid 2013, S.&#8239;477‒488</bibl>
+               <bibl xml:id="Garratt2002">James Garratt, <title level="m">Palestrina and the German Romantic Imagination</title>, Cambridge 2002<bibl type="short">Garratt, <title level="m">Palestrina</title></bibl></bibl>
+               <bibl xml:id="Goethe1992">Johann Wolfgang von Goethe, <title level="a">Italienische Reise</title>, hg. von Andreas Beyer und Norbert Miller, München u.&#8239;a. 1992 (Sämtliche Werke nach Epochen seines Schaffens. Münchner Ausgabe&#x00A0;15)</bibl>
+               <bibl xml:id="Winterfeld1832">Carl von Winterfeld, <title level="m">Johannes Pierluigi von Palestrina</title>, Breslau 1832</bibl>
+<!--               <bibl xml:id="Winterfeld1834">Carl von Winterfeld, <title level="m">Johannes Gabrieli und sein Zeitalter</title>, 3&#x00A0;Bde., Berlin 1834</bibl>
+-->               <bibl xml:id="Eichner2004">Barbara Eichner, <title level="a">Gottlieb Freiherr von Tuchers <q>Kirchengesänge der berühmtesten älteren italiänischen Meister</q> (1827/28) und die Wiederentdeckung der Alten Musik</title>, in: <title level="j">Musicologica Austriaca</title> 23 (2004), S.&#8239;58‒80</bibl>
+               <bibl xml:id="Kleinertz1997">Rainer Kleinertz, <title level="a">Carl Proske ‒ Arzt, Priester und Reformator der Kirchenmusik (1794‒1861)</title>, in:  <title level="m">Berühmte Regensburger. Lebensbilder aus zwei Jahrtausenden</title>, hg. von Karlheinz Dietz und Gerhard H. Waldherr,  Regensburg 1997, S.&#8239;232‒241</bibl>
+               <bibl xml:id="Janz1989">Bernhard Janz, <title level="a">Das editorische Werk Carl Proskes und die Anfänge der kirchenmusikalischen Reformbewegung</title>, in:  <title level="m">Palestrina und die Idee der klassischen Vokalpolyphonie im 19. Jahrhundert: zur Geschichte eines kirchenmusikalischen Stilideals</title>, hg. von Winfried Kirsch, Michael Jacob, Martina Janitzek und Peter Lüttig, Regensburg 1989 (Palestrina und die Kirchenmusik im 19.&#8239;Jahrhundert&#x00A0;1)</bibl>
+               <bibl xml:id="Scharnagl1957">August Scharnagl, <title level="a">Dr. Karl Proske als Lasso-Forscher</title>, in: <title level="m">Kirchenmusikalisches Jahrbuch</title>&#x00A0;41 (1957), S.&#8239;147&#x2013;149</bibl>
+               <bibl xml:id="Neidhardt1860">August Neithardt (Hg.), <title level="m">Sammlung religiöser Gesänge älterer und neuester Zeit zum bestimmten Gebrauch für den Königlichen Berliner Domchor</title>, Berlin ca.&#8239;1860 (Musica sacra 12)</bibl>
+               <bibl xml:id="Lueck1859">Stephan Lueck, <title level="m">Sammlung ausgezeichneter Compositionen für die Kirche</title>, 2&#x00A0;Bde., Trier 1859</bibl>
+               <bibl xml:id="Hermesdorff1884">Michael Hermesdorff, <title level="m">Sammlung ausgezeichneter Compositionen für die Kirche</title>, 5&#x00A0;Bde., Leipzig 1884–1885</bibl>
+               <bibl xml:id="Wuellner1876">Franz Wüllner, <title level="m">Chorübungen der Münchener Musikschule</title>, München 1876</bibl>
+               <bibl xml:id="Luetzel1875">Johann Heinrich Lützel, <title level="m">Chorgesangbuch für Kirchen und Schulchöre. Geistliche Gesänge aus dem 16., 17., 18. und 19.&#8239;Jahrhundert für Gemischten Chor</title>, Kaiserslautern <edition>2</edition>1880</bibl>
+               <bibl xml:id="Eslava1869">Hilarión Eslava, <title level="m">Lira sacro-hispana, Siglo XVI</title>, Madrid 1869</bibl>
+               <bibl xml:id="Haberl1863">Franz Xaver Haberl (Hg.), <title level="m">Pierluigi da Palestrina’s Werke</title>, 33&#x00A0;Bde., Leipzig 1863‒1894</bibl>
+               <bibl xml:id="Haberl1896">Franz Xaver Haberl, <title level="a">Tomas Luis de Victoria: eine bio-bibliographische Studie</title>, in: <title level="j">Kirchenmusikalisches Jahrbuch</title>&#x00A0;11 (1896), S.&#8239;72–84</bibl>
+               <bibl xml:id="Pedrell1913">Felipe Pedrell, <title level="a">Estudio Biográfico-Bibliográfico sobre el Maestro abulense Tomás Luis de Victoria y la presente edición completa de sus obras</title>, in: <title level="m">Victoria, Opera omnia</title>, hg. von Felipe Pedrell, Bd.&#8239;8, Leipzig 1913, S.&#8239;I–XCVIII<bibl type="short">Pedrell, <title level="a">Estudio Biográfico-Bibliográfico</title></bibl></bibl>
+               <bibl xml:id="GonzalezValle1991">José V. González-Valle, <title level="a">Recepción del <emph>Officium Hebdomadae Sanctae</emph> de T.&#8239;L. de Victoria y edición de F. Pedrell</title>, in: <title level="j">Recerca Musicològica</title>&#x00A0;11–12 (1991–1992), S.&#8239;133–155<bibl type="short">González-Valle, <title level="a">Recepción</title></bibl></bibl>
+               <bibl xml:id="LopezCalo1991">José López-Calo, <title level="a">Felip Pedrell y la reforma de la música religiosa</title>, in: <title level="j">Recerca Musicològica</title> 11–12 (1991–1992), S.&#8239;157–209</bibl>
+               <bibl xml:id="Pedrell1911">Felipe Pedrell, <title level="m">Jornadas de arte (1841–1891)</title>, Paris 1911</bibl>
+               <bibl xml:id="Kleinertz2012">Rainer Kleinertz, <title level="a">La música española en el entorno del 98: tradición y modernidad</title>, in:  <title level="m">Discursos del 98. Albores españoles de una modernidad europea</title>, hg. von Jochen Mecke,  Frankfurt am Main u.&#8239;a. 2012, S.&#8239;363–372</bibl>
+               <bibl xml:id="Gregori1991">Josep Maria Gregori, <title level="a">Felip Pedrell i el renaixement musical hispánic</title>, in: <title level="j">Recerca Musicològica</title>&#x00A0;11‒12 (1991‒1992), S.&#8239;47–61</bibl>
+               <bibl xml:id="Pedrell1911b">Felipe Pedrell, <title level="a">Intimidades sobre la edición completa de las obras de Victoria (1902)</title>, in: <title level="m">Orientaciones</title>, hg. von Felipe Pedrell, Paris 1911, S.&#8239;203–233<bibl type="short">Pedrell, <title level="a">Intimidades</title></bibl></bibl>
+               <bibl xml:id="LopezCalo2001">José López-Calo, Art. <title level="a">Rubio (Calzón), Samuel</title>, in: <title level="m">The New Grove Dictionary of Music and Musicians</title>, hg. von Stanley Sadie, 2.&#8239;Aufl., London 2001, Bd.&#8239;21, S.&#8239;851</bibl>
+               <bibl xml:id="Vicente2013">Alfonso de Vicente, <title level="a">Victoria, anteayer mismo. La contribución de Samuel Rubio</title>, in: <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol, Madrid 2013, S.&#8239;501–519<bibl type="short">De Vicente, <title level="a">Victoria, anteayer mismo</title></bibl></bibl>
+               <bibl xml:id="SierraPerez2012">José Sierra Pérez (Hg.), <title level="m">Samuel Rubio (1912–2012). In memoriam. Estudios sobre Tomás Luis de Victoria</title>, Madrid 2012 (eine Anthologie der wichtigsten Publikationen Rubios zu Victoria)<bibl type="short">Sierra Pérez, <title level="m">Samuel Rubio</title></bibl></bibl>
+               <bibl xml:id="Rubio1950">Samuel Rubio, <title level="a">Historia de las reediciones de los motetes de T.&#8239;L. de Victoria y significado de las variantes introducidas en ellas</title>, in: <title level="j">La Ciudad de Dios</title>&#x00A0;162 (1950), S.&#8239;113–151</bibl>
+               <bibl xml:id="Rubio1973">Samuel Rubio, <title level="a">Felipe Pedrell, editor de <q>Opera omnia</q> de Tomás Luis de Victoria</title>, in: <title level="j">Anuario Musical</title>&#x00A0;27 (1973), S.&#8239;39–44<bibl type="short">Rubio, <title level="a">Felipe Pedrell</title></bibl></bibl>
+               <bibl xml:id="Victoria1977">Tomás Luis de Victoria, <title level="m">Officium Hebdomadae Sanctae</title>, hg. von Samuel Rubio, Cuenca 1977</bibl>
+               <bibl xml:id="Westrup2001">Jack Westrup, Art. <title level="a">Anglés, Higinio</title>, in: <title level="m">The New Grove Dictionary of Music and Musicians</title>, hg. von Stanley Sadie, 2.&#8239;Aufl., London 2001, Bd.&#8239;1, S.&#8239;656–657</bibl>
+               <bibl xml:id="Angles1941">Higinio Anglés (Hg.), <title level="m">La música en la Corte de los Reyes Católicos</title>. Vol&#x00A0;1: <title level="m">Polifonía religiosa</title>, Madrid 1941 (Monumentos de la Música Española&#x00A0;1)</bibl>
+               <bibl xml:id="Angles1975">Higinio Anglés, <title level="a">Austausch deutscher und spanischer Musiker im 15. und 16. Jahrhundert</title>, in: <title level="m">Scripta musicologica</title>, hg. von José López-Calo, Rom 1975, Bd.&#8239;2, S.&#8239;687–702</bibl>
+               <bibl xml:id="Angles1940"> Higinio Anglés, <title level="a">A propósito de las ediciones originales de Victoria</title>, in: <title level="j">Revista Musical Ilustrada Ritmo</title>&#x00A0;11 (1940), S.&#8239;91–101</bibl>
+               <bibl xml:id="SuarezPajares2013">Javier Suárez-Pajares, <title level="a">Introducción. Una reflexión historiográfica</title>, in: <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol, Madrid 2013, S.&#8239;13–17</bibl>
+               <bibl xml:id="NooneSkinner2013">Michael Noone und Graeme Skinner, <title level="a">The Cathedral, the Copyist, the Composer and the Canon: Revising Toledo Cathedral’s Victoria Choirbooks and the Liber primus (1576)</title>, in: <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol, Madrid 2013, S.&#8239;37–54</bibl>
+               <bibl xml:id="Zywietz2006">Michael Zywietz, Art. <title level="a">Victoria, Tomás Luis de</title>, in: <title level="m">Die Musik in Geschichte und Gegenwart</title>, hg. von Ludwig Finscher, 2.&#8239;Aufl., Personenteil&#x00A0;16, Kassel 2006, Sp.&#8239;1543–1554</bibl>
+               <bibl xml:id="Stevenson2001">Robert Stevenson, Art. <title level="a">Victoria, Tomás Luis de</title>, in: <title level="m">The New Grove Dictionary of Music and Musicians</title>, hg. von Stanley Sadie, 2.&#8239;Aufl., London 2001, Bd.&#8239;26, S.&#8239;531–537</bibl>
+               <bibl xml:id="LlorensCistero2002">José María Llorens Cisteró, Art. <title level="a">Victoria, Tomás Luis de</title>, in: <title level="m">Diccionario de la música española e hispanoamericana</title>, hg. von Emilio C. Rodicio, Madrid 2002, Bd.&#8239;10, S.&#8239;852–859</bibl>
+               <bibl xml:id="Rubio1949">Samuel Rubio, <title level="a">¿Son de Victoria la <q>Missa dominicalis</q> y el himno <q>Jesu dulcis memoria</q>?</title>, in: <title level="m">Tesoro Sacro Musical</title>&#x00A0;32 (1949), S.&#8239;73‒76, und 33 (1950), S.&#8239;14‒17</bibl>
+               <bibl xml:id="VonFischer1975">Kurt von Fischer, <title level="a">Unbekannte Kompositionen Victorias in der Biblioteca Nazionale in Rom</title>, in: <title level="m">Archiv für Musikwissenschaft</title>&#x00A0;32 (1975), S.&#8239;124‒138</bibl>
+               <bibl xml:id="Victoria2003">Tomás Luis de Victoria, <title level="m">Salmos de Vísperas. Manuscrito Musical 130 de la Biblioteca Nazionale Vittorio Emanuele II di Roma</title>, hg. von Esteban Hernández Castelló, Ávila 2003</bibl>
+               <bibl xml:id="Cramer2001">Eugene Casjen Cramer, <title level="m">Studies in the Music of Tomás Luis de Victoria</title>, Aldershot u.&#8239;a. 2001<bibl type="short">Cramer, <title level="m">Studies in the Music of Tomás Luis de Victoria</title></bibl></bibl>
+               <bibl xml:id="Klauk2015">Stephanie Klauk, <title level="a">Problems of Authenticity in the Works of Tomás Luis de Victoria. Some Methodological Considerations</title>, in: <title level="m">New Perspectives on Early Music in Spain</title>, hg. von Tess Knighton und Emilio Ros-Fábregas, Kassel 2015 (Iberian Early Music Studies 1), S.&#8239;56&#x2013;68<bibl type="short">Klauk, <title level="a">Problems of Authenticity</title></bibl></bibl>
+               <bibl xml:id="Wegman1992">Rob C. Wegman, <title level="a">Musica ficta</title>, in:  <title level="m">Companion to Medieval and Renaissance Music</title>, hg. von Tess Knighton und David Fallows, New York 1992, S.&#8239;265–274</bibl>
+               <bibl xml:id="Berger1987">Karol Berger, <title level="m">Musica ficta. Theories of accidental inflections in vocal polyphony from Marchetto da Padova to Gioseffo Zarlino</title>, Cambridge 1987</bibl>
+               <bibl xml:id="SydowSaak1990">Brigitte Sydow-Saak, <title level="a">Musica falsa/musica ficta</title>, in: <title level="m">Handwörterbuch der musikalischen Terminologie</title>, 18.&#8239;Auslieferung 1990</bibl>
+               <bibl xml:id="Caldwell1985">John Caldwell, <title level="m">Editing Early Music</title>, Oxford 1985 (Early Music Series&#x00A0;5), S.&#8239;31–32</bibl>
+               <bibl xml:id="Grier2004">James Grier, <title level="m">The Critical Editing of Music. History, Method, and Practice</title>, Cambridge 2004, S.&#8239;163–164</bibl><!-- Mit Seitenangabe?!? -->
+               <bibl xml:id="Dahlhaus1969_Tonsystem">Carl Dahlhaus, <title level="a">Tonsystem und Kontrapunkt um 1500</title>, in: <title level="m">Jahrbuch des Staatlichen Instituts für Musikforschung Preussischer Kulturbesitz 1968</title>, Berlin 1969, S.&#8239;7–18</bibl>
+               <bibl xml:id="Newcomb1997">Anthony Newcomb, <title level="a">Unnotated Accidentals in the Music of the Post-Josquin Generation</title>, in:  <title level="m">Music in Renaissance Cities and Courts. Studies in Honor of Lewis Lockwood</title>, hg. von Jessie Ann Owens und Anthony M. Cummings, Michigan 1997, S.&#8239;215–225</bibl>
+               <bibl xml:id="Johnson1989">Cleveland Johnson, <title level="m">Vocal Compositions in German Organ Tablatures, 1550‒1650: A Catalogue and Commentary</title>, New York 1989</bibl>
+               <bibl xml:id="SchwindtGross1993">Nicole Schwindt-Gross, <title level="m">Die Musikhandschriften der Stiftskirche Altötting, des Kollegiatstifts Landshut und der Pfarrkirchen Beuerberg, Schnaitsee und St. Mang in Füssen. Thematischer Katalog</title>, München 1993 (Kataloge Bayerischer Musiksammlungen&#x00A0;18)</bibl>
+               <bibl xml:id="Olmos2007">Ángel Manuel Olmos, <title level="a">Las obras de Tomás Luis de Victoria en la tablatura para órgano de Pelplin (Polonia) Biblioteka Seminarium, 304‒308, 308<hi rend="sup">a</hi> (1620–1630)</title>, in: <title level="m">Cinco siglos de música para tecla española. Actas de los Symposia FIMTE 2002‒2004</title>, hg. von Luisa Morales,  Garrucha 2007, S.&#8239;87‒124</bibl>
+               <bibl xml:id="CeaGalan2013">Andrés Cea Galán, <title level="a">Cantar Victoria al órgano: Documentos, Música, Praxis</title>, in: <title level="m">Estudios. Tomás Luis de Victoria. Studies</title>, hg. von Javier Suárez-Pajares und Manuel del Sol, Madrid 2013, S.&#8239;307‒357</bibl>
+               <bibl xml:id="Mueller2007_Information">Meinard Müller, <title level="m">Information retrieval for music and motion</title>, Berlin u.&#8239;a. 2007</bibl>
+               <bibl xml:id="Mueller2010">Meinard Müller und Sebastian Ewert, <title level="a">Towards timbre-invariant audio features for harmony-based music</title>, in: <title level="j">Transactions on Audio, Speech, and Language Processing</title>&#x00A0;18 (2010), S.&#8239;649‒662</bibl>
+               <bibl xml:id="Mueller2011">Meinard Müller, Daniel P.&#8239;W. Ellis, Anssi Klapuri und Gael Richard, <title level="a">Signal processing for music analysis</title>, in: <title level="j">Journal on Selected Topics in Signal Processing</title>&#x00A0;5 (2011), S.&#8239;1088‒1110</bibl>
+               <bibl xml:id="Rizo2011">David Rizo, José M. Iñesta und Kjell Lemström, <title level="a">Polyphonic Music Retrieval with Classifier Ensembles</title>, in: <title level="j">Journal of New Music Research</title>&#x00A0;40 (2011), S.&#8239;313–324</bibl>
+               <bibl xml:id="Konz2013">Verena Konz, Meinard Müller und Rainer Kleinertz, <title level="a">A Cross-Version Chord Labelling Approach for Exploring Harmonic Structures. A Case Study on Beethoven’s Appassionata</title>, in: <title level="j">Journal of New Music Research</title>&#x00A0;42 (2013), S.&#8239;1‒17</bibl>
+               <bibl xml:id="Martorell2014">Agustín Martorell und Emilia Gómez, <title level="a">Hierarchical multi-scale set-class analysis</title>, in: <title level="j">Journal of Mathematics and Music: Mathematical and Computational Approaches to Music Theory, Analysis, Composition and Performance</title>&#x00A0;8 (2014), S.&#8239;1–14</bibl>
+               <bibl xml:id="Dahlhaus1968">Carl Dahlhaus, <title level="m">Untersuchungen über die Entstehung der harmonischen Tonalität</title>, Kassel u.&#8239;a. 1968 (Saarbrücker Studien zur Musikwissenschaft&#x00A0;2)</bibl>
+               <bibl xml:id="Klauk2014">Stephanie Klauk, <title level="a">Kirchentöne versus Dur-Moll-Tonalität. Juan Bermudo: Aufführungspraxis und Hörgewohnheiten im 16.&#8239;Jahrhundert</title>, in: <title level="j">Anuario Musical</title>&#x00A0;69 (2014), S.&#8239;159‒170</bibl>
+               <bibl xml:id="Schmid2015">Bernhold Schmid, <title level="a"><q>… immer noch wenige Werke von Lassus</q>: Zur Editionsgeschichte der Werke des Münchner Hofkapellmeisters Orlando di Lasso</title>, in: <title level="m">Musikeditionen im Wandel der Geschichte</title>, hg. von Reinmar Emans und Ulrich Krämer, Berlin u.&#8239;a. 2015, S.&#8239;48&#x2013;68.</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

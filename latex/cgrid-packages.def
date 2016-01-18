@@ -1,0 +1,29 @@
+\usepackage{fontspec}
+%\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{libertine}
+%\usepackage{lmodern}
+%\usepackage[type1]{libertine}
+\usepackage[italian, french, english, ngerman]{babel}
+\usepackage[babel]{csquotes}
+\usepackage[protrusion=true,expansion]{microtype}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{scrpage2}
+\usepackage{makeidx}
+\usepackage{tocloft}
+%\usepackage{listings}
+\usepackage[english, ngerman]{selnolig}
+\usepackage{paralist}
+\usepackage{soul}
+\usepackage[normalem]{ulem}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{rotating}
+\usepackage{ragged2e}
+\usepackage[outputdir=build]{minted}
+\usepackage[colorlinks,hyperindex=false,pdfencoding=auto]{hyperref}

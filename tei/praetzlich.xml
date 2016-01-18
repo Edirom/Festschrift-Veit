@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"><hi rend="italic">Freischütz Digital</hi></title>
+                <title type="sub">When Computer Science Meets
+                    Musicology</title>
+                <author>
+                    <name><forename>Meinard</forename> <surname>Müller</surname></name>
+                    <email/>
+                    <affiliation>studied mathematics (Diplom) and computer science (Ph.&#8239;D.) at Bonn University, Germany. 
+                        In 2002/2003, he conducted postdoctoral research in combinatorics at Keio University, Japan. 
+                        After his Habilitation in 2007, he was a senior researcher at the Max-Planck Institut für Informatik. 
+                        Since September 2012, Meinard Müller holds a professorship for Semantic Audio Processing at the International Audio Laboratories Erlangen, a joint institution of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and Fraunhofer IIS. 
+                        His recent research interests include music processing, audio signal processing, and music information retrieval, which are also reflected in his recent textbook titled <hi rend="italic">Fundamentals of Music Processing</hi><!--(Springer, <ptr target="www.music-processing.de"/>)-->.</affiliation>
+                </author>
+                <author>
+                    <name><forename>Thomas</forename> <surname>Prätzlich</surname></name>
+                    <email/>
+                    <affiliation>studied bioinformatics (B.&#8239;Sc.) und computer science (M.&#8239;Sc.) at Saarland University.
+                        From 2012–2015, he was part of the research team in the project <hi rend="italic">Freischütz Digital</hi> where he worked on the adaptation of audio processing methods to an opera scenario.
+                        Since mid-2012, he has been pursuing his PhD under the supervision of Prof.&#8239;Meinard Müller at the International Audio Laboratories Erlangen, a joint institution of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and Fraunhofer IIS. 
+                        In his PhD, he is working on automated music processing methods, with a focus on music synchronization, music segmentation, and source separation.</affiliation>
+                </author>
+                <author>
+                    <name><forename>Christian</forename> <surname>Dittmar</surname></name>
+                    <email/>
+                    <affiliation>was head of the Semantic Music Technology group at the Fraunhofer Institute for Digital Media Technology (IDMT) in Ilmenau from 2006 to 2014. 
+                        He authored and co-authored many scientific publications in the research field of Music Information Retrieval. 
+                        In 2014, he was nominated as one of the 39 visionaries of the digital society in Germany in 2014 by the Gesellschaft für Informatik. 
+                        Since summer 2014, he pursues his PhD thesis in the research group of Prof.&#8239;Meinard Müller at the International Audio Laboratories Erlangen, a joint institution of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and the Fraunhofer IIS. </affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                        Attribution 3.0 Unported License (CC BY 3.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>translated from HTML to TEI</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="praetzlich-pers002">
+                        <p>Ackermann, Otto</p>
+                    </person>
+                    <person xml:id="praetzlich-pers003">
+                        <p>Berlioz, Hector</p>
+                    </person>
+                    <person xml:id="praetzlich-pers004">
+                        <p>Betzwieser, Thomas</p>
+                    </person>
+                    <person xml:id="praetzlich-pers020">
+                        <p>Bohl, Benjamin W.</p>
+                    </person>
+                    <person xml:id="praetzlich-pers005">
+                        <p>Kepper, Johannes</p>
+                    </person>
+                    <person xml:id="praetzlich-pers007">
+                        <p>Kind, Friedrich</p>
+                    </person>
+                    <person xml:id="praetzlich-pers009">
+                        <p>Kleiber, Carlos</p>
+                    </person>
+                    <person xml:id="praetzlich-pers010">
+                        <p>Liszt, Franz</p>
+                    </person>
+                    <person xml:id="praetzlich-pers011">
+                        <p>Müller, Meinard</p>
+                    </person>
+                    <person xml:id="praetzlich-pers012">
+                        <p>Prätzlich, Thomas</p>
+                    </person>
+                    <person xml:id="praetzlich-pers013">
+                        <p>Röwenstrunk, Daniel</p>
+                    </person>
+                    <person xml:id="praetzlich-pers014">
+                        <p>Schreiter, Solveig</p>
+                    </person>
+                    <person xml:id="praetzlich-pers015">
+                        <p>Seuffert, Janette</p>
+                    </person>
+                    <person xml:id="praetzlich-pers016">
+                        <p>Szwillus, Gerd</p>
+                    </person>
+                    <person xml:id="praetzlich-pers017">
+                        <p>Veit, Joachim</p>
+                    </person>
+                    <person xml:id="praetzlich-pers018">
+                        <p>Viglianti, Raffaele</p>
+                    </person>
+                    <person xml:id="praetzlich-pers019">
+                        <p>Weber, Carl Maria von</p>
+                        <p n="work" xml:id="praetzlich-work001"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition xml:id="praetzlich-latex-width065">width=.65\textwidth</rendition>
+                <rendition xml:id="praetzlich-latex-width07">width=.7\textwidth</rendition>
+                <rendition xml:id="praetzlich-latex-width08">width=.8\textwidth</rendition>
+                <rendition xml:id="praetzlich-latex-width10">width=\textwidth</rendition>
+                <rendition xml:id="praetzlich-latex-vspace-1mm">\vspace{-1mm}</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2015-12-04T10:37:00" who="https://github.com/peterstadler">Korrekturen der Autoren eingearbeitet und Layout angepasst.</change>
+            <change when="2015-11-25T20:31:00" who="https://github.com/peterstadler">Werktitel-refs hinzugefügt.</change>
+            <change when="2015-11-16T16:56:00" who="https://github.com/peterstadler">Korrekturen von Anna eingearbeitet und Layout angepasst.</change>
+            <change when="2015-11-14T21:28:00" who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+            <change when="2015-07-24T10:39:49.339+02:00" who="https://github.com/peterstadler">Personen und Literatur ausgezeichnet; Abbildungen eingefügt.</change>
+            <change when="2015-07-23T11:40:49.339+02:00" who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="praetzlich-abstract">
+                <p> The project <hi rend="italic">Freischütz Digital</hi> was a close cooperation between musicologists
+                    and computer scientists to explore new and digital ways for analyzing and
+                    presenting music related data in critical editions. The opera <hi rend="italic">Der Freischütz</hi>
+                    by Carl Maria von Weber served as challenging example scenario within the
+                    project. This opera is not only a central work in the music literature, but also
+                    offers a large number of (historical) sources—including different versions of
+                    the musical score, the libretto, and audio recordings. Within the project, our
+                    role was to investigate how computer-based methods may be employed to better
+                    handle the abundance of multifaceted information sources. Having a specific
+                    focus on the audio domain, our main objective was to improve the access to music
+                    recordings by automatically processing the audio material based on segmentation
+                    and synchronization techniques. In this context, we systematically explored a
+                    number of challenges that arise in the process of establishing semantic
+                    relationships across the various recordings and symbolic music representations.
+                    Furthermore, we investigated how the established cross relationships may open up
+                    new ways for music analysis, navigation, and retrieval. In this paper, we give a
+                    summary of our contributions to the project <hi rend="italic">Freischütz Digital</hi> and report on
+                    the various opportunities and challenges the project has offered us. Bringing
+                    together researchers from the humanities and engineering, this project has been
+                    of truly interdisciplinary nature. We want to thank Joachim Veit and his group
+                    as well as all cooperation partners for the many exciting discussions, the
+                    mutual support, and the openness to new perspectives.
+                </p>
+            </div>
+        </front>
+        <body>
+            <!--  l. 49 -->
+            <div xml:id="praetzlich-div1" rend="numbered-heading">
+                <head><milestone rendition="#praetzlich-latex-vspace-1mm"/>Introduction</head><!--  l. 101 -->
+                <p><milestone rendition="#praetzlich-latex-vspace-1mm"/>Significant digitization efforts have resulted in large music collections, which
+                    comprise music-related documents of various types and formats including text,
+                    symbolic data, audio, image, and video. For example, in the case of an opera,
+                    there typically exist digitized versions of the libretto, different editions of
+                    the musical score, as well as a large number of performances available as audio
+                    and video recordings. In the field of music information retrieval (MIR), great
+                    efforts are directed towards the development of technologies that allow users to
+                    access and explore music in all its different facets. For example, during
+                    playback of a CD recording, a digital music player may present the corresponding
+                    musical score while highlighting the current playback position within the score.
+                    On demand, additional information about the performance, the instrumentation,
+                    the melody, or other musical attributes may be automatically presented to the
+                    listener. A suitable user interface displays the musical score or the structure
+                    of the current piece of music, which allows the user to directly jump to any
+                    part within the recording without tedious fast-forwarding and rewinding.
+                    <!-- l. 118 -->
+                </p>
+                <p> The project <hi rend="italic">Freischütz Digital</hi> (FreiDi) offered an interdisciplinary platform for
+                    musicologists and computer scientists to jointly develop and introduce
+                    computer-based methods that enhance human involvement with music. The opera <title ref="#praetzlich-work001">Der
+                        Freischütz</title> by <name ref="#praetzlich-pers019">Carl Maria von Weber</name> served as an example scenario. This work
+                    plays a central role in the Western music literature and is of high relevance
+                    for musicological studies. Also, this opera was chosen because of its rich body
+                    of available sources—including different versions of the musical score, the
+                    libretto, and audio recordings. One goal of the project was to explore
+                    techniques for establishing a virtual archive of relevant digitized objects,
+                    including symbolic representations of the autograph score and other musical
+                    sources (encoded in MEI),<note xml:id="praetzlich-d1e251">MEI stands for the <hi rend="italic">Music Encoding Initiative</hi>, which is an open-source effort to define a system for encoding musical documents in a machine-readable structure. See <ref xml:id="praetzlich-d1e253" target="#praetzlich8" type="bibl"/>. See also <ref xml:id="praetzlich-d1e255" target="http://music-encoding.org/"/></note> transcriptions and facsimiles of libretti and other textual sources
+                    (encoded in TEI)<note xml:id="praetzlich-d1e257">TEI stands for the <hi rend="italic">Text Encoding Initiative</hi> <ref xml:id="praetzlich-d1e259" target="http://www.tei-c.org/"/></note> as well as (multi-channel) audio recordings of the opera. A more
+                    abstract goal within the Computational Humanities was to gain a better
+                    understanding of how automated methods may support the work of a musicologist
+                    beyond the development of tools for mere data digitization,
+                    restoration, management, and access. <!-- l. 140 -->
+                </p>
+                <p> While computer-aided music research relied in earlier times primarily on
+                    symbolic representations of the musical score, the focus of recent research
+                    efforts has shifted towards the processing and analysis of various types of
+                    music representations including text, audio, and video.<note xml:id="praetzlich-d1e266">Cf. <ref xml:id="praetzlich-d1e268" target="#praetzlich14" type="bibl"/>; <ref xml:id="praetzlich-d1e270" target="#praetzlich18" type="bibl"/></note> One particular
+                    challenge of the project was to investigate how automated methods and
+                    computer-based interfaces may help to coordinate the multiple information
+                    sources. While our project partners focused on the encoding and processing of
+                    text- and score-based representations, our main objective was to research on
+                    ways that improve the access to audio-based material. To this end, we applied
+                    techniques from signal processing and information retrieval to automatically
+                    process the music recordings. <!-- l. 152 -->
+                </p>
+                <p> In this paper, having a specific focus on the audio domain, we report on our
+                    investigations, results, challenges, and experiences within the FreiDi
+                    project from an engineer’s perspective. Instead of discussing technical details,
+                    our goal is to give an intuitive introduction to the various audio processing
+                    tasks that have played an important role in the project. As a second
+                    contribution of this paper, we highlight various challenges that arise when
+                    (even established) techniques are applied to real-world scenarios. We want to
+                    emphasize that it was a great pleasure for us to be part of the FreiDi
+                    project. Having partners who were willing to explain their research in simple
+                    words, ask questions whenever necessary, carefully listen to each other, while
+                    showing mutual respect and interest, we have learned a lot beyond our own
+                    research. <!-- l. 166 -->
+                </p>
+                
+                <p> At this point, we want to thank <name ref="#praetzlich-pers017">Joachim Veit</name> for his invitation to become part
+                    of this project. It was his open mindedness and potential to integrate the
+                    various perspectives that was one key aspect for making this project a success. </p>
+                <!--  l. 172 -->
+                <figure xml:id="praetzlich-fig-happy-birthday" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-happy-birthday.png" width="1246px" height="418px"/>
+                    <head type="legend"/>
+                </figure>
+                <!--  l. 178 -->
+                <pb/>
+                <p> In the remainder of this paper, we first give an overview of the various types
+                    of data sources that played a role in the FreiDi project, where we have a
+                    particular focus on the audio material (Section&#x00A0;<ref xml:id="praetzlich-d1e300" target="#praetzlich-div2" type="crossref" rend="no"/>). Then, we discuss various audio processing tasks including music
+                    segmentation (Section&#x00A0;<ref xml:id="praetzlich-d1e302" target="#praetzlich-div3" type="crossref" rend="no"/>), music synchronization (Section&#x00A0;<ref xml:id="praetzlich-d1e304" target="#praetzlich-div4" type="crossref" rend="no"/>), voice detection (Section&#x00A0;<ref xml:id="praetzlich-d1e306" target="#praetzlich-div5" type="crossref" rend="no"/>), and interference reduction in multitrack recordings (Section&#x00A0;<ref xml:id="praetzlich-d1e308" target="#praetzlich-div6" type="crossref" rend="no"/>). 
+                    For each task, we explain the relation to the FreiDi project, describe the algorithmic
+                    approaches applied, discuss their benefits and limitations, and summarize the
+                    main experimental results. Finally, in Section&#x00A0;<ref xml:id="praetzlich-d1e311" target="#praetzlich-div7" type="crossref" rend="no"/>, we conclude the paper and indicate possible research directions. Parts
+                    of this paper are based on the authors’ publications,<note xml:id="praetzlich-d1e313">Cf. <ref xml:id="praetzlich-d1e315" target="#praetzlich3" type="bibl"/>; <ref xml:id="praetzlich-d1e317" target="#praetzlich4" type="bibl"/>; 
+                        <ref xml:id="praetzlich-d1e319" target="#praetzlich20" type="bibl"/>; <ref xml:id="praetzlich-d1e321" target="#praetzlich22" type="bibl"/>; <ref xml:id="praetzlich-d1e323" target="#praetzlich23" type="bibl"/>; <ref xml:id="praetzlich-d1e326" target="#praetzlich24" type="bibl"/>; <ref xml:id="praetzlich-d1e328" target="#praetzlich26" type="bibl"/></note> which also
+                    contain further details and references to related work. </p>
+            </div>
+            <div xml:id="praetzlich-div2" rend="numbered-heading">
+                <head>Musical Sources </head>
+                <!--  l. 210 -->
+                <p> Music is complex and manifested in many different formats and modalities<note xml:id="praetzlich-d1e341">Cf. <ref xml:id="praetzlich-d1e343" target="#praetzlich14" type="bibl"/>; <ref xml:id="praetzlich-d1e345" target="#praetzlich18" type="bibl"/></note> 
+                    (see Figure&#x00A0;<ref xml:id="praetzlich-d1e347" target="#praetzlich-fig01" type="crossref" rend="no"/>). Taking the opera <title ref="#praetzlich-work001">Der Freischütz</title> as an example, we encounter a wide
+                    variety of multimedia representations, including <hi rend="italic">textual</hi> representations in form of the libretto (text of the opera), <hi rend="italic">symbolic</hi> representations (musical score), <hi rend="italic">acoustic</hi> representations (audio recordings), and <hi rend="italic">visual</hi> representations (video recordings). In the
+                    following, we give some background information on <title ref="#praetzlich-work001">Der Freischütz</title> while
+                    discussing how different music representations naturally appear in various
+                    formats and multiple versions in the context of this opera. <!-- l. 223 -->
+                </p>
+                <figure xml:id="praetzlich-fig01" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-fig01.pdf" width="750px" height="437px"/>
+                    <head type="legend">Music-related information in multiple modalities illustrated by
+                        means of the opera <title ref="#praetzlich-work001">Der Freischütz</title> by Carl Maria von Weber</head>
+                </figure>
+                <p> Composed by <name ref="#praetzlich-pers019">Carl Maria von Weber</name>, <title ref="#praetzlich-work001">Der Freischütz</title> is a German romantic opera
+                    (premiere in 1821), which plays a key role in musicological and historical opera
+                    studies. The overture is followed by 16 numbers in the form of the German
+                    <hi rend="italic">Singspiel,</hi> where the music is interspersed with spoken dialogues.<ref xml:id="praetzlich-d1e393" target="#praetzlich32" type="bibl"/> 
+                    This kind of modular structure
+                    allows an opera director for transposing, exchanging, and omitting individual
+                    numbers, which has led to many different versions and performances.
+                    <!-- l. 230 -->
+                </p>
+                <p> As for text-based documents, there are detailed accounts on <name ref="#praetzlich-pers007">Friedrich Kind’s</name>
+                    libretto and its underlying plot, which is based on an old German folk legend.<note xml:id="praetzlich-d1e404">E.&#8239;g., <ref xml:id="praetzlich-d1e406" target="#praetzlich29" type="bibl"/>.</note>
+                    Since its premiere,
+                    the libretto has undergone many changes that were introduced by <name ref="#praetzlich-pers007">Kind</name>, not to
+                    speak of individual changes made by opera directors. Furthermore, there are
+                    versions of the opera in other languages such as French, Russian, or Italian
+                    being based on translated versions of the libretto. Finally, there exists a rich
+                    body of literature on the opera’s reception. <!-- l. 239 -->
+                </p>
+                <p> On the side of the musical score, there exists a wide range of different sources
+                    for the opera. For example, variations have resulted from copying and editing
+                    the original autograph score. Changes were not only made by <name ref="#praetzlich-pers019">Weber</name> himself, but
+                    also by copyists who added further performance instructions and other details to
+                    clarify <name ref="#praetzlich-pers019">Weber’s</name> intention. A scholarly-critical edition of <name ref="#praetzlich-pers019">Weber’s</name>  
+                    work<note xml:id="praetzlich-d1e426">Carl-Maria-von-Weber-Gesamtausgabe, <ptr target="http://www.weber-gesamtausgabe.de/en/"/>.</note> keeps track and discusses these variations. 
+                    The recent <hi rend="italic">Music Encoding
+                    Initiative</hi> (MEI) aims at developing representations and tools to make such
+                    enriched score material digitally accessible. Furthermore, there are various
+                    derivatives and arrangements of the opera such as piano transcriptions (e.&#8239;g.,
+                    by <name ref="#praetzlich-pers010">Liszt</name>) or composed variants of the originally spoken dialogues (e.&#8239;g., by
+                    <name ref="#praetzlich-pers003">Berlioz</name>). <!-- l. 251 -->
+                </p>
+                <!-- l. 258 -->
+                <!--  l. 261 -->
+                <p> As mentioned above, our main focus of this paper is the audio domain. Also for
+                    this domain, the opera <title ref="#praetzlich-work001">Der Freischütz</title> offers a rich body of available sources
+                    including a large number of recorded performances by various orchestras and
+                    soloists. For example, the catalogue of the German National Library<note xml:id="praetzlich-d1e450"><ptr target="http://www.dnb.de/EN/"/>.</note> 
+                    lists 1200 entries for sound carriers containing at least one musical
+                    number of the opera. More than 42 complete recordings have been published and,
+                    surely, there still exist many more versions in matters of radio and TV
+                    broadcasts. The opera covers a wide range of musical material including arias,
+                    duets, trios, and instrumental pieces. Some of the melodic and harmonic material
+                    of the numbers is already introduced in the overture. Furthermore, there are
+                    numbers containing repetitions of musical parts or verses of songs. The various
+                    performances may reveal substantial differences not only because of the above
+                    mentioned variations in the score and libretto, but also because a conductor or
+                    producer may take the artistic freedom to deviate substantially from what is
+                    specified in the musical score. Besides differences in the number of played
+                    repetitions, further deviations include omissions of entire numbers as well as
+                    significant variations in the spoken dialogues. Apart from such structural
+                    deviations, audio recordings of the opera usually differ in their overall
+                    length, sound quality, language, and many other aspects. For example, the
+                    available recordings show a high variability in their duration, which can be
+                    explained by significant tempo differences and also by omissions of material. In
+                    particular historic recordings may be of poor acoustic quality due to noise,
+                    recording artifacts, or tuning issues (also partly resulting from the
+                    digitization process). Working out and understanding the variations and
+                    inconsistencies within and across the different sources was a major task we
+                    tackled in this project. </p>
+            </div>
+            <div xml:id="praetzlich-div3" rend="numbered-heading">
+                <head>Track Segmentation</head>
+                <!--  l. 297 -->
+                <p> A first audio processing task that emerged in the FreiDi project concerns
+                    the automated segmentation of all available audio recordings of the opera in a
+                    consistent way. As said, the opera <title ref="#praetzlich-work001">Der Freischütz</title> is a number opera starting
+                    with an overture followed by 16&#x00A0;numbers, which are interspersed by spoken text
+                    (dialogues). When looking at the audio material that originates from CD
+                    recordings, the subdivision into CD tracks yields a natural segmentation of the
+                        recorded performances. In practice, however, the
+                    track segmentations turn out to be rather inconsistent. 
+                    For example, for 23&#x00A0;different <title ref="#praetzlich-work001">Freischütz</title> recordings, Figure&#x00A0;<ref xml:id="praetzlich-d1e468" target="#praetzlich-fig02" type="crossref" rend="no"/>a shows the track segmentations, which vary between 17 and 41&#x00A0;CD tracks
+                    per version. In some recordings, each number of the opera was put into a
+                    separate CD track, whereas in others the numbers were divided into music and
+                    dialogue tracks, and sometimes the remaining music tracks were even further
+                    subdivided. In addition, the CD tracks are often poorly annotated; the metadata
+                    may be inconsistent, erroneous, or not available. For digitized material from
+                    old sound carriers (such as shellac, LP, or tape recordings), there may not even
+                    exist a meaningful segmentation of the audio material. In order to compare
+                    semantically corresponding parts in different versions of the opera, a
+                    consistent segmentation is needed. In the context of the FreiDi project,
+                    such a segmentation was a fundamental requirement for further analysis and
+                    processing steps such as the computation of linking structures across different
+                    musical sources, including sheet music and audio material (see Section&#x00A0;<ref xml:id="praetzlich-d1e470" target="#praetzlich-div4" type="crossref" rend="no"/>). <!-- l. 324 -->
+                </p>
+                <figure xml:id="praetzlich-fig02" rendition="#praetzlich-latex-width10">
+                    <graphic url="figures/praetzlich-fig02.pdf" width="606px" height="450px"/>
+                    <head type="legend">Segmentation of 23&#x00A0;different versions of <title ref="#praetzlich-work001">Der Freischütz</title>
+                        obtained from commercial CD recordings. <hi rend="bold">(a)</hi> Segmentation
+                        according to the original CD tracks. <hi rend="bold">(b)</hi> Segmentation
+                        according to a reference segmentation specified by a musicologist. The reference
+                        segmentation includes 38&#x00A0;musical sections as well as 16&#x00A0;spoken dialogue sections
+                        (gray)</head>
+                </figure>
+                
+                <!-- l. 335 -->
+                <!--  l. 338 -->
+                
+                <p> <!--In <q>Freischütz Digital: a case study for reference-based audio segmentation of operas</q>,-->
+                    We presented a
+                    reference-based audio segmentation approach,<ref xml:id="praetzlich-d1e502" target="#praetzlich23" type="bibl"/> which we now describe in more
+                    detail. In our scenario, we assumed that a musicologist may be interested in a
+                    specific segmentation of the opera. Therefore, as input of our algorithm, the
+                    user may specify a segmentation of the opera by manually annotating the desired
+                    segment boundaries within a musical score (or another music representation).
+                    This annotation is also referred to as <hi rend="italic">reference
+                        segmentation</hi>. For example, in our experiments, a musicologist divided
+                    the opera into 38&#x00A0;musical segments and 16&#x00A0;dialogue segments—a segmentation that
+                    further refines the overture and the 16&#x00A0;numbers of the opera. Our procedure aims
+                    at automatically transferring this reference segmentation onto all available
+                    recordings of the opera. The desired result of such a segmentation for 23&#x00A0;<title ref="#praetzlich-work001">Freischütz</title> 
+                    versions is shown in Figure&#x00A0;<ref xml:id="praetzlich-d1e507" target="#praetzlich-fig02" type="crossref" rend="no"/>b.
+                    <!-- l. 352 -->
+                </p>
+                <p> As it turned out, the task is more complex as one may think at first glance due
+                    to significant acoustic and structural variations across the various recordings.<!--As our main contributions in&#x00A0;<!-\- Eingriff!!! -\-><q>Freischütz Digital: a case study for reference-based audio segmentation of operas</q>,-->
+                    As our main contribution in a case study on recordings of the opera 
+                    <title ref="#praetzlich-work001">Der Freischütz</title>, 
+                    we  applied and adjusted existing synchronization and matching procedures to realize an 
+                    automated reference-based segmentation procedure.<ref xml:id="praetzlich-d1e517" target="#praetzlich23" type="bibl"/> 
+                    The second and even more important goal of our investigations was to highlight the benefits and
+                    limitations of automated procedures within a challenging real-world application
+                    scenario. As one main result, we presented an automated procedure that could
+                    achieve a segmentation accuracy of nearly 95&#8239;% with regard to a suitable
+                    evaluation measure. Our approach showed a high degree of robustness to
+                    performance variations (tempo, instrumentation, etc.) and poor recording
+                    conditions. Among others, we discussed strategies for handling tuning deviations
+                    and structural inconsistencies. In particular, short segments proved to be
+                    problematic in the presence of structural and acoustic variations.
+                    <!-- l. 369 -->
+                </p>
+                <figure xml:id="praetzlich-fig03" rendition="#praetzlich-latex-width065">
+                    <graphic url="figures/praetzlich-fig03.pdf" width="506px" height="322px"/>
+                    <head type="legend"><hi rend="bold">(a)</hi> Visualization of relative lengths of the segments
+                        occuring in abridged versions compared to the reference version <q>Kle1973</q>. Similar to Figure&#x00A0;<ref xml:id="praetzlich-d1e533" target="#praetzlich-fig02" type="crossref" rend="no"/>, the gray segments indicate dialogues, whereas the colored segments
+                        correspond to musical parts. <hi rend="bold">(b)</hi> Illustration of the
+                        frame-level segmentation pipeline for abridged versions</head>
+                </figure>
+                <!-- l. 378 -->
+                <!--  l. 381 -->
+                <p> Another major challenge that turned out in our investigations is the existence
+                    of arranged and abridged versions of the opera. In general, large-scale musical
+                    works may require a huge number of performing musicians. Therefore, such works
+                    have often been arranged for smaller ensembles or reduced for piano.
+                    Furthermore, performances of operas may have a duration of up to several hours.
+                    Weber’s opera <title ref="#praetzlich-work001">Der Freischütz</title>, for example, has an average duration of more
+                    than two hours. For such large-scale musical works, one often finds abridged
+                    versions. These versions usually present the most important material of a
+                    musical work in a strongly shortened and structurally modified form. Typically,
+                    these structural modifications include omissions of repetitions and other
+                    <q>non-essential</q> musical passages. Abridged versions were quite common in the
+                    early recording days due to duration constraints of the sound carriers. For
+                    example, the opera <title ref="#praetzlich-work001">Der Freischütz</title> would have filled 18&#x00A0;shellac discs. More
+                    recently, abridged versions or excerpts of a musical work can often be found as
+                    bonus tracks on CDs. <!-- l. 396 -->
+                </p>
+                <!--<pb/>-->
+                <p> In our first approach<ref xml:id="praetzlich-d1e561" target="#praetzlich23" type="bibl" rend="ibid"/> as
+                    described above, one main assumption was that a given reference segment either
+                    appears more or less in the same form in the unknown version or is omitted
+                    completely. In abridged versions of an opera, however, this assumption is often
+                    invalid. Such versions strongly deviate from the original by omitting material
+                    on different scales, ranging from the omission of several musical measures up to
+                    entire parts (see Figure&#x00A0;<ref xml:id="praetzlich-d1e563" target="#praetzlich-fig03" type="crossref" rend="no"/>a). 
+                    For example, given a segment in a reference version, one may no longer
+                    find the start or ending sections of this segment in an unknown version, but
+                    only an intermediate section. <!--In&#x00A0;<!-\- Eingriff!!! -\->our paper <q>Frame-level audio segmentation</q>,--> 
+                    In a further study, we addressed the problem of transferring a labeled reference
+                    segmentation onto an unknown version in the case of abridged versions.<ref xml:id="praetzlich-d1e569" target="#praetzlich24" type="bibl"/> 
+                    Instead of using a segment-based procedure as before,<!-- Eingriff!!! --><ref xml:id="praetzlich-d1e573" target="#praetzlich23" type="bibl"/> 
+                    we applied a more flexible frame-level matching
+                    procedure. Here, a frame refers to a short audio excerpt on which a suitable
+                    audio feature is derived. 
+                    As illustrated by Figure&#x00A0;<ref xml:id="praetzlich-d1e575" target="#praetzlich-fig03" type="crossref" rend="no"/>b, 
+                    the idea is to establish correspondences between frames of a reference
+                    version and frames of an unknown version. The labeled segment information of the
+                    reference version is then transferred to the unknown version only for frames for
+                    which a correspondence has been established. Such a frame-level procedure is
+                    more flexible than a segment-level procedure. <!--However, on -->On the downside, it is
+                    less robust. <!--As a main contribution of&#x00A0;<!-\- Eingriff!!! -\-><q>Frame-level audio segmentation</q>, --> 
+                    As a main contribution in our study, we showed how to stabilize the robustness of the
+                    frame-level matching approach while preserving most of its flexibility.<ref xml:id="praetzlich-d1e580" target="#praetzlich24" type="bibl"/>
+                    <!-- l. 420 -->
+                </p>
+                <p> In conclusion, our investigations showed that automated procedures may yield
+                    segmentation results with an accuracy of over 90&#8239;%, even for 
+                    versions with strong structural and acoustic
+                    variations. Still, for certain applications, segmentation errors in the order of
+                    5&#8239;% to 10&#8239;% may not be acceptable. Here, we could demonstrate that automated
+                    procedures may still prove useful in semiautomatic approaches that also involve
+                    some manual intervention. </p>
+                <figure xml:id="praetzlich-fig-feedback" place="here" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-feedback.png" width="1249px" height="418px"/>
+                    <head type="legend"/>
+                </figure>
+                <milestone rendition="#praetzlich-latex-vspace-1mm"/>
+            </div>
+            <div xml:id="praetzlich-div4" rend="numbered-heading">
+                <head>Music Synchronization</head>
+                <!--  l. 443 -->
+                <p> A central task in the FreiDi project was to link the different information
+                    sources such as a given musical score and the many available audio recordings by
+                    developing and adapting synchronization techniques. Generally speaking, the goal
+                    of music synchronization is to identify and establish links between semantically
+                    corresponding events that occur in different versions and representations.<note xml:id="praetzlich-d1e605">Cf. 
+                        <ref xml:id="praetzlich-d1e607" target="#praetzlich2" type="bibl"/>; <ref xml:id="praetzlich-d1e609" target="#praetzlich5" type="bibl"/>; 
+                        <ref xml:id="praetzlich-d1e611" target="#praetzlich6" type="bibl"/>; <ref xml:id="praetzlich-d1e613" target="#praetzlich9" type="bibl"/>; <ref xml:id="praetzlich-d1e615" target="#praetzlich10" type="bibl"/></note> There are many different synchronization scenarios
+                    possible depending on the type and nature of the different data sources. For
+                    example, in the FreiDi project, there are different versions of the musical
+                    score and the libretto (both available as scans and symbolic encodings), as well
+                    as a multitude of audio recordings. In <hi rend="italic">SheetMusic–Audio
+                        synchronization</hi>, the task is to link regions of a scanned image (given
+                    in pixel coordinates) to semantically corresponding time positions within an
+                    audio recording (specified on a physical time axis given in seconds). In <hi rend="italic">SymbolicScore–Audio</hi>
+                    <hi rend="italic">synchronization</hi>, the goal is to link time positions in a
+                    symbolic score representation (specified on a musical time axis given in
+                    measures) with corresponding time positions of an audio recording (see
+                    Figure&#x00A0;<ref xml:id="praetzlich-d1e626" target="#praetzlich-fig04" type="crossref" rend="no"/>). 
+                    Similarly, in <hi rend="italic">Audio–Audio synchronization</hi>, the
+                    goal is to time align two different audio recordings of a piece of music.
+                    <!-- l. 464 -->
+                </p>
+                <p> Two versions of the same piece of music can be rather different. For example,
+                    directly comparing a representation of the musical score (that may be given as
+                    an XML file) with an audio recording (whose waveform is a sequence of numbers
+                    that encode air pressure changes) is hardly possible. In basically all
+                    synchronization scenarios, one first needs to transform the given versions into
+                    suitable mid-level feature representations that facilitate a direct comparison.
+                    The symbolic score, for example, is first transformed into a piano-roll like
+                    representation only retaining the notes’ start times, durations, and pitches.
+                    Subsequently, all occurring pitches are further reduced to the twelve pitch
+                    classes (by ignoring octave information). As a result, one
+                    obtains a sequence of so-called <hi rend="italic">pitch class profiles
+                    </hi>(often also called <hi rend="italic">chroma features</hi>), indicating
+                    which pitch classes are active at a given point in time. Such features are well
+                    suited to characterize the melodic and harmonic progression of music. Similarly,
+                    an audio recording can be transformed into a sequence of chroma features by
+                    first transforming it into a time-frequency representation. From this
+                    representation, a chroma representation can be derived by grouping frequencies
+                    that belong to the same pitch class<!-- Eingriff!!! -->.<note xml:id="praetzlich-d1e645">For details see <ref xml:id="praetzlich-d1e647" target="#praetzlich7" type="bibl"/>; <ref xml:id="praetzlich-d1e649" target="#praetzlich17" type="bibl"/></note> 
+                    After transforming
+                    both, the score and audio version, into chroma-based representations, the two
+                    resulting sequences can be directly compared using standard alignment
+                    techniques.<ref xml:id="praetzlich-d1e651" target="#praetzlich17" type="bibl"/> 
+                    In the same
+                    fashion, one may also align two audio recordings of the same piece of music
+                    (<hi rend="italic">Audio-Audio synchronization</hi>). Note that this is by far not trivial, since
+                    different music recordings may vary significantly with regard to tempo, tuning,
+                    dynamics, or instrumentation. <!-- l. 497 -->
+                </p>
+                <figure xml:id="praetzlich-fig04" rendition="#praetzlich-latex-width07">
+                    <graphic url="figures/praetzlich-fig04.pdf" width="720px" height="488px"/>
+                    <head type="legend">Measure-wise alignment between a sheet music representation and
+                        an audio recording. The links are indicated by the bidirectional red arrows</head>
+                </figure>
+                <!-- l. 505 -->
+                <!--  l. 508 -->
+                <p> Having established linking structures between musical score and audio
+                    versions, one can listen to an audio recording while having the current position
+                    in the musical score highlighted.<note xml:id="praetzlich-d1e671">A demonstration of such an interface can be found at <ptr target="http://freischuetz-digital.de/demos/syncPlayer/test/syncPlayer.xhtml"/>.</note> 
+                    Also, it is possible to use the score as an aid to navigate within an
+                    audio version and vice versa. Furthermore, one can use the alignment to
+                    seamlessly switch between different recordings, thus facilitating performance comparisons. <!--making it easier to compare
+                    different performances.--> <!-- l. 514 -->
+                </p>
+                <pb/>
+                <p> One particular challenge in the FreiDi project are structural variations as
+                    discussed in Section&#x00A0;<ref xml:id="praetzlich-d1e681" target="#praetzlich-div3" type="crossref" rend="no"/>. In the presence of such variations, the synchronization task may not
+                    even be well-defined. Our idea for synchronizing the different versions of <title ref="#praetzlich-work001">Der
+                        Freischütz</title> was to first use the segmentation techniques from Section&#x00A0;<ref xml:id="praetzlich-d1e686" target="#praetzlich-div3" type="crossref" rend="no"/> 
+                    in order to identify semantically corresponding parts between the
+                    versions to be aligned. This reduces the synchronization problem into smaller
+                    subproblems, as only the semantically corresponding parts are synchronized in
+                    the subsequent step (instead of the whole opera recordings). Furthermore, since
+                    these parts usually have a duration of less then ten minutes, the
+                    synchronization procedure becomes computationally feasible even when being
+                    computed at a high temporal resolution. <!-- l. 529 -->
+                </p>
+                <p> In the case that a reliable prior segmentation is not available, one has to find
+                    strategies to compute the alignment even for entire recordings. For example, to
+                    synchronize two complete <title ref="#praetzlich-work001">Freischütz</title> recordings, one has to deal with roughly
+                    five hours of audio material, leading to computational challenges with regard to
+                    memory requirements and running time. As one technical contribution within the
+                    FreiDi project, we extended an existing multiscale alignment technique that
+                    uses an alignment on a coarse resolution to constrain an alignment on a finer
+                    grained resolution.<note xml:id="praetzlich-d1e693"><ref xml:id="praetzlich-d1e694" target="#praetzlich19" type="bibl"/>; <ref xml:id="praetzlich-d1e696" target="#praetzlich27" type="bibl"/></note> 
+                    In our modified approach, we proceed in a
+                    block-by-block fashion, where an additional block size parameter is introduced
+                    to explicitly control the memory requirements. In our experiments, we found that
+                    a maximum block size of about eight megabytes is sufficient to yield the same
+                    alignment result as a synchronization algorithm without these restrictions.
+                    Similar to previously introduced multiscale alignment strategies, our novel
+                    procedure drastically reduces the memory requirements and runtimes. In contrast
+                    to the previous approach,<ref xml:id="praetzlich-d1e698" target="#praetzlich19" type="bibl"/> our
+                    block-by-block processing strategy allows for an explicit control over the
+                    required memory while being easy to implement. Furthermore, the block-by-block
+                    processing allows for a parallel implementation of the procedure. </p>
+                <!--  l. 556 -->
+                <figure xml:id="praetzlich-fig-formatConfusion" place="here" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-formatConfusion.png" width="1250px" height="413px"/>
+                    <head type="legend"/>
+                </figure>
+                <!--  l. 564 -->
+                <p> From a practical perspective, one challenge in the FreiDi project was the
+                    handling of the many different formats used to encode symbolic music
+                    representations. In view of the alignment task, as mentioned above, we needed to
+                    convert the score representation into a piano-roll-like representation which can
+                    easily be derived from a MIDI file. In the project, our partners started with an
+                    encoding of the score representation using the commercial music notation
+                    software <hi rend="italic">Finale</hi>. The proprietary file format was then exported into MusicXML,
+                    which is a more universal format for storing music files and sharing them
+                    between different music notation applications. To account for the needs of
+                    critical music editions, our project partners further converted the score files
+                    into the MEI format which was also chosen to exchange score data within the
+                    project. Being a rather new format, only a small number of tools were available
+                    for generating, editing, and processing MEI documents. Governed by the limited
+                    availability of conversion tools, we exported the MEI files into a JSON
+                    representation, which could then be converted into a MIDI representation. Only
+                    at the end of the project, we realized that the MIDI export could have been
+                    directly obtained by conversion from the original Finale files. From this
+                    <q>detour</q> we have learned the lesson that there is no format that serves equally
+                    well for all purposes. Moreover, the decision for a common file format should be
+                    made under careful consideration of the availability and maturity of editing and
+                    processing tools. <!-- l. 589 -->
+                </p>
+                <p> Even though such experiences are sometimes frustrating, we are convinced that
+                    the exploration of novel formats as well as the adaption and development of
+                    suitable tools has been one major scientific contribution of the FreiDi
+                    project. </p>
+            </div>
+            <div xml:id="praetzlich-div5" rend="numbered-heading">
+                <head>Dialogue and Singing Voice Detection </head>
+                <!--  l. 602 -->
+                <!-- l. 616 -->
+                <!--  l. 619 -->
+                <p> As explained in Section&#x00A0;<ref xml:id="praetzlich-d1e742" target="#praetzlich-div2" type="crossref" rend="no"/>, the opera <title ref="#praetzlich-work001">Der Freischütz</title> consists of musical numbers that are
+                    interspersed with dialogues. These spoken dialogues constitute an important part
+                    of the opera as they convey the story line. In view of the segmentation and
+                    synchronization tasks, knowing the dialogue sections of an opera’s recording are
+                    important cues. This is illustrated by Figure&#x00A0;<ref xml:id="praetzlich-d1e747" target="#praetzlich-fig05" type="crossref" rend="no"/>, which shows various representations of the song <q>Hier im ird’schen
+                        Jammerthal</q> (No.&#8239;4). This song consists of an intro (only orchestra) and three
+                    verses with different lyrics, but with the same underlying music (notated as
+                    repetitions). After each verse, there is a dialogue section. While it is trivial
+                    to identify the dialogue sections and the musical structure in a sheet music
+                    representation of the song (Figure&#x00A0;<ref xml:id="praetzlich-d1e752" target="#praetzlich-fig05" type="crossref" rend="no"/>a), this becomes a much harder problem when considering audio recordings
+                    of a performance. While the <name ref="#praetzlich-pers009">Kleiber</name> recording (Figure&#x00A0;<ref xml:id="praetzlich-d1e758" target="#praetzlich-fig05" type="crossref" rend="no"/>b) follows the structure as specified in the score, there are omissions in
+                    the <name ref="#praetzlich-pers002">Ackermann</name> recording (Figure&#x00A0;<ref xml:id="praetzlich-d1e763" target="#praetzlich-fig05" type="crossref" rend="no"/>c). Knowing the dialogue sections, these structural differences between
+                    the two recordings can be understood immediately. <!-- l. 640 -->
+                </p>
+                <figure xml:id="praetzlich-fig05" rendition="#praetzlich-latex-width10">
+                    <graphic url="figures/praetzlich-fig05.pdf" width="701px" height="368px"/>
+                    <head type="legend">Different representations of the song <q>Hier im ird’schen
+                        Jammerthal</q> (No.&#8239;4) of <title ref="#praetzlich-work001">Der Freischütz</title>. <hi rend="bold">(a)</hi>&#x00A0;Score
+                        representation. In this song, after an intro (red), the repeated verses (yellow)
+                        are interleaved with spoken dialogues (blue). According to the score, there are
+                        three verses. <hi rend="bold">(b)</hi>&#x00A0;Waveform of a recorded performance
+                        conducted by <name ref="#praetzlich-pers009">Carlos Kleiber</name>. The performance follows the structure specified by
+                        the above score. <hi rend="bold">(c)</hi>&#x00A0;Waveform of a recorded performance
+                        conducted by <name ref="#praetzlich-pers002">Otto Ackermann</name>. In this performance, the structure deviates from
+                        the score by omitting the second dialogue and the third verse as well as by
+                        drastically shortening the final dialogue</head>
+                </figure>
+                <p> In audio signal processing, the task of discriminating between speech and music
+                    signals is a well-studied problem.<note xml:id="praetzlich-d1e801">See <ref xml:id="praetzlich-d1e803" target="#praetzlich28" type="bibl"/>; <ref xml:id="praetzlich-d1e805" target="#praetzlich30" type="bibl"/></note> 
+                    Most procedures for
+                    speech/music discrimination use machine learning techniques that automatically
+                    learn a model from example inputs (i.&#8239;e., audio material labeled as speech and
+                    audio material labeled as music) in order to make data-driven predictions or
+                    decisions for unknown audio material.<ref xml:id="praetzlich-d1e807" target="#praetzlich1" type="bibl"/> 
+                    The task of speech/music discrimination is an important step
+                    for automated speech recognition and general multimedia applications. Within the
+                    FreiDi project, we  applied and adapted existing speech/music
+                    classification approaches to support our segmentation (Section&#x00A0;<ref xml:id="praetzlich-d1e809" target="#praetzlich-div3" type="crossref" rend="no"/>) and synchronization approaches (Section&#x00A0;<ref xml:id="praetzlich-d1e811" target="#praetzlich-div4" type="crossref" rend="no"/>). 
+                    Within our opera scenario, it is beneficial to also consider additional
+                    classes that correspond to applause and passages of silence. Such extensions
+                    have also been discussed extensively in the literature.<ref xml:id="praetzlich-d1e813" target="#praetzlich21" type="bibl"/> <!-- l. 658 -->
+                </p>
+                <!-- l. 673 -->
+                <!--  l. 676 -->
+                <p> A classification task related to speech/music discrimination is referred to <hi rend="italic">singing voice detection</hi>, where the objective is to
+                    automatically segment a given music recording into vocal (where one or more
+                    singers are active) and non-vocal (only accompaniment or silence) sections.<note xml:id="praetzlich-d1e827"><ref xml:id="praetzlich-d1e828" target="#praetzlich13" type="bibl"/>; <ref xml:id="praetzlich-d1e830" target="#praetzlich16" type="bibl"/>; <ref xml:id="praetzlich-d1e832" target="#praetzlich25" type="bibl"/></note> 
+                    Due to the huge variety of singing voice
+                    characteristics as well as the simultaneous presence of other pitched musical
+                    instruments in the accompaniment, singing voice detection is generally
+                    considered a much harder problem than speech/music discrimination. For example,
+                    the singing voice may reveal complex temporal-spectral patterns, e.&#8239;g., as a
+                    result of vibrato (frequency and amplitude modulations). Also, singing often
+                    exhibits a high dynamic range such as soft passages in a lullaby sung in
+                    pianissimo or dramatic passages sung by some heroic tenor. Furthermore, many
+                    other instruments with similar acoustic characteristics may interfere with the
+                    singing voice. This happens especially when the melody lines played by
+                    orchestral instruments are similar to the ones of the singing voice.
+                    <!-- l. 697 -->
+                </p>
+                <p> Technically similar to speech/music discrimination, most approaches for singing
+                    voice detection build upon extracting a set of suitable audio features and
+                    subsequently applying machine learning in the classification stage.<note xml:id="praetzlich-d1e839">See <ref xml:id="praetzlich-d1e841" target="#praetzlich13" type="bibl"/>; <ref xml:id="praetzlich-d1e843" target="#praetzlich16" type="bibl"/>; <ref xml:id="praetzlich-d1e845" target="#praetzlich25" type="bibl"/></note> 
+                    These approaches need extensive training
+                    material that reflects the acoustic variance of the classes to be learned. In
+                    particular, we used a state-of-the-art singing voice detection system that was
+                    originally introduced by <!-- Eingriff -->Lehner, Widmer and Sonnleitner.<ref xml:id="praetzlich-d1e849" target="#praetzlich13" type="bibl"/> 
+                    This approach employs a classification scheme known as random forests to derive a
+                    time-dependent decision function (see Figure&#x00A0;<ref xml:id="praetzlich-d1e851" target="#praetzlich-fig06" type="crossref" rend="no"/>c). The idea is that the decision function should assume large values
+                    close to one for time points with singing voice (vocal class) and small values
+                    close to zero otherwise (non-vocal class). In order to binarize the decision
+                    function, it is compared to a suitable threshold: Only time instances where the
+                    decision function exceeds the threshold are classified as vocal. <!-- l. 719 -->
+                </p>
+                <figure xml:id="praetzlich-fig06" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-fig06.pdf" width="1246px" height="418px"/>
+                    <head type="legend">Illustration of the singing voice detection task. <hi rend="bold">(a)</hi>&#x00A0; Score representations of measures&#x00A0;7 to 12 of the
+                        song <q>Wie nahte mir der Schlummer</q> (No.&#8239;8) of <title ref="#praetzlich-work001">Der Freischütz</title>. The singing
+                        voice sections are highlighted in light red. <hi rend="bold">(b)</hi>&#x00A0;Waveform of a recorded performance. <hi rend="bold">(c)</hi>&#x00A0;Decision function (black curve) of an automated classifier. The
+                        function should assume large values (close to one) for time points with singing
+                        voice and small values (close to zero) otherwise. The final decision is derived
+                        from the curve by using a suitable threshold (dashed horizontal line). The
+                        bottom of the figures shows the classification result of the automated procedure
+                        (black) and the manually annotated segments (light red)</head>
+                </figure>
+                <p> In particular for popular music, annotated datasets for training and evaluation
+                    of singing voice detection algorithms are publicly available.<ref xml:id="praetzlich-d1e882" target="#praetzlich25" type="bibl"/> 
+                    In the context of the FreiDi project, we looked at the singing voice detection problem for the case of
+                    classical opera recordings. Not surprising, first experiments showed that a
+                    straightforward application of previous approaches (trained on popular music)
+                    typically lead to poor classification results when directly applied to classical
+                    music.<!-- Eingriff --><note xml:id="praetzlich-d1e885">See <ref xml:id="praetzlich-d1e887" target="#praetzlich13" type="bibl"/> and our proposed modifications in <ref xml:id="praetzlich-d1e889" target="#praetzlich3" type="bibl"/>; <ref xml:id="praetzlich-d1e891" target="#praetzlich4" type="bibl"/></note> 
+                    <!--In <hi rend="cite">[<hi rend="bold">?</hi>, <hi rend="bold"
+                        >?</hi>]</hi>, we proposed various modifications of the system described
+                        in <hi rend="cite">[<hi rend="bold">?</hi>]</hi>.--> 
+                    
+                    As one contribution, we
+                    proposed novel audio features that extend a feature set previously used for
+                    popular music recordings. Then, we described a bootstrapping procedure that
+                    helps to improve the results in the case that the training data does not match
+                    the unknown audio material to be classified. The main idea is to start with a 
+                    classifier based on some initial training data set to
+                    compute a first decision function. Then, the audio frames that correspond to the
+                    largest values of this function are used to re-train the classifier. Our
+                    experiments showed that this adaptive classifier yields significant improvements
+                    for the singing voice detection task. As a final contribution, we showed that a
+                    cross-version approach, where one exploits the availability of different
+                    recordings of the same piece of music, can help to stabilize the detection
+                    results even further.
+                </p>
+            </div>
+            <div xml:id="praetzlich-div6" rend="numbered-heading">
+                <head>Processing of Multitrack Recordings</head>
+                <!--  l. 754 -->
+                <p> In the FreiDi  project, a professional recording of No.&#8239;6 (duet), No.&#8239;8
+                    (aria), No.&#8239;9 (trio) of <title ref="#praetzlich-work001">Der Freischütz</title> was produced in cooperation with
+                    Tonmeister students from the Erich-Thienhaus-Institute (ETI) in Detmold. The
+                    main purpose for the recording sessions was to produce royalty free audio
+                    material that can be used for demonstration and testing purposes. Furthermore,
+                    it was a great opportunity for us to learn about recording techniques and
+                    production processes. The generated audio material contains multitrack
+                    recordings of the raw microphone signals (one audio track for each microphone)
+                    as well as stereo mixes of specific instrument sections and a professionally
+                    produced stereo mix of the whole orchestra. Additionally, several variants of
+                    the musical score that are relevant for the scholarly edition were recorded to
+                    illustrate how these variants sound in an actual performance.<note xml:id="praetzlich-d1e909">The recordings are available for download at 
+                        <ptr target="https://www.audiolabs-erlangen.de/resources/MIR/FreiDi/MultitrackDataset/"/>. 
+                        For additional audio examples and a further discussion of the production, we refer to <ptr target="http://freischuetz-digital.de/audio-recording-2013.html"/> 
+                        and <ptr target="http://freischuetz-digital.de/audio-production-2014.html"/>.
+                        See also <ref xml:id="praetzlich-d1e917" target="#praetzlich11" type="bibl"/>.
+                    </note>
+                </p>
+                <!-- l. 787 -->
+                <!--  l. 789 -->
+                <figure xml:id="praetzlich-fig07">
+                    <graphic url="figures/praetzlich-fig07.pdf" width="720px" height="1205px"/>
+                    <head type="legend">Recording setup used in the FreiDi project. <hi rend="bold">(a)</hi> Seating plan (German/European style).
+                        <lb/><hi rend="bold">(b)</hi> Setup of the 25&#x00A0;microphones used in the recordings,
+                        involving two main microphones for recording a stereo image and at least one
+                        spot microphone for each instrument section. For each string section, a spot
+                        microphone at the front (Nf) and at the rear (Nr) position was used.
+                        Additionally, clip microphones (C) were used for principal musicians of the
+                        string sections</head>
+                </figure>
+                <p> Orchestra recordings typically involve a huge number of musicians and different
+                    instruments. Figure&#x00A0;<ref xml:id="praetzlich-d1e942" target="#praetzlich-fig07" type="crossref" rend="no"/>a shows the orchestra’s seating plan, which indicates where each voice
+                    (instrument section or singer) was positioned in the room. The seating plan also
+                    reflects the number of musicians that were playing in each instrument section.
+                    Overall, 44&#x00A0;musicians were involved in the recording session. For large-scale
+                    ensembles such as orchestras, interaction between the musicians is very
+                    important. For example, each instrument section has a principal musician who
+                    leads the other musicians of the section. To make this interaction possible, the
+                    different voices are usually recorded in the same room simultaneously.
+                    Figure&#x00A0;<ref xml:id="praetzlich-d1e944" target="#praetzlich-fig07" type="crossref" rend="no"/>b shows the microphones used for the different voices and their relative
+                    position in the room.<note xml:id="praetzlich-d1e946">For No.&#8239;6 and No.&#8239;8, 23&#x00A0;microphones were used to record 11&#x00A0;voices. 
+                        For No.&#8239;9, 24&#x00A0;microphones were used to record 12&#x00A0;voices.</note> 
+                    Two main microphones were used for recording a stereo image of the sound
+                    in the room. For capturing the sound of individual voices, at least one
+                    additional spot microphone was positioned close to each voice. For some of the
+                    instrument sections, additional spot microphones were used, see Figure&#x00A0;<ref xml:id="praetzlich-d1e949" target="#praetzlich-fig07" type="crossref" rend="no"/>b. The first violin section, for example, was recorded with three
+                    microphones: one at the front position, one at the rear position, and a clip
+                    microphone attached to the principal musician’s instrument. The audio tracks
+                    recorded by the spot microphones allow a sound engineer to balance out the
+                    volume of the different voices in the mixing process. Usually, a voice is
+                    captured by its spot microphones before it arrives at the main microphones which
+                    are positioned further away. Therefore, it is important to compensate for
+                    different runtimes by delaying the spot microphones such that their signals are
+                    synchronized to the main microphones. This avoids unwanted reverberation or
+                    artifacts (caused by phase interference) in the mixing process. Furthermore,
+                    individual equalizers are applied to each of the microphones to suppress
+                    frequencies that are outside of the range of their associated voice.
+                    <!-- l. 819 -->
+                </p>
+                <p> In such a recording setup, a piece of music is usually recorded in several
+                    takes. A take refers to a preliminary recording of a section, that typically
+                    covers a few musical measures up to the whole piece. An audio engineer then
+                    merges the best combination of takes for the final production. This is done by
+                    fading from one take into another at suitable positions in the audio tracks. The
+                    merged takes are then used to produce a stereo 
+                    mixture.<note xml:id="praetzlich-d1e956">After merging the different takes, the resulting raw audio material as well as the versions with delay compensation and equalizers were exported for each microphone. In the remaining mixing process, only the versions with delay compensation and equalizers were used.</note>
+                    In our case, additional stereo mixes that emphasize different aspects of
+                    the piece of music were produced. First, a stereo mixture including all voices
+                    and microphones was produced. This is the kind of mixture one usually finds in
+                    professionally produced CD recordings. For demonstration purposes, additional
+                    stereo mixtures were produced for each individual voice (see Figure&#x00A0;<ref xml:id="praetzlich-d1e959" target="#praetzlich-fig07" type="crossref" rend="no"/>a), as well as for instrument groups including the woodwinds (bassoon,
+                    flute, clarinet, oboe), the strings (violin&#x00A0;1, violin&#x00A0;2, viola, cello, double
+                    bass), and the singers. <!-- l. 832 -->
+                </p>
+                <p> In a typical professional setup, the recording room is equipped with sound
+                    absorbing materials and acoustic shields to isolate all the voices as much as
+                    possible. However, complete acoustic isolation between the voices is often not
+                    possible. In practice and as depicted in Figure&#x00A0;<ref xml:id="praetzlich-d1e966" target="#praetzlich-fig08" type="crossref" rend="no"/>a, each microphone not only records sound from its dedicated voice, but
+                    also from all others in the room. This results in recordings that do not feature
+                    isolated signals, but rather mixtures of a predominant voice with all others
+                    being audible through what is referred to as <hi rend="italic">interference</hi>, <hi rend="italic">bleeding</hi>, <hi rend="italic">crosstalk</hi>, or <hi rend="italic">leakage</hi>. Such interferences are
+                    annoying in practice for several reasons. First, interferences greatly reduce
+                    the mixing possibilities for a sound engineer, and second, they prevent the
+                    removal or isolation of a voice from the recording, which may be desirable,
+                    e.&#8239;g.&#x00A0;for pedagogical reasons or <q>music minus one</q> applications (mixtures where a
+                    particular voice has been removed). An important question thus arises: is it
+                    possible to reduce or remove these interferences to get clean, isolated voice
+                    signals? Interference Reduction is closely related to the problem of audio
+                    source separation, in which the objective is to separate a sound mixture into
+                    its constituent components.<ref xml:id="praetzlich-d1e984" target="#praetzlich31" type="bibl"/>
+                    Audio source separation in general is a very difficult problem where performance
+                    is highly dependent on the signals considered. However, recent studies
+                    demonstrate that separation methods can be very effective if prior information
+                    about the signals is available.<note xml:id="praetzlich-d1e986">See e.&#8239;g.&#x00A0;<ref xml:id="praetzlich-d1e988" target="#praetzlich15" type="bibl"/> and references therein). </note></p>
+                <figure xml:id="praetzlich-fig08" rendition="#praetzlich-latex-width08">
+                    <graphic url="figures/praetzlich-fig08.pdf" width="720px" height="540px"/>
+                    <head type="legend"><hi rend="bold">(a)</hi> Illustration of interference problem in a recording
+                        with three voices (violin section, bass, singing voice). A solid line (red)
+                        indicates that a voice is associated to a microphone, a dashed line (gray)
+                        indicates interference from another voice into a microphone. Each voice is
+                        associated with at least one of the microphone channels.
+                        <hi rend="bold">(b)</hi> Interference reduced version of the singing voice signal</head>
+                </figure>
+                <!-- l. 856 -->
+                <!--  l. 859 -->
+                <!--<pb/>-->
+                <p><!--In&#x00A0;<!-\- Eingriff -\->our paper <q>Kernel additive modeling for interference reduction in multi-channel music recordings</q>,--> 
+                    We recently presented a method that
+                    aims to reduce inferences in multitrack recordings to recover only the isolated
+                    voices.<ref xml:id="praetzlich-d1e1015" target="#praetzlich22" type="bibl"/> 
+                    In our approach, similar to Kokkinis, Reiss, and Mourjopoulos&#x2019; approach,<ref xml:id="praetzlich-d1e1019" target="#praetzlich12" type="bibl"/> 
+                    we exploit the fact that each voice can be assumed to be
+                    predominant in its dedicated microphones. Our method iteratively estimates both
+                    the time-frequency content of each voice and the corresponding strength in each
+                    microphone signal. With this information, we build a filter that strongly
+                    reduces the interferences. Figure&#x00A0;<ref xml:id="praetzlich-d1e1021" target="#praetzlich-fig08" type="crossref" rend="no"/>b shows an example of an interference reduced version of the singing voice
+                    signal from Figure&#x00A0;<ref xml:id="praetzlich-d1e1024" target="#praetzlich-fig08" type="crossref" rend="no"/>a. Especially in the middle of the corresponding waveforms, it is easy to
+                    spot differences. In this region, <!--<pb/>-->there was no singing voice in the recording.
+                    Hence, the recorded signal in this region originated entirely from interference
+                    of other instrumental voices. <!-- l. 868 -->
+                </p>
+                <p> In the FreiDi project, we processed the multitrack recordings of the opera
+                    to reduce the interferences in the spot microphones.<note xml:id="praetzlich-d1e1031">Sound examples can be found at <ptr target="http://www.audiolabs-erlangen.de/resources/MIR/2015-ICASSP-KAMIR/"/>.</note> 
+                    Although the effectiveness of our method has been shown in listening
+                    tests, such processings still go along with artifacts that are audible when
+                    listening to each interference reduced microphone signal separately.
+                    Nevertheless, when using the signals in a mixture, these artifacts are usually
+                    not audible as long as not too many voices are drastically lowered or raised in
+                    volume. This makes the method applicable in tools like an instrument equalizer
+                    where the volume of each voice can be changed separately without affecting the
+                    volume of other voices. For example, when studying a specific melody line of the
+                    violins and the flutes, an instrument equalizer enables a user to raise the
+                    volume for these two voices and to lower it for the others. </p>
+            </div>
+            <div xml:id="praetzlich-div7" rend="numbered-heading">
+                <head>Conclusions</head>
+                <!--  l. 880 -->
+                <figure xml:id="praetzlich-fig09"  rendition="#praetzlich-latex-width065">
+                    <graphic url="figures/praetzlich-fig09.jpg" width="805px" height="537px"/>
+                    <head type="legend"><hi rend="italic">Freischütz Digital</hi> kick-off meeting in 2012. In the back row:
+                        <name ref="#praetzlich-pers014">Solveig Schreiter</name>, <name ref="#praetzlich-pers018">Raffaele Viglianti</name>, <name ref="#praetzlich-pers015">Janette Seuffert</name>, <name ref="#praetzlich-pers017">Joachim Veit</name>, 
+                        <name ref="#praetzlich-pers013">Daniel Röwenstrunk</name>, <name ref="#praetzlich-pers005">Johannes Kepper</name>; in the front row: <name ref="#praetzlich-pers020">Benjamin W. Bohl</name>, <name ref="#praetzlich-pers011">Meinard Müller</name>, <name ref="#praetzlich-pers012">Thomas Prätzlich</name>
+                        (left to right). Missing: <name ref="#praetzlich-pers004">Thomas Betzwieser</name>, <name ref="#praetzlich-pers016">Gerd Szwillus</name>. </head>
+                </figure>
+                <!--  l. 892 -->
+                <p> In this article, we provided a brief overview of our contributions to the
+                    FreiDi project, where we investigated how segmentation and synchronization
+                    techniques can be used for improving the access to the audio material. For
+                    example, automatically computed linking structures may significantly reduce the
+                    amount of manual work necessary when processing and comparing different data
+                    sources. Furthermore, we showed how automated methods may be useful for
+                    systematically revealing and understanding the inconsistencies and variations in
+                    the different music recordings. Complementary information sources (such as sheet
+                    music and audio recordings) may be exploited to tackle difficult audio
+                    processing tasks including singing voice detection and source separation. The
+                    multitrack data generated within the FreiDi project can be used as test-bed
+                    to study and evaluate such audio processing tasks. <!-- l. 907 -->
+                </p>
+                
+                <p> Again, we want to thank <name ref="#praetzlich-pers017">Joachim Veit</name> and the entire Freischütz team (see
+                    Figure&#x00A0;<ref xml:id="praetzlich-d1e1099" target="#praetzlich-fig09" type="crossref" rend="no"/>) for this very fruitful and exciting collaboration. 
+                    The FreiDi project has not only indicated how computer-based methods may support
+                    musicologists, but also opened up new perspectives of interdisciplinary research
+                    between computer scientists and musicologists. With the increase of computing
+                    power, the processing of huge audio databases comes within reach. We are
+                    convinced that this leads to new ways of computed-assisted research in
+                    musicology and the humanities. </p>
+                <!--  l. 916 -->
+                <figure xml:id="praetzlich-fig-collaboration" rendition="#praetzlich-latex-width07" place="here">
+                    <graphic url="figures/praetzlich-fig-collaboration.png" width="1298px" height="416px"/>
+                    <head type="legend"/>
+                </figure>
+            </div>
+
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="praetzlich1">Christopher M. Bishop, <title level="m">Pattern recognition and machine learning</title>, New York 2006</bibl>
+                    <bibl xml:id="praetzlich2">David Damm, Christian Fremerey, Verena Thomas, Michael Clausen, Frank Kurth and Meinard Müller, <title level="m">A digital library framework for heterogeneous music collections: from document acquisition to cross-modal interaction</title>, in: <title level="s">International Journal on Digital Libraries: Special Issue on Music Digital Libraries</title>, 12 (2012), p.&#8239;53–71</bibl> <!--?-->
+                    <bibl xml:id="praetzlich3">Christian Dittmar, Bernhard Lehner, Thomas Prätzlich, Meinard Müller and Gerhard Widmer, <title level="a">Cross-version singing voice detection in classical opera recordings</title>, in: <title level="s">Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)</title>, Malaga  2015, p.&#8239;618–624<bibl type="short">Dittmar et al., <title level="a">Cross-version singing voice detection</title></bibl></bibl> <!--Seitenangabe?-->
+                    <bibl xml:id="praetzlich4">Christian Dittmar, Thomas Prätzlich and Meinard Müller, <title level="a">Towards cross-version singing voice detection</title>, in: <title level="s">Proceedings of the Jahrestagung für Akustik (DAGA)</title>, Nuremberg 2015, p.&#8239;1503–1506<bibl type="short">Dittmar et al., <title level="a">Towards cross-version singing voice detection</title></bibl></bibl> <!--Seitenangabe?-->
+                    <bibl xml:id="praetzlich5">Sebastian Ewert, Meinard Müller and Peter Grosche, <title level="a">High resolution audio synchronization using chroma onset features</title>, in: <title level="s">Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>, Taipei 2009, p.&#8239;1869–1872</bibl>
+                    <bibl xml:id="praetzlich6">Hiromasa Fujihara and Masataka Goto, <title level="a">Lyrics-to-audio alignment and its application</title>, in: <ref xml:id="praetzlich-d1e1181" target="#praetzlich18" type="bibl"/>, p.&#8239;23–36</bibl>
+                    <bibl xml:id="praetzlich7">Emilia Gómez, <title level="m">Tonal Description of Music Audio Signals</title>. PhD thesis, UPF Barcelona 2006</bibl>
+                    <bibl xml:id="praetzlich8">Andrew Hankinson, Perry Roland and Ichiro Fujinaga, <title level="a">The music encoding initiative as a document-encoding framework</title>, in: <title level="s">Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)</title>, Miami 2011, p.&#8239;293–298</bibl>
+                    <bibl xml:id="praetzlich9">Ning Hu, Roger B. Dannenberg and George Tzanetakis, <title level="a">Polyphonic audio matching and alignment for music retrieval</title>, in: <title level="s">Proceedings of the IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)</title>, New Paltz 2003</bibl> <!--Seitenangabe?-->
+                    <bibl xml:id="praetzlich10">Cyril Joder, Slim Essid and Gaël Richard, <title level="a">A conditional random field framework for robust and scalable audio-to-score matching</title>, in: <title level="s">IEEE Transactions on Audio, Speech, and Language Processing</title>, 19 (2011), p.&#8239;2385–2397</bibl>
+                    <bibl xml:id="praetzlich11">Johannes Kepper, Solveig Schreiter and Joachim Veit, <title level="a">Freischütz analog oder digital – Editionsformen im Spannungsfeld von Wissenschaft und Praxis</title>, in: <title level="j">editio</title>&#x00A0;28 (2014), p.&#8239;127–150</bibl>
+                    <bibl xml:id="praetzlich12">Elias K. Kokkinis, Joshua D. Reiss and John Mourjopoulos, <title level="a">A Wiener filter approach to microphone leakage reduction in close-microphone applications</title>, in: <title level="s">IEEE Transactions on Audio, Speech and Language Processing</title>, 20 (2012), p.&#8239;767–779</bibl>
+                    <bibl xml:id="praetzlich13">Bernhard Lehner, Gerhard Widmer and Reinhard Sonnleitner, <title level="a">On the reduction of false positives in singing voice detection</title>, in: <title level="s">Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>, Florence 2014, p.&#8239;7480–7484<bibl type="short">Lehner et al., <title level="a">On the reduction of false positives</title></bibl></bibl>
+                    <bibl xml:id="praetzlich14">Cynthia C.&#8239;S. Liem, Meinard Müller, Douglas Eck, George Tzanetakis and Alan Hanjalic, <title level="a">The need for music information retrieval with user-centered and multimodal strategies</title>, in: <title level="s">Proceedings of the International ACM Workshop on Music Information Retrieval with User-centered and Multimodal Strategies (MIRUM)</title>, 2011, p.&#8239;1–6<bibl type="short">Liem et al., <title level="a">The need for music information retrieval</title></bibl></bibl>
+                    <bibl xml:id="praetzlich15">Antoine Liutkus, Jean-Louis Durrieu, Laurent Daudet and Gaël Richard, <title level="a">An overview of informed audio source separation</title>, in: <title level="s">Proceedings of the International Workshop on Image and Audio Analysis for Multimedia Interactive Services (WIAMIS)</title>, Paris 2013, p.&#8239;1–4</bibl>
+                    <bibl xml:id="praetzlich16">Matthias Mauch, Hiromasa Fujihara, Kazuyoshii Yoshii and Masataka Goto, <title level="a">Timbre and melody features for the recognition of vocal activity and instrumental solos in polyphonic music</title>, in: <title level="s">Proceedings of the International Conference on Music Information Retrieval (ISMIR)</title>, Miami 2011, p.&#8239;233–238<bibl type="short">Mauch et al., <title level="a">Timbre and melody features</title></bibl></bibl>
+                    <bibl xml:id="praetzlich17">Meinard Müller, <title level="m">Information Retrieval for Music and Motion</title>, Berlin  2007<bibl type="short">Müller, <title level="m">Information Retrieval for Music and Motion</title></bibl></bibl>
+                    <bibl xml:id="praetzlich18">Meinard Müller, Masataka Goto, and Markus Schedl (eds.), <title level="m">Multimodal Music Processing</title>, Dagstuhl 2012 (Dagstuhl Follow-Ups&#x00A0;3)<bibl type="short">Müller et al. (eds.), <title level="m">Multimodal Music Processing</title></bibl></bibl>
+                    <bibl xml:id="praetzlich19">Meinard Müller, Henning Mattes and Frank Kurth, <title level="a">An efficient multiscale approach to audio synchronization</title>, in: <title level="s">Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)</title>, Victoria 2006, p.&#8239;192–197<bibl type="short">Müller et al., <title level="a">An efficient multiscale approach to audio synchronization</title></bibl></bibl> <!--?-->
+                    <bibl xml:id="praetzlich20">Meinard Müller, Thomas Prätzlich, Benjamin Bohl and Joachim Veit, <title level="a">Freischütz Digital: a multimodal scenario for informed music processing</title>, in: <title level="s">Proceedings of the International Workshop on Image and Audio Analysis for Multimedia Interactive Services (WIAMIS)</title>, Paris 2013, p.&#8239;1–4</bibl> <!--?-->
+                    <bibl xml:id="praetzlich21">Yorgos Patsis and Werner Verhelst, <title level="a">A speech/music/silence/garbage/ classifier for searching and indexing broadcast news material</title>, in: <title level="s">International Conference on Database and Expert Systems Application (DEXA)</title>, Turin 2008, p.&#8239;585–589</bibl> <!--?-->
+                    <bibl xml:id="praetzlich22">Thomas Prätzlich, Rachel Bittner, Antoine Liutkus and Meinard Müller, <title level="a">Kernel additive modeling for interference reduction in multi-channel music recordings</title>, in: <title level="s">Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>, Brisbane 2015<bibl type="short">Prätzlich et al., <title level="a">Kernel additive modeling for interference reduction in multi-channel music recordings</title></bibl></bibl>
+                    <bibl xml:id="praetzlich23">Thomas Prätzlich and Meinard Müller, <title level="a">Freischütz Digital: a case study for reference-based audio segmentation of operas</title>, in: <title level="m">Proceedings of the International Conference on Music Information Retrieval (ISMIR)</title>, Curitiba 2013, p.&#8239;589–594<bibl type="short">Prätzlich/Müller, <title level="a">Freischütz Digital: a case study for reference-based audio segmentation of operas</title></bibl></bibl> <!--?-->
+                    <bibl xml:id="praetzlich24">Thomas Prätzlich and Meinard Müller, <title level="a">Frame-level audio segmentation for abridged musical works</title>, in: <title level="s">Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)</title>, Taipei  2014, 307–312<bibl type="short">Prätzlich/Müller, <title level="a">Frame-level audio segmentation for abridged musical works</title></bibl></bibl> 
+                    <bibl xml:id="praetzlich25">Mathieu Ramona, Gaël Richard and Bertrand David, <title level="a">Vocal detection in music with support vector machines</title>, in: <title level="s">Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</title>, Las Vegas 2008, p.&#8239;1885–1888<bibl type="short">Ramona et al., <title level="a">Vocal detection</title></bibl></bibl> <!--?-->
+                    <bibl xml:id="praetzlich26">Daniel Röwenstrunk, Thomas Prätzlich, Thomas Betzwieser, Meinard Müller, Gerd Szwillus and Joachim Veit, <title level="a">Das Gesamtkunstwerk Oper aus Datensicht – Aspekte des Umgangs mit einer heterogenen Datenlage im BMBF-Projekt <q>Freischütz Digital</q></title>, in: <title level="s">Datenbank-Spektrum</title>, 15 (2015), p.&#8239;65–72</bibl> <!--?-->
+                    <bibl xml:id="praetzlich27">S. Salvador and P. Chan, <title level="a">FastDTW: Toward accurate dynamic time warping in linear time and space</title>, in: <title level="s">Proceedings of the KDD Workshop on Mining Temporal and Sequential Data</title>, 2004, p.&#8239;70–80</bibl>
+                    <bibl xml:id="praetzlich28">John Saunders, <title level="a">Real-time discrimination of broadcast speech/music</title>, in: <title level="s">Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</title>, vol.&#8239;2, IEEE, 1996, p.&#8239;993–996</bibl> <!--?-->
+                    <bibl xml:id="praetzlich29">Solveig Schreiter, <title level="m">Friedrich Kind &amp; Carl Maria von Weber – Der Freischütz. Kritische Textbuch-Edition</title>, München 2007</bibl>
+                    <bibl xml:id="praetzlich30">Reinhard Sonnleitner, Bernhard Niedermayer, Gerhard Widmer and Jan Schlüter, <title level="a">A simple and effective spectral feature for speech detection in mixed audio signals</title>, in: <title level="s">Proceedings of the International Conference on Digital Audio Effects (DAFx)</title>, York, UK 2012</bibl>
+                    <bibl xml:id="praetzlich31">Emmanuel Vincent, Nancy Bertin, Rémi Gribonval and Frédéric Bimbot, <title level="a">From blind to guided audio source separation: How models and side information can improve the separation of sound</title>, in: <title level="s">IEEE Signal Processing Magazine</title>, 31 (2014), p.&#8239;107–115</bibl> <!--?-->
+                    <bibl xml:id="praetzlich32">John Warrack, <title level="m">Carl Maria von Weber</title>, London 1976</bibl> <!--?-->
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

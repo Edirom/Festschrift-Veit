@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Zwischen Berlin und Italien<note xml:id="heidlberger-ftn1" n="1">Dieser Text entstand für ein Symposium anlässlich der Produktion von Meyerbeers <hi rend="italic">Robert le Diable</hi> in Berlin im Jahr 2000. 
+               Der Charakter des einführenden Vortrags wurde für den Druck weitgehend beibehalten und durch musikalische Erläuterungen sowie neuere Forschungsliteratur ergänzt.</note></title>
+            <title type="sub">Anmerkungen zu Giacomo Meyerbeers Frühwerk</title>
+            <author>
+               <name><forename>Frank</forename> <surname>Heidlberger</surname></name>
+               <affiliation>studierte Musikwissenschaft, Philosophie und Deutsche Literaturgeschichte in Würzburg. Seine Dissertation zur Rezeption Carl Maria von Webers in Frankreich erschien 1994. 2001 wurde er Professor für Musiktheorie an der University of North Texas (USA). Dort wirkt er zur Zeit als Leiter der Abteilung für Musikwissenschaft, Musiktheorie und Ethnomusikologie. Er ist Herausgeber der Zeitschrift <hi rend="italic">Theoria. Historical Aspects of Music Theory</hi> und veröffentlichte Aufsätze zu Themen der Musikgeschichte und Musiktheorie des 18. bis 20.&#8239;Jahrhunderts. Seine Neuedition der Memoiren von Hector Berlioz in deutscher Übersetzung (Bärenreiter 2007) sowie seine Kritischen Editionen von Werken Webers (Schott 2011) und Mendelssohn Bartholdys (Henle 2015) sind Ergebnisse seiner langjährigen Beschäftigung mit der Musikgeschichte der ersten Hälfte des 19.&#8239;Jahrhunderts.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="heidlberger-pers010">
+                  <p>Meyerbeer, Giacomo</p>
+                  <p n="work" xml:id="heidlberger-work007"><hi rend="italic">Emma di Resburgo</hi></p>
+                  <p n="work" xml:id="heidlberger-work011"><hi rend="italic">Gli Amori di Teolinda</hi></p>
+                  <p n="work" xml:id="heidlberger-work013"><hi rend="italic">Gott und die Natur</hi></p>
+                  <p n="work" xml:id="heidlberger-work014"><hi rend="italic">Il crociato in Egitto</hi></p>
+                  <p n="work" xml:id="heidlberger-work016"><hi rend="italic">Jephtas Gelübde</hi></p>
+                  <p n="work" xml:id="heidlberger-work018"><hi rend="italic">Les Huguenots</hi></p>
+                  <p n="work" xml:id="heidlberger-work019"><hi rend="italic">L’Africaine</hi></p>
+                  <p n="work" xml:id="heidlberger-work020"><hi rend="italic">L’Esule di Granata</hi></p>
+                  <p n="work" xml:id="heidlberger-work021"><hi rend="italic">Margherita d’Anjou</hi></p>
+                  <p n="work" xml:id="heidlberger-work026"><hi rend="italic">Melodramma eroico</hi></p>
+                  <p n="work" xml:id="heidlberger-work029"><hi rend="italic">Le Ranz des vaches d’Appenzell</hi></p>
+                  <p n="work" xml:id="heidlberger-work030"><hi rend="italic">Robert le diable</hi></p>
+                  <p n="work" xml:id="heidlberger-work033"><hi rend="italic">Romilda e Costanza</hi></p>
+                  <p n="work" xml:id="heidlberger-work036"><hi rend="italic">Semiramide riconosciuta</hi></p>
+                  <p n="work" xml:id="heidlberger-work039"><hi rend="italic">Wirth und Gast oder Aus Scherz Ernst</hi></p>
+               </person>
+               <person xml:id="heidlberger-pers011">
+                  <p>Vogler, Georg Joseph</p>
+                  <p n="work" xml:id="heidlberger-work002"><hi rend="italic">Castor und Pollux</hi></p>
+                  <p n="work" xml:id="heidlberger-work034"><hi rend="italic">Samori</hi></p>
+               </person>
+               <person xml:id="heidlberger-pers012">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="heidlberger-work009"><hi rend="italic">Euryanthe</hi>, WeV C.9</p>
+                  <p n="work" xml:id="heidlberger-work010"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+                  <p n="work" xml:id="heidlberger-work027"><hi rend="italic">Oberon</hi>, WeV C.10</p>
+                  <p n="work" xml:id="heidlberger-work028"><hi rend="italic">Preciosa</hi>, WeV F.22</p>
+               </person>
+               <person xml:id="heidlberger-pers013">
+                  <p>Veit, Joachim</p>
+               </person>
+               <person xml:id="heidlberger-pers014">
+                  <p>Döhring, Sieghart</p>
+               </person>
+               <person xml:id="heidlberger-pers015">
+                  <p>Heidlberger, Frank</p>
+               </person>
+               <person xml:id="heidlberger-pers016">
+                  <p>Rossini, Gioacchino</p>
+               </person>
+               <person xml:id="heidlberger-pers017">
+                  <p>Gluck, Christoph Willibald</p>
+               </person>
+               <person xml:id="heidlberger-pers018">
+                  <p>Weber, Gottfried</p>
+               </person>
+               <person xml:id="heidlberger-pers019">
+                  <p>Morlacchi, Francesco</p>
+               </person>
+               <person xml:id="heidlberger-pers020">
+                  <p>Sauvage, Thomas</p>
+               </person>
+               <person xml:id="heidlberger-pers021">
+                  <p>Weber, Bernhard Anselm</p>
+                  <p n="work" xml:id="heidlberger-work005"><hi rend="italic">Deodata</hi></p>
+                  <p n="work" xml:id="heidlberger-work037"><hi rend="italic">Sulmalle</hi></p>
+               </person>
+               <person xml:id="heidlberger-pers022">
+                  <p>Zelter, Carl Friedrich</p>
+               </person>
+               <person xml:id="heidlberger-pers023">
+                  <p>Lauska, Franz</p>
+               </person>
+               <person xml:id="heidlberger-pers024">
+                  <p>Gänsbacher, Johann Baptist</p>
+               </person>
+               <person xml:id="heidlberger-pers025">
+                  <p>Werner, Zacharias</p>
+               </person>
+               <person xml:id="heidlberger-pers026">
+                  <p>Baermann, Heinrich</p>
+               </person>
+               <person xml:id="heidlberger-pers027">
+                  <p>Harlas, Helena</p>
+               </person>
+               <person xml:id="heidlberger-pers028">
+                  <p>Seyfried, Joseph von</p>
+               </person>
+               <person xml:id="heidlberger-pers029">
+                  <p>May, Johann Christoph Carl</p>
+               </person>
+               <person xml:id="heidlberger-pers030">
+                  <p>Händel, Georg Friedrich</p>
+               </person>
+               <person xml:id="heidlberger-pers031">
+                  <p>Beer, Amalie</p>
+               </person>
+               <person xml:id="heidlberger-pers032">
+                  <p>Rossi, Gaetano</p>
+               </person>
+               <person xml:id="heidlberger-pers033">
+                  <p>Romani, Felice</p>
+               </person>
+               <person xml:id="heidlberger-pers034">
+                  <p>Jacobshagen, Arnold</p>
+               </person>
+               <person xml:id="heidlberger-pers035">
+                  <p>Engelhardt, Markus</p>
+               </person>
+               <person xml:id="heidlberger-pers036">
+                  <p>Cherubini, Luigi</p>
+               </person>
+               <person xml:id="heidlberger-pers037">
+                  <p>Beer, Jacob Hertz</p>
+               </person>
+               <person xml:id="heidlberger-pers038">
+                  <p>Wolfssohn, Aaron</p>
+               </person>
+               <person xml:id="heidlberger-pers039">
+                  <p>Zimmermann, Rainer</p>
+               </person>
+               <person xml:id="heidlberger-pers040">
+                  <p>Scribe, Eugène</p>
+               </person>
+               <person xml:id="heidlberger-pers041">
+                  <p>Méhul, Étienne Nicolas</p>
+               </person>
+               <person xml:id="heidlberger-pers042">
+                  <p>Lesueur, Jean-François</p>
+               </person>
+               <person xml:id="heidlberger-pers043">
+                  <p>Pixérécourt, René Charles Guilbert de</p>
+               </person>
+               <person xml:id="heidlberger-pers044">
+                  <p>Metastasio, Pietro</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-heidlberger-fig04">width=\textwidth</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-24T12:56:00"
+            who="https://github.com/peterstadler">Korrekturen des Autors eingearbeitet</change>
+         <change when="2015-11-11T16:36:00"
+            who="https://github.com/peterstadler">Aktuelle Layoutanpassungen</change>
+         <change when="2015-11-04T13:14:00"
+            who="https://github.com/peterstadler">Korrekturen von Frank Ziegler eingearbeitet (Notenbeispiele korrigiert) (Teil 2).</change>
+         <change when="2015-11-03T17:39:00"
+            who="https://github.com/peterstadler">Korrekturen von Frank Ziegler eingearbeitet (Teil 1).</change>
+         <change when="2015-10-23T15:59:00"
+            who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet.</change>
+         <change when="2015-08-06T21:59:33.199+02:00"
+            who="https://github.com/peterstadler">Werktitel ausgezeichnet.</change>
+         <change when="2015-07-01T17:11:33.199+02:00"
+            who="https://github.com/peterstadler">Literatur ausgezeichnet und Text in divs geteilt.</change>
+         <change when="2015-06-08T17:44:33.199+02:00"
+            who="https://github.com/peterstadler">Personen ausgezeichnet und erste editorische Arbeiten am Text.</change>
+         <change when="2015-06-05T23:26:33.199+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="heidlberger-abstract">
+            <p>In der jüngeren Literatur zu Meyerbeer wird betont, dass Meyerbeer zwischen seiner ersten Oper, <q>Jephtas Gelübde</q> (1812) und <q>L’Africaine</q> (1864) eine erstaunliche konzeptionelle Kontinuität aufweist. Vor allem im Frühwerk bedient sich der Komponist verschiedener Gattungsmodelle, besonders der italienischen Oper, um sie mit seiner eigenständigen musikdramatischen Konzeption zu verschmelzen. Der vorliegende Beitrag beschäftigt sich vornehmlich mit dem Gattungskonflikt, mit welchem er sich als Komponist italienischer Opern in seinem deutschen Herkunftsland auseinanderzusetzen hatte. Eine nähere Betrachtung ausgewählter musikdramatischer Schlüsselmomente in den Frühwerken, besonders in <q>Emma di Resburgo</q>,  stellt die Möglichkeit der Synthese zwischen Meyerbeers Bezug zu historischen Vorbildern – seien sie gattungstypologisch oder personalstilistisch definiert – zur Diskussion.</p>
+         </div>
+      </front>
+      <body>
+         <div xml:id="heidlberger-div1">
+            <head></head>
+            <p><name ref="#heidlberger-pers010">Giacomo Meyerbeers</name> musikdramatisches Frühwerk fand in den letzten fünfundzwanzig Jahren zunehmende Beachtung in der Forschung. Anlässlich <name ref="#heidlberger-pers010">Meyerbeers</name> zweihundertstem Geburtstag im Jahr 1991 wurden zwei Symposien abgehalten, die Raum für die Diskussion dieser Thematik und ihres Kontexts boten. Die Konferenz des Instituts für Musiktheaterforschung in Thurnau festigte <name ref="#heidlberger-pers010">Meyerbeers</name> Einordnung in das europäische Musiktheater des 19.&#8239;Jahrhunderts durch die ausführliche Würdigung seiner nicht-französischen Opern sowie die europaweite Rezeption seiner französischen großen Opern. Dabei fanden Frühwerke wie <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>, sein italienischer Opernerstling <hi rend="italic"><title ref="#heidlberger-work033">Romilda e Costanza</title></hi>  sowie <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi>, bis hin zu Meyerbeers Erstlingswerk in Paris, <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi>, ausführliche Erörterung.<note xml:id="heidlberger-ftn2" n="2">Siehe <ref target="#Doehring1998" type="bibl"/><!--Sieghart Döhring und  Arnold Jacobshagen (Hg.), <hi rend="italic">Meyerbeer und das europäische Musiktheater</hi>, Laaber 1998 (Thurnauer Schriften zum Musiktheater 16)--><!--, darin die Aufsätze von Frank Heidlberger, <hi rend="italic">Jephtas Gelübde</hi>: Charakteristische Form und musikalische Gestalt in Meyerbeers Frühwerk, S.&#8239;1–26; Markus Engelhardt, Giacomo Meyerbeers italienischer Opernerstling <hi rend="italic">Romilda e Costanza</hi>, S.&#8239;27–40: Arnold Jaobshagen, Pixérécourt – Romanelli – Romani: <hi rend="italic">Margherita d’Anjou</hi> und das Melodramma semiseria, S.&#8239;41–63; Jean Mongrédien, Les débuts de Meyerbeer à Paris: <hi rend="italic">Il crociato in Egitto</hi> au théâtre Royal Italien, S.&#8239;64–72-->.</note>  
+               Die Meyerbeer-Tagung anlässlich der Dresdner Musikfestspiele konzentrierte sich dagegen auf <name ref="#heidlberger-pers010">Meyerbeers</name> vielschichtiges Verhältnis zur Deutschen Oper, inklusive seiner deutschen Frühwerke und der deutschen Rezeption seiner Musik. Bei dieser Konferenz diskutierten sowohl der Autor als auch <name ref="#heidlberger-pers013">Joachim Veit</name> <name ref="#heidlberger-pers010">Meyerbeers</name> Verhältnis zur <name ref="#heidlberger-pers011">Vogler</name>-Schule sowie dessen daraus resultierende musikdramaturgische Gestaltungsmittel, einschließlich Instrumentation, Harmonik und Form.<note xml:id="heidlberger-ftn3" n="3">Siehe <ref target="#John1992" type="bibl"/><!--Hans John u.&#8239;a. (Hg): <hi rend="italic">Bericht der Wissenschaftlichen Konferenz Meyerbeer, Große Oper — Deutsche Oper, Dresden 1991</hi>, Dresden 1992, (Schriftenreihe der Hochschule für Musik Carl Maria von Weber, Dresden&#x00A0;24)--><!--, darin Frank Heidlberger, Meyerbeer und Weber. Zur künstlerischen Wechselbeziehung aus der Sicht der frühen Werke, S.&#8239;26–48 sowie Joachim Veit, Abuhassan, Der Admiral und Alimelek – Opern aus der Voglerschen Schule, S.&#8239;49–63-->.</note>  
+               <name ref="#heidlberger-pers013">Veits</name> Vortrag widmete sich der komischen Oper <hi rend="italic"><title ref="#heidlberger-work039">Alimelek</title></hi>, die <name ref="#heidlberger-pers010">Meyerbeer</name> 1812 komponiert hatte und die im Januar 1813 unter dem Titel <hi rend="italic"><title ref="#heidlberger-work039">Wirth und Gast, oder: aus Scherz Ernst</title></hi> in Stuttgart zur (erfolglosen) Uraufführung gelangte. <name ref="#heidlberger-pers013">Veit</name> stellte darin überzeugend fest, dass diese Oper <name ref="#heidlberger-pers010">Meyerbeers</name> Emanzipationsbestreben verdeutlicht, sich – stärker noch als in der tragischen Oper <hi rend="italic">Jephtas Gelübde</hi>  – von dem übermächtigen Einfluss <name ref="#heidlberger-pers011">Georg Joseph Voglers</name> zu lösen. Dies drückt sich nach <name ref="#heidlberger-pers013">Veit</name> insbesondere durch harmonisches Lokalkolorit aus sowie durch die Verwendung charakteristischer Instrumentationstechniken, die bislang <name ref="#heidlberger-pers010">Meyerbeers</name> späteren Opern zugeschrieben worden war. Dazu zählt etwa die <q>dreifache Teilung der Cellogruppe</q>, die nicht erst in <name ref="#heidlberger-pers010">Meyerbeers</name> <hi rend="italic"><title ref="#heidlberger-work036">Semiramide</title></hi>  erstmals vorkommt, <quote source="#heidlberger-ftn2a">sondern äußerst wirkungsvoll schon in zwei Nummern dieser Oper</quote>.<ref target="#Veit1992" type="bibl" xml:id="heidlberger-ftn2a">S.&#8239;55</ref><!--<note xml:id="heidlberger-ftn4" n="4">Veit, Abuhassan, Der Admiral und Alimelek, S.&#8239;55.</note>-->  
+               <name ref="#heidlberger-pers013">Veits</name> Schlussfolgerung ist bedeutend: Sind diese Techniken, ebenso wie die von <name ref="#heidlberger-pers013">Veit</name> ferner beschriebene <q>Erinnerungsmotivik</q> in diesem Werk deutliche Hinweise auf den Einfluss <name ref="#heidlberger-pers011">Voglers</name> auf den jungen Komponisten, so müssen diese Techniken dennoch als allgemeine Ausdrucksformen in ihrer Zeit und ihrem Kontext gesehen werden, die Meyerbeer individuell ausdeutet und seinem musikdramatischen Verständnis pointiert einverleibt.</p>
+            <p>Stilistische Ambivalenz, und die daraus resultierende Vermittlung zwischen verschiedenen gattungstypologischen und nationalen Einflüssen scheint das zusammenfassende Merkmal von <name ref="#heidlberger-pers010">Meyerbeers</name> Frühwerk zu sein, das seither von der Forschung wiederholt exemplifiziert wurde. So konzediert <name ref="#heidlberger-pers014">Sieghart Döhring</name>, dass die Uraufführung von <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  (1819 im Teatro di San Benedetto in Venedig) <quote source="#heidlberger-ftn01"><name ref="#heidlberger-pers010">Meyerbeers</name> Sonderstellung innerhalb der zeitgenössischen Opernszene Italiens [unterstrich], die man mit der Formel umschrieb, sein Werk vermittle <q>zwischen deutscher und italienischer Schule</q>.</quote><ref target="#Doehring1991" type="bibl" xml:id="heidlberger-ftn01"/>  
+               <name ref="#heidlberger-pers014">Döhring</name> greift diese Schlussfolgerung in einem rezenten Artikel auf, in welchem er konstatiert, es sei angemessen, 
+               <quote source="#heidlberger-ftn02">die Frage nach dem historischen Stellenwert auch von <name ref="#heidlberger-pers010">Meyerbeers</name> italienischen Opern erneut aufzuwerfen: Handelt es sich um Stücke, die lediglich innerhalb eines individuellen kompositorischen Entwicklungsprozesses Bedeutung besitzen, oder kommt ihnen doch bleibender Wert zu, insofern sie bisher übersehene Spuren in der Geschichte der Gattung hinterlassen haben, deren Bild in dieser Hinsicht zu revidieren wäre?</quote><ref target="#Doehring2014" type="bibl" xml:id="heidlberger-ftn02">S.&#8239;83</ref>
+            </p>
+            <p>Ohne hier allzu detailliert auf <name ref="#heidlberger-pers014">Döhrings</name> Analyse einzelner Gattungskategorien der italienischen Oper und ihrer individuellen Umdeutung durch <name ref="#heidlberger-pers010">Meyerbeer</name> eingehen zu können – ein Feld, das gerade in jüngster Zeit wichtige Impulse in der Forschung erfahren hat,<note xml:id="heidlberger-ftn7" n="7">Genannt seien hier lediglich <ref target="#Jacobshagen2005" type="bibl"/> und <ref target="#Everist2005" type="bibl"/>.</note>  – sei hier auf eines der Themen verwiesen, auf das <name ref="#heidlberger-pers014">Döhring</name> aufmerksam macht: <quote source="#heidlberger-ftn03">Die kritische Sicht auf religiösen Fanatismus bildet von <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>  bis zur <hi rend="italic"><title ref="#heidlberger-work019">L’Africaine</title></hi>  (1865) eine Konstante des <name ref="#heidlberger-pers010">Meyerbeerschen</name> Musiktheaters als Ideendrama, aus der seine schöpferische Phantasie immer neue Inspirationen zog.</quote><ref target="#Doehring2014" type="bibl" xml:id="heidlberger-ftn03">S.&#8239;90</ref>
+            </p>
+            <p>Den Bogen von <name ref="#heidlberger-pers010">Meyerbeers</name> erster Oper von 1812, zu seiner letzten zu schlagen, unterstreicht – bei aller Differenzierung und Entwicklung im Einzelnen – <name ref="#heidlberger-pers010">Meyerbeers</name> Unabhängigkeit von kleingliedrigen und historischer Revision unterworfener Gattungsnormen. Immer wieder greift er verschiedene Gattungen auf – sei es die deutsche Singspielgattung mit gesprochenen Dialogen seiner Erstlingswerke oder die opera semiseria sowie Rossinis Opernmodell – um sie mit seiner eigenständigen musikdramatischen und dramaturgischen Konzeption zu verschmelzen. Ein bleibendes Moment in <name ref="#heidlberger-pers010">Meyerbeers</name> Frühwerk zu finden, bedeutet denn auch, die historische Gattungstypologie selbst zu überwinden, wie <name ref="#heidlberger-pers014">Döhring</name> in seinem erwähnten Aufsatz zusammenfasst: <quote source="#heidlberger-ftn04">Aus der Distanz von fast zweihundert Jahren Operngeschichte und damit zu einer Zeit, da mit dem Melodramma auch die nachfolgenden, ehemals als <q>fortschrittlich</q> angesehenen Gattungen Grand Opéra und Musikdrama ins imaginäre Museum der Operngeschichte eingezogen sind, treffen diese Werke auf ein verändertes Bewusstsein. Für den modernen Betrachter ist die Frage der Gattung zu einer nur noch historischen geworden, ist sie eingegangen in den multiplen Erfahrungshorizont eines als universell wahrgenommenen Musiktheaters. Was zählt ist die musikdramatische Evidenz des einzelnen Werkes, seine Fähigkeit zum emotionalen <q>impact</q>.</quote><ref type="bibl" target="#Doehring2014" xml:id="heidlberger-ftn04" rend="ibid">S.&#8239;93</ref>
+            </p>
+            <p>Gleichwohl darf diese durchaus konsequente Schlussfolgerung nicht darüber hinwegtäuschen, dass auch und gerade der historische Kontext einen Weg zum Verständnis des Frühwerks <name ref="#heidlberger-pers010">Meyerbeers</name> eröffnet. Dies führt uns zum Thema des vorliegenden Beitrags, der sich mit zwei Schwerpunkten aus dem Kontext von <name ref="#heidlberger-pers010">Meyerbeers</name> Frühwerk beschäftigt, erstens, dem Einfluss der Freunde Meyerbeers sowie seines Elternhauses auf seine Entwicklung als Komponist und zweitens dem Gattungskonflikt, mit welchem er sich als Komponist italienischer Opern in seinem deutschen Herkunftsland auseinanderzusetzen hatte. Eine nähere Betrachtung ausgewählter musikdramatischer Schlüsselmomente in <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  soll abschließend die Möglichkeit der Synthese zwischen <name ref="#heidlberger-pers010">Meyerbeers</name> Bezug zu historischen Vorbildern – seien sie gattungstypologisch oder personalstilistisch definiert – einerseits und der von <name ref="#heidlberger-pers014">Döhring</name> reklamierten <q>musikdramatischen Evidenz</q> andererseits zur Diskussion stellen.</p>
+         
+         </div>
+         <!--<p>***</p>-->
+         <!--<milestone rend="bigskip"/>-->
+         <div xml:id="heidlberger-div2">
+            <head></head>
+            <p><quote source="#heidlberger-ftn05"><name ref="#heidlberger-pers010">Meyerbeer</name> verstrickt sich leider Gottes immer mehr in den elenden Schlendrian. 
+               Welch herrliche Blüte ging da unter! – Was hofften wir alles von ihm – 
+               O verfluchte Lust zu gefallen […]</quote>.<ref target="#Meyerbeer1960" type="bibl" xml:id="heidlberger-ftn05">S.&#8239;578</ref><!--<note xml:id="heidlberger-ftn10">In einem Brief an Gottfried Weber, 13. Februar 1824, 
+                  zit. nach Heinz Becker (Hg.), Giacomo Meerbeer: Briefwechsel und Tagebücher, Bd. 1, Berlin 1960, S.&#8239;578.</note>-->
+               Als <name ref="#heidlberger-pers012">Carl Maria von Weber</name> diese Zeilen 1824 schrieb und seinem Freund <name ref="#heidlberger-pers018">Gottfried Weber</name> <name ref="#heidlberger-pers010">Giacomo Meyerbeers</name> Abkehr von den gemeinsamen hehren Ideen einer deutschen Kunst schilderte, konnte er kaum ahnen, dass diese <q>herrliche Blüte</q> alles andere als dem Untergang geweiht war. Im Gegenteil, sie war gerade im gesündesten Aufgehen begriffen. <name ref="#heidlberger-pers010">Meyerbeer</name> zog ein Jahr später, 1825, mit <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi>  triumphal in Paris ein und sicherte sich damit den ersten Rang neben <name ref="#heidlberger-pers016">Rossini</name> im Bereich der zeitgenössischen Oper. 
+               Es wäre allerdings ungerecht, <name ref="#heidlberger-pers012">Weber</name> angesichts seiner pessimistischen Beurteilung von <name ref="#heidlberger-pers010">Meyerbeers</name> Werdegang Engstirnigkeit und Provinzialismus vorzuwerfen. Seine Kritik an der Italianità von <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  und <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi>, sein Vorwurf der <name ref="#heidlberger-pers016">Rossinismen</name> in <name ref="#heidlberger-pers010">Meyerbeers</name> Werk, die erstmals 1817 deutlich wurden, sind zunächst private Äußerungen eines Freundes und Geistesverwandten, der hart für seine kulturelle und professionelle Identität als deutscher Opernkomponist kämpfen musste. 
+               Als Direktor der deutschen Oper in Dresden war <name ref="#heidlberger-pers012">Weber</name> hinreichend Intrigen und Missgunst ausgesetzt, die seine künstlerischen Absichten untergruben und die Erfüllung seiner Vision von einer emanzipierten deutschen Oper im Sinne eines eigenständigen musikalischen und dramaturgischen Stils erschwerten.<note xml:id="heidlberger-ftn11" n="11">Siehe dazu <ref target="#Allroggen1992" type="bibl"/>, in welchem <name ref="#heidlberger-pers012">Webers</name> Streit mit <name ref="#heidlberger-pers019">Francesco Morlacchi</name> um <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi> und <name ref="#heidlberger-pers012">Webers</name> Aufsatz über dieses Werk in der Dresdner <hi rend="italic">Abend-Zeitung</hi> ausführlich dargestellt werden.</note></p>
+            
+            <p>Weitere ernstzunehmende Vorkämpfer einer deutschen Oper waren nicht in Sicht, seine Hoffnung ruhte daher auf dem Berliner <name ref="#heidlberger-pers010">Meyerbeer</name>, in dessen Heimatstadt ohnehin die Parteien der deutschen und italienischen Oper besonders heftig aufeinanderprallten, um einen mehr kulturideologischen als ästhetisch begründeten Kampf zu führen. <name ref="#heidlberger-pers012">Webers</name> öffentliche Kritik an <name ref="#heidlberger-pers010">Meyerbeers</name> Werken klingt wesentlich milder, zudem hinderte die negative Beurteilung den Dresdner Operndirektor nicht daran, gerade diese beiden Werke seines Freundes in der Originalsprache aufzuführen. 
+               1824 kam <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi>  in Dresden heraus, bereits 1820 hatte <name ref="#heidlberger-pers012">Weber</name> <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  präsentiert, die sich lange im Repertoire hielt. So erfüllte <name ref="#heidlberger-pers012">Weber</name> trotz seiner Enttäuschung das Programm jenes <q>Harmonischen Vereins</q>, das er knapp anderthalb Jahrzehnte zuvor mit den Freunden <name ref="#heidlberger-pers018">Gottfried Weber</name>, <name ref="#heidlberger-pers024">Johann Baptist Gänsbacher</name> und <name ref="#heidlberger-pers010">Meyerbeer</name> selbst formuliert hatte: die Werke der Vereinsbrüder gegenseitig zu fördern. Dazu blieb dem Komponisten nicht mehr viel Zeit. Auf seinem Weg nach London 1826 streifte <name ref="#heidlberger-pers012">Weber</name> im Februar die französische Hauptstadt und wurde dort ein paar Tage lang gefeiert. 
+               Vier Monate später verstarb er an der Themse, nach der erfolgreichen Uraufführung des <hi rend="italic"><title ref="#heidlberger-work027">Oberon</title></hi>  und, wie die Quellen zeigen, an der Schwelle zu einer eigenen internationalen Karriere.<note xml:id="heidlberger-ftn12" n="12">Zu <name ref="#heidlberger-pers012">Webers</name> Aufenthalt in Paris und Dokumenten, die auf eine künstlerisch erfolgreiche Zukunft <name ref="#heidlberger-pers012">Webers</name> in der Hauptstadt des 19.&#8239;Jahrhunderts hindeuten, vgl. <ref type="bibl" target="#Heidlberger1994">Kap.&#8239;3</ref>.</note></p>
+            <p><name ref="#heidlberger-pers012">Weber</name> war <name ref="#heidlberger-pers010">Meyerbeer</name> mit seinem Pariser Debut sogar vorausgegangen: 1824 erschien der <hi rend="italic"><title ref="#heidlberger-work010">Freischütz</title></hi> dort in einer verstümmelten Fassung als <hi rend="italic">Robin des Bois</hi>; am selben Haus, dem Théâtre de l’Odéon, hatte <hi rend="italic"><title ref="#heidlberger-work021">Marguérite d’Anjou</title></hi>  in der dreiaktigen französischen Fassung von <name ref="#heidlberger-pers020">Thomas Sauvage</name> am 11.&#8239;März&#x00A0;1826, knapp zwei Wochen nach <name ref="#heidlberger-pers012">Webers</name> kurzem Aufenthalt in Paris, Premiere. 
+               Der gleiche <name ref="#heidlberger-pers020">Thomas Sauvage</name> hatte im November&#x00A0;1825 eine eigene Bearbeitung von <name ref="#heidlberger-pers012">Webers</name> Schauspielmusik zu <hi rend="italic"><title ref="#heidlberger-work028">Preciosa</title></hi>, ebenfalls am Odéon, herausgebracht, sechs Wochen nach der Premiere von <name ref="#heidlberger-pers010">Meyerbeers</name> <hi rend="italic"><title ref="#heidlberger-work014">Crociato</title></hi>  am Théâtre Italien. Auch die stark korrumpierte Fassung der <hi rend="italic"><title ref="#heidlberger-work009">Euryanthe</title></hi>  mit dem Titel <hi rend="italic">La Forêt de Sénart</hi> war noch im Januar&#x00A0;1826, zwei Monate vor <name ref="#heidlberger-pers010">Meyerbeers</name> <hi rend="italic"><title ref="#heidlberger-work021">Marguerite</title></hi>  und sechs Wochen vor <name ref="#heidlberger-pers012">Webers</name> Ankunft in Paris, auf die Bühne des Odéon gebracht worden. 
+               Diese zeitlichen Überschneidungen mögen Zufall sein, doch sie legen eine bemerkenswerte Parallelität der Ereignisse offen, die erst mit <name ref="#heidlberger-pers012">Webers</name> Tod endete. Bemerkenswert deshalb, weil sie <name ref="#heidlberger-pers012">Webers</name> wie <name ref="#heidlberger-pers010">Meyerbeers</name> synchrone Aktualität und Beliebtheit markieren. Sie waren im Mittelpunkt des Interesses des Pariser Musiklebens. Hier lag der Grundstein für <name ref="#heidlberger-pers010">Meyerbeers</name> späteren Erfolg, und hier wäre wohl auch der Ort für einen <name ref="#heidlberger-pers012">Weber</name> nach 1826 gewesen.</p>
+            <p>Die Parallelen ließen sich noch weiter ziehen: Am 11.&#8239;Februar 1820 erschien mit der eingedeutschten <hi rend="italic"><title ref="#heidlberger-work007">Emma von Roxburg</title></hi>  erstmals eine Oper <name ref="#heidlberger-pers010">Meyerbeers</name> auf der Bühne <!--des Königlich Preussischen Theaters--> der Hofoper in Berlin, ein gutes Jahr vor <name ref="#heidlberger-pers012">Webers</name> triumphalem <hi rend="italic"><title ref="#heidlberger-work010">Freischütz</title></hi>-Erfolg. <name ref="#heidlberger-pers010">Meyerbeer</name> verhielt sich in dieser Phase seiner Entwicklung zurückhaltend bis ablehnend gegenüber den Bemühungen, ihn nach Berlin zu ziehen, und das nahezu völlige Vergessen dieser frühen Oper, die als <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  in Italien und als <hi rend="italic">Emma di Leicester</hi>  in Wien einige Erfolge erzielen konnte, schienen ihm recht zu geben. Seine Befürchtung, ein zu frühes Berliner Engagement, eine Konzentration auf die deutsche Oper – sowohl stilistisch als auch institutionell – führten ihn in eine Sackgasse künstlerischen Mittelmaßes, war nicht unbegründet. Die Misserfolge, die er mit seinen frühen deutschen Opern in München, Stuttgart und Wien erleben musste, hatten ihm krass vor Augen geführt, dass zu einem Erfolg mehr gehörte als eine großzügige finanzielle Förderung durch seine Eltern. Seine Distanz von Berlin und seinen deutschen Freunden, die ihm oft als Überheblichkeit und Arroganz ausgelegt wurden, war daher als notwendige Orientierung nach außen klug berechnet. Er wusste, dass seine Zeit erst später und anderswo kommen würde.
+               Die mühevolle Selbstbehauptung des freien Künstlers leitete in besonderem Maße <name ref="#heidlberger-pers010">Meyerbeers</name> Verhältnis zu seinem Elternhaus. Dieses fixierte seinen Weg auf das Ziel des künstlerischen Erfolges, ein Weg, der zuweilen rücksichtslos und wenig diplomatisch unter Ausnutzung des sozialen Status und der wirtschaftlichen Unabhängigkeit der Familie erkauft wurde. <name ref="#heidlberger-pers010">Meyerbeer</name> selbst lavierte gegenüber seinen wohlmeinenden Eltern geschickt zwischen Gehorsam und latentem Aufbegehren. Er ging mit dieser Situation sehr pragmatisch — je nach aktuellem Nutzen — um. Einerseits ermöglichte ihm dieses Umfeld die geistige und kulturelle Bildung im klassischen Sinne, durch Kunstreisen und beste Empfehlungen an die herausragenden Geistesgrößen und Mächtigen der Zeit, andererseits warteten die Eltern ungeduldig auf Ergebnisse, die ihre Hoffnungen auf die künstlerische Karriere des begabten Sohnes auch in Berlin sichtbar und fruchtbar werden lassen sollten. <name ref="#heidlberger-pers010">Meyerbeer</name> war aus der Sicht der Eltern der Schlussstein des sorgfältig aufgestellten Kunstgebäudes, in dem sie das Berliner Geistesleben der Zeit mit seinen Größen aus Wissenschaft, Kunst und Theater fruchtbringend zusammenführten. <name ref="#heidlberger-pers010">Meyerbeer</name> entzog sich dieser Pflicht beständig. Bereits 1812 weigerte sich <name ref="#heidlberger-pers010">Meyerbeer</name>, sein Erstlingswerk <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>  in Berlin herauszubringen, und zeigte sich verstimmt, als er erfuhr, dass die <name ref="#heidlberger-pers031">Mutter</name> voreilig ihren Einfluss in dieser Sache geltend und damit eine Aufführung unmöglich gemacht hatte.<ref type="bibl" target="#Meyerbeer1960" xml:id="heidlberger-ftn13" n="13">Bd.&#8239;1, S.&#8239;129&#8239;f.</ref>
+               Selbst anlässlich der nach einigem Zögern von <name ref="#heidlberger-pers010">Meyerbeer</name> freigegebenen Aufführung von <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  in deutscher Übersetzung als <hi rend="italic">Emma von Roxburgh</hi>  in Berlin<note xml:id="heidlberger-ftn14" n="14">Übersetzung von <name ref="#heidlberger-pers029">Johann Christoph Carl May</name>. Eine weitere Übersetzung (von <name ref="#heidlberger-pers028">Joseph von Seyfried</name>) lag der Aufführung des Werkes als <hi rend="italic">Emma di Leicester oder Die Stimme des Gewissens</hi> im Theater an der Wien zugrunde.</note>  zeigte sich die <name ref="#heidlberger-pers031">Mutter</name> wenig sensibel für die Absichten des Sohnes, als sie ihm nahelegte, doch einige Nummern umzuarbeiten, <quote source="#heidlberger-ftn06">[…] damit die Deutschen sehen dass Du auch deutsch schreiben kannst!</quote><ref target="#Meyerbeer1960" type="bibl" xml:id="heidlberger-ftn06">Bd.&#8239;1, S.&#8239;416</ref>
+               Dass diese Betrachtungsweise, die Oper verliere sich in seichter Italianità, ohnehin einseitig war und letztlich an der Werkidee selbst vorbeigeht, ist ein Faktum, das im Folgenden noch zu besprechen sein wird.</p>
+            
+            <p>Ein wichtiger Einschnitt in <name ref="#heidlberger-pers010">Meyerbeers</name> Entwicklung und dem Verhältnis zum Elternhaus wird Ende 1814 sichtbar. <name ref="#heidlberger-pers010">Meyerbeer</name> hielt sich noch in Wien auf und wollte nach Paris aufbrechen, als er die Aufforderung erhält, nach Berlin zurückzukehren. Der intensive Briefwechsel mit dem <name ref="#heidlberger-pers037">Vater</name> in diesem Zeitraum zeigt, wie mühsam der junge Komponist seine künstlerische Freiheit gegenüber den Wünschen des Elternhauses behaupten muss: 
+               <pb/> 
+               <quote source="#heidlberger-ftn08">Du weist von Jahren her, dass ich Paris als den ersten und hauptsächlichen Punkt für meine dramatisch-musikalische Bildung betrachtet habe, kennst meine leidenschaftliche Vorliebe für die französische Opernbühne und weißt, wie sehr ich mich dahin gesehnt habe.</quote><ref  type="bibl" target="#Meyerbeer1960" xml:id="heidlberger-ftn08">S.&#8239;248</ref></p>
+            <p>Offensichtlich erschien dem <name ref="#heidlberger-pers037">Vater</name> die Befreiung Preußens von der Napoleonischen Herrschaft als der geeignete Zeitpunkt, seinen Sohn zu einem der Protagonisten des Berliner Kunstlebens zu machen. Von seinem Erzieher und Vertrauten <name ref="#heidlberger-pers038">Aaron Wolfssohn</name> wusste <name ref="#heidlberger-pers010">Meyerbeer</name>, dass ein zweiter Kapellmeister am Berliner Hoftheater gesucht werde und er dort Chancen hätte, doch er durchschaut rechtzeitig die Gefahr der Provinzialität, die ihm keine Entwicklungsmöglichkeiten gelassen hätte, zumal der Erste Musikdirektor des Nationaltheaters, <name ref="#heidlberger-pers021">Bernhard Anselm Weber</name>, sein Lehrer in früheren Zeiten gewesen war: <quote source="#heidlberger-ftn09">Wahrscheinlich fürchtet er ebensosehr daß ein großes Talent an diesem Platz komen und eignen Willen mitbringen werde als er hofft daß ich ein kleines Talent sein, und seinem Willen folgen werde.</quote><ref target="#Meyerbeer1960" type="bibl" xml:id="heidlberger-ftn09" rend="ibid">Bd.&#8239;1, S.&#8239;249</ref></p>
+            <p>Daher kann <name ref="#heidlberger-pers010">Meyerbeer</name> seinen Entschluss gegenüber dem <name ref="#heidlberger-pers037">Vater</name> nur bekräftigen: <quote source="#heidlberger-ftn10">Allein Du weißt es daß ich dazu [zum Abschluß der Studien] von jeher für ganz unerläßlich die gründliche Kenntniß des französisch[en] und italiänischen Theaters […] rechnete, und deßhalb kann ich mich unter keiner Bedingung entschließen eher nach Berlin zurückzukommen als bis ich diese beiden Reisen gemacht. Ich finde das meiner musikalischen Überzeugung nach unumgänglich not wendig, und würde daher […] meine Reise in diesem Augenblick um keinen Preiß der Welt […] aufhalten&#x00A0;[…]</quote>.<ref type="bibl" target="#Meyerbeer1960" xml:id="heidlberger-ftn10" rend="ibid"/>
+            </p>
+            <p>Betrachtet man diese Umstände im Ganzen aus der Perspektive von <name ref="#heidlberger-pers010">Meyerbeers</name> musikalischer Ausbildung und Entwicklung, wird deutlich, dass dessen Werke zwischen <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>  und den letzten italienischen Opern unter dem Kalkül einer zielgerichteten und breitgefächerten Aneignung eines umfangreichen Stilrepertoires entstanden sind, ohne sich damit der einen oder anderen Partei <q>anzudienen</q>. Dieses Repertoire ist ein work in progress im Ganzen, der Prozess der Prägung eines individuellen Opernstils ist erst mit <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi>  abgeschlossen. Dies muss man sich vor Augen halten, wenn man sein Schaffen zwischen 1811 und 1825 verstehen und einordnen will.</p>
+         </div>
+         
+         <div xml:id="heidlberger-div3">
+            <head></head>
+            <p>Insgesamt lässt sich <name ref="#heidlberger-pers010">Meyerbeers</name> Frühwerk in vier Phasen gliedern, die seine Lehr-, Wander- und frühe Schaffenszeit umfassen (vgl. dazu die Tabellen&#x00A0;<ref target="#heidlberger-table01" type="crossref" rend="no"/> und <ref target="#heidlberger-table02" type="crossref" rend="no"/> im Anhang). Das beeindruckende geographische Koordinatensystem, in dem sich <name ref="#heidlberger-pers010">Meyerbeer</name>, ausgehend von Berlin, bewegt – Darmstadt, München, Neapel einerseits, Wien, Paris und London andererseits – umschreibt zugleich wesentliche Eckpunkte des zeitgenössischen europäischen Kulturlebens allgemein. Unterricht im engeren Sinne hatte er, abgesehen von den Elementarstudien in Klavier und Theorie bei <name ref="#heidlberger-pers023">Franz Lauska</name> und <name ref="#heidlberger-pers022">Carl Friedrich Zelter</name>, nur bei <name ref="#heidlberger-pers021">Bernhard Anselm Weber</name> und <name ref="#heidlberger-pers011">Georg Joseph Vogler</name> in einem Zeitraum von etwa fünf Jahren, wobei er sich erst seit seiner Zeit bei <name ref="#heidlberger-pers011">Vogler</name> in Darmstadt vollständig  auf die Entwicklung seiner musikalischen Fähigkeiten konzentrieren konnte.
+               Inwiefern ihn das Berliner Musikleben allgemein und das Schaffen <name ref="#heidlberger-pers021">Bernhard Anselm Webers</name> im besonderen beeinflusste, lässt sich schwer abschätzen. Die Uraufführung von <name ref="#heidlberger-pers021">Webers</name> Oper <hi rend="italic"><title ref="#heidlberger-work005">Deodata</title></hi> im Jahre 1810 erlebte <name ref="#heidlberger-pers010">Meyerbeer</name> noch in Berlin. 
+               Mutmaßungen über einen Einfluss dieses und anderer Werke des Berliner Kapellmeisters sind zwar spekulativ, doch hinsichtlich einer mit spezifischem Kolorit versehenen Genrezeichnung innerhalb der Oper nicht auszuschließen. <name ref="#heidlberger-pers039">Rainer Zimmermann</name> weist darauf hin, dass in <name ref="#heidlberger-pers021">Webers</name> Bühnenmusik zu <name ref="#heidlberger-pers025">Werners</name> Drama <title>Die Weihe der Kraft</title>  der Choral <q>Ein feste Burg ist unser Gott</q>  verwendet wird, und auch der dreistimmige Frauenchor <q>Höre deiner Töchter Chöre</q>  Wiederhall in <hi rend="italic"><title ref="#heidlberger-work018">Les Huguenots</title></hi>  findet,<ref type="bibl" target="#Zimmermann1991">S.&#8239;29</ref> doch eher dürften <name ref="#heidlberger-pers021">Webers</name> Interesse für <name ref="#heidlberger-pers017">Christoph Willibald Gluck</name> und die Zeichnung des Ossian-Kolorits in <name ref="#heidlberger-pers021">Webers</name> Lyrischem Duorama <hi rend="italic"><title ref="#heidlberger-work037">Sulmalle</title></hi>&#x00A0;(1802) <name ref="#heidlberger-pers010">Meyerbeer</name> erste Eindrücke der für ihn so bedeutenden Opernästhetik <name ref="#heidlberger-pers017">Glucks</name> und seiner Nachfolger innerhalb der französischen Revolutionsoper, vor allem etwa <name ref="#heidlberger-pers042">Jean-François Lesueurs</name>, vermittelt haben.</p>
+            <p><name ref="#heidlberger-pers010">Meyerbeers</name> Zeit bei <name ref="#heidlberger-pers011">Vogler</name> ist in ihrer Bedeutung kaum zu überschätzen. Hauptsächlich sollte er der Schulung der Disziplin des Kontrapunkts dienen, für die <name ref="#heidlberger-pers011">Vogler</name> als Kapazität galt. <name ref="#heidlberger-pers021">Bernhard Anselm Weber</name> war selbst Schüler <name ref="#heidlberger-pers011">Voglers</name> gewesen und führt mit seiner Empfehlung <name ref="#heidlberger-pers010">Meyerbeers</name> konsequent eine Tradition fort, die allerdings nicht unumstritten war. 
+               Es ist hier nicht der Ort, Wirkung und Bedeutung <name ref="#heidlberger-pers011">Georg Joseph Voglers</name> allgemein zu würdigen,<note xml:id="heidlberger-ftn20" n="20">Siehe dazu <ref target="#Heidlberger1998" type="bibl"/>, sowie den Tagungsband der Vogler-Konferenz Heidelberg&#x00A0;1999: <ref target="#Betzwieser2003" type="bibl"/>.</note> 
+               vor allem da er seine Zeitgenossen zu extremer Polarisierung zwang — die Bandbreite reichte von einer totalen Ablehnung <name ref="#heidlberger-pers011">Voglers</name> als Scharlatan bis hin zu rückhaltlosem Anerkennen seiner Fähigkeiten als Lehrer und Anreger —, doch bleibt festzuhalten, dass <name ref="#heidlberger-pers010">Meyerbeers</name> Verhältnis zu dem väterlichen Lehrer — <name ref="#heidlberger-pers011">Vogler</name> war bereits über sechzig, als <name ref="#heidlberger-pers010">Meyerbeer</name> zu ihm kam — weit über das eines Theorielehrers zu seinem Schüler hinausreichte. Man tut <name ref="#heidlberger-pers011">Vogler</name> sicher Unrecht, wenn man seine Begeisterung für <name ref="#heidlberger-pers010">Meyerbeer</name> auf rein wirtschaftliche Gründe zurückführte, denn zweifellos profitierte <name ref="#heidlberger-pers011">Vogler</name> auch rein materiell von seinem Berliner Schüler; vielmehr ist jedoch zu beachten, dass <name ref="#heidlberger-pers011">Vogler</name> <name ref="#heidlberger-pers010">Meyerbeers</name> außergewöhnliche Fähigkeiten erkannte und nach seinen Möglichkeiten förderte. Wie bereits acht Jahre zuvor bei <name ref="#heidlberger-pers012">Carl Maria von Weber</name> wusste <name ref="#heidlberger-pers011">Vogler</name> auch bei <name ref="#heidlberger-pers010">Meyerbeer</name> analytische Fähigkeiten zu wecken, die es erlaubten, musikalische Phänomene in ihrer ästhetischen Wirkung und technischen Handhabung zu beurteilen und künstlerisch umzusetzen.</p>
+            <p><name ref="#heidlberger-pers011">Voglers</name> kontrapunktische Theorien basieren auf dieser analytischen Methode und prägten <name ref="#heidlberger-pers010">Meyerbeer</name> in einem besonders produktiven Sinne. Die Stimmführung nach <name ref="#heidlberger-pers011">Voglers</name> Regeln, die vom zeitgenössischen Fachpublikum meist als Kuriosa jenseits der <soCalled>klassischen</soCalled> Lehre abgetan wurden, erwies sich als bedeutend für einige von <name ref="#heidlberger-pers010">Meyerbeers</name> Kompositionen aus seiner Unterrichtszeit. 
+               Einige Berühmtheit erlangte der <q>Chor der vier Elemente</q> aus dem Oratorium <hi rend="italic"><title ref="#heidlberger-work013">Gott und die Natur</title></hi>  (1811), nicht zuletzt durch eine ausführliche Besprechung in der Leipziger <hi rend="italic">Allgemeinen musikalischen Zeitung</hi>, in der <name ref="#heidlberger-pers012">Carl Maria von Weber</name> die besondere Wirkung der vier selbständig verlaufenden Melodielinien mit ihrer jeweiligen Begleitung zur Darstellung von Erde, Wasser, Luft und Feuer als <q>kontrapunktisches Meisterstück</q> bewertete.<ref target="#Heidlberger1992" type="bibl"/><!--<note xml:id="heidlberger-ftn21" n="21"> Vgl. dazu Frank Heidlberger, Meyerbeer und Weber. 
+                  Zur künstlerischen Wechselbeziehung aus der Sicht der frühen Werke (siehe Fußnote&#x00A0;3).</note>--> 
+               Von diesen frühen Versuchen bis hin zu <name ref="#heidlberger-pers010">Meyerbeers</name> kunstvollen Ensemblesätzen mit ihren Überlagerungen musikalischer und dramatischer Schichten ist es zwar noch ein weiter Weg, doch ein ideelles Fundament war in dieser Hinsicht durch <name ref="#heidlberger-pers011">Voglers</name> Theorien gelegt. Auch die Kanontechnik, die in <name ref="#heidlberger-pers010">Meyerbeers</name> frühen Opern auffällig oft vorhanden ist, dürfte auf Anregungen <name ref="#heidlberger-pers011">Voglers</name> zur kontrapunktischen Durcharbeitung mehrstimmiger Sätze zurückgehen, wenngleich sie aus der Perspektive dramatischer Relevanz auf Traditionen der italienischen Opera buffa zurückgeführt werden können, die <name ref="#heidlberger-pers010">Meyerbeer</name> ebenso zur Kenntnis genommen hat.</p>
+            <p>Ferner ist zu vermuten, dass <name ref="#heidlberger-pers010">Meyerbeer</name> bei <name ref="#heidlberger-pers011">Vogler</name> <name ref="#heidlberger-pers017">Glucksche</name> Opern und <name ref="#heidlberger-pers030">Händelsche</name> Oratorien studierte, mit denen sich <name ref="#heidlberger-pers011">Vogler</name> nachweislich besonders intensiv beschäftigte. 
+               Auch die Verwendung außergewöhnlicher Besetzungs- und Instrumentationstechniken war <name ref="#heidlberger-pers011">Vogler</name> nicht fremd, in diesem Punkt ist in einigen seiner Werke sogar eine kühne Experimentierfreudigkeit zu erkennen, die Techniken der romantischen Oper in nuce vorausnimmt. In seiner Oper <hi rend="italic"><title ref="#heidlberger-work034">Samori</title></hi>  sowie in der deutschen Fassung von <hi rend="italic"><title ref="#heidlberger-work002">Castor und Pollux</title></hi>  findet sich eine Orchestrierung, die dramatische Stimmungen und Handlungsmomente nicht nur koloristisch, sondern charakteristisch gestaltet.<note xml:id="heidlberger-ftn22" n="22">Vgl. dazu <ref target="#Veit1998" type="bibl"/>.</note> 
+               Die hymnenartige Verwendung von Blechblasinstrumenten bei herausragenden Schwur- und Anrufungsszenen stellt zudem einen wichtigen Bezug zur aktuellen französischen Oper wie auch zu den entwickelten Formen der späten Opera seria her.<note xml:id="heidlberger-ftn23" n="23">Zu <hi rend="italic"><title ref="#heidlberger-work002">Castor und Pollux</title></hi> im stilistischen und historischen Kontext vgl. <ref target="#Heidlberger2003" type="bibl"/>.</note></p>
+            <p>Das Studium der Opern <name ref="#heidlberger-pers011">Voglers</name>, die <name ref="#heidlberger-pers010">Meyerbeer</name> in Darmstadt kennenlernte, eröffnete <name ref="#heidlberger-pers010">Meyerbeer</name> erstmals einen tieferen Einblick in die Möglichkeiten differenzierter Singstimmenbehandlung. Diese Thematik sollte ihn, das zeigen die Dokumente der Entstehung seiner Opern im Ganzen, zeitlebens beschäftigen. 
+               <name ref="#heidlberger-pers011">Vogler</name> knüpfte in dieser Beziehung sowohl an die charakteristische Ausdrucksweise <name ref="#heidlberger-pers017">Glucks</name> als auch an die ausgeprägte Virtuosität des zeitgenössischen italienischen Gesanges an. Für beide Anknüpfungspunkte finden sich zahlreiche Beispiele bereits in <name ref="#heidlberger-pers010">Meyerbeers</name> erster Oper <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>, die in enger Zusammenarbeit mit <name ref="#heidlberger-pers011">Vogler</name> 1811/12 entstanden war. Ein Beispiel aus dem Finale des II.&#8239;Aktes mag dies veranschaulichen. Hier kulminiert die Handlung in Jephtas Verkündigung: seine Tochter sei verloren, da der Schwur Jephtas die Opferung jenes Menschen verlange, der ihm nach seiner Rückkehr zuerst begegnete.</p>
+            <p>Die aufstrebende Melodielinie wird ohne Begleitung deklamiert und bringt damit Jephtas Erregung angesichts seiner zu opfernden Tochter zum Ausdruck. Auf die Erregung folgt die Resignation: Die Singstimme springt nach einer Zäsur in die tiefe Lage. Der weite Sprung <hi rend="italic">cis</hi><hi rend="sup">1</hi>-<hi rend="italic">G</hi> verstärkt die immanente dramatische Spannung ebenso wie die Angabe <q>mit verloschener Stimme</q> und der harmoniefremde phrygische Sekundschritt <hi rend="italic">G</hi>-<hi rend="italic">Fis</hi> bei <q>dem Tode (geweiht)</q>.<note xml:id="heidlberger-ftn24" n="24">Diese Stelle ist ausführlicher besprochen und mit Notenbeispiel versehen in:  <ref type="bibl" target="#Heidlberger1998b">S.&#8239;15</ref>.</note></p>
+            <p>Auf der anderen Seite stehen ausgedehnte Koloraturen, die oft in den Dialog mit einem konzertierenden Soloinstrument treten. So etwa in der großen Arie der Sulima im III.&#8239;Akt (Nr.&#8239;12), mit der <name ref="#heidlberger-pers010">Meyerbeer</name> seiner Primadonna, der Sopranistin <name ref="#heidlberger-pers027">Helene Harlas</name>, in München Gelegenheit zum Brillieren verschaffte. Hierin zeigt sich eine Tradition, die <name ref="#heidlberger-pers010">Meyerbeer</name> auch und besonders in den italienischen Folgewerken pflegte. <name ref="#heidlberger-pers010">Meyerbeer</name> sah die Berückichtigung individueller Fähigkeiten seiner jeweiligen Sänger keineswegs als Verrat an der künstlerischen Wahrheit an, sondern wusste, dass diese Rücksicht und mit ihr die Sicherstellung einer herausragenden Leistung der Protagonisten auf der Bühne Voraussetzung für den individuellen Erfolg seiner Werke waren.</p>
+            <p>Für die erwähnte <name ref="#heidlberger-pers027">Helene Harlas</name> und deren Lebensgefährten, den Klarinettisten <name ref="#heidlberger-pers026">Heinrich Baermann</name>, schrieb <name ref="#heidlberger-pers010">Meyerbeer</name> gleich nach seiner Ankunft in Italien 1816 eine Kantate, die das konzertierende Prinzip von Singstimme und Soloinstrument in den Vordergrund stellt, eingebettet in das Kolorit einer Schäferidylle. Die Soloklarinette umschreibt hier den rufenden Schäfer, an dessen Signal Teolinda ihren Geliebten erkennt. In Nr.&#8239;4 dieser Kantate wird das Zusammenspiel von Klarinette und Singstimme virtuos exponiert. Auf die Rufe der Klarinette folgt Teolindas erwartungsvolles Aufhorchen. Das Echospiel steigert sich und mündet in einer virtuos-verspielten Duopassage. <name ref="#heidlberger-pers010">Meyerbeer</name> nützt hier die außerordentliche Dynamik des von <name ref="#heidlberger-pers026">Baermann</name> gespielten Instruments (am Beginn) ebenso aus wie die stimmliche und rhythmische Gestaltungskraft der Solistin. </p>
+            <figure xml:id="heidlberger-fig01-01" rend="notenbeispiel">
+               <graphic url="figures/heidlberger-fig01-01.pdf" width="612px" height="792px"/>
+               <head type="legend"/>
+            </figure>
+            <figure xml:id="heidlberger-fig01" rend="notenbeispiel">
+               <graphic url="figures/heidlberger-fig01-02.pdf" width="612px" height="792px"/>
+               <head type="legend"><hi rend="italic"><title ref="#heidlberger-work011">Gli Amori di Teolinda</title></hi>, Nr.&#8239;4, Anfang (Auszug)</head>
+            </figure>
+            <p>Notenbeispiel&#x00A0;<ref target="#heidlberger-fig01" type="crossref" rend="no"/> zeigt den Beginn der Nr.&#8239;4: die Klarinette lässt den Ton aus dem Nichts extrem anschwellen. Die Halbtonbewegung <hi rend="italic">g</hi>-<hi rend="italic">as</hi> mündet auf der Septime des Bläserakkordes auf <hi rend="italic">b</hi>, der das Signal für den Rezitativeinsatz der Singstimme gibt. Auf virtuose Girlanden des Soloinstruments (im Notenbeispiel verkürzt wiedergegeben) folgt das Es-Dur-Thema in der Klarinette, dessen Schlussphase im Notenbeispiel dargestellt ist. Das folgende Rezitativ ist als enggliedriges Wechselspiel von Singstimme und antwortendem Soloinstrument angelegt. 
+               <name ref="#heidlberger-pers026">Baermanns</name> kantabler Spielweise des Instruments kommen die Angaben <q>die Stimme nachahmend</q> und <q>das Clarinett parodiert die Stimme</q> entgegen. Erneut wird von der dynamischen Spannweite des Instruments und der Singstimme Gebrauch gemacht. Nach dem <soCalled>Zusammenfinden</soCalled> beider Stimmen, die sich in Terzparallelen ergehen, mündet die Klarinette in einen Triller, der eine ausgedehnte notierte Kadenz einleitet.</p>
+            <p><name ref="#heidlberger-pers010">Meyerbeer</name> führt mit diesem Beispiel nicht nur vordergründige Instrumentaleffekte vor, die den beiden Solisten angepasst sind, sondern er trifft auch den charakteristischen Ton dieser Schäferidylle und damit eine der zeitgenössischen Oper typischen Gestaltung ländlich-alpinen Kolorits. Beide Gestaltungselemente – konzertierendes Soloinstrument als klangliches Zeichen und pastorale Stimmung als dramatischer Ausdruck – entwickeln sich zu Topoi, auf die der Komponist später wiederholt zurückgreift. <name ref="#heidlberger-pers010">Meyerbeer</name> benutzt dazu opernverwandte Kleinformen, die ihm als Experimentierfeld für derartige Wirkungen dienen: Neben der erwähnten dramatischen Kantate ist dies etwa auch das Oratorium <hi rend="italic"><title ref="#heidlberger-work013">Gott und die Natur</title></hi>  (1811) sowie die Verarbeitung des <hi rend="italic"><title ref="#heidlberger-work029">Ranz des vaches d’Appenzell</title></hi>  als klavierbegleitete Duoszene auf einen Text von <name ref="#heidlberger-pers040">Eugène Scribe</name> (1828), die Alpenkolorit und Schäferidylle erneut exponiert.</p>
+         </div>
+
+         <div xml:id="heidlberger-div4">
+            <head></head>
+            <p><name ref="#heidlberger-pers010">Meyerbeer</name> war in seiner frühen italienischen Zeit in erster Linie Lernender. Als Komponist hielt er sich – von Gelegenheitswerken wie der erwähnten Kantate abgesehen&#x00A0;–  bewusst zurück, um sich zunächst an den Werken der einheimischen Komponisten zu schulen. Erst in der dritten und vierten Phase erschloss sich <name ref="#heidlberger-pers010">Meyerbeer</name> durch die Zusammenarbeit mit den führenden italienischen Librettisten der Zeit, <name ref="#heidlberger-pers032">Gaetano Rossi</name> und <name ref="#heidlberger-pers033">Felice Romani</name>, jene Stoffe und Genres, an denen sich seine musikdramatischen Ideen entzünden konnten. 
+               Wie gezeigt, wies <name ref="#heidlberger-pers010">Meyerbeers</name> Feder bereits in <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>  und in der Kantate <hi rend="italic"><title ref="#heidlberger-work011">Gli Amori die Teolinda</title></hi>  eine ausgeprägte und sichere Singstimmenbehandlung auf. Nun galt es, größere musikdramatische Einheiten zu bilden, die sowohl der speziellen dramatischen Situation als auch dem Handlungsgefüge und der Situationspsychologie musikalisch gerecht werden konnten. 
+               Jüngere Untersuchungen auf dem Gebiet der formalen und stilistischen Entwicklung in <name ref="#heidlberger-pers010">Meyerbeers</name> Frühwerk haben gezeigt, dass für <name ref="#heidlberger-pers010">Meyerbeer</name> das Genre der halbernsten Opern, des <hi rend="italic">melodramma semiserio</hi> bzw. der <hi rend="italic">opera semiseria</hi>  zu einem wichtigen Experimentierfeld wurde, das ihm die freie Kombination italienischer, französischer, traditioneller und aktueller Gestaltungskonzepte ermöglichte. 
+               Demnach erscheint <hi rend="italic"><title ref="#heidlberger-work033">Romilda e Costanza</title></hi>  als typische Vertreterin einer historischen Umbruchsituation innerhalb der Entwicklung des italienischen melodramma, ein Umbruch, der, so <name ref="#heidlberger-pers035">Markus Engelhardt</name>, für <name ref="#heidlberger-pers010">Meyerbeer</name> selbst einen <q>Aufbruch</q> markiere.<ref target="#Engelhardt1998" type="bibl"><!--(siehe Fußnote 2), -->S.&#8239;40</ref></p>
+            <p>In <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi>  entwickelt <name ref="#heidlberger-pers010">Meyerbeer</name> bereits jene szenischen Großkomplexe, welche das Tableau der späteren Grand Opéra antizipieren. Dass innerhalb dieser großformalen Komplexe die dramaturgische Mehrschichtigkeit der Charaktere und Situationen wesentlich ist — und damit eine entsprechende Reflexion innerhalb des musikalischen Gefüges motiviert —, stellte <name ref="#heidlberger-pers034">Jacobshagen</name> heraus: 
+               Er zeigt anhand der Introduktion, dass die <q>vordergründige Heiterkeit des einleitenden Genrebildes mit Würfelspiel, Marketenderinnen und Trinkliedern […] durch die Anwesenheit des auf Rache sinnenden Spions</q> gebrochen werde und verweist dabei auf die ungewöhnliche Blechbläserbehandlung sowie auf die Nähe zu <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi>  hinsichtlich der <quote source="#heidlberger-ftn15">kontrastreich gegliederten Binnenstruktur</quote><ref target="#Jacobshagen1998" type="bibl" xml:id="heidlberger-ftn15"><!--(siehe Fußnote 2), -->S.&#8239;56</ref>. Im Kontext der italienischen Operngattungen der Zeit wirken diese Gestaltungsmerkmale, wenn nicht als fremde Elemente, so doch als Kennzeichen einer Materialbehandlung, die sich mit experimenteller Freizügigkeit neue Dimensionen charakteristischen Ausdrucks erschließt.</p>
+         </div>
+         <!--<p>***</p>-->
+         <!--<milestone rend="bigskip"/>-->
+         <div xml:id="heidlberger-div5">
+            <head></head>
+            <p>Ist <hi rend="italic"><title ref="#heidlberger-work033">Romilda e Costanza</title></hi>  in erster Linie ein Erfolg mit lokaler Bedeutung, und trägt <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi>  bereits die Züge der kompositorischen Reife, die geradewegs auf den <hi rend="italic"><title ref="#heidlberger-work014">Crociato in Egitto</title></hi>  weisen, erscheint <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>, die auch zeitlich zwischen diesen beiden Opern angesiedelt ist, als ambivalentes Werk. 
+               Wie <hi rend="italic"><title ref="#heidlberger-work033">Romilda</title></hi>  steht es in der Tradition der Rettungsoper, wie <hi rend="italic"><title ref="#heidlberger-work021">Margherita</title></hi> tragen Ensemble- und Tableaugestaltung sowie die Orchesterbehandlung Züge des zukunftsweisenden Experiments. 
+               Mit diesem Werk steht <name ref="#heidlberger-pers010">Meyerbeer</name> an der Schwelle einer neuen historischen Phase, die den Künstler mit einem individuellen stilistischen Profil definiert. 
+               An dieser Oper entzündet sich ein ästhetischer Diskurs, der bereits Motive der späteren <name ref="#heidlberger-pers010">Meyerbeer</name>-Kritik&#x00A0;–&#x00A0;jenen Vorwurf der eklektizistischen Aneignung verschiedener Vorbilder und Stile – vorwegnahm.<ref type="bibl" target="#Doehring2014">S.&#8239;115</ref> 
+               Dieser Diskurs lässt sich als Polarisierung zwischen der auf <q>dramatische Wahrheit</q> pochenden romantisch-deutschen Schule und der Befürworter einer Italianità alla <name ref="#heidlberger-pers016">Rossini</name> beschreiben. 
+               Doch es ist weniger diese allgemein bekannte Schwarz-Weiß-Malerei als vielmehr die Art der Argumentation der beiden Gruppen, die bemerkenswert ist. 
+               Trifft <name ref="#heidlberger-pers010">Meyerbeer</name> vor allem die negative Kritik der ersteren Gruppe, eine Kritik, die sich in Wien schnell zur Polemik steigert und darin gipfelt, <name ref="#heidlberger-pers010">Meyerbeer</name> jegliche Originalität abzusprechen, bleibt er eben auch bei den Anhängern <name ref="#heidlberger-pers016">Rossinis</name> nur in der Rolle des Nachahmers. Beide Pole der Kritik treffen nicht den sachlichen Kern dessen, was <name ref="#heidlberger-pers010">Meyerbeer</name> mit dieser Oper gestalterisch leistete, schon gar nicht <name ref="#heidlberger-pers012">Webers</name> eingangs erwähnte Reserve gegenüber <name ref="#heidlberger-pers010">Meyerbeers</name> vermeintlichem Abdriften in die <q>wälsche Kultur</q>. 
+               Diese Sichtweise ist einseitig und verstellt den Blick auf die <q>pluralistische Ästhetik</q>, die diesem Werk zugrunde liegt und die sich als <q>entschiedener Stilwille</q> äußert, <quote source="#heidlberger-ftn16">der das vorhandene musikdramatische Vokabular auf neue Weise zum Sprechen zu bringen vermag</quote>.<ref target="#Doehring2014" type="bibl" xml:id="heidlberger-ftn16" rend="ibid"/></p>
+            <p>Dieses <q><title ref="#heidlberger-work007">Melodramma eroico</title></q> greift auf zwei Stoffgebiete zurück, die in der Zeit der nachrevolutionären Neuorientierung der italienischen und französischen Oper kaum wegzudenken sind, zum einen auf das Motiv der Gattenliebe, auf die Frau, die bereit ist, sich für den zu Unrecht verurteilten Ehemann zu opfern, zum anderen die Welt Ossians, das düster-nordische Kolorit schottischer Schlösser und Friedhöfe, das <name ref="#heidlberger-pers036">Luigi Cherubini</name> und <name ref="#heidlberger-pers041">Étienne Nicolas Méhul</name> so treffend einzufangen verstanden.<note xml:id="heidlberger-ftn29" n="29">Hier sei die Handlung knapp zusammengefasst: I.&#8239;Akt, Graf Edemondo befindet sich auf der Flucht. Er wird fälschlicherweise des Mordes an seinem Vater bezichtigt. Emma sucht ihren Gatten Edemondo; ihren Sohn gibt sie dem befreundeten Olfredo in Pflege. Norcesto ist neuer Herr auf Lanerk, der Burg Edemondos, und sucht nach diesem, um ihn der Bestrafung zuzuführen. Edemondo (als Hirte verkleidet) und Emma (als Barde verkleidet) treffen sich auf der Burg Olfredos. Auf einem Fest erscheint Norcester und erkennt die Ähnlichkeit zwischen dem Kind und dem flüchtigen Edemondo. Norcester will das Kind entführen, doch Emma verhindert dies, indem sie sich als Mutter des Kindes zu erkennen gibt. II.&#8239;Akt, nach Edemondo wird weiter erfolglos gesucht. Er stellt sich erst, als das Volk und die Ritter versuchen, das Kind aus Rache zu töten. Edemondo wird zum Tode verurteilt, obwohl er unschuldig ist. Emma klagt daraufhin Norcester des Mordes an. Die Spannung steigt, Edemondo steht kurz vor seiner Hinrichtung, als Norcester die Wahrheit offenbart: Norcesters verstorbener Vater Duncalmo hatte den Mord verübt, was Norcester durch seine falsche Anklage verdunkeln wollte, um den Ruf des Vaters zu retten. Emma ist wieder mit Edemondo vereint.</note> 
+               <name ref="#heidlberger-pers010">Meyerbeers</name> musikalische Umsetzung  dieses Ambientes lässt in besonderem Maße seine treffsichere Klangfarbenbehandlung erkennen: Posaune und Pauken bilden oft eine Grundfarbe, das Bardenlied der verkleideten Emma im I.&#8239;Akt weist mit seiner Harfenbegleitung unmittelbar auf das literarische Vorbild. Von noch größerer Bedeutung ist die Tatsache, dass es <name ref="#heidlberger-pers010">Meyerbeer</name> gelingt, ein situationsgerechtes und charaktertypisches Klangkolorit (im Sinne der Orchestrierung und der harmonischen Klangfortschreitung) zu gestalten, dass nicht in vereinzelten Momenten, sondern als durchgehendes Grundprinzip deutlich wird. Ist die Verwendung der Flöte und der Oboe als Charakterfarben der Emma (sowie, im I.&#8239;Akt, des Pastoralen) noch eher aus der Tradition zu deuten, weisen die Englischhorn- und Fagottduette zur Pointierung von Emmas Empfindungen im Angesicht der Vollstreckung des Todesurteils auf die markante Gestaltungstechnik der französischen Oper. 
+               Beruhen diese Mittel als Techniken per se noch stark auf Vorbildern der Klangdramaturgie der <name ref="#heidlberger-pers017">Gluck</name>-Schule, wobei die Behandlung tiefer Holzbläser in Verbindung mit charakteristischen Akkordrückungen (also Ganzton-Grundschritte oder Terzfortschreitungen) den Einfluss von <name ref="#heidlberger-pers010">Meyerbeers</name> Lehrer <name ref="#heidlberger-pers011">Vogler</name> durchscheinen lassen, gelingt <name ref="#heidlberger-pers010">Meyerbeer</name> durch die kontrastreich angelegte Kombination dieser Techniken mit einer ausgeprägten Singstimmenbehandlung eine großzügige dramatische Tableaubildung, vor allem im II.&#8239;Akt. 
+               In dessen erster Szene, die das anklagende Volk, das Gericht und Emmas große <soCalled>Abrechnung</soCalled> mit dem Bösewicht Norcester zeigt, wechseln Soloepisoden, Dialogpartien und Chorkommentar in enger Verklammerung von individuellem Ausdruck und allgemeiner dramatischer Zeichnung des (re-) agierenden Kollektivs unter dem großen Bogen einer sich zuspitzenden Handlung miteinander ab. In der zweiten Szene des II.&#8239;Aktes gewinnt zudem die flexible Gestaltung des klanglich-harmonischen Bereichs eine besondere Bedeutung innerhalb des von Brechungen und Kontrasten gezeichneten dramaturgischen Kontinuums (siehe Notenbeispiel&#x00A0;<ref target="#heidlberger-fig02" type="crossref" rend="no"/>).</p>
+            <figure xml:id="heidlberger-fig02" rend="notenbeispiel">
+               <graphic url="figures/heidlberger-fig02.pdf" width="612px" height="792px"/>
+               <head type="legend"><hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>, Auszüge aus II.&#8239;Akt, 2.&#8239;Szene</head>
+            </figure>
+            <p>Das Zulaufen auf die Peripetie beginnt mit der resignativen Erwartung des Vollzugs des Todesurteils (Cavatine der Emma, Trauermarsch). Die Signale zur Hinrichtung unterbrechen Emmas klagendes F-Dur mit Des-Dur-Akkordbrechungen. Dieses Des-Dur moduliert enharmonisch (über den Quintfall <hi rend="italic">cis</hi>-<hi rend="italic">fis</hi>) zum A-Dur bei Norcesters Einsatz. Norcester unterbricht die Hinrichtungszeremonie mit der Nachricht, Edemondo sei unschuldig. Die Offenbarung des Namens des wahren Mörders wird spannungsvoll verzögert: schneidende Akkordsignale des vollen Orchesters begleiten die Forderung des Chors nach der Nennung des wahren Mörders. Die statische Harmonik (A-Dur-Akkorde) wird mit Norcesters Einsatz aufgebrochen und setzt eine musikalische Dynamik in Gang, die mit einstimmigen Blechbläser-Signalen und unerwarteten harmonischen Rückungen nach C-Dur drängt. Dieses C-Dur fungiert als harmonische Basis einer neuen Themenphrase, die ihrerseits das Gerüst für Norcesters Offenbarung darstellt.</p>
+            <p>Der beschriebene Abschnitt zeigt deutliche Ansätze zur <soCalled>Klangregie</soCalled>: die Folge von Terzbeziehungen (<hi rend="italic">F</hi>-<hi rend="italic">Des</hi>/<hi rend="italic">cis</hi>-<hi rend="italic">A</hi>-<hi rend="italic">C</hi>) führt zu einer dramaturgisch begründeten harmonischen <soCalled>Umblendung</soCalled> dieser entscheidenden dramatischen Situation: Emma, das Volk und Norcester werden schlaglichtartig mit kontrastierenden Klängen beleuchtet. Bühnengeschehen, dramatische Steigerung und musikalische Charakteristik bedingen sich gegenseitig auf verschiedenen Ebenen des Affekts. Das stilisierte <soCalled>Auskomponieren</soCalled> des Librettos weicht einem <soCalled>Mitempfinden</soCalled> von fast musikdramatischer Dimension. In dieser Vorausnahme einer der wesentlichen Gestaltungsformen der späteren Grand Opéra, der plastischen Zeichnung der bewegten Dramaturgie des Tableaus in der Musik mit klangtechnischen Mitteln, liegt die Bedeutung von <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title>.</hi>
+            </p>
+            <figure xml:id="heidlberger-fig03" rend="notenbeispiel">
+               <graphic url="figures/heidlberger-fig03.pdf" width="612px" height="792px"/>
+               <head type="legend"><hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>, I.&#8239;Akt, Canzonetta con Variazione (Singstimmenmelodie, Anfangstakte von Thema und Variationen)</head>
+            </figure>
+            <p>Dieses Urteil lässt sich für diese Oper zweifellos nicht generalisieren. Oft finden sich Abschnitte, die an Gestaltungskonventionen der zeitgenössischen italienischen Oper, vor allem <name ref="#heidlberger-pers016">Rossinis</name>,  orientiert sind. An die Stelle dramatisch motivierter Stimmungen treten solche, die durch den Stimmcharakter der Figur und Gestaltungsmöglichkeiten des Belcanto geprägt sind. 
+               Hierfür stehen etwa die Cavatine des Edemondo und die Canzonetta der Emma im I.&#8239;Akt. Dort beharrt der Komponist auf regelmäßigen Themenperioden mit virtuosen Motiven, Floskeln und Skalen, die in Emmas Canzonette, dem Harfenlied, als sich steigernde Variationenreihe angelegt sind (Notenbeispiel&#x00A0;<ref target="#heidlberger-fig03" type="crossref" rend="no"/>). Auch macht <name ref="#heidlberger-pers010">Meyerbeer</name> von der Kanontechnik als dem in seinen früheren Werken bereits angewandten Mittel zur Ensemblegestaltung Gebrauch, wie das Finale des I.&#8239;Aktes zeigt (Notenbeispiel&#x00A0;<ref target="#heidlberger-fig04" type="crossref" rend="no"/>). Diesem Satz liegt eine einfache, fließende Melodie zugrunde, welche die Stimmung durch Solopartien von Fagott und Flöte zeichnen <q>di gioja, di pace | la bella speranza</q>. Die Imitationsfolge der Singstimmen, die in Notenbeispiel&#x00A0;<ref target="#heidlberger-fig04" type="crossref" rend="no"/> verkürzt dargestellt wird, fügt sich zu einem vollstimmigen polyphonen Gebilde zusammen, dessen Einzelphrasen subtile Komplementärmotive aufweisen.</p>
+            <p>Dieses Andantino kombiniert effektvoll virtuos-figurierte Einzelstimmen und breiten Chor-Ensembleklang. Zusätzlich setzt <name ref="#heidlberger-pers010">Meyerbeer</name> solistische Holzbläser ein, die für den Komponisten von seiner ersten Oper an eine bedeutende Rolle für die Gestaltung von Eröffnungsphrasen spielen, vor allem bei Nummern mit kontemplativem Grundcharakter oder, wie hier, einer freudig-erwartungsvollen Grundstimmung.</p>
+            <figure xml:id="heidlberger-fig04" rendition="#latex-heidlberger-fig04" rend="notenbeispiel">
+               <graphic url="figures/heidlberger-fig04.pdf" width="612px" height="792px"/>
+               <head type="legend"><hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>, Finale I, kanonische Einsätze der Singstimmen</head>
+            </figure>
+            <p>Eine Uraufführungskritik warf <name ref="#heidlberger-pers010">Meyerbeer</name> vor, seine Schreibweise sei zu stark elaboriert, was zu einer unnatürlichen Darstellungsform führe.<ref target="#Doehring2014" type="bibl" xml:id="heidlberger-ftn30"/>
+               An Stellen wie der zuvor beschriebenen mag dies im Ansatz zutreffen, doch gewinnt man nie den Eindruck satztechnischer Willkür. Vielmehr entfalten sich hier <name ref="#heidlberger-pers010">Meyerbeers</name> intensive Kontrapunktstudien zu voller Blüte. Der I.&#8239;Akt von <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>  verdeutlicht <name ref="#heidlberger-pers010">Meyerbeers</name> Entwicklungsstand als jenen der Orientierung und der gewandten Ausnutzung neu errungener stilistischer Sicherheit, doch es wäre höchst inadäquat, diesen Stil als Gemisch <q>deutscher</q> und <q>italienischer</q> Elemente zu beschreiben, wie dies in der Kritik zuweilen geschah. Dieses Urteil ignoriert die hier bereits vorhandene Gestaltungskraft des musikalischen Kontinuums aus dem unmittelbaren, nicht mehr stilisierten, dramatischen Geschehen.</p>
+            <p>Mit diesem Werk im Ganzen ist indes <name ref="#heidlberger-pers010">Meyerbeers</name> <q>Frühwerk</q> im Zeichen einer ausgeprägten Musiksprache weitgehend abgeschlossen, nicht jedoch <name ref="#heidlberger-pers010">Meyerbeers</name> Entwicklung als Komponist. Das <q>work in progress</q>, von dem eingangs die Rede war, ist noch längst nicht ad acta gelegt. <name ref="#heidlberger-pers010">Meyerbeer</name> hatte sich bis zur <hi rend="italic"><title ref="#heidlberger-work007">Emma</title></hi>  das kompositorische Handwerk durch Anwendung typisierter Modelle der italienischen Oper erarbeitet und dabei zu einer situationsgerechten und charakteristischen Gestaltungsform gefunden. 
+               Der Weg zu <hi rend="italic"><title ref="#heidlberger-work030">Robert le diable</title></hi> führte ihn mithin über eine Vielzahl primär italienischer Stationen, doch erst die Überwindung der italienischen Episode erschließt ihm jene Freiräume, die er zur Entfaltung einer stilbildenden künstlerischen Autonomie benötigt. 
+               Der Vorwurf des Eklektizismus, der gegen <name ref="#heidlberger-pers010">Meyerbeer</name> immer wieder erhoben wurde, verkennt diesen Prozess vollständig, da er auf der  willkürlichen Herauslösung und Betrachtung separater Elemente in seinen Opern beruht. Hinsichtlich <name ref="#heidlberger-pers014">Döhrings</name> eingangs zitierter These des Perspektivenwechsels von <name ref="#heidlberger-pers010">Meyerbeers</name> frühen Opern lässt sich schlussfolgern, dass der emotionale <q>impact</q> in jenem Werkkorpus nicht nur in Ansätzen, sondern als wohlkalkulierte musikalische und instrumentationstechnische Dramaturgie verwirklicht wird. Auch wenn dies, vor allem hinsichtlich der Stringenz der eingesetzten Mittel im Verhältnis zur formalen Gliederung, am einzelnen Werk überprüft werden muss, kommt den Frühwerken <name ref="#heidlberger-pers010">Meyerbeers</name> mehr Stellenwert zu als nur Forschungsobjekt der Musikwissenschaft zu sein.</p>
+         </div>
+         
+         
+         <!--
+         <p>Notenbeispiele</p>
+         <p>Beispiel 1, <hi rend="italic">Gli Amori di Teolinda</hi>, Nr.&#8239;4, Anfang (Auszug)</p>
+         <p>Beispiel 2 a, <hi rend="italic">Emma di Resburgo</hi>, Auszüge aus II. Akt, 2. Szene</p>
+         <p>Beispiel 2 b, <hi rend="italic">Emma di Resburgo</hi>, I. Akt, Canzonetta con Variazione<lb/>(Singstimmenmelodie, Anfangstakte von Thema und Variationen)</p>
+         <p>Beispiel 2 c, <hi rend="italic">Emma di Resburgo</hi>, Finale I, kanonische Einsätze der Singstimmen</p>
+         -->
+         
+      </body>
+      <back>
+         <div type="appendix">
+            <head>Anhang</head>
+            
+            <table xml:id="heidlberger-table01">
+               <head>Meyerbeers Frühwerk, Schaffensphasen in Stichworten</head>
+               <row>
+                  <cell>
+                     1. — 1805–1814
+                  </cell>
+                  <cell rend="start">Lernphase im engeren Sinne: Berlin-Darmstadt-Wien; Unterricht in Berlin: <name ref="#heidlberger-pers022">G.&#8239;F. Zelter</name>, <name ref="#heidlberger-pers023">F. Lauska</name>, ab 1807: <name ref="#heidlberger-pers021">B.&#8239;A. Weber</name>; Darmstadt 1810–1812: <name ref="#heidlberger-pers011">Vogler</name>, Freundschaft mit <name ref="#heidlberger-pers012">C.&#8239;M.&#8239;v. Weber</name> u. <name ref="#heidlberger-pers018">Gottfried Weber</name>.</cell>
+               </row>
+               <row>
+                  <cell>
+                     2. — 1814–1817
+                  </cell>
+                  <cell rend="start">Zeit der Reisen, Eindrücke in Paris (Ende 1814–1815), London: Dez. 1815, ab Anfang 1816: Italien.</cell>
+               </row>
+               <row>
+                  <cell>
+                     3. — 1817–1820
+                  </cell>
+                  <cell rend="start">Erstes Auftreten als Opernkomponist, lokale Erfolge in Italien, erste Verbreitung seiner Opern (<hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi>) außerhalb Italiens (Wien, Dresden) Rückkopplungen nach Berlin.</cell>
+               </row>
+               <row>
+                  <cell>
+                     4. — 1820–1827
+                  </cell>
+                  <cell rend="start">Zunehmende internationale Profilierung, Eigenbehauptung gegenüber <name ref="#heidlberger-pers016">Rossini</name> (<hi rend="italic"><title ref="#heidlberger-work021">Margherita</title></hi>, <hi rend="italic"><title ref="#heidlberger-work014">Crociato</title></hi>); 1825: Paris; 1827: Beginn der Zusammenarbeit mit <name ref="#heidlberger-pers040">Eugène Scribe</name>.</cell>
+               </row>
+            </table>
+            
+            <pb/>
+            
+            <table xml:id="heidlberger-table02">
+               <head>Wichtige Werke <name ref="#heidlberger-pers010">Meyerbeers</name> bis <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi></head>
+               <row>
+                  <cell role="label">Name</cell>
+                  <cell role="label">Bemerkungen</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work013">Gott und die Natur</title></hi>
+                     <lb/>Lyrische Kantate</cell>
+                  <cell>UA Berlin, 8.&#8239;Mai 1811 unter <name ref="#heidlberger-pers021">Bernhard Anselm Weber</name>.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work016">Jephtas Gelübde</title></hi>
+                     <lb/>Oper in drei Akten</cell>
+                  <cell>UA München, 23.&#8239;Dezember 1812. Entstanden 1811/12 unter der Aufsicht Georg Joseph Voglers in Darmstadt, Würzburg und München.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work039">Wirth und Gast <lb/>oder Aus Scherz Ernst</title></hi>
+                     <lb/>Lustspiel in zwei Akten</cell>
+                  <cell rend="start">UA Stuttgart, 6.&#8239;Januar 1813, umgearb. als <hi rend="italic">Die beiden Kalifen (Alimelek)</hi>, UA Wien, 20.&#8239;Oktober 1814.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work011">Gli Amori di Teolinda</title></hi> <lb/> Dramatische Kantate</cell>
+                  <cell rend="start">UA Verona, 18.&#8239;März 1816. Kantate für Sopran, Klarinette, Chor und Orchester, Libretto von <name ref="#heidlberger-pers032">Gaetano Rossi</name>.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work033">Romilda e Costanza</title></hi>
+                     <lb/>Melodramma semiserio in due atti</cell>
+                  <cell rend="start">UA Padua, Teatro nuovo, 19.&#8239;Juli 1817. Libretto von <name ref="#heidlberger-pers032">Gaetano Rossi</name>.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work036">Semiramide riconosciuta</title></hi>
+                     <lb/>Dramma per musica in due atti</cell>
+                  <cell rend="start">UA Turin, Teatro Regio, März 1819, Libretto von <name ref="#heidlberger-pers032">Gaetano Rossi</name> nach <name ref="#heidlberger-pers044">Pietro Metastasio</name>.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work007">Emma di Resburgo</title></hi> <lb/>Melodramma eroico in due atti</cell>
+                  <cell rend="start">UA Venedig, Teatro San Benedetto, 26.&#8239;Juni 1819, Libretto von <name ref="#heidlberger-pers032">Gaetano Rossi</name>. Aufführungen 1820 in Florenz, Berlin (als <hi rend="italic">Emma von Roxburgh</hi>), Dresden (<name ref="#heidlberger-pers012">Carl Maria von Weber</name>, auf italienisch), Wien (als <hi rend="italic">Emma von Leicester</hi>), Frankfurt am Main; 1821 in Warschau.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work021">Margherita d’Anjou</title></hi> <lb/> Opera semiseria in due atti</cell>
+                  <cell rend="start">UA Mailand, La Scala, 14.&#8239;November 1820, Libretto von <name ref="#heidlberger-pers033">Felice Romani</name> nach <name ref="#heidlberger-pers043">Guilbert de Pixérécourt</name>. Umarbeitung in drei Akte von <name ref="#heidlberger-pers020">Thomas Sauvage</name>, 11.&#8239;März 1826, Paris, Théâtre Odéon.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work020">L’Esule di Granata</title></hi><lb/>
+                     Opera seria in due atti</cell>
+                  <cell rend="start">UA Mailand, La Scala, 12.&#8239;März 1822. Libretto von <name ref="#heidlberger-pers033">Felice Romani</name>.</cell>
+               </row>
+               <row>
+                  <cell rend="start">
+                     <hi rend="italic"><title ref="#heidlberger-work014">Il Crociato in Egitto</title></hi><lb/>
+                     Opera seria in due atti</cell>
+                  <cell rend="start">Venedig, La Fenice, UA 7.&#8239;März 1824. Libretto von <name ref="#heidlberger-pers032">Gaetano Rossi</name>. Umarbeitung für Paris, 25.&#8239;September 1825, Théâtre Italien.</cell>
+               </row>
+            </table>
+            
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Doehring1991">Sieghart Döhring, <title level="a">Emma di Resburgo</title>, in: <title level="m">Pipers Enzyklopädie des Musiktheaters</title>, Bd.&#8239;4, München und Zürich 1991, S.&#8239;114</bibl>
+               <bibl xml:id="Doehring2014">Sieghart Döhring, <title level="a">Die italienischen Opern Giacomo Meyerbeers</title>, in: <title level="m">Musiktheater im Fokus</title>, hg. von Sieghart Döhring u.&#8239;a., Sinzig 2014, S.&#8239;81–95<bibl type="short">Döhring, <title level="a">Die italienischen Opern Giacomo Meyerbeers</title></bibl></bibl>
+               <bibl xml:id="Meyerbeer1960">Giacomo Meyerbeer, <title level="m">Briefwechsel und Tagebücher</title>, hg. von Heinz Becker, Bd.&#8239;1, Berlin 1960<bibl type="short">Meyerbeer, <title level="m">Briefwechsel und Tagebücher</title></bibl></bibl>
+               <bibl xml:id="Heidlberger1998b">Frank Heidlberger, <title level="a"><q>Jephtas Gelübde</q>: Charakteristische Form und musikalische Gestalt in Meyerbeers Frühwerk</title>, in: <ref target="#Doehring1998" type="bibl"/>, <!--<title level="m">Meyerbeer und das europäische Musiktheater</title>, hg. von Sieghart Döhring und  Arnold Jacobshagen, Laaber 1998 (Thurnauer Schriften zum Musiktheater&#x00A0;16),--> S.&#8239;1–26</bibl>
+               <bibl xml:id="Engelhardt1998">Markus Engelhardt, <title level="a">Giacomo Meyerbeers italienischer Opernerstling <hi rend="italic">Romilda e Constanza</hi></title>, in: <ref target="#Doehring1998" type="bibl"/>,<!--<title level="m">Meyerbeer und das europäische Musiktheater</title>, hg. von Sieghart Döhring und  Arnold Jacobshagen, Laaber 1998 (Thurnauer Schriften zum Musiktheater&#x00A0;16),--> S.&#8239;27–40</bibl>
+               <bibl xml:id="Jacobshagen1998">Arnold Jacobshagen, <title level="a">Pixérécourt – Romanelli – Romani: <emph>Margherita d’Anjou</emph> und das Melodramma semiserio</title>, in: <ref target="#Doehring1998" type="bibl"/>,<!--<title level="m">Meyerbeer und das europäische Musiktheater</title>, hg. von Sieghart Döhring und  Arnold Jacobshagen, Laaber 1998 (Thurnauer Schriften zum Musiktheater&#x00A0;16),--> S.&#8239;41–63</bibl>
+               <bibl xml:id="Mongredien1998">Jean Mongrédien, <title level="a">Les débuts de Meyerbeer à Paris: <emph>Il crociato in Egitto</emph> au théâtre Royal Italien</title>, in: <ref target="#Doehring1998" type="bibl"/><!--<title level="m">Meyerbeer und das europäische Musiktheater</title>, hg. von Sieghart Döhring und  Arnold Jacobshagen, Laaber 1998 (Thurnauer Schriften zum Musiktheater&#x00A0;16),--> S.&#8239;64–72<bibl type="short">Mongrédien, <title level="a">Les débuts de Meyerbeer à Paris</title></bibl></bibl>
+               <bibl xml:id="Heidlberger1992">Frank Heidlberger, <title level="a">Meyerbeer und Weber. Zur künstlerischen Wechselbeziehung aus der Sicht der frühen Werke</title>, in: <ref target="#John1992" type="bibl"/>,<!--<title level="m">Bericht der Wissenschaftlichen Konferenz Meyerbeer, Große Oper — Deutsche Oper, Dresden 1991</title>, hg. von Hans John u.&#8239;a. (Schriftenreihe der Hochschule für Musik Carl Maria von Weber, Dresden&#x00A0;24), Dresden 1992,-->  S.&#8239;26–48</bibl>
+               <bibl xml:id="Veit1992">Joachim Veit, <title level="a">Abuhassan, Der Admiral und Alimelek – Opern aus der Voglerschen Schule</title>, in: <ref target="#John1992" type="bibl"/>,<!--<title level="m">Bericht der Wissenschaftlichen Konferenz Meyerbeer, Große Oper — Deutsche Oper, Dresden 1991</title>, hg. von Hans John u.&#8239;a. (Schriftenreihe der Hochschule für Musik Carl Maria von Weber, Dresden&#x00A0;24), Dresden 1992,-->  S.&#8239;49–63</bibl>
+               <bibl xml:id="Everist2005">Mark Everist, <title level="m">Giacomo Meyerbeer and Music Drama in Nineteenth-Century Paris</title>, Aldershot 2005</bibl>
+               <bibl xml:id="Jacobshagen2005">Arnold Jacobshagen, <title level="m">Opera semiseria. Gattungskonvergenz und Kulturtransfer im Musiktheater</title>, Stuttgart 2005 (Beihefte zum Archiv für Musikwissenschaft&#x00A0;57)</bibl>
+               <bibl xml:id="Allroggen1992">Gerhard Allroggen, <title level="a"><q>Emma di Resburgo</q> und der Streit um das <q>Verdauungsvermögen der italienischen Kunstmägen</q></title>, in: <ref target="#John1992" type="bibl"/>,<!--<title level="m">Bericht der Wissenschaftlichen Konferenz Meyerbeer, Große Oper — Deutsche Oper, Dresden 1991</title>, hg. von Hans John u.&#8239;a. (Schriftenreihe der Hochschule für Musik Carl Maria von Weber, Dresden&#x00A0;24), Dresden 1992,--> S.&#8239;70–80</bibl>
+               <bibl xml:id="Heidlberger1994">Frank Heidlberger, <title level="m">Weber und Berlioz. Studien zur französischen Weber-Rezeption</title>, Tutzing 1994 (Würzburger Musikhistorische Beiträge&#x00A0;14)</bibl>
+               <bibl xml:id="Zimmermann1991">Rainer Zimmermann, <title level="m">Giacomo Meyerbeer. Eine Biographie nach Dokumenten</title>, Berlin 1991</bibl>
+               <bibl xml:id="Heidlberger1998">Frank Heidlberger, <title level="a">Unus est Deus, unus est Voglerus – Vogler als Lehrer Giacomo Meyerbeers</title>, in: <title level="m">Musikleben und <q>Musikwissenschaft</q> in Würzburg um 1800</title>, hg. von Ulrich Konrad, Tutzing&#x00A0;1998, S.&#8239;95–120</bibl>
+               <bibl xml:id="Betzwieser2003">Thomas Betzwieser u.&#8239;a. (Hg.), <title level="m">Abbé Vogler – Ein Mannheimer im europäischen Kontext</title>, Frankfurt am Main&#x00A0;2003<bibl type="short">Betzwieser (Hg.), <title level="m">Abbé Vogler</title></bibl></bibl>
+               <bibl xml:id="Heidlberger2003">Frank Heidlberger, <title level="a"><q>Ausdruk ist die Seele der Musik</q> — Georg Joseph Voglers Oper <q>Castor und Pollux</q> im historischen Kontext</title>, in: <ref target="#Betzwieser2003" type="bibl"/>,<!--<title level="m">Abbé Vogler – Ein Mannheimer im europäischen Kontext</title>, hg. von Thomas Betzwieser u.&#8239;a., Frankfurt am Main&#x00A0;2003,--> S.&#8239;247–269</bibl>
+               <bibl xml:id="Veit1998">Joachim Veit, <title level="a"><q>Es ist ganz göttliche Musik</q>. Zu Georg Joseph Voglers Oper Samori</title>, in: <title level="m">Musikleben und <q>Musikwissenschaft</q> in Würzburg um 1800, Symposiumsbericht Würzburg 1997</title>, hg. von Ulrich Konrad, Tutzing 1998, S.&#8239;49–69</bibl>
+               <bibl xml:id="John1992">Hans John u.&#8239;a. (Hg.), <title level="m">Bericht der Wissenschaftlichen Konferenz Meyerbeer, Große Oper — Deutsche Oper, Dresden 1991</title>, Dresden 1992 (Schriftenreihe der Hochschule für Musik Carl Maria von Weber, Dresden&#x00A0;24)<bibl type="short">John (Hg.), <title level="m">Bericht der Wissenschaftlichen Konferenz Meyerbeer</title></bibl></bibl>
+               <bibl xml:id="Doehring1998">Sieghart Döhring und  Arnold Jacobshagen (Hg.), <title level="m">Meyerbeer und das europäische Musiktheater</title>, Laaber 1998 (Thurnauer Schriften zum Musiktheater&#x00A0;16)<bibl type="short">Döhring/Jacobshagen (Hg.), <title level="m">Meyerbeer und das europäische Musiktheater</title></bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

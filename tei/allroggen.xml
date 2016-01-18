@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Die Elysium-Szene des <hi rend="italic">Orfeo</hi> von Gluck</title>
+            <title type="sub">Gedanken zur musikalischen Dramatik<note>Zuerst in italienischer Übersetzung veröffentlicht unter <hi rend="italic">La scena degli Elisi nell&#x2019;Orfeo. Considerazioni di drammaturgia musicale</hi>, in: <hi rend="italic">Chigiana. Rassegna annuale di studi musicologici</hi>, Bd.&#8239;XXIX–XXX (1975), S.&#8239;369–382.</note></title>
+            <author>
+               <name><forename>Gerhard</forename> <surname>Allroggen</surname></name>
+               <affiliation>wurde 1967 in Hamburg promoviert und habilitierte sich 1976 an der Ruhr-Universität Bochum. Ab 1977 hatte er eine Professur am Musikwissenschaftlichen Seminar Detmold/Paderborn inne, wo er 2001 emeritiert wurde. Er war Mitarbeiter der Neuen Mozart-Ausgabe, Mitherausgeber der Gesamtausgabe der literarischen Werke von E.&#8239;T.&#8239;A. Hoffmann und ist Herausgeber der Carl-Maria-von-Weber-Gesamtausgabe.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="allroggen-pers001">
+                  <p>Abert, Anna Amalia</p>
+               </person>
+               <person xml:id="allroggen-pers002">
+                  <p>Arend, Max</p>
+               </person>
+               <person xml:id="allroggen-pers004">
+                  <p>Brück, Paul</p>
+               </person>
+               <person xml:id="allroggen-pers006">
+                  <p>Einstein, Alfred</p>
+               </person>
+               <person xml:id="allroggen-pers007">
+                  <p>Fürstenau, Moritz</p>
+               </person>
+               <person xml:id="allroggen-pers008">
+                  <p>Gerber, Rudolf</p>
+               </person>
+               <person xml:id="allroggen-pers009">
+                  <p>Gluck, Christoph Willibald</p>
+                  <p n="work" xml:id="allroggen-work001"><hi rend="italic">Antigono</hi></p>
+                  <p n="work" xml:id="allroggen-work003"><hi rend="italic">Ezio</hi></p>
+                  <p n="work" xml:id="allroggen-work004"><hi rend="italic">Orfeo</hi></p>
+               </person>
+               <person xml:id="allroggen-pers011">
+                  <p>Goldschmidt, Hugo</p>
+               </person>
+               <person xml:id="allroggen-pers012">
+                  <p>Kurth, Ernst</p>
+               </person>
+               <person xml:id="allroggen-pers015">
+                  <p>Moser, Hans Joachim</p>
+               </person>
+               <person xml:id="allroggen-pers016">
+                  <p>Reißmann, August</p>
+               </person>
+               <person xml:id="allroggen-pers017">
+                  <p>Schmid, Anton</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="allroggen-latex-vspace-3">\vspace{-3ex}</rendition>
+            <rendition xml:id="allroggen-latex-vspace-15">\vspace{-1.5ex}</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-12-02T20:28:00"
+            who="https://github.com/peterstadler">Notenbeispiele eingefügt.</change>
+         <change when="2015-11-30T15:08:00"
+            who="https://github.com/peterstadler">Layout angepasst.</change>
+         <change when="2015-09-13T17:27:52.964+02:00"
+            who="https://github.com/peterstadler">Text fertig ausgezeichnet, Personen und Werke identifiziert.</change>
+         <change when="2015-08-27T16:35:52.964+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="allroggen-abstract"/>
+      </front>
+      <body>
+         <div xml:id="allroggen-div-01">
+           <head/>
+            <p>Der Ausgangspunkt meiner Überlegungen ist das Accompagnato-Rezitativ des Orpheus, das inmitten des zweiten Akts, und damit auch inmitten der ganzen Oper, die Gefilde der Seligen schildert. Die Bedeutung dieses Satzes für das Werk wie auch für die Geschichte der Gattung sind in der Gluck-Literatur ausführlich gewürdigt worden, auf die Vorbilder in der französischen und italienischen Oper, die Gluck vor Augen standen, ist hingewiesen, und die Mittel der Instrumentation und Satzkunst, die der Komponist bemüht hat, sind erkannt und beschrieben worden. Schon <name ref="#allroggen-pers017">Schmid</name> nennt dieses Accompagnato ein <quote source="#allroggen-ftn1">Meisterstück der dramatischen Recitation</quote>,<ref target="#Schmid1854" type="bibl" xml:id="allroggen-ftn1">S.&#8239;100</ref> A.&#8239;B.&#x00A0;Marx spricht zwar von der <q>rührend-komischen Folgsamkeit</q>, mit der <name ref="#allroggen-pers009">Gluck</name> <q>alles hinmalt</q>, was der staunende Sänger Orpheus bemerkt, aber er erkennt auch, wie alle Einzelheiten der Komposition, die er übrigens genau beschreibt, in einen <q>sinnigen Tonbau</q> zusammenschmelzen.<ref target="#Marx1863" type="bibl" xml:id="allroggen-ftn2">Bd.&#8239;1, S.&#8239;322</ref> 
+               <name ref="#allroggen-pers002">Arend</name> spricht von einem <quote source="#allroggen-ftn3">unvergleichlichen, die ganze selige Natur sympathetisch in der Orchesterbegleitung sprechen lassenden Rezitativ</quote>,<ref target="#Gluck1921" type="bibl" xml:id="allroggen-ftn3">S.&#8239;200</ref> <name ref="#allroggen-pers015">Moser</name> nennt es <quote source="#allroggen-ftn4"><name ref="#allroggen-pers009">Glucks</name> schönstes orchestrales Naturgemälde</quote>,<ref target="#Moser1940" type="bibl" xml:id="allroggen-ftn4">S.&#8239;164</ref> <name ref="#allroggen-pers008">Gerber</name> unterstreicht die Kontrastwirkung zum Inferno; wenn Orpheus <quote source="#allroggen-ftn5">das Elysium, wolkenlos, von klassischer Schönheit, wundersam beseelt durch die Stimmen der Natur […] in jenem einzigartigen Naturbild in stummer Verzückung wahrnimmt</quote>.<ref target="#Gerber1950" type="bibl" xml:id="allroggen-ftn5">S.&#8239;137</ref> 
+              <name ref="#allroggen-pers006">Einstein</name> spricht von einem <quote source="#allroggen-ftn6">Orchestergemälde einer überirdischen Landschaft: Oboen-Solo über murmelnden Streichern, unendliche Weite, Fremdheit, unendliches Glück und unendliche Melancholie</quote>.<ref target="#Einstein1954" type="bibl" xml:id="allroggen-ftn6">S.&#8239;112</ref> 
+               Auch <name ref="#allroggen-pers001">A.&#8239;A. Abert</name> schildert das musikalische Naturgemälde; <pb/><quote source="#allroggen-ftn7">die getragene Melodielinie der Solo-Oboe aber symbolisiert den über allem schwebenden göttlichen Frieden</quote>.<ref target="#Gluck1959" type="bibl" xml:id="allroggen-ftn7">S.&#8239;141</ref></p>
+            <p>Dass dieses Stück, von dem <name ref="#allroggen-pers006">Einstein</name> schreibt, man könne kaum glauben, dass es nicht für diese Stelle erfunden sei,<ref target="#Gluck1959" type="bibl" xml:id="allroggen-ftn8"/> tatsächlich der Arie einer früheren Oper <name ref="#allroggen-pers009">Glucks</name> entlehnt ist, diesen Umstand scheint zuerst <name ref="#allroggen-pers007">Fürstenau</name><ref xml:id="allroggen-ftn9" target="#Fuerstenau1869" type="bibl"/> bemerkt zu haben; <name ref="#allroggen-pers016">Reißmann</name> druckt im Anhang seiner Biographie<ref xml:id="allroggen-ftn10" target="#Reissmann1882" type="bibl"/> das Urbild, die Arie des Massimo aus <name ref="#allroggen-pers009">Glucks</name> <title ref="#allroggen-work003">Ezio</title> (I,&#8239;8).</p>
+        </div>
+            
+         <div xml:id="allroggen-div-03">
+            <head/>
+            <p><name ref="#allroggen-pers012">Ernst Kurth</name> machte in seinem Aufsatz über die Jugendopern <name ref="#allroggen-pers009">Glucks</name><ref target="#Kurth1913" type="bibl" xml:id="allroggen-ftn11"/> darauf aufmerksam, dass die Arie noch einmal im <title ref="#allroggen-work001">Antigono</title> (III,&#8239;6) verwendet wurde; erwähnt allerdings mit keinem Wort, dass diese beiden Arien das Vorbild für unsere Elysium-Szene abgegeben haben. <name ref="#allroggen-pers012">Kurth</name> gibt die Ritornelle beider Arien in Partitur wieder.</p>
+         <p>Die wesentlichen Elemente des Orfeo-Accompagnatos finden sich hier vorgebildet: die Sextolenfigur der Ersten Violine, die Melodie der Solo-Oboe, die grundierenden Haltenoten des Horns; die Vogelrufe in Flöte, Zweiter Violine und Violoncello sind hingegen Eigentümlichkeiten der Orfeo-Partitur.</p>
+            <p><name ref="#allroggen-pers012">Kurth</name> geht im Zusammenhang mit diesen beiden Arien auf das Problem der Tonmalerei ein und schreibt: <quote source="#allroggen-ftn12">Die Grenze zwischen bloßer Charakterisierung  und wirklichen  Farben ist schwer zu ziehen. Wenn beispielsweise das Rieseln eines Baches durch gleichmäßig wogende Bewegung in den Streichern gezeichnet wird, wie das unzählige Male bei <name ref="#allroggen-pers009">Gluck</name> vorkommt, so wird es nicht immer zu unterscheiden sein, ob noch eine äußerliche Andeutung vorliegt, oder schon in wirklichen Klangfarben das Rieseln und Plätschern gemalt ist. […] Während hier (<hi rend="italic">i.&#8239;e. im <title ref="#allroggen-work003">Ezio</title></hi>) die Begleitungsweise ein malender, äußerlicher Effekt ist, erscheint dieser im <title ref="#allroggen-work001">Antigono</title> zu einer tiefen Grundstimmung durch den Gedanken verinnerlicht, den düsteren Text der Arie des Demetrio durch Zugrundelegung des früheren rustikalen Instrumentalgemäldes zu symbolisieren.</quote><ref target="#Kurth1913" type="bibl" xml:id="allroggen-ftn12" rend="ibid">S.&#8239;238&#8239;f. und 244</ref></p> <!--Fußnote anpassen, Seitenzahl ermitteln?-->
+            <pb/>
+            <p>Diese Ausführungen <name ref="#allroggen-pers012">Kurths</name>, auf die wir noch zurückkommen werden, sind von deutlichem Einfluss auf die Dissertation <name ref="#allroggen-pers004">Paul Brücks</name><ref target="#Brueck1925" type="bibl" xml:id="allroggen-ftn13"/> gewesen. 
+               <name ref="#allroggen-pers004">Brück</name> stellt fest, dass es sich sowohl im <title ref="#allroggen-work003">Ezio</title> wie im <title ref="#allroggen-work001">Antigono</title> um die übliche dreiteilige Da-capo-Form der Arie handelt, und zwar um den sog. Gleichnis-Typ, der Anlass zu Tonmalerei gebe, die sich aber zu Klanggemälden entwickele, denen es nicht mehr auf die getreue Wiedergabe des Naturbildes ankomme, und schließlich zu Darstellungen des Affekts selbst ausreife. Im <title ref="#allroggen-work003">Ezio</title> male die Erste Violine den murmelnden Bach, die Oboen-Melodie charakterisiere den Stimmungsgehalt der Szene; man habe es in dieser Arie mehr mit einem charakterisierenden Klangbilde zu tun als mit realistischer Tonmalerei. Auch in der Arie aus dem <title ref="#allroggen-work001">Antigono</title> handele es sich um ein Naturbild, dieses sei nun aber nicht mehr Grundlage und erster Anlass der Komposition, sondern der Stimmungsgehalt, der Affekt selbst trete in den Vordergrund. 
+               <quote source="#allroggen-ftn14">Das Naturbild versinnbildlicht den Stimmungsgehalt. […] Das Tonmalende der Komposition erhält eine vertiefte Bedeutung</quote>.<ref target="#Brueck1925" type="bibl" xml:id="allroggen-ftn14" rend="ibid">S.&#8239;437</ref>
+         </p>
+            <p>Zieht man die Texte beider Arien Metastasios heran, so zeigt sich, dass von einem stimmungsvollen Naturbild die Rede nicht sein kann. Massimos Arie im <title ref="#allroggen-work003">Ezio</title> (I,&#8239;8) lautet:<milestone rendition="#allroggen-latex-vspace-3"/></p>
+            <floatingText rend="twocolumns" xml:id="allroggen-float01">
+               <body>
+                  <l>Se povero il ruscello</l>
+                  <l>Mormora lento e basso</l>
+                  <l>Un ramuscello,</l>
+                  <l>Un sasso</l>
+                  <l>Quasi arrestar lo fa.</l>
+                  <l>Ma se alle sponde poi</l>
+                  <l>Gonfio d&#x2019;umor sovrasta</l>
+                  <l>Argine oppor non basta;</l>
+                  <l>E co&#x2019; ripari suoi</l>
+                  <l>Torbido al mar sen va.</l>
+               </body>
+            </floatingText>
+            <p><milestone rendition="#allroggen-latex-vspace-15"/>Der sanft murmelnde Bach ist nur der Ausgangspunkt eines Vergleichs. Das tertium comparationis ist die Unberechenbarkeit einer harmlos scheinenden Kraft, die unversehens zu gefährlicher Größe anschwellen kann.</p>
+         <p>Die musikalische Entsprechung in <name ref="#allroggen-pers009">Glucks</name> Komposition ist die zunächst leise wie ein Bächlein murmelnde Begleitfigur, die im Mittelteil der Arie auf Zweite Violinen und Bass übergreifend immer stärker anschwillt, und so der ruhigen Oboen-Melodie des Hauptteils die Bedeutung eines trügerischen Friedens gibt.</p>
+            
+            <figure xml:id="allroggen-orfeo-fig01">
+               <graphic url="figures/allroggen-orfeo-fig01.png" width="1971px" height="2500px"/>
+               <head type="legend">Accompagnato-Rezitativ des Orpheus aus <title ref="#allroggen-work004">Orfeo ed Euridice</title>, in: <hi rend="italic">Gluck Gesamtausgabe</hi>, Bd.&#8239;1, hg. von Anna Amalie Abert und Ludwig Finscher, S.&#8239;89&#8239;f., Takt 29–36</head>
+            </figure>
+            <figure xml:id="allroggen-orfeo-fig02" rend="notenbeispiel">
+               <graphic url="figures/allroggen-orfeo-fig02.png" width="1993px" height="2500px"/>
+               <head type="legend"/>
+            </figure>
+            
+            <figure xml:id="allroggen-antigono-fig01">
+               <graphic url="figures/allroggen-antigono-fig01.png" width="1987px" height="2500px"/>
+               <head type="legend">Arie des Demetrio (III,&#8239;6) aus <title ref="#allroggen-work001">Antigono</title>, in: <hi rend="italic">Gluck Gesamtausgabe</hi>, Bd.&#8239;20, hg. von Irene Brandenburg, S.&#8239;374&#8239;f., Takt 1–11</head>
+            </figure>
+            <figure xml:id="allroggen-antigono-fig02" rend="notenbeispiel">
+               <graphic url="figures/allroggen-antigono-fig02.png" width="1958px" height="2500px"/>
+               <head type="legend"/>
+            </figure>
+            
+            <figure xml:id="allroggen-ezio-fig01">
+               <graphic url="figures/allroggen-ezio-fig01.png" width="1747px" height="2500px"/>
+               <head type="legend">Arie des Massimo (I,&#8239;8) aus <title ref="#allroggen-work003">Ezio</title>, in: <hi rend="italic">Gluck Gesamtausgabe</hi>, Bd.&#8239;14, hg. von Gabriele Buschmeier und Hanspeter Bennwitz, S.&#8239;108&#8239;f., Takt 1–8</head>
+            </figure>
+            <figure xml:id="allroggen-ezio-fig02" rend="notenbeispiel">
+               <graphic url="figures/allroggen-ezio-fig02.png" width="1863px" height="2500px"/>
+               <head type="legend"/>
+            </figure>
+            <pb rend="clear"/>
+            
+            <p>In der Arie des Demetrio aus <title ref="#allroggen-work001">Antigono</title> (III,&#8239;6) dagegen<milestone rendition="#allroggen-latex-vspace-3"/></p>
+            <floatingText rend="twocolumns" xml:id="allroggen-float02">
+               <body>
+                  <l>Già che morir degg&#x2019;io</l>
+                  <l>L&#x2019;onda fatal, ben mio,</l>
+                  <l>Lascia ch&#x2019;io varchi almeno</l>
+                  <l>Ombra innocente.</l>
+                  <l>Senza rimorsi allor</l>
+                  <l>Sarà quest&#x2019; alma ognor</l>
+                  <l>Idolo mio cor</l>
+                  <l>A te presente.</l>
+               </body>
+            </floatingText>
+            <p><milestone rendition="#allroggen-latex-vspace-15"/>bezeichnet die Melodie der Oboe das Wunschbild des Todesbereiten, der sich reinen Gewissens und in Frieden zur düsteren Fahrt über die Wogen des Lethestromes rüstet.</p>
+            <p>Beim Vergleich dieser beiden Arien mit der Accompagnato-Szene des <title ref="#allroggen-work004">Orfeo</title> stellt <name ref="#allroggen-pers004">Brück</name> fest, dass hier die Singstimme am melodischen Geschehen keinen Anteil mehr habe und an kein Formschema mehr gebunden sei, denn <name ref="#allroggen-pers009">Gluck</name> habe sich <q>von der typischen Arienform seit seiner Reform aus musikdramatischen Gründen bewusst emanzipiert</q>. 
+               Zwar sei das Sextolen-Motiv der Ersten Violine aus den früheren Arien übernommen – aber, so schreibt <name ref="#allroggen-pers004">Brück</name> weiter, <quote source="#allroggen-ftn15">die Art seiner Verwendung ist eine ganz andere, wie sich bei der letzten Verarbeitung im <title ref="#allroggen-work004">Orphée</title> mit aller Deutlichkeit zeigen wird</quote>.<ref target="#Brueck1925" type="bibl" xml:id="allroggen-ftn15">S.&#8239;438</ref> 
+               Der Hauptgegenstand seiner Untersuchung ist nämlich die Bearbeitung des italienischen <title ref="#allroggen-work004">Orfeo</title> für die Pariser Oper, die ihm gerade in der Wandlung des Orpheus-Accompagnatos <name ref="#allroggen-pers009">Glucks</name> Streben nach einer <quote source="#allroggen-ftn16">mehr vertieften Naturauffassung und Naturempfindung</quote><ref target="#Brueck1925" type="bibl" xml:id="allroggen-ftn16" rend="ibid">S.&#8239;440</ref> anzeigt. Die Veränderungen interpretiert <name ref="#allroggen-pers004">Brück</name> folgendermaßen:
+               <quote source="#allroggen-ftn17"><name ref="#allroggen-pers009">Gluck</name> strebt Naturschilderung im Sinne der Naturnachahmung nicht an. Die Vogelrufe der Flöte und des Solo-Violoncells sind im <title ref="#allroggen-work004">Orphée</title> fortgefallen. An ihrer Stelle erscheint die Doppelschlagfigur, die unverkennbar die Züge eines ursprünglich den Vogelruf nachahmenden Motivs trägt und im <title ref="#allroggen-work004">Orphée</title>, in Flöte und zweiter Violine abwechselnd, in jedem Takte des Akkompagnatos (im ganzen 173mal) auftritt. Eine solche Häufung führt notwendigerweise zu dem Schluss, dass es sich hier nicht mehr um die tonmalerische Darstellung des Vogelrufes handeln kann. Die Tonfigur hat hier vielmehr diesen ursprünglichen Charakter völlig verloren; sie ist zu einem dem Stimmungsgehalte und der Klangfarbe dienenden Ausdrucksmoment gewandelt. Hier wiegt auch die Tatsache, dass im <title ref="#allroggen-work004">Orphée</title> die Triller auf der letzten Achtelnote ebenfalls fortgefallen sind. […] Die im <title ref="#allroggen-work004">Orphée</title> geänderte Phrasierung (<hi rend="italic">sc.: der Sextolenfigur</hi>) läßt dies noch deutlicher hervortreten. […] <name ref="#allroggen-pers009">Gluck</name> entzieht diesem Motiv im <title ref="#allroggen-work004">Orphée</title> durch die Staccatobezeichnung die Bedeutung einer naturnachahmenden Formel. Es erhält hier den gleichen Charakter wie die oben erwähnte Doppelschlagfigur. Wir haben mit beiden Motiven somit Beispiele dafür gefunden, wie ursprünglich der tonmalerischen Darstellung dienende Figuren durch die Art ihrer Anwendung zu Formeln des Stimmungsausdrucks werden. Das technische, spielerische Moment ist zur charakterisierenden Klangfarbe gewandelt</quote>.<ref target="#Brueck1925" type="bibl" xml:id="allroggen-ftn17">S.&#8239;441</ref></p>
+            <p>Hier sind einige kritische Einschränkungen zu machen. <name ref="#allroggen-pers012">Ernst Kurth</name> hatte bereits Zweifel angemeldet, ob eine Scheidung zwischen dem, was er einerseits <q>bloße Charakterisierung</q> und <q>äußerliche Andeutung</q> und andererseits <q>Malen in wirklichen Farben</q> nennt, überhaupt möglich ist. Er glaubt diese beiden Typen in der Arie aus <title ref="#allroggen-work003">Ezio</title> einerseits, die er fälschlich für ein rustikales Instrumentalgemälde hält, und andererseits in der Arie des Demetrio aus <title ref="#allroggen-work001">Antigono</title> repräsentiert. Wenn dieselbe Musik sich von bloßer äußerlicher Andeutung zu einer in wirklichen Farben gemalten verinnerlichten Symbolisierung wandeln kann allein dadurch, dass man ihr einen anderen Text unterlegt, so bestätigt das nicht mehr und nicht weniger, als dass Musik zum Ausdruck eines bestimmten Affekts nicht taugt.<note xml:id="allroggen-ftn18" n="18">Wie <name ref="#allroggen-pers011">Hugo Goldschmidt</name> gezeigt hat, war <name ref="#allroggen-pers009">Gluck</name> eben dieser Ansicht. Vgl. <ref target="#Goldschmidt1913" type="bibl"/>.</note> Für die Lösung des von <name ref="#allroggen-pers012">Kurth</name> aufgeworfenen Scheinproblems der Scheidung zwischen äußerlicher Charakterisierung und wirklichen Klangfarben gibt der Vergleich der beiden Arien nichts her: die <title ref="#allroggen-work003">Ezio</title>-Arie ist kein rustikales Naturbild, kann mithin auch nicht – als solches dem düsteren Text der <title>Demetrio</title>-Arie zugrunde gelegt – eben dadurch verinnerlicht werden; ganz abgesehen davon, dass der Hörer, dem diese symbolische Verinnerlichung aufgehen soll, ja wissen müsste, dass die gleiche Musik zuvor in einer anderen Oper angeblich andere Funktion gehabt haben soll.</p>
+            <p><name ref="#allroggen-pers004">Brück</name> nennt offenbar das, was <name ref="#allroggen-pers012">Kurth</name> als <q>bloße Charakterisierung</q> und <q>äußerliche Andeutung</q> bezeichnet hatte, seinerseits <q>realistische Tonmalerei</q> im Gegensatz zum <q>charakterisierenden Klangbild</q> &#x2013; gemeint ist aber dasselbe, nämlich dass <name ref="#allroggen-pers009">Gluck</name> das vorgebliche Naturbild durch Unterlegen eines neuen Textes <q>vertieft</q> habe. Dieser Trugschluss führt nun <name ref="#allroggen-pers004">Brück</name> zu den referierten absurden Konsequenzen.</p>
+         </div>
+         
+         <div xml:id="allroggen-div-04">
+            <head/>
+            <p>Im <title ref="#allroggen-work003">Ezio</title> spricht Massimo den Gedanken aus, dass man einer Gefahr entgegentreten muss, solange sie noch harmlos ist, und diesen Gedanken fasst er im Bilde eines murmelnden Bachs, der unvermutet gefährlich anschwillt. Dass die gleiche Musik im <title ref="#allroggen-work001">Antigono</title> statt der Warnung vor trügerischem Frieden nun den Wunsch eines Todbereiten ausdrückt, mit reinem Gewissen über den Lethestrom zu schiffen, ist kein Zeichen einer <q>Vertiefung</q>, sondern Folge der semantischen Unbestimmtheit der Musik. Denn, wie wir alle wissen, drückt all dies ja auch nicht die Musik aus, sondern der Text, und die Musik bedient sich nur gewisser Topoi der Tonsymbolik, die auf Grund der Konvention verstanden werden. Die murmelnde und anschwellende Bewegung, die im einen Fall auf einen hypothetischen Bach, im andern Fall auf die Vorstellung des mythischen Letheflusses hindeutet, die getragene Oboen-Melodie, die wir hier mit trügerischem Frieden, dort mit ersehntem Frieden assoziieren, sind jedes Mal dieselben Instrumente, dieselben Töne, dieselben Harmonien. Ohne den Text wären sie nichts als Thema und Begleitmotiv. Erst die Elysiums-Szene des <title ref="#allroggen-work004">Orfeo</title> bezieht sich nun tatsächlich auf eine zwar idealisierte, aber im Rahmen der Handlung reale Welt. Murmelnde Bäche, zwitschernde Vögel, das Flüstern der Lüfte werden von Orpheus wahrgenommen, seliger Friede von ihm erlebt.</p>
+            <p>Im Text ist nun auch vom Gesang der Vögel die Rede, und so fügt <name ref="#allroggen-pers009">Gluck</name> die entsprechenden Flöten- und Cellofiguren hinzu; der Friede der Seligen ist ein ewig andauernder Zustand, und so übernimmt <name ref="#allroggen-pers009">Gluck</name> nichts aus dem Mittelteil der Arien, die Steigerungen und Kontraste enthalten, sondern intensiviert das in sich ruhende friedliche Bild, deren Grundzeichnung er dem Hauptteil der <title ref="#allroggen-work003">Ezio</title>-Arie entlehnt hat.</p>
+            <p>Dass das rauschende Bächlein im <title ref="#allroggen-work003">Ezio</title> hypothetisch, im <title ref="#allroggen-work004">Orfeo</title> aber wirklich ist, hat mit der Musik nichts zu tun. Es liegt an der Handlung, an den vom Dichter festgelegten Textworten. <q>Wahr</q> ist aber der hypothetische Bach ebenso wie der wirkliche, und das liegt nicht daran, dass <name ref="#allroggen-pers009">Gluck</name> (wie <name ref="#allroggen-pers004">Brück</name> meint) in der Naturschilderung zurückhaltender geworden sei. Im Gegenteil ist er ja im <title ref="#allroggen-work004">Orfeo</title> deutlicher und eindeutiger, weil zum Topos des Baches noch der Topos der Vogelstimmen hinzugetreten ist.</p>
+            <p>Auch die Veränderungen der Instrumentation in den späteren Fassungen des Werks &#x2013; für Parma und für Paris &#x2013; sind kein Indiz für <name ref="#allroggen-pers004">Brücks</name> These, dass <name ref="#allroggen-pers009">Gluck</name> mehr und mehr von nachahmender Naturschilderung zu vertieftem Naturerlebnis vorgedrungen sei.</p>
+            <p>Nachahmende Naturschilderung im strikten Wortsinne	hat es in der Musik ohnehin niemals gegeben, schon gar nicht in der metastasianischen Gleichnis-Arie. Die Naturschilderung im Sinne einer anschaulichen, beredten Verwendung tonmalender Motive ist in <name ref="#allroggen-pers009">Glucks</name> Werk nirgends intensiver als gerade im <title ref="#allroggen-work004">Orfeo</title>. Dass das Bild wegen der Instrumentations-Retuschen in den späteren Partituren blasser ist, unterliegt keinem Zweifel. Die damit verbundene Abstraktion bedeutet aber keine <q>Vertiefung</q> der Szene. Vogelrufe bleiben Vogelrufe, auch wenn sie 173mal hintereinander ertönen. Dass Flöte und Violoncello in den späteren Fassungen ihren Terzendialog aufgeben, beraubt die Partitur &#x2013; und die Vogelwelt &#x2013; um eine hübsche Komponente, aber es vertieft nicht das Gefühl und eröffnet keine neue Dimension. Vermutlich fürchtete <name ref="#allroggen-pers009">Gluck</name> auf Grund seiner Erfahrungen der Wiener Aufführungen, dass allzuviel Quinquilieren das Rezitativ des Sängers undeutlich machen könnte. Aus dem gleichen Grund hat er wahrscheinlich &#x2013; ganz ohne Tiefsinn &#x2013; das Legato der Ersten Violinen, die auf der G-Saite recht sonor klingen, zu Staccato verdünnt.</p>
+         </div>
+         
+         <div xml:id="allroggen-div-05">
+            <head/>
+            <p>Zum Schluss noch einige Bemerkungen zum Verhältnis zwischen Rezitativ und Arie. Die Erfahrung, dass bei dem je dependenten Anteil dieser sängerischen Ausdrucksformen jeweils entsprechend das Gewicht der Musik gegenüber der Dichtung wächst oder schwindet, und die Tatsache, dass man sich angewöhnt hat, das Übergewicht der Dichtung für <q>dramatischer</q> zu halten als das Übergewicht der Musik (es sei denn, sie stütze deskriptiv die Bühnenaktion &#x2013; in diesem Fall spricht man meist pejorativ von <q>äußerlicher</q> Dramatik): beides hat dazu geführt, dass man das Vorhandensein musikalischer Form automatisch für ein Anzeichen mangelnder Dramatik ansah. So begrüßen die Biographen <name ref="#allroggen-pers009">Glucks</name> stets die Sorgfalt, die er auf die Gestaltung der Rezitative gelegt hat, und entschuldigen gelegentliche Dünnblütigkeit der Musik jeweils mit seinem <q>dramatischen Gewissen</q>.</p>
+            <p>Die Satztechnik, die <name ref="#allroggen-pers009">Gluck</name> in unserer Accompagnato-Szene anwendet, zeigt ein Verdienst des Komponisten, das allzu leicht übersehen wird. Hätte <name ref="#allroggen-pers009">Gluck</name> wirklich nur das Rezitativ im landläufigen Sinne <q>aufgewertet</q> und eigentliche Musik auf das vermeintlich dramatisch vertretbare Maß zurückgeführt, hätte sein Werk nicht so zukunftsweisend werden können, wie es in der Tat ist. 
+               Die Scheidung von Bühnenaktion im sog. <soCalled>Secco-Rezitativ</soCalled> auf der einen und Musik in der Arie auf der anderen Seite ist vor und neben <name ref="#allroggen-pers009">Gluck</name> vielfach durch stärkere Beteiligung des sog. <soCalled>Accompagnato-Rezitativs</soCalled> gemildert, aber nicht beseitigt worden. Wenn auch mehr und mehr Elemente der Aktion in die Arien eindrangen, und die orchesterbegleiteten Rezitative mehr und mehr musikalisch aufgewertet wurden, so konnte dies doch nicht die grundsätzliche Scheidung von äußerer Handlung und 	Musik in der Oper beseitigen. </p>
+            <p>Das Accompagnato der <title ref="#allroggen-work004">Orfeo</title>-Szene unterscheidet sich nun von den üblichen Accompagnati der Zeit, in denen feste Orchestermotive oder lebhafte, gestisch empfundene Passagen in die vielleicht leidenschaftlicher deklamierten, aber sonst wenig veränderten rezitativischen Floskeln interpoliert wurden, in einem wesentlichen Punkt: <name ref="#allroggen-pers009">Gluck</name> folgert aus der unterschiedlichen Aufgabe von Sprache und Musik in der Oper nicht mehr die prinzipielle zeitliche Scheidung von Aktion und Musik, vielmehr unterscheidet er die beiden Gattungskonstituentien voneinander gleichzeitig, sozusagen in horizontaler Schichtung &#x2013; mit anderen Worten: er lässt die Technik des Arioso wieder aufleben. Die der Sprache ihr Recht einräumende Rezitation des Sängers wird begleitet und ergänzt durch das autonome, den musikalischen Formgesetzen gehorchende Orchester.</p>
+         <p>Auch hierin hat <name ref="#allroggen-pers009">Gluck</name> Vorbilder in Fülle; aber die große Wirkung, die von <name ref="#allroggen-pers009">Glucks</name> <title ref="#allroggen-work004">Orfeo</title> und von seinen späteren Werken ausgegangen ist, hat zweifellos die Ausbildung des sogenannten sinfonischen Opernorchesters im folgenden Jahrhundert beeinflusst.
+            Hierin scheint mir die gattungsgeschichtliche Bedeutung unserer Szene eher zu liegen als in der vermeinten Vertiefung tonmalender Techniken.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Schmid1854">Anton Schmid, <title level="a">Chr.&#8239;W. Ritter von Gluck. Dessen Leben und tonkünstlerisches Wirken</title>, Leipzig 1854</bibl>
+               <bibl xml:id="Marx1863">Adolf Bernhard Marx, <title level="a">Gluck und die Oper</title>, 2 Bde., Berlin 1863</bibl>
+               <bibl xml:id="Gluck1921">Max Arend, <title level="a">Gluck. Eine Biographie</title>, Berlin 1921</bibl>
+               <bibl xml:id="Moser1940">Hans Joachim Moser, <title level="a">Chr.&#8239;W. Gluck</title>, Stuttgart 1940</bibl>
+               <bibl xml:id="Gerber1950">Rudolf Gerber, <title level="a">Chr.&#8239;W. Gluck</title>, Potsdam 1950</bibl>
+               <bibl xml:id="Einstein1954">Alfred Einstein, <title level="a">Gluck. Sein Leben – seine Werke</title>, Zürich 1954</bibl>
+               <bibl xml:id="Gluck1959">Anna Amalie Abert, <title level="a">Chr.&#8239;W. Gluck</title>, München 1959<bibl type="short">Abert, <title level="a">Chr.&#8239;W. Gluck</title></bibl></bibl>
+               <bibl xml:id="Fuerstenau1869">Moritz Fürstenau, <title level="a">Die Oper <q>Ezio</q> von Gluck</title>, in: <title level="j">Berliner Musik-Zeitung Echo</title>, 12., 19. und 26.&#8239;Mai 1869</bibl>
+               <bibl xml:id="Reissmann1882">August Reißmann, <title level="a">W. Gluck, sein Leben und seine Werke</title>, Berlin und Leipzig 1882</bibl>
+               <bibl xml:id="Kurth1913">Ernst Kurth, <title level="a">Die Jugendopern Glucks bis Orfeo</title>, in: <title level="j">Studien zur Musikwissenschaft. Beihefte der Denkmäler der Tonkunst in Österreich unter Leitung von Guido Adler</title>, 1.&#8239;Heft, Leipzig und Wien 1913, S.&#8239;193–277<bibl type="short">Kurth, <title level="a">Die Jugendopern Glucks bis Orfeo</title></bibl></bibl>
+               <bibl xml:id="Brueck1925">Paul Brück, <title level="a">Glucks Orpheus und Eurydike. Stilkritischer Vergleich der Wiener Fassung von 1762 und der Pariser Fassung von 1774 unter besonderer Berücksichtigung des Wort-Tonverhältnisses im Rezitativ</title>, Diss. Phil. Köln 1925. Auszugsweise in: <title level="j">Archiv für Musikwissenschaft</title>&#x00A0;7 (1925), S.&#8239;436–476<bibl type="short">Brück, <title level="a">Glucks Orpheus und Eurydike</title></bibl></bibl>
+               <bibl xml:id="Goldschmidt1913">H. Goldschmidt, <title level="a">Eine bezeichnende Äußerung Glucks zur Musikästhetik</title>, in: <title level="j">Gluck-Jahrbuch</title>&#x00A0;1 (1913), S.&#8239;82–85</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

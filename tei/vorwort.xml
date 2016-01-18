@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="front">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Vorwort der Herausgeber</title>
+            <author>
+               <name><forename>Kristina</forename> <surname>Richts</surname></name>
+               <email></email>
+               <affiliation></affiliation>
+            </author>
+            <author>
+               <name><forename>Peter</forename> <surname>Stadler</surname></name>
+               <email></email>
+               <affiliation></affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="vorwort-pers001">
+                  <p>Beer, Nikolaos</p>
+               </person>
+               <person xml:id="vorwort-pers002">
+                  <p>Capelle, Irmlind</p>
+               </person>
+               <person xml:id="vorwort-pers003">
+                  <p>Iffland, Joachim</p>
+               </person>
+               <person xml:id="vorwort-pers004">
+                  <p>Jensen, Phia-Charlotte</p>
+               </person>
+               <person xml:id="vorwort-pers005">
+                  <p>Kepper, Johannes</p>
+               </person>
+               <person xml:id="vorwort-pers006">
+                  <p>Scheffler, Franziska</p>
+               </person>
+               <person xml:id="vorwort-pers008">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="vorwort-work001"><hi rend="italic">Der Freischütz</hi>, WeV C.7</p>
+               </person>
+               <person xml:id="vorwort-pers007">
+                  <p>Ziegler, Frank</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-09-15T23:45:37.269+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="vorwort-abstract"/>
+      </front>
+      <body>
+         <p>Lieber Joachim,</p>
+         <p>irgendwann im November&#x00A0;2014 begannen bei uns die Vorbereitungen – heimlich, versteht sich – für Deinen 60.&#8239;Geburtstag. Es war uns allen, i.&#8239;e. Deinen Mitarbeitern aus dem Virtuellen Forschungsverbund Edirom (ViFE), von Anfang an ein ganz natürlicher Wunsch, Dir zu diesem <soCalled>Meilenstein</soCalled> eine besondere Überraschung zu präsentieren. Dabei hatten wir – wie so oft – im Überschwang viel zu viele Ideen, die wir dann nicht weiter verfolgen konnten. Eine Festschrift aber stand ganz oben auf der Liste und sollte unbedingt umgesetzt werden. 
+            Ebenso eindeutig war die Maßgabe, dass wir Deine Festschrift selbstverständlich als Open Access Publikation veröffentlichen würden, und zwar online sowie gedruckt. 
+            Allerdings bereitete es uns einige Probleme, einen thematischen Zuschnitt und einen Titel zu finden, da die Breite Deines wissenschaftlichen Schaffens und Wirkens kaum eine Fokussierung auf ein Thema erlaubt. So wählten wir den <soCalled>Jubilar-zentrierten Ansatz</soCalled> und luden ehemalige und aktuelle Weggefährtinnen und Weggefährten ein, Dir einen Beitrag aus Ihrer Arbeit zu widmen. Auf diese Weise vereint sich im vorliegenden Band ein schönes Spektrum an Beiträgen aus der Carl-Maria-von-Weber-Forschung, der Musikwissenschaft, der Editionsphilologie, der Germanistik, der Regionalgeschichte und den Digital Humanities. Dabei fällt auf, dass die genannten Fachbereiche aber weniger als disjunkte Disziplinen nebeneinander stehen, sondern sich vielfältig gegenseitig beeinflussen und durchdringen. Wir haben uns daher bewusst gegen eine starre Eingruppierung der Beiträge entschieden und diese stattdessen in alphabetischer Reihenfolge der Autorinnen und Autoren wiedergegeben. </p>
+         
+         <p>Gleichermaßen hat sich auch der Titel ergeben: <q>Ei, dem alten Herrn, zoll&#x2019; ich Achtung gern&#x2019;</q> ist natürlich ein Zitat aus dem <title ref="#vorwort-work001">Freischütz</title>; das Werk, das uns – und besonders Dich – aufgrund des Projektabschlusses von <hi rend="italic">Freischütz Digital</hi> und des <title ref="#vorwort-work001">Freischütz</title>-Bandes in der Carl-Maria-von-Weber-Gesamtausgabe mehr oder weniger das ganze Jahr&#x00A0;2015 hindurch beschäftigt hat. Es schien uns passend, diese aufrichtige Achtung, die von Ännchen und Agathe hier bezeugt wird, für unsere Zwecke zu übernehmen. Wir sind überzeugt, dass Du die Nummer&#x00A0;6 ab jetzt mit anderen Ohren hören wirst und Deine persönliche <title ref="#vorwort-work001">Freischütz</title>-Rezeption eine neue Facette erhält!
+            Das Alter spielt hierbei eine untergeordnete Rolle: sei versichert, dass wir Dich nicht für einen alten Mann halten! Der Zeitpunkt schien uns aber günstig, nicht nur Deinen Geburtstag zu feiern, sondern auch das bisher von Dir Erreichte. Man kann – so finden wir – mit Fug und Recht behaupten, dass der Standort Detmold inzwischen zu einem (bescheidenen) internationalen Zentrum der Digital Humanities geworden ist, mit seinen Verflechtungen in die Communities der <hi rend="italic">Music Encoding Initiative</hi> (MEI) und <hi rend="italic">Text Encoding Initiative</hi> (TEI), den zahlreichen Projekten, mit dem jüngst eingerichteten <hi rend="italic">Zentrum Musik – Edition – Medien</hi>, der Akademie-Professur für Digitale Musikedition und unserem Forschungsverbund Edirom. Das alles ist nur Deinem unermüdlichen Einsatz für die Sache und Deinem Vertrauen in die Mitarbeitenden zu verdanken. </p>
+         
+         <p>An dieser Stelle gilt es ebenso allen Beteiligten Dank zu sagen, ohne deren Hilfe und Unterstützung dieser Band niemals – und schon gar nicht in der gegebenen knappen Zeit – fertig geworden wäre. Zuvorderst den Autorinnen und Autoren, die uns die Kürze der Vorbereitungszeit nie übel genommen, sondern größtenteils spontan Ihre Zusagen gemacht und gehalten haben, dem Musikwissenschaftlichen Seminar Detmold/Paderborn für die finanzielle Unterstützung beim Druck des Bandes und den beiden studentischen Hilfskräften <name ref="#vorwort-pers006">Franziska Scheffler</name> und <name ref="#vorwort-pers004">Phia-Charlotte Jensen</name>, die uns so manchen Bibliotheksgang abgenommen haben. Ein ganz besonderer Dank sei darüber hinaus an alle Kolleginnen und Kollegen des ViFE-Verbundes gerichtet, die uns den Rücken freigehalten und besonders bei der Redaktion der Texte wertvolle Unterstützung geboten haben. Namentlich sei dabei <name ref="#vorwort-pers003">Joachim Iffland</name> für die Lilypond-Notenbeispiele, <name ref="#vorwort-pers005">Johannes Kepper</name> und <name ref="#vorwort-pers001">Nikolaos Beer</name> für die Umschlaggestaltung sowie <name ref="#vorwort-pers002">Irmlind Capelle</name> und <name ref="#vorwort-pers007">Frank Ziegler</name> gedankt, die uns bei diesem herausgeberischen Unterfangen mit Rat und Tat unterstützt haben. Es war für uns eine enorme Hilfe und ein großer Rückhalt, auf ihre langjährige herausgeberische Kompetenz jederzeit zurückgreifen zu dürfen.</p>
+         
+         <p>Trotz der zusätzlichen Herausforderung hat uns die geheimbündlerische Arbeit im Verborgenen viel Vergnügen bereitet, immer in der Sorge, durch einen vergessenen Ausdruck am Drucker oder ein verräterisches Bildschirmfenster entdeckt zu werden. 
+         Wir hoffen, dass uns die Überraschung gelungen ist und Du <soCalled>nit bees</soCalled> bist, nicht selbst aktiver Teil dieses <soCalled>Schurkenstücks</soCalled> gewesen zu sein. Das Ergebnis eignet sich ob des Umfangs leider nicht als entspannte Reiselektüre, wir hoffen aber trotzdem, dass es vor Deinen Augen Gefallen finden wird.</p>
+         
+         <p rend="right">Für den Virtuellen Forschungsverbund Edirom
+            <lb/><hi rend="italic">Kristina Richts &amp; Peter Stadler</hi></p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="bloggs11"/>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

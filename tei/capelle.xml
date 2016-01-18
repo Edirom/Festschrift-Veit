@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><q>Für gedrehte Eicheln an die Costüme zu Oberon</q></title>
+            <title type="sub">Zur Kostüm-Ausstattung von Webers <hi rend="italic">Oberon</hi> am
+               Hoftheater in Detmold</title>
+            <author>
+               <name><forename>Irmlind</forename> <surname>Capelle</surname></name>
+               <affiliation>studierte Schulmusik und Ev. Theologie (1. Staatsexamen 1984) sowie Musikwissenschaft, Ev. Theologie und Neuere deutsche Literaturwissenschaft (Magister Artium FU Berlin 1984). 1991 wurde sie in Detmold/Paderborn promoviert. Nach langen Jahren als Mitarbeiterin in der Tonträgerindustrie und freier wissenschaftlicher Tätigkeit (u.&#8239;a. Edition) ist sie seit Oktober 2014 wissenschaftliche Mitarbeiterin im Projekt <hi rend="italic">Detmolder Hoftheater</hi>.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                  Attribution 3.0 Unported License (CC BY 3.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>TEI</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="capelle-pers001">
+                  <p>Fürstenau, Anton Bernhard</p>
+               </person>
+               <person xml:id="capelle-pers002">
+                  <p>Bork, Camilla</p>
+               </person>
+               <person xml:id="capelle-pers003">
+                  <p>Dahlhaus, Carl</p>
+               </person>
+               <person xml:id="capelle-pers004">
+                  <p>Langer, Arne</p>
+               </person>
+               <person xml:id="capelle-pers005">
+                  <p>Lortzing, Albert</p>
+               </person>
+               <person xml:id="capelle-pers006">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="capelle-work01"><hi rend="italic">Oberon</hi>, WeV C.10</p>
+               </person>
+               <person xml:id="capelle-pers007">
+                  <p>Weber, Edmund von</p>
+               </person>
+               <person xml:id="capelle-pers008">
+                  <p>Weber, Therese von (verh. Atmer)</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-11-11T10:22:00" who="https://github.com/peterstadler">Layout aktualisiert</change>
+         <change when="2015-10-21" who="https://github.com/peterstadler">Für erste Durchsicht vorbereitet</change>
+         <change when="2015-07-26" who="IC">angefangen zu schreiben</change>
+         <change when="2015-07-27" who="IC">Fortsetzung</change>
+         <change when="2015-07-28" who="IC">Fortsetzung</change>
+         <change when="2015-08-15" who="IC">fortgesetzt</change>
+         <change when="2015-08-24" who="IC">fortgesetzt</change>
+         <change when="2015-08-26" who="IC">fortgesetzt</change>
+         <change when="2015-08-27" who="IC">korrigiertnote</change>
+        <change when="2015-08-28" who="IC">add ersetzt durch hi etc.; Peter hat weitere Korr. für das Layout vorgenommen</change>
+         <change when="2015-09-08" who="IC">Korrekturen nach Ausdruck und Ergänzung des Schlusses</change>
+         <change when="2015-09-17" who="IC">Fortsetzung der Korrekturen</change>
+         <change when="2016-11-06">hoffentlich letzte Korrekturen, vor dem Feinlayout</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="capelle-abstract"><p>Die sog. Theaterakten der Lippischen Landesbibliothek Detmold enthalten u.&#8239;a. Akten, die die Inszenierung und Ausstattung der Aufführungen am Detmolder Hoftheater dokumentieren. Der vorliegende Beitrag wertet diese sog. Regie- bzw. Kostüm- und Dekorationsbücher erstmals für Carl Maria von Webers Oberon aus.</p></div>
+      </front>
+      <body>
+         <p>Am 19.&#8239;November 1828 führte die <orgName>Detmolder Hoftheatergesellschaft</orgName> erstmals in Münster <name ref="#capelle-pers006">Carl Maria von Webers</name> letzte Oper <title ref="#capelle-work01">Oberon</title> auf. Diese Oper brachte dem Theater <quote source="#fnt1">über Jahre hinweg Rekordeinnahmen,</quote><ref xml:id="fnt1" n="1" target="#VeitLLB1984" type="bibl">S.&#8239;27</ref> doch hat das Theater auch vergleichsweise viel in deren Ausstattung investiert.<note xml:id="fnt2" n="2">In der Lippischen Landesbibliothek Detmold haben sich nicht nur die Aufführungsmaterialien aus der Frühzeit des Hoftheaters in bemerkenswerter Vollständigkeit erhalten, sondern auch sog. Theaterakten; diese Materialien werden seit Ende&#x00A0;2014 im Projekt <hi rend="italic">Detmolder Hoftheater</hi> (<ptr target="http://www.hoftheater-detmold.de"/>) erschlossen. Der vorliegende Beitrag wertet erstmals das Aktenmaterial für <name ref="#capelle-pers006">Webers</name> <title ref="#capelle-work01">Oberon</title> aus. – Zu dem Bestand vgl. auch <ref target="#Eberhard2015" type="bibl"/> und den Beitrag von demselben Autor in diesem Band.</note> 
+            In diesem Beitrag soll es jedoch nicht in erster Linie um das Verhältnis von Einnahmen zu Ausgaben gehen, sondern um die Angaben zur Ausstattung selbst, da solche im frühen 19.&#8239;Jahrhundert nur selten erhalten sind. Sie gewähren einen wichtigen Einblick in das <soCalled>Gesamtkunstwerk</soCalled> <title ref="#capelle-work01">Oberon</title>, für dessen Wirkung – wie bei jeder Oper – die Optik alles andere als unwichtig ist.<note xml:id="fnt3" n="3">Schon <name ref="#capelle-pers003">Carl Dahlhaus</name> hat 1980 darauf hingewiesen, dass Opernanalyse zwingend die <q>szenische Dimension</q> berücksichtigen müsse; vgl. <ref target="#Dahlhaus1980" type="bibl"/>. Gleichzeitig fand in der anglo-amerikanischen Forschung ein sog. <soCalled>performative turn</soCalled> statt; vgl. <ref target="#Bork2011" type="bibl"/>. Mündete <name ref="#capelle-pers003">Dahlhaus&#x2019;</name> Forderung nach <name ref="#capelle-pers002">Camilla Bork</name> in eine Betrachtung der <q>szenisch-gestischen Momente</q> in der Musik, so entwickelte sich aus der anglo-amerikanischen Richtung eine Aufführungs- bzw. Inszenierungsanalyse; vgl. <ref target="#Daude" type="bibl"/>. Inwiefern die Veröffentlichung von historischen Dokumenten zu Szene und Regie neue Möglichkeiten zur Aufführungsanalyse im 19.&#8239;Jahrhundert ergibt, wird sich im Laufe des Projekts erweisen. Die Arbeit von <ref target="#Smart2004" type="bibl"/> untersucht trotz Einbindung von Bildmaterial vor allem die musikalisch-gestischen Elemente.</note> 
+            Natürlich können die Beschreibungen in den Akten nur einen <soCalled>papiernen</soCalled> Eindruck geben, doch bieten die Detmolder Materialien zugleich einen Einblick in den <soCalled>normalen</soCalled> Theaterbetrieb, denn Szenen- oder Kostümbilder wurden selbstverständlich nur von den ersten Bühnen bzw. bedeutenden Interpreten veröffentlicht.<note xml:id="fnt4" n="4">Auch die Erschließung und Auswertung von zeitgenössischen Bühnenbildern, Figurinen und Szenenbeschreibungen steht noch in den Anfängen. Bisher wurden diese Materialien häufig nur zur Veranschaulichung eingesetzt, nicht aber in die Analyse der Oper einbezogen.</note></p>
+            <p>Zur Aufführung des <title ref="#capelle-work01">Oberon</title> mit dem Detmolder Hoftheater haben sich folgende Materialien erhalten: Einerseits die Zusammenfassungen zu den Ausgaben, die unmittelbar vor der Premiere für die Austattung getätigt wurden, andererseits drei Übersichten zur Garderobe der Mitwirkenden des <title ref="#capelle-work01">Oberon</title>, die sich in den sog. Costümbüchern erhalten haben, sowie ein achtseitiger Regieeintrag.</p>
+         
+         <p>Die ersten erhaltenen Einträge ab Oktober&#x00A0;1828 betreffen allerdings nicht die Garderobe oder Dekoration, sondern die Anschaffung der Aufführungsmaterialien: <quote source="#fnt5">An den Post-Officianten Schlüter den Postvorschuß für die Partitur zu der Oper <title ref="#capelle-work01">Oberon</title> 38&#8239;rthl 23&#8239;ggr 3&#8239;d</quote>,<note type="bibl" xml:id="fnt5" n="5">Lippische Landesbibliothek Detmold, Theaterakten (Signatur: TA) 3, Tit.&#8239;II <q>Ausgabe für Bibliothek und Garderobe</q> [1828], Eintrag 185. Im folgenden wird diese Akte in der Kurzform TA 3, der Titelnummer und der jeweiligen Eintragsnummer direkt im Text nachgewiesen. Die Akten sind auf dem Einband-Deckel und in den Kolumnentiteln für die jeweiligen Jahre datiert. Eine exakte Datierung ist allerdings nur mit Hilfe der Einzelbelege möglich, die aber für 1828 nicht erhalten sind.</note> 
+            <q>An die Theisingsche Leihbibliothek für das Buch Oberon 22 ggr</q> (TA 3, II, 199) und <q>Copial-Rechnung zu Oberon 1&#8239;rthl 9&#8239;ggr 8&#8239;d</q> (TA 3, II, 202). Wenig später folgen noch die Kopierkosten: <q>An Dassel für Copialien zur Oper Oberon 5&#8239;rthl 17&#8239;ggr</q> (TA 3, II, 207), <q>An Hautboist Zelpel für Copialien zu Oberon 4&#8239;rthl 4&#8239;ggr</q> (TA 3, II, 213) und <q>An J. Dassel für Copiatur zu Oberon 3&#8239;rthl 15&#8239;ggr 6&#8239;d</q> (TA 3, II, 237). Bezüglich der Ausstattung sind folgende Kosten notiert: <q>Für gedrehte Eicheln an die Costüme zu Oberon 1&#8239;rthl 6&#8239;ggr 2&#8239;d</q> (TA 3, II, 206), <q>An Blechschläger Schlöpper für einen Helm zu Oberon 6&#8239;rthl 16&#8239;ggr</q> (TA 3, II, 210), <q>An Drechsler <hi rend="italic">Lauter</hi> für gedreht Eicheln zu Oberon 3&#8239;rthl 11&#8239;ggr</q> (TA 3, II, 211), <q>An Schumacher Rogge für Sandalen zu Oberon 5&#8239;rthl 12&#8239;ggr</q>(TA 3, II, 214), <q>für Costüme zu Nehen zu Oberon</q> an Mad. Marschall (TA 3, II, 217), Mad. Hoffmann (TA 3, II, 218) und Mad. Greenberg (TA 3, II, 219), <q>Rechnung von <hi rend="italic">Swiersen</hi> für diverse Waaren zu Oberon 2&#8239;rthl 4&#8239;ggr</q> (TA 3, II, 222) und <q>An Madame Hoffmann für einen Anzug zu Oberon 3&#8239;rthl 23&#8239;ggr</q> (TA 3, II, 248). Weitere Ausgaben finden sich unter Tit.&#8239;IV dieser Akte <q>Diverse Ausgabe 1828</q>: <q>Steuer für die Partitur zu Oberon 12&#8239;d</q> (TA, IV, 316), <q>An den Maler Nelmeyer für die Decoration zu malen zu Oberon 76&#8239;rthl</q> (TA, IV, 370), <q>Für zwei Stück Leinwand zu Decoration zu Oberon 11&#8239;rthl</q> (TA 3, IV, 374), <q>Für Holz und Latten und Tischler-Arbeit zu Oberon 17&#8239;rthl 20&#8239;ggr</q> (TA 3, IV, 381), <q>Für einen Handlanger bei der Malerey zu der Decoration zu Oberon 8&#8239;rthl 17&#8239;ggr 12&#8239;d</q> (TA 3, IV, 382), <q>Für Zetteldruck und für 500&#x00A0;Texte<note xml:id="fnt6" n="6">Die Ausgabenbücher belegen häufiger Textdrucke des Hoftheaters zu Opern, doch konnte bislang kein Exemplar nachgewiesen werden.</note> zu Oberon 28&#8239;rthl 5&#8239;ggr</q> (TA 3, IV, 387), <q>An <hi rend="italic">Watermann</hi> für Eisengeräth zu Oberon 1&#8239;rthl 4&#8239;ggr 9&#8239;d</q> (TA 3, IV 392) und <q>An Holtermanns Erben für Leinewand zu Decorationen, zu Oberon 12&#8239;rthl 2&#8239;ggr</q> (TA 3, IV, 409).</p> 
+         <p>Leider sind die Einzelbelege zu diesem Ausgabenbuch nicht wie in anderen Jahrgängen erhalten, so dass sich die Einträge nicht präzisieren lassen.<note xml:id="fnt7" n="7">Eine Übersicht der Theaterakten findet sich als PDF-Dokument auf der Webseite der Lippischen Landesbibliothek: <ptr target="http://www.llb-detmold.de/fileadmin/user_upload/redaktion/dokumente/findbuecher/MUS_TA_Theater-Akten-Findbuch.pdf"/>. Hierin ist allerdings fälschlich angegeben, dass die Rechnungsbelege von 1828 erhalten seien.</note> 
+            Die knappen Angaben machen jedoch deutlich, dass offensichtlich zahlreiche neue Dekorationen gefertigt wurden, dazu Geräte sowohl aus Holz als auch aus Eisen, und dass zahlreiche Kostüme genäht wurden. Am verwunderlichsten ist sicherlich die zweifache Erwähnung von <q>gedrehten Eicheln</q>, die offensichtlich für die Feen-Kostüme verwendet wurden.</p> 
+         <p>Zum <q>Costüm</q> der Sänger und Schauspieler haben sich drei Übersichten erhalten, die sich auf Grund der erwähnten Mitwirkenden datieren lassen. Die erste Übersicht (TA 54, S.&#8239;273) beschreibt wohl die Kostüme der Erstaufführung: Zahlreiche Mitwirkende wie der Tenor Ludwig Grapow und die Herren Ottinger, Diestel und Fliehmann sind erst im Herbst&#x00A0;1828 engagiert worden, haben die Gesellschaft aber bereits – wie Ottinger und Diestel – ein Jahr später wieder verlassen, so dass sich die Niederschrift der Beschreibung auf 1828/1829 eingrenzen lässt.<note xml:id="fnt8" n="8">Alle biographischen Angaben beruhen auf den Auswertungen der Gagenbücher bzw. Gagenverzeichnisse, die in den Theaterakten überliefert sind. Vgl. <ptr target="http://www.hoftheater-detmold.de"/> (Personen)</note> 
+            Bemerkenswert ist in dieser Auflistung jedoch auch die Mitwirkung zweier überregional bekannter Künstler: Den Puck spielte <q>Fr. v. Weber</q>, das ist <name ref="#capelle-pers008">Therese von Weber</name>, die Tochter von <name ref="#capelle-pers007">Edmund von Weber</name> (einem Stiefbruder <name ref="#capelle-pers006">Carl Maria von Webers</name>), die von Januar&#x00A0;1827 bis September&#x00A0;1829 am Hoftheater engagiert war. Scherasmin wurde von <name ref="#capelle-pers005">Albert Lortzing</name> dargestellt, der von November&#x00A0;1826 bis September&#x00A0;1833 als Schauspieler und Sänger Mitglied der Hoftheatergesellschaft war.</p> 
+         <p>Die Eintragungen sind in drei Spalten gegliedert: Zuerst steht der Rollen-Name, dann der Name der/des Ausführenden und dann die Angaben zum Kostüm, die in dieser ersten Übersicht sehr knapp gehalten sind.<note xml:id="fnt9" n="9">Der Eintrag steht auf den wenigen Seiten, die nicht vorab mit Bleistift in die Rubriken eingeteilt sind.</note></p>
+         <pb/>
+      <!-- Tabelle 1 -->   
+         <table xml:id="capelle-table01">
+            <head>Übersicht zu den Kostümen für die Erstaufführung 1828 (TA 54, S.&#8239;273)</head>
+            <row role="label">
+               <cell>[Rolle]</cell>
+               <cell>[Ausführende(r)]</cell>
+               <cell>[Kostüm]</cell>
+            </row>
+            <row>
+               <cell>Oberon.</cell>
+               <cell>Ma: Hoffmann dj:</cell>
+               <cell>Weiß Atlaßkleid, u blau AtlaßMantel<lb/>Lillienstengel</cell>
+            </row>
+            <row>
+               <cell>Puck.</cell>
+               <cell>Fr v Weber</cell>
+               <cell>Weiße Tunick, blauen Mantel<lb/>Zauberstab.</cell>
+            </row>
+            <row>
+               <cell>Harun,</cell>
+               <cell>H. Fries</cell>
+               <cell>Türkischen Anzug.</cell>
+            </row>
+            <row>
+               <cell>Feuergeist</cell>
+               <cell>M Spengler</cell>
+               <cell>Feuer Anzug.</cell>
+            </row>
+         <row>
+            <cell>Babekan</cell>
+            <cell>H. Pichler</cell>
+            <cell>Türkischen Anzug.</cell>
+         </row>
+            <row>
+               <cell>Almansor</cell>
+               <cell>H. Ottinger</cell>
+               <cell>Türkischen Anzug.</cell>
+            </row>
+            <row>
+               <cell>Abdalla</cell>
+               <cell>H. Gladbach j.</cell>
+               <cell>Braune Kurze Hose u. Jacke<lb/>Gürtel Turban</cell>
+            </row>
+            <row>
+               <cell>Sclaven</cell>
+               <cell>H. Gladbach s[en.]<lb/>H. Kahn<lb/>H. Elßner [Elzner]<lb/>Popitz<lb/>Spengler</cell>
+               <cell>Sclaven Anzüge.</cell>
+            </row>
+            <row>
+               <cell>Hüon</cell>
+               <cell>H. Grapow</cell>
+               <cell>Gelben Rock Harnisch Sclaven Anz</cell>
+            </row>
+            <row>
+               <cell>Scherasmin</cell>
+               <cell>H. Lorzing</cell>
+               <cell>Gelben Rock, Sclaven Anz</cell>
+            </row>
+            <row>
+               <cell>Seeräuber</cell>
+               <cell>H. Gladbach s<lb/>H. Elßner [Elzner]</cell>
+               <cell>Seeräuber Anzüge</cell>
+            </row>
+            <row>
+               <cell>Elfen</cell>
+               <cell>Die H. Diestel<lb/>Schellhorn<lb/>Schmidt<lb/>Fliehman<lb/>Kügler</cell>
+               <cell>Elfen u Sclaven Anzüge.</cell>
+            </row>
+           <row>
+               <cell cols="3">2 Erdgeister H. Gladbach Schmidt. Luftgeister H. Kahn Fliehmann Feuergeister, M Spengler D Herold Wassergeister M Schellhorn Diestel. 12 Statisten.</cell>
+            </row>
+         </table>
+         <pb/>
+         <p>Auffällig ist bei dieser Aufstellung, dass Oberon von einer Frau, Mad. Hoffmann d.&#8239;j., gespielt wird<note xml:id="fnt10" n="10">Gegen <name ref="#capelle-pers006">Webers</name> Komposition, in der Oberon eine Tenor-Partie ist, wurde diese Rolle immer wieder mit einer Frau besetzt. Vgl. dazu: <ref target="#SchreiterOberon" type="bibl">S.&#8239;104–105</ref>.</note> 
+            und dass die Elfen auch von Herren dargestellt werden, was allerdings daran liegen dürfte, dass die Elfen in einem gemischten Chor auftreten. Darüber hinaus fehlen die Kostüme der weiblichen Rollen Titania, Rezia, Fatime und Namuna und des weiblichen Chorpersonals: Das weibliche Personal war verpflichtet seine Garderobe selbst zu stellen, weshalb diese nicht verzeichnet werden musste.<note xml:id="fnt11" n="11"><q>den Männern wird fast an den meisten Theatern das Costum geliefert (alles nach dem Theater Gebrauch zum Costüm Gehörige, d.&#8239;h. Alles, was nicht zur laufenden Mode, der sogenannten modern französischen od. überhaupt auch zur Straßenkleidung und zum willkührlichen Aufputze gehört); doch geben verschied. größere Hoftheater auch das Letztere. Den Damen aber wird zur Anschaffung ihres Costumes, – mit Ausnahme weniger Gegenstände, als: ein Purpur- (Fürsten-) Mantel, Krone u. Aehnliches, und die bei Verkleidungen, öffentlichen Verwandlungen od. auf andere Art aus ihren Händen kommenden Anzüge, – ein sogenanntes <hi rend="spaced">Garderobegeld</hi> nach Verhältniß von mehreren hundert Thalern jährlich, außer ihrer Gage, ausgezahlt.</q> <ref target="#Dueringer" type="bibl">Sp.&#8239;460</ref>. In den späteren Eintragungen taucht gelegentlich für einzelne Garderobenelemente der Begriff <q>eigen</q> auf.</note></p>
+         <p>Die nächste Garderobenübersicht (TA 54, S.&#8239;407–408) dürfte für die Wiederaufnahme der Oper 1835 begonnen worden sein.<note xml:id="fnt12" n="12">Vgl. den Spielplan des Hoftheaters unter <ptr target="http://www.hoftheater-detmold.de"/>. Die erste Aufführungsserie ging bis zum 12.&#8239;August 1832, die zweite vom 10.&#8239;Mai 1835 bis 24.&#8239;Januar 1838, und es folgten dann drei Aufführungen ab 22.&#8239;April 1845 (13.&#8239;April 1846 und 13.&#8239;Januar 1847). Da Herr Rath nur von Mai&#x00A0;1835 bis April&#x00A0;1836 Mitglied der Gesellschaft war, ergibt sich hieraus die Datierung dieser zweiten Kostüm-Übersicht.</note> 
+            Sie enthält zahlreiche Korrekturen und Nachträge, weshalb sie nur schwer lesbar ist<!-- (vgl. Abb.&#8239;<ref target="#capelle-fig01" type="crossref" rend="no"/>)-->. Auch hier werden die Geister von Herren (in Damenanzügen) gespielt, doch sind jetzt ausdrücklich auch Kinder u.&#8239;a. für die Meermädchen erwähnt. Bei der Rolle des Oberon ist hier kein Interpret notiert. Insgesamt sind die Angaben in dieser Übersicht ausführlicher als 1828 und z.&#8239;T. für die einzelnen Akte getrennt (vgl. z.&#8239;B. Hüon) angegeben (siehe Tabelle&#x00A0;<ref target="#capelle-table02" type="crossref" rend="no"/>).</p>
+         
+         <p>Bei der Beschreibung der Geister wurde hier die übliche Rubrizierung aufgegeben. Die Darstellernamen stehen am Ende und lassen erkennen, dass die Feuergeister von Damen (Dem. Torbeck und Marschall) gespielt wurden. Erstmals finden sich in dieser Übersicht Hinweise auf die Wiederverwendung von Kostümen aus anderen Inszenierungen: Bei Hüon steht <q>Rüstung Helm Harnisch von Othello</q> und bei den Erdgeistern <q>graue Tunikken grau Westen aus dem Alpenkönig</q>.</p>
+      <!-- Tabelle 2 -->
+         <!--<pb/>-->
+         <table xml:id="capelle-table02">
+            <head>Übersicht zu den Kostümen bei den Aufführungen ab 1835 (TA 54, S.&#8239;407–408)</head>
+            <row role="label">
+               <cell>[Rolle]</cell>
+               <cell>[Ausführende(r)]</cell>
+               <cell>[Kostüm]</cell>
+            </row>
+            <row>
+               <cell>König [Oberon]</cell>
+               <cell/>
+               <cell>Weiße Atlaß <hi rend="add">Eigen</hi><note xml:id="fnt13" n="13">Die Nachträge werden in grauer Schrift wiedergegeben.</note> Tunik mit Stickerey Atlaß /<lb/> Mantel /mit Gold/ Lielien Stengel weiß Horn <lb/>Becher</cell>
+            </row>
+            <row>
+               <cell>Puck</cell>
+               <cell>Demoisel Schmit</cell>
+               <cell>Eigen. bloß Zaubersäbgen mit Gold</cell>
+            </row>
+            <row>
+               <cell>Kaiser</cell>
+               <cell>Hr. Grenberg se.</cell>
+               <cell>rothe Tunik mit Gold BischofsMantel Krone <lb/>Zepter. Stiefeln. Gurt. <lb/><hi rend="add">bleibt weg</hi></cell>
+            </row>
+            <row>
+               <cell>Hüon<note xml:id="fnt14" n="14">Unter Hüon: Weißen Wappen | rok. Hinko | Drogen(?) Helm | Brust Harnisch</note></cell>
+               <cell>Hr. Rath<lb/><hi rend="add">Marchand</hi></cell>
+               <cell><hi rend="strikethrough">ganze</hi> <hi rend="add">Ermel</hi> Rüstung Helm Harnisch <hi rend="add">von Othello</hi> blaue Tunik mit <hi rend="strikethrough">Gold</hi> <hi rend="add">Schwarz</hi><lb/> gurt schwert 2 <hi rend="strikethrough">Gelben Wappenrok mit schwarz. Baret</hi>.<lb/> <hi rend="strikethrough">3 Sclaven Bunte(?) Jacke Hose blau Türkisch jacke rothe nicht</hi><lb/><hi rend="strikethrough">4 Blauen Wappen rok mit Fellen</hi>  <hi rend="add">Schwert.</hi> <lb/><hi rend="add">Rothe Hose Braune Jacke mit schwarz rothe mütze schwarze <lb/>Gurt mit weiß weiß Hemd.<lb/></hi>  </cell>
+            </row>
+            <row>
+               <cell>Scherasmin</cell>
+               <cell>Hr. Breimeier<lb/>[= Preumayer]</cell>
+               <cell><hi rend="add">Grünen</hi> <hi rend="strikethrough">gelben</hi> Wappen rok mit schwarz und grünen sch. gurt<lb/> Baret 2. Sclavenanzug<lb/> <hi rend="strikethrough">3 grüner Wappenrok</hi> <hi rend="add">Stiefel Schwefel <lb/>Gurt Schwert</hi></cell>
+            </row>
+            <row>
+               <cell>Harun</cell>
+               <cell>Hr. <hi rend="strikethrough">Schäfer</hi><lb/> <hi rend="add">Wolrabe</hi></cell>
+               <cell>Schwarzen Talar weiße Hose roth Unterkleit<lb/> Binde Turban</cell>
+            </row>
+            <row>
+               <cell>Prinz</cell>
+               <cell>Hr. Pichler</cell>
+               <cell>grünen Talar weiß Unterkleit u Hose.<lb/> Turban Sebel</cell>
+            </row>
+            <row>
+               <cell>Hemir von Tunis</cell>
+               <cell>Hr. Grenberg</cell>
+               <cell>blauen Talar rosa Unterkleit weiße Patist<lb/> Hose Turban Sebel Binde</cell>
+            </row>
+            <row>
+               <cell>Seeräuber</cell>
+               <cell>Hr. Gladbach</cell>
+               <cell>Türkische Jacken Schwarz Hosen Hemden Turbane<lb/> Sebel</cell>
+            </row>
+            <row>
+               <cell>Alle Herrn</cell><!-- Zellen 2 und 3 zusammengefasst -->
+               <cell cols="2">2 Erdgeister graue Tunikken grau Mützen aus dem Alpenkönig <hi rend="italic">Gladb. Scholz</hi><note xml:id="fnt15" n="15">Zur Verdeutlichung sind die in diese Aufzählung eingestreuten Namen der Darsteller kursiv gesetzt.</note><lb/> 2 Luftgeister blaue Tuniken weiße Binden blaue reife. <hi rend="italic">Bauer Schellhorn</hi><lb/> 2 Wasser Geister Damen Anzüge mit Schuppen <hi rend="italic">M. Schellhorn Räuber</hi><lb/> 2 Feuer Geister Damen rothe ring <hi rend="italic">Torbek Marschall</hi> rothe Leibbinden<lb/> 6 Kinder Weiße Tuniken mit <hi rend="add">um den Kopf</hi> 2. Atlaßband besatz rosa Linden Triko<lb/> Hosen und Jakken Atlas Bänder zum Gürtel Silberbender<lb/> um die Schuhe fleischfarbige Schuhe<lb/> 6 Mermädchen Anzüge für Kinder blaue Kleider mit Blätter<lb/> für die die in dem Wasser singt</cell>
+            </row>
+            <!-- zweite Seite -->
+            <row>
+               <cell>Alle Herrn</cell>
+               <cell cols="2">1. 5 Elven Kleider 2mal mit blau Bender blau<lb/> um die Schuhe<lb/> 2 Türken Sclaven Hemden Hosen – Sebel <lb/>3 Corsaren Bunte Hosen schwarze Jacken sebel <lb/><hi rend="strikethrough">4</hi> die die Geister gemacht haben krigen Prister<lb/> Hemden rosa Binden</cell>
+            </row>
+            <row>
+               <cell><hi rend="add">4 Lange Tunken/Türken 2 Kurtze 7 Elven</hi></cell>
+               <cell>Statisten</cell>
+               <cell>16 Mann zum Marsch Harnische<lb/> Helm gelb und blau<lb/> 4 Hofhern Mantelkleider<lb/> 2 erst von diesen ziehen sich an<lb/> und dann machen sie Türkensclaven<lb/> und ziehen sich um – als Hofhern<note xml:id="fnt16" n="16">Oben auf Seite 408 ist nachgetragen: Oberon <hi rend="strikethrough">?</hi> Weiße Tunik mit Gold 2 mahl Sterne scharze<lb/> Gurt Steine Weiße Tunck zum unterziehen Atlaß Schurtz<lb/> Blauer Mantel Atlaß mit Gold.<lb/> Und unter der Ziffer 408: Westen von Wolf? [gemeint: von Westen und Wolf = Namen?] Hüon Rothen rock von Otello gelben Harnisch und Helm<lb/> Ketten gurt Weiße Türken Hosen rothe Jakke Zampa</note></cell>
+            </row>
+            <!-- oben auf Seite 408 -->
+         </table>
+        
+         <p>Die letzte Übersicht (TA 53, Nr.&#8239;207, Bl.&#8239;203v–Bl.&#8239;204r)<note xml:id="fnt17" n="17">Dieses Kostümbuch ist auf der ersten Seite gezeichnet mit: <q>Vorstellungen. | Eingetragen von L: Fries.</q> und trägt das Datum <q>Detmold d&#8239;24 November | 1840</q></note> 
+            wurde offensichtlich für die drei Aufführungen ab 1845 erstellt, denn die Herren Nebe und Kessler sind erst ab September bzw. November&#x00A0;1844 angestellt. Sie unterscheidet sich von den früheren Eintragungen durch die Verwendung von Kostüm-Nummern, die sich auf das <q>Inventarium der Garderobe, Requisiten und Möbel</q> von Juni&#x00A0;1845 (TA 70) beziehen. Hier sind erstmals auch die Kostüme der Damen aus dem Chor erwähnt.<note xml:id="fnt18" n="18">Ob bis zu diesem Zeitpunkt die Chor-Damen ihre Garderobe ebenfalls selbst stellen mussten, dürfte erst die weitere Aufarbeitung der Materialien ergeben.</note>  </p>
+         <!-- Tabelle 3 -->
+         <table xml:id="capelle-table03">
+            <head>Übersicht der Kostüme für die Aufführungen ab 1845 (TA 53, Nr.&#8239;207, Bl.&#8239;203v–Bl.&#8239;204r)</head>
+            <row role="label">
+               <cell>[Rolle]</cell>
+               <cell>[Ausführende(r)]</cell>
+               <cell>[Kostüm]</cell>
+            </row>
+            <row>
+               <cell>Oberon</cell>
+               <cell>Hr. Kluth.<lb/>D. Völker I<note xml:id="fnt19" n="19">Darüber ist ein Name unleserlich mit Bleistift notiert; ev. Maschett?</note></cell>
+               <cell>blaue SchnürStiefel mit Silber 2721 fleischfarbene Triko weise Tunik mit blau und Silber 1532<lb/> blauen Flormantel mit Sternen 2416 Lilienkrone und Scepter</cell>
+            </row>
+            <row>
+               <cell>Puck</cell>
+               <cell>D. Gey II. <hi rend="add">Kloss</hi> <hi rend="add">Scholz</hi></cell>
+               <cell>fleischfarb. Tricot.</cell>
+            </row>
+            <row>
+               <cell>Hüon</cell>
+               <cell>Hr. Schloss<lb/> <hi rend="add"> Schmidt</hi><lb/> <hi rend="add">Reger</hi></cell>
+               <cell>Jake 2971 Hose 2638 <lb/>Goldharnisch <hi rend="strikethrough">eigen</hi> kl. gold. Sporen Harnischhandschuh 1971.<lb/> Wappenrock von roth u. blau. Tybet 2429 Goldgurt. Schwert. <lb/>Schw. Samet Jacke u. Schurz 2637. mit Hermelin dito Baret ([ein Wort unleserlich]) <lb/><hi rend="strikethrough">Messinghelm mit Scheibe</hi> <lb/>2. rothe Türkenhose 2425. grün Gürtel mit Weiß 2426. <lb/>grüne Türkenjacken mit Weiß 2424. rothes Käppchen 1062</cell>
+            </row>
+            <row>
+               <cell>Scherasmin</cell>
+               <cell>Hr. Nebe<lb/> <hi rend="add">Berthold</hi></cell>
+               <cell>Stiefel eigen rothes Tricot 1828. schwarz. Wappenrock aus Cortez <lb/> mit roth. Ermeln gelb. Gurt Schwert weißen Helm 2131. <lb/>2. wie Hr. Schloss roth Käppchen 1940 weiß Hemd</cell>
+            </row>
+            <row>
+               <cell>Kalif</cell>
+               <cell>Hr. Dumont <lb/><hi rend="add">Preumayr</hi><lb/> <hi rend="add">Schambeck</hi></cell>
+               <cell>weiße Atlashose 1707. Stiefel eigen. grün. gestreift. Unterkleid <hi rend="strikethrough">699</hi> 2430 <lb/>roth gestickt. Gürtel 2280 blau u. roth
+                  Turban 550 <lb/> roth türkischer Schawl 1315 grün Sammt-Talar 699<lb/> <hi rend="add"><hi rend="strikethrough">Sandalen</hi> kurze Stutzen</hi></cell>
+            </row>
+            <row>
+               <cell>Babekan</cell>
+               <cell>Hr. Pichler<lb/> <hi rend="add">Dumont</hi><lb/> <hi rend="add">Lonin</hi></cell>
+               <cell>rothe Schnürstiefel 2019. gelbe Türkenhose 2428. <lb/> rothen Schurzrock mit gelb Ermeln 1827. gelb. Chemisett 598. <lb/> gelb. Schärpe um den Leib 1790. gelb seid. Schärpe als Schawl 2081. <lb/> Turban mit Blau u. Weiß 2419. Blauen Talar mit Hermelin 200. <lb/> Türkensäbel mit Schnur von Gold</cell>
+            </row>
+            <row>
+               <cell>Almansor</cell>
+               <cell>Hr. Kessler<lb/> <hi rend="add">Braunhofer?</hi></cell>
+               <cell>Stiefel eigen. weiße Atlashose 2132. seidenes Collet 2133.<lb/>blauen Schurzrock mit Silber ohne Ermel 1831. roth seid. Leibbinde 1733<lb/>roth Sammt-Talar 2435
+                  roth seid Schärpe als Schawl 2251.<lb/>Turban mit Messingspitze 2135. Säbel von Hr. <hi rend="italic">Pichler</hi>.</cell>
+            </row>
+            <row>
+               <cell>Abdallah</cell>
+               <cell>Hr. Gladbach</cell>
+               <cell>Sandalen, fleischfarb. Tricot u. Leibchen, weiß Hemd<lb/>grüne Sammt-Türkenjacke 701. rothe Türkenhose 197. grün Gurt mit Roth 2434<lb/>Turban.
+                  Säbel<lb/>übrigens wie die Herren vom Chor</cell>
+            </row>
+            <row>
+               <cell>Seeräuber</cell>
+               <cell>Hr. Scholz<lb/>Hr. Grüttemeyer<lb/><hi rend="add">Gladbach j.</hi></cell>
+               <cell>gestreifte Türkenhosen 2248. dto Hemden 2293. blaue Gürtel<lb/><hi rend="strikethrough">rothe u.</hi> blaue Türkenjacken mit Roth 1771. Turban.
+                  Säbel.<lb/>übrigens wie die Herren vom Chor</cell>
+            </row>
+            <row>
+               <cell>Alle Herren</cell>
+               <cell>vom Chor</cell>
+               <cell>1. fleischfarb. Tricot u. Leibchen. Sandalen. weiße Tuniken mit Roth 2407<lb/>Gold- oder Silbergürtel. rothe oder blaue Schawls.<lb/>2. weiße
+                  Türkenhosen 2408 weiße Hemden. blaue Gürtel mit Gelb 2420.<lb/>blaue Türkenjacken 2406 Turbans. Säbel</cell>
+            </row>
+            <!-- Seite 204r -->
+            <row>
+               <cell>Herren</cell>
+               <cell>vom Chor</cell>
+               <cell>3. graue Tuniks und Kaputzen aus Heiling<lb/>4. weiße Gürtel mit Roth 2427.</cell>
+            </row>
+            <row>
+               <cell>12</cell>
+               <cell>Militairsänger</cell>
+               <cell>wie die Herren vom Chor. <lb/>Die Bassisten als Furien Robert-Anzüge<lb/>die Tenoristen schwarze Kutten mit weißen Besätzen 2423.<lb/>rothe Kopfreife mit schwarz Flor</cell>
+            </row>
+            <row><cell>Alle Damen</cell>
+               <cell>vom Chor</cell>
+               <cell>rosa Florschürzen. Rosenkränze</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Dem. Heine <hi rend="add">Grondina</hi><lb/>Dem. Völker II <hi rend="add">Blaser</hi><lb/>Dem. Räuber <hi rend="add">Md Dumont</hi><lb/>Mad. Blocksdorf <hi rend="add">Kloss</hi><lb/>Mad. Hoppe <hi rend="add">Dahm</hi><lb/>Mad. Hornicke <hi rend="add">Trautmann</hi><hi rend="add"> Scholz</hi><lb/></cell>
+               <cell>Meermädchen-Anzüge 2409. grüne Schilfkränze<lb/>grüne Gürtel</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Md. Dumont<lb/>Dem. Spitzeder</cell>
+               <cell>graue Kutten u. Kaputzen aus Heiling</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Md. Schlegel</cell>
+               <cell>grünes JachtKleid mit gold 2630.</cell>
+            </row>
+            <row>
+               <cell>Genien</cell>
+               <cell>6 Kinder</cell>
+               <cell>gelbe Sandalen mit Silber 2414. fleischfarb. Strümpfe.<lb/>weiße Unterröcke 2413. rosa Feenkleider mit Sternen 2412<lb/>Silbergürtel. Rosenkränze</cell>
+            </row>
+            <row>
+               <cell>8 Statisten</cell>
+               <cell>als Türken</cell>
+               <cell>Sandalen. fleischfarb. Strümpfe. weiße Türkenhosen.<lb/>weiße Hemden. rothe Gürtel. rothe Türkenjacke. weiße Turbans<lb/>Säbel.</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Hr. Lichtenheld</cell>
+               <cell>bekommt noch die Türkenjacke mit schwarzen mit schwarzen Schnüren 1281<lb/>blaue Schärpe</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell><hi rend="strikethrough">Md. Schlegel</hi></cell>
+               <cell/>
+            </row>
+            <row>
+               <cell/>
+               <cell>Requisiten</cell>
+               <cell>w. Hifthorn an Goldschnur</cell>
+            </row>
+                </table>
+         <p>Zu der letzten bis zur vorübergehenden Auflösung des Hoftheaters Ende Juni 1847 nachgewiesenen Aufführung am 13.&#8239;Januar 1847 hat sich der Theaterzettel erhalten<!-- (vgl. Abb.&#8239;<ref target="#capelle-fig02" type="crossref" rend="no"/>)-->. Ein Vergleich der hier genannten Personen zeigt, dass es sich dabei überwiegend noch um die zuerst eingetragenen Personen handelt. Die Eintragung weiterer Besetzungen legt die Schlussfolgerung nahe, dass dieses Kostümbuch über diese Zeit hinaus verwendet wurde.<note xml:id="fnt20" n="20">Die Zeit von 1847 bis 1851 ist für das Detmolder Hoftheater noch nicht vollständig aufgearbeitet. Die in der LLB überlieferten Akten belegen einen Abbruch der Tätigkeit nach der Saison in Pyrmont im Jahre&#x00A0;1847 und nicht wie Peters behauptet (vgl. <ref type="bibl" target="#PetersHoftheater">S.&#8239;36</ref>) erst im Revolutionsjahr 1848.</note></p>
+         <p>Leider ist in den elf erhaltenen Regiebüchern nur eine Beschreibung zu <title ref="#capelle-work01">Oberon</title> überliefert, die allerdings zahlreiche Nachträge und Korrekturen enthält.<note xml:id="fnt21" n="21">Auf die Existenz dieser Regiebücher ist bereits <name ref="#capelle-pers004">Arne Langer</name> kurz eingegangen, vgl. <ref target="#Langer1997" type="bibl">S.&#8239;175</ref>. Seine Beschreibung ist allerdings sehr knapp und nicht korrekt.</note> 
+            Die Anordnung der Bücher entspricht eher der eines <q>Szenariums</q><note xml:id="fnt22" n="22">Vgl. hierzu die Beschreibung bei Langer <ref target="#Langer1997" type="bibl" rend="ibid">S.&#8239;167–176, bes. S.&#8239;168</ref> und die dort zitierten Erläuterungen aus den historischen Lexika.</note> 
+            Der Eintrag zu <title ref="#capelle-work01">Oberon</title> befindet sich in dem Regiebuch mit der originalen Zählung V. (TA 52) gleich zu Beginn auf den Seiten&#x00A0;1 bis 8. Die Regiebücher sind ebenfalls in drei Spalten gegliedert, wobei die mittlere die Hauptspalte ist, in der der Ablauf des Stückes wiedergegeben wird, während links die Requisiten vermerkt sind und rechts die Anmerkungen für die Bühne (Gewitter, Licht, Klopfen sowie szenische Zeichnungen). Durch die Überschreibungen und die starke Benutzung und Beschmutzung (vor allem der ersten Seite) lassen sich Ersteinträge und Nachträge nicht immer eindeutig unterscheiden bzw. sind einige Ersteinträge unleserlich. Alle Einträge zum Auftrittsort (R., L., M., z.&#8239;T. mit Angabe der Gasse) sind nachträglich.  </p>
+         <!-- Tabelle 4 -->
+         <table xml:id="capelle-table04">
+            <head>Eintrag im Regiebuch zu <title ref="#capelle-work01">Oberon</title> (TA 52, S.&#8239;1–8)</head>
+            <row role="label">
+               <cell>Requisit.</cell>
+               <cell>Oberon<lb/>König der Elfen.<lb/>Oper in 3 Acten</cell>
+               <cell>Anmerk.</cell>
+            </row>
+            <row>
+               <cell> #</cell>
+               <cell>Act I.<lb/>Scene 1. Halle in Oberons<lb/>Pallast <hi rend="add">Damen R.</hi><lb/><hi rend="add"> Herren L.</hi> <lb/>Feenchor.<lb/>/Puck tritt ein/&#x00A0;<hi rend="add">R</hi><lb/>Aria des Oberon.</cell>
+               <cell><hi rend="add">Wenn Oberon vorn ist Wolken</hi><lb/><hi rend="add">Wolken zu</hi></cell>
+            </row>
+            <row>
+               <cell>Lilienzweig<lb/>Oberon<lb/>gd.</cell>
+               <cell><hi rend="add underline">Zum Dank dafür sein herbes<lb/>Leiden enden.</hi><lb/>/Hüon und Scherasmin<lb/>aus der Versenkung auf der<lb/>Rasenbank/<lb/><hi rend="underline">Glanz und Noth<lb/>Es vergebens dann bedroht</hi></cell>
+               <cell><hi rend="add">fuhre re beginnt.</hi></cell>
+            </row>
+            <row>
+               <cell><hi rend="add">Mandoline</hi><lb/>Guitarre<lb/>Rezia</cell>
+               <cell>/Wolken verhüllen die Bühne/<lb/><hi rend="underline"><hi rend="add">Geister hört des Herren Geheiß </hi><lb/>auf. vollbringts zu meinem Preis</hi><lb/><hi rend="add">Wolken ???</hi></cell>
+               <cell><hi rend="add">Wolken aufziehen</hi></cell>
+            </row>
+            <row>
+               <cell>goldner Becher<lb/><hi rend="add">Puck</hi></cell>
+               <cell>/die Scene öffnet sich und<lb/>man erblickt Rezia auf<lb/>einem Lager/<lb/><hi rend="underline">genug, genug der Zaubermacht – <lb/>sei kühn – sei treu – sei glücklich</hi><lb/>Feen erscheinen <lb/>Feenchor.<lb/><hi rend="underline">Mein Lilienscepter winkt<lb/>u. Bagdad liegt vor dir</hi></cell>
+               <cell><hi rend="add">Wolken zu</hi> <lb/>[ein Wort unleserlich verblasst] <lb/><hi rend="add">Becher <lb/>Horn <lb/>r.</hi><note xml:id="fnt23" n="23">Wegen Verschmutzung der rechten unteren Ecke durch das Blättern ist der Text in der Spalte nicht lesbar</note></cell>
+            </row>
+            <row>
+               <cell/> 
+               <cell>Verwandlung in das Ufer<lb/> des Tigris und der Stadt<lb/> Bagdad.</cell>
+               <cell/>
+            </row>
+            <!-- Seite 2 -->
+            <row>
+               <cell/>
+               <cell>nach Chor<lb/>verwandelt sich die Rasenbank <hi rend="add">L.</hi><lb/>in einen Wolkenwagen<lb/>Oberon verschwindet in <hi rend="add">nach R</hi> demselben. Feen ab.<hi rend="add">R.</hi><lb/><hi rend="underline">einen bessern Wein habe ich <lb/>in meinem Leben noch nicht <lb/>getrunken.</hi> <hi rend="add">Hüon und Scherasmin ab L.</hi> </cell>
+               <cell/></row>
+            <row>
+               <cell/>
+               <cell>/Babekan innerhalb/ <hi rend="underline">Rettung! Hülfe! Wer rettet?<lb/>ihre Schwerter sollen dich Sitte<lb/>lehren -</hi><lb/>/4 bewaffnete Saracenen treten<lb/>ein/ /wenn alle ab sind/</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell><hi rend="add">Stern heraus</hi><lb/><hi rend="add">Sternbank L.</hi><lb/><hi rend="add">Schrank<lb/>Tisch</hi></cell>
+               <cell>Verwandlung<lb/>Scene 2. /Namunas Zimmer/<lb/>Namuna kommt.<lb/><hi rend="underline">Die Köpfe so wohl feil machen<lb/>als obs Steckrübchen wären.</hi></cell>
+               <cell><hi rend="strikethrough">Dämmerung</hi><lb/> [Zeichnung]</cell>
+            </row>
+            <row>
+               <cell>1 Lampe<lb/>Namuna</cell>
+               <cell>/es wird geklopft/<lb/>/Namuna mit einer Lampe./</cell>
+               <cell>= Klopfer<lb/>Tag</cell>
+            </row>
+            <row>
+               <cell><hi rend="add">Stern herein</hi></cell>
+               <cell>nach Hüons Aria<lb/>Verwandlung<lb/>Zimmer eines Harem</cell>
+               <cell>hinten<lb/>Mondlicht</cell>
+            </row>
+                         <!-- Seite 3 -->
+                       <row>
+               <cell>Dolch<lb/>Rezia</cell>
+               <cell>Scene 3. Rezia. Fatime.</cell>
+               <cell><hi rend="add">R. 2.</hi></cell>
+            </row>
+            <row>
+               <cell><hi rend="add">Divan<lb/> ohne Lehne</hi></cell>
+               <cell><hi rend="underline">Steckt diese schauerliche Waffe in die Scheide</hi> <hi rend="add underline">wird schreckliche Ketten Söhne</hi><lb/>/es wird geklopft/<hi rend="underline">ich handle fest, aber nicht übereilt.</hi></cell>
+               <cell>? Ketten <hi rend="add">vorn rechts</hi><lb/>klopfen</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell><hi rend="strikethrough">abermals Klopfen</hi></cell>
+               <cell><hi rend="strikethrough">Klopfen</hi>.</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell><hi rend="add"> # Fatime Duett </hi><hi rend="add">Fatime ab L. 2</hi> <hi rend="add">Duett</hi><lb/>Rezias Aria<lb/>dann Finale.<lb/> <hi rend="add">alle</hi></cell>
+               <cell><hi rend="add">auf d. Arm</hi><lb/>allmählich<lb/>Nacht.</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell/>
+               <cell/>
+            </row>
+            <row>
+               <cell>rothe Kissen<lb/>runder Tisch<lb/>Aufsätze von<lb/>Silber<lb/>Früchte.<lb/>Gefäße<lb/><hi rend="add">m.</hi></cell>
+               <cell>Act 2 <hi rend="add">Damen Zimmer R. <lb/> Herren L.</hi><lb/>Speisesaal im Pallast des <lb/>Harun<lb/>Scene 1. Kalif. Babekan.<lb/>Sclaven.</cell>
+               <cell> [Zeichnung]<lb/>Rothe Puffe</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Chor<lb/><hi rend="underline">Bringt die Braut herbei.</hi><lb/>/Die Seitenvorhänge werden<lb/>weggezogen./<lb/>Rezia. Fatime, Sclavinnen<lb/>treten heraus/ <hi rend="add">R.</hi></cell>
+               <cell><hi rend="add">alle Damen</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell><hi rend="underline">Komm näher, meine Tochter</hi><lb/>/innerhalb Schwerdtergeklirr/</cell>
+               <cell>Schwerdter?<lb/>nach d. Musik</cell>
+            </row>
+            <row>
+               <cell><hi rend="add">1 Horn v. Elfenbein <lb/>zum umhängen</hi><lb/>elfenbeinernes<lb/>Horn<lb/>Oberon.[sic]</cell>
+               <cell><hi rend="underline">Was für Verwegenheit.</hi><lb/>Hüon und Scherasmin treten ein<lb/><hi rend="underline">Ihr braucht Euch gar nicht zu in<lb/>commodiren</hi></cell>
+               <cell> [unleserlich]</cell>
+            </row>
+            <!-- Seite 4 -->
+            <row>
+               <cell><hi rend="add">bl.[bleibt]</hi></cell>
+               <cell>Verwandlung<lb/>Garten am Pallast.<lb/>Scene 2. 4 Sarazenen.<lb/><hi rend="underline">wenn sie nicht wirklich einge-<lb/>fleischte Teufel sind.</hi><lb/>/Hüon, Scherasmin, Rezia<lb/>und Fatime kommen. <hi rend="add">L.</hi><lb/><hi rend="underline">dieses hier wird uns Beistand<lb/>herbeirufen.</hi><note xml:id="fnt24" n="24">Diese vorstehende Szene ist gestrichen.</note></cell>
+                          <cell><hi rend="add">fort</hi><lb/><hi rend="strikethrough">Wolkenhintergrund</hi> <hi rend="add">Wald</hi><lb/>Donner<lb/> &amp;<lb/>Blitz<lb/><hi rend="add">R. ab</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>/Oberon im Wagen/<lb/>durch die ganze Welt<lb/>/Wolken schwinden, und<lb/>man sieht den Hafen<lb/>von Askalon/<lb/><hi rend="underline">Du wirst endlich siegen!</hi><lb/>/Oberon verschwindet in<lb/>den Wagen/.<lb/>Aria der Fatime<lb/><hi rend="underline">was ich vom Himmel verlange<note xml:id="fnt25" n="25">Der Text ist überschrieben mit: <q><hi rend="underline">Zwei glückliche Männer</hi></q></note></hi></cell>
+               <cell/>
+            </row>
+            <row>
+               <cell/>
+               <cell>Quartett <hi rend="add">R.</hi></cell>
+               <cell><hi rend="add">Hüon Scherasmin Rezia</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Verwandlung<lb/>Felsen.<lb/>Scene 4. Puck.<lb/>Aria<lb/>Geister erscheinen Chor.</cell>
+               <cell><hi rend="add">Dunkel.</hi><lb/>Blitz</cell>
+            </row>
+                         <!-- Seite 5 -->
+                        <row>
+               <cell><hi rend="add">Bank heraus</hi> <lb/><hi rend="add">Bank R. I</hi></cell>
+               <cell>/wenn die Geister verschwinden/<lb/>Verwandlung<lb/>Höhle an der Seeküste<lb/>Scene 5. Hüon. Rezia <hi>R. T.</hi><lb/>Aria.<lb/><hi rend="underline">Grausamer Geist – keine Hülfe – <lb/>keine Rettung, keine<lb/></hi></cell>
+               <cell>= Donner<lb/>Blitz<lb/>Sturm<note xml:id="fnt26" n="26">Ein Zeichen vermerkt, dass der Sturm vor Szene 5 stattfindet.</note><lb/>Dunkel</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>/Zauberbecher wird<lb/>ans Ufer geworfen/ <hi rend="add">L. T.</hi></cell>
+               <cell>Becher heraus</cell>
+            </row>
+            <row>
+               <cell> [zwei Worte unleserlich] 1 Becher</cell>
+               <cell>Aria der Rezia<lb/>während der Aria</cell>
+               <cell>Sturm hört auf <hi rend="add">= Hell</hi></cell>
+            </row>
+            <row>
+               <cell><hi rend="add">1 Strick</hi><lb/>Baumast. kl:<lb/>Hüon</cell>
+               <cell>sie springen aus dem bote<lb/>sie kommen<lb/>Abdallah mit Seeräubern<lb/>aus dem Schiffe</cell>
+               <cell><hi rend="add">Hausstatisten</hi><lb/> <hi rend="add">3 Statisten</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>/wenn Seeräuber ab sind,<lb/>kommt Oberon mit Musik in<lb/>den Wagen <hi rend="add underline">will ihr eine Laube baun<lb/>nie ein Blümchen stand</hi><lb/>Finale <hi rend="add">Finale</hi></cell>
+               <cell>= Busch hoch</cell>
+            </row> <row>
+               <cell><hi rend="add">Laterne</hi><lb/>Spaten<lb/>Blumenkörbchen</cell>
+               <cell>Act 3. Vor dem Hause<lb/>des Gärtners Ibrahim<lb/>Scene 1.<lb/>Fatime. <hi rend="add">R</hi><lb/>nach Aria<lb/>Scherasmin tritt auf<lb/>duett</cell>
+               <cell/>
+            </row>
+                         <!-- Seite 6 -->
+                        <row>
+               <cell/>
+               <cell>Scene 2 Puck. <hi rend="add">Droll</hi> Hüon <hi rend="strikethrough">auf<lb/>den Wagen</hi> <hi rend="add">L.</hi> <hi rend="add">Puck ab R.</hi><lb/><hi rend="underline">hin zum Feenland kehr ich</hi></cell>
+               <cell><hi rend="add">Wagen auf</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>/Scherasmin tritt auf/ <hi rend="add">R.</hi><lb/><hi rend="underline">das weiß allein der Himmel.</hi><lb/>/Fatime kommt eilig/ <hi rend="add">R.</hi><lb/>nach Terzett <hi rend="add">Alle ab L</hi></cell>
+               <cell><hi rend="add">Fatime</hi></cell>
+            </row>
+            <row>
+               <cell>Horn</cell>
+               <cell><hi rend="strikethrough">Verwandlung.<lb/>Scene 3. Zimmer in Emirs Harem<lb/>Almansor. Sclave.</hi><lb/><hi rend="underline"><hi rend="strikethrough">dann ihrer Allgewalt fürstlich</hi>  <lb/><hi rend="strikethrough">huldigen</hi></hi></cell>
+               <cell><hi rend="add">?<lb/>Musik gut</hi><lb/><hi rend="add">bl</hi></cell>
+            </row>
+            <row>
+               <cell>Divan</cell>
+               <cell>Rezia Aria<lb/><hi rend="underline">daß ich auch dein Herr bin</hi> <hi rend="add">Rezia ab M.</hi><lb/>/Roschana tritt ein/ <hi rend="add">R.</hi><lb/><hi rend="underline">Die Bosheit ihrer Feinde zu ver-<lb/>spotten</hi> <hi rend="add">Roschana ab M.</hi></cell>
+               <cell> [Zeichnung]</cell>
+            </row>
+            <row>
+               <cell><hi rend="add">Blumensträusse</hi><lb/> Blumenstrauß<lb/>f. Hüon</cell>
+               <cell><hi rend="strikethrough">Verwandlung<lb/>Gebüsch im Garten Almansors<lb/>Scene 4. Fatime <hi rend="add">R.</hi></hi><lb/><hi rend="underline"><hi rend="strikethrough">Da kommt er!</hi></hi><lb/><hi rend="strikethrough">/Hüon tritt auf/ <hi rend="add">R.</hi><lb/>nach Hüons Aria</hi></cell>
+               <cell><hi rend="add">bl.</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Verwandlung<lb/>Roschanas Zimmer</cell>
+               <cell>Nacht.</cell>
+            </row>
+                         <!-- Seite 7 -->
+                       <row>
+               <cell><hi rend="add">4 Fackeln</hi><lb/>1 Sessel <hi rend="add">auf(?) Phantasie</hi></cell>
+               <cell><hi rend="add">Zimmer.</hi> <hi rend="add"> [Zeichnung]</hi> Scene 5. Nadina. Huon. <hi rend="add">L.</hi><lb/>Wie martervoll ist dieses <lb/>Zögern!<lb/>/Die Vorhänge der Nische<lb/>werden zurückgezogen,<lb/>und man sieht Roschana<lb/>auf einem Sessel ruhen.<lb/>Sclaven und Sclavinnen<lb/>kommen mit Laternen</cell>
+               <cell><hi rend="add">Tag</hi></cell>
+            </row>
+            <row>
+               <cell>Blumen<lb/>guirlanden<lb/>1 Becher</cell>
+               <cell>Chor. <lb/> /Eine von den Mädchen reicht <lb/>Hüon einen Becher Wein./<lb/><hi rend="underline">Auseinander, sag ich</hi></cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>1 Dolch<lb/>Roschana</cell>
+               <cell>/Almansor tritt auf/ <hi rend="add">M</hi><lb/><hi rend="add"><hi rend="underline">fort mit ihm zur Tür</hi> Alle ab</hi>/<lb/>wenn alle ab sind/<lb/><hi rend="add">Almansor ab M.</hi></cell>
+               <cell><hi rend="add">8 Sclaven</hi><lb/><hi rend="add">Statisten</hi><lb/> [Wort&#x2004;oder Zeichnung unleserlich verwischt]</cell>
+            </row>
+            <row>
+               <cell> [Zeichnung]<lb/><hi rend="add">Horn hinter d.<lb/>Bank</hi></cell>
+               <cell>Verwandlung<lb/>Garten hinter Ibrahims Hause<lb/><hi rend="underline">Du wirst wohl auch am Ende<lb/>so ein treuloser Geist sein</hi><lb/>wie alle übrigen.<lb/>/eine Hand kommt aus<lb/>dem Gebüsch und faßt<lb/>Scherasmin an die Beine/</cell>
+               <cell> [Zeichen]</cell>
+            </row>
+                         <!-- Seite 8 -->
+                              <row>
+               <cell/>
+               <cell><hi rend="underline">Ja, ja, ich sehe noch wie sie sich<lb/> unter dem Rosenstrauche be-<lb/>wegt</hi></cell>
+               <cell/>
+            </row>
+            <row>
+               <cell/>
+               <cell>/das elfenbeinerne Horn<lb/>sieht man im Busch sich<lb/>bewegen/<lb/><hi rend="underline">nun sind wir gerettet;</hi><lb/>/Fatime kommt/<lb/>/wenn beide ab sind/</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Viele Fackeln</cell>
+               <cell>Verwandlung<lb/>Hof in Harem<lb/>mit Scheiterhaufen</cell>
+               <cell>Nacht</cell>
+            </row>
+            <row>
+               <cell>Statisten<lb/><hi rend="add">Stricke</hi><lb/><hi rend="add">Horn</hi></cell>
+               <cell>Almansor. Sclaven <hi rend="add underline">den verbrecherischen Sclaven herbei</hi><lb/>dann Rezia später Huon.<lb/>während Chor<lb/>Scherasmin. Fatime kommen<lb/> <hi rend="underline">den Elfenkönig selbst nun auch.</hi><lb/>Oberon Titania im Wagen<lb/>/alle ab/</cell>
+               <cell>Elfen</cell>
+            </row>
+            <row>
+               <cell/>
+               <cell><hi rend="strikethrough">Verwandlung<lb/>Pallast mit Thron<lb/>Carl der Grosse. Ritter<lb/>nach dem Marsch</hi></cell>
+               <cell><hi rend="add">weg</hi></cell>
+            </row>
+            <row>
+               <cell/>
+               <cell>Huon Rezia. Scherasmin Fatime<lb/><hi rend="underline">Die Erbin seines Throns<lb/>Und jetzt Vasallen braust</hi><lb/>Verwandlung. Chor. Finale.</cell>
+               <cell> [Zeichnung: Kopf]</cell>
+            </row>
+         </table>
+         <p>Es ist zu diesem Zeitpunkt nicht möglich, diese Dokumente näher auszuwerten. Erst ein Vergleich mit den Einträgen zu anderen Opern und zu den Schauspielen wird die Bedeutung der Einträge zu <title ref="#capelle-work01">Oberon</title> <soCalled>sprechen</soCalled> lassen: Ist die Garderobe für das Detmolder Ensemble aufwendig oder eher schlicht? Was bedeuten die Änderungen: Sind sie in der Zeit üblich oder für das Stück spezifisch? Der Regieeintrag lässt sich sicherlich nur in Zusammenhang mit den Aufführungsmaterialien verstehen: Ein Vergleich z.&#8239;B. mit dem Soufflierbuch erhellt vielleicht manche Eingriffe in den Text, die hier unverständlich bleiben. Außerdem sind die dort enthaltenen Anmerkungen zur Szene in die Gesamtbetrachtung mit einzubeziehen.</p>
+         <p>So ist dieser Beitrag als Anregung für künftige Forschungen zu verstehen: Diese erste Wiedergabe der Dokumente soll zeigen, in welcher Quantität und Qualität in den Materialien Informationen zur szenischen Darstellung enthalten sind. Die weitere Erschließung im Rahmen des Projekts  <hi rend="italic">Detmolder Hoftheater</hi> ermöglicht die angesprochenen Vergleiche und eröffnet damit neue Forschungsmöglichkeiten zur Oper als <soCalled>Gesamtkunstwerk</soCalled>. </p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="VeitLLB1984">Joachim Veit, <title level="a">Die Bestände des Musiktheaters bis 1849</title>, in: <title level="m">Handschriften aus der Musikabteilung der Lippischen Landesbibliothek</title>, hg. von Dorothee Melchert und Joachim Veit, Detmold 1984, S.&#8239;21–27</bibl> 
+               <bibl xml:id="Eberhard2015">Joachim Eberhard, <title level="a">Des Teufels Antheil. Hoftheatergeschichte in den Beständen der Lippischen Landesbibliothek Detmold</title>, in: <title level="m">Musiksammlungen in den Regionalbibliotheken Deutschlands, Österreichs und der Schweiz</title>, hg. von Ludger Syré im Auftrag der Arbeitsgemeinschaft der Regionalbibliotheken, Frankfurt am Main 2015, S.&#8239;93–108</bibl>
+               <bibl xml:id="Dahlhaus1980">Carl Dahlhaus, <title level="a">Zur Methode der Opernanalyse</title>, in: <title level="m">Carl Dahlhaus. Gesammelte Schriften</title>, hg. von Hermann Danuser in Verbindung mit Hans-Joachim Hinrichsen und Tobias Plebuch, Laaber 2010, Bd.&#8239;2, S.&#8239;412–422</bibl>
+               <bibl xml:id="Bork2011">Camilla Bork, <title level="a">Carl Dahlhaus: Zur Methode der Opern-Analyse</title>, in: <title level="m">Carl Dahlhaus und die Musikwissenschaft. Werk – Wirkung – Aktualität</title>, hg. von Hermann Danuser, Peter Gülke und Norbert Miller in Verbindung mit Tobias Plebuch, Schliengen 2011, S.&#8239;118–124</bibl>
+               <bibl xml:id="Daude">Daniele Daude, <title level="m">Oper als Aufführung. Neue Perspektiven der Opernanalyse</title>, Bielefeld 2014</bibl>
+<bibl xml:id="Smart2004">Mary Ann Smart, <title level="m">Mimomania. Music and gesture in nineteenth-century opera</title>, Berkeley/Los Angeles 2004</bibl>
+               <bibl xml:id="Dueringer">Art. <title level="a">Garderobe</title>, in: <title level="m">Theaterlexikon. Theoretisch-practisches Handbuch für Vorstände, Mitglieder und Freunde des deutschen Theaters</title>, hg. von Ph.&#8239;J. Düringer und H. Barthels, Leipzig 1841, Sp.&#8239;455–494</bibl>
+               <bibl xml:id="Langer1997">Arne Langer, <title level="m">Der Regisseur und die Aufzeichnungspraxis der Opernregie im 19.&#8239;Jahrhundert</title>, Frankfurt am Main u.&#8239;a., 1997 (Perspektiven der Opernforschung&#x00A0;4)<bibl type="short">Langer, <title level="m">Der Regisseur und die Aufzeichnungspraxis</title></bibl></bibl>
+               <bibl xml:id="SchreiterOberon">Solveig Schreiter, <title level="m">Das Libretto zu Carl Maria von Webers Oberon. Werkentstehung und Werktradierung: Studien zur Entstehung, Überlieferung und Rezeption des Werkes in Verbindung mit einer wissenschaftlich-kritischen Neuedition des Textbuchs</title>, Diss. Dresden 2013, URN: <ref target="http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-132072">urn:nbn:de:bsz:14-qucosa-132072</ref></bibl>
+               <bibl xml:id="PetersHoftheater">Hans Georg Peters, <title level="m">Vom Hoftheater zum Landestheater. Die Detmolder Bühne von 1825 bis 1969</title>, Detmold 1972 (Lippische Studien 1)</bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

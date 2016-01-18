@@ -1,0 +1,133 @@
+% Längendefinitionen
+\newlength{\floatingTextIndentLeft}
+\newlength{\floatingTextIndentRight}
+\setlength{\floatingTextIndentLeft}{1cm}
+\setlength{\floatingTextIndentRight}{1cm}
+
+% Silbentrennung
+\hyphenation{Wien pa-ral-lel Jo-achim Soft-ware Kos-ta-din Flöten=Vir-tuose Eu-ry-an-thes euro-päisch=abend-län-dischen reli-giös=theo-lo-gische Pu-bli-ka-tions-pro-zesse Außen-wir-kung/Öffent-lich-keits-ar-beit Kor-res-pon-den-zen Brief-edi-tio-nen in-for-ma-tions-tech-ni-sche Musi-ker-fami-lie Kunst-druck=Verlag Pub-li-kum
+Kunst-druck=Verlag Pub-li-kum Innen-archi-tektur Kom-mu-ni-ka-tions-aktivi-täten Nutzungs-möglich-keiten Archi-tektur-elemente System-entwick-lung Gestaltungs-dimension Technik-gestaltung Gespen-ster-brief Tasten-instru-mente Felipe Diskus-sion Wolfs-schlucht=Szene Va-gabonden Komposi-tion E=Lear-ning=Systemen abstra-hierende 
+Initia-torinnen Schaffens-weise in-grata Giu-lio di-spet-to Mensch=Computer=Inter-ak-tion Auf-nahme= Stellungs-kämpfe En-semble-be-ar-bei-tungen Pa-squa-le Aben-theuer conve-gno in-for-matisch=tech-nischen re-search Ger-hart=Haupt-mann=Ober-schule Hum-boldt=Uni-ver-si-tät}
+
+% Blockzitate mit Fußnote am Ende
+\renewcommand{\mkcitation}[1]{\footnote{#1}}
+
+% Interpunktion zwischen Fußnotenzeichen und Zitat setzen 
+\renewcommand{\mktextquote}[6]{#1#2#4#3#5#6}
+
+% Nur Kapitel im TOC ausgeben
+\setcounter{tocdepth}{0}
+\setlength{\unitlength}{1cm}
+
+% tocloft-Einstellungen
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchappagefont}{\normalfont\sffamily}
+\cftsetindents{part}{0em}{0em}
+
+\addtokomafont{captionlabel}{\footnotesize}
+\addtokomafont{caption}{\footnotesize}
+\addtokomafont{footnotereference}{\footnotesize}
+\addtokomafont{section}{\fontsize{11}{13}\selectfont}
+%
+% Chapter für Verfassername
+% Der Verfassername, Schriftgröße 12 p (Versalhöhe 3 mm), kursiv, steht auf der 1. Textzeile.
+%
+%\chapterfont{\large\rm\itshape\vspace*{-7ex}}
+\setkomafont{disposition}{\normalcolor\sffamily}
+% paragraph for "Autoren der Beträge" in Kapitälchen
+% Ergänzung von addfontfeatures, dass keine Ligaturen genutzt werden
+\setkomafont{paragraph}{\normalcolor\normalsize\normalfont\scshape\addfontfeatures{Ligatures=NoCommon}}
+
+
+% Zählung der Sections *ohne* vorherige Kapitelnr.
+% --> Bei jedem Kapitel muss section wieder auf 0 gesetzt werden
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+
+%Fußnotenbalken - dieser darf in der Summe keinen vertikalen Abstand erzeugen!
+%\renewcommand{\footnoterule}{\vspace*{3pt}\noindent\rule{1,5cm}{0.5pt}\vspace*{8pt}}
+%\renewcommand{\footnoterule}{\vspace*{-5pt}
+%{\hrule width 1.5cm height 0.5pt}\vspace*{4.5pt}}
+%\setlength{\skip\footins}{4mm plus 2mm}
+\makeatletter
+\renewcommand*\footnoterule{%
+  \kern-6\p@
+  \ifx\@textbottom\relax\else\vskip \z@ \@plus.05fil\fi
+  \hrule\@width1.5cm
+  \kern 5.6\p@}
+\makeatother
+
+%Fußnotenzeichen und -einzug
+\deffootnote[1.5em]{1.5em}{1em}{\makebox[1.5em][l]{\textsuperscript{\thefootnotemark}}}
+
+% lebende Kolumnentitel
+\pagestyle{scrheadings}
+\ohead{\pagemark} 
+\ihead{\footnotesize\headmark} 
+\ofoot[]{}
+%\automark{chapter}
+\manualmark
+
+% Abstand nach der chapter-Überschrift vergrößern
+\renewcommand*{\chapterheadendvskip}{\vspace{2pc}}
+
+% Die erste Seite jedes Beitrags wird ohne Seitenzahl gesetzt 
+\renewcommand*{\chapterpagestyle}{empty}
+
+% Eigene Umgebung "floatingText". Etwas eingerückt …
+\newenvironment{floatingText}{\par\medskip\setlength{\leftskip}{\floatingTextIndentLeft}\setlength{\rightskip}{\floatingTextIndentRight}\noindent\ignorespaces\setlength{\parskip}{\smallskipamount}}{\par\medskip}
+
+% Needed to set Greek characters
+%\newfontfamily\greekfont[Script=Greek, Scale=MatchUppercase, Ligatures=TeX]{Linux Libertine O}
+\newcommand{\textgreek}[1]{\bgroup#1\egroup}
+
+% Needed for typesetting musical symbols
+\newfontfamily\musicfont[Scale=.85]{Bravura}
+\newcommand\music[1]{\raisebox{.1em}{\musicfont #1}}
+
+% Setzen von XMl tags und Attributen
+\newcommand\gi[1]{\textnormal{#1}}
+\newcommand\att[1]{\textnormal{#1}}
+
+% set font of links (\url) to standard roman rather than typewriter
+\urlstyle{rm}
+
+% neue Umgebung für Notenbeispiele
+\DeclareNewTOC[%
+   type=notenbeispiel,%
+   types=notenbeispiele,%
+   float,% Es sollen Gleitumgebungen definiert werden. floattype=4,%
+   name=Notenbeispiel,%
+   listname={Verzeichnis der Notenbeispiele}%
+]{lon}
+\providecaptionname{ngerman}{\notenbeispielname}{Notenbeispiel}
+\providecaptionname{english}{\notenbeispielname}{Sample Notation}
+
+% Ändern des subparagraph für listen-headings
+\makeatletter
+\renewcommand{\subparagraph}{%
+    \@startsection{subparagraph}{\subparagraphnumdepth}%
+    {\parindent }{1.25ex \@plus 1ex \@minus .2ex}{-1em}%
+    {\raggedsection \normalfont \sectfont \nobreak }
+}
+\makeatother
+
+% captions kleiner für minted Listings
+\renewcommand{\listingscaption}{\footnotesize Listing}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\medskipamount}
+
+% Macht die coolen dt. Silbentrennungen des Babel-Pakets auch fürs Englische verfügbar 
+\addto\extrasenglish{\useshorthands{"}\languageshorthands{ngerman}}
+
+% Schaltet Leerzeichen vor ":;!?" (in franz.) ab; siehe ftp://ftp.tu-clausthal.de/pub/mirror/ctan/language/babel/contrib/frenchb/frenchb.pdf 
+\frenchbsetup{AutoSpacePunctuation=false}
+
+% Justiert die Abstände vor und nach dem Titel "Inhaltsverzeichnis", 
+% so dass die erste Seite des TOC ordentlich ausgerichtet ist und  
+% Holtsträter noch mit auf diese Seite rutscht
+\setlength{\cftbeforetoctitleskip}{4ex}
+\setlength{\cftaftertoctitleskip}{8ex}

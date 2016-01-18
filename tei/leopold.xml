@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Komponieren im Rentenalter</title>
+            <title type="sub">Über die Kategorie des Spätwerks in der Musik</title>
+            <author>
+               <name><forename>Silke</forename> <surname>Leopold</surname></name>
+               <affiliation><!--1948 in Hamburg geboren, --> war bis zu ihrer Pensionierung 2014 Ordinaria für Musikwissenschaft an der Ruprecht Karls Universität Heidelberg. Sie studierte in Hamburg und Rom, wo sie nach der Promotion drei Jahre an der Musikabteilung des Deutschen Historischen Instituts Forschungsstipendiatin war. Als Assistentin von Carl Dahlhaus habilitierte sie sich 1987 an der TU Berlin. Sie lehrte ein Jahr an der Harvard University und fünf Jahre an der Musikhochschule Detmold, bevor sie 1996 nach Heidelberg berufen wurde. Von 2001 bis 2007 war sie als Prorektorin der Universität Heidelberg für den Bereich Studium und Lehre verantwortlich. Sie ist Leiterin der Forschungsstelle Südwestdeutsche Hofmusik der Heidelberger Akademie der Wissenschaften. Ihre Veröffentlichungen umfassen ein breites Spektrum der Musikgeschichte vom 15. bis zum 20. Jahrhundert, mit einem Schwerpunkt im Bereich der Vokalmusik und der Oper des 17. und 18. Jahrhunderts.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="leopold-pers001">
+                  <p>Adorno, Theodor W.</p>
+               </person>
+               <person xml:id="leopold-pers003">
+                  <p>Alers, Christian Wilhelm</p>
+               </person>
+               <person xml:id="leopold-pers005">
+                  <p>Bach, Johann Sebastian</p>
+                  <p n="work" xml:id="leopold-work008"><hi rend="italic">Die Kunst der Fuge</hi>, BWV 1080</p>
+                  <p n="work" xml:id="leopold-work009"><hi rend="italic">Musikalisches Opfer</hi>, BWV 1079</p>
+               </person>
+               <person xml:id="leopold-pers007">
+                  <p>Beethoven, Ludwig van</p>
+               </person>
+               <person xml:id="leopold-pers009">
+                  <p>Bourbon, Ferdinand von</p>
+               </person>
+               <person xml:id="leopold-pers010">
+                  <p>Breitkopf, Bernhard Christoph</p>
+               </person>
+               <person xml:id="leopold-pers011">
+                  <p>Brockes, Barthold Heinrich</p>
+               </person>
+               <person xml:id="leopold-pers012">
+                  <p>Bruckner, Anton</p>
+                  <p n="work" xml:id="leopold-work010"><hi rend="italic">Sinfonie</hi> Nr.&#8239;9 d-Moll (WAB&#8239;109)</p>
+               </person>
+               <person xml:id="leopold-pers013">
+                  <p>Sophie Charlotte, Prinzessin von Hannover</p>
+               </person>
+               <person xml:id="leopold-pers014">
+                  <p>Dahlhaus, Carl</p>
+               </person>
+               <person xml:id="leopold-pers016">
+                  <p>Davies, Cecilia</p>
+               </person>
+               <person xml:id="leopold-pers043">
+                  <p>Davies, Marianne</p>
+               </person>
+               <person xml:id="leopold-pers002">
+                  <p>Esterházy, Familie</p>
+               </person>
+               <person xml:id="leopold-pers017">
+                  <p>Franklin, Benjamin</p>
+               </person>
+               <person xml:id="leopold-pers018">
+                  <p>Gadamer, Hans-Georg</p>
+               </person>
+               <person xml:id="leopold-pers019">
+                  <p>Gleim, Johann Wilhelm Ludwig</p>
+               </person>
+               <person xml:id="leopold-pers021">
+                  <p>Goeze, Johann Melchior</p>
+               </person>
+               <person xml:id="leopold-pers022">
+                  <p>Graun, Carl Heinrich</p>
+               </person>
+               <person xml:id="leopold-pers023">
+                  <p>Götz, Johann Nikolaus</p>
+                  <p n="work" xml:id="leopold-work002"><hi rend="italic">Harmonie in der Ehe</hi></p>
+               </person>
+               <person xml:id="leopold-pers008">
+                  <p>Härtel, Gottfried Christoph</p>
+               </person>
+               <person xml:id="leopold-pers024">
+                  <p>Haslmayr, Harald</p>
+               </person>
+               <person xml:id="leopold-pers025">
+                  <p>Hasse, Johann Adolf</p>
+               </person>
+               <person xml:id="leopold-pers027">
+                  <p>Haydn, Joseph</p>
+                  <p n="work" xml:id="leopold-work003"><hi rend="italic">Die Schöpfung</hi></p>
+                  <p n="work" xml:id="leopold-work004"><hi rend="italic">Die Jahreszeiten</hi></p>
+                  <p n="work" xml:id="leopold-work018"><hi rend="italic">Gott erhalte Franz den Kaiser</hi></p>
+                  <p n="work" xml:id="leopold-work019"><hi rend="italic">Streichquartette</hi> op.&#8239;76</p>
+                  <p n="work" xml:id="leopold-work026"><hi rend="italic">Trompetenkonzert</hi> Es-Dur</p>
+                  <p n="work" xml:id="leopold-work027"><hi rend="italic">Streichquartett</hi> op.&#8239;103 in d-Moll</p>
+               </person>
+               <person xml:id="leopold-pers030">
+                  <p>Heesters, Johannes</p>
+               </person>
+               <person xml:id="leopold-pers031">
+                  <p>Heine, Heinrich</p>
+               </person>
+               <person xml:id="leopold-pers032">
+                  <p>Holzbauer, Ignaz</p>
+                  <p n="work" xml:id="leopold-work005"><hi rend="italic">Günther von Schwarzburg</hi></p>
+               </person>
+               <person xml:id="leopold-pers033">
+                  <p>Händel, Georg Friedrich</p>
+               </person>
+               <person xml:id="leopold-pers034">
+                  <p>Jünger, Ernst</p>
+               </person>
+               <person xml:id="leopold-pers035">
+                  <p>Klopstock, Friedrich Gottlieb</p>
+                  <p n="work" xml:id="leopold-work016"><hi rend="italic">Der Messias</hi></p>
+               </person>
+               <person xml:id="leopold-pers037">
+                  <p>Kuhnau, Johann</p>
+               </person>
+               <person xml:id="leopold-pers036">
+                  <p>Lessing, Gotthold Ephraim</p>
+                  <p n="work" xml:id="leopold-work001"><hi rend="italic">Beredsamkeit</hi></p>
+               </person>
+               <person xml:id="leopold-pers040">
+                  <p>Liszt, Franz</p>
+               </person>
+               <person xml:id="leopold-pers041">
+                  <p>Machaut, Guillaume de</p>
+               </person>
+               <person xml:id="leopold-pers042">
+                  <p>Ferdinand Maria von Bayern, Kurfürst von Bayern</p>
+               </person>
+               <person xml:id="leopold-pers044">
+                  <p>Metastasio, Pietro</p>
+               </person>
+               <person xml:id="leopold-pers047">
+                  <p>Monteverdi, Claudio</p>
+                  <p n="work" xml:id="leopold-work006"><hi rend="italic">L&#x2019;incoronazione di Poppea</hi></p>
+                  <p n="work" xml:id="leopold-work023"><hi rend="italic">Cantai un tempo</hi></p>
+                  <p n="work" xml:id="leopold-work028"><hi rend="italic">VIII. Madrigalbuch</hi></p>
+                  <p n="work" xml:id="leopold-work029"><hi rend="italic">Selva morale e spirituale</hi></p>
+               </person>
+               <person xml:id="leopold-pers048">
+                  <p>Mozart, Wolfgang Amadeus</p>
+                  <p n="work" xml:id="leopold-work007"><hi rend="italic">Die Zauberflöte</hi></p>
+               </person>
+               <person xml:id="leopold-pers050">
+                  <p>Ovid</p>
+                  <p n="work" xml:id="leopold-work017"><hi rend="italic">Metamorphosen</hi></p>
+               </person>
+               <person xml:id="leopold-pers051">
+                  <p>Pergolesi, Giovanni Battista</p>
+               </person>
+               <person xml:id="leopold-pers052">
+                  <p>Johann Wilhelm, Kurfürst von der Pfalz</p>
+               </person>
+               <person xml:id="leopold-pers053">
+                  <p>Purcell, Henry</p>
+               </person>
+               <person xml:id="leopold-pers054">
+                  <p>Rameau, Jean-Philippe</p>
+                  <p n="work" xml:id="leopold-work020"><hi rend="italic">Abaris ou Les Boréades</hi></p>
+               </person>
+               <person xml:id="leopold-pers055">
+                  <p>Ramler, Karl Wilhelm</p>
+                  <p n="work" xml:id="leopold-work031"><hi rend="italic">Die Hirten bei der Krippe zu Bethlehem</hi></p>
+                  <p n="work" xml:id="leopold-work032"><hi rend="italic">Die Auferstehung und Himmelfahrt Jesu</hi></p>
+               </person>
+               <person xml:id="leopold-pers057">
+                  <p>Scarlatti, Domenico</p>
+               </person>
+               <person xml:id="leopold-pers058">
+                  <p>Schubert, Franz</p>
+                  <p n="work" xml:id="leopold-work022"><hi rend="italic">Schwanengesang</hi>, D 957</p>
+               </person>
+               <person xml:id="leopold-pers059">
+                  <p>Schönberg, Arnold</p>
+               </person>
+               <person xml:id="leopold-pers060">
+                  <p>Steffani, Agostino</p>
+                  <p n="work" xml:id="leopold-work013"><hi rend="italic">Enrico Leone</hi></p>
+                  <p n="work" xml:id="leopold-work014"><hi rend="italic">Tassilone</hi></p>
+                  <p n="work" xml:id="leopold-work015"><hi rend="italic">Stabat Mater</hi></p>
+               </person>
+               <person xml:id="leopold-pers063">
+                  <p>Strauss, Richard</p>
+                  <p n="work" xml:id="leopold-work024"><hi rend="italic">Vier letzte Lieder</hi></p>
+               </person>
+               <person xml:id="leopold-pers064">
+                  <p>Telemann, Georg Philipp</p>
+                  <p n="work" xml:id="leopold-work021"><hi rend="italic">Ino</hi></p>
+                  <p n="work" xml:id="leopold-work034"><hi rend="italic">Der Tag des Gerichts</hi></p>
+               </person>
+               <person xml:id="leopold-pers066">
+                  <p>Verdi, Giuseppe</p>
+                  <p n="work" xml:id="leopold-work012"><hi rend="italic">Falstaff</hi></p>
+                  <p n="work" xml:id="leopold-work025"><hi rend="italic">Quattro pezzi sacri</hi></p>
+               </person>
+               <person xml:id="leopold-pers067">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="leopold-work011"><hi rend="italic">Oberon</hi>, WeV C.10</p>
+               </person>
+               <person xml:id="leopold-pers069">
+                  <p>Zachariae, Friedrich Wilhelm</p>
+                  <p n="work" xml:id="leopold-work030"><hi rend="italic">Das befreite Israel</hi></p>
+                  <p n="work" xml:id="leopold-work033"><hi rend="italic">Die Auferstehung</hi></p>
+               </person>
+               <person xml:id="leopold-pers071">
+                  <p>Maria Amalia, Erzherzogin von Österreich</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="latex-leopold-motto-indent">0.6\textwidth</rendition>
+            <rendition xml:id="latex-leopold4mm">\vspace{3mm}</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2015-11-09T09:44:00"
+            who="https://github.com/peterstadler">Text vorbereitet zur ersten Durchsicht – zweiter Versuch.</change>
+         <change when="2015-10-23T14:19:00"
+            who="https://github.com/peterstadler">Text vorbereitet zur ersten Durchsicht.</change>
+         <change when="2015-10-22T21:53:00" who="KR">Personen ausgezeichnet</change>
+         <change when="2015-10-13T15:07:38.695+02:00"
+                 who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="leopold-abstract"/>
+      </front>
+      <body>
+         <div xml:id="leopold-div01" type="motto" rendition="#latex-leopold-motto-indent">
+<!--               <floatingText xml:id="leopold-float01" rend="twocolumns">-->
+<!--                  <body>-->
+                     <lg>
+                        <l>Hin ist alle meine Kraft!</l>
+                        <l>Alt und schwach bin ich,</l>
+                        <l>Wenig nur erquicket mich </l>
+                        <l>Scherz und Rebensaft!</l>
+                     </lg>
+                     <lg>
+                        <l>Hin ist alle meine Zier;</l>
+                        <l>Meiner Wangen Roth</l>
+                        <l>Ist hinweggeflohn! der Tod</l>
+                        <l>Klopft an meine Thür!</l>
+                     </lg>
+                     <lg>
+                        <l>Unerschreckt mach&#x2019; ich ihm auf;</l>
+                        <l>Himmel, habe Dank:</l>
+                        <l>Ein harmonischer Gesang</l>
+                        <l>War mein Lebenslauf!<ref target="#Gleim1829" type="bibl"/></l>
+                     </lg>
+                  <!--</body>-->
+               <!--</floatingText>-->
+            </div>
+            <div xml:id="leopold-div02">
+               <head/>
+               <p>Im Jahre 1796 vertonte <name ref="#leopold-pers027">Joseph Haydn</name> das Gedicht von <name ref="#leopold-pers019">Johann Wilhelm Ludwig Gleim</name> als einen vierstimmigen Gesang, gemeinsam mit vergleichbar launig verstandenen Texten wie etwa <name ref="#leopold-pers036">Gotthold Ephraim Lessings</name> <title ref="#leopold-work001">Beredsamkeit</title> oder <name ref="#leopold-pers023">Johann Nikolaus Götz&#x2019;</name> <title ref="#leopold-work002">Harmonie in der Ehe</title>. Sieben Jahre später ließ <name ref="#leopold-pers027">Haydn</name> sich eine Visitenkarte in Form einer Briefkarte anfertigen, auf der die ersten beiden Zeilen des <name ref="#leopold-pers019">Gleim</name>schen Gedichts in seiner Vertonung abgedruckt waren &#x2013; ein Mittel, gesellschaftlichen Verpflichtungen auf eine augenzwinkernde und doch unmissverständliche Weise zu entkommen, denn mit dieser Karte ließen sich unliebsame Einladungen freundlich zurückweisen. Noch einmal drei Jahre später veröffentlichte der Verlag <name ref="#leopold-pers010">Breitkopf</name> und <name ref="#leopold-pers008">Härtel</name> <name ref="#leopold-pers027">Haydns</name> letztes Streichquartett bzw. das, was davon fertiggestellt war. <name ref="#leopold-pers027">Haydn</name>, nunmehr 74&#x00A0;Jahre alt, war sich sicher, dass er das Quartett nicht mehr zu Ende bringen würde; anstelle des Finales setzte der Verlag das Zitat von der Briefkarte, um zu dokumentieren, warum dieses Quartett unvollendet blieb. </p>
+               <p>Von einem <q>Spätwerk</q> ist in Zusammenhang mit den Quartettsätzen op.&#8239;103 selten die Rede, ebenso wenig auch in Zusammenhang mit den beiden großen Oratorien, der <title ref="#leopold-work003">Schöpfung</title> und den <title ref="#leopold-work004">Jahreszeiten</title>. Dabei lässt sich nicht von der Hand weisen, dass <name ref="#leopold-pers027">Haydn</name>, als er mit den beiden Oratorien 1798 und 1801 zu neuen musikalischen Ufern aufbrach, das Rentenalter bereits erreicht hatte. Mit Rentenalter ist hier in bewusst maliziöser Simplifizierung nicht nur das hohe Alter eines Komponisten, sondern auch der weitgehende Rückzug aus dem aktiven Musikerleben gemeint. <name ref="#leopold-pers027">Haydn</name>, 1732 geboren, mithin bei der Komposition der <title ref="#leopold-work003">Schöpfung</title> 66&#x00A0;Jahre alt und von Zeitgenossen als ein Greis beschrieben, war nach seiner Rückkehr aus London 1795 zwar weiterhin in Diensten der fürstlichen <name ref="#leopold-pers002">Familie Eszterházy</name> geblieben, seine Aufgaben bestanden aber lediglich noch in der Komposition einer Messe pro Jahr, und seinen Wohnsitz nahm er nunmehr in Wien und nicht mehr in Eisenstadt. Und obwohl <name ref="#leopold-pers027">Haydn</name> selbst das Nachlassen seiner körperlichen und geistigen Kräfte beklagte, blieb seine Schaffenskraft zunächst ungebrochen. Das <title ref="#leopold-work026">Trompetenkonzert</title> und die <title ref="#leopold-work019">Streichquartette op.&#8239;76</title> fallen in die Zeit nach seiner Rückkehr aus London ebenso wie die Hymne <title ref="#leopold-work018">Gott erhalte Franz den Kaiser</title>. <title ref="#leopold-work003">Die Schöpfung</title>, ein abendfüllendes Chor-Oratorium nach englischem Vorbild, wie es in Wien noch nie komponiert worden war, dürfte mehr schöpferische Kräfte freigesetzt und verschlungen haben als jede Messe und jede Sinfonie aus der Zeit davor, zumal <name ref="#leopold-pers027">Haydn</name> in diesem Werk erstmals und mit Nachdruck die Spezifika liturgischer Komposition mit den instrumentatorischen Finessen seiner symphonischen Musik verknüpfte.</p>
+               <p>Das Lamento über die Schwäche des Alters hatte denn auch wohl eher dieselbe Funktion wie die Visitenkarte als dass es eine nüchterne Diagnose darstellte. In einem Brief an den Verleger <name ref="#leopold-pers010">Breitkopf</name> vom Juni 1799 dienen Arbeitsüberlastung und Altersschwäche gleichermaßen und in dieser Kombination nicht unbedingt überzeugend als Entschuldigung für Saumseligkeit: </p>
+               <p><milestone rendition="#latex-leopold4mm"/><quote source="#leopold-ftn1">Liebster Freund! Ich schäme mich in der that, einen Mann, welcher mich schon so oft auf die verehrungswürdigste arth ohne es verdient zu haben mit seinen zuschriften beehrte, mit meiner späten andworth beleydiget zu wissen, es ist nicht saumlosigkeit, sondern die Menge der geschäfte schuld daran, welche, wie älter ich werde, desto mehr sich täglich vermehren, nur bedaure ich, daß ich vermög meines hochanwachsenden Alters, und bey leider abnehmenden geisteskräften den wenigsten theil derselben befriedigen kann. Die Welt macht mir zwar täglich viele complimente über das feuer meiner letzten Arbeiten, aber niemand will mir glauben, mit welcher mühe und anstrengung ich dasselbe hervorsuchen muß, indem mich an manchen Tag die schwache gedächtnüß und Nachlassung der Nerven dermassen zu boden drückt, daß ich in die traurigste Laage verfalle, und hiedurch viele Tage nachhero ausser stand bin nur eine einzige Idee zu finden, bis ich endlich durch die vorsicht aufgemuntert mich wieder an das Clavier setzen und dann zu kratzen anfangen kann.</quote><ref target="#Haydn_Brief1799" xml:id="leopold-ftn1" type="bibl">S.&#8239;319&#8239;f.</ref>
+            </p>
+               <p><q>Feuer</q> hatte auch der zweiundzwanzigjährige <name ref="#leopold-pers048">Mozart</name> einst dem 63-jährigen <name ref="#leopold-pers032">Ignaz Holzbauer</name> attestiert, als er 1777 in Mannheim dessen Oper <title ref="#leopold-work005">Günther von Schwarzburg</title> hörte und an seinen Vater schrieb: <q>am meisten wundert mich, daß ein so alter Mann, wie <name ref="#leopold-pers032">holzbauer</name>, noch so viell geist hat; denn das ist nicht zu glauben, was in der Musick für feüer ist.</q><ref target="#Mozart_Briefe" type="bibl" xml:id="leopold-ftn2" n="2">S.&#8239;125</ref></p>
+               <p>Auch <title ref="#leopold-work005">Günther von Schwarzburg</title> wird in der Musikgeschichtsschreibung nicht als ein Spätwerk gehandelt; <q>Feuer</q> scheint nicht das Merkmal eines Spätwerks zu sein. Auch in der heutigen Arbeitswelt ist es ja nahezu unbestritten, dass nur die Jungen kreativ, innovativ und fit sind. Je jünger, desto größer die Chancen, einen der rarer werdenden Arbeitsplätze zu ergattern. Jenseits der 45 steigt die Arbeitslosigkeit dramatisch an, wer mit 55 noch Arbeit sucht, wird belächelt oder bestenfalls bemitleidet, und mit 65 oder neuerdings 67&#x00A0;Jahren ist dann endgültig Schluss. 65 ist in den derzeitigen Lebensverhältnissen fast eine magische Zahl: Davor die Tretmühle, danach der Ruhestand. Lange Zeit lag die Altersgrenze für die Berufung eines Professors in Deutschland bei 53&#x00A0;Jahren; was ursprünglich einmal lediglich mit Versorgungsansprüchen zu tun hatte, hat sich im Laufe der Jahre schleichend zu einer Mutmaßung über die Zukunftsfähigkeit von Mittfünfzigern gewandelt. Den Alten, daran ändert auch die im letzten Jahrhundert signifikant gestiegene Lebenserwartung nichts, traut unsere Gesellschaft wenig zu; erst die Hundertjährigen, das wissen wir seit <name ref="#leopold-pers034">Ernst Jünger</name>, <name ref="#leopold-pers018">Hans-Georg Gadamer</name> oder <name ref="#leopold-pers030">Johannes Heesters</name>, dürfen sich der allgemeinen Bewunderung wieder sicher sein. </p>
+               <p>Wie viele musikalische Meisterwerke wären uns aber entgangen, hätten die Komponisten mit 65&#x00A0;Jahren die Feder aus der Hand gelegt! <name ref="#leopold-pers027">Joseph Haydn</name> war 67, als er die <title ref="#leopold-work003">Schöpfung</title> fertig stellte, <name ref="#leopold-pers047">Claudio Monteverdi</name> 75, als er als sein letztes sein vielleicht <q>jugendlichstes</q> Werk schrieb &#x2013; <title ref="#leopold-work006">L’incoronazione di Poppea</title>. <name ref="#leopold-pers054">Jean-Philippe Rameau</name> war fast 80&#x00A0;Jahre alt, als er seine letzte Tragédie en musique <title ref="#leopold-work020">Abaris ou Les Boréades</title> komponierte; <name ref="#leopold-pers064">Georg Philipp Telemann</name> 84, als er die <title ref="#leopold-work021">Ino-Kantate</title> schrieb. Diese Liste ließe sich noch lange fortsetzen. Spätwerke, Alterswerke, Reifezeit &#x2013; die Musikwissenschaft hat viele diffuse Begriffe für jene Werke, die ein Komponist am Ende seines Lebens schrieb, unabhängig davon, wie lang dieses Leben währte und wie abrupt oder schleichend es endete. Was aber versteht sie unter der Kategorie des Spätwerks, wenn darunter auch <name ref="#leopold-pers048">Mozarts</name> <title ref="#leopold-work007">Zauberflöte</title> und <name ref="#leopold-pers058">Schuberts</name> <title ref="#leopold-work022"><name ref="#leopold-pers031">Heine</name>-Lieder</title> fallen? Spätwerke, so möchte man glauben, wenn man die musikwissenschaftliche Literatur durchforstet, haben vor allem <name ref="#leopold-pers005">Bach</name>, <name ref="#leopold-pers007">Beethoven</name>, <name ref="#leopold-pers040">Liszt</name> und <name ref="#leopold-pers059">Schönberg</name> hervorgebracht. Spätwerk, so lernt man weiter, ist keine biographische Kategorie, sondern eine kompositionsgeschichtliche. <name ref="#leopold-pers001">Theodor W. Adorno</name> versuchte als einer der  ersten, dem zunächst eher harmlosen Begriff eine auratische Komponente zu verleihen. In seinem Aufsatz <hi rend="italic" xml:space="preserve">Spätstil <name ref="#leopold-pers007">Beethovens</name> </hi>aus dem Jahre 1937 definierte er <q>Spätwerk</q> folgendermaßen: <quote source="#leopold-ftn3">Die Reife der Spätwerke bedeutender Künstler gleicht nicht der von Früchten. Sie sind gemeinhin nicht rund, sondern durchfurcht, gar zerrissen; sie pflegen der Süße zu entraten und weigern sich herb, stachlig dem bloßen Schmecken; es fehlt ihnen all jene Harmonie, welche die klassizistische Ästhetik vom Kunstwerk zu fordern gewohnt ist, und von Geschichte zeigen sie mehr die Spur als vom Wachstum.</quote><note xml:id="leopold-ftn3" n="3" type="bibl">Zitiert nach <ref target="#Haslmayr1994" type="bibl">S.&#8239;149</ref>.</note> Und später: <quote source="#leopold-ftn4">In der Geschichte von Kunst sind Spätwerke die Katastrophen.</quote><ref type="bibl" target="#Haslmayr1994" xml:id="leopold-ftn4" n="4" rend="ibid">S.&#8239;150</ref>
+            </p>
+               <p>Dieser auf die Beschaffenheit des einzelnen Werks bezogenen Definition setzte <name ref="#leopold-pers014">Carl Dahlhaus</name>, <name ref="#leopold-pers001">Adornos</name> gewärtig, in seinem <name ref="#leopold-pers007">Beethoven</name>-Buch von 1987 eine auf die historische Position des Werkes bezogene Definition entgegen: <quote source="#leopold-ftn5">Der Begriff des musikalischen Spätwerks im emphatischen Sinne ist eine Kategorie, die sich nur verständlich machen lässt, wenn man der Konfiguration von Archaisierendem und Modernem, die ihr Wesen ausmacht, auf den Grund zu gehen versucht. Aus den Epochen, denen sie chronologisch angehören, fallen Spätwerke geistes- und kompositionsgeschichtlich heraus, ohne dass sie sich <soCalled>ideell</soCalled> in andere Zeiten versetzen ließen […] Die Art von <soCalled>Zeitlosigkeit</soCalled>, die man an Spätwerken empfindet, unterscheidet sich tiefgreifend von derjenigen, die klassischen Werken zugeschrieben wird. Das klassische Werk scheint in seiner ästhetischen Geltung &#x2013; in dem Nachleben, das sein eigentliches Leben ist &#x2013; der Epoche, aus der es stammt, enthoben zu sein: Die geschichtlichen Bedingungen, unter denen es entstanden ist, fallen gleichsam von ihm ab. Für ein Spätwerk ist es dagegen charakteristisch, daß es bereits bei seiner Entstehung der Zeit, der es äußerlich angehört, innerlich entfremdet ist. Nicht erst in seinem ästhetischen Überdauern, sondern schon in seinem geschichtlichen Ursprung ist es durch eine Kluft von der Zeit getrennt, deren Datum es trägt.</quote><ref target="#Dahlhaus1987" type="bibl" xml:id="leopold-ftn5" n="5">S.&#8239;263&#8239;f.</ref></p>
+               <p><name ref="#leopold-pers014">Dahlhaus</name>’ Definition ist an <name ref="#leopold-pers005">Johann Sebastian Bachs</name> <title ref="#leopold-work008">Kunst der Fuge</title> und dem <title ref="#leopold-work009">Musikalischen Opfer</title> entwickelt ebenso wie an <name ref="#leopold-pers007">Beethovens</name> späten Streichquartetten. Bei allem Reiz, den diese Definition besitzt, lässt sie doch außer Acht, dass die beschriebenen Merkmale nicht unbedingt Charakteristika eines Spätwerks sein müssen. Eine derartige <quote source="#leopold-ftn6">chronologische Ortlosigkeit,</quote><ref type="bibl" target="#Dahlhaus1987" xml:id="leopold-ftn6" n="6" rend="ibid"/> wie <name ref="#leopold-pers014">Dahlhaus</name> es nannte, ist auch zahlreichen Werken eigen, die nicht unter dem Label <q>Spätwerk</q> firmieren können &#x2013; man denke etwa an frühe Madrigale <name ref="#leopold-pers047">Monteverdis</name> wie etwa <title ref="#leopold-work023">Cantai un tempo</title> von 1590 oder an <name ref="#leopold-pers048">Mozarts</name> Dissonanzen-Quartett, um nur zwei von zahllosen Beispielen zu nennen. Was freilich alle die genannten Beispiele verbindet, ist die Tatsache, dass sie ohne Auftrag, also gleichsam um ihrer selbst willen und ohne Rücksichten auf eine musikalische Öffentlichkeit konzipiert wurden. Insofern lohnt es sich doch, die biographische Komponente auch hinsichtlich des Spätwerks in Betracht zu ziehen und späte Kompositionen daraufhin zu befragen, welchen Stellenwert sie im Kontext nicht nur der Musikgeschichte, sondern auch eines individuellen Lebenswerkes besitzen. <name ref="#leopold-pers007">Beethovens</name> späte Streichquartette mögen dafür ein weniger geeignetes Beispiel sein, denn <name ref="#leopold-pers007">Beethoven</name> war der erste und für lange Zeit einzige Komponist, der finanziell unabhängig und frei von Anstellungen und Aufträgen allein seinen kompositorischen Ideen leben konnte. Bei jenen Musikern aber, denen das Dienen, sei es einem weltlichen oder geistlichen, einem höfischen oder bürgerlichen Herrn, den Lebensunterhalt sicherte, die in berufliche Zwänge und Pflichten eingebunden waren, zeigen sich in späten Werken bisweilen erstaunliche Aufbrüche, die weniger von der von <name ref="#leopold-pers001">Adorno</name> wortmächtig beschworenen Todesnähe künden als vielmehr von einer souveränen Gelassenheit im Umgang mit Traditionen und Erwartungen. Todesnähe mit Alter in Verbindung zu bringen ist ohnedies eine eher moderne Sicht der Dinge; das Gefühl der Endlichkeit des eigenen Lebens war in früheren Zeiten nicht an ein Lebensalter gebunden und der Tod als Teil des Lebens immer präsent. <name ref="#leopold-pers027">Haydns</name> <title ref="#leopold-work003">Schöpfung</title> und <title ref="#leopold-work004">Jahreszeiten</title> sind &#x2013; um bei diesem Beispiel zu bleiben &#x2013; nicht etwa von einer chronologischen Ortlosigkeit geprägt, sondern im Gegenteil von einer klaren Bezugnahme auf die Tradition mit dem Ziel, Modelle für die musikalische Zukunft einer bis dato in Wien und überhaupt auf dem Kontinent wenig verbreiteten Gattung bereitzustellen.</p>
+               <p>Um das Nachdenken über das Spätwerk in der Musik noch weiter zu verwirren, hat <name ref="#leopold-pers024">Harald Haslmayr</name> in einem Aufsatz <q>Zum Klischee des Begriffs <soCalled>Spätwerk</soCalled></q> 1994 aus der Beobachtung heraus, dass Kompositionen wie die <title ref="#leopold-work003">Schöpfung</title> oder die <title ref="#leopold-work004">Jahreszeiten</title> keinerlei Todesnähe atmen, einen Unterschied konstruiert zwischen einer <quote source="#leopold-ftn7">bewussten, auktorial-intendierten Gestaltung der eigenen Todesnähe</quote>,<ref target="#Haslmayr1994" type="bibl" xml:id="leopold-ftn7" n="7">S.&#8239;154</ref> etwa in den <title ref="#leopold-work024">Vier letzten Liedern</title> von <name ref="#leopold-pers063">Richard Strauss</name> oder der <title ref="#leopold-work010">9.&#8239;Symphonie</title> von <name ref="#leopold-pers012">Anton Bruckner</name>, für die er den Begriff Alters- oder Reifewerk vorschlägt, und solchen Werken, <quote source="#leopold-ftn8">die weder als Spätwerke noch als Alters- oder Reifewerke aufzufassen sind, weil sie am Ende einer biographisch messbaren Lebensspanne eines Komponisten stehen und keinerlei autobiographisch-testamentarische Elemente enthalten</quote><ref target="#Haslmayr1994" type="bibl" xml:id="leopold-ftn8" n="8" rend="ibid">S.&#8239;155</ref> &#x2013; genannt sind hier neben <name ref="#leopold-pers027">Haydns</name> <title ref="#leopold-work004">Jahreszeiten</title>  auch <name ref="#leopold-pers067">Webers</name> <title ref="#leopold-work011">Oberon</title>, <name ref="#leopold-pers066">Giuseppe Verdis</name> <title ref="#leopold-work025">Quattro pezzi sacri</title> oder <name ref="#leopold-pers047">Claudio Monteverdis</name> <title ref="#leopold-work006">Incoronazione di Poppea</title>.</p>
+               <p>Keinerlei autobiographisch-testamentarischen Elemente? Hinter dieser Behauptung sei ein Fragezeichen angebracht. Sicher: <name ref="#leopold-pers067">Carl Maria von Weber</name> konnte zwar ahnen, aber nicht wissen, dass <title ref="#leopold-work011">Oberon</title> die letzte Oper des kaum Vierzigjährigen bleiben würde. Aber ein weit über siebzigjähriger <name ref="#leopold-pers047">Monteverdi</name> oder ein achtzigjähriger <name ref="#leopold-pers066">Verdi</name> wussten sehr wohl, dass ihr Leben sich dem Ende zuneigte. Und wenn sich <name ref="#leopold-pers047">Monteverdi</name> im Alter von 73&#x00A0;Jahren nach Jahrzehnten musikdramatischer Abstinenz und in einer überaus komfortablen Lebenssituation, die keinerlei zusätzlichen Gelderwerb nötig machte, noch einmal vor den Karren eines neuen Opernbetriebs spannen ließ, so muss doch die Frage nach seinen Beweggründen ebenso erlaubt sein wie Überlegungen zu der Art der Musik, mit der <name ref="#leopold-pers047">Monteverdi</name> sein künstlerisches Testament gleichsam wieder in Frage stellte. Denn mit den beiden großen Sammlungen, dem <title ref="#leopold-work028">VIII.&#8239;Madrigalbuch</title> von 1638 und der <title ref="#leopold-work029">Selva morale et spirituale</title> 1640/41 hatte <name ref="#leopold-pers047">Monteverdi</name> der Nachwelt übergeben, was er selbst als sein musikalisches Vermächtnis ansah &#x2013; Kompositionen aus mehr als dreißig Jahren seines Lebens und darum nicht unbedingt als Spätwerk anzusehen, ästhetische Reflexionen im Vorwort ebenso wie kompositorische Erfindungen, die er mit diesen beiden Drucken der Nachwelt als sein künstlerisches Eigentum übergab. Wenn er danach noch drei Opern komponierte (zwei davon sind erhalten), so muss er damit andere Ziele verfolgt haben. Selten ist <name ref="#leopold-pers047">Monteverdis</name> Musik so jung, so leidenschaftlich und so sinnlich gewesen wie in seinem allerletzten Werk, der <title ref="#leopold-work006">Incoronazione di Poppea</title>, jenem Hohelied auf den Ehebruch, das noch den Musikwissenschaftlern des vergangenen Jahrhunderts eher peinlich und ein Dorn im Auge war.<note xml:id="leopold-ftn9" n="9"><ref target="#Kretzschmar1919" type="bibl">S.&#8239;88</ref>, nannte den Text der <title ref="#leopold-work006">Incoronazione di Poppea</title> <q>höchst widerlich</q>.
+               </note> 
+                  Mit mehr als siebzig Jahren, als einer der angesehensten Musiker seiner Zeit, in kirchlicher Funktion und als Geistlicher über jeden moralischen Zweifel erhaben, hatte <name ref="#leopold-pers047">Monteverdi</name> buchstäblich nichts mehr zu verlieren; er musste auf nichts und niemanden Rücksicht nehmen und konnte das Rad der Operngeschichte gleichsam noch einmal neu erfinden und seinen Figuren all jene Leidenschaften musikalisch in den Mund legen, die ihm selbst und allen anderen ehrbaren Zeitgenossen verwehrt gewesen wären. Die <title ref="#leopold-work006">Incoronazione di Poppea</title>, die Verkehrung jeglicher Moral in ihr Gegenteil, wie es nur die Zeit des Karneval erlaubte, hat etwas Anarchisches, so als wolle der alte, im zwanzig Jahre währenden Hofdienst wie im dreißig Jahre währenden Kirchendienst ergraute <name ref="#leopold-pers047">Monteverdi</name> nun noch einmal der Welt vorführen, wie die Affekte, die Leidenschaften hinter der gesellschaftlich verordneten Affektkontrolle tatsächlich tobten. Fast ist man geneigt, hierin eine Parallele zu <name ref="#leopold-pers066">Giuseppe Verdis</name> Abschied von der Opernbühne zu erkennen, dessen Schlussfuge im <title ref="#leopold-work012">Falstaff</title> <q>Tutto il mondo è burla</q> &#x2013; die ganze Welt ist Schabernack &#x2013; ähnlich augenzwinkernd, ähnlich anarchisch daherkommt. </p>
+               <p>Niemandem mehr verantwortlich zu sein als sich selbst und seiner Kunst &#x2013; dieses Gefühl von Unabhängigkeit prägt fast alle Kompositionen von Musikern jenseits ihrer beruflich aktiven Zeit, von Musikern in hohem Alter ebenso wie eine unbändige Neu-Gier (im Sinne des Wortes), d.&#8239;h. die Lust, Dinge auszuprobieren, die bisher im eigenen Werk keine oder nur eine geringe Rolle gespielt haben. Komponieren im Rentenalter &#x2013; das heißt viel seltener eine Summe ziehen oder gar ein Nachlassen der schöpferischen Kräfte als vor allem: Aufbruch, Herausforderung annehmen, Neues ausprobieren. Dass etwa <name ref="#leopold-pers025">Johann Adolf Hasse</name> aus Bergedorf in seinen letzten Lebensjahren jenseits der achtzig nur noch geistliche Musik komponierte, mag weniger mit Abgeklärtheit als vielmehr mit der Tatsache zu tun haben, dass sich für seine Opern keine Aufführungsmöglichkeiten mehr boten; dafür aber verdankt die musikalische Welt ihm eine der frühesten Kompositionen für das gerade von <name ref="#leopold-pers017">Benjamin Franklin</name> neu erfundene Instrument, die Glasharmonika. 1769, <name ref="#leopold-pers025">Hasse</name> war gerade siebzig Jahre alt geworden, hielten sich zwei Schwestern aus England in Wien auf, <name>Marianne</name> und <name ref="#leopold-pers016">Cecilia Davies</name>, die eine Sängerin, die andere Glasharmonikaspielerin, und <name ref="#leopold-pers025">Hasse</name> nahm die Herausforderung, für dieses neue Instrument zu komponieren, gemeinsam mit seinem ein Jahr älteren Freund, dem Hofdichter <name ref="#leopold-pers044">Pietro Metastasio</name> an. Für die Hochzeit <name ref="#leopold-pers009">Ferdinands von Bourbon</name> mit der Erzherzogin <name ref="#leopold-pers071">Maria Amalia von Österreich</name> verfassten die beiden alten Herren eine Kantate, in der der Klang des neuen Instruments zum Thema und zum Symbol für die sanften Klänge des Friedens und der Weiblichkeit erklärt wurde. </p>
+               <p>Die Liste der Werke, die aus dem Gefühl jener Unabhängigkeit, jenem Interesse an Neuem ohne die Zwänge des Dienstes entstanden, ließe sich nahezu endlos verlängern &#x2013; angefangen bei <name ref="#leopold-pers041">Guillaume de Machaut</name> im 14.&#8239;Jahrhundert, dessen Rondeau <q>Ma fin e mon commencement et mon commencement ma fin</q> diese Erkenntnis sogar thematisiert. Zu diesen Werken gehört letztlich auch das emphatisch so beschriebene Spätwerk <name ref="#leopold-pers005">Johann Sebastian Bachs</name>, Werke wie die <title ref="#leopold-work008">Kunst der Fuge</title> und das <title ref="#leopold-work009">Musikalische Opfer</title>, die ohne Auftrag, außerhalb der Lehrverpflichtungen an der Thomasschule, allein zur künstlerischen Selbstvergewisserung entstanden. Die künstlerische Unabhängigkeit, der Aufbruch, die Neugier lässt sich jedoch auch an zwei weniger bekannten, wenngleich nicht minder signifikanten Beispielen belegen, Beispielen von zwei Komponisten, die sich, auf jeweils unterschiedliche Weise, ein Leben lang für die Belange anderer wundgerieben hatten und nun, mit der Unabhängigkeit des hohen Alters, noch einmal zur Feder griffen, um etwas anderes zu komponieren als je zuvor. </p>
+               <p>Der eine ist <name ref="#leopold-pers060">Agostino Steffani</name>, in Heidelberg eher als Rektor der Universität in den Jahren&#x00A0;1704/05 bekannt denn als Komponist. <name ref="#leopold-pers060">Steffani</name>, 1654 in Castelfranco bei Venedig geboren, hatte seine Laufbahn als Musiker begonnen, war als Zwölfjähriger zur Ausbildung an den bayerischen Hof gekommen und dort als Organist, Sänger und Komponist angestellt worden. Auf einigen vom <name>Kurfürsten</name> finanzierten Reisen nach Paris und nach Rom vervollkommnete er seine musikalischen Fähigkeiten und legte gleichzeitig den Grundstein für seine zweite Karriere als Diplomat, die sich im Laufe der kommenden Jahrzehnte immer mehr in den Vordergrund schieben sollte. 1683 etwa reiste er nach Hannover, um eine mögliche Verbindung zwischen seinem katholischen <name>Kurfürsten Ferdinand Maria</name> und der lutherischen welfischen <name ref="#leopold-pers013">Prinzessin Sophie Charlotte</name> zu sondieren. Aus dieser Ehe wurde bekanntlich nichts, aber für <name ref="#leopold-pers060">Steffani</name> eröffnete diese Reise die Möglichkeit, fünf Jahre später in die Dienste des welfischen Hofes zu treten und dort als Komponist so eminent politischer Opern wie <title ref="#leopold-work013">Enrico Leone</title> (<title ref="#leopold-work013"><q>Heinrich der Löwe</q></title>, 1689) Musik und Diplomatie miteinander zu verbinden. Seine Aktivitäten verlagerten sich mit einem erneuten Wechsel seines Dienstherrn zu <name ref="#leopold-pers052">Johann Wilhelm von der Pfalz</name> 1703 immer stärker und schließlich so weit auf die Diplomatie, dass er nach der Komposition der gleichermaßen politischen Oper <hi rend="italic"><title ref="#leopold-work014">Tassilone</title></hi>, die die Übertragung der Kurwürde von dem bayerischen auf den pfälzischen Kurfürsten im Jahre&#x00A0;1709 feierte, das Komponieren nahezu vollständig ein- und bestenfalls auf ein paar Kammerduette beschränkte. 1706 zum Bischof von Spiga geweiht, kehrte er 1709 als Apostolischer Vikar, zuständig für die Rekatholisierung des protestantischen Nordens nach Hannover zurück. Diese Aufgabe absorbierte ihn bis an sein Lebensende, belastete seine Gesundheit und seine Nerven und ließ ihm für Musik keinerlei Freiräume mehr. Nichtsdestoweniger wählte die Londoner Academy of Vocal Music den 73-jährigen 1727 zu ihrem Präsidenten, und obwohl <name ref="#leopold-pers060">Steffani</name> nie nach London reiste, schickte er doch einige Abschriften früherer Kompositionen dorthin. 1727 aber, wenige Monate vor seinem Tod, griff er nach mehr als fünfzehn Jahren wieder einmal zum Rastrum und brachte ein <title ref="#leopold-work015">Stabat mater</title> zu Papier, das er der Academy of Vocal Music widmete.</p>
+               <pb/>
+               <p>Es ist in jeder Hinsicht ein Spätwerk, ein spätes Werk, und ein höchst erstaunliches dazu. Dass er den Mitgliedern einer Akademie im anglikanischen London ausgerechnet ein <title ref="#leopold-work015">Stabat mater</title> widmete, mag sich noch aus seiner Rolle als Funktionär der Rekatholisierung heraus erklären; die Art und Weise aber, in der dieses Stück komponiert ist, lässt ahnen, dass es <name ref="#leopold-pers060">Steffani</name> um mehr und vor allem um anderes ging als darum, die fehlgeleiteten Schäfchen auf den rechten Weg der alleinseligmachenden Kirche zurückzuführen. Vielleicht war ihm die Londoner Akademie auch nur ein willkommener Anlass, sich mit einem Text musikalisch auseinanderzusetzen, der ihm, als vielleicht wichtigstes Dokument der Marienfrömmigkeit, selbst besonders am Herzen lag. 1727 war für das <hi rend="italic"><title ref="#leopold-work015">Stabat mater</title></hi> ein besonderes Datum. Denn nachdem die Sequenzen im Tridentinum aus der Liturgie verbannt worden waren, ließ man das beliebte <title ref="#leopold-work015">Stabat mater</title>, das nie ganz aus den Gottesdiensten verschwunden war, für das neue Fest der Sieben Schmerzen Mariae am 15.&#8239;September wieder offiziell zu. Dies mag der konkrete Anlass, die Herausforderung für <name ref="#leopold-pers060">Steffani</name> gewesen sein, diesen Text zu vertonen. Die motettische Idee, jedem Vers einen eigenen musikalischen Abschnitt zuzuordnen, verbindet seine Kompositionen mit zahlreichen anderen des frühen 18.&#8239;Jahrhunderts, etwa dem vor 1720 entstandenen zehnstimmigen <title ref="#leopold-work015">Stabat mater</title> von <name ref="#leopold-pers057">Domenico Scarlatti</name> oder auch dem 1736 gleichsam auf dem Totenbett komponierten des 26-jährigen <name ref="#leopold-pers051">Pergolesi</name>. In seiner besonderen Machart aber steht <name ref="#leopold-pers060">Steffanis</name> <title ref="#leopold-work015">Stabat mater</title> einzig da. Es ist für sechs Stimmen und sechs Instrumente, drei Viole da braccio und drei Viole da gamba sowie basso continuo komponiert &#x2013; eine in Italien ebenso ungewöhnliche Besetzung wie in Deutschland in einer Zeit, in der die Violen längst von der Violinfamilie mit ihrem moderneren, filigraneren und kräftigeren Klang abgelöst waren. Einzig in England bestand die Tradition des Violen-Consorts weiter, und wenn man den Beginn des <name ref="#leopold-pers060">Steffani</name>schen <title ref="#leopold-work015">Stabat mater</title> hört, so meint man in der Dichte des dissonanzgetränkten Streichersatzes, in den überraschenden chromatischen Wendungen und harmonischen Brüchen keinen anderen als <name ref="#leopold-pers053">Henry Purcell</name> wahrzunehmen.</p>
+               <p><name ref="#leopold-pers060">Steffanis</name> <title ref="#leopold-work015">Stabat mater</title> ist durch eine auffällig große Vielfalt der Besetzungen in den einzelnen fünfzehn Sätzen gekennzeichnet. Keine zwei Teilsätze sind in derselben Besetzung komponiert. Nach Motettenart sind alle schmerzvollen oder klagenden Wörter mit herber Chromatik und Vorhaltdissonanzen vertont. <q>Moderne</q> Satzarten wechseln mit eher altertümlichen ab, und es hat den Anschein, als wolle sich <name ref="#leopold-pers060">Steffani</name> hier noch einmal vergewissern und seinen englischen Freunden auch beweisen, dass er auch jenseits der siebzig noch im Vollbesitz seiner kompositorischen Kräfte sei. Nirgendwo aber gelingt ihm dieser Nachweis überzeugender als im Schlusssatz <q>Quando corpus morietur, fac ut animae donetur paradisi gloriae</q> &#x2013; ein Satz, der traditionell mit einer Fuge schließt. Auch <name ref="#leopold-pers060">Steffani</name> macht hier keine Ausnahme. Aber er nutzt den Gegensatz zwischen <q>Quando corpus morietur</q> und <q>paradisi gloriae</q> für eine Gegenüberstellung alten und neuen Stils &#x2013; die Fuge, noch dazu mit ihren instrumentalen Anteilen als das Symbol einer leuchtenden Gegenwart, und ein nahezu archaisch anmutender motettischer Satz für den sterblichen Leib. Das ist madrigalische Wortausdeutung, kompositorische Selbstvergewisserung und theologische Aussage zugleich.</p>
+               <p><name ref="#leopold-pers060">Steffanis</name> <title ref="#leopold-work015">Stabat mater</title>, im Alter von 73&#x00A0;Jahren komponiert, ist ein höchst außergewöhnliches Stück. Es lässt sich in eine wie auch immer konstruierte Musikgeschichte nicht einpassen. Es steht außerhalb aller Traditionen, hat keinen Aufführungsort und keinen unmittelbaren Anlass. Es ist Musik über Musik, geschrieben von einem, der es noch einmal probieren will, für ein exklusives Publikum, das alle seine Anspielungen und Bezugnahmen versteht und goutiert, ortlos nicht nur in chronologischer, sondern auch in geographischer und konfessioneller Hinsicht, ein Stück, das allein durch die biographische Situation seines Schöpfers einen Ort bekommt. Und es ist ein Werk, das <name ref="#leopold-pers060">Steffani</name> auf der Höhe seiner Kreativität zeigt; verlernt hatte er in den Jahrzehnten des musikalischen Schweigens ganz offensichtlich nichts. Eine Katastrophe ist dieses Spätwerk sicherlich nicht &#x2013; eher eine Summe, die Summe eines Künstler- und Diplomatenlebens, für den die Vermittlung zwischen scheinbar unvereinbaren Gegensätzen allererstes Anliegen war.</p>
+               <p>Das zweite Beispiel betrifft den Komponisten, dem bis heute der Ruch des Vielschreibers anhaftet, ohne dass dabei bisweilen gesagt würde, dass sich unter dem Vielen auch viel Gutes befindet &#x2013; <name ref="#leopold-pers064">Georg Philipp Telemann</name>, 1681 geboren und 1767 gestorben. Anders als die meisten Komponisten der Musikgeschichte fand er erst spät zur Musik, nicht zuletzt weil seine Eltern eine juristische Laufbahn für ihn vorgesehen hatten; anders als die meisten Komponisten war er außerdem ein Autodidakt, dessen musikalisches wie organisatorisches Können sich jedoch alsbald gegen das halbherzige Jurastudium durchsetzte. Seit 1701 in Leipzig als Jurastudent eingeschrieben, ging <name ref="#leopold-pers064">Telemann</name> vor allem dem Thomaskantor <name ref="#leopold-pers037">Kuhnau</name> als Organist und Komponist der sonntäglichen Kirchenkantaten zur Hand, reorganisierte das städtische Collegium Musicum und machte sich bei den Stadtoberen einen so guten Namen, dass sie ihn ein paar Jahre später gern als Nachfolger <name ref="#leopold-pers037">Kuhnaus</name> gesehen hätten und über seine Absage ebenso wenig erfreut waren wie über die Tatsache, den deutlich geringer geschätzten Zweitplazierten <name ref="#leopold-pers005">Johann Sebastian Bach</name> nehmen zu müssen. <name ref="#leopold-pers064">Telemann</name> hatte im Jahre&#x00A0;1722 freilich keinen Anlass, nach Leipzig zu wechseln, denn seit 1721 war er Musikdirektor der Stadt Hamburg und hatte damit eine der ehrenvollsten und lukrativsten Positionen inne, die das protestantische Deutschland einem Musiker bieten konnte. In dieser Position blieb er bis zu seinem Tode 1767, d.&#8239;h. 45&#x00A0;Jahre lang, und die ersten zwei Jahrzehnte waren geprägt von einer schier beängstigenden Fülle von Kompositionen für die fünf Hauptkirchen der Stadt, für den Rat, für die öffentlichen Konzerte, für die bürgerlichen Wohnstuben und so fort. In den vierziger Jahren des 18.&#8239;Jahrhunderts dann nahm die Zahl seiner Kompositionen, die sich bis dato bereits zur Vierstelligkeit summiert hatte, merklich ab.</p> 
+                  <p>Es scheint, als habe <name ref="#leopold-pers064">Telemann</name> mit sechzig Jahren eine ernste Schaffenskrise durchlebt. Diese Vermutung wird durch jenen vielzitierten Brief bestätigt, den <name ref="#leopold-pers064">Telemann</name> 1751 an <name ref="#leopold-pers022">Carl Heinrich Graun</name> schrieb: <quote source="#leopold-ftn10">Ich habe mich nun von so vielen Jahren her ganz marode melodiert, und etliche Tausendmal selbst abgeschrieben/copiert, wie andere mit mir, mithin also draus geschlossen: Ist in der Melodie nichts Neues mehr zu finden, so muss man es in der Harmonie suchen. Ja, heißt es, man soll aber nicht zu weit gehen, bis in den untersten Grund, antworte ich drauf, wenn man den Namen eines fleißigen Meisters verdienen will.</quote><ref target="#Telemann_Brief" type="bibl" xml:id="leopold-ftn10" n="10">S.&#8239;248</ref></p>
+               <p>Marode melodiert &#x2013; das klingt nach Krise, nach Resignation, nach der Müdigkeit des Alters. Wäre <name ref="#leopold-pers064">Telemann</name> kurz darauf gestorben &#x2013; und das hätte, als Siebzigjähriger, nach der Erfahrung der Zeit durchaus bedeutet, in hohem Alter zu sterben &#x2013; so hätte man diese Worte leicht als ein Dokument des Ausgebranntseins, der Todesnähe interpretieren können. Aber <name ref="#leopold-pers064">Telemann</name> hatte noch 16&#x00A0;Jahre vor sich. Und blickt man nun auf diesen letzten Lebensabschnitt, so stellt man einen schier unbegreiflichen Ausbruch an Kreativität, einen Aufbruch und Neuanfang fest, der nicht nur musikalische, sondern darüber hinausgehend auch theologische Implikationen hatte. <name ref="#leopold-pers064">Telemann</name>, der zeit seines Lebens besonderes Interesse an der Literatur gezeigt hatte, der <name ref="#leopold-pers011">Barthold Heinrich Brockes</name> vertont und selbst bei seinen Opernlibretti unüblichen Wert auf literarische Qualität gelegt hatte, bekam Kontakt mit <name ref="#leopold-pers035">Friedrich Gottlieb Klopstock</name> und seinem Kreis, darunter vor allem <name ref="#leopold-pers069">Friedrich Wilhelm Zachariae</name> und <name ref="#leopold-pers055">Karl Wilhelm Ramler</name>, allesamt mehr als eine Generation jünger als er selbst. 1759 vertonte <name ref="#leopold-pers064">Telemann</name> als erster Komponist überhaupt Teile aus <name ref="#leopold-pers035">Klopstocks</name> <title ref="#leopold-work016">Messias</title>. Und er nahm mit seinen Vertonungen jetzt, an der Schwelle des neunten Lebensjahrzehnts, sogar den Kampf mit der orthodoxen Hamburger Geistlichkeit auf, deren Untergebener er als Musikmeister der fünf Hauptkirchen doch eigentlich war. 1759 wurde <name ref="#leopold-pers069">Zachariaes</name> Oratorium <title ref="#leopold-work030">Das Befreite Israel</title> im Hamburger Drillhaus uraufgeführt, im selben Jahr <name ref="#leopold-pers055">Ramlers</name> <title ref="#leopold-work031">Die Hirten bei der Krippe zu Betlehem</title>, ein Jahr später <name ref="#leopold-pers055">Ramlers</name> <title ref="#leopold-work032">Die Auferstehung und Himmelfahrt Jesu</title>, 1761 <name ref="#leopold-pers069">Zachariaes</name> <title ref="#leopold-work033">Die Auferstehung</title> und 1762 schließlich <title ref="#leopold-work034">Der Tag des Gerichts</title> auf einen Text des <name ref="#leopold-pers064">Telemann</name>-Schülers <name ref="#leopold-pers003">Christian Wilhelm Alers</name>. Und damit nicht genug: Wurden diese Oratorien dem Vorbild <name ref="#leopold-pers033">Händels</name> gemäß noch in weltlichen Räumen, dem Drillhaus, aufgeführt, so erlaubte <name ref="#leopold-pers064">Telemann</name> es auch, Kompositionen auf Texte dieser Dichter sogar im Gottesdienst aufzuführen. Dies trug ihm eine herbe Rüge des orthodoxen Hamburger Hauptpastors <name ref="#leopold-pers021">Johann Melchior Goeze</name> ein, der 1764 an den Bürgermeister schrieb: <quote source="#leopold-ftn11">Ich habe schon vor vier oder fünf Jahren mit dem größten Verdrus wahrgenommen, daß der Cantor <name ref="#leopold-pers064">Telemann</name> in meiner Kirche eine Musick aufgeführet, in welcher die äußerst unglücklich geratene Verbesserung eines neuen Dichters eingeflickt worden. Da ich weiß, wie sehr Euer Magnificenz unützo u. gefährliche Neuerungen verabscheuen, u. wie viel Ihnen daran gelegen ist, daß bey unseren Gottesdiensten alles ordentlich zugehe, u. Aergernisse u. Anstöße auf das mögliche vermieden werden, so bin ich gut im voraus versichert, daß zur Hebung dieser Unordnung nichts weiter erforderlich werde, als daß solche Eur. Magnificenz angezeiget werde.</quote><ref target="#Telemann_Dokumentensammlung" type="bibl" xml:id="leopold-ftn11" n="11">S.&#8239;263</ref> Was hätte der Bürgermeister aber gegen den 83-jährigen <name ref="#leopold-pers064">Telemann</name> unternehmen können? Abmahnen? Entlassen? <name ref="#leopold-pers064">Telemann</name> scheint gewusst zu haben, dass er frei agieren konnte, dass seine Provokationen ihm nicht mehr schaden konnten.</p>
+               <p>Als letztes Werk vertonte er freilich keinen religiösen Text, sondern eine dramatische Kantate, eine Gattung, der er sich seit Jahrzehnten nicht mehr gewidmet hatte, eine Gattung auch, für die sich kein Aufführungsort oder gar ein Anlass geboten hätte. Es scheint, als habe <name ref="#leopold-pers064">Telemann</name>, nach fünf großen Oratorien in drei Jahren, noch einmal für sich selbst komponieren wollen. Den <title ref="#leopold-work021">Ino</title>-Stoff entnahm der Textdichter <name ref="#leopold-pers055">Karl Wilhelm Ramler</name> <name ref="#leopold-pers050">Ovids</name> <title ref="#leopold-work017">Metamorphosen</title>; die Kantate behandelt die Szene, in der Ino sich mit ihrem Sohn auf der Flucht vor ihrem wahnsinnigen Gemahl Athamas von einer Klippe ins Meer stürzt und in die Göttin Leukothea verwandelt wird. Mit seinen dramatischen und reflektierenden Passagen, ihren Naturschilderungen und Affektausbrüchen bot der Text <name ref="#leopold-pers064">Telemann</name> alles, woran er seine besondere Kunst der musikalischen Malerei entwickeln konnte &#x2013; das Farbenspiel der verschiedenen Instrumentenklänge, die illustrativen Melodien, keineswegs marode, und die abwechslungsreichen Harmonien, die hier, anders als fünfzehn Jahre zuvor gefordert, bisweilen durchaus bis auf den Grund gehen. Im Zentrum der Kantate steht ein ausgedehntes Accompagnato-Rezitativ, das den Höhepunkt des Dramas darstellt &#x2013; Inos Verzweiflung und Todessturz, ihr Ertrinken und ihre Apotheose, ein Rezitativ, wie es nur außerhalb der Oper, nicht zur musikalischen Begleitung der Szene, sondern gleichsam als ihr musikalischer Ersatz, möglich war. Doch nicht dieses in jeder Hinsicht höchst ungewöhnliche Accompagnato soll hier eingehender erwähnt werden, sondern die Schlussarie, die womöglich noch außergewöhnlicher ist. Denn bis dato war <name ref="#leopold-pers064">Telemann</name> seiner Kompositionsweise bei aller Fortentwicklung über die Jahrzehnte hinweg doch immer treu geblieben, in seinen Vokal- wie auch seinen Instrumentalwerken, die von der Nachahmungsästhetik ebenso geprägt waren wie von der Idee der Rhetorik, die ihre Formensprache weniger aus der regulären musikalischen Periodik als vielmehr aus einer Vorstellung von Gesang, von Musik als Affektäußerung, als immerwährende Fortspinnung musikalischer Gedanken schöpfte: <q>Singen ist das Fundament zur Music in allen Dingen</q>,<ref target="#Telemann_Dokumentensammlung" type="bibl" xml:id="leopold-ftn12" n="12">S.&#8239;92</ref> so lautete sein selbst formuliertes Credo. Seine musikalische Umsetzung blieb zeit seines Lebens der Schreibart des früheren 18.&#8239;Jahrhunderts treu. Wenn wir nun aber die Schlussarie der <title ref="#leopold-work021">Ino-Kantate</title> hören, so vermeinen wir einen Komponisten der 1760er Jahre, vielleicht sogar den jungen <name ref="#leopold-pers048">Mozart</name>, etwa des <hi rend="italic">Ascanio in Alba</hi>, zu vernehmen. </p>
+               <p>Die Arie <q>Tönt in meinen Lobgesang</q>, deren Text sich auch wunderbar für jene typisch <name ref="#leopold-pers064">Telemann</name>schen Klangmalereien geeignet hätte, ist in einer Art komponiert, in der <name ref="#leopold-pers064">Telemann</name> sich ein letztes Mal als perfekter Stilkopist darstellt. Doch es ging ihm hierbei wohl nicht primär um die Kopie. <q>Tönt in meinen Lobgesang</q> ist vor allem einmal mehr eine Selbstvergewisserung und eine Botschaft an die Nachwelt: Schaut her, ich kann nicht nur wie <name ref="#leopold-pers064">Telemann</name> schreiben, sondern habe mein Ohr am Stil der Zeit. Ich kann auf meine alten Tage genauso modern sein wie die Zwanzigjährigen, und ich nehme es mit jedem auf, der die Zukunft für sich beansprucht. Mit 84 Jahren ist <name ref="#leopold-pers064">Telemann</name> künstlerisch noch einmal ganz jung. Die <title ref="#leopold-work021">Ino-Kantate</title> ist wie so viele Spätwerke ein Aufbruch zu neuen Ufern, ein Neuanfang &#x2013; und ganz gewiss keine Katastrophe und auch nicht jene <q>bewusste, auktorial intendierte Gestaltung der eigenen Todesnähe</q>, die <name ref="#leopold-pers024">Harald Haslmayr</name> als ein Merkmal des Spätwerks ansieht, sondern eher ein Anzeichen jenes Feuers, wie es in dem alten <name ref="#leopold-pers032">Holzbauer</name>, dem alten <name ref="#leopold-pers047">Monteverdi</name> oder dem alten <name ref="#leopold-pers027">Haydn</name> brannte. </p>
+               <floatingText xml:id="leopold-float02">
+                  <body>
+                     <lg>
+            <l>Hin ist alle meine Kraft,</l>
+            <l>alt und schwach bin ich</l>
+            <l>wenig nur erquicket mich </l>
+            <l>Scherz und Rebensaft.</l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <p>Lassen wir uns von den alten Leuten nicht hinters Licht führen: Dass <name ref="#leopold-pers027">Joseph Haydn</name> im hohen Alter diesen Text so geistreich, so witzig vertonen konnte, war ja eigentlich schon ein Widerspruch in sich. </p>
+            </div>
+         
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="Haydn_Brief1799">Joseph Haydn, <title level="a">Brief an Christoph Gottlob Breitkopf vom 12.&#8239;Juni 1799</title>, in: <title level="m">Joseph Haydn, Gesammelte Briefe und Aufzeichnungen</title>, hg. von Dénes Bartha, Kassel u.&#8239;a. 1965</bibl>
+               <bibl xml:id="Mozart_Briefe">Wolfgang Amadeus Mozart, <title level="a">Brief vom 14.&#8239;November 1777</title>, in: <title level="m">Mozart, Briefe und Aufzeichnungen, Gesamtausgabe</title>, hg. von der Internationalen Stiftung Mozarteum Salzburg, gesammelt von W.&#8239;A. Bauer und O.&#8239;E. Deutsch, erläutert von J.&#8239;H. Eibl, 7&#8239;Bde., Kassel u.&#8239;a. 1962&#x2013;1975, Bd.&#8239;2, Nr.&#8239;373</bibl>
+               <bibl xml:id="Haslmayr1994">Harald Haslmayr, <title level="a"><q>Katastrophen der Kunst</q>. Zum Klischee des Begriffs <q>Spätwerk</q></title>, in: <title level="m">Klischee und Wirklichkeit in der musikalischen Moderne</title>, hg. von  Otto Kolleritsch, Wien u.&#8239;a. 1994 (Studien zur Wertungsforschung&#x00A0;28)<bibl type="short">Haslmayr, <title level="a"><q>Katastrophen der Kunst</q></title></bibl></bibl>
+               <bibl xml:id="Dahlhaus1987">Carl Dahlhaus, <title level="m">Ludwig van Beethoven und seine Zeit</title>, Laaber 1987<bibl type="short">Dahlhaus, <title level="m">Ludwig van Beethoven</title></bibl></bibl>
+               <bibl xml:id="Kretzschmar1919">Hermann Kretzschmar, <title level="m">Geschichte der Oper</title>, Leipzig 1919</bibl>
+               <bibl xml:id="Telemann_Brief">Georg Philipp Telemann, <title level="a">Brief an Carl Heinrich Graun vom 15.&#8239;Dezember 1751</title>, in: <ref rend="full" target="#Telemann_Dokumentensammlung" type="bibl"/></bibl>
+               <bibl xml:id="Telemann_Dokumentensammlung">Georg Philipp Telemann, <title level="m">Singen ist das Fundament zur Music in allen Dingen. Eine Dokumentensammlung</title>, Leipzig 1981<bibl type="short">Telemann, <title level="m">Eine Dokumentensammlung</title></bibl></bibl>
+               <bibl xml:id="Gleim1829">Johann Wilhelm Ludwig Gleim, <title level="a">Der Greis</title>, in: <title level="m">Anthologie aus J.&#8239;W.&#8239;L. Gleim&#x2019;s sämmtlichen Werken. Zweiter Theil</title>, Hildburghausen u.&#8239;a. 1829, S.&#8239;110&#8239;f. (Cabinets-Bibliothek der Deutschen Classiker)</bibl>
+               <!-- https://books.google.de/books?id=MeFCAQAAIAAJ&pg=PA110 -->
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

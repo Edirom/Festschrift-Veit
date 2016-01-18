@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Pasticcio: Intermezzo historironico</title>
+                <title type="sub">Wie man im 21.&#8239;Jahrhundert immer noch über <name ref="#struck-pers009">Robert Schumanns</name>
+                        <soCalled>Spätwerk</soCalled> streitet</title>
+                <author>
+                    <name><forename>Michael</forename> <surname>Struck</surname></name>
+                    <email/>
+                    <affiliation><!--1952 in Hannover geboren,-->studierte ab 1973 an der Musikhochschule und an der Universität Hamburg: Schulmusik, Privatmusikerziehung, Klavier/Diplom (Werner Schröter), Musikwissenschaften (Constantin Floros), Erziehungswissenschaften. 1984 Promotion mit einer Arbeit zum Thema <hi rend="italic">Die umstrittenen späten Instrumentalwerke Schumanns</hi>. 1985 zunächst im niedersächsischen Schuldienst tätig, dann wissenschaftlicher Mitarbeiter an der Forschungsstelle der neuen Johannes Brahms Gesamtausgabe an der Universität Kiel (Mitglied der Editionsleitung); Herausgeber/Redakteur diverser Bände. Zahlreiche musikwissenschaftliche Veröffentlichungen zur Musik des 18.&#x2013;20. Jahrhunderts, weitere Werkeditionen, Tätigkeit als Musikkritiker und Pianist. 2009 Träger des Schumann-Preises der Stadt Zwickau, 2010 als Mitarbeiter der Kieler Brahms-Forschungsstelle (am Kieler Musikwissenschaftlichen Institut) Mit-Preisträger des Brahms-Preises 2010 der Brahms-Gesellschaft Schleswig-Holstein.</affiliation>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                        Attribution 3.0 Unported License (CC BY 3.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="struck-pers015">
+                        <p>Bach, Johann Sebastian</p>
+                        <p n="work" xml:id="struck-works001"><hi rend="italic">Matthäus-Passion</hi>, BWV 244</p>
+                    </person>
+                    <person xml:id="struck-pers001">
+                        <p>Goertz, Wolfram</p>
+                    </person>
+                    <person xml:id="struck-pers003">
+                        <p>Harding, Daniel</p>
+                    </person>
+                    <person xml:id="struck-pers004">
+                        <p>Harnoncourt, Nikolaus</p>
+                    </person>
+                    <person xml:id="struck-pers005">
+                        <p>Kremer, Gidon</p>
+                    </person>
+                    <person xml:id="struck-pers006">
+                        <p>Sawallisch, Wolfgang</p>
+                    </person>
+                    <person xml:id="struck-pers007">
+                        <p>Schiff, Andràs</p>
+                    </person>
+                    <person xml:id="struck-pers009">
+                        <p>Schumann, Robert</p>
+                        <p n="work" xml:id="struck-works002"><hi rend="italic">Gesänge der Frühe</hi> op.&#8239;133</p>
+                    </person>
+                    <person xml:id="struck-pers012">
+                        <p>Struck, Michael</p>
+                    </person>
+                    <person xml:id="struck-pers013">
+                        <p>Veit, Joachim</p>
+                    </person>
+                    <person xml:id="struck-pers014">
+                        <p>Zehetmair, Thomas</p>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-06-15T14:59:26.218+02:00" who="https://github.com/peterstadler"
+                >Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract" xml:id="struck-abstract"><p>Der kurze pasticcioartige, als <hi rend="italic">Intermezzo historironico</hi> bezeichnete Beitrag basiert auf der Dokumentation einer feuilletonistisch-wissenschaftlichen Diskussion auf den Seiten der Zeitschrift <title level="m">FONO FORUM</title> in den Jahren 2010/11. Sie betrifft den Umgang von Zeitgenossen und Nachwelt mit den <q>späten</q> Werken Robert Schumanns, den Umgang der Wissenschaft mit den betreffenden historischen und aktuellen Urteilstopoi und -klischees, den Umgang des Musikjournalismus mit dem Umgang der Wissenschaft mit jenen Urteilshaltungen und die wissenschaftliche Reflexion jenes musikjournalistischen Umganges.</p></div>
+        </front>
+        <body>
+            <div type="motto" xml:id="struck-motto">
+                <p>
+                    <hi rend="italic">Für <name ref="#struck-pers013">Joachim Veit</name>, der ebenso gern lacht wie forscht, mit allen
+                        guten Wünschen zum Sechzigsten</hi>
+                </p>
+            </div>
+            
+            <div xml:id="struck-intro">
+                <head></head>
+                <p>Manche wissenschaftlichen Erkenntnisse setzen sich mit der Zeit unwiderruflich durch.
+                Andere erweisen sich als Hypothesen, die durch neue Erkenntnisse oder Hypothesen
+                ersetzt werden. Und wieder andere erleben ein gewisses Auf und Ab: durch
+                Urteilstopoi, Neubewertung der Urteile, Anfechtung der Neubewertung, Infragestellung
+                der Anfechtung etc.</p>
+                <p> Die Werke aus <name ref="#struck-pers009">Robert Schumanns</name> letzten Schaffensjahren scheinen ein Gegenstand für
+                    die letztgenannte Kategorie des rezeptionshistorischen und -ästhetischen Auf und Ab
+                    zu sein. Als Exempel sei hier eine kleine Kontroverse in zwei Akten wiedergegeben,
+                    die sich am Ende des <name ref="#struck-pers009">Schumann</name>-Jahres&#x00A0;2010 (1.&#8239;Akt) und zu Beginn des folgenden
+                    Jahres (2.&#8239;Akt) auf den Seiten der Zeitschrift <title level="m">FONO FORUM</title> abspielte. Die Lösung des
+                    Dramas müssen sich die Lesenden dieses kleinen bi-auktorialen, also
+                    pasticcio-artigen <hi rend="italic">Intermezzo historironico</hi> selbst erfinden &#x2014;
+                    am besten dadurch, dass sie sich über die betreffende Musik ein eigenes Urteil
+                    bilden.<note xml:id="struck-ftn1" n="1">Ganz ausdrücklich danke ich <name ref="#struck-pers001">Wolfram Goertz</name> für
+                        die Erlaubnis, seine Glosse aus der <title level="m">FONO-FORUM</title>-Reihe <hi
+                            rend="italic">Wolframs Wartburg</hi>, also den 1.&#8239;Akt des folgenden
+                        Pasticcios, hier wiedergeben zu dürfen.</note>
+                </p>
+            </div>
+            <!--<p>* * *</p>-->
+            <div xml:id="struck-div1">
+                <head>Die Spätwerkfalle, 1.&#8239;Akt<note>Aus der Glossen-Serie: <hi rend="italic">Wolframs Wartburg</hi>, erschienen in: <hi rend="italic">FONO FORUM</hi>, November 2010, S.&#8239;9.</note></head>
+                <p>Die heutige Wartburg wird sich den Zorn der Musikwissenschaft zuziehen. Es geht um
+                    das Phänomen der Spätwerkfalle, in die sie vor allem bei <name ref="#struck-pers009">Robert Schumann</name> tappt.</p>
+                <p> Früher war alles anders. Musikkenner hörten ein Werk aus <name ref="#struck-pers009">Schumanns</name> Spätwerk und
+                    sagten: mühsam. Weil sie diese Diagnose von anderen späteren Werken des Komponisten
+                    kannten, erlaubten sie sich zu sagen: Im Verlauf seines Komponierens gibt es eine
+                    Qualitätskrise.</p>
+                <p> Neuerdings verspüren Musikwissenschaftler den Auftrag, mäßig inspirierten Werken
+                    hohes Niveau nachzurufen, um sich den Ruhm des Entdeckers an die Mütze zu heften.
+                    Alle früheren Meinungen wurden für tumb, taub und unverständlich erklärt. Und dann
+                    folgen Beweisgänge, die mit viel Spekulation das Spätwerk heiligzusprechen suchten.
+                    Schon das geheimnisvolle Wort Spätwerk darf man nur flüsternd aussprechen.</p>
+                <p> Nun gibt es tatsächlich immer Gründe, vorschnelle Urteile zu prüfen. Bei <name ref="#struck-pers009">Schumann</name>
+                    ist das schwierig, weil der Komponist &#x2014; und das bestreiten nur Leute, die von
+                    Medizin wenig und von neurologisch-immunologischen Verläufen gar keine Ahnung haben
+                    &#x2014; am Vollbild einer Neurosyphilis litt. Sie war bei ihm mit dem Verlaufsbild der
+                    progressiven Paralyse so typisch, dass jeder Versuch, sie wegzureden, an
+                    vorsätzliche Ignoranz grenzt. Die Frage lautet gar nicht: Hört man <name ref="#struck-pers009">Schumanns</name> späten
+                    Werken diese Krankheit an? Die Frage müsste eher lauten: Wäre es nicht kurios, man
+                    würde sie ihnen <soCalled>nicht</soCalled> anhören. Neurosyphilis ist keine psychiatrische Störung, die
+                    mal da ist und mal nicht. Es handelt sich um eine fortschreitende Auflösung des
+                    Gehirns und seiner Funktionen. Sie macht es unmöglich, auf einem komplexen Niveau zu
+                    komponieren.</p>
+                <p> Verblüffend an der Sache ist, dass Musikwissenschaftler stets die Qualität von Musik
+                    beschreiben möchten, aber nicht deren Schwächen. Dabei wäre das eine innovative
+                    Dissertation: <name ref="#struck-pers009">Schumanns</name> Komponierkrise. Ob sich ein Doktorvater dafür findet? Nein,
+                    der Club der Musikologen sorgt dafür, dass seine Inhalte, von denen er lebt und
+                    zehrt, nicht beschädigt werden.</p>
+                <p> Kann Musikwissenschaft die Qualität von Musik beweisen? Nein, sie kann Anhalte für
+                    Komplexität geben, auf strukturelle Zusammenhänge und Baupläne. Aber die Bewertung
+                    von Inspiration, Genialität und Schönheit ist nicht wissenschaftsfähig. Das gelingt
+                    selbst bei der <title ref="#struck-works001">Matthäus-Passion</title> nicht, die mancher ebenfalls für langweilig hält
+                    (und halten darf). Die Bewertungs- und Empfindungshoheit, die sich die
+                    Musikwissenschaft anmaßt, ist Ausdruck einer Krise, die sie selbst nicht bemerkt.
+                    Vor allem wenn sie in die Spätwerkfalle tappt.</p>
+                <p rend="right"><name ref="#struck-pers001"><hi rend="italic">Wolfram Goertz</hi></name></p>
+            </div>
+            <div/>
+            <div xml:id="struck-div2">
+                <head>Die Spätwerkfalle, 2.&#8239;Akt<note>Leserbrief, erschienen in: <hi rend="italic">FONO FORUM</hi>, Januar 2011,
+                S.&#8239;114</note></head>
+                <p><name ref="#struck-pers001">Wolfram Goertz</name> vermutet in seiner Glosse <title level="a">Die Spätwerkfalle</title> (FF&#x00A0;11/10), er werde
+                sich <q>den Zorn der Musikwissenschaft zuziehen</q>, wenn er an der <soCalled>neuerdings</soCalled> von
+                Musikwissenschaftlern aus Ruhmsucht vorgenommenen Heiligsprechung von <name ref="#struck-pers009">Schumanns</name>
+                <soCalled>Spätwerken</soCalled> zweifele, die nur <q>mäßig inspirierte Werke</q> seien. Nun, es ist weniger
+                Zorn als Verwunderung. Nicht <q>neuerdings</q>, sondern Mitte der 1980er Jahre habe ich
+                ebenso wie einige KollegInnen<!--<note xml:id="struck-ftn2" n="2"> Abgabefassung:
+                    KollegInnen.</note>--> versucht, diese zuvor oft eilig abgeurteilte Musik aus neuer
+                Perspektive zu betrachten &#x2014; nicht <q>um mir den Ruhm des Entdeckers an die Mütze zu
+                    heften</q>, sondern weil die Musik mich als Pianisten und als Musikwissenschaftler
+                fesselte und ihre ambivalente Beurteilung mich irritierte. <name>Goertz</name>’ Schwäche ist
+                wohl, dass er das Spätwerkproblem, seine eigene (nicht unproblematische) Sicht <soCalled>der</soCalled>
+                Musikwissenschaft und die heikle Frage der Bewertung von Musik in einen Topf wirft.
+                Schon 2006 forderte er in einer sonst durchaus differenzierten Besprechung der
+                Dokumentation <title level="m">Robert Schumann in Endenich</title> (Schott)<note xml:id="struck-ftn3" n="3"><ref target="#Appel2006" type="bibl"></ref>; dazu
+                    die Besprechung von <ref target="#Goertz2006" type="bibl"/>; aus jener
+                    Besprechung stammen die folgenden Zitate.</note> für <title level="m">Die Zeit</title>, man müsse über
+                <q>einen Zusammenhang zwischen Erkrankung und gewandelter musikalischer Qualität in
+                    <name ref="#struck-pers009">Schumanns</name> späten Jahren nachdenken</q>. Aber genau das taten ältere <name ref="#struck-pers009">Schumann</name>-Biographen
+                und Wissenschaftler ja unausgesetzt &#x2014; mit recht simplem Resultat: spät = schwach! In
+                den vergangenen Jahrzehnten waren es dann nicht allein Wissenschaftler, sondern auch
+                Künstler wie <name ref="#struck-pers005">Gidon Kremer</name>, <name ref="#struck-pers014">Thomas Zehetmair</name>, <name ref="#struck-pers007">Andràs Schiff</name>, <name ref="#struck-pers006">Wolfgang Sawallisch</name>,
+                <name ref="#struck-pers004">Nikolaus Harnoncourt</name> oder <name ref="#struck-pers003">Daniel Harding</name>, die von dieser Musik fasziniert waren.
+                Sind auch sie Spätwerkfallen-Opfer? Oder schauen, hören, empfinden sie anders,
+                genauer als <name ref="#struck-pers001">Goertz</name>? Der fand 2006 <q>in den (wegen ihres geheimnisvollen Titels gern
+                    überschätzten) <title ref="#struck-works002">Gesängen der Frühe</title></q> &#x2014; <name ref="#struck-pers009">Schumanns</name> letztem Klavierzyklus &#x2014; nur <q>die zum
+                        Teil sehr simplen Akkordbildungen</q> erwähnens-, sprich tadelnswert. Das ist reichlich
+                    wenig: Die Dissonanzkraft des eröffnenden Chorals in Nr.&#8239;1, die Verquickung von
+                    Charakterstück und dialektischem Sonatendenken in Nr.&#8239;2, die rhythmisch-synkopischen
+                    Abenteuer in Nr.&#8239;3, die vielfältigen Bezüge zwischen den fünf Stücken &#x2014; all das
+                steht <name ref="#struck-pers009">Schumanns</name> frühem Klavierschaffen an Komplexität nicht nach, wenngleich es
+                anders ist und <name ref="#struck-pers009">Schumanns</name> Originalitätsästhetik zufolge sein muss. Man muss die
+                späten Werke nicht als Krönung seines Œuvres auffassen, kann über ihre Ambivalenz
+                oder über ihre starke Abhängigkeit von der Aufführungsqualität diskutieren.<note
+                    xml:id="struck-ftn4" n="4">Vgl. die unterschiedlichen Untersuchungsperspektiven und
+                    -horizonte zweier 1984 erschienener umfangreicher Untersuchungen zu <name ref="#struck-pers009">Schumanns</name>
+                    sogenanntem <soCalled>Spätwerk</soCalled>: <ref target="#Kapp1984" type="bibl"></ref>; <ref target="#Struck1984" type="bibl"></ref>.</note> Aber man
+                sollte nicht in die Argumentationsmuster von vorgestern zurückfallen. Und auch wer
+                das Verhältnis von Krankheit und Komponieren erforschen will (nachdem bisherige
+                interdisziplinäre Versuche kläglich scheiterten), muss mehr liefern als nur alte
+                Urteilsklischees. Da tappt <name ref="#struck-pers001">Goertz</name> selbst in die Spätwerkfalle &#x2014; von der anderen
+                Seite aus. 
+                </p>
+                <p rend="right"><hi rend="italic"><name ref="#struck-pers012"><hi rend="italic">Michael Struck</hi></name></hi></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="Appel2006"><title level="m">Schumann in Endenich (1854–1856): Krankenakten, Briefzeugnisse
+                        und zeitgenössische Berichte</title>, hg. von der Akademie der Künste,
+                        Berlin, und der Robert-Schumann-Forschungsstelle Düsseldorf, durch Bernhard R.
+                        Appel (Schumann-Forschungen&#x00A0;11), Mainz 2006</bibl>
+                    <bibl xml:id="Goertz2006">Wolfram Goertz, <title level="a">Der Endenicher Patient.
+                        Vor 150 Jahren starb Robert Schumann. Nun liegen endlich die Krankenakten
+                        als Buch vor</title>, in: <title level="j">Die Zeit</title>, 20.&#8239;Juli&#x00A0;2006,
+                        online abrufbar unter <ptr
+                            target="http://zeus.zeit.de/text/2006/30/SM-Schumann"/></bibl>
+                    <bibl xml:id="Kapp1984">Reinhard Kapp, <title level="m">Studien zum Spätwerk
+                        Robert Schumanns</title>, Tutzing 1984</bibl>
+                    <bibl xml:id="Struck1984">Michael Struck, <title level="m">Die
+                        umstrittenen späten Instrumentalwerke Schumanns. Untersuchungen zur
+                        Entstehung, Struktur und Rezeption</title>, Hamburg 1984</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

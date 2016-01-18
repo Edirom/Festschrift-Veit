@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="cgrid" default="pdf">
+  
+    <!-- import default properties from file -->
+    <property file="local.build.properties"/>
+    <property file="build.properties"/>
+    
+    <!-- need to put jing.jar into ant lib folder (e.g. ~/.ant/lib; /usr/share/java/ant-1.8.4/lib for MacOS 10.8; /usr/share/ant/lib for Debian) -->
+    <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask"/>
+    
+    <!-- need to put ant-schematron.jar into ant lib folder (e.g. ~/.ant/lib) -->
+    <taskdef name="schematron" classname="com.schematron.ant.SchematronTask"/>
+    
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+    </target>
+    
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="get-current-workingcopy-revision">
+        <description>Get the current subversion revision of the working copy</description>
+        <exec executable="${bash.command}" outputproperty="local.revision">
+            <arg value="-c"/>
+            <arg value="${svn.command} info | ${egrep.command} 'Last Changed Rev' | ${egrep.command} -o '[[:digit:]]+'"/>
+            <env key="LANG" value="C"/>
+        </exec>
+        <echo>Current revision of the working copy: ${local.revision}</echo>
+    </target>
+    
+    <target name="tei2latex" depends="init">
+        <description>Convert the master TEI file to latex</description>
+        <xslt processor="trax" style="scripts/to-latex.xsl" in="tei/master.xml" out="${build.dir}/cgrid.tex">
+            <factory name="net.sf.saxon.TransformerFactoryImpl">
+                <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+            </factory>
+            <param name="documentClass" expression="${latex.documentClass}"/>
+            <param name="output" expression="${latex.output}"/>
+            <param name="headings" expression="${latex.headings}"/>
+            <param name="fontsize" expression="${latex.fontsize}"/>
+            <param name="DIV" expression="${latex.DIV}"/>
+            <param name="paper" expression="${latex.paper}"/>
+            <param name="revision" expression="${local.revision}" if="local.revision"/>
+        </xslt>
+    </target>
+    
+    <target name="latex" depends="tei2latex">
+        <description>Process the Latex master file and output PDF</description>
+        <exec executable="${latex.command}">
+            <arg value="-output-directory=${build.dir}"/>
+            <arg value="-shell-escape"/>
+            <arg value="${build.dir}/cgrid.tex"/>
+        </exec>
+    </target>
+    
+    <target name="validate">
+        <description>Validate the articles from the tei folder against the cgrid.rng schema.</description>
+        <tempfile deleteonexit="true" suffix=".xml" destdir="${build.dir}" property="schematron.out"/>
+        
+        <echo level="info">Validating with RelaxNG</echo>
+        <jing rngfile="schemata/cgrid.rng">
+            <fileset dir="tei">
+                <exclude name="README.md"/>
+                <exclude name="master.xml"/>
+            </fileset>
+        </jing>
+        
+        <echo level="info">Validating with Schematron</echo>
+        <schematron schema="schemata/cgrid.isosch" outputFilename="${schematron.out}" failonerror="false" queryLanguageBinding="xslt2">
+            <fileset dir="tei">
+                <exclude name="README.md"/>
+                <exclude name="master.xml"/>
+            </fileset>
+        </schematron>
+    </target>
+    
+    <target name="linkChecker" depends="init">
+        <description>Checks all external URLs via linkchecker cli</description>
+        <xslt processor="trax" style="scripts/extract-URLs.xsl" in="tei/master.xml" out="${build.dir}/urls.html">
+            <factory name="net.sf.saxon.TransformerFactoryImpl">
+                <attribute name="http://saxon.sf.net/feature/xinclude-aware" value="true"/>
+            </factory>
+        </xslt>
+        <exec executable="${bash.command}">
+            <arg value="-c"/>
+            <arg value="linkchecker ${build.dir}/urls.html -r1 --timeout=20 -onone --check-extern --file-output=xml/utf8/${build.dir}/linkchecker.out.xml"/>
+            <env key="LANG" value="C"/>
+        </exec>
+        <echo>Linkchecker report created at ${build.dir}/linkchecker.out.xml</echo>
+    </target>
+    
+    <target name="makeindex" depends="latex">
+        <description>Create the Latex index for persons</description>
+        <antcall target="latex"/>
+        <exec executable="${makeindex.command}">
+            <arg line="${build.dir}/cgrid.idx -C utf8 -L german-duden -M latex/basic.xdy"/>
+        </exec>
+    </target>
+    
+    <target name="copyIndex" depends="init">
+        <copy todir="${build.dir}" file="latex/cgrid.ind"/>
+    </target>
+    
+    <target name="pdf" depends="copyIndex">
+        <description>Create the final PDF with all indices</description>
+        <antcall target="latex">
+            <param name="latex.output" value="print"/>
+        </antcall>
+        <antcall target="latex"/>
+        <antcall target="latex"/>
+    </target>
+    
+    <target name="fahne" depends="get-current-workingcopy-revision">
+        <description>Erstellt Korrekturfahnen für die Autor_innen inkl. Revisionsangabe</description>
+        <antcall target="latex">
+            <param name="latex.output" value="print"/>
+        </antcall>
+        <antcall target="latex"/>
+    </target>
+    
+    <target name="biblio">
+        <description>Erstellt eine Literaturliste aus dem master.xml</description>
+        <antcall target="latex">
+            <param name="latex.output" value="biblio"/>
+        </antcall>
+    </target>
+    
+</project>

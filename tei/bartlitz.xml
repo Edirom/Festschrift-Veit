@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/cgrid.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"><q>… wer Flöte bläst, kauft doch allemahl von meinen Werken</q></title>
+            <title type="sub">Anton Bernhard Fürstenaus Briefkontakte zum Verlag B. Schott&#x2019;s Söhne zwischen 1819 und 1825</title>
+            <author>
+               <name><forename>Eveline</forename> <surname>Bartlitz</surname></name>
+               <affiliation><!--geboren 1926 in Berlin,-->absolvierte 1943&#x2013;1946, unterbrochen durch das letzte Kriegsjahr, eine Lehre als Buchhändlerin bei der renommierten Berliner Buchhandlung Gsellius (Abschluss November&#x00A0;1946); Februar&#x00A0;1947 bis September&#x00A0;1948 Ausbildung zur Bibliothekarin an der damaligen Öffentlichen Wissenschaftlichen Bibliothek. Oktober/November&#x00A0;1948 Einsatz zu Sonderaufgaben in dieser Bibliothek, ab 1.&#8239;Dezember 1948 dann Bibliothekarin in der Musikabteilung.<!-- (Benutzung. verantwortlich für die Betreuung von Handschriften und Sondersammlungen bis 30.&#8239;Juni 1991).--> Ab 1.&#8239;Juli 1991 freie Mitarbeiterin bei der Carl-Maria-von-Weber-Gesamtausgabe in der Berliner Arbeitsstelle in der Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz, vorrangig für die Bearbeitung von Briefen.</affiliation>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virtueller Forschungsverbund Edirom (ViFE)</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written by OpenOffice</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de"/>
+         </langUsage>
+         <particDesc>
+            <listPerson>
+               <person xml:id="bartlitz-pers001">
+                  <p>Fürstenau, Anton Bernhard</p>
+                  <p n="work" xml:id="bartlitz-work003"><hi rend="italic">Konzert</hi> Nr.&#8239;1 e-Moll op.&#8239;12 für Flöte u. Orch.</p>
+                  <p n="work" xml:id="bartlitz-work004"><hi rend="italic">Polonaise</hi> Nr.&#8239;2 F-Dur op.&#8239;31 für Flöte u. Orch.</p>
+                  <p n="work" xml:id="bartlitz-work005"><hi rend="italic">3 Trios</hi> für 3 Flöten op.&#8239;14</p>
+                  <p n="work" xml:id="bartlitz-work006"><hi rend="italic">3 Duos</hi> für 2 Flöten op.&#8239;13</p>
+                  <p n="work" xml:id="bartlitz-work007"><hi rend="italic">Serenade</hi> [Nr.&#8239;1] D-Dur für Flöte, Viola u. Gitarre op.&#8239;6</p>
+                  <p n="work" xml:id="bartlitz-work008"><hi rend="italic">Serenade</hi> Nr.&#8239;2 G-Dur für Flöte, Viola, Fagott u. Gitarre op.&#8239;9</p>
+                  <p n="work" xml:id="bartlitz-work009"><hi rend="italic">Serenade</hi> Nr.&#8239;3 C-Dur für Flöte, Viola u. Gitarre op.&#8239;10</p>
+                  <p n="work" xml:id="bartlitz-work010"><hi rend="italic">Serenade</hi> Nr.&#8239;4 C-Dur für Flöte, Viola, Fagott u. Gitarre op.&#8239;11</p>
+                  <p n="work" xml:id="bartlitz-work011"><hi rend="italic">Variationen</hi> für Flöte u. Gitarre op.&#8239;5</p>
+                  <p n="work" xml:id="bartlitz-work012"><hi rend="italic">3 große Solos</hi> für die Flöte op.&#8239;37</p>
+                  <p n="work" xml:id="bartlitz-work013"><hi rend="italic">Flötenschule</hi> op.&#8239;42</p>
+                  <p n="work" xml:id="bartlitz-work014"><hi rend="italic">Die Kunst des Flötenspiels in theoretisch-practischer Beziehung</hi> op.&#8239;138</p>
+                  <p n="work" xml:id="bartlitz-work015"><hi rend="italic">Variationen</hi> für Flöte und Orchester (Klavier) über ein Preciosa-Thema op.&#8239;30</p>
+                  <p n="work" xml:id="bartlitz-work016"><hi rend="italic">Reminiscences d&#x2019;Euryanthe. Fantaisie</hi></p>
+                  <p n="work" xml:id="bartlitz-work017"><hi rend="italic">Grandes Variations Brillantes sur un thème de l&#x2019;Opéra Oberon</hi> für Flöte op.&#8239;45</p>
+                  <p n="work" xml:id="bartlitz-work018"><hi rend="italic">6 Fantasien</hi> für Flöte und Klavier op.&#8239;46&#x2013;51</p>
+               </person>
+               <person xml:id="bartlitz-pers002">
+                  <p>Fürstenau, Caspar</p>
+                  <p n="work" xml:id="bartlitz-work001"><hi rend="italic">6 Freimaurergesänge</hi> mit Guitarre und Flöte</p>
+               </person>
+               <person xml:id="bartlitz-pers003">
+                  <p>Peter I., Herzog von Oldenburg</p>
+               </person>
+               <person xml:id="bartlitz-pers004">
+                  <p>Fürstenau, Maria Anna Josephine</p>
+               </person>
+               <person xml:id="bartlitz-pers005">
+                  <p>Weber, Carl Maria von</p>
+                  <p n="work" xml:id="bartlitz-work033"><hi rend="italic">Oberon</hi>, WeV C.10</p>
+               </person>
+               <person xml:id="bartlitz-pers006">
+                  <p>Schott, Bernhard</p>
+               </person>
+               <person xml:id="bartlitz-pers007">
+                  <p>Prinz, Johann Friedrich</p>
+               </person>
+               <person xml:id="bartlitz-pers008">
+                  <p>Weber, Caroline von</p>
+               </person>
+               <person xml:id="bartlitz-pers009">
+                  <p>Jahn, Cornelia</p>
+               </person>
+               <person xml:id="bartlitz-pers010">
+                  <p>Friedrich August I., König von Sachsen</p>
+               </person>
+               <person xml:id="bartlitz-pers011">
+                  <p>Mozart, Wolfgang Amadeus</p>
+               </person>
+               <person xml:id="bartlitz-pers012">
+                  <p>Mozart, Franz Xaver Wolfgang</p>
+               </person>
+               <person xml:id="bartlitz-pers013">
+                  <p>Smart, George</p>
+               </person>
+               <person xml:id="bartlitz-pers014">
+                  <p>Friedrich August II., König von Sachsen</p>
+               </person>
+               <person xml:id="bartlitz-pers015">
+                  <p>Rossini, Gioacchino</p>
+                  <p n="work" xml:id="bartlitz-work002"><hi rend="italic">L&#x2019;inganno felice</hi></p>
+               </person>
+               <person xml:id="bartlitz-pers016">
+                  <p>Fürstenau, Louisa (Ludovica, geb. Jungeblodt)</p>
+               </person>
+               <person xml:id="bartlitz-pers017">
+                  <p>Fürstenau, Peter Ferdinand</p>
+               </person>
+               <person xml:id="bartlitz-pers018">
+                  <p>Fürstenau, Theresa Auguste</p>
+               </person>
+               <person xml:id="bartlitz-pers019">
+                  <p>Fürstenau, Carl Bernhard</p>
+               </person>
+               <person xml:id="bartlitz-pers020">
+                  <p>Schott, Johann Andreas</p>
+               </person>
+               <person xml:id="bartlitz-pers021">
+                  <p>Schott, Johann Joseph</p>
+               </person>
+               <!--<person xml:id="bartlitz-pers022">
+                  <p>Fürst, </p>
+               </person>-->
+               <person xml:id="bartlitz-pers023">
+                  <p>Keller, Carl</p>
+               </person>
+               <person xml:id="bartlitz-pers024">
+                  <p>Janusch, Michael</p>
+               </person>
+               <!--<person xml:id="bartlitz-pers025">
+                  <p>Hoffmeister, </p>
+               </person>-->
+               <person xml:id="bartlitz-pers026">
+                  <p>Schott, Adam Josef</p>
+               </person>
+               <person xml:id="bartlitz-pers027">
+                  <p>Kotte, Johann Gottlieb</p>
+               </person>
+               <person xml:id="bartlitz-pers028">
+                  <p>Roth, Johann Traugott</p>
+               </person>
+               <person xml:id="bartlitz-pers029">
+                  <p>Roth, Gottlob</p>
+               </person>
+               <person xml:id="bartlitz-pers030">
+                  <p>Lauterbach, Johann Gottlob</p>
+               </person>
+               <person xml:id="bartlitz-pers032">
+                  <p>Schneeberger, Bernhard Maria Heinrich</p>
+               </person>
+               <person xml:id="bartlitz-pers033">
+                  <p>Gent, Justine Friederike Juliane</p>
+               </person>
+               <person xml:id="bartlitz-pers034">
+                  <p>Schmidt, Antonia</p>
+               </person>
+               <person xml:id="bartlitz-pers035">
+                  <p>Fürstenau, Moritz</p>
+               </person>
+               <person xml:id="bartlitz-pers036">
+                  <p>Klopstock, Friedrich Gottlieb</p>
+               </person>
+               <person xml:id="bartlitz-pers038">
+                  <p>Göschen, Wilhelm Heinrich</p>
+               </person>
+               <person xml:id="bartlitz-pers039">
+                  <p>Göschen, Georg Joachim</p>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2015-11-06T08:53:00" who="https://github.com/peterstadler">Kleinere Anpassungen.</change>
+         <change when="2015-11-03T12:00:00" who="KR">Korrekturen eingearbeitet.</change>
+         <change when="2015-10-22T11:38:00" who="KR">Korrekturen eingefügt.</change>
+         <change when="2015-08-06T09:55:00.000+02:00"
+            who="https://github.com/peterstadler">Werktitel vervollständigt.</change>
+         <change when="2015-06-17T10:37:00.000+02:00"
+            who="https://github.com/peterstadler">Namen vervollständigt und quoterefs eingefügt.</change>
+         <change when="2015-06-07T00:12:49.485+02:00"
+            who="https://github.com/peterstadler">replaced several unicode symbols.</change>
+         <change when="2015-06-05T23:26:49.485+02:00"
+            who="https://github.com/peterstadler">Initial transformation from OxGarage TEI P5 to jTEI customization.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="abstract" xml:id="bartlitz-abstract"><p>Im 2014 von der Staatsbibliothek zu Berlin &#x2013; Preußischer Kulturbesitz erworbenen Teil des Schott-Archivs, Mainz, befinden sich auch fünf Briefe des Flötisten Anton Bernhard Fürstenau an den Verlag aus den Jahren 1819 bis 1825, in denen es dem Briefschreiber darum geht, eigene Kompositionen dem Verlag zum Druck anzubieten, Flöten-Kammermusik aus dem Verlags-Katalog zu erwerben und Flöten aus dessen Werkstatt gegebenenfalls in Kommission zu übernehmen. Es kann ohne Kenntnis der Gegenbriefe nur vermutet werden, dass infolge von Fürstenaus überhöhten Preisforderungen der Verlag von einer Zusammenarbeit mit dem Komponisten absah und die Korrespondenz eingestellt worden ist.</p></div>
+      </front>
+      <body>
+         <p><name ref="#bartlitz-pers001">Anton Bernhard Fürstenau</name> (1792–1852), der älteste Sohn des Flötisten und Komponisten <name ref="#bartlitz-pers002">Caspar Fürstenau</name> (1772–1819), galt als bedeutendster deutscher Flöten-Virtuose in der ersten Hälfte des 19.&#8239;Jahrhunderts und als begabtestes Mitglied der Musikerfamilie Fürstenau. Wie viele Karrieren von Virtuosen in dieser Zeit startete auch seine künstlerische Laufbahn als  <q>Wunderkind</q>, begleitet von  seinem  Vater, bei dem er von  seinem sechsten  Lebensjahr an Flötenunterricht erhielt. 
+            Bereits ein Jahr später präsentierte sich der Knabe  in einem Hofkonzert, was ihm  das Geschenk einer kostbaren Flöte von <name ref="#bartlitz-pers003">Herzog Peter I. von Oldenburg</name> (1755–1829) einbrachte. 
+            Mit zwölf Jahren wurde er  Mitglied der Oldenburger Hofkapelle, in der auch sein Vater engagiert war, und  begann daneben mit ihm eine  ausgedehnte und äußerst erfolgreiche Reisetätigkeit innerhalb Deutschlands und im angrenzenden Ausland, welche  die Existenzgrundlage der  Familie bildete.<note xml:id="bartlitz-ftn1" n="1">Zur Familie gehörten zu dieser Zeit die Schwester <name ref="#bartlitz-pers004">Maria Anna Josephine</name> (geb. 1795; ebenfalls aus der ersten Ehe des Vaters), die Stiefmutter <name ref="#bartlitz-pers016">Louisa (Ludovica), geb. Jungeblodt</name> (geb. 1777), und die drei Halbgeschwister aus der zweiten Ehe des Vaters <name ref="#bartlitz-pers017">Peter Ferdinand</name> (geb. 1801), <name ref="#bartlitz-pers018">Theresa Auguste</name> (geb. 1802) und <name ref="#bartlitz-pers019">Carl Bernhard</name> (geb. 1804).</note>  
+            Nach mehr als zehn  Jahren und vermehrten gesundheitlichen Problemen des Vaters beschloss dieser, die  eigene Reisetätigkeit drastisch einzuschränken und für den Sohn eine feste Stelle in einem Orchester zu suchen, nachdem die Oldenburger Hofkapelle bereits 1811 aufgelöst worden war. 
+            1817 fand sich eine Möglichkeit in Frankfurt am Main. Die Fürstenaus  übersiedelten  kurz entschlossen dorthin, es blieb  aber nur ein kurzes Intermezzo; die Rückkehr der Familie nach Oldenburg erfolgte bereits nach zwei Jahren.</p>
+         <p>Im Rahmen der Übergabe des Verlagsarchives von <orgName>Schott Music GmbH &amp; Co. KG</orgName> aus Mainz in öffentliche Hand gelangte 2014 ein Großteil  der Musikerkorrespondenz in die Staatsbibliothek zu Berlin, darunter auch fünf Briefe <name ref="#bartlitz-pers001">Anton Bernhard Fürstenaus</name> aus den Jahren 1819, 1821 (2), 1822 und 1825, die hier erstmals vorgestellt werden sollen.<note xml:id="bartlitz-ftn2" n="2">Die Recherche nach Gegenbriefen des Verlages in Kopierbüchern, die sich bisher noch unbearbeitet in der Strecker-Stiftung 1 in der Bayerischen Staatsbibliothek befinden, konnte zum gegenwärtigen Zeitpunkt nicht erfolgen, weil die Dokumente erst Ende 2015 erschlossen sein werden (freundliche Auskunft von <name ref="#bartlitz-pers009">Dr. Cornelia Jahn</name> vom 24.&#8239;Februar 2015).</note> 
+            Die in großen zeitlichen Abständen geschriebenen Dokumente  lassen die vergeblichen Bemühungen <name ref="#bartlitz-pers001">Fürstenaus</name> erkennen, Kompositionen im <orgName>Verlag Schott</orgName> unterzubringen. 
+            Der Ton seiner Briefe wird zunehmend förmlicher, was auch an den Anreden abzulesen ist. 
+            Dass <name ref="#bartlitz-pers001">Fürstenau</name> kein Gehör fand, mag nicht nur am Verleger gelegen haben, denn mit der günstigen Wende im Leben des Musikers 1820, von der später die Rede sein soll,  stiegen naturgemäß sein Selbstbewusstsein und seine finanziellen Forderungen, wie  sich sehr gut aus dieser Handvoll Briefe ablesen lässt. 
+            Die durchweg mit Tinte beschriebenen Blätter in gut lesbarer Handschrift werden nachfolgend  in der bisweilen seltsamen und fehlerhaften Orthographie des Briefschreibers wiedergegeben.</p>
+         <p>Den frühesten im Schottarchiv überlieferten Brief<note xml:id="bartlitz-ftn3" n="3">Staatsbibliothek zu Berlin – Preußischer Kulturbesitz (im folgenden: <hi rend="italic">D-B</hi>), Musikabteilung: Schott-Archiv 25242. Verlagsvermerk: Brief- und Beantwortungsdatum am linken Rand der Adressenseite vom 28.&#8239;Mai bzw. 5.&#8239;Juni 1819.</note>  schrieb <name ref="#bartlitz-pers001">Fürstenau</name> noch aus Oldenburg und an einem Wendepunkt seines Lebens: Am 11.&#8239;Mai 1819 war sein Vater, erst 47-jährig, nach Rückkehr von einer Konzertreise plötzlich an Hirnschlag verstorben. 
+            Der Sohn wurde quasi über Nacht zum Familienoberhaupt und  war somit verpflichtet, ab sofort für den Lebens-Unterhalt seiner Angehörigen zu sorgen. 
+            Mit seinem  Brief wollte er  vor allem noch einen letzten Wunsch  seines Vaters erfüllen. </p>
+         
+         <floatingText xml:id="bartlitz-float01">
+            <body>
+               <p rend="noIndent">Herrn <hi rend="underline italic">B. Schott.</hi>
+                  | Großherzoglich Hessische Hofmusikhandlung<note xml:id="bartlitz-ftn4" n="4">Obwohl ab 1819 der Verlag in <hi rend="italic">B. Schott&#x2019;s Söhne</hi> umbenannt wurde, galt der von <name ref="#bartlitz-pers001">Fürstenau</name> benutzte Firmenname noch bis 1823; vgl. <ref target="#Schneider-Kat153" type="bibl">S.&#8239;75</ref>.</note>
+                  | in
+                  | <hi rend="italic"><hi rend="underline">Mainz.</hi></hi>
+                  | <hi rend="italic"><hi rend="underline">frey.</hi></hi>
+               </p>
+               <p rend="right"><hi rend="italic">Oldenburg</hi>  den 28<hi rend="sup">tn</hi> <hi rend="italic">May</hi>  1819.</p>
+               <p rend="noIndent">Lieber Freund <hi rend="italic">Schott</hi>!<note>Die Anrede lässt vermuten, dass <name ref="#bartlitz-pers001">Fürstenau</name> die jetzigen Besitzer, die Söhne des Verlagsgründers <name ref="#bartlitz-pers006">Bernhard Schott</name> (1748–1809), <name ref="#bartlitz-pers020">Johann Andreas</name> (1781–1840) und <name ref="#bartlitz-pers021">Johann Joseph</name> (1782–1855), persönlich kannte. Welchen dieser beiden Verlagsinhaber Fürstenau in seinen Briefen als <q>Lieber Freund</q> anredete, lässt sich derzeit nicht zweifelsfrei klären; der in den Adressen genannte <q>Herr B. Schott</q> bzw. <q>Herr B. Schott Söhne</q> ist nicht als Person zu verstehen, sondern steht für den Verlagsnamen.</note></p>
+               <p rend="noIndent">Sie werden schon wohl in öffentlichen Blättern gelesen haben, welchen Verlust ich am 11<hi rend="sup">tn</hi>  d.&#8239;<hi rend="italic">M:</hi> gelitten, nemlich das mein <name ref="#bartlitz-pers002">Vater</name> plötzlich am Schlag-Fluß gestorben ist! – Wie schmerzlich dieses für unsere ganze Familie ist, können Sie leicht denken, doch der Himmel hat es so gewollt, und ist des Menschen Pflicht, sich in alles zu fügen. – –</p>
+               <p>Mein <name ref="#bartlitz-pers002">Vater</name> selig, trug mich die letzte Zeit auf <title ref="#bartlitz-work001" rend="normal">6 Maurer Lieder für Guitarre und Flöte</title> für Sie abzuschreiben, damit Sie dieselben auf die nemliche Art, wie die vorigen in Verlag nehmen könnten.<note xml:id="bartlitz-ftn5" n="5">Im Ersten Nachtrag (Leipzig, Anton Meysel 1818) zum <ref target="#MusikalienMeysel1817" type="bibl"/> findet sich auf S.&#8239;66 der Titel: <name ref="#bartlitz-pers002">C. Fuerstenau</name>: 6&#x00A0;Freymaurergesaenge mit Guitarre und Floete. Mainz, Schott 30&#8239;Xr. Im Dritten Nachtrag (Leipzig&#x00A0;1820) ist auf S.&#8239;53 derselbe Titel mit der Heftzählung: 2s angezeigt, dabei dürfte es sich um die im Brief erwähnten Lieder handeln (vgl. auch <name ref="#bartlitz-pers001">Fürstenaus</name> nächsten Brief S.&#8239;<ref target="#bartlitz-float02" type="crossref" rend="page"/>). Sowohl <name ref="#bartlitz-pers002">Vater</name> und <name ref="#bartlitz-pers001">Sohn Fürstenau</name> als auch mindestens einer der beiden Verleger-Brüder waren Freimaurer; die Fürstenaus gehörten der  Oldenburger Freimaurerloge <hi rend="italic">Zum goldenen Hirsch</hi> an. <name ref="#bartlitz-pers001">Fürstenau jun.</name> bezeichnet sich im Brief vom 18.&#8239;Januar&#x00A0;1821 als Ordensbruder des Adressaten (vgl. S.&#8239;<ref target="#bartlitz-float02" type="crossref" rend="page"/>).</note>  Ist dieses Ihr wille noch, so bitte ich Sie mich umgehend hievon zu benachrichtigen, damit ich Ihnen alsdann das Manuscript gleich zusenden kann. – Mein <name ref="#bartlitz-pers002">Vater</name> hat noch mehere Manuscripte hinterlassen.</p>
+               <p>Der <name>Fürst</name> so wie die Einwohner von <hi rend="italic">Oldenburg</hi>  wünschen das ich hinfüro hier bleiben möchte, wozu ich mich wahrscheinlich auch entschliessen werde, und so können wir dann manches Geschäft, hinsichtlich mit Musikalien und Instrumente zusammen machen, indem es hier jetzt an allem fehlt. Sobald ich also bestimmt hierbleiben werde, wollen wir uns näher hierüber besprechen. Fürs erste wünschte ich, das Sie die Güte haben möchten, mir recht bald folgende Musikalien zu zusenden, natürlich um gewöhnliches Rabatt. […]</p>
+               <p>In der Hoffnung baldiger erhaltung dieser Musikalien, und einer Antwort, zeichne ich nebst herzliche Grüsse an alle Bekannte</p>
+               <p rend="right">ergebenst
+                  <lb/><hi rend="italic"><name ref="#bartlitz-pers001">Anton B. Fürstenau</name></hi>.</p>
+            </body>
+         </floatingText>
+         
+         <p>Die im obigen Brief ausgelassene Passage beinhaltet eine umfangreiche Bestellung; eingeleitet durch die Formulierung <q>Aus Ihrem Catalogue sind es folgende Nummern</q> folgt eine Liste von 37&#x00A0;Publikationen (überwiegend Flöten-Kammermusik), die  sich mit Hilfe des Schott-Katalogs vom Mai 1818 rekonstruieren lässt.<ref type="bibl" target="#schott1818" xml:id="bartlitz-ftn88">daraus die Nummern 1015, 206, 220, 1033, 719–721, 1045, 1063&#8239;f., 800, 1039&#8239;f., 218, 517&#8239;f., 532&#8239;f., 456, 990, 745, 597, 771, 1069, 709, 876&#8239;f., 974–976, 747, 606, 537, 595, 606, 1140, 1142.</ref> Die Bemerkung zum Rabatt bezieht sich auf ein entsprechendes Angebot im selben Katalog:
+            <quote source="#bartlitz-quoteref01">Von den, in diesem Verzeichnisse enthaltenen Musikwerken eignen Verlags, wird denjenigen ein angemessener Rabat vom Ladenpreis zugestanden, welche starke Parthien auf einmal nehmen.</quote><ref type="bibl" target="#MusikalienMeysel1817" xml:id="bartlitz-quoteref01">S.&#8239;IV</ref></p>
+         
+         <p>Der anderthalb Jahre später verfasste zweite Brief der Sammlung kam bereits nicht mehr aus Oldenburg, sondern aus Dresden. Mit dem Tod des langjährigen Flötisten der dortigen Hofkapelle, <name ref="#bartlitz-pers007">Johann Friedrich Prinz</name>, am 16.&#8239;Oktober&#x00A0;1819<note xml:id="bartlitz-ftn8" n="8">Lt. <ref type="bibl" target="#landmann2007">S.&#8239;132</ref> und <ref target="#schreiber2003" type="bibl"/> gab es um 1820 fünf Flötisten in der Kapelle, von denen der oben genannte fast 30&#x00A0;Jahre Mitglied der Kapelle war.</note> entstand eine Vakanz, von der <name ref="#bartlitz-pers001">Fürstenau</name> erfahren hatte. Bei der Neubesetzung der Stelle konnte er sich gegen zwei Mitbewerber<note xml:id="bartlitz-ftn9" n="9"><name ref="#bartlitz-pers023">Carl Keller</name> (1784–1855), fürstl. Fürstenbergischer Kammermusikus in Donaueschingen, und <name ref="#bartlitz-pers024">Michael Janusch</name>, Erster Flötist am Ständetheater in Prag.</note> durchsetzen, so dass er seinen ursprünglichen Vorsatz, in Oldenburg bleiben zu wollen, fallen ließ. 
+            Im März&#x00A0;1820 wurde <name ref="#bartlitz-pers001">Fürstenaus</name>  Bewerbung in Dresden Gesprächsstoff. Der  <name ref="#bartlitz-pers011">Mozart</name>-Sohn <name ref="#bartlitz-pers012">Franz Xaver Wolfgang</name> (1791–1844), der als Pianist, Komponist und Musiklehrer in Lemberg wirkte, befand sich auf einer ausgedehnten  Konzert-Reise und machte im März&#x00A0;1820 in Dresden Station. 
+            Er berichtet in seinem Reisetagebuch am 1.&#8239;März&#x00A0;1820: <quote source="#bartlitz-quoteref02">Abends besuchte ich das Theater, wo erst <name ref="#bartlitz-pers001">Fürstenau</name> ein Concert blies. Er wünscht bey der Kapelle engagirt zu werden, und spielte deßwegen heute vor dem <name ref="#bartlitz-pers010">Könige</name><note xml:id="bartlitz-ftn10" n="10"><name ref="#bartlitz-pers010">Friedrich August I., König von Sachsen</name> (1750–1827).</note>  […]  Den Beschluß machten Var. von <name ref="#bartlitz-pers001">Fürstenau</name>. Er spielte ganz meisterhaft.</quote><ref target="#mozart1994" type="bibl" xml:id="bartlitz-quoteref02">S.&#8239;181</ref><!--<note xml:id="bartlitz-ftn11" n="11">Franz Xaver Wolfgang Mozart […] Reisetagebuch 1819–1821, hg. u. komm. von Rudolph Angermüller, Bad Honnef 1994, S.181.</note>-->
+         <!--</p>
+         
+         <p>-->Zwei Tage später heißt es an derselben Stelle: 
+            <quote source="#bartlitz-quoteref03">Ich spielte wieder diesen Vormittag bey <name ref="#bartlitz-pers005">Weber</name>, blieb bey ihm zu Mittag, und ging dann nach Hause. […] <name ref="#bartlitz-pers001">Fürstenau</name> ist engagirt.</quote><ref target="#mozart1994" type="bibl" xml:id="bartlitz-quoteref03" rend="ibid">S.&#8239;183</ref>
+         </p>
+         <p><name ref="#bartlitz-pers005">Carl Maria von Weber</name>, der der Hofkapelle als einer der Kapellmeister vorstand,  kannte <name ref="#bartlitz-pers002">Vater</name> und <name ref="#bartlitz-pers001">Sohn Fürstenau</name> bereits seit deren Auftritt 1815 in Prag: <name ref="#bartlitz-pers005">Webers</name> Tagebuch<note xml:id="bartlitz-ftn13" n="13"><hi rend="italic">D-B</hi>, Mus. ms. autogr. theor. C.&#8239;M.&#8239;v. Weber WFN&#x00A0;1.</note> gibt am 11.&#8239;Januar Auskunft über deren Ankunft, und am 13.&#8239;Januar liest man darin: <q>Concert der H. Fürstenau, sehr voll</q>. Es steht zu vermuten, dass <name ref="#bartlitz-pers005">Weber</name> <name ref="#bartlitz-pers001">Fürstenaus</name> Bewerbung  wärmstens befürwortete; in seinem Tagebuch liest man  am 1.&#8239;März&#x00A0;1820: <q>Fürstenau besucht, er blies Abends im Theater, zum <title ref="#bartlitz-work002">Inganno</title>.<note xml:id="bartlitz-ftn14" n="14"><hi rend="italic"><title ref="#bartlitz-work002">L&#x2019;inganno felice. Farsa per musica</title></hi>. Komponist: <name ref="#bartlitz-pers015">Gioacchino Rossini</name>.</note>  vortrefflich.</q> <!--</p>
+         
+         <p>-->Auch <name ref="#bartlitz-pers005">Weber</name> hielt die gute Nachricht vom erfolgten Engagement zwei Tage später in seinem Tagebuch fest: <q>Mittag <name ref="#bartlitz-pers012">Mozart</name> und <name ref="#bartlitz-pers001">Fürstenau</name> bei uns […]  Anstellung <name ref="#bartlitz-pers001">Fürstenaus</name> gewiß.<note xml:id="bartlitz-ftn15" n="15">Vgl. die Akte zur Hofkapelle und dem Hoftheater im Zeitraum 1819 bis 1822: Sächsisches Hauptstaatsarchiv, Dresden, Bestandssignatur: 10026, Loc.&#x00A0;15146, vol.&#8239;XXI, fol.&#8239;113r–116r; fol.&#8239;117r–117v; fol.&#8239;118r–v. <name ref="#bartlitz-pers001">Fürstenau</name> wurde mit einem Gehalt von 400&#8239;rh u. 200&#8239;rh Zulage angestellt.</note>  Zu meiner großen Freude</q>.</p>
+         
+         <p>Aus <name ref="#bartlitz-pers001">Fürstenaus</name>  Brief<note xml:id="bartlitz-ftn16" n="16"><hi rend="italic">D-B</hi>, Musikabteilung: Schott-Archiv 50637. Verlagsvermerk: Brief- und Beantwortungsdatum am linken Rand der Adressenseite vom 18. bzw. 26.&#8239;Januar&#x00A0;1821.</note> erfährt man acht  Monate später von  dieser  Lebenswende aus seiner eigenen  Feder:</p>
+         
+         <floatingText xml:id="bartlitz-float02">
+            <body>
+               <p rend="noIndent">Herrn <hi rend="underline italic">B. Schott</hi>
+                  | Musikhandlung
+                  | in
+                  | <hi rend="italic">Mainz</hi>
+                  | <hi rend="italic">franco Leipzig.</hi>
+                  <lb/>[Postst.: DRESDEN / 18.&#8239;Jan. 21]</p>
+               <p rend="right">
+                  <hi rend="italic">Dresden</hi>  den 18<hi rend="sup">tn</hi> 
+                  <hi rend="italic">Januar</hi>  1821.</p>
+               <p rend="noIndent">Geehrter Freund!</p>
+               <p rend="noIndent">Schon längst hätte ich Ihnen den Empfang der Lieder angezeigt, wenn ich nicht auf einige Monate mit unserm <name ref="#bartlitz-pers014">Prinzen <hi rend="italic">Friedrich</hi></name><note xml:id="bartlitz-ftn17" n="17"><name ref="#bartlitz-pers014">Prinz Friedrich</name> (1797–1854), ab 6.&#8239;Juni 1836 <name ref="#bartlitz-pers014">Friedrich August II.</name>, König von Sachsen.</note>  in <hi rend="italic">Florenz</hi>  und <hi rend="italic">Venedig</hi>  war, und gleich bey meiner hierkunft nach <hi rend="italic">Leipzig</hi>  ging. 
+                  Ich bin ganz mit der auflage zufrieden und statte Ihnen meinen Dank ab. –  Ich hatte freilich damahls als ich Ihnen das letzte mahl schrieb,<note xml:id="bartlitz-ftn18" n="18">Der erwähnte Brief, vermutlich aus dem Jahr&#x00A0;1820, ist im Schott-Archiv nicht überliefert.</note>  eine Reise in Ihrer Gegend vor, allein meine Anstellung hier, machte einen Querstrich, doch habe ich sie nicht aufgegeben, denn ich habe alle Jahr 3 Monate zum Reisen mir ausbedungen. Ich lebe so zufrieden hier, und bin mit so unbeschreiblicher Liebe, sowohl von Hofe als vom Publikum hier aufgenommen, das ich nun nicht mehr meinen Wohnort verändern werde, und ich bin auch bereits auf Lebenszeit <hi rend="italic">Engagiert</hi>.</p>
+               <p>Sie schreiben mich von Ihren Flöten!<note xml:id="bartlitz-ftn19" n="19">Schott handelte nicht nur mit Noten, sondern auch mit Musikinstrumenten, Notenpapier u.&#8239;a. Zubehör, sogar mit Wein, vgl. <ref type="bibl" target="#Schneider-Kat153">S.&#8239;71</ref>; im  <ref type="bibl" target="#schott1818">S.&#8239;VII&#8239;f.</ref> heißt es: <q>Eine eigne Instrumentenfabrik, worin Flöten mit einer und mehreren Klappen […] von der besten Qualität verfertigt werden, auch können schadhafte Geigen-Instrumente, Guitarren und dergl. bei uns auf das sorgfältigste reparirt werden.</q></note> – allerdings möchte ich wohl mahl eine davon sehen, hier sind nun, weil ich eine blase, schon viele <hi rend="italic">Wiener</hi>  Instrumente, indessen könnte ich Ihnen vielleicht doch nützlich seyn, wenn ich nur erst den Werth des Instruments kenne. – 
+                  Hinsichtlich der Composition bin ich sehr fleißig gewesen, und es sind bereits 12&#x00A0;Werke von mich erschienen, theils in <hi rend="italic">Leipzig</hi>  und <hi rend="italic">Hamburg</hi>.<note xml:id="bartlitz-ftn20" n="20">Die ersten 12&#x00A0;opera waren bei Böhme in Hamburg, Breitkopf &amp; Härtel und Hofmeister in Leipzig erschienen. Vgl. <ref target="#schneeberger1992" type="bibl">T.&#8239;2. Thematisch-bibliographisches Werkverzeichnis</ref>. <name ref="#bartlitz-pers032">Schneeberger</name> bringt in T.&#8239;1 auch Verlegerkorrespondenz <name ref="#bartlitz-pers001">A.&#8239;B. Fürstenaus</name>, jedoch aus späterer Zeit und an die Verlage Hofmeister und Probst in Leipzig, Artaria in Wien und André in Offenbach.</note> 
+                  Sollten wir mit einander hierin Geschäfte machen können so schreiben Sie mich gefälligst. Folgendes liegt aufs neue fertig:</p>
+               <list rend="simple">
+                  <item>
+                     <title ref="#bartlitz-work003">Concert</title> <title ref="#bartlitz-work003" rend="normal">für Flöte</title></item>
+                  <item>
+                     <title ref="#bartlitz-work004">Polonoise</title> für <title ref="#bartlitz-work004">Flöte</title> &amp; <title ref="#bartlitz-work004" rend="normal">Orchester</title></item>
+                  <item>
+                     <title>Pot-pourri</title> für <title>Flöte</title> &amp; Pianoforte</item> 
+                  <item>
+                     <title>Trios</title> für 3 <title>Flöten</title>
+                  </item>
+                  <item>
+                     <title>Duos</title> für 2 Flöten</item>
+                  <item>
+                     <title>Serenaden</title> für <title>Flöte</title>, <title>Alto</title> &amp; <title>Guitarre</title>
+                  </item>
+                  <item>NB <title>Serenaden</title> für <title>Flöte</title>, <title>Fagotto</title>, <title>Alto</title> &amp; <hi rend="italic">Guitarre</hi>.</item>
+                  <item>Diese 4 Instrumente passen herlich zusammen, und es existirt wohl nichts dafür, 2 von diesen <title>Serenaden</title> sind jetzt bey <hi rend="italic"><name>Hoffmeister</name></hi> in <hi rend="italic">Leipzig</hi> in Arbeit.</item>
+                  <item>Auch <title>Variationen</title> für <title>Flöte</title> und <title>Guitarre.</title><note xml:id="bartlitz-ftn21" n="21">Die hier genannten Werke konnten bis auf das Potpourri im Werkverzeichnis <name ref="#bartlitz-pers001">Fürstenaus</name> von <name ref="#bartlitz-pers032">Schneeberger</name> <!--(vgl. Anm.&#x00A0;20)--> nachgewiesen werden: <title ref="#bartlitz-work003">Konzert Nr.&#8239;1 e-Moll op.&#8239;12 für Flöte u. Orch.</title>, ED bei Hofmeister, Leipzig (vor 1822); <title ref="#bartlitz-work004">Polonaise Nr.&#8239;2 F-Dur op.&#8239;31 für Flöte u. Orch.</title> (Klav.), ED bei Probst, Leipzig (ca. 1825); <title ref="#bartlitz-work005">Trios für 3 Flöten op.&#8239;14</title>, ED bei Breitkopf &amp; Härtel, Leipzig (1822); <title ref="#bartlitz-work006">3 Duos für 2 Flöten op.&#8239;13</title>, ED ebd. (1822/23); <title ref="#bartlitz-work007">Serenade [Nr.&#8239;1] D-Dur für Flöte, Viola u. Gitarre op.&#8239;6</title>, ED bei Böhme, Hamburg (1821); <title ref="#bartlitz-work008">Serenade Nr.&#8239;2 G-Dur für Flöte, Viola, Fagott u. Gitarre op.&#8239;9</title>, <title ref="#bartlitz-work009">Nr.&#8239;3 C-Dur für Flöte, Viola u. Gitarre op.&#8239;10</title> und <title ref="#bartlitz-work010">Nr.&#8239;4 C-Dur für Flöte, Viola, Fagott u. Gitarre op.&#8239;11</title>, ED Hofmeister, Leipzig (vor 1822); <title ref="#bartlitz-work011">Variationen für Flöte u. Gitarre op.&#8239;5</title>, ED bei Böhme, Hamburg (1822).</note>
+                  </item>
+               </list>
+               
+               <p>Wenn Sie wünschen von diesen Werken etwas zu verlegen, so werden Sie mich gewiß billig finden. &#x2013; Haben Sie gelegenheit so senden Sie mir doch mahl eine von Ihren Flöten, und wenn ich Sie verkaufen kann wird mich freuen.</p>
+               <p>Ich grüße Sie Freundschaftlich und sehe bald eine Antwort entgegen. Empfehlen Sie mich Ihre werthen Familie uns [sic] alles was sich meiner erinnert.</p>
+               <p rend="right">Ihr aufrichtiger Freund und O[rdens]b[ruder]
+                  <lb/><hi rend="italic"><name ref="#bartlitz-pers001">A.&#8239;B. Fürstenau</name></hi>
+                  <lb/>Königl. Sächsischer Kammermusikus
+                  <lb/>und erster Flötist der Königl: Kapelle.</p>
+               <p rend="noIndent"><hi rend="underline">Meine <hi rend="italic">Adresse</hi></hi>:
+                  <lb/><hi rend="italic">Löwen</hi>  Apotheke am alten Markt
+                  | in
+                  | <hi rend="italic">Dresden</hi>.</p>
+            </body>
+         </floatingText>
+         
+         <p>Der folgende, bereits einen halben Monat später verfasste  Brief<note xml:id="bartlitz-ftn22" n="22"><hi rend="italic">D-B</hi>, Musikabteilung: Schott-Archiv&#x00A0;50638. Verlagsvermerk: Brief- und Beantwortungsdatum am linken Rand der Adressenseite vom 4.&#8239;Februar bzw. 21.&#8239;Juli&#x00A0;1821. </note>  mit <name ref="#bartlitz-pers001">Fürstenaus</name> selbstbewussten Preisforderungen wird erst nach fünf  Monaten vom Verlag beantwortet:</p>
+         
+         <floatingText xml:id="bartlitz-float03">
+            <body>
+               <p rend="noIndent">Herrn <hi rend="italic">B. </hi>
+                  <hi rend="underline italic">Schott</hi>
+                  | Musikhandlung
+                  | in
+                  | <hi rend="italic"><hi rend="underline">Mainz.</hi></hi>
+                  | <hi rend="italic"><hi rend="underline">frey Leipzig.</hi></hi>
+                  <lb/>[Postst.: DRESDEN / 6.&#8239;Feb. 21]</p>
+               <p rend="right"><hi rend="italic">Dresden</hi>  den 4<hi rend="sup">t</hi> <hi rend="italic">Febr.</hi> 1821.</p>
+               <p rend="noIndent">Herrn <hi rend="italic">B. Schott</hi> in <hi rend="italic">Mainz</hi></p>
+               <p rend="noIndent">Für Ihre freundliche Antwort vom 26<hi rend="sup">t</hi> 
+                  <hi rend="italic">Jan</hi>. meinen Dank. Hinsichtlich Ihres Herrn Bruders<note xml:id="bartlitz-ftn23" n="23">Mit dem Bruder ist <name ref="#bartlitz-pers026">Adam Josef Schott</name> (1794–1864) gemeint, der von 1821–1823 Hofklarinettist in München war und 1835 die Londoner Verlagsniederlassung gegründet hat. Nach 1840 wirkte er als Konzertklarinettist und starb während einer Konzerttournee in Bombay.</note>  könnte sich vieleicht bald was in unsere Kapelle finden, es sieht so ziemlich mißlich mit unseren <hi rend="italic">Clarinettisten</hi>  aus,<note xml:id="bartlitz-ftn24" n="24">Diese Aussage ist verwunderlich, denn zu dieser Zeit waren vier sehr gute Klarinettisten im Dresdner Hoforchester engagiert: <name ref="#bartlitz-pers027">Johann Gottlieb Kotte</name> (1797–1857, engagiert  seit 1817), die Brüder <name ref="#bartlitz-pers028">Johann Traugott Roth</name> (1768–1847) und  <name ref="#bartlitz-pers029">Gottlob Roth</name> (geb. 1774, beide engagiert  seit 1794) sowie  <name ref="#bartlitz-pers030">Johann Gottlob Lauterbach</name> (1780–1860, engagiert  seit 1817). Ein Engagement von <name ref="#bartlitz-pers026">A.&#8239;J. Schott</name> wurde ohnehin obsolet (vgl. Anm.&#8239;<ref target="#bartlitz-ftn23" type="crossref" rend="no"/>).</note>  
+                  ich werde mich in diesen Tagen erkundigen, ob schon jetzt oder erst später jemand gesucht werden soll, ich werde Ihnen alsdann gleich Nachricht sagen, und alles anwenden Ihnen und Ihrem Herrn Bruder gefällig seyn zu können. – Von Ihren Flöten sehe ich gelegentlich wohl eine entgegen. – Wegen sendung meiner Manuscripte muß ich um entschuldigung bitten, indem ich dieselben nicht gerne zur Durchsicht verschicke, und ich auch gerade jetzt mit den Herren in <hi rend="italic">Leipzig</hi>  um diese Stücke in absprache stehe. Da Sie schon mehere meiner Kompositionen kennen, so bedarf es ja nicht mahl erst der Durchsicht, indem ich Sie auch zugleich versichere das die Duetten und <hi rend="italic">Trios</hi>  eines meiner besten Werke sind. Ich füge Ihnen mein <hi rend="italic">Honorar</hi>  anbey, und sollte Ihnen es recht seyn, so schicke ich Ihnen umgehend die Manskripte. Auf jedenfall würden Sie mich verbinden, wenn Sie mich bald mit ein ja oder Nein benachrichtigten.</p>
+               <pb/>
+               <list rend="simple">
+                  <item>3 <title ref="#bartlitz-work006">Grand Duos Concertant pour</title> 2 <title ref="#bartlitz-work006">Flûtes</title> [op.&#8239;13] 10 <hi rend="italic">Friedrichsd&#x2019;or</hi>
+                  </item>
+                  <item>3 <title ref="#bartlitz-work005">Trios Concertants pour </title>3 <title ref="#bartlitz-work005">Flûtes</title> [op.&#8239;14] 8 <hi rend="italic">Friedrichsd&#x2019;or</hi>
+                  </item>
+                  <item>4<hi rend="sup italic">me</hi>
+                     <title ref="#bartlitz-work010">Serenade pour Flûte</title>, <title ref="#bartlitz-work010">Alto</title> &amp; <title ref="#bartlitz-work010">Guitarre</title> [op.&#8239;11] 3 <hi rend="italic">Friedrichsd&#x2019;or</hi>
+                  </item>
+               </list>
+               
+               <p>Die Werke sind, wie schon oben gesagt mir so gut gelungen, das ich glaube nicht billiger seyn zu können, und ich weiß aus Erfahrung das meine Sachen sehr gut in der Handlung abgehen, den wer Flöte bläst, kauft doch allemahl von meinen Werken.</p>
+               <p>Sobald ich wegen Ihrem Herrn Bruder näher Nachrichten eingehohlt habe, benachrichtige ich Sie, und in der Hoffnung einer baldigen Gütigen Nachricht</p>
+                  <p rend="right">verharre ich mit Achtung
+                  <lb/>ergebenst
+                  <lb/><hi rend="italic"><name ref="#bartlitz-pers001">A.&#8239;B. Fürstenau</name></hi></p>
+            </body>
+         </floatingText>
+         
+         <p>Die Verzögerung bei der Beantwortung dieses Briefes dürfte ihren Grund in den recht hohen finanziellen Forderungen des Autors gehabt haben. Sein nächstes Schreiben<note xml:id="bartlitz-ftn25" n="25"><hi rend="italic">D-B</hi>, Musikabteilung: Schott-Archiv&#x00A0;50639. Verlagsvermerk: Brief- und Beantwortungsdatum am linken Rand der Adressenseite vom 26.&#8239;Januar bzw. 18.&#8239;April&#x00A0;1822. </note>  zeigt, dass <name ref="#bartlitz-pers001">Fürstenau</name> dies bewusst geworden war. Entsprechend der Reaktion des Verlegers  zeigte  er sich nun zu Zugeständnissen bereit:</p>
+         
+         <floatingText xml:id="bartlitz-float04">
+            <body>
+               <p rend="right"><hi rend="italic">Dresden</hi> den 26<hi rend="sup">tn</hi> <hi rend="italic">Januar</hi>&#x00A0;1822.</p>
+               <p rend="noIndent">Verehrungswürdiger Freund und Bruder!</p>
+               <p rend="noIndent">Schon längst würde ich auf Ihre werthe Zuschrift geantwortet haben, wenn mir nicht eine Reise davon abgehalten hätte. Sehr würde mich es freuen auch mit Ihnen, in Unterhandlungen zu treten, und will mich gerne auf eine ablassung meiner Forderungen daher einlassen. 
+                  Sagen Sie mir nur was Sie wohl in Verlag nehmen möchten, und bestimmen mir was Sie für ein <hi rend="italic">Honorar</hi> geben wollen, und Sie werden sehen das ich billig seyn werde. Nur war es mir Empfindlich das Sie meine Werke erst durchsehen wollten. Von Manuscripten habe ich meheres fertig, als Trios für 3 <hi rend="italic">Flöten, Serenaden</hi> für <hi rend="italic">Flöte, Alto</hi> &amp; Guitarre, auch für <hi rend="italic">Flöte, Alto, Fagott und Guitarre</hi>, so wie <hi rend="italic">Concerte</hi> für eine, und auch 2 Flöten. <hi rend="italic">Variationen</hi> für <hi rend="italic">Flöte</hi> &amp; <hi rend="italic">Guitarre</hi> und für <hi rend="italic">Flöte</hi> u <hi rend="italic">Pianoforte p p</hi>. </p>
+               <p>Haben Sie also die Güte mir recht bald Ihren Entschluß mitzutheilen, damit ich Ihnen alsdann die Manuscripte mittheilen kann, weil ich sonst vielleicht dieselben an andere Verleger verschicken möchte.</p>
+               <p>Mit besonderer Hochachtung</p>
+               <p rend="right">Ergebenst
+                  <lb/><hi rend="italic"><name ref="#bartlitz-pers001">A.&#8239;B. Fürstenau</name></hi>.</p>
+            </body>
+         </floatingText>
+         
+         <p>Der folgende und letzte Brief<note xml:id="bartlitz-ftn26" n="26"><hi rend="italic">D-B</hi>, Musikabteilung: Schott-Archiv&#x00A0;50640. Verlagsvermerk: nur Briefdatum am linken Rand der Adressenseite vom 9.&#8239;Juni&#x00A0;1825</note>  wurde offensichtlich vom Verlag nicht mehr beantwortet, da ein entsprechender Vermerk fehlt, zudem erschien die darin erwähnte Komposition noch im selben Jahr bei Breitkopf &amp; Härtel in Leipzig.<note xml:id="bartlitz-ftn27" n="27">Vgl. <ref type="bibl" target="#schneeberger1992">Teil&#x00A0;2, S.&#8239;543</ref>.</note>
+         </p>
+         
+         <floatingText xml:id="bartlitz-letter05">
+            <body>
+               <p rend="noIndent">Herrn <hi rend="italic">B. Schott</hi>  Söhne
+                  | Musik-Verlag
+                  | in
+                  | <lb/><hi rend="italic"><hi rend="underline">Mainz</hi></hi>
+                  | <hi rend="italic"><hi rend="underline">franco Fran[k]furt</hi></hi> a/m
+                  <lb/> [Postst.: DRESDEN / 9.&#8239;Jun. 25.]</p>
+               <p rend="right"><hi rend="italic">Dresden</hi>  den 9<hi rend="sup">tn</hi> <hi rend="italic">Juny</hi>  1825.</p>
+               <p rend="noIndent">Herrn <hi rend="italic">B. Schott</hi>  Söhne, Wohlgeboren in <hi rend="italic">Mainz</hi>.</p>
+               <p rend="noIndent">Schon vor einigen Jahren war es mein Wunsch, das Sie in Ihrem so ausgebreiteten Verlag auch eines meiner Werke verlegen möchten, und Sie schienen nicht abgeneigt zu seyn, da es sich aber damahls nicht machte, bin ich so frey, Sie jetzt mein neuestes Werk zu offerieren, in der voraussetzung das Sie seidther in erfahrung gebracht, das meine Werke den Flötenspielern nicht unwillkommen sind. Diese oben genannte Composition ist <q><title ref="#bartlitz-work012">3 große <hi rend="italic">Solos</hi>  für die Flöte, mit Begleitung des <hi rend="italic">Pianoforte</hi> 
+                  <hi rend="italic">Oeuv</hi>. 37.</title></q> – Da diese Gattung Musik für die Flöte wenig existiert, so könnten diese <hi rend="italic">Solos</hi>  sehr willkommen se[yn.]</p>
+               <p>	Ist Ihnen dieses Anerbieten nicht unangenehm, so erfreuen Sie mich recht bald mit einigen Zeilen, damit ich Ihnen das <hi rend="italic">Manuscript</hi>  nebst meinen Bedingungen, womit Sie gewiß zufrieden seyn werden, mittheilen kann, und ich nicht etwa anderwärts darüber verfüge. –</p>
+               <p rend="right">Mit besonderer Hochachtung und
+                  <lb/>Ergebenheit
+                  <lb/><hi rend="italic"><name ref="#bartlitz-pers001">A.&#8239;B. Fürstenau</name></hi>.</p>
+            </body>
+         </floatingText>
+         
+         <p>Für sein Instrument war der Flötenvirtuose  seinerzeit auch ein erfolgreicher Komponist; <name ref="#bartlitz-pers032">Schneeberger</name> weist 144 gedruckte Werke nach. Vor allem haben  seine  Unterrichtswerke<note xml:id="bartlitz-ftn28" n="28">Op.&#8239;42 <title>Flöten-Schule</title>, Leipzig: Breitkopf &amp; Härtel (PN 4373–4375), [nach O.&#8239;E. Deutsch, Musikverlags Nummern, Berlin&#x00A0;1961, S.&#8239;9: 1826] und op.&#8239;138 <title>Die Kunst des Flötenspiels in theoretisch-practischer Beziehung</title> im selben Verlag 1843 erschienen.</note> Generationen von Flötisten nach ihm große Dienste erwiesen. Die Palette der Verlage, bei denen er publiziert hat, ist groß, allerdings erschien  die überwiegende Zahl seiner Kompositionen in Leipziger Häusern. Die anfänglich freundschaftlich anmutenden Beziehungen zum Schott-Verlag kühlten sich im Laufe der Zeit ab und versiegten schließlich ganz.</p>
+         <!--<p>Das Komponieren, Publizieren und Konzertieren auch außerhalb Dresdens setzte <name ref="#bartlitz-pers001">Fürstenau</name>  fort. Wie der obige Brief vom 18.&#8239;Januar&#x00A0;1821 ausweist, war <name ref="#bartlitz-pers001">Fürstenau</name> in Dresden glücklich.</p>-->
+         <p>Noch in der Oldenburger Zeit hatte  am 3.&#8239;Oktober&#x00A0;1819 die erste Eheschließung mit <name ref="#bartlitz-pers033">Justine Friederike Juliane Gent</name> (1799–1819) stattgefunden, allerdings starb die junge Gattin nur einen Monat später  20-jährig. Die zweite Ehe schloss <name ref="#bartlitz-pers001">Fürstenau</name>  am 15.&#x00A0;Oktober&#x00A0;1821 in Dresden mit <name ref="#bartlitz-pers034">Antonia Schmidt</name> (1803–1867). Aus dieser Ehe gingen sieben  Kinder hervor, u.&#8239;a. der Flötist und Schriftsteller <name ref="#bartlitz-pers035">Moritz Fürstenau</name> (1824–1889), der 1842 als Aspirant in die Königliche Kapelle übernommen wurde und 1864 zum Ersten Flötisten aufstieg.</p>
+         <p>Die künstlerische Zusammenarbeit mit dem von <name ref="#bartlitz-pers001">Fürstenau</name> sehr verehrten  <name ref="#bartlitz-pers005">Carl Maria von Weber</name> war zweifellos ein  Höhepunkt seines über 30-jährigen Wirkens in der Dresdner Hofkapelle. Die beiden Familien von Weber und Fürstenau verkehrten freundschaftlich miteinander. Für die Konzertreise <name ref="#bartlitz-pers005">Webers</name> 1820 nach Norddeutschland und Kopenhagen ebnete <name ref="#bartlitz-pers001">Fürstenau</name> ihm den Weg mit Empfehlungsbriefen u.&#8239;a. nach Oldenburg und Eutin sowie  Ratschlägen. <name ref="#bartlitz-pers005">Weber</name> dankte ihm ausdrücklich dafür in einem langen Schreiben aus Bremen vom 4.&#8239;September&#x00A0;1820, in dem er ihn als <q>mein lieber Freund</q> anredete.</p>
+         <p>Im Sommer 1824 nahm <name ref="#bartlitz-pers005">Weber</name> den Flötisten mit zu den von ihm musikalisch geleiteteten <name ref="#bartlitz-pers036">Klopstock</name>-Festlichkeiten in Quedlinburg, weil er ihn als Künstler außerordentlich schätzte. 1826 war <name ref="#bartlitz-pers001">Fürstenau</name> Reisebegleiter <name ref="#bartlitz-pers005">Webers</name> nach London und Beistand in dessen letzten Lebenstagen. Der Komponist sprach sich in seinen Reise-Briefen an seine Frau <name ref="#bartlitz-pers008">Caroline</name> wiederholt lobend über die Fürsorge des Freundes aus. Nach  <name ref="#bartlitz-pers005">Webers</name> Tod verlängerte er  seinen Aufenthalt in London zur  Regelung der Nachlass-Angelegenheiten bis Ende August. Er nutzte die Zeit auch für eigene Kompositionen. 
+            In einigen griff er <title ref="#bartlitz-work033">Oberon</title>-Themen auf,<note xml:id="bartlitz-ftn29" n="29">Zwei Jahre zuvor hatte er als op.&#8239;30 <title>Variationen für Flöte und Orchester (Klavier) über ein Preciosa-Thema</title> bei Probst in Leipzig veröffentlicht. Schließlich gibt es unter Nr.&#8239;3 der Werke ohne Opuszahl noch den Hinweis auf eine in der Sächsischen Landesbibliothek und Universitätsbibliothek Dresden liegende Handschrift mit einer Komposition <name ref="#bartlitz-pers001">Fürstenaus</name> aus der Mitte der vierziger Jahre mit dem Titel: <q><title ref="#bartlitz-work016">Reminiscences d&#x2019;Euryanthe. Fantaisie</title></q>, es ist eine Fantasie Es-Dur für Flöte, Klarinette, Englisch Horn, Fagott und Orchester (Klavier), die am 20.&#8239;März&#x00A0;1846 in Dresden aufgeführt worden ist, aber ungedruckt blieb;  vgl. <ref target="#schneeberger1992" type="bibl">Teil&#x00A0;2, S.&#8239;662</ref>.</note>  
+            so in op.&#8239;45: <hi rend="italic">Grandes Variations Brillantes sur un thème de l&#x2019;Opéra Oberon für Flöte</hi>, gewidmet <name ref="#bartlitz-pers038">Henri Goeschen</name>.<note xml:id="bartlitz-ftn30" n="30"><name ref="#bartlitz-pers038">Wilhelm Heinrich Göschen</name> (1793–1866), Bankier in London, war der vierte Sohn des Buchhändlers <name ref="#bartlitz-pers039">Georg Joachim Göschen</name> (1752&#x2013;1828) in Grimma. <name ref="#bartlitz-pers038">Göschen</name> gehörte zum Londoner Bekanntenkreis <name ref="#bartlitz-pers005">Webers</name> und <name ref="#bartlitz-pers001">Fürstenaus</name>. Das Werk erschien noch 1826 bei <name>Schlesinger</name> in Berlin (PN: 1393).</note> 
+            Es folgten sechs weitere <hi rend="italic">Fantasien</hi> für <hi rend="italic">Flöte</hi> und <hi rend="italic">Klavier</hi> (op.&#8239;46 bis 51), wovon die erste noch in London bei Mori/Lavenu erschien und <name ref="#bartlitz-pers013">Sir George Smart</name><note xml:id="bartlitz-ftn31" n="31"><name ref="#bartlitz-pers013">Sir George Smart</name> (1776–1867), Gastgeber <name ref="#bartlitz-pers005">Webers</name> in London 1826. Vgl. zu op.&#8239;46 auch <ref type="bibl" target="#schneeberger1992">Teil&#x00A0;2, S.&#8239;551</ref>.</note>  gewidmet ist. 
+            In einem Brief an <name>Hofmeister</name> nach <name ref="#bartlitz-pers001">Fürstenaus</name> Rückkehr nach Dresden vom 14.&#8239;September 1826<ref target="#schneeberger1992" type="bibl">Teil&#x00A0;1, S.&#8239;309&#8239;f.</ref><!--<note xml:id="bartlitz-ftn32" n="32">Schneeberger (wie Anm.&#x00A0;20), Teil&#x00A0;1, S.&#8239;309f.</note>-->  bot er dem Verlag die erwähnten Fantasien op.&#8239;47 und 48 zum Druck an, wobei ersterer abermals  ein <hi rend="italic"><title ref="#bartlitz-work033">Oberon</title></hi>-Thema zugrunde liegt. <name>Hofmeister</name> übernahm den Druck beider, sie erschienen noch im selben Jahr. Die vierte  der Fantasien (op.&#8239;49) kam 1826 bei <name>Schlesinger</name> heraus, die fünfte  und sechste  (letztere wiederum  über ein <hi rend="italic"><title ref="#bartlitz-work033">Oberon</title></hi>-Thema) kurz darauf bei <name>Spehr</name> in Braunschweig. Die erhoffte Zusammenarbeit mit <name>Schott</name>, die sich in den hier vorgestellten Briefen widerspiegelt, kam hingegen nicht zustande; dort erschien kein einziges Werk des Virtuosen.</p>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="schott1818"><title level="a">Verzeichnis der Verlags-Werke der Grosherzoglich Hessischen Hofmusikhandlung von B. Schott Söhne in Mainz Catalogue du fonds de Musique de B. Schott fils Editeurs des Musique de la Cour de S.&#8239;A.&#8239;R. le Grand Duc de Hesse à Mayence</title>. Mai&#x00A0;1818, VIII, 79&#x00A0;S.<bibl type="short"><title level="a">Schott Verlags-Verzeichnis von 1818</title></bibl></bibl>
+               <bibl xml:id="mozart1994">Franz Xaver Wolfgang Mozart, […] <title level="a">Reisetagebuch 1819–1821</title>, hg. und kommentiert von Rudolph Angermüller, Bad Honnef 1994<bibl type="short">Mozart, <title level="a">Reisetagebuch</title></bibl></bibl>
+               <bibl xml:id="landmann2007">Ortrun Landmann, <title level="a">Der Kgl. Sächsische Kapellmeister Carl Maria von Weber und die Kgl. Sächsische Musikalische Kapelle – ein beiderseitiges Geben und Nehmen</title>, in: <title level="j">Weber-Studien</title> Bd.&#8239;8 (2007)</bibl>
+               <bibl xml:id="schreiber2003">Andreas Schreiber, <title level="a">Von der Churfürstlichen Cantorey zur sächsischen Staatskapelle Dresden. Ein biografisches Mitgliederverzeichnis 1548–2003</title>, Dresden 2003</bibl>
+               <bibl xml:id="schneeberger1992">Bernhard Maria Heinrich Schneeberger, <title level="a">Die Musikerfamilie Fürstenau. Untersuchungen zu Leben und Werk</title>, Münster und Hamburg&#x00A0;1992 (Musikwissenschaft&#x00A0;3)<bibl type="short">Schneeberger, <title level="a">Die Musikerfamilie Fürstenau</title></bibl></bibl>
+               <bibl xml:id="Schneider-Kat153"><title level="m">200 Jahre B. Schott&#x2019;s Söhne</title>. Musikantiquariat Hans Schneider, Tutzing, Katalog Nr.&#8239;153 [1970]<bibl type="short">Schneider-Katalog Nr.&#8239;153</bibl></bibl>
+               <bibl xml:id="MusikalienMeysel1817"><title level="m">Handbuch der musikalischen Literatur oder allgemeines systematisch geordnetes Verzeichniss der bis zum Ende des Jahres 1815 gedruckten Musikalien …</title>, Leipzig: Meysel, 1817<bibl type="short"><title level="m">Handbuch der musikalischen Literatur 1817</title></bibl></bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
