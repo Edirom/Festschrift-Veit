@@ -105,7 +105,7 @@
     <target name="pdf" depends="copyIndex">
         <description>Create the final PDF with all indices</description>
         <antcall target="latex">
-            <param name="latex.output" value="print"/>
+            <!--<param name="latex.output" value="print"/>-->
         </antcall>
         <antcall target="latex"/>
         <antcall target="latex"/>
