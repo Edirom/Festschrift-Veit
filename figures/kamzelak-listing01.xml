@@ -1,0 +1,24 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:gnd="http://d-nb.info/standards/elementset/gnd#" xmlns:rda="http://rdvocab.info" xmlns:rel="http://purl.org/vocab/relationship/" xmlns:shv="http://ns.aksw.org/spatialHierarchy/" xmlns:acal="http://cal.aksw.org/" xmlns:ndb="http://data.deutsche-biographie.de/" xmlns:ndbvoc="http://data.deutsche-biographie.de/vocabulary/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdaGr2="http://RDVocab.info/ElementsGr2/" xml:base="http://data.deutsche-biographie.de/">
+   <rdf:Description rdf:about="http://data.deutsche-biographie.de/Person/sfz40697">
+      <rdf:type rdf:resource="http://data.deutsche-biographie.de/vocabulary/Person"/>
+      <rdfs:seeAlso rdf:resource="http://d-nb.info/gnd/118561685"/>
+      <rdfs:seeAlso rdf:resource="http://linkedhistory.aksw.org/pnd/118561685"/>
+      <rdfs:seeAlso rdf:resource="http://beacon.findbuch.de/seealso/
+         pnd-aks?format=sources&amp;id=118561685"/>
+      <rdaGr2:identifierForThePerson>sfz40697</rdaGr2:identifierForThePerson>
+      <ndbvoc:page>http://www.deutsche-biographie.de/sfz40697.html</ndbvoc:page>
+      <rdaGr2:gender>Male</rdaGr2:gender>
+      <gnd:gender rdf:resource="http://d-nb.info/standards/vocab/gnd/Gender#male"/>
+      <ndbvoc:gender rdf:resource="http://data.deutsche-biographie.de/vocabulary/Male"/>
+      <gnd:preferredNameForThePerson>Kessler, Harry Graf von</gnd:preferredNameForThePerson>
+      <rdfs:label>Kessler, Harry Graf von</rdfs:label>
+      <rdaGr2:periodOfActivityOfThePerson>1868 bis 1937</rdaGr2:periodOfActivityOfThePerson>
+      <gnd:periodOfActivityOfThePerson>1868 bis 1937</gnd:periodOfActivityOfThePerson>
+      <rdaGr2:professionOrOccupation>Schriftsteller; Diplomat</rdaGr2:professionOrOccupation>
+      <gnd:professionOrOccupation>Schriftsteller; Diplomat</gnd:professionOrOccupation>
+      evangelisch 1868 186818681868;1868*1868-05-23Paris 1937 193719371937;1937*1937-11-30Lyon
+      <!-- pg -->
+      <rel:childOf rdf:resource="http://data.deutsche-biographie.de/Person/sfz40686"/>
+      <!-- l -->
+   </rdf:Description>
+</rdf:RDF>
