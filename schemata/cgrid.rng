@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2015-12-16T08:52:15Z. .
+Schema generated from ODD source 2016-01-31T11:14:23Z. .
 TEI Edition: Originally generated on 2014-01-30T13:29:15Z using oddbyexample.xsl.
           Progressively modified after that. 
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
@@ -70,15 +70,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <value>unknown</value>
       </choice>
    </define>
-   <define name="cgrid_data.numeric">
-      <choice>
-         <data type="double"/>
-         <data type="token">
-            <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-         </data>
-         <data type="decimal"/>
-      </choice>
-   </define>
    <define name="cgrid_data.count">
       <data type="nonNegativeInteger"/>
    </define>
@@ -110,11 +101,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    </define>
    <define name="cgrid_data.pointer">
       <data type="anyURI"/>
-   </define>
-   <define name="cgrid_data.versionNumber">
-      <data type="token">
-         <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
-      </data>
    </define>
    <define name="cgrid_data.word">
       <data type="token">
@@ -399,9 +385,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
  unless also categorized in general with @type</sch:assert>
       </sch:rule>
    </pattern>
-   <define name="cgrid_att.pointing.attributes">
-      <ref name="cgrid_att.pointing.attribute.target"/>
-   </define>
    <define name="cgrid_att.pointing.attribute.target">
       <optional>
          <attribute name="target">
@@ -529,35 +512,23 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       <choice>
          <ref name="cgrid_foreign"/>
          <ref name="cgrid_emph"/>
-         <ref name="cgrid_mentioned"/>
          <ref name="cgrid_soCalled"/>
-         <ref name="cgrid_term"/>
          <ref name="cgrid_title"/>
-         <ref name="cgrid_code"/>
-         <ref name="cgrid_ident"/>
       </choice>
    </define>
    <define name="cgrid_model.emphLike_alternation">
       <choice>
          <ref name="cgrid_foreign"/>
          <ref name="cgrid_emph"/>
-         <ref name="cgrid_mentioned"/>
          <ref name="cgrid_soCalled"/>
-         <ref name="cgrid_term"/>
          <ref name="cgrid_title"/>
-         <ref name="cgrid_code"/>
-         <ref name="cgrid_ident"/>
       </choice>
    </define>
    <define name="cgrid_model.emphLike_sequence">
       <ref name="cgrid_foreign"/>
       <ref name="cgrid_emph"/>
-      <ref name="cgrid_mentioned"/>
       <ref name="cgrid_soCalled"/>
-      <ref name="cgrid_term"/>
       <ref name="cgrid_title"/>
-      <ref name="cgrid_code"/>
-      <ref name="cgrid_ident"/>
    </define>
    <define name="cgrid_model.emphLike_sequenceOptional">
       <optional>
@@ -567,22 +538,10 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_emph"/>
       </optional>
       <optional>
-         <ref name="cgrid_mentioned"/>
-      </optional>
-      <optional>
          <ref name="cgrid_soCalled"/>
       </optional>
       <optional>
-         <ref name="cgrid_term"/>
-      </optional>
-      <optional>
          <ref name="cgrid_title"/>
-      </optional>
-      <optional>
-         <ref name="cgrid_code"/>
-      </optional>
-      <optional>
-         <ref name="cgrid_ident"/>
       </optional>
    </define>
    <define name="cgrid_model.emphLike_sequenceOptionalRepeatable">
@@ -593,22 +552,10 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_emph"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="cgrid_mentioned"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="cgrid_soCalled"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="cgrid_term"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="cgrid_title"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="cgrid_code"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="cgrid_ident"/>
       </zeroOrMore>
    </define>
    <define name="cgrid_model.emphLike_sequenceRepeatable">
@@ -619,22 +566,10 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_emph"/>
       </oneOrMore>
       <oneOrMore>
-         <ref name="cgrid_mentioned"/>
-      </oneOrMore>
-      <oneOrMore>
          <ref name="cgrid_soCalled"/>
       </oneOrMore>
       <oneOrMore>
-         <ref name="cgrid_term"/>
-      </oneOrMore>
-      <oneOrMore>
          <ref name="cgrid_title"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="cgrid_code"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="cgrid_ident"/>
       </oneOrMore>
    </define>
    <define name="cgrid_model.highlighted">
@@ -644,97 +579,65 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       </choice>
    </define>
    <define name="cgrid_model.dateLike">
-      <choice>
-         <ref name="cgrid_date"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.dateLike_alternation">
-      <choice>
-         <ref name="cgrid_date"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.dateLike_sequence">
-      <ref name="cgrid_date"/>
+      <empty/>
    </define>
    <define name="cgrid_model.dateLike_sequenceOptional">
-      <optional>
-         <ref name="cgrid_date"/>
-      </optional>
+      <empty/>
    </define>
    <define name="cgrid_model.dateLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="cgrid_date"/>
-      </zeroOrMore>
+      <empty/>
    </define>
    <define name="cgrid_model.dateLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="cgrid_date"/>
-      </oneOrMore>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.measureLike">
-      <choice>
-         <ref name="cgrid_num"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.measureLike_alternation">
-      <choice>
-         <ref name="cgrid_num"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.measureLike_sequence">
-      <ref name="cgrid_num"/>
+      <empty/>
    </define>
    <define name="cgrid_model.measureLike_sequenceOptional">
-      <optional>
-         <ref name="cgrid_num"/>
-      </optional>
+      <empty/>
    </define>
    <define name="cgrid_model.measureLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="cgrid_num"/>
-      </zeroOrMore>
+      <empty/>
    </define>
    <define name="cgrid_model.measureLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="cgrid_num"/>
-      </oneOrMore>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.egLike">
       <choice>
-         <ref name="cgrid_eg"/>
          <ref name="cgrid_egXML"/>
       </choice>
    </define>
    <define name="cgrid_model.egLike_alternation">
       <choice>
-         <ref name="cgrid_eg"/>
          <ref name="cgrid_egXML"/>
       </choice>
    </define>
    <define name="cgrid_model.egLike_sequence">
-      <ref name="cgrid_eg"/>
       <ref name="cgrid_egXML"/>
    </define>
    <define name="cgrid_model.egLike_sequenceOptional">
-      <optional>
-         <ref name="cgrid_eg"/>
-      </optional>
       <optional>
          <ref name="cgrid_egXML"/>
       </optional>
    </define>
    <define name="cgrid_model.egLike_sequenceOptionalRepeatable">
       <zeroOrMore>
-         <ref name="cgrid_eg"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="cgrid_egXML"/>
       </zeroOrMore>
    </define>
    <define name="cgrid_model.egLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="cgrid_eg"/>
-      </oneOrMore>
       <oneOrMore>
          <ref name="cgrid_egXML"/>
       </oneOrMore>
@@ -852,7 +755,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_att"/>
          <ref name="cgrid_gi"/>
          <ref name="cgrid_tag"/>
-         <ref name="cgrid_val"/>
       </choice>
    </define>
    <define name="cgrid_model.specDescLike">
@@ -928,40 +830,28 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    </define>
    <define name="cgrid_model.labelLike">
       <choice>
-         <ref name="cgrid_desc"/>
          <ref name="cgrid_label"/>
       </choice>
    </define>
    <define name="cgrid_model.labelLike_alternation">
       <choice>
-         <ref name="cgrid_desc"/>
          <ref name="cgrid_label"/>
       </choice>
    </define>
    <define name="cgrid_model.labelLike_sequence">
-      <ref name="cgrid_desc"/>
       <ref name="cgrid_label"/>
    </define>
    <define name="cgrid_model.labelLike_sequenceOptional">
-      <optional>
-         <ref name="cgrid_desc"/>
-      </optional>
       <optional>
          <ref name="cgrid_label"/>
       </optional>
    </define>
    <define name="cgrid_model.labelLike_sequenceOptionalRepeatable">
       <zeroOrMore>
-         <ref name="cgrid_desc"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="cgrid_label"/>
       </zeroOrMore>
    </define>
    <define name="cgrid_model.labelLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="cgrid_desc"/>
-      </oneOrMore>
       <oneOrMore>
          <ref name="cgrid_label"/>
       </oneOrMore>
@@ -969,31 +859,31 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    <define name="cgrid_model.listLike">
       <choice>
          <ref name="cgrid_list"/>
-         <ref name="cgrid_listPerson"/>
          <ref name="cgrid_table"/>
+         <ref name="cgrid_listPerson"/>
       </choice>
    </define>
    <define name="cgrid_model.listLike_alternation">
       <choice>
          <ref name="cgrid_list"/>
-         <ref name="cgrid_listPerson"/>
          <ref name="cgrid_table"/>
+         <ref name="cgrid_listPerson"/>
       </choice>
    </define>
    <define name="cgrid_model.listLike_sequence">
       <ref name="cgrid_list"/>
-      <ref name="cgrid_listPerson"/>
       <ref name="cgrid_table"/>
+      <ref name="cgrid_listPerson"/>
    </define>
    <define name="cgrid_model.listLike_sequenceOptional">
       <optional>
          <ref name="cgrid_list"/>
       </optional>
       <optional>
-         <ref name="cgrid_listPerson"/>
+         <ref name="cgrid_table"/>
       </optional>
       <optional>
-         <ref name="cgrid_table"/>
+         <ref name="cgrid_listPerson"/>
       </optional>
    </define>
    <define name="cgrid_model.listLike_sequenceOptionalRepeatable">
@@ -1001,10 +891,10 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_list"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="cgrid_listPerson"/>
+         <ref name="cgrid_table"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="cgrid_table"/>
+         <ref name="cgrid_listPerson"/>
       </zeroOrMore>
    </define>
    <define name="cgrid_model.listLike_sequenceRepeatable">
@@ -1012,10 +902,10 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_list"/>
       </oneOrMore>
       <oneOrMore>
-         <ref name="cgrid_listPerson"/>
+         <ref name="cgrid_table"/>
       </oneOrMore>
       <oneOrMore>
-         <ref name="cgrid_table"/>
+         <ref name="cgrid_listPerson"/>
       </oneOrMore>
    </define>
    <define name="cgrid_model.noteLike">
@@ -1108,9 +998,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       </oneOrMore>
    </define>
    <define name="cgrid_model.global.edit">
-      <choice>
-         <ref name="cgrid_gap"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.divPart">
       <choice>
@@ -1138,7 +1026,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_model.biblLike"/>
          <ref name="cgrid_model.persStateLike"/>
          <ref name="cgrid_model.persEventLike"/>
-         <ref name="cgrid_idno"/>
       </choice>
    </define>
    <define name="cgrid_model.placeNamePart">
@@ -1187,13 +1074,8 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_model.placeNamePart_sequenceRepeatable"/>
       </oneOrMore>
    </define>
-   <define name="cgrid_model.certLike">
-      <notAllowed/>
-   </define>
    <define name="cgrid_model.descLike">
-      <choice>
-         <ref name="cgrid_desc"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="cgrid_model.quoteLike">
       <choice>
@@ -1327,8 +1209,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    <define name="cgrid_model.imprintPart">
       <choice>
          <ref name="cgrid_publisher"/>
-         <ref name="cgrid_biblScope"/>
-         <ref name="cgrid_pubPlace"/>
       </choice>
    </define>
    <define name="cgrid_model.addressLike">
@@ -1376,7 +1256,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_model.nameLike.agent"/>
          <ref name="cgrid_model.offsetLike"/>
          <ref name="cgrid_model.placeStateLike"/>
-         <ref name="cgrid_idno"/>
          <ref name="cgrid_model.persNamePart"/>
       </choice>
    </define>
@@ -1385,7 +1264,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_model.nameLike.agent_alternation"/>
          <ref name="cgrid_model.offsetLike_alternation"/>
          <ref name="cgrid_model.placeStateLike_alternation"/>
-         <ref name="cgrid_idno"/>
          <ref name="cgrid_model.persNamePart_alternation"/>
       </choice>
    </define>
@@ -1393,7 +1271,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       <ref name="cgrid_model.nameLike.agent_sequence"/>
       <ref name="cgrid_model.offsetLike_sequence"/>
       <ref name="cgrid_model.placeStateLike_sequence"/>
-      <ref name="cgrid_idno"/>
       <ref name="cgrid_model.persNamePart_sequence"/>
    </define>
    <define name="cgrid_model.nameLike_sequenceOptional">
@@ -1405,9 +1282,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       </optional>
       <optional>
          <ref name="cgrid_model.placeStateLike_sequenceOptional"/>
-      </optional>
-      <optional>
-         <ref name="cgrid_idno"/>
       </optional>
       <optional>
          <ref name="cgrid_model.persNamePart_sequenceOptional"/>
@@ -1424,9 +1298,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <ref name="cgrid_model.placeStateLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="cgrid_idno"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="cgrid_model.persNamePart_sequenceOptionalRepeatable"/>
       </zeroOrMore>
    </define>
@@ -1439,9 +1310,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       </oneOrMore>
       <oneOrMore>
          <ref name="cgrid_model.placeStateLike_sequenceRepeatable"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="cgrid_idno"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="cgrid_model.persNamePart_sequenceRepeatable"/>
@@ -1460,7 +1328,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       <choice>
          <ref name="cgrid_model.respLike"/>
          <ref name="cgrid_model.imprintPart"/>
-         <ref name="cgrid_series"/>
          <ref name="cgrid_bibl"/>
          <ref name="cgrid_edition"/>
          <ref name="cgrid_availability"/>
@@ -1532,11 +1399,6 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    <define name="cgrid_model.div1Like">
       <notAllowed/>
    </define>
-   <define name="cgrid_model.applicationLike">
-      <choice>
-         <ref name="cgrid_application"/>
-      </choice>
-   </define>
    <define name="cgrid_model.teiHeaderPart">
       <choice>
          <ref name="cgrid_encodingDesc"/>
@@ -1548,16 +1410,13 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
    </define>
    <define name="cgrid_model.encodingDescPart">
       <choice>
-         <ref name="cgrid_projectDesc"/>
          <ref name="cgrid_tagsDecl"/>
-         <ref name="cgrid_appInfo"/>
       </choice>
    </define>
    <define name="cgrid_model.profileDescPart">
       <choice>
-         <ref name="cgrid_langUsage"/>
-         <ref name="cgrid_textClass"/>
          <ref name="cgrid_particDesc"/>
+         <ref name="cgrid_langUsage"/>
       </choice>
    </define>
    <define name="cgrid_att.source.attributes">
@@ -1715,104 +1574,11 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <empty/>
       </element>
    </define>
-   <define name="cgrid_mentioned">
-      <element name="mentioned">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks words or phrases mentioned, not used. [3.3.3. Quotation]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_soCalled">
       <element name="soCalled">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a word or phrase for which the author or narrator indicates a disclaiming of responsibility, for example by the use of scare quotes or italics. [3.3.3. Quotation]</a:documentation>
          <ref name="cgrid_macro.phraseSeq"/>
          <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_desc">
-      <element name="desc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(description) contains a brief description of the object documented by its parent element, including its intended usage, purpose, or application where this is appropriate. [22.4.1. Description of Components]</a:documentation>
-         <ref name="cgrid_macro.limitedContent"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_term">
-      <element name="term">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_gap">
-      <element name="gap">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.4.3. Additions, Deletions, and Omissions]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <ref name="cgrid_model.descLike"/>
-               <ref name="cgrid_model.certLike"/>
-            </choice>
-         </zeroOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-gap-jtei.sch-gap-constraint-4">
-            <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:gap-period">
-                  <sch:report test="following-sibling::node()[1][self::text()] and starts-with(following-sibling::node()[1], '.')">
-                    A <sch:name/> element should follow a period rather than precede it when an ellipsis follows the end of a sentence.
-                  </sch:report>
-                </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-gap-jtei.sch-gap-ws-constraint-5">
-            <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:gap">
-                  <sch:report test="preceding-sibling::node()[1][self::text()][matches(., '\.\s+$')]">
-                    A <sch:name/> should follow a period directly, without preceding whitespace.
-                  </sch:report>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.editLike.attributes"/>
-         <optional>
-            <attribute name="reason">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the reason for omission. Sample values include sampling, inaudible, irrelevant, cancelled.</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <ref name="cgrid_data.word"/>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="hand">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the case of text omitted from the transcription because of deliberate deletion by an identifiable hand, indicates the hand which made the deletion.</a:documentation>
-               <ref name="cgrid_data.pointer"/>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="agent">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
-               <ref name="cgrid_data.enumerated"/>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -1829,7 +1595,11 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <text/>
+               <list>
+                  <oneOrMore>
+                     <ref name="cgrid_data.pointer"/>
+                  </oneOrMore>
+               </list>
             </attribute>
          </optional>
          <empty/>
@@ -1843,62 +1613,12 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_num">
-      <element name="num">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(number) contains a number, written in any form. [3.5.3. Numbers and
-Measures]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value. In jTEI, we particularly use num[@type='ordinal'] for e.g. 21st or 2nd; in rendering, this results in the non-numeric suffix to the number being output as superscript. Note, however, that ordinals for centuries should be spelled out, not written using digits (nineteenth century, not 19th century).
-Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a:documentation>
-               <choice>
-                  <value>cardinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">absolute number, e.g. 21, 21.5</a:documentation>
-                  <value>ordinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ordinal number, e.g. 21st</a:documentation>
-                  <value>fraction</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">fraction, e.g. one half or three-quarters</a:documentation>
-                  <value>percentage</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a percentage</a:documentation>
-                  <data type="Name"/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="value">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies the value of the number in standard form.</a:documentation>
-               <ref name="cgrid_data.numeric"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_date">
-      <element name="date">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution,
-Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="cgrid_model.gLike"/>
-               <ref name="cgrid_model.phrase"/>
-               <ref name="cgrid_model.global"/>
-            </choice>
-         </zeroOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.datable.attributes"/>
-         <ref name="cgrid_att.editLike.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_ptr">
       <element name="ptr">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. [3.6. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ptr-jtei.sch-ptr-multipleTargets-constraint-6">
+                  id="cgrid-ptr-jtei.sch-ptr-multipleTargets-constraint-4">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1914,7 +1634,7 @@ Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Docum
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ptr-ptrAtts-constraint-4">
+                  id="cgrid-ptr-ptrAtts-constraint-2">
             <rule context="tei:ptr">
                <report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1953,7 +1673,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. [3.6. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <ref name="cgrid_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-cgrid.ref-rend-constraint-5">
+                  id="cgrid-ref-cgrid.ref-rend-constraint-3">
             <rule context="tei:ref">
                <sch:report xmlns:xi="http://www.w3.org/2001/XInclude"
                            xmlns:svg="http://www.w3.org/2000/svg"
@@ -1968,7 +1688,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-ref-multipleTargets-constraint-7">
+                  id="cgrid-ref-jtei.sch-ref-multipleTargets-constraint-5">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1984,7 +1704,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-parentheses-constraint-8">
+                  id="cgrid-ref-jtei.sch-biblref-parentheses-constraint-6">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2000,7 +1720,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-target-constraint-9">
+                  id="cgrid-ref-jtei.sch-biblref-target-constraint-7">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2016,7 +1736,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-type-constraint-10">
+                  id="cgrid-ref-jtei.sch-biblref-type-constraint-8">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2032,7 +1752,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-refAtts-constraint-7">
+                  id="cgrid-ref-refAtts-constraint-5">
             <rule context="tei:ref">
                <report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2143,7 +1863,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-list-gloss-list-must-have-labels-constraint-11">
+                  id="cgrid-list-gloss-list-must-have-labels-constraint-9">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2228,7 +1948,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-head-jtei.sch-figure-head-constraint-12">
+                  id="cgrid-head-jtei.sch-figure-head-constraint-10">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2258,7 +1978,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
          <ref name="cgrid_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-note-jtei.sch-note-constraint-13">
+                  id="cgrid-note-jtei.sch-note-constraint-11">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2275,7 +1995,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-note-jtei.sch-note-blocks-constraint-14">
+                  id="cgrid-note-jtei.sch-note-blocks-constraint-12">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2311,7 +2031,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             <ref name="cgrid_model.descLike"/>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-graphic-jtei.sch-graphic-dimensions-constraint-15">
+                  id="cgrid-graphic-jtei.sch-graphic-dimensions-constraint-13">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2327,7 +2047,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-graphic-jtei.sch-graphic-context-constraint-16">
+                  id="cgrid-graphic-jtei.sch-graphic-context-constraint-14">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2357,32 +2077,12 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_series">
-      <element name="series">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(series information) contains information about the series in which a book or other bibliographic item has appeared. [3.11.2.1. Analytic, Monographic, and Series Levels]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="cgrid_model.gLike"/>
-               <ref name="cgrid_title"/>
-               <ref name="cgrid_model.ptrLike"/>
-               <ref name="cgrid_editor"/>
-               <ref name="cgrid_biblScope"/>
-               <ref name="cgrid_idno"/>
-               <ref name="cgrid_model.global"/>
-               <ref name="cgrid_availability"/>
-            </choice>
-         </zeroOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_author">
       <element name="author">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
          <ref name="cgrid_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-author-jtei.sch-author-constraint-17">
+                  id="cgrid-author-jtei.sch-author-constraint-15">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2427,7 +2127,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
          <ref name="cgrid_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-title-cgrid.article-title-constraint-18">
+                  id="cgrid-title-cgrid.article-title-constraint-16">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2476,7 +2176,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <text/>
+               <ref name="cgrid_data.pointer"/>
             </attribute>
          </optional>
          <optional>
@@ -2508,39 +2208,6 @@ Licensing, etc.]</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_biblScope">
-      <element name="biblScope">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(scope of bibliographic reference) defines the scope of a bibliographic reference, for example as a list of page numbers, or a named subdivision of a larger work. [3.11.2.5. Scopes and Ranges in Bibliographic Citations]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="unit">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the unit of information conveyed by the element, e.g. columns, pages, volume.</a:documentation>
-               <choice>
-                  <value>chapter</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>issue</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>page</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>part</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>volume</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_pubPlace">
-      <element name="pubPlace">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publication place) contains the name of the place where a bibliographic item was published. [3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_bibl">
       <element name="bibl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
@@ -2559,7 +2226,7 @@ Licensing, etc.]</a:documentation>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.bibl-title-tags-constraint-19">
+                  id="cgrid-bibl-cgrid.bibl-title-tags-constraint-17">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2576,7 +2243,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.shortTitle-constraint-20">
+                  id="cgrid-bibl-cgrid.shortTitle-constraint-18">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2592,7 +2259,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.ed-by-constraint-21">
+                  id="cgrid-bibl-cgrid.ed-by-constraint-19">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2608,7 +2275,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-jtei.sch-bibl-id-constraint-22">
+                  id="cgrid-bibl-jtei.sch-bibl-id-constraint-20">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2624,7 +2291,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-jtei.sch-bibl-orphan-constraint-23">
+                  id="cgrid-bibl-jtei.sch-bibl-orphan-constraint-21">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2671,6 +2338,172 @@ Licensing, etc.]</a:documentation>
             </zeroOrMore>
          </group>
          <ref name="cgrid_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_particDesc">
+      <element name="particDesc">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <ref name="cgrid_model.pLike"/>
+            </oneOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="cgrid_model.personLike"/>
+                  <ref name="cgrid_listPerson"/>
+               </choice>
+            </oneOrMore>
+         </choice>
+         <ref name="cgrid_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_table">
+      <element name="table">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="cgrid_model.headLike"/>
+                  <ref name="cgrid_model.global"/>
+               </choice>
+            </zeroOrMore>
+            <choice>
+               <oneOrMore>
+                  <ref name="cgrid_row"/>
+                  <zeroOrMore>
+                     <ref name="cgrid_model.global"/>
+                  </zeroOrMore>
+               </oneOrMore>
+               <oneOrMore>
+                  <group>
+                     <ref name="cgrid_model.graphicLike"/>
+                  </group>
+                  <zeroOrMore>
+                     <ref name="cgrid_model.global"/>
+                  </zeroOrMore>
+               </oneOrMore>
+            </choice>
+            <zeroOrMore>
+               <group>
+                  <ref name="cgrid_model.divBottom"/>
+               </group>
+               <zeroOrMore>
+                  <ref name="cgrid_model.global"/>
+               </zeroOrMore>
+            </zeroOrMore>
+         </group>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="cgrid-table-jtei.sch-table-constraint-22">
+            <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:table">
+                  <sch:assert test="not(ancestor::tei:list)">
+                    No tables are are allowed inside lists.
+                  </sch:assert>
+                </sch:rule>
+         </pattern>
+         <ref name="cgrid_att.global.attributes"/>
+         <optional>
+            <attribute name="rows">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the number of rows in the table.</a:documentation>
+               <ref name="cgrid_data.count"/>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="cols">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(columns) indicates the number of columns in each row of the table.</a:documentation>
+               <ref name="cgrid_data.count"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_row">
+      <element name="row">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one row of a table. [14.1.1. TEI Tables]</a:documentation>
+         <oneOrMore>
+            <ref name="cgrid_cell"/>
+         </oneOrMore>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.tableDecoration.attribute.rows"/>
+         <ref name="cgrid_att.tableDecoration.attribute.cols"/>
+         <optional>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <choice>
+                  <value>label</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>midlabel</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_cell">
+      <element name="cell">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one cell of a table. [14.1.1. TEI Tables]</a:documentation>
+         <ref name="cgrid_macro.specialPara"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.tableDecoration.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_figure">
+      <element name="figure">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(figure) groups elements representing or containing graphic information such as a graphic illustration, or a block of example code. Figure must contain either graphic, egXML (for example XML code) or eg (for non-XML code), and a mandatory head element containing the caption for the figure. Inline code examples may be provided through egXML and eg without the figure wrapper. [14.4. Specific Elements for Graphic Images]</a:documentation>
+         <choice>
+            <ref name="cgrid_graphic"/>
+            <ref name="cgrid_egXML"/>
+         </choice>
+         <oneOrMore>
+            <ref name="cgrid_head"/>
+         </oneOrMore>
+         <ref name="cgrid_att.global.attribute.xmlid"/>
+         <ref name="cgrid_att.global.attribute.n"/>
+         <ref name="cgrid_att.global.attribute.xmllang"/>
+         <ref name="cgrid_att.global.attribute.xmlbase"/>
+         <ref name="cgrid_att.global.attribute.xmlspace"/>
+         <ref name="cgrid_att.global.rendition.attribute.rendition"/>
+         <ref name="cgrid_att.global.responsibility.attribute.cert"/>
+         <ref name="cgrid_att.global.responsibility.attribute.resp"/>
+         <optional>
+            <attribute name="rend">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>notenbeispiel</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Markiert die Abbildung als Notenbeispiel</a:documentation>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="place">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Allows for positioning figures</a:documentation>
+               <choice>
+                  <value>bottom</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to go into a bottom area</a:documentation>
+                  <value>here</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to be placed inline</a:documentation>
+                  <value>page</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the the figure is allowed to go on a float page or column area</a:documentation>
+                  <value>top</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to go into a top area; this is the default value</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -2739,43 +2572,6 @@ Licensing, etc. 2.2. The File Description]</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_idno">
-      <element name="idno">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution,
-Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="cgrid_model.gLike"/>
-               <ref name="cgrid_idno"/>
-            </choice>
-         </zeroOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-idno-jtei.sch-doi-order-constraint-24">
-            <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:back/tei:div[@type eq 'bibliography']//tei:idno[@type eq 'doi']">
-                  <sch:report test="following-sibling::tei:ref">
-                    If a bibliographic entry has a formal DOI code, it should be placed at the very end of the bibliographic description.
-                  </sch:report>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the identifier, for example as an ISBN, Social Security number, etc.</a:documentation>
-               <ref name="cgrid_data.enumerated"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_availability">
       <element name="availability">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution,
@@ -2819,16 +2615,6 @@ Licensing, etc.]</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_projectDesc">
-      <element name="projectDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected. [2.3.1. The Project Description 2.3. The Encoding Description 15.3.2. Declarable Elements]</a:documentation>
-         <oneOrMore>
-            <ref name="cgrid_model.pLike"/>
-         </oneOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_tagsDecl">
       <element name="tagsDecl">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tagging declaration) provides detailed information about the tagging applied to a document. [2.3.4. The Tagging Declaration 2.3. The Encoding Description]</a:documentation>
@@ -2852,7 +2638,7 @@ Licensing, etc.]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the rendition or appearance of one or more elements in the source text. [2.3.4. The Tagging Declaration]</a:documentation>
          <ref name="cgrid_macro.limitedContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-rendition-jtei.sch-rendition-constraint-25">
+                  id="cgrid-rendition-jtei.sch-rendition-constraint-23">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2877,48 +2663,6 @@ Licensing, etc.]</a:documentation>
                </choice>
             </attribute>
          </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_appInfo">
-      <element name="appInfo">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(application information) records information about an application which has edited the TEI file. [2.3.10. The Application Information Element]</a:documentation>
-         <oneOrMore>
-            <ref name="cgrid_model.applicationLike"/>
-         </oneOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_application">
-      <element name="application">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an application which has acted upon the document. [2.3.10. The Application Information Element]</a:documentation>
-         <group>
-            <oneOrMore>
-               <ref name="cgrid_model.labelLike"/>
-            </oneOrMore>
-            <choice>
-               <zeroOrMore>
-                  <ref name="cgrid_model.ptrLike"/>
-               </zeroOrMore>
-               <zeroOrMore>
-                  <ref name="cgrid_model.pLike"/>
-               </zeroOrMore>
-            </choice>
-         </group>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.datable.w3c.attribute.when"/>
-         <ref name="cgrid_att.datable.w3c.attribute.notBefore"/>
-         <ref name="cgrid_att.datable.w3c.attribute.from"/>
-         <ref name="cgrid_att.datable.w3c.attribute.to"/>
-         <attribute name="ident">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies an identifier for the application, independent of its version number or display name.</a:documentation>
-            <ref name="cgrid_data.name"/>
-         </attribute>
-         <attribute name="version">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the application, independent of its identifier or display name.</a:documentation>
-            <ref name="cgrid_data.versionNumber"/>
-         </attribute>
          <empty/>
       </element>
    </define>
@@ -2949,7 +2693,7 @@ Licensing, etc.]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]</a:documentation>
          <ref name="cgrid_macro.phraseSeq.limited"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-language-cgrid.article-language-constraint-17">
+                  id="cgrid-language-cgrid.article-language-constraint-18">
             <rule context="tei:language">
                <sch:assert xmlns:xi="http://www.w3.org/2001/XInclude"
                            xmlns:svg="http://www.w3.org/2000/svg"
@@ -2966,66 +2710,6 @@ Licensing, etc.]</a:documentation>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.</a:documentation>
             <ref name="cgrid_data.language"/>
          </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_textClass">
-      <element name="textClass">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <ref name="cgrid_classCode"/>
-               <ref name="cgrid_catRef"/>
-            </choice>
-         </zeroOrMore>
-         <ref name="cgrid_keywords"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_keywords">
-      <element name="keywords">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. The Text Classification]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="cgrid_term"/>
-            </oneOrMore>
-            <ref name="cgrid_list"/>
-         </choice>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="scheme">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the controlled vocabulary within which the set of keywords concerned is defined identifies the classification scheme within which the set of categories concerned is defined, for example by a taxonomy element, or by some other resource.</a:documentation>
-               <ref name="cgrid_data.pointer"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_classCode">
-      <element name="classCode">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification code) contains the classification code used for this text in some standard classification system. [2.4.3. The Text Classification]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq.limited"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <attribute name="scheme">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the classification system in use, as defined by for example by a taxonomy element, or some other resource..</a:documentation>
-            <ref name="cgrid_data.pointer"/>
-         </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_catRef">
-      <element name="catRef">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(category reference) specifies one or more defined categories within some taxonomy or text typology. [2.4.3. The Text Classification]</a:documentation>
-         <empty/>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.pointing.attributes"/>
-         <optional>
-            <attribute name="scheme">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the classification scheme within which the set of categories concerned is defined, for example by a taxonomy element, or by some other resource.</a:documentation>
-               <ref name="cgrid_data.pointer"/>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -3080,6 +2764,281 @@ Licensing, etc.]</a:documentation>
                        a:defaultValue="true">
                <a:documentation>indicates whether the ordering of its child change elements is to be considered significant or not</a:documentation>
                <ref name="cgrid_data.truthValue"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_model.persNamePart">
+      <choice>
+         <ref name="cgrid_surname"/>
+         <ref name="cgrid_forename"/>
+      </choice>
+   </define>
+   <define name="cgrid_model.persNamePart_alternation">
+      <choice>
+         <ref name="cgrid_surname"/>
+         <ref name="cgrid_forename"/>
+      </choice>
+   </define>
+   <define name="cgrid_model.persNamePart_sequence">
+      <ref name="cgrid_surname"/>
+      <ref name="cgrid_forename"/>
+   </define>
+   <define name="cgrid_model.persNamePart_sequenceOptional">
+      <optional>
+         <ref name="cgrid_surname"/>
+      </optional>
+      <optional>
+         <ref name="cgrid_forename"/>
+      </optional>
+   </define>
+   <define name="cgrid_model.persNamePart_sequenceOptionalRepeatable">
+      <zeroOrMore>
+         <ref name="cgrid_surname"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="cgrid_forename"/>
+      </zeroOrMore>
+   </define>
+   <define name="cgrid_model.persNamePart_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="cgrid_surname"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="cgrid_forename"/>
+      </oneOrMore>
+   </define>
+   <define name="cgrid_orgName">
+      <element name="orgName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
+         <ref name="cgrid_macro.phraseSeq"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.datable.w3c.attribute.when"/>
+         <ref name="cgrid_att.datable.w3c.attribute.notBefore"/>
+         <ref name="cgrid_att.datable.w3c.attribute.from"/>
+         <ref name="cgrid_att.datable.w3c.attribute.to"/>
+         <ref name="cgrid_att.editLike.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_surname">
+      <element name="surname">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]</a:documentation>
+         <ref name="cgrid_macro.phraseSeq"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_forename">
+      <element name="forename">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a forename, given or baptismal name. [13.2.1. Personal Names]</a:documentation>
+         <ref name="cgrid_macro.phraseSeq"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_affiliation">
+      <element name="affiliation">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
+         <ref name="cgrid_macro.phraseSeq"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.editLike.attributes"/>
+         <ref name="cgrid_att.datable.w3c.attribute.when"/>
+         <ref name="cgrid_att.datable.w3c.attribute.notBefore"/>
+         <ref name="cgrid_att.datable.w3c.attribute.from"/>
+         <ref name="cgrid_att.datable.w3c.attribute.to"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_listPerson">
+      <element name="listPerson">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="cgrid_model.headLike"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="cgrid_model.personLike"/>
+                  <ref name="cgrid_listPerson"/>
+               </choice>
+            </oneOrMore>
+            <zeroOrMore>
+               <empty/>
+            </zeroOrMore>
+         </group>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_person">
+      <element name="person">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
+         <choice>
+            <oneOrMore>
+               <ref name="cgrid_model.pLike"/>
+            </oneOrMore>
+            <zeroOrMore>
+               <choice>
+                  <ref name="cgrid_model.personPart"/>
+                  <ref name="cgrid_model.global"/>
+               </choice>
+            </zeroOrMore>
+         </choice>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.editLike.attributes"/>
+         <optional>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <ref name="cgrid_data.enumerated"/>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="sex">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sex of the person.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <ref name="cgrid_data.sex"/>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="age">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies an age group for the person.</a:documentation>
+               <ref name="cgrid_data.enumerated"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_att">
+      <element name="att">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute) contains the name of an attribute appearing within running text. [22. Documentation Elements]</a:documentation>
+         <ref name="cgrid_data.name"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="cgrid-att-jtei.sch-att-constraint-24">
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:att">
+                  <sch:assert test="not(matches(., '^@'))">
+                    Attribute delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
+                  </sch:assert>
+                </sch:rule>
+         </pattern>
+         <ref name="cgrid_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_egXML">
+      <element name="egXML" ns="http://www.tei-c.org/ns/Examples">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example of XML) contains a single well-formed XML fragment demonstrating the use of some XML element or attribute, in which the egXML element itself functions as the root element. [22.1.1. Phrase Level Terms]</a:documentation>
+         <zeroOrMore>
+            <group>
+               <choice>
+                  <text/>
+                  <ref name="cgrid_macro.anyXML"/>
+               </choice>
+            </group>
+         </zeroOrMore>
+         <ref name="cgrid_att.global.attributes"/>
+         <ref name="cgrid_att.source.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="valid"
+                       a:defaultValue="true">
+               <a:documentation>indicates the intended validity of the example with respect to a schema.</a:documentation>
+               <choice>
+                  <value>true</value>
+                  <a:documentation>the example is intended to be fully valid, assuming that its root element, or a provided root element, could have been used as a possible root element in the schema concerned.</a:documentation>
+                  <value>feasible</value>
+                  <a:documentation>the example could be transformed into a valid document by inserting any number of valid attributes and child elements anywhere within it; or it is valid against a version of the schema concerned in which the provision of character data, list, element, or attribute values has been made optional.</a:documentation>
+                  <value>false</value>
+                  <a:documentation>the example is not intended to be valid, and contains deliberate errors.</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_gi">
+      <element name="gi">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element name) contains the name (generic identifier) of an element. [22. Documentation Elements 22.4.4. Element Specifications]</a:documentation>
+         <ref name="cgrid_data.name"/>
+         <ref name="cgrid_att.global.attributes"/>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>supplies the name of the scheme in which this name is defined.
+Sample values include: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
+               <ref name="cgrid_data.enumerated"/>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="cgrid_tag">
+      <element name="tag">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [22. Documentation Elements]</a:documentation>
+         <text/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="cgrid-tag-jtei.sch-tag-constraint-25">
+            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
+                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:eg="http://www.tei-c.org/ns/Examples"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      context="tei:tag">
+                  <sch:assert test="not(matches(., '^[&lt;!?-]|[&gt;/?\-]$'))">
+                    Tag delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
+                  </sch:assert>
+                </sch:rule>
+         </pattern>
+         <ref name="cgrid_att.global.attributes"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of XML tag intended</a:documentation>
+               <choice>
+                  <value>start</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a start-tag, with delimiters &lt; and &gt; is intended</a:documentation>
+                  <value>end</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">an end-tag, with delimiters &lt;/ and &gt; is intended</a:documentation>
+                  <value>empty</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a empty tag, with delimiters &lt; and /&gt; is intended</a:documentation>
+                  <value>pi</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a pi (processing instruction), with delimiters &lt;? and ?&gt; is intended</a:documentation>
+                  <value>comment</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a comment, with delimiters &lt;!-- and --&gt; is intended</a:documentation>
+                  <value>ms</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a marked-section, with delimiters &lt;[CDATA[ and ]]&gt; is intended</a:documentation>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+                       name="scheme"
+                       a:defaultValue="TEI">
+               <a:documentation>supplies the name of the schema in which this tag is defined.
+Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
+               <ref name="cgrid_data.enumerated"/>
             </attribute>
          </optional>
          <empty/>
@@ -3566,523 +3525,6 @@ Licensing, etc.]</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="cgrid_model.persNamePart">
-      <choice>
-         <ref name="cgrid_surname"/>
-         <ref name="cgrid_forename"/>
-         <ref name="cgrid_roleName"/>
-      </choice>
-   </define>
-   <define name="cgrid_model.persNamePart_alternation">
-      <choice>
-         <ref name="cgrid_surname"/>
-         <ref name="cgrid_forename"/>
-         <ref name="cgrid_roleName"/>
-      </choice>
-   </define>
-   <define name="cgrid_model.persNamePart_sequence">
-      <ref name="cgrid_surname"/>
-      <ref name="cgrid_forename"/>
-      <ref name="cgrid_roleName"/>
-   </define>
-   <define name="cgrid_model.persNamePart_sequenceOptional">
-      <optional>
-         <ref name="cgrid_surname"/>
-      </optional>
-      <optional>
-         <ref name="cgrid_forename"/>
-      </optional>
-      <optional>
-         <ref name="cgrid_roleName"/>
-      </optional>
-   </define>
-   <define name="cgrid_model.persNamePart_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="cgrid_surname"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="cgrid_forename"/>
-      </zeroOrMore>
-      <zeroOrMore>
-         <ref name="cgrid_roleName"/>
-      </zeroOrMore>
-   </define>
-   <define name="cgrid_model.persNamePart_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="cgrid_surname"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="cgrid_forename"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="cgrid_roleName"/>
-      </oneOrMore>
-   </define>
-   <define name="cgrid_orgName">
-      <element name="orgName">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.datable.w3c.attribute.when"/>
-         <ref name="cgrid_att.datable.w3c.attribute.notBefore"/>
-         <ref name="cgrid_att.datable.w3c.attribute.from"/>
-         <ref name="cgrid_att.datable.w3c.attribute.to"/>
-         <ref name="cgrid_att.editLike.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_surname">
-      <element name="surname">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_forename">
-      <element name="forename">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a forename, given or baptismal name. [13.2.1. Personal Names]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_roleName">
-      <element name="roleName">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_affiliation">
-      <element name="affiliation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.editLike.attributes"/>
-         <ref name="cgrid_att.datable.w3c.attribute.when"/>
-         <ref name="cgrid_att.datable.w3c.attribute.notBefore"/>
-         <ref name="cgrid_att.datable.w3c.attribute.from"/>
-         <ref name="cgrid_att.datable.w3c.attribute.to"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_listPerson">
-      <element name="listPerson">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <ref name="cgrid_model.headLike"/>
-            </zeroOrMore>
-            <oneOrMore>
-               <choice>
-                  <ref name="cgrid_model.personLike"/>
-                  <ref name="cgrid_listPerson"/>
-               </choice>
-            </oneOrMore>
-            <zeroOrMore>
-               <empty/>
-            </zeroOrMore>
-         </group>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_person">
-      <element name="person">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="cgrid_model.pLike"/>
-            </oneOrMore>
-            <zeroOrMore>
-               <choice>
-                  <ref name="cgrid_model.personPart"/>
-                  <ref name="cgrid_model.global"/>
-               </choice>
-            </zeroOrMore>
-         </choice>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.editLike.attributes"/>
-         <optional>
-            <attribute name="role">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a primary role or classification for the person.</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <ref name="cgrid_data.enumerated"/>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="sex">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the sex of the person.</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <ref name="cgrid_data.sex"/>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="age">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies an age group for the person.</a:documentation>
-               <ref name="cgrid_data.enumerated"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_table">
-      <element name="table">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="cgrid_model.headLike"/>
-                  <ref name="cgrid_model.global"/>
-               </choice>
-            </zeroOrMore>
-            <choice>
-               <oneOrMore>
-                  <ref name="cgrid_row"/>
-                  <zeroOrMore>
-                     <ref name="cgrid_model.global"/>
-                  </zeroOrMore>
-               </oneOrMore>
-               <oneOrMore>
-                  <group>
-                     <ref name="cgrid_model.graphicLike"/>
-                  </group>
-                  <zeroOrMore>
-                     <ref name="cgrid_model.global"/>
-                  </zeroOrMore>
-               </oneOrMore>
-            </choice>
-            <zeroOrMore>
-               <group>
-                  <ref name="cgrid_model.divBottom"/>
-               </group>
-               <zeroOrMore>
-                  <ref name="cgrid_model.global"/>
-               </zeroOrMore>
-            </zeroOrMore>
-         </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-table-jtei.sch-table-constraint-36">
-            <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:table">
-                  <sch:assert test="not(ancestor::tei:list)">
-                    No tables are are allowed inside lists.
-                  </sch:assert>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="rows">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the number of rows in the table.</a:documentation>
-               <ref name="cgrid_data.count"/>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="cols">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(columns) indicates the number of columns in each row of the table.</a:documentation>
-               <ref name="cgrid_data.count"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_row">
-      <element name="row">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one row of a table. [14.1.1. TEI Tables]</a:documentation>
-         <oneOrMore>
-            <ref name="cgrid_cell"/>
-         </oneOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.tableDecoration.attribute.rows"/>
-         <ref name="cgrid_att.tableDecoration.attribute.cols"/>
-         <optional>
-            <attribute name="role">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>label</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>midlabel</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_cell">
-      <element name="cell">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one cell of a table. [14.1.1. TEI Tables]</a:documentation>
-         <ref name="cgrid_macro.specialPara"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.tableDecoration.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_figure">
-      <element name="figure">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(figure) groups elements representing or containing graphic information such as a graphic illustration, or a block of example code. Figure must contain either graphic, egXML (for example XML code) or eg (for non-XML code), and a mandatory head element containing the caption for the figure. Inline code examples may be provided through egXML and eg without the figure wrapper. [14.4. Specific Elements for Graphic Images]</a:documentation>
-         <choice>
-            <ref name="cgrid_graphic"/>
-            <ref name="cgrid_egXML"/>
-            <ref name="cgrid_eg"/>
-         </choice>
-         <oneOrMore>
-            <ref name="cgrid_head"/>
-         </oneOrMore>
-         <ref name="cgrid_att.global.attribute.xmlid"/>
-         <ref name="cgrid_att.global.attribute.n"/>
-         <ref name="cgrid_att.global.attribute.xmllang"/>
-         <ref name="cgrid_att.global.attribute.xmlbase"/>
-         <ref name="cgrid_att.global.attribute.xmlspace"/>
-         <ref name="cgrid_att.global.rendition.attribute.rendition"/>
-         <ref name="cgrid_att.global.responsibility.attribute.cert"/>
-         <ref name="cgrid_att.global.responsibility.attribute.resp"/>
-         <optional>
-            <attribute name="rend">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(rendition) indicates how the element in question was rendered or presented in the source text.</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <choice>
-                        <value>notenbeispiel</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Markiert die Abbildung als Notenbeispiel</a:documentation>
-                     </choice>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="place">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Allows for positioning figures</a:documentation>
-               <choice>
-                  <value>bottom</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to go into a bottom area</a:documentation>
-                  <value>here</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to be placed inline</a:documentation>
-                  <value>page</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the the figure is allowed to go on a float page or column area</a:documentation>
-                  <value>top</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates that the figure is allowed to go into a top area; this is the default value</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_particDesc">
-      <element name="particDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="cgrid_model.pLike"/>
-            </oneOrMore>
-            <oneOrMore>
-               <choice>
-                  <ref name="cgrid_model.personLike"/>
-                  <ref name="cgrid_listPerson"/>
-               </choice>
-            </oneOrMore>
-         </choice>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_att">
-      <element name="att">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute) contains the name of an attribute appearing within running text. [22. Documentation Elements]</a:documentation>
-         <ref name="cgrid_data.name"/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-att-jtei.sch-att-constraint-37">
-            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:att">
-                  <sch:assert test="not(matches(., '^@'))">
-                    Attribute delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
-                  </sch:assert>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_code">
-      <element name="code">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains literal code from some formal language such as a programming language. [22.1.1. Phrase Level Terms]</a:documentation>
-         <text/>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="lang">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(formal language) a name identifying the formal language in which the code is expressed</a:documentation>
-               <ref name="cgrid_data.word"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_eg">
-      <element name="eg">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example) contains any kind of illustrative example. [22.4.4. Element Specifications 22.4.5. Attribute List Specification]</a:documentation>
-         <ref name="cgrid_macro.phraseSeq"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_egXML">
-      <element name="egXML" ns="http://www.tei-c.org/ns/Examples">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example of XML) contains a single well-formed XML fragment demonstrating the use of some XML element or attribute, in which the egXML element itself functions as the root element. [22.1.1. Phrase Level Terms]</a:documentation>
-         <zeroOrMore>
-            <group>
-               <choice>
-                  <text/>
-                  <ref name="cgrid_macro.anyXML"/>
-               </choice>
-            </group>
-         </zeroOrMore>
-         <ref name="cgrid_att.global.attributes"/>
-         <ref name="cgrid_att.source.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="valid"
-                       a:defaultValue="true">
-               <a:documentation>indicates the intended validity of the example with respect to a schema.</a:documentation>
-               <choice>
-                  <value>true</value>
-                  <a:documentation>the example is intended to be fully valid, assuming that its root element, or a provided root element, could have been used as a possible root element in the schema concerned.</a:documentation>
-                  <value>feasible</value>
-                  <a:documentation>the example could be transformed into a valid document by inserting any number of valid attributes and child elements anywhere within it; or it is valid against a version of the schema concerned in which the provision of character data, list, element, or attribute values has been made optional.</a:documentation>
-                  <value>false</value>
-                  <a:documentation>the example is not intended to be valid, and contains deliberate errors.</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_gi">
-      <element name="gi">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element name) contains the name (generic identifier) of an element. [22. Documentation Elements 22.4.4. Element Specifications]</a:documentation>
-         <ref name="cgrid_data.name"/>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="scheme"
-                       a:defaultValue="TEI">
-               <a:documentation>supplies the name of the scheme in which this name is defined.
-Sample values include: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
-               <ref name="cgrid_data.enumerated"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_ident">
-      <element name="ident">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) contains an identifier or name for an object of some kind in a formal language. ident is used for tokens such as variable names, class names, type names, function names etc. in formal programming languages. [22.1.1. Phrase Level Terms]</a:documentation>
-         <text/>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_tag">
-      <element name="tag">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [22. Documentation Elements]</a:documentation>
-         <text/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-tag-jtei.sch-tag-constraint-38">
-            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:tag">
-                  <sch:assert test="not(matches(., '^[&lt;!?-]|[&gt;/?\-]$'))">
-                    Tag delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
-                  </sch:assert>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of XML tag intended</a:documentation>
-               <choice>
-                  <value>start</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a start-tag, with delimiters &lt; and &gt; is intended</a:documentation>
-                  <value>end</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">an end-tag, with delimiters &lt;/ and &gt; is intended</a:documentation>
-                  <value>empty</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a empty tag, with delimiters &lt; and /&gt; is intended</a:documentation>
-                  <value>pi</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a pi (processing instruction), with delimiters &lt;? and ?&gt; is intended</a:documentation>
-                  <value>comment</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a comment, with delimiters &lt;!-- and --&gt; is intended</a:documentation>
-                  <value>ms</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a marked-section, with delimiters &lt;[CDATA[ and ]]&gt; is intended</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="scheme"
-                       a:defaultValue="TEI">
-               <a:documentation>supplies the name of the schema in which this tag is defined.
-Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron; 5] HTML</a:documentation>
-               <ref name="cgrid_data.enumerated"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="cgrid_val">
-      <element name="val">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(value) contains a single attribute value. [22. Documentation Elements 22.4.5. Attribute List Specification]</a:documentation>
-         <text/>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-val-jtei.sch-att-constraint-39">
-            <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
-                      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns:eg="http://www.tei-c.org/ns/Examples"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      context="tei:val">
-                  <sch:assert test="not(matches(., concat('^', $quotes, '|', $quotes, '$')))">
-                    Attribute value delimiters are not allowed for <sch:name/>: they are completed at processing time via XSLT.
-                  </sch:assert>
-                </sch:rule>
-         </pattern>
-         <ref name="cgrid_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="cgrid_licence">
       <element name="licence">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4227,7 +3669,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.ellipsis-constraint-40">
+            id="cgrid-cgrid.ellipsis-constraint-36">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4242,7 +3684,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.urls-constraint-41">
+            id="cgrid-cgrid.urls-constraint-37">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4257,7 +3699,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-before-digit-constraint-42">
+            id="cgrid-cgrid.thin-space-before-digit-constraint-38">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4273,7 +3715,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-after-digit-constraint-43">
+            id="cgrid-cgrid.thin-space-after-digit-constraint-39">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4289,7 +3731,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-within-abbr-constraint-44">
+            id="cgrid-cgrid.thin-space-within-abbr-constraint-40">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4332,7 +3774,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                     <sch:let name="quotes" value="concat('[', $apos.straight, '&#34;]')"/>
                  </sch:pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-straightApos-constraint-45">
+            id="cgrid-jtei.sch-straightApos-constraint-41">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4350,7 +3792,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-LRquotes-constraint-46">
+            id="cgrid-jtei.sch-LRquotes-constraint-42">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4365,7 +3807,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-quotationMarks-constraint-47">
+            id="cgrid-jtei.sch-quotationMarks-constraint-43">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4380,7 +3822,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-doubleHyphens-constraint-48">
+            id="cgrid-jtei.sch-doubleHyphens-constraint-44">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4396,7 +3838,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-rangeHyphen-constraint-49">
+            id="cgrid-jtei.sch-rangeHyphen-constraint-45">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4412,7 +3854,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-ieEg-constraint-50">
+            id="cgrid-jtei.sch-ieEg-constraint-46">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4427,7 +3869,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-localLinkTarget-constraint-51">
+            id="cgrid-jtei.sch-localLinkTarget-constraint-47">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4442,7 +3884,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-quoteDelim-constraint-52">
+            id="cgrid-jtei.sch-quoteDelim-constraint-48">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4457,7 +3899,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossref-id-constraint-53">
+            id="cgrid-jtei.sch-crossref-id-constraint-49">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4474,7 +3916,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-formalCrossref-constraint-54">
+            id="cgrid-jtei.sch-formalCrossref-constraint-50">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4491,7 +3933,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossrefTargetType-constraint-55">
+            id="cgrid-jtei.sch-crossrefTargetType-constraint-51">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4506,7 +3948,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossrefType-constraint-56">
+            id="cgrid-jtei.sch-crossrefType-constraint-52">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4521,7 +3963,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-centuries-constraint-57">
+            id="cgrid-jtei.sch-centuries-constraint-53">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4536,7 +3978,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-teiVersion-constraint-58">
+            id="cgrid-jtei.sch-teiVersion-constraint-54">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"

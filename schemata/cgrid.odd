@@ -26,14 +26,14 @@
   <text>
     <body>
         <schemaSpec ident="cgrid" start="TEI" source="tei_jtei.odd.xml" prefix="cgrid_">
-           <moduleRef key="header"/>
-           <moduleRef key="core"/>
+           <moduleRef key="core" include="p foreign emph hi quote q cit soCalled name email ptr ref list item label head note graphic lb author editor title publisher bibl listBibl"/>
+           <moduleRef key="corpus" include="particDesc"/>
+           <moduleRef key="figures" include="table row cell figure"/>
+           <moduleRef key="header" include="teiHeader fileDesc titleStmt edition publicationStmt availability sourceDesc encodingDesc tagsDecl rendition profileDesc langUsage language revisionDesc change listChange"/>
+           <moduleRef key="namesdates" include="orgName surname forename affiliation listPerson person"/>
+           <moduleRef key="tagdocs" include="att egXML gi tag"/>
            <moduleRef key="tei"/>
-           <moduleRef key="textstructure"/>
-           <moduleRef key="namesdates"/>
-           <moduleRef key="figures"/>
-           <moduleRef key="corpus"/>
-           <moduleRef key="tagdocs"/>
+           <moduleRef key="textstructure" include="TEI text body div front back"/>
            
            <elementSpec ident="publicationStmt" module="header" mode="change">
               <content>
@@ -96,7 +96,9 @@
               </constraintSpec>
               <attList>
                  <attDef ident="ref" mode="add">
-                    <rng:ref name="data.pointer"/>
+                    <datatype>
+                       <rng:ref name="data.pointer"/>
+                    </datatype>
                  </attDef>
                  <attDef ident="type" mode="change">
                     <valList mode="change" type="closed">
@@ -119,7 +121,9 @@
            <elementSpec ident="name" module="core" mode="change">
               <attList>
                  <attDef ident="ref" mode="add">
-                    <rng:ref name="data.pointer"/>
+                    <datatype maxOccurs="unbounded">
+                       <rng:ref name="data.pointer"/>
+                    </datatype>
                  </attDef>
               </attList>
            </elementSpec>
