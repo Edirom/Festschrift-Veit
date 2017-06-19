@@ -89,7 +89,7 @@
                   <p>Goethe, Johann Wolfgang von</p>
                </person>
                <person xml:id="rehbein-pers033">
-                  <p>Greenwald, Glen</p>
+                  <p>Greenwald, Glenn</p>
                </person>
                <person xml:id="rehbein-pers034">
                   <p>Guillory, Jamie E.</p>
@@ -146,7 +146,7 @@
                   <p>Mill, John Stuart</p>
                </person>
                <person xml:id="rehbein-pers060">
-                  <p>Millicam, Peter</p>
+                  <p>Millican, Peter</p>
                </person>
                <person xml:id="rehbein-pers061">
                   <p>Myers, Isabel</p>
@@ -277,7 +277,7 @@
                <p>The first group comprises those of the Sciences and Humanities (the German term <hi rend="italic">Wissenschaft</hi> fits better here and will be used henceforth). Incredible amounts of data are investigated, for example for research on global climate (e.&#8239;g., NASA Center for Climate Simulation), to increase the precision of weather forecasts, to decode the human genome, or in the search for elementary particles at the Large Hadron Collider in Geneva. In a positive view on <hi rend="italic">Wissenschaft</hi>, these investigations shall serve society as a whole.</p>
                <p>The second class encompasses applications of Big Data from which particular groups would benefit but which might interfere with the interests of others. Depending on one’s perspective, such applications can easily be found in the business world. For example, on February 16<hi rend="sup">th</hi>, 2012, the <hi rend="italic">New York Times</hi> published an article <q>How Companies Learn Your Secrets</q>. Taking the example of the US retailer Target, the article describes how companies analyse data and then try to predict consumer behaviour in order to tailor and refine their marketing machine. In this context, <name ref="#rehbein-pers072">Andrew Pole</name> proposed a <q>pregnancy-prediction model</q> to answer a company’s question: <q>If we wanted to figure out if a customer is pregnant, even if she didn’t want us to know, can you do that?</q> with the help of algorithms based on Big Data.<ref target="#Duhigg2012" type="bibl" xml:id="rehbein-ftn5"/>
                </p>
-               <p>In the wake of revelations by <name ref="#rehbein-pers083">Edward Snowden</name>, <name ref="#rehbein-pers033">Glen Greenwald</name> and others in&#x00A0;2013,<ref type="bibl" target="#SnowdenFiles" xml:id="rehbein-ftn6"/>
+               <p>In the wake of revelations by <name ref="#rehbein-pers083">Edward Snowden</name>, <name ref="#rehbein-pers033">Glenn Greenwald</name> and others in&#x00A0;2013,<ref type="bibl" target="#SnowdenFiles" xml:id="rehbein-ftn6"/>
                   a third class of applications has come more and more into public consciousness. Current mass surveillance might be the strongest example of Big Data analysis in which the interests of a very small group are in stark contrast with the values of society at large.</p>
             </div>
             <div xml:id="rehbein-div04" rend="numbered-heading">
@@ -346,7 +346,7 @@
             </div>
             <div xml:id="rehbein-div10" rend="numbered-heading">
                <head>Another Prominent Victim of DH: <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name></head>
-               <p>In&#x00A0;2013, a quite prominent case of authorship attribution floated around. A certain <name ref="#rehbein-pers075">Robert Galbraith</name> published a novel called <title ref="#rehbein-work004">The Cuckoo’s Calling</title>. Despite positive reviews, the book was at first only an average success on the book market. However, three months later, rumours began circulating that the real author of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> was <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name>, who had had such a sweeping success with her Harry Potter series. <name ref="#rehbein-pers043">Patrick Juola</name> and <name ref="#rehbein-pers060">Peter Millicam</name> analysed the text of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> with methods of forensic stylometry and came to the conclusion that it was quite probable that <name ref="#rehbein-pers075">Rowling</name> is indeed its author, which she afterwards admitted.</p>
+               <p>In&#x00A0;2013, a quite prominent case of authorship attribution floated around. A certain <name ref="#rehbein-pers075">Robert Galbraith</name> published a novel called <title ref="#rehbein-work004">The Cuckoo’s Calling</title>. Despite positive reviews, the book was at first only an average success on the book market. However, three months later, rumours began circulating that the real author of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> was <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name>, who had had such a sweeping success with her Harry Potter series. <name ref="#rehbein-pers043">Patrick Juola</name> and <name ref="#rehbein-pers060">Peter Millican</name> analysed the text of <title ref="#rehbein-work004">The Cuckoo’s Calling</title> with methods of forensic stylometry and came to the conclusion that it was quite probable that <name ref="#rehbein-pers075">Rowling</name> is indeed its author, which she afterwards admitted.</p>
                <p>Especially when it is a <q>closed game</q> as in this case, in which one computes the likelihood with which a text can be attributed to an author candidate (as opposed to the <q>open game</q> where one computes the most likely author of a text), forensic stylometry is a simple method: <quote source="#rehbein-ftn29">language is a set of choices, and speakers and writers tend to fall into habitual, or at least common, choices. Some choices come from dialect […], some from social pressure […], and some just seem to come.</quote><ref target="#Juola2013" type="bibl" xml:id="rehbein-ftn29"/>
                   This leaves stylistic patterns that a computer can measure and compare to corpora of texts already attributed, such as the Harry Potter series. The method has been described and practised since the 19<hi rend="sup">th</hi> century (although computers are a late entrant to the game).</p>
                <p>For the Digital Humanities, methods like these are &#x2013; at first sight &#x2013; fantastic. They offer vast opportunities for fundamental research, for example in studying the history of literature, or general history, they allow testing existing hypotheses, and they offer new ones. The moral question, however, is again: at what cost? <name ref="#rehbein-pers075">J.&#8239;K. Rowling</name> admitted that she would have preferred to remain unrevealed: <quote source="#rehbein-ftn30">Being Robert Galbraith has been such a liberating experience […] It has been wonderful to publish without hype and expectation and pure pleasure to get feedback under a different name.</quote><note xml:id="rehbein-ftn30" n="30" type="bibl">Quoted after <ref target="#BostonGlobe2013" type="bibl"/><!--The Boston Globe, 15&#8239;July 2013-->.</note> 
