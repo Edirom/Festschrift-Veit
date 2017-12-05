@@ -502,6 +502,11 @@
                        </valItem>
                     </valList>
                  </attDef>
+                 <attDef ident="n" mode="add">
+                    <datatype>
+                       <rng:ref name="data.count"/>
+                    </datatype>
+                 </attDef>
               </attList>
            </elementSpec>
            

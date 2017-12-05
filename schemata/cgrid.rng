@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2016-01-31T11:14:23Z. .
+Schema generated from ODD source 2017-12-05T13:40:20Z. .
 TEI Edition: Originally generated on 2014-01-30T13:29:15Z using oddbyexample.xsl.
           Progressively modified after that. 
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
@@ -371,7 +373,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-att.typed-subtypeTyped-constraint-1">
+            id="cgrid-att.typed-subtypeTyped-constraint-rule-1">
       <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
@@ -1514,7 +1516,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3. Quotation 4.3.1. Grouped Texts]</a:documentation>
          <ref name="cgrid_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-quote-jtei.sch-core-constraint-2">
+                  id="cgrid-quote-jtei.sch-core-constraint-rule-2">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -1554,7 +1556,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
             </choice>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-cit-jtei.sch-cit-constraint-3">
+                  id="cgrid-cit-jtei.sch-cit-constraint-rule-3">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1618,7 +1620,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pointer) defines a pointer to another location. [3.6. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ptr-jtei.sch-ptr-multipleTargets-constraint-4">
+                  id="cgrid-ptr-jtei.sch-ptr-multipleTargets-constraint-rule-4">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1634,7 +1636,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5//
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ptr-ptrAtts-constraint-2">
+                  id="cgrid-ptr-ptrAtts-constraint-report-2">
             <rule context="tei:ptr">
                <report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1673,7 +1675,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) defines a reference to another location, possibly modified by additional text or comment. [3.6. Simple Links and Cross-References 16.1. Links]</a:documentation>
          <ref name="cgrid_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-cgrid.ref-rend-constraint-3">
+                  id="cgrid-ref-cgrid.ref-rend-constraint-report-3">
             <rule context="tei:ref">
                <sch:report xmlns:xi="http://www.w3.org/2001/XInclude"
                            xmlns:svg="http://www.w3.org/2000/svg"
@@ -1688,7 +1690,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-ref-multipleTargets-constraint-5">
+                  id="cgrid-ref-jtei.sch-ref-multipleTargets-constraint-rule-5">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1704,7 +1706,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-parentheses-constraint-6">
+                  id="cgrid-ref-jtei.sch-biblref-parentheses-constraint-rule-6">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1720,7 +1722,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-target-constraint-7">
+                  id="cgrid-ref-jtei.sch-biblref-target-constraint-rule-7">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1736,7 +1738,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-jtei.sch-biblref-type-constraint-8">
+                  id="cgrid-ref-jtei.sch-biblref-type-constraint-rule-8">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1752,7 +1754,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-ref-refAtts-constraint-5">
+                  id="cgrid-ref-refAtts-constraint-report-5">
             <rule context="tei:ref">
                <report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -1823,12 +1825,8 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <group>
             <zeroOrMore>
                <choice>
-                  <group>
-                     <ref name="cgrid_model.divTop"/>
-                  </group>
-                  <group>
-                     <ref name="cgrid_model.global"/>
-                  </group>
+                  <ref name="cgrid_model.divTop"/>
+                  <ref name="cgrid_model.global"/>
                </choice>
             </zeroOrMore>
             <choice>
@@ -1853,9 +1851,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </choice>
             <zeroOrMore>
                <group>
-                  <group>
-                     <ref name="cgrid_model.divBottom"/>
-                  </group>
+                  <ref name="cgrid_model.divBottom"/>
                   <zeroOrMore>
                      <ref name="cgrid_model.global"/>
                   </zeroOrMore>
@@ -1863,7 +1859,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-list-gloss-list-must-have-labels-constraint-9">
+                  id="cgrid-list-gloss-list-must-have-labels-constraint-rule-9">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1948,7 +1944,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-head-jtei.sch-figure-head-constraint-10">
+                  id="cgrid-head-jtei.sch-figure-head-constraint-rule-10">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1978,7 +1974,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
          <ref name="cgrid_macro.specialPara"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-note-jtei.sch-note-constraint-11">
+                  id="cgrid-note-jtei.sch-note-constraint-rule-11">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -1995,7 +1991,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-note-jtei.sch-note-blocks-constraint-12">
+                  id="cgrid-note-jtei.sch-note-blocks-constraint-rule-12">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2031,7 +2027,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
             <ref name="cgrid_model.descLike"/>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-graphic-jtei.sch-graphic-dimensions-constraint-13">
+                  id="cgrid-graphic-jtei.sch-graphic-dimensions-constraint-rule-13">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2047,7 +2043,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-graphic-jtei.sch-graphic-context-constraint-14">
+                  id="cgrid-graphic-jtei.sch-graphic-context-constraint-rule-14">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2082,7 +2078,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
          <ref name="cgrid_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-author-jtei.sch-author-constraint-15">
+                  id="cgrid-author-jtei.sch-author-constraint-rule-15">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2127,7 +2123,7 @@ Elements 7.2.5. Speech Contents]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
          <ref name="cgrid_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-title-cgrid.article-title-constraint-16">
+                  id="cgrid-title-cgrid.article-title-constraint-rule-16">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2226,7 +2222,7 @@ Licensing, etc.]</a:documentation>
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.bibl-title-tags-constraint-17">
+                  id="cgrid-bibl-cgrid.bibl-title-tags-constraint-rule-17">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2243,7 +2239,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.shortTitle-constraint-18">
+                  id="cgrid-bibl-cgrid.shortTitle-constraint-rule-18">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2259,7 +2255,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-cgrid.ed-by-constraint-19">
+                  id="cgrid-bibl-cgrid.ed-by-constraint-rule-19">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2275,7 +2271,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-jtei.sch-bibl-id-constraint-20">
+                  id="cgrid-bibl-jtei.sch-bibl-id-constraint-rule-20">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2291,7 +2287,7 @@ Licensing, etc.]</a:documentation>
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-bibl-jtei.sch-bibl-orphan-constraint-21">
+                  id="cgrid-bibl-jtei.sch-bibl-orphan-constraint-rule-21">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -2377,25 +2373,21 @@ Licensing, etc.]</a:documentation>
                   </zeroOrMore>
                </oneOrMore>
                <oneOrMore>
-                  <group>
-                     <ref name="cgrid_model.graphicLike"/>
-                  </group>
+                  <ref name="cgrid_model.graphicLike"/>
                   <zeroOrMore>
                      <ref name="cgrid_model.global"/>
                   </zeroOrMore>
                </oneOrMore>
             </choice>
             <zeroOrMore>
-               <group>
-                  <ref name="cgrid_model.divBottom"/>
-               </group>
+               <ref name="cgrid_model.divBottom"/>
                <zeroOrMore>
                   <ref name="cgrid_model.global"/>
                </zeroOrMore>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-table-jtei.sch-table-constraint-22">
+                  id="cgrid-table-jtei.sch-table-constraint-rule-22">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2603,14 +2595,12 @@ Licensing, etc.]</a:documentation>
    <define name="cgrid_encodingDesc">
       <element name="encodingDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]</a:documentation>
-         <group>
-            <oneOrMore>
-               <choice>
-                  <ref name="cgrid_model.encodingDescPart"/>
-                  <ref name="cgrid_model.pLike"/>
-               </choice>
-            </oneOrMore>
-         </group>
+         <oneOrMore>
+            <choice>
+               <ref name="cgrid_model.encodingDescPart"/>
+               <ref name="cgrid_model.pLike"/>
+            </choice>
+         </oneOrMore>
          <ref name="cgrid_att.global.attributes"/>
          <empty/>
       </element>
@@ -2638,7 +2628,7 @@ Licensing, etc.]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies information about the rendition or appearance of one or more elements in the source text. [2.3.4. The Tagging Declaration]</a:documentation>
          <ref name="cgrid_macro.limitedContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-rendition-jtei.sch-rendition-constraint-23">
+                  id="cgrid-rendition-jtei.sch-rendition-constraint-rule-23">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -2669,11 +2659,9 @@ Licensing, etc.]</a:documentation>
    <define name="cgrid_profileDesc">
       <element name="profileDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <ref name="cgrid_model.profileDescPart"/>
-            </zeroOrMore>
-         </group>
+         <zeroOrMore>
+            <ref name="cgrid_model.profileDescPart"/>
+         </zeroOrMore>
          <ref name="cgrid_att.global.attributes"/>
          <empty/>
       </element>
@@ -2693,7 +2681,7 @@ Licensing, etc.]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]</a:documentation>
          <ref name="cgrid_macro.phraseSeq.limited"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-language-cgrid.article-language-constraint-18">
+                  id="cgrid-language-cgrid.article-language-constraint-assert-18">
             <rule context="tei:language">
                <sch:assert xmlns:xi="http://www.w3.org/2001/XInclude"
                            xmlns:svg="http://www.w3.org/2000/svg"
@@ -2923,7 +2911,7 @@ Licensing, etc.]</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(attribute) contains the name of an attribute appearing within running text. [22. Documentation Elements]</a:documentation>
          <ref name="cgrid_data.name"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-att-jtei.sch-att-constraint-24">
+                  id="cgrid-att-jtei.sch-att-constraint-rule-24">
             <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -2947,12 +2935,10 @@ Licensing, etc.]</a:documentation>
       <element name="egXML" ns="http://www.tei-c.org/ns/Examples">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(example of XML) contains a single well-formed XML fragment demonstrating the use of some XML element or attribute, in which the egXML element itself functions as the root element. [22.1.1. Phrase Level Terms]</a:documentation>
          <zeroOrMore>
-            <group>
-               <choice>
-                  <text/>
-                  <ref name="cgrid_macro.anyXML"/>
-               </choice>
-            </group>
+            <choice>
+               <text/>
+               <ref name="cgrid_macro.anyXML"/>
+            </choice>
          </zeroOrMore>
          <ref name="cgrid_att.global.attributes"/>
          <ref name="cgrid_att.source.attributes"/>
@@ -2996,7 +2982,7 @@ Sample values include: 1] TEI; 2] DBK(docbook) ; 3] XX(unknown) ; 4] Schematron;
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [22. Documentation Elements]</a:documentation>
          <text/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-tag-jtei.sch-tag-constraint-25">
+                  id="cgrid-tag-jtei.sch-tag-constraint-rule-25">
             <sch:rule xmlns:s="http://www.ascc.net/xml/schematron"
                       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -3101,7 +3087,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-text-jtei.sch-article-abstract-constraint-26">
+                  id="cgrid-text-jtei.sch-article-abstract-constraint-rule-26">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3117,7 +3103,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-text-jtei.sch-article-back-constraint-27">
+                  id="cgrid-text-jtei.sch-article-back-constraint-rule-27">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3148,22 +3134,18 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
             </zeroOrMore>
             <optional>
                <choice>
+                  <oneOrMore>
+                     <choice>
+                        <ref name="cgrid_model.divLike"/>
+                        <ref name="cgrid_model.divGenLike"/>
+                     </choice>
+                     <zeroOrMore>
+                        <ref name="cgrid_model.global"/>
+                     </zeroOrMore>
+                  </oneOrMore>
                   <group>
                      <oneOrMore>
-                        <choice>
-                           <ref name="cgrid_model.divLike"/>
-                           <ref name="cgrid_model.divGenLike"/>
-                        </choice>
-                        <zeroOrMore>
-                           <ref name="cgrid_model.global"/>
-                        </zeroOrMore>
-                     </oneOrMore>
-                  </group>
-                  <group>
-                     <oneOrMore>
-                        <group>
-                           <ref name="cgrid_model.common"/>
-                        </group>
+                        <ref name="cgrid_model.common"/>
                         <zeroOrMore>
                            <ref name="cgrid_model.global"/>
                         </zeroOrMore>
@@ -3180,9 +3162,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                   </group>
                </choice>
                <zeroOrMore>
-                  <group>
-                     <ref name="cgrid_model.divBottom"/>
-                  </group>
+                  <ref name="cgrid_model.divBottom"/>
                   <zeroOrMore>
                      <ref name="cgrid_model.global"/>
                   </zeroOrMore>
@@ -3190,7 +3170,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-body-jtei.sch-body-constraint-28">
+                  id="cgrid-body-jtei.sch-body-constraint-rule-28">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3223,22 +3203,18 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
             </zeroOrMore>
             <optional>
                <choice>
+                  <oneOrMore>
+                     <choice>
+                        <ref name="cgrid_model.divLike"/>
+                        <ref name="cgrid_model.divGenLike"/>
+                     </choice>
+                     <zeroOrMore>
+                        <ref name="cgrid_model.global"/>
+                     </zeroOrMore>
+                  </oneOrMore>
                   <group>
                      <oneOrMore>
-                        <choice>
-                           <ref name="cgrid_model.divLike"/>
-                           <ref name="cgrid_model.divGenLike"/>
-                        </choice>
-                        <zeroOrMore>
-                           <ref name="cgrid_model.global"/>
-                        </zeroOrMore>
-                     </oneOrMore>
-                  </group>
-                  <group>
-                     <oneOrMore>
-                        <group>
-                           <ref name="cgrid_model.common"/>
-                        </group>
+                        <ref name="cgrid_model.common"/>
                         <zeroOrMore>
                            <ref name="cgrid_model.global"/>
                         </zeroOrMore>
@@ -3255,9 +3231,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                   </group>
                </choice>
                <zeroOrMore>
-                  <group>
-                     <ref name="cgrid_model.divBottom"/>
-                  </group>
+                  <ref name="cgrid_model.divBottom"/>
                   <zeroOrMore>
                      <ref name="cgrid_model.global"/>
                   </zeroOrMore>
@@ -3265,7 +3239,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-div-jtei.sch-div-head-constraint-29">
+                  id="cgrid-div-jtei.sch-div-head-constraint-rule-29">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3280,7 +3254,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                     </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-div-jtei.sch-divtypes-front-constraint-30">
+                  id="cgrid-div-jtei.sch-divtypes-front-constraint-rule-30">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3296,7 +3270,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-div-jtei.sch-divtypes-front2-constraint-31">
+                  id="cgrid-div-jtei.sch-divtypes-front2-constraint-rule-31">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3312,7 +3286,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-div-jtei.sch-divtypes-back-constraint-32">
+                  id="cgrid-div-jtei.sch-divtypes-back-constraint-rule-32">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3328,7 +3302,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-div-jtei.sch-divtypes-body-constraint-33">
+                  id="cgrid-div-jtei.sch-divtypes-body-constraint-rule-33">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3380,16 +3354,14 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
       <element name="front">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(front matter) contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure]</a:documentation>
          <group>
-            <group>
-               <zeroOrMore>
-                  <choice>
-                     <ref name="cgrid_model.frontPart"/>
-                     <ref name="cgrid_model.pLike"/>
-                     <ref name="cgrid_model.pLike.front"/>
-                     <ref name="cgrid_model.global"/>
-                  </choice>
-               </zeroOrMore>
-            </group>
+            <zeroOrMore>
+               <choice>
+                  <ref name="cgrid_model.frontPart"/>
+                  <ref name="cgrid_model.pLike"/>
+                  <ref name="cgrid_model.pLike.front"/>
+                  <ref name="cgrid_model.global"/>
+               </choice>
+            </zeroOrMore>
             <optional>
                <choice>
                   <group>
@@ -3413,23 +3385,19 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                      </zeroOrMore>
                   </group>
                </choice>
-               <group>
-                  <optional>
-                     <group>
+               <optional>
+                  <ref name="cgrid_model.divBottom"/>
+                  <zeroOrMore>
+                     <choice>
                         <ref name="cgrid_model.divBottom"/>
-                     </group>
-                     <zeroOrMore>
-                        <choice>
-                           <ref name="cgrid_model.divBottom"/>
-                           <ref name="cgrid_model.global"/>
-                        </choice>
-                     </zeroOrMore>
-                  </optional>
-               </group>
+                        <ref name="cgrid_model.global"/>
+                     </choice>
+                  </zeroOrMore>
+               </optional>
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-front-jtei.sch-front-abstract-constraint-34">
+                  id="cgrid-front-jtei.sch-front-abstract-constraint-rule-34">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3461,52 +3429,42 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                   <ref name="cgrid_model.global"/>
                </choice>
             </zeroOrMore>
-            <group>
-               <optional>
-                  <choice>
-                     <group>
-                        <group>
-                           <ref name="cgrid_model.div1Like"/>
-                        </group>
-                        <zeroOrMore>
-                           <choice>
-                              <ref name="cgrid_model.frontPart"/>
-                              <ref name="cgrid_model.div1Like"/>
-                              <ref name="cgrid_model.global"/>
-                           </choice>
-                        </zeroOrMore>
-                     </group>
-                     <group>
-                        <group>
-                           <ref name="cgrid_model.divLike"/>
-                        </group>
-                        <zeroOrMore>
-                           <choice>
-                              <ref name="cgrid_model.frontPart"/>
-                              <ref name="cgrid_model.divLike"/>
-                              <ref name="cgrid_model.global"/>
-                           </choice>
-                        </zeroOrMore>
-                     </group>
-                  </choice>
-               </optional>
-            </group>
-            <group>
-               <optional>
+            <optional>
+               <choice>
                   <group>
-                     <ref name="cgrid_model.divBottomPart"/>
+                     <ref name="cgrid_model.div1Like"/>
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="cgrid_model.frontPart"/>
+                           <ref name="cgrid_model.div1Like"/>
+                           <ref name="cgrid_model.global"/>
+                        </choice>
+                     </zeroOrMore>
                   </group>
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="cgrid_model.divBottomPart"/>
-                        <ref name="cgrid_model.global"/>
-                     </choice>
-                  </zeroOrMore>
-               </optional>
-            </group>
+                  <group>
+                     <ref name="cgrid_model.divLike"/>
+                     <zeroOrMore>
+                        <choice>
+                           <ref name="cgrid_model.frontPart"/>
+                           <ref name="cgrid_model.divLike"/>
+                           <ref name="cgrid_model.global"/>
+                        </choice>
+                     </zeroOrMore>
+                  </group>
+               </choice>
+            </optional>
+            <optional>
+               <ref name="cgrid_model.divBottomPart"/>
+               <zeroOrMore>
+                  <choice>
+                     <ref name="cgrid_model.divBottomPart"/>
+                     <ref name="cgrid_model.global"/>
+                  </choice>
+               </zeroOrMore>
+            </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cgrid-back-jtei.sch-back-constraint-35">
+                  id="cgrid-back-jtei.sch-back-constraint-rule-35">
             <sch:rule xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -3660,6 +3618,12 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                </choice>
             </attribute>
          </optional>
+         <optional>
+            <attribute name="n">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <ref name="cgrid_data.count"/>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -3669,7 +3633,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
       </choice>
    </start>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.ellipsis-constraint-36">
+            id="cgrid-cgrid.ellipsis-constraint-rule-36">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3684,7 +3648,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.urls-constraint-37">
+            id="cgrid-cgrid.urls-constraint-rule-37">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3699,7 +3663,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-before-digit-constraint-38">
+            id="cgrid-cgrid.thin-space-before-digit-constraint-rule-38">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3715,7 +3679,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-after-digit-constraint-39">
+            id="cgrid-cgrid.thin-space-after-digit-constraint-rule-39">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3731,7 +3695,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern> 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-cgrid.thin-space-within-abbr-constraint-40">
+            id="cgrid-cgrid.thin-space-within-abbr-constraint-rule-40">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3774,7 +3738,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                     <sch:let name="quotes" value="concat('[', $apos.straight, '&#34;]')"/>
                  </sch:pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-straightApos-constraint-41">
+            id="cgrid-jtei.sch-straightApos-constraint-rule-41">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3792,7 +3756,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-LRquotes-constraint-42">
+            id="cgrid-jtei.sch-LRquotes-constraint-rule-42">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3807,7 +3771,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-quotationMarks-constraint-43">
+            id="cgrid-jtei.sch-quotationMarks-constraint-rule-43">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3822,7 +3786,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-doubleHyphens-constraint-44">
+            id="cgrid-jtei.sch-doubleHyphens-constraint-rule-44">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3838,7 +3802,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-rangeHyphen-constraint-45">
+            id="cgrid-jtei.sch-rangeHyphen-constraint-rule-45">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3854,7 +3818,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-ieEg-constraint-46">
+            id="cgrid-jtei.sch-ieEg-constraint-rule-46">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3869,7 +3833,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-localLinkTarget-constraint-47">
+            id="cgrid-jtei.sch-localLinkTarget-constraint-rule-47">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3884,7 +3848,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-quoteDelim-constraint-48">
+            id="cgrid-jtei.sch-quoteDelim-constraint-rule-48">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3899,7 +3863,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossref-id-constraint-49">
+            id="cgrid-jtei.sch-crossref-id-constraint-rule-49">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3916,7 +3880,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-formalCrossref-constraint-50">
+            id="cgrid-jtei.sch-formalCrossref-constraint-rule-50">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3933,7 +3897,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossrefTargetType-constraint-51">
+            id="cgrid-jtei.sch-crossrefTargetType-constraint-rule-51">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3948,7 +3912,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-crossrefType-constraint-52">
+            id="cgrid-jtei.sch-crossrefType-constraint-rule-52">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3963,7 +3927,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-centuries-constraint-53">
+            id="cgrid-jtei.sch-centuries-constraint-rule-53">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -3978,7 +3942,7 @@ Sample values include: 1] TEI(text encoding initiative) ; 2] DBK(docbook) ; 3] X
                  </sch:rule>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="cgrid-jtei.sch-teiVersion-constraint-54">
+            id="cgrid-jtei.sch-teiVersion-constraint-rule-54">
       <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
