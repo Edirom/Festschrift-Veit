@@ -73,6 +73,7 @@
          </div>
       </front>
       <body>
+         <pb n="437"/>
          <div xml:id="reinhardkeil-div01">
             <head>Einführung</head>
             <p>Im Bereich der Digital Humanities werden vielfältige Informatikprodukte betrachtet, die von einfachen <quote source="#reinhardkeil-ftn72">inhaltsneutralen technischen Werkzeugen</quote><ref target="#dhd2014" type="bibl" xml:id="reinhardkeil-ftn72"/> <!--(DHd 2014)--> über Datenbanken und Informationssysteme sowie virtuelle Infrastrukturen bis hin zu komplexen analytischen Algorithmen reichen. Letztere werden in der Informatik zunehmend unter dem Begriff <q>Data Science</q> zusammengefasst. Der Begriff der Inhaltsneutralität dient dazu, die bloße Umsetzung von Anforderungen von der interdisziplinären Erforschung von technischen Lösungsansätzen zu unterscheiden. Ersteres erfordert Technikkompetenz, letzteres jedoch Forschungskompetenz. </p>

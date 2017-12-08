@@ -134,6 +134,7 @@
          <div type="abstract" xml:id="grotjahn-abstract"><p>Bachs Choralkantate <hi rend="italic">Wer nur den lieben Gott lässt walten</hi> BWV 93 kann als musikalischer Beitrag zum frühen Autorschaftsdiskurs gelesen werden. Bereits die Vorlage, das gleichnamige Lied von Georg Neumark, verweist in einem für die Zeit ungewöhnlichen Maße auf die Person des Autors. Mit der textausdeutenden Vertonung der sechsten Liedstrophe setzt Bach nicht nur den &#x2013; vom Kantatenlibrettisten stammenden &#x2013; Aspekt des <q>nach seinem Willen</q> schaffenden <q>Wundersmannes</q> um. Vielmehr inszeniert er sich damit selbst als genialer Autor, der mit dem aus der Choralvorlage übernommenen musikalischen Material nach seinem eigenen Willen verfährt und so allerhöchste Kunst schafft.</p></div>
       </front>
       <body>
+         <pb n="299"/>
          <div type="motto" xml:id="grotjahn-motto" rendition="#latex-grotjahn-motto-indent">
             <p>Daß Gott den Jubilar zu seiner Zeit
                <lb/>versorgen und erhalten will.<note xml:id="grotjahn-ftn1" n="1">Frei nach dem Motto zum Erstdruck des Liedes <q>Wer nur den lieben Gott lässt walten</q> von <name ref="#grotjahn-pers024">Georg Neumark</name> (siehe Fußnote&#x00A0;<ref target="#grotjahn-ftn19" type="crossref" rend="no"/><!--19-->).</note>

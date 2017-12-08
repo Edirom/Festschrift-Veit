@@ -63,6 +63,7 @@
           </div>
       </front>
       <body>
+          <pb n="509"/>
          <div xml:id="zenmem01">
              <head>Einleitung</head>
              <p>Neben vielen geistes- und kulturwissenschaftlichen Themen, die bereits seit über vierzig Jahren in den Digital Humanities Gegenstand der Forschung sind, nutzt die Musikwissenschaft und hierin der spezifische Teil der Musikedition noch seit vergleichbar kurzer Zeit digitale Methoden und Techniken für Forschungsvorhaben und deren Umsetzung im digitalen Raum.<note xml:id="zenmem-ftn1" n="1">Für eine kurze Einführung zum Thema Digitale Musikedition vgl. <ref type="bibl" target="#Veit2005"/>; für eine ausführliche Diskussion der Thematik Musikedition vgl. <ref type="bibl" target="#Kepper2011-zenmem"/></note></p>

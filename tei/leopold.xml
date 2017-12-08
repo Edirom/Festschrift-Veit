@@ -246,6 +246,7 @@
          <div type="abstract" xml:id="leopold-abstract"/>
       </front>
       <body>
+         <pb n="523"/>
          <div xml:id="leopold-div01" type="motto" rendition="#latex-leopold-motto-indent">
 <!--               <floatingText xml:id="leopold-float01" rend="twocolumns">-->
 <!--                  <body>-->
